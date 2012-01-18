@@ -1,0 +1,27 @@
+PCBNEW-LibDoc----V1  Sun 15 Jan 2012 12:06:29 AM EST
+#
+$MODULE TO220
+Li TO220
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
+$MODULE TO220-H
+Li TO220-H
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
+$MODULE TO220-GDS_VERT
+Li TO220-GDS_VERT
+Cd TO220 GDS Vertical
+Kw TO220
+$EndMODULE
+#
+$MODULE WireConnection
+Li WireConnection
+Cd module 1 pin
+Kw DEV
+$EndMODULE
+#
+$EndLIBDOC
