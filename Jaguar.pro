@@ -1,5 +1,5 @@
-update=Wed 18 Jan 2012 11:58:13 PM EST
-last_client=cvpcb
+update=Thu 19 Jan 2012 12:41:50 AM EST
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=1200
@@ -46,6 +46,13 @@ LibName20=w_pth_diodes
 LibName21=free_EMS
 LibName22=w_smd_lqfp
 LibDir=
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -79,7 +86,7 @@ RptLab=1
 SimCmd=
 UseNetN=0
 LabSize=40
-PrintMonochrome=1
+PrintMonochrome=0
 ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
@@ -101,10 +108,3 @@ LibName16=lm2937et
 LibName17=usb_b
 LibName18=freeEMS_lib
 LibName19=mpx4100a
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
