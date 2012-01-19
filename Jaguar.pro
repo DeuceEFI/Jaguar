@@ -1,5 +1,5 @@
-update=1/18/2012 3:02:13 PM
-last_client=kicad
+update=Wed 18 Jan 2012 11:58:13 PM EST
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=1200
@@ -37,23 +37,15 @@ LibName11=HC-49S
 LibName12=w_smd_lqfp
 LibName13=w_conn_pc
 LibName14=MADW__HC49U-S
-LibName15=w_smd_cap
-LibName16=w_smd_diode
-LibName17=w_smd_leds
-LibName18=MPX5700
-LibName19=w_smd_dil
-LibName20=TO220-H
-LibName21=w_pth_resistors
-LibName22=w_capacitors
-LibName23=w_pth_diodes
-LibName24=free_EMS
-LibName25=w_smd_lqfp
+LibName15=MPX5700
+LibName16=w_smd_dil
+LibName17=TO220-H
+LibName18=w_pth_resistors
+LibName19=w_capacitors
+LibName20=w_pth_diodes
+LibName21=free_EMS
+LibName22=w_smd_lqfp
 LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -84,7 +76,11 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
+SimCmd=
+UseNetN=0
 LabSize=40
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -107,3 +103,8 @@ LibName18=freeEMS_lib
 LibName19=mpx4100a
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
