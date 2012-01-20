@@ -1,4 +1,4 @@
-update=Thu 19 Jan 2012 12:41:50 AM EST
+update=Fri 20 Jan 2012 02:32:31 PM EST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -45,6 +45,8 @@ LibName19=w_capacitors
 LibName20=w_pth_diodes
 LibName21=free_EMS
 LibName22=w_smd_lqfp
+LibName23=cap-master
+LibName24=ref-packages
 LibDir=
 [general]
 version=1

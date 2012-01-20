@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 19 Jan 2012 12:17:41 AM EST
+EESchema Schematic File Version 2  date Fri 20 Jan 2012 02:23:37 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title ""
-Date "19 jan 2012"
+Date "20 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -32,63 +32,76 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 1750 2800
+Text Label 3450 2650 0    40   ~ 0
+Ground
+Text Label 3450 3750 0    40   ~ 0
+Ground
 Wire Wire Line
-	1750 3350 1750 2250
+	1750 2800 1900 2800
+Connection ~ 5050 3750
+Connection ~ 5050 3350
+Connection ~ 5050 2650
+Connection ~ 5050 2250
+Connection ~ 1750 2250
+Connection ~ 3450 2650
 Wire Wire Line
-	5350 3750 2350 3750
-Connection ~ 3450 3750
+	3450 2550 3450 2650
+Connection ~ 4550 3750
+Connection ~ 4550 3350
+Connection ~ 4100 3750
+Connection ~ 4100 3350
+Connection ~ 3850 3350
+Connection ~ 3450 3650
+Connection ~ 2350 3750
+Connection ~ 2800 3750
+Connection ~ 3050 3350
+Connection ~ 2800 3350
+Connection ~ 2350 3350
+Connection ~ 1750 3350
+Connection ~ 2350 2650
+Connection ~ 2800 2650
+Connection ~ 3450 2550
+Connection ~ 4100 2650
+Connection ~ 4550 2650
+Connection ~ 4550 2250
+Connection ~ 4100 2250
+Connection ~ 3850 2250
+Connection ~ 3050 2250
+Connection ~ 2800 2250
+Connection ~ 2350 2250
 Wire Wire Line
-	3450 3650 3450 3750
-Wire Wire Line
-	1750 3350 3050 3350
-Wire Wire Line
-	2350 2650 5350 2650
-Wire Wire Line
-	1750 2250 3050 2250
+	3850 3350 5350 3350
 Wire Wire Line
 	3850 2250 5350 2250
 Wire Wire Line
-	3850 3350 5350 3350
-Connection ~ 2350 2250
-Connection ~ 2800 2250
-Connection ~ 3050 2250
-Connection ~ 3850 2250
-Connection ~ 4100 2250
-Connection ~ 4550 2250
-Connection ~ 4550 2650
-Connection ~ 4100 2650
-Connection ~ 3450 2550
-Connection ~ 2800 2650
-Connection ~ 2350 2650
-Connection ~ 1750 3350
-Connection ~ 2350 3350
-Connection ~ 2800 3350
-Connection ~ 3050 3350
-Connection ~ 2800 3750
-Connection ~ 2350 3750
-Connection ~ 3450 3650
-Connection ~ 3850 3350
-Connection ~ 4100 3350
-Connection ~ 4100 3750
-Connection ~ 4550 3350
-Connection ~ 4550 3750
+	1750 2250 3050 2250
 Wire Wire Line
-	3450 2550 3450 2650
-Connection ~ 3450 2650
-Connection ~ 1750 2250
-Connection ~ 5050 2250
-Connection ~ 5050 2650
-Connection ~ 5050 3350
-Connection ~ 5050 3750
-Text HLabel 1750 2800 2    40   Output ~ 0
+	2350 2650 5350 2650
+Wire Wire Line
+	1750 3350 3050 3350
+Wire Wire Line
+	3450 3650 3450 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	5350 3750 2350 3750
+Text HLabel 1750 2800 0    40   Input ~ 0
+12v-switch3
+Text HLabel 1750 3350 0    40   Input ~ 0
+12v-switch2
+Text Notes 2350 4350 0    40   ~ 0
+Polarized capacitors are Tantalum, Non-Polarised capacitors are X7R Ceramic.
+Text Notes 5200 3550 0    40   ~ 0
+5.6v/3w
+Text Notes 5200 2450 0    40   ~ 0
+5.6v/3w
+Text HLabel 1900 2800 2    40   Output ~ 0
 12vdc-sw
 $Comp
 L ZENER D3
 U 1 1 4F17992C
 P 5050 3550
 F 0 "D3" H 5050 3650 50  0000 C CNN
-F 1 "1N4734ATR" H 5050 3450 40  0000 C CNN
+F 1 "1N5919BG" H 5050 3450 40  0000 C CNN
 	1    5050 3550
 	0    -1   -1   0   
 $EndComp
@@ -97,12 +110,10 @@ L ZENER D2
 U 1 1 4F179910
 P 5050 2450
 F 0 "D2" H 5050 2550 50  0000 C CNN
-F 1 "1N4734ATR" H 5050 2350 40  0000 C CNN
+F 1 "1N5919BG" H 5050 2350 40  0000 C CNN
 	1    5050 2450
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1750 3350 0    40   Input ~ 0
-12v-switch
 Text HLabel 1750 2250 0    40   Input ~ 0
 12v-switch
 Text HLabel 5350 3750 2    40   Output ~ 0
@@ -152,18 +163,18 @@ F 1 "22uF" H 4600 3450 50  0000 L CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 3350 2    40   Output ~ 0
+Text HLabel 5350 2250 2    40   Output ~ 0
 5vdc-switched
 Text HLabel 5350 2650 2    40   Output ~ 0
 GND
-Text HLabel 5350 2250 2    40   Output ~ 0
-5vdc
+Text HLabel 5350 3350 2    40   Output ~ 0
+5vdc-micro
 $Comp
 L CP1 C18
 U 1 1 4F0A51B7
 P 4550 2450
 F 0 "C18" H 4600 2550 50  0000 L CNN
-F 1 "22uF" H 4600 2350 50  0000 L CNN
+F 1 "47uF" H 4600 2350 50  0000 L CNN
 	1    4550 2450
 	1    0    0    -1  
 $EndComp
