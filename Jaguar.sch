@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 20 Jan 2012 02:23:37 PM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title ""
-Date "20 jan 2012"
+Date "22 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -32,14 +32,31 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5200 1800 0    40   Input ~ 0
+Connection ~ 2950 1500
+Connection ~ 2850 1500
+Wire Wire Line
+	3000 1500 2550 1500
+Connection ~ 8450 1900
+Connection ~ 2650 1500
+Connection ~ 2750 1500
+Wire Wire Line
+	8450 2000 8450 1900
+Connection ~ 8450 2000
+Text GLabel 1500 2100 0    40   Input ~ 0
+5vdc-switch
+Text GLabel 9050 2800 0    40   Input ~ 0
+Injector-Ground
+Text GLabel 9050 1600 0    40   Input ~ 0
+Injector-Ground
+Text GLabel 8450 1900 2    40   Output ~ 0
+Injector-Ground
+Text GLabel 5200 850  0    40   Input ~ 0
+5vdc-switch
+NoConn ~ 5200 2200
+Text GLabel 5200 1050 0    40   Input ~ 0
 ToCPU14
 Text GLabel 2850 2700 2    40   Output ~ 0
 ToCPU14
-NoConn ~ 1500 2300
-NoConn ~ 1500 2800
-Text GLabel 1500 2100 0    40   Input ~ 0
-5vdc-cpu
 NoConn ~ 9050 1100
 $Comp
 L CONN_3 P21
@@ -78,10 +95,10 @@ F 1 "12v-SW2" H 1350 955 30  0001 C CNN
 	1    1350 900 
 	-1   0    0    1   
 $EndComp
-Text GLabel 5200 1650 0    40   Input ~ 0
+Text GLabel 5200 1800 0    40   Input ~ 0
 BRV
 NoConn ~ 5200 2300
-Text GLabel 5200 1150 0    40   Input ~ 0
+Text GLabel 5200 1350 0    40   Input ~ 0
 CAM
 Text GLabel 2850 3750 2    40   Output ~ 0
 CAM
@@ -101,32 +118,28 @@ Text GLabel 9050 1500 0    40   Input ~ 0
 $Comp
 L CONN_1 P22
 U 1 1 4F125936
-P 8900 1600
-F 0 "P22" H 8980 1600 40  0000 L CNN
-F 1 "INJ-GND" H 8900 1655 30  0001 C CNN
-	1    8900 1600
+P 8300 1900
+F 0 "P22" H 8380 1900 40  0000 L CNN
+F 1 "INJ-GND" H 8300 1955 30  0001 C CNN
+	1    8300 1900
 	-1   0    0    1   
 $EndComp
-Connection ~ 2750 1500
-Wire Wire Line
-	2800 1500 2550 1500
-Connection ~ 2650 1500
 $Comp
 L CONN_1 P17
 U 1 1 4F124A8E
-P 2750 1650
-F 0 "P17" H 2830 1650 40  0000 L CNN
-F 1 "GND2" H 2750 1705 30  0001 C CNN
-	1    2750 1650
+P 2950 1650
+F 0 "P17" H 3030 1650 40  0000 L CNN
+F 1 "GND2" H 2950 1705 30  0001 C CNN
+	1    2950 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L CONN_1 P16
 U 1 1 4F1248F4
-P 2650 1650
-F 0 "P16" H 2730 1650 40  0000 L CNN
-F 1 "GND" H 2650 1705 30  0001 C CNN
-	1    2650 1650
+P 2850 1650
+F 0 "P16" H 2930 1650 40  0000 L CNN
+F 1 "GND" H 2850 1705 30  0001 C CNN
+	1    2850 1650
 	0    1    1    0   
 $EndComp
 Text GLabel 9050 2550 0    40   Input ~ 0
@@ -145,14 +158,12 @@ $EndComp
 $Comp
 L CONN_1 P24
 U 1 1 4F0D845D
-P 10800 2700
-F 0 "P24" H 10880 2700 40  0000 L CNN
-F 1 "FUEL+" H 10800 2755 30  0001 C CNN
-	1    10800 2700
-	1    0    0    -1  
+P 8300 2000
+F 0 "P24" H 8380 2000 40  0000 L CNN
+F 1 "RELAY-GND" H 8300 2055 30  0001 C CNN
+	1    8300 2000
+	-1   0    0    1   
 $EndComp
-Text GLabel 9050 2800 0    40   Input ~ 0
-Ground
 $Sheet
 S 9050 2150 1600 750 
 U 4F0D82A1
@@ -160,9 +171,8 @@ F0 "Outputs" 40
 F1 "Outputs.sch" 40
 F2 "GND" I L 9050 2800 40 
 F3 "Relay_Negative" O R 10650 2800 40 
-F4 "Relay_Positive" O R 10650 2700 40 
-F5 "12vdc-switched-relay" I L 9050 2250 40 
-F6 "PA7" I L 9050 2550 40 
+F4 "12vdc-switched-relay" I L 9050 2250 40 
+F5 "PA7" I L 9050 2550 40 
 $EndSheet
 $Comp
 L CONN_6 P26
@@ -216,11 +226,11 @@ $EndComp
 $Comp
 L CONN_1 P5
 U 1 1 4F0C7391
-P 1350 2300
-F 0 "P5" H 1430 2300 40  0000 L CNN
-F 1 "NC" H 1350 2355 30  0001 C CNN
-	1    1350 2300
-	-1   0    0    1   
+P 2650 1650
+F 0 "P5" H 2730 1650 40  0000 L CNN
+F 1 "Ground" H 2650 1705 30  0001 C CNN
+	1    2650 1650
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_1 P14
@@ -270,11 +280,11 @@ $EndComp
 $Comp
 L CONN_1 P9
 U 1 1 4F0BB54E
-P 1350 2800
-F 0 "P9" H 1430 2800 40  0000 L CNN
-F 1 "NC2" H 1350 2855 30  0001 C CNN
-	1    1350 2800
-	-1   0    0    1   
+P 2750 1650
+F 0 "P9" H 2830 1650 40  0000 L CNN
+F 1 "Ground" H 2750 1705 30  0001 C CNN
+	1    2750 1650
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_1 P8
@@ -325,23 +335,23 @@ Text GLabel 2850 3650 2    40   Output ~ 0
 TACH
 Text GLabel 1500 3550 0    40   Input ~ 0
 Timing-Advance
-Text GLabel 5200 2100 0    40   Input ~ 0
+Text GLabel 5200 2000 0    40   Input ~ 0
 O2
 Text GLabel 2850 3150 2    40   Output ~ 0
 O2
-Text GLabel 5200 2000 0    40   Input ~ 0
+Text GLabel 5200 1900 0    40   Input ~ 0
 TPS
 Text GLabel 2850 2850 2    40   Output ~ 0
 TPS
-Text GLabel 5200 1450 0    40   Input ~ 0
+Text GLabel 5200 1600 0    40   Input ~ 0
 COOLANT
 Text GLabel 2850 2550 2    40   Output ~ 0
 COOLANT
-Text GLabel 5200 2200 0    40   Input ~ 0
+Text GLabel 5200 2100 0    40   Input ~ 0
 MAT
 Text GLabel 2850 2450 2    40   Output ~ 0
 MAT
-Text GLabel 5200 1350 0    40   Input ~ 0
+Text GLabel 5200 1500 0    40   Input ~ 0
 IAT
 Text GLabel 2850 2350 2    40   Output ~ 0
 IAT
@@ -387,16 +397,15 @@ F27 "CPU14" O R 2850 2700 40
 $EndSheet
 Text GLabel 6900 1500 2    40   Output ~ 0
 Timing-Advance
-Text GLabel 5200 1050 0    40   Input ~ 0
+Text GLabel 5200 1250 0    40   Input ~ 0
 TACH
-Text GLabel 5200 1550 0    40   Input ~ 0
+Text GLabel 5200 1700 0    40   Input ~ 0
 MAP
-NoConn ~ 5200 2400
 Text GLabel 5200 750  0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 5200 850  0    40   Input ~ 0
+Text GLabel 5200 950  0    40   Input ~ 0
 Ground
-Text GLabel 2800 1500 2    40   Output ~ 0
+Text GLabel 3000 1500 2    40   Output ~ 0
 Ground
 Text GLabel 2550 1200 2    40   Output ~ 0
 5vdc-cpu
@@ -426,24 +435,25 @@ U 4F0A2F06
 F0 "CPU" 40
 F1 "cpu.sch" 40
 F2 "5vdc" I L 5200 750 40 
-F3 "GND" O L 5200 850 40 
+F3 "GND" O L 5200 950 40 
 F4 "Fuel-Pump-Drive" O R 6900 1700 40 
 F5 "Injector4-Drive" O R 6900 1100 40 
 F6 "Injector3-Drive" O R 6900 1000 40 
 F7 "Injector2-Drive" O R 6900 900 40 
 F8 "Injector1-Drive" O R 6900 800 40 
 F9 "DIS-Advance-Signal" O R 6900 1500 40 
-F10 "Tach-Signal" I L 5200 1050 40 
-F11 "MAF-Signal" I L 5200 2400 40 
-F12 "MAT-Signal" I L 5200 2200 40 
-F13 "BRV-Signal" I L 5200 1650 40 
-F14 "MAP-Signal" I L 5200 1550 40 
-F15 "O2-Signal" I L 5200 2100 40 
-F16 "TPS-Signal" I L 5200 2000 40 
-F17 "Coolant-Signal" I L 5200 1450 40 
-F18 "IAT-Signal" I L 5200 1350 40 
-F19 "AAP-Signal" I L 5200 2300 40 
-F20 "Cam-Position" I L 5200 1150 40 
-F21 "FromU4" I L 5200 1800 40 
+F10 "Tach-Signal" I L 5200 1250 40 
+F11 "MAF-Signal" I L 5200 2300 40 
+F12 "MAT-Signal" I L 5200 2100 40 
+F13 "BRV-Signal" I L 5200 1800 40 
+F14 "MAP-Signal" I L 5200 1700 40 
+F15 "O2-Signal" I L 5200 2000 40 
+F16 "TPS-Signal" I L 5200 1900 40 
+F17 "Coolant-Signal" I L 5200 1600 40 
+F18 "IAT-Signal" I L 5200 1500 40 
+F19 "AAP-Signal" I L 5200 2200 40 
+F20 "Cam-Position" I L 5200 1350 40 
+F21 "FromU4" I L 5200 1050 40 
+F22 "5vdc-analog" I L 5200 850 40 
 $EndSheet
 $EndSCHEMATC

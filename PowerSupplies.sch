@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 20 Jan 2012 02:23:37 PM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title ""
-Date "20 jan 2012"
+Date "22 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
