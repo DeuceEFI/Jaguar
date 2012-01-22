@@ -12,17 +12,16 @@ Please see forum.diyefi.org for the most up to date information and links for th
 
 Core IO specs:
 
-    * 1 FTDI USB (bus powered) communications (USB-B connector).
-    * 2 RPM/Position inputs (Crankshaft 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
-    * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
-    * 1 Optional MAF analog input (for future use).
-    * 1 ignition advance output to DIS/HEI module.
-    * 6 injector drives (HI-Z ONLY). Currently setup to run 2 injectors from one CPU output Port.
-    * 5 Ground connections (ECU GND, INJ GND, IGN GND, TPS GND and Analog Input GND).
-    * 3 "12V" connections (All are +12V SWITCHED).
-    * 1 Fuel Pump relay drive.
-    * 1 switched +5V output for TPS.
-    
+ * 1 FTDI USB (bus powered) communications (USB-B connector).
+ * 2 RPM/Position inputs (Crankshaft 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
+ * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
+ * 1 Optional MAF analog input (for future use).
+ * 1 ignition advance output to DIS/HEI module.
+ * 6 injector drives (HI-Z ONLY). Currently setup to run 2 injectors from one CPU output Port.
+ * 5 Ground connections (ECU GND, INJ GND, IGN GND, TPS GND and Analog Input GND).
+ * 3 "12V" connections (All are +12V SWITCHED).
+ * 1 Fuel Pump relay drive.
+ * 1 switched +5V output for TPS.
 
 PCB Size is to be as small as possible, due to the limited room in the car it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary. 
 
