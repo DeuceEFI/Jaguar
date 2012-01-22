@@ -1,4 +1,6 @@
-To Do List  01/20/2012 1433 EST (GMT-0500)
+# To Do List
+
+01/20/2012 1433 EST (GMT-0500)
 
 1.  Have others at forum.diyefi.org check the schematics and component choices.
 1.  Double check to make sure everything is correct in the schematics.
