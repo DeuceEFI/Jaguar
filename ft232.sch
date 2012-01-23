@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 07:28:42 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -23,29 +23,29 @@ EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
-Title ""
-Date "22 jan 2012"
-Rev ""
-Comp ""
+Title "Jaguar PCB for FreeEMS"
+Date "23 jan 2012"
+Rev "A.1"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VDD #PWR59
+L VDD #PWR055
 U 1 1 4F1C4720
 P 10850 2850
-F 0 "#PWR59" H 10850 2950 30  0001 C CNN
+F 0 "#PWR055" H 10850 2950 30  0001 C CNN
 F 1 "VDD" H 10850 2960 30  0000 C CNN
 	1    10850 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR57
+L VDD #PWR056
 U 1 1 4F1C4712
 P 9350 1700
-F 0 "#PWR57" H 9350 1800 30  0001 C CNN
+F 0 "#PWR056" H 9350 1800 30  0001 C CNN
 F 1 "VDD" H 9350 1810 30  0000 C CNN
 	1    9350 1700
 	1    0    0    -1  
@@ -170,10 +170,10 @@ Wire Wire Line
 Connection ~ 7850 3250
 Connection ~ 7250 3250
 $Comp
-L GND #PWR58
+L GND #PWR057
 U 1 1 4F1C30B1
 P 9350 2600
-F 0 "#PWR58" H 9350 2600 30  0001 C CNN
+F 0 "#PWR057" H 9350 2600 30  0001 C CNN
 F 1 "GND" H 9350 2530 30  0001 C CNN
 	1    9350 2600
 	1    0    0    -1  

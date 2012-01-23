@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 07:28:42 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -22,82 +22,83 @@ LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 7
-Title ""
-Date "22 jan 2012"
-Rev ""
-Comp ""
+Sheet 5 7
+Title "Jaguar PCB for FreeEMS"
+Date "23 jan 2012"
+Rev "A.1"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1750 2850
 Wire Wire Line
-	1750 4350 1900 4350
-Connection ~ 5050 3750
-Connection ~ 5050 3350
-Connection ~ 5050 2650
-Connection ~ 5050 2250
-Connection ~ 1750 2250
-Connection ~ 3450 2650
+	1750 3350 1750 2250
 Wire Wire Line
-	3450 2550 3450 2650
-Connection ~ 4550 3750
-Connection ~ 4550 3350
-Connection ~ 4100 3750
-Connection ~ 4100 3350
-Connection ~ 3850 3350
-Connection ~ 3450 3650
-Connection ~ 2350 3750
-Connection ~ 2800 3750
-Connection ~ 3050 3350
-Connection ~ 2800 3350
-Connection ~ 2350 3350
-Connection ~ 1750 3350
-Connection ~ 2350 2650
-Connection ~ 2800 2650
-Connection ~ 3450 2550
-Connection ~ 4100 2650
-Connection ~ 4550 2650
-Connection ~ 4550 2250
-Connection ~ 4100 2250
-Connection ~ 3850 2250
-Connection ~ 3050 2250
-Connection ~ 2800 2250
-Connection ~ 2350 2250
+	5050 3850 5050 3750
 Wire Wire Line
-	3850 3350 5350 3350
+	5050 2750 5050 2650
 Wire Wire Line
-	3850 2250 5350 2250
+	5050 3750 2350 3750
+Connection ~ 3450 3750
 Wire Wire Line
-	1750 2250 3050 2250
-Wire Wire Line
-	2350 2650 5050 2650
+	3450 3650 3450 3750
 Wire Wire Line
 	1750 3350 3050 3350
 Wire Wire Line
-	3450 3650 3450 3750
-Connection ~ 3450 3750
+	5050 2650 2350 2650
 Wire Wire Line
-	2350 3750 5050 3750
+	1750 2250 3050 2250
 Wire Wire Line
-	5050 2650 5050 2750
+	3850 2250 5350 2250
 Wire Wire Line
-	5050 3750 5050 3850
+	3850 3350 5350 3350
+Connection ~ 2350 2250
+Connection ~ 2800 2250
+Connection ~ 3050 2250
+Connection ~ 3850 2250
+Connection ~ 4100 2250
+Connection ~ 4550 2250
+Connection ~ 4550 2650
+Connection ~ 4100 2650
+Connection ~ 3450 2550
+Connection ~ 2800 2650
+Connection ~ 2350 2650
+Connection ~ 2350 3350
+Connection ~ 2800 3350
+Connection ~ 3050 3350
+Connection ~ 2800 3750
+Connection ~ 2350 3750
+Connection ~ 3450 3650
+Connection ~ 3850 3350
+Connection ~ 4100 3350
+Connection ~ 4100 3750
+Connection ~ 4550 3350
+Connection ~ 4550 3750
+Wire Wire Line
+	3450 2550 3450 2650
+Connection ~ 3450 2650
+Connection ~ 5050 2250
+Connection ~ 5050 2650
+Connection ~ 5050 3350
+Connection ~ 5050 3750
+Text HLabel 1750 2850 0    40   Input ~ 0
+12v-switch
 $Comp
-L GND #PWR24
+L GND #PWR031
 U 1 1 4F1C2CDE
 P 5050 3850
-F 0 "#PWR24" H 5050 3850 30  0001 C CNN
+F 0 "#PWR031" H 5050 3850 30  0001 C CNN
 F 1 "GND" H 5050 3780 30  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L GND #PWR032
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR23" H 5050 2750 30  0001 C CNN
+F 0 "#PWR032" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  
@@ -106,18 +107,12 @@ Text Label 3450 2650 0    40   ~ 0
 Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
-Text HLabel 1750 4350 0    40   Input ~ 0
-12v-switch3
-Text HLabel 1750 3350 0    40   Input ~ 0
-12v-switch2
-Text Notes 2400 4850 0    40   ~ 0
+Text Notes 2350 3000 0    40   ~ 0
 Polarized capacitors are Tantalum, Non-Polarised capacitors are X7R Ceramic.
 Text Notes 5200 3550 0    40   ~ 0
 5.6v/3w
 Text Notes 5200 2450 0    40   ~ 0
 5.6v/3w
-Text HLabel 1900 4350 2    40   Output ~ 0
-12vdc-sw
 $Comp
 L ZENER D3
 U 1 1 4F17992C
@@ -136,8 +131,6 @@ F 1 "1N5919BG" H 5050 2350 40  0000 C CNN
 	1    5050 2450
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1750 2250 0    40   Input ~ 0
-12v-switch
 $Comp
 L CP1 C13
 U 1 1 4F0A52BC

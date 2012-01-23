@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 07:28:42 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -22,52 +22,41 @@ LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 7
-Title "Outputs"
-Date "22 jan 2012"
-Rev "A"
-Comp "Jaguar Board for FreeEMS"
+Sheet 3 7
+Title "Jaguar PCB for FreeEMS"
+Date "23 jan 2012"
+Rev "A.1"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR56
-U 1 1 4F1C4528
-P 5450 4100
-F 0 "#PWR56" H 5450 4100 30  0001 C CNN
-F 1 "GND" H 5450 4030 30  0001 C CNN
-	1    5450 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5450 4100 5450 4000
+	5350 4000 6350 4000
+Connection ~ 4700 3500
+Connection ~ 5200 3500
+Connection ~ 5450 3500
+Connection ~ 5450 4000
 Wire Wire Line
-	6500 3300 6500 3100
-Wire Wire Line
-	6350 3300 6650 3300
-Connection ~ 6500 3300
-Connection ~ 6350 3300
-Connection ~ 6350 3700
-Connection ~ 6050 3500
-Connection ~ 5750 3500
-Connection ~ 5200 3100
-Connection ~ 4700 3100
-Connection ~ 5600 3100
-Connection ~ 6000 3100
-Wire Wire Line
-	6500 3100 6000 3100
+	6350 4000 6350 3700
 Wire Wire Line
 	5200 3500 6050 3500
 Wire Wire Line
-	6350 3700 6350 4000
-Connection ~ 5450 4000
-Connection ~ 5450 3500
-Connection ~ 5200 3500
-Connection ~ 4700 3500
+	6000 3100 6500 3100
+Connection ~ 6000 3100
+Connection ~ 5600 3100
+Connection ~ 4700 3100
+Connection ~ 5200 3100
+Connection ~ 5750 3500
+Connection ~ 6050 3500
+Connection ~ 6350 3700
+Connection ~ 6350 3300
+Connection ~ 6500 3300
 Wire Wire Line
-	6350 4000 5350 4000
+	6350 3300 6650 3300
+Wire Wire Line
+	6500 3100 6500 3300
 Text HLabel 5350 4000 0    40   Input ~ 0
 Output-Ground
 $Comp
@@ -120,7 +109,7 @@ $EndComp
 Text HLabel 4700 3500 0    40   Input ~ 0
 PA7
 Text HLabel 6650 3300 2    40   Output ~ 0
-Relay_Negative
+Fuel_Pump_Relay
 Text HLabel 4700 3100 0    40   Input ~ 0
 12vdc-switched-relay
 $Comp

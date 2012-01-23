@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jan 2012 06:00:28 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jan 2012 11:33:09 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3365;
@@ -547,6 +547,13 @@ IdModule  = conn_usb_B;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F1CBAE8;
+Reference = J2;
+ValeurCmp = TE-34;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/4F191312;
 Reference = JP1;
 ValeurCmp = JUMPER;
@@ -612,7 +619,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F189D7E;
 Reference = P3;
-ValeurCmp = 12v-SW3;
+ValeurCmp = GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -626,7 +633,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0C7391;
 Reference = P5;
-ValeurCmp = Ground;
+ValeurCmp = GND2;
 IdModule  = WireConnection;
 EndCmp
 
@@ -652,9 +659,9 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB54E;
+TimeStamp = /4F1CC8BD;
 Reference = P9;
-ValeurCmp = Ground;
+ValeurCmp = TPS-5v;
 IdModule  = WireConnection;
 EndCmp
 
@@ -689,28 +696,28 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB599;
 Reference = P14;
-ValeurCmp = CRANK-IN;
+ValeurCmp = CRANK+;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F186A57;
 Reference = P15;
-ValeurCmp = CAM-IN;
+ValeurCmp = CRANK-;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1248F4;
 Reference = P16;
-ValeurCmp = GND;
+ValeurCmp = CAM+;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F124A8E;
 Reference = P17;
-ValeurCmp = GND2;
+ValeurCmp = CAM-;
 IdModule  = WireConnection;
 EndCmp
 
@@ -750,16 +757,16 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A4A26;
+TimeStamp = /4F1CCB2B;
 Reference = P23;
-ValeurCmp = 12v-SW4;
+ValeurCmp = CRANK-GND;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D845D;
+TimeStamp = /4F1CCB30;
 Reference = P24;
-ValeurCmp = RELAY-GND;
+ValeurCmp = CAM-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -796,6 +803,20 @@ TimeStamp = /4F0BB08D/4F1101C7;
 Reference = P30;
 ValeurCmp = .;
 IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F1CD3BD;
+Reference = P31;
+ValeurCmp = OUT-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F1CD4E4;
+Reference = P32;
+ValeurCmp = OUT-12v;
+IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
