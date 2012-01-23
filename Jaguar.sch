@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 07:28:42 AM EST
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 01:49:16 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,38 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	1650 4350 1650 4500
+Connection ~ 1650 4350
+Connection ~ 1650 4450
+Wire Wire Line
+	1700 4400 1650 4400
+Connection ~ 1650 4400
+$Sheet
+S 5200 700  1700 1800
+U 4F0A2F06
+F0 "CPU" 40
+F1 "cpu.sch" 40
+F2 "Fuel-Pump-Drive" O R 6900 1700 40 
+F3 "Injector4-Drive" O R 6900 1100 40 
+F4 "Injector3-Drive" O R 6900 1000 40 
+F5 "Injector2-Drive" O R 6900 900 40 
+F6 "Injector1-Drive" O R 6900 800 40 
+F7 "DIS-Advance-Signal" O R 6900 1500 40 
+F8 "Tach-Signal" I L 5200 1250 40 
+F9 "MAF-Signal" I L 5200 2300 40 
+F10 "MAT-Signal" I L 5200 2100 40 
+F11 "BRV-Signal" I L 5200 1800 40 
+F12 "MAP-Signal" I L 5200 1700 40 
+F13 "O2-Signal" I L 5200 2000 40 
+F14 "TPS-Signal" I L 5200 1900 40 
+F15 "Coolant-Signal" I L 5200 1600 40 
+F16 "IAT-Signal" I L 5200 1500 40 
+F17 "AAP-Signal" I L 5200 2200 40 
+F18 "Cam-Position" I L 5200 1350 40 
+F19 "5vdc-analog" I L 5200 850 40 
+F20 "5vdc-cpu" I L 5200 750 40 
+$EndSheet
 $Comp
 L CONN_1 P32
 U 1 1 4F1CD4E4
@@ -48,33 +80,6 @@ P 8900 2800
 F 0 "P31" H 8980 2800 40  0000 L CNN
 F 1 "OUT-GND" H 8900 2855 30  0001 C CNN
 	1    8900 2800
-	-1   0    0    1   
-$EndComp
-Connection ~ 1650 4650
-Connection ~ 1650 4550
-Wire Wire Line
-	1650 4700 1650 4350
-Connection ~ 1650 4400
-Wire Wire Line
-	1700 4400 1650 4400
-Connection ~ 1650 4450
-Connection ~ 1650 4350
-$Comp
-L CONN_1 P24
-U 1 1 4F1CCB30
-P 1500 4650
-F 0 "P24" H 1580 4650 40  0000 L CNN
-F 1 "CAM-GND" H 1500 4705 30  0001 C CNN
-	1    1500 4650
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P23
-U 1 1 4F1CCB2B
-P 1500 4550
-F 0 "P23" H 1580 4550 40  0000 L CNN
-F 1 "CRANK-GND" H 1500 4605 30  0001 C CNN
-	1    1500 4550
 	-1   0    0    1   
 $EndComp
 NoConn ~ 7000 3400
@@ -107,10 +112,10 @@ NoConn ~ 5200 3400
 $Comp
 L GND #PWR01
 U 1 1 4F1CCA54
-P 1650 4700
-F 0 "#PWR01" H 1650 4700 30  0001 C CNN
-F 1 "GND" H 1650 4630 30  0001 C CNN
-	1    1650 4700
+P 1650 4500
+F 0 "#PWR01" H 1650 4500 30  0001 C CNN
+F 1 "GND" H 1650 4430 30  0001 C CNN
+	1    1650 4500
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7000 3500
@@ -183,7 +188,7 @@ Text GLabel 5200 4800 0    40   Input ~ 0
 P4
 Text GLabel 5200 5000 0    40   Input ~ 0
 P1
-Text Notes 2200 6900 0    40   ~ 0
+Text Notes 5800 5450 0    40   ~ 0
 External Connector\nNOT TO SCALE
 $Comp
 L TE-34 J2
@@ -222,22 +227,17 @@ F19 "IGN-Advance" O R 2850 3550 40
 F20 "BRV-12v" I L 1500 2000 40 
 F21 "CamPosition-OUT" B R 2850 3750 40 
 F22 "Crank-OUT" O R 2850 3650 40 
-F23 "CPU14" O R 2850 2700 40 
-F24 "Cam-IN-" B L 1500 3750 40 
-F25 "Crank-IN-" B L 1500 3550 40 
-F26 "Cam-IN+" B L 1500 3650 40 
-F27 "Crank-IN+" B L 1500 3450 40 
-F28 "TPS-5vdc" O L 1500 2650 40 
+F23 "Cam-IN-" B L 1500 3750 40 
+F24 "Crank-IN-" B L 1500 3550 40 
+F25 "Cam-IN+" B L 1500 3650 40 
+F26 "Crank-IN+" B L 1500 3450 40 
+F27 "TPS-5vdc" O L 1500 2650 40 
 $EndSheet
 Text GLabel 1500 2100 0    40   Input ~ 0
 5vdc-switch
 Text GLabel 5200 850  0    40   Input ~ 0
 5vdc-switch
 NoConn ~ 5200 2200
-Text GLabel 5200 1050 0    40   Input ~ 0
-ToCPU14
-Text GLabel 2850 2700 2    40   Output ~ 0
-ToCPU14
 $Comp
 L CONN_3 P21
 U 1 1 4F18B4DC
@@ -536,30 +536,4 @@ F 1 "12v-SW" H 1350 855 30  0001 C CNN
 	1    1350 800 
 	-1   0    0    1   
 $EndComp
-$Sheet
-S 5200 700  1700 1800
-U 4F0A2F06
-F0 "CPU" 40
-F1 "cpu.sch" 40
-F2 "Fuel-Pump-Drive" O R 6900 1700 40 
-F3 "Injector4-Drive" O R 6900 1100 40 
-F4 "Injector3-Drive" O R 6900 1000 40 
-F5 "Injector2-Drive" O R 6900 900 40 
-F6 "Injector1-Drive" O R 6900 800 40 
-F7 "DIS-Advance-Signal" O R 6900 1500 40 
-F8 "Tach-Signal" I L 5200 1250 40 
-F9 "MAF-Signal" I L 5200 2300 40 
-F10 "MAT-Signal" I L 5200 2100 40 
-F11 "BRV-Signal" I L 5200 1800 40 
-F12 "MAP-Signal" I L 5200 1700 40 
-F13 "O2-Signal" I L 5200 2000 40 
-F14 "TPS-Signal" I L 5200 1900 40 
-F15 "Coolant-Signal" I L 5200 1600 40 
-F16 "IAT-Signal" I L 5200 1500 40 
-F17 "AAP-Signal" I L 5200 2200 40 
-F18 "Cam-Position" I L 5200 1350 40 
-F19 "FromU4" I L 5200 1050 40 
-F20 "5vdc-analog" I L 5200 850 40 
-F21 "5vdc-cpu" I L 5200 750 40 
-$EndSheet
 $EndSCHEMATC

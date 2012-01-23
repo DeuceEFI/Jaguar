@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jan 2012 11:33:09 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 23 Jan 2012 01:35:54 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3365;
@@ -330,20 +330,6 @@ IdModule  = diode_do41;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F188191;
-Reference = D4;
-ValeurCmp = LED;
-IdModule  = LED-3MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB08D/4F188199;
-Reference = D5;
-ValeurCmp = LED;
-IdModule  = LED-3MM;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/4F1787D6;
 Reference = D6;
 ValeurCmp = 1N5818-TP;
@@ -554,20 +540,6 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F191312;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = RC03;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB08D/4F1AF7D9;
-Reference = JP2;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1B7347;
 Reference = JP3;
 ValeurCmp = JUMPER;
@@ -757,20 +729,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1CCB2B;
-Reference = P23;
-ValeurCmp = CRANK-GND;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F1CCB30;
-Reference = P24;
-ValeurCmp = CAM-GND;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0D8467;
 Reference = P25;
 ValeurCmp = FUEL-;
@@ -925,20 +883,6 @@ IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F18812B;
-Reference = R9;
-ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB08D/4F188141;
-Reference = R10;
-ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/4F187DB4;
 Reference = R11;
 ValeurCmp = 10k;
@@ -1002,7 +946,7 @@ IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F187F84;
+TimeStamp = /4F0BB08D/4F1DA7D5;
 Reference = R20;
 ValeurCmp = 5k;
 IdModule  = RC03_VERT;
@@ -1023,7 +967,7 @@ IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F187E63;
+TimeStamp = /4F0BB08D/4F1DA6C2;
 Reference = R23;
 ValeurCmp = 5k;
 IdModule  = RC03_VERT;
