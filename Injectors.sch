@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,334 +32,345 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 6000 1250
-Connection ~ 6000 2150
-Connection ~ 6000 3050
-Connection ~ 6000 3950
-Connection ~ 6000 4850
-Connection ~ 6000 5750
 Wire Wire Line
-	6000 1250 6000 5750
+	3650 2150 4100 2150
+Connection ~ 1500 1900
 Wire Wire Line
-	2750 2350 2750 1450
-Connection ~ 5400 5250
+	1300 1900 1500 1900
 Wire Wire Line
-	5400 5250 4000 5250
-Connection ~ 5400 3450
+	3700 5750 4150 5750
+Connection ~ 2400 3050
+Connection ~ 2350 2150
+Connection ~ 2350 1250
 Wire Wire Line
-	5400 3450 4000 3450
-Connection ~ 4000 6450
+	3650 1250 4100 1250
+Connection ~ 3700 3050
+Connection ~ 3700 3950
+Wire Wire Line
+	3700 3950 4150 3950
+Connection ~ 1500 3700
+Wire Wire Line
+	1300 3700 1500 3700
+Connection ~ 2400 3950
+Connection ~ 2400 4850
+Connection ~ 3950 2850
+Connection ~ 5400 2850
+Wire Wire Line
+	5400 2850 2900 2850
+Connection ~ 4000 4650
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 2950 4650
 Wire Wire Line
 	2950 6450 5400 6450
-Connection ~ 3950 1250
+Connection ~ 1500 5500
 Wire Wire Line
-	3950 1250 4100 1250
+	1350 5500 1500 5500
 Wire Wire Line
-	2950 5550 4000 5550
-Wire Wire Line
-	2950 3750 4000 3750
-Wire Wire Line
-	4000 6450 4000 6150
-Connection ~ 2950 6450
-Wire Wire Line
-	3000 5950 2800 5950
-Wire Wire Line
-	4000 5750 4150 5750
-Wire Wire Line
-	3700 5950 3500 5950
-Connection ~ 4000 5750
-Connection ~ 4000 6150
-Connection ~ 3700 5950
-Connection ~ 3500 5950
-Connection ~ 3000 5950
-Connection ~ 2950 5950
-Connection ~ 2950 5050
-Connection ~ 3000 5050
-Connection ~ 3500 5050
-Connection ~ 3700 5050
-Connection ~ 4000 5250
-Connection ~ 4000 4850
-Wire Wire Line
-	3700 5050 3500 5050
-Wire Wire Line
-	4000 4850 4150 4850
-Wire Wire Line
-	3000 5050 2800 5050
-Connection ~ 2950 5550
-Wire Wire Line
-	4000 5550 4000 5250
-Wire Wire Line
-	4000 4650 4000 4350
-Connection ~ 2950 4650
-Wire Wire Line
-	3000 4150 2800 4150
-Wire Wire Line
-	4000 3950 4150 3950
-Wire Wire Line
-	3700 4150 3500 4150
-Connection ~ 4000 3950
-Connection ~ 4000 4350
-Connection ~ 3700 4150
-Connection ~ 3500 4150
-Connection ~ 3000 4150
-Connection ~ 2950 4150
-Wire Wire Line
-	4000 3750 4000 3450
-Connection ~ 2950 3750
-Wire Wire Line
-	3000 3250 2800 3250
-Wire Wire Line
-	4000 3050 4150 3050
-Wire Wire Line
-	3700 3250 3500 3250
-Connection ~ 4000 3050
-Connection ~ 4000 3450
-Connection ~ 3700 3250
-Connection ~ 3500 3250
-Connection ~ 3000 3250
-Connection ~ 2950 3250
-Wire Wire Line
-	3950 2850 3950 2550
-Connection ~ 2900 2850
-Wire Wire Line
-	2750 2350 2950 2350
-Wire Wire Line
-	3950 2150 4100 2150
-Wire Wire Line
-	3650 2350 3450 2350
-Connection ~ 3950 2150
-Connection ~ 3950 2550
-Connection ~ 3650 2350
-Connection ~ 3450 2350
-Connection ~ 2950 2350
-Connection ~ 2900 2350
-Connection ~ 2900 1450
-Connection ~ 2950 1450
-Connection ~ 3450 1450
-Connection ~ 3650 1450
-Connection ~ 3950 1650
-Wire Wire Line
-	3650 1450 3450 1450
-Wire Wire Line
-	2750 1450 2950 1450
-Connection ~ 2900 1950
+	3000 5950 1500 5950
+Connection ~ 2400 5750
+Connection ~ 5400 6450
+Connection ~ 3650 2150
+Connection ~ 3650 1250
+Connection ~ 3300 5750
+Connection ~ 2900 5750
+Connection ~ 2900 4850
+Connection ~ 3300 4850
+Connection ~ 3300 3950
+Connection ~ 2900 3950
+Connection ~ 2900 3050
+Connection ~ 3300 3050
+Connection ~ 3250 2150
+Connection ~ 2850 2150
+Connection ~ 2850 1250
+Connection ~ 3250 1250
 Wire Wire Line
 	3950 1950 3950 1650
+Connection ~ 2900 1950
 Wire Wire Line
-	3950 2850 2900 2850
+	3650 1450 3450 1450
+Connection ~ 3950 1650
+Connection ~ 3650 1450
+Connection ~ 3450 1450
+Connection ~ 2950 1450
+Connection ~ 2900 1450
+Connection ~ 2900 2350
+Connection ~ 2950 2350
+Connection ~ 3450 2350
+Connection ~ 3650 2350
+Connection ~ 3950 2550
+Connection ~ 3950 2150
 Wire Wire Line
-	4000 4650 2950 4650
+	3650 2350 3450 2350
+Connection ~ 2900 2850
 Wire Wire Line
-	3950 1950 2900 1950
-Connection ~ 6900 1250
-Connection ~ 6500 1250
-Connection ~ 6500 2150
-Connection ~ 6900 2150
-Connection ~ 6900 3050
-Connection ~ 6500 3050
-Connection ~ 6500 3950
-Connection ~ 6900 3950
-Connection ~ 6900 4850
-Connection ~ 6500 4850
-Connection ~ 6500 5750
-Connection ~ 6900 5750
-Connection ~ 7300 1250
-Connection ~ 7300 2150
-Connection ~ 7300 3050
-Connection ~ 7300 3950
-Connection ~ 7300 4850
-Connection ~ 7300 5750
+	3950 2850 3950 2550
+Connection ~ 2950 3250
+Connection ~ 3000 3250
+Connection ~ 3500 3250
+Connection ~ 3700 3250
+Connection ~ 4000 3450
+Connection ~ 4000 3050
 Wire Wire Line
-	5400 6450 5400 1650
+	3700 3250 3500 3250
+Connection ~ 2950 3750
 Wire Wire Line
-	5400 1650 3950 1650
+	4000 3450 4000 3750
+Connection ~ 2950 4150
+Connection ~ 3000 4150
+Connection ~ 3500 4150
+Connection ~ 3700 4150
+Connection ~ 4000 4350
+Connection ~ 4000 3950
 Wire Wire Line
-	3950 2550 5400 2550
-Connection ~ 5400 2550
+	3700 4150 3500 4150
+Connection ~ 2950 4650
 Wire Wire Line
-	4000 4350 5400 4350
-Connection ~ 5400 4350
+	4000 4650 4000 4350
 Wire Wire Line
-	2800 3250 2800 4150
+	4000 5250 4000 5550
+Connection ~ 2950 5550
 Wire Wire Line
-	2800 5050 2800 5950
-NoConn ~ 2800 6850
-Text HLabel 2800 5050 0    60   Input ~ 0
+	3700 5050 3500 5050
+Connection ~ 4000 4850
+Connection ~ 4000 5250
+Connection ~ 3700 5050
+Connection ~ 3500 5050
+Connection ~ 3000 5050
+Connection ~ 2950 5050
+Connection ~ 2950 5950
+Connection ~ 3000 5950
+Connection ~ 3500 5950
+Connection ~ 3700 5950
+Connection ~ 4000 6150
+Connection ~ 4000 5750
+Wire Wire Line
+	3700 5950 3500 5950
+Connection ~ 2950 6450
+Wire Wire Line
+	4000 6450 4000 6150
+Connection ~ 3950 1250
+Connection ~ 4000 6450
+Wire Wire Line
+	1500 5950 1500 5050
+Wire Wire Line
+	1500 5050 3000 5050
+Wire Wire Line
+	5400 5550 2950 5550
+Connection ~ 5400 5550
+Connection ~ 4000 5550
+Wire Wire Line
+	5400 3750 2950 3750
+Connection ~ 5400 3750
+Connection ~ 4000 3750
+Wire Wire Line
+	2900 1950 5400 1950
+Connection ~ 3950 1950
+Wire Wire Line
+	3000 4150 1500 4150
+Wire Wire Line
+	1500 4150 1500 3250
+Wire Wire Line
+	1500 3250 3000 3250
+Wire Wire Line
+	3700 3050 4150 3050
+Wire Wire Line
+	3700 4850 4150 4850
+Connection ~ 3700 4850
+Connection ~ 3700 5750
+Wire Wire Line
+	2950 1450 1500 1450
+Wire Wire Line
+	1500 1450 1500 2350
+Wire Wire Line
+	1500 2350 2950 2350
+Wire Wire Line
+	5400 1950 5400 6600
+Text HLabel 2400 5750 0    40   Input ~ 0
+12v-sw
+Text HLabel 2400 4850 0    40   Input ~ 0
+12v-sw
+Text HLabel 2400 3950 0    40   Input ~ 0
+12v-sw
+Text HLabel 2400 3050 0    40   Input ~ 0
+12v-sw
+Text HLabel 2350 2150 0    40   Input ~ 0
+12v-sw
+$Comp
+L GND #PWR55
+U 1 1 4F1C44F4
+P 5400 6600
+F 0 "#PWR55" H 5400 6600 30  0001 C CNN
+F 1 "GND" H 5400 6530 30  0001 C CNN
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+Text HLabel 5400 6450 2    40   Input ~ 0
+Injector-Ground
+Text HLabel 1350 5500 0    60   Input ~ 0
 Injector3
 $Comp
 L DIODE D29
 U 1 1 4F178496
-P 7100 5750
-F 0 "D29" H 7100 5850 40  0000 C CNN
-F 1 "1N4148" H 7100 5650 40  0000 C CNN
-	1    7100 5750
+P 3500 5750
+F 0 "D29" H 3500 5850 40  0000 C CNN
+F 1 "1N4148" H 3500 5650 40  0000 C CNN
+	1    3500 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D28
 U 1 1 4F17848A
-P 7100 4850
-F 0 "D28" H 7100 4950 40  0000 C CNN
-F 1 "1N4148" H 7100 4750 40  0000 C CNN
-	1    7100 4850
+P 3500 4850
+F 0 "D28" H 3500 4950 40  0000 C CNN
+F 1 "1N4148" H 3500 4750 40  0000 C CNN
+	1    3500 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D27
 U 1 1 4F17847C
-P 7100 3950
-F 0 "D27" H 7100 4050 40  0000 C CNN
-F 1 "1N4148" H 7100 3850 40  0000 C CNN
-	1    7100 3950
+P 3500 3950
+F 0 "D27" H 3500 4050 40  0000 C CNN
+F 1 "1N4148" H 3500 3850 40  0000 C CNN
+	1    3500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D26
 U 1 1 4F178470
-P 7100 3050
-F 0 "D26" H 7100 3150 40  0000 C CNN
-F 1 "1N4148" H 7100 2950 40  0000 C CNN
-	1    7100 3050
+P 3500 3050
+F 0 "D26" H 3500 3150 40  0000 C CNN
+F 1 "1N4148" H 3500 2950 40  0000 C CNN
+	1    3500 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D25
 U 1 1 4F17845F
-P 7100 2150
-F 0 "D25" H 7100 2250 40  0000 C CNN
-F 1 "1N4148" H 7100 2050 40  0000 C CNN
-	1    7100 2150
+P 3450 2150
+F 0 "D25" H 3450 2250 40  0000 C CNN
+F 1 "1N4148" H 3450 2050 40  0000 C CNN
+	1    3450 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D24
 U 1 1 4F17842F
-P 7100 1250
-F 0 "D24" H 7100 1350 40  0000 C CNN
-F 1 "1N4148" H 7100 1150 40  0000 C CNN
-	1    7100 1250
+P 3450 1250
+F 0 "D24" H 3450 1350 40  0000 C CNN
+F 1 "1N4148" H 3450 1150 40  0000 C CNN
+	1    3450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D23
 U 1 1 4F13818D
-P 6700 5750
-F 0 "D23" H 6700 5850 50  0000 C CNN
-F 1 "LED" H 6700 5650 50  0000 C CNN
-	1    6700 5750
+P 3100 5750
+F 0 "D23" H 3100 5850 50  0000 C CNN
+F 1 "LED" H 3100 5650 50  0000 C CNN
+	1    3100 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R52
 U 1 1 4F13818C
-P 6250 5750
-F 0 "R52" V 6330 5750 50  0000 C CNN
-F 1 "2.4k" V 6250 5750 50  0000 C CNN
-	1    6250 5750
+P 2650 5750
+F 0 "R52" V 2730 5750 50  0000 C CNN
+F 1 "2.4k" V 2650 5750 50  0000 C CNN
+	1    2650 5750
 	0    1    1    0   
 $EndComp
-Text HLabel 7300 5750 2    60   Output ~ 0
-Injector6_Output
-Text HLabel 7300 4850 2    60   Output ~ 0
-Injector5_Output
 $Comp
 L R R51
 U 1 1 4F138183
-P 6250 4850
-F 0 "R51" V 6330 4850 50  0000 C CNN
-F 1 "2.4k" V 6250 4850 50  0000 C CNN
-	1    6250 4850
+P 2650 4850
+F 0 "R51" V 2730 4850 50  0000 C CNN
+F 1 "2.4k" V 2650 4850 50  0000 C CNN
+	1    2650 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L LED D22
 U 1 1 4F138182
-P 6700 4850
-F 0 "D22" H 6700 4950 50  0000 C CNN
-F 1 "LED" H 6700 4750 50  0000 C CNN
-	1    6700 4850
+P 3100 4850
+F 0 "D22" H 3100 4950 50  0000 C CNN
+F 1 "LED" H 3100 4750 50  0000 C CNN
+	1    3100 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D21
 U 1 1 4F13817C
-P 6700 3950
-F 0 "D21" H 6700 4050 50  0000 C CNN
-F 1 "LED" H 6700 3850 50  0000 C CNN
-	1    6700 3950
+P 3100 3950
+F 0 "D21" H 3100 4050 50  0000 C CNN
+F 1 "LED" H 3100 3850 50  0000 C CNN
+	1    3100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R50
 U 1 1 4F13817B
-P 6250 3950
-F 0 "R50" V 6330 3950 50  0000 C CNN
-F 1 "2.4k" V 6250 3950 50  0000 C CNN
-	1    6250 3950
+P 2650 3950
+F 0 "R50" V 2730 3950 50  0000 C CNN
+F 1 "2.4k" V 2650 3950 50  0000 C CNN
+	1    2650 3950
 	0    1    1    0   
 $EndComp
-Text HLabel 7300 3950 2    60   Output ~ 0
-Injector4_Output
-Text HLabel 7300 3050 2    60   Output ~ 0
-Injector3_Output
 $Comp
 L R R49
 U 1 1 4F138176
-P 6250 3050
-F 0 "R49" V 6330 3050 50  0000 C CNN
-F 1 "2.4k" V 6250 3050 50  0000 C CNN
-	1    6250 3050
+P 2650 3050
+F 0 "R49" V 2730 3050 50  0000 C CNN
+F 1 "2.4k" V 2650 3050 50  0000 C CNN
+	1    2650 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L LED D20
 U 1 1 4F138175
-P 6700 3050
-F 0 "D20" H 6700 3150 50  0000 C CNN
-F 1 "LED" H 6700 2950 50  0000 C CNN
-	1    6700 3050
+P 3100 3050
+F 0 "D20" H 3100 3150 50  0000 C CNN
+F 1 "LED" H 3100 2950 50  0000 C CNN
+	1    3100 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D19
 U 1 1 4F13816D
-P 6700 2150
-F 0 "D19" H 6700 2250 50  0000 C CNN
-F 1 "LED" H 6700 2050 50  0000 C CNN
-	1    6700 2150
+P 3050 2150
+F 0 "D19" H 3050 2250 50  0000 C CNN
+F 1 "LED" H 3050 2050 50  0000 C CNN
+	1    3050 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R48
 U 1 1 4F13816C
-P 6250 2150
-F 0 "R48" V 6330 2150 50  0000 C CNN
-F 1 "2.4k" V 6250 2150 50  0000 C CNN
-	1    6250 2150
+P 2600 2150
+F 0 "R48" V 2680 2150 50  0000 C CNN
+F 1 "2.4k" V 2600 2150 50  0000 C CNN
+	1    2600 2150
 	0    1    1    0   
 $EndComp
-Text HLabel 7300 2150 2    60   Output ~ 0
-Injector2_Output
-Text HLabel 7300 1250 2    60   Output ~ 0
-Injector1_Output
-Text HLabel 6000 1250 0    40   Input ~ 0
+Text HLabel 2350 1250 0    40   Input ~ 0
 12v-sw
 $Comp
 L R R47
 U 1 1 4F1380A7
-P 6250 1250
-F 0 "R47" V 6330 1250 50  0000 C CNN
-F 1 "2.4k" V 6250 1250 50  0000 C CNN
-	1    6250 1250
+P 2600 1250
+F 0 "R47" V 2680 1250 50  0000 C CNN
+F 1 "2.4k" V 2600 1250 50  0000 C CNN
+	1    2600 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L LED D18
 U 1 1 4F138097
-P 6700 1250
-F 0 "D18" H 6700 1350 50  0000 C CNN
-F 1 "LED" H 6700 1150 50  0000 C CNN
-	1    6700 1250
+P 3050 1250
+F 0 "D18" H 3050 1350 50  0000 C CNN
+F 1 "LED" H 3050 1150 50  0000 C CNN
+	1    3050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -384,7 +395,7 @@ $Comp
 L MOSFET_N Q6
 U 1 1 4F0D058F
 P 3900 5950
-F 0 "Q6" H 3910 6120 60  0000 R CNN
+F 0 "Q6" H 4150 5950 60  0000 R CNN
 F 1 "VND14NV04" H 3910 5800 60  0000 R CNN
 	1    3900 5950
 	1    0    0    -1  
@@ -393,7 +404,7 @@ $Comp
 L MOSFET_N Q5
 U 1 1 4F0D0586
 P 3900 5050
-F 0 "Q5" H 3910 5220 60  0000 R CNN
+F 0 "Q5" H 4150 5050 60  0000 R CNN
 F 1 "VND14NV04" H 3910 4900 60  0000 R CNN
 	1    3900 5050
 	1    0    0    -1  
@@ -438,7 +449,7 @@ $Comp
 L MOSFET_N Q4
 U 1 1 4F0D0575
 P 3900 4150
-F 0 "Q4" H 3910 4320 60  0000 R CNN
+F 0 "Q4" H 4150 4150 60  0000 R CNN
 F 1 "VND14NV04" H 3910 4000 60  0000 R CNN
 	1    3900 4150
 	1    0    0    -1  
@@ -465,7 +476,7 @@ $Comp
 L MOSFET_N Q3
 U 1 1 4F0D0557
 P 3900 3250
-F 0 "Q3" H 3910 3420 60  0000 R CNN
+F 0 "Q3" H 4150 3250 60  0000 R CNN
 F 1 "VND14NV04" H 3910 3100 60  0000 R CNN
 	1    3900 3250
 	1    0    0    -1  
@@ -492,7 +503,7 @@ $Comp
 L MOSFET_N Q2
 U 1 1 4F0D0545
 P 3850 2350
-F 0 "Q2" H 3860 2520 60  0000 R CNN
+F 0 "Q2" H 4100 2350 60  0000 R CNN
 F 1 "VND14NV04" H 3860 2200 60  0000 R CNN
 	1    3850 2350
 	1    0    0    -1  
@@ -501,27 +512,23 @@ Text HLabel 4150 5750 2    60   Output ~ 0
 Injector6_Output
 Text HLabel 4150 4850 2    60   Output ~ 0
 Injector5_Output
-Text HLabel 2800 6850 0    60   Input ~ 0
-Injector4
 Text HLabel 4150 3950 2    60   Output ~ 0
 Injector4_Output
 Text HLabel 4150 3050 2    60   Output ~ 0
 Injector3_Output
-Text HLabel 2800 3250 0    60   Input ~ 0
+Text HLabel 1300 3700 0    60   Input ~ 0
 Injector2
 Text HLabel 4100 2150 2    60   Output ~ 0
 Injector2_Output
 Text HLabel 4100 1250 2    60   Output ~ 0
 Injector1_Output
-Text HLabel 2750 1450 0    60   Input ~ 0
+Text HLabel 1300 1900 0    60   Input ~ 0
 Injector1
-Text HLabel 5400 6450 2    60   Input ~ 0
-Injector-GND
 $Comp
 L MOSFET_N Q1
 U 1 1 4F062E00
 P 3850 1450
-F 0 "Q1" H 3860 1620 60  0000 R CNN
+F 0 "Q1" H 4100 1450 60  0000 R CNN
 F 1 "VND14NV04" H 3860 1300 60  0000 R CNN
 	1    3850 1450
 	1    0    0    -1  

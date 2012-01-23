@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,36 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1500 1950 1350 1900
+U 4F0BB08D
+F0 "Inputs" 40
+F1 "inputs.sch" 40
+F2 "DIS-Bypass" O R 2850 3450 40 
+F3 "O2-Sensor-GND" I L 1500 3400 40 
+F4 "TPS-Sensor-GND" I L 1500 3100 40 
+F5 "Coolant-Sensor" I L 1500 2700 40 
+F6 "Coolant-CPU-Signal" O R 2850 2550 40 
+F7 "O2-Sensor" I L 1500 3300 40 
+F8 "O2-CPU-Signal" O R 2850 3150 40 
+F9 "IAT-CPU-Signal" O R 2850 2350 40 
+F10 "IAT-Sensor" I L 1500 2500 40 
+F11 "TPS-CPU-Signal" O R 2850 2850 40 
+F12 "TPS-Sensor" I L 1500 3000 40 
+F13 "MAT-Sensor" I L 1500 2600 40 
+F14 "MAT-CPU-Signal" O R 2850 2450 40 
+F15 "BRV" O R 2850 2000 40 
+F16 "MAP-CPU-Signal" O R 2850 2100 40 
+F17 "5vdc-switched" I L 1500 2100 40 
+F18 "IGN-Advance-Signal" B L 1500 3550 40 
+F19 "IGN-Advance" O R 2850 3550 40 
+F20 "BRV-12v" I L 1500 2000 40 
+F21 "CamPosition-IN" B L 1500 3750 40 
+F22 "CamPosition-OUT" B R 2850 3750 40 
+F23 "Crank-OUT" O R 2850 3650 40 
+F24 "Crank-IN" B L 1500 3650 40 
+F25 "CPU14" O R 2850 2700 40 
+$EndSheet
 Connection ~ 2950 1500
 Connection ~ 2850 1500
 Wire Wire Line
@@ -57,7 +87,6 @@ Text GLabel 5200 1050 0    40   Input ~ 0
 ToCPU14
 Text GLabel 2850 2700 2    40   Output ~ 0
 ToCPU14
-NoConn ~ 9050 1100
 $Comp
 L CONN_3 P21
 U 1 1 4F18B4DC
@@ -169,10 +198,10 @@ S 9050 2150 1600 750
 U 4F0D82A1
 F0 "Outputs" 40
 F1 "Outputs.sch" 40
-F2 "GND" I L 9050 2800 40 
-F3 "Relay_Negative" O R 10650 2800 40 
-F4 "12vdc-switched-relay" I L 9050 2250 40 
-F5 "PA7" I L 9050 2550 40 
+F2 "Relay_Negative" O R 10650 2800 40 
+F3 "12vdc-switched-relay" I L 9050 2250 40 
+F4 "PA7" I L 9050 2550 40 
+F5 "Output-Ground" I L 9050 2800 40 
 $EndSheet
 $Comp
 L CONN_6 P26
@@ -190,29 +219,27 @@ F0 "Injectors" 40
 F1 "Injectors.sch" 40
 F2 "Injector6_Output" O R 10600 1300 40 
 F3 "Injector5_Output" O R 10600 1200 40 
-F4 "Injector4" I L 9050 1100 40 
-F5 "Injector4_Output" O R 10600 1100 40 
-F6 "Injector3_Output" O R 10600 1000 40 
-F7 "Injector3" I L 9050 1000 40 
-F8 "Injector2" I L 9050 900 40 
-F9 "Injector2_Output" O R 10600 900 40 
-F10 "Injector1_Output" O R 10600 800 40 
-F11 "Injector1" I L 9050 800 40 
-F12 "Injector-GND" I L 9050 1600 40 
-F13 "12v-sw" I L 9050 1500 40 
+F4 "Injector4_Output" O R 10600 1100 40 
+F5 "Injector3_Output" O R 10600 1000 40 
+F6 "Injector3" I L 9050 1000 40 
+F7 "Injector2" I L 9050 900 40 
+F8 "Injector2_Output" O R 10600 900 40 
+F9 "Injector1_Output" O R 10600 800 40 
+F10 "Injector1" I L 9050 800 40 
+F11 "12v-sw" I L 9050 1500 40 
+F12 "Injector-Ground" I L 9050 1600 40 
 $EndSheet
 $Sheet
 S 1500 700  1050 850 
 U 4F0A4778
 F0 "Power Supplies" 40
 F1 "PowerSupplies.sch" 40
-F2 "GND" O R 2550 1500 40 
-F3 "5vdc-switched" O R 2550 1300 40 
-F4 "12v-switch" I L 1500 800 40 
-F5 "12vdc-sw" O R 2550 1050 40 
-F6 "5vdc-micro" O R 2550 1200 40 
-F7 "12v-switch3" I L 1500 1000 40 
-F8 "12v-switch2" I L 1500 900 40 
+F2 "5vdc-switched" O R 2550 1300 40 
+F3 "12v-switch" I L 1500 800 40 
+F4 "12vdc-sw" O R 2550 1050 40 
+F5 "5vdc-micro" O R 2550 1200 40 
+F6 "12v-switch3" I L 1500 1000 40 
+F7 "12v-switch2" I L 1500 900 40 
 $EndSheet
 $Comp
 L CONN_1 P4
@@ -359,42 +386,6 @@ Text GLabel 2850 2100 2    40   Output ~ 0
 MAP
 Text GLabel 2850 2000 2    40   Output ~ 0
 BRV
-Text GLabel 1500 2200 0    40   Input ~ 0
-Ground
-Text GLabel 1500 2900 0    40   Input ~ 0
-5vdc-switch
-$Sheet
-S 1500 1950 1350 1900
-U 4F0BB08D
-F0 "Inputs" 40
-F1 "inputs.sch" 40
-F2 "DIS-Bypass" O R 2850 3450 40 
-F3 "O2-Sensor-GND" I L 1500 3400 40 
-F4 "TPS-Sensor-GND" I L 1500 3100 40 
-F5 "TPS-Sensor-5v" I L 1500 2900 40 
-F6 "Coolant-Sensor" I L 1500 2700 40 
-F7 "Coolant-CPU-Signal" O R 2850 2550 40 
-F8 "O2-Sensor" I L 1500 3300 40 
-F9 "O2-CPU-Signal" O R 2850 3150 40 
-F10 "IAT-CPU-Signal" O R 2850 2350 40 
-F11 "IAT-Sensor" I L 1500 2500 40 
-F12 "TPS-CPU-Signal" O R 2850 2850 40 
-F13 "TPS-Sensor" I L 1500 3000 40 
-F14 "MAT-Sensor" I L 1500 2600 40 
-F15 "MAT-CPU-Signal" O R 2850 2450 40 
-F16 "BRV" O R 2850 2000 40 
-F17 "MAP-CPU-Signal" O R 2850 2100 40 
-F18 "5vdc-switched" I L 1500 2100 40 
-F19 "IGN-Advance-Signal" B L 1500 3550 40 
-F20 "IGN-Advance" O R 2850 3550 40 
-F21 "Sensor_GND" I L 1500 2200 40 
-F22 "BRV-12v" I L 1500 2000 40 
-F23 "CamPosition-IN" B L 1500 3750 40 
-F24 "CamPosition-OUT" B R 2850 3750 40 
-F25 "Crank-OUT" O R 2850 3650 40 
-F26 "Crank-IN" B L 1500 3650 40 
-F27 "CPU14" O R 2850 2700 40 
-$EndSheet
 Text GLabel 6900 1500 2    40   Output ~ 0
 Timing-Advance
 Text GLabel 5200 1250 0    40   Input ~ 0
@@ -403,8 +394,6 @@ Text GLabel 5200 1700 0    40   Input ~ 0
 MAP
 Text GLabel 5200 750  0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 5200 950  0    40   Input ~ 0
-Ground
 Text GLabel 3000 1500 2    40   Output ~ 0
 Ground
 Text GLabel 2550 1200 2    40   Output ~ 0
@@ -434,26 +423,25 @@ S 5200 700  1700 1800
 U 4F0A2F06
 F0 "CPU" 40
 F1 "cpu.sch" 40
-F2 "5vdc" I L 5200 750 40 
-F3 "GND" O L 5200 950 40 
-F4 "Fuel-Pump-Drive" O R 6900 1700 40 
-F5 "Injector4-Drive" O R 6900 1100 40 
-F6 "Injector3-Drive" O R 6900 1000 40 
-F7 "Injector2-Drive" O R 6900 900 40 
-F8 "Injector1-Drive" O R 6900 800 40 
-F9 "DIS-Advance-Signal" O R 6900 1500 40 
-F10 "Tach-Signal" I L 5200 1250 40 
-F11 "MAF-Signal" I L 5200 2300 40 
-F12 "MAT-Signal" I L 5200 2100 40 
-F13 "BRV-Signal" I L 5200 1800 40 
-F14 "MAP-Signal" I L 5200 1700 40 
-F15 "O2-Signal" I L 5200 2000 40 
-F16 "TPS-Signal" I L 5200 1900 40 
-F17 "Coolant-Signal" I L 5200 1600 40 
-F18 "IAT-Signal" I L 5200 1500 40 
-F19 "AAP-Signal" I L 5200 2200 40 
-F20 "Cam-Position" I L 5200 1350 40 
-F21 "FromU4" I L 5200 1050 40 
-F22 "5vdc-analog" I L 5200 850 40 
+F2 "Fuel-Pump-Drive" O R 6900 1700 40 
+F3 "Injector4-Drive" O R 6900 1100 40 
+F4 "Injector3-Drive" O R 6900 1000 40 
+F5 "Injector2-Drive" O R 6900 900 40 
+F6 "Injector1-Drive" O R 6900 800 40 
+F7 "DIS-Advance-Signal" O R 6900 1500 40 
+F8 "Tach-Signal" I L 5200 1250 40 
+F9 "MAF-Signal" I L 5200 2300 40 
+F10 "MAT-Signal" I L 5200 2100 40 
+F11 "BRV-Signal" I L 5200 1800 40 
+F12 "MAP-Signal" I L 5200 1700 40 
+F13 "O2-Signal" I L 5200 2000 40 
+F14 "TPS-Signal" I L 5200 1900 40 
+F15 "Coolant-Signal" I L 5200 1600 40 
+F16 "IAT-Signal" I L 5200 1500 40 
+F17 "AAP-Signal" I L 5200 2200 40 
+F18 "Cam-Position" I L 5200 1350 40 
+F19 "FromU4" I L 5200 1050 40 
+F20 "5vdc-analog" I L 5200 850 40 
+F21 "5vdc-cpu" I L 5200 750 40 
 $EndSheet
 $EndSCHEMATC

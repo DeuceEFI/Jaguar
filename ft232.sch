@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,119 +32,152 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7250 3250
-Connection ~ 7850 3250
+$Comp
+L VDD #PWR59
+U 1 1 4F1C4720
+P 10850 2850
+F 0 "#PWR59" H 10850 2950 30  0001 C CNN
+F 1 "VDD" H 10850 2960 30  0000 C CNN
+	1    10850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR57
+U 1 1 4F1C4712
+P 9350 1700
+F 0 "#PWR57" H 9350 1800 30  0001 C CNN
+F 1 "VDD" H 9350 1810 30  0000 C CNN
+	1    9350 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 9350 2500 2    40   Input ~ 0
+GND
+Text Notes 5700 2500 0    40   ~ 0
+Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB
 Wire Wire Line
-	7850 3250 7850 3150
+	9350 2600 9350 2500
 Wire Wire Line
-	7850 3150 6800 3150
-Connection ~ 6800 3450
-Connection ~ 7400 3450
+	6800 3250 7250 3250
+Connection ~ 10850 3650
+Connection ~ 10850 3350
+Connection ~ 10850 2850
+Connection ~ 9350 2500
+Connection ~ 9350 2200
+Connection ~ 9350 1700
+Connection ~ 4000 1800
+Connection ~ 4000 2200
 Wire Wire Line
-	7400 3450 7400 3350
-Wire Wire Line
-	7400 3350 6800 3350
-Connection ~ 4250 3650
-Connection ~ 4750 3650
-Connection ~ 4950 3650
-Wire Wire Line
-	4750 3650 4950 3650
-Connection ~ 6800 3150
-Connection ~ 6800 3250
-Connection ~ 6800 3350
-Connection ~ 6800 3450
-Wire Wire Line
-	9400 2850 9650 2850
-Wire Wire Line
-	6800 2950 8100 2950
-Wire Wire Line
-	8100 2950 8100 2500
-Connection ~ 8100 1700
-Connection ~ 8100 2500
-Connection ~ 9400 2850
-Connection ~ 9400 3350
-Connection ~ 9600 3350
-Connection ~ 9600 3650
-Wire Wire Line
-	9600 3650 9350 3650
-Connection ~ 8100 2200
-Wire Wire Line
-	8400 3950 8400 3650
-Wire Wire Line
-	2550 3150 2550 1800
-Wire Wire Line
-	6200 4850 4950 4850
-Connection ~ 6800 2950
-Connection ~ 6800 3050
-Connection ~ 8400 3950
-Connection ~ 8400 3650
-Connection ~ 7900 3650
-Connection ~ 7900 3950
-Connection ~ 7500 3950
-Connection ~ 7500 3650
-Connection ~ 6800 3750
-Connection ~ 6800 3850
-Connection ~ 6200 4850
-Connection ~ 6050 4850
-Connection ~ 5900 4850
-Connection ~ 5750 4850
-Connection ~ 4950 4550
-Connection ~ 4950 4150
-Connection ~ 4950 3350
-Connection ~ 4950 3250
-Connection ~ 4950 3000
-Connection ~ 4950 2900
-Connection ~ 2550 3450
-Connection ~ 2550 3350
-Connection ~ 2550 3250
-Connection ~ 2550 3150
-Connection ~ 3550 2200
-Connection ~ 3550 1800
-Wire Wire Line
-	7500 3950 7500 3850
-Wire Wire Line
-	7500 3850 6800 3850
-Wire Wire Line
-	2550 3350 4950 3350
-Connection ~ 5600 4850
-Wire Wire Line
-	2550 4550 4950 4550
-Wire Wire Line
-	4950 3250 2550 3250
-Wire Wire Line
-	7500 3650 7500 3750
-Wire Wire Line
-	7500 3750 6800 3750
-Wire Wire Line
-	2550 4550 2550 3450
-Wire Wire Line
-	4950 4550 4950 4850
-Wire Wire Line
-	2550 1800 4950 1800
-Wire Wire Line
-	4950 1800 4950 3000
-Wire Wire Line
-	8100 1700 7850 1700
-Wire Wire Line
-	6800 3050 8850 3050
-Wire Wire Line
-	8850 3050 8850 3350
-Wire Wire Line
-	8850 3350 9600 3350
+	3550 2200 4000 2200
 Wire Wire Line
 	4250 3650 4000 3650
 Wire Wire Line
-	3550 2200 4000 2200
-Connection ~ 4000 2200
-Connection ~ 4000 1800
-Connection ~ 9350 1700
-Connection ~ 9350 2200
-Connection ~ 9350 2500
-Connection ~ 10850 2850
-Connection ~ 10850 3350
-Connection ~ 10850 3650
+	9600 3350 8850 3350
 Wire Wire Line
-	6800 3250 7250 3250
+	8850 3350 8850 3050
+Wire Wire Line
+	8850 3050 6800 3050
+Wire Wire Line
+	8100 1700 7850 1700
+Wire Wire Line
+	4950 3000 4950 1800
+Wire Wire Line
+	4950 1800 2550 1800
+Wire Wire Line
+	4950 4550 4950 4850
+Wire Wire Line
+	2550 3450 2550 4550
+Wire Wire Line
+	6800 3750 7500 3750
+Wire Wire Line
+	7500 3750 7500 3650
+Wire Wire Line
+	4950 3250 2550 3250
+Wire Wire Line
+	2550 4550 4950 4550
+Connection ~ 5600 4850
+Wire Wire Line
+	2550 3350 4950 3350
+Wire Wire Line
+	6800 3850 7500 3850
+Wire Wire Line
+	7500 3850 7500 3950
+Connection ~ 3550 1800
+Connection ~ 3550 2200
+Connection ~ 2550 3150
+Connection ~ 2550 3250
+Connection ~ 2550 3350
+Connection ~ 2550 3450
+Connection ~ 4950 2900
+Connection ~ 4950 3000
+Connection ~ 4950 3250
+Connection ~ 4950 3350
+Connection ~ 4950 4150
+Connection ~ 4950 4550
+Connection ~ 5750 4850
+Connection ~ 5900 4850
+Connection ~ 6050 4850
+Connection ~ 6200 4850
+Connection ~ 6800 3850
+Connection ~ 6800 3750
+Connection ~ 7500 3650
+Connection ~ 7500 3950
+Connection ~ 7900 3950
+Connection ~ 7900 3650
+Connection ~ 8400 3650
+Connection ~ 8400 3950
+Connection ~ 6800 3050
+Connection ~ 6800 2950
+Wire Wire Line
+	4950 4850 6200 4850
+Wire Wire Line
+	2550 1800 2550 3150
+Wire Wire Line
+	8400 3950 8400 3650
+Connection ~ 8100 2200
+Wire Wire Line
+	9600 3650 9350 3650
+Connection ~ 9600 3650
+Connection ~ 9600 3350
+Connection ~ 9400 3350
+Connection ~ 9400 2850
+Connection ~ 8100 2500
+Connection ~ 8100 1700
+Wire Wire Line
+	8100 2500 8100 2950
+Wire Wire Line
+	8100 2950 6800 2950
+Wire Wire Line
+	9400 2850 9650 2850
+Connection ~ 6800 3450
+Connection ~ 6800 3350
+Connection ~ 6800 3250
+Connection ~ 6800 3150
+Wire Wire Line
+	4750 3650 4950 3650
+Connection ~ 4950 3650
+Connection ~ 4750 3650
+Connection ~ 4250 3650
+Wire Wire Line
+	6800 3350 7400 3350
+Wire Wire Line
+	7400 3350 7400 3450
+Connection ~ 7400 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6800 3150 7850 3150
+Wire Wire Line
+	7850 3150 7850 3250
+Connection ~ 7850 3250
+Connection ~ 7250 3250
+$Comp
+L GND #PWR58
+U 1 1 4F1C30B1
+P 9350 2600
+F 0 "#PWR58" H 9350 2600 30  0001 C CNN
+F 1 "GND" H 9350 2530 30  0001 C CNN
+	1    9350 2600
+	1    0    0    -1  
+$EndComp
 $Comp
 L JUMPER JP4
 U 1 1 4F1B747C
@@ -210,8 +243,6 @@ F 1 "2.4k" V 10850 3100 50  0000 C CNN
 	1    10850 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 10850 2850 2    40   Input ~ 0
-5vdc
 Text Label 9400 2850 0    40   ~ 0
 5v-USB
 $Comp
@@ -225,8 +256,6 @@ F 1 "10k" V 9400 3100 50  0000 C CNN
 $EndComp
 Text Label 9600 3650 2    40   ~ 0
 USB-GND
-Text HLabel 9350 2500 2    40   Input ~ 0
-GND
 $Comp
 L R R60
 U 1 1 4F1792E7
@@ -329,7 +358,7 @@ RX
 Text HLabel 10850 3650 2    40   BiDi ~ 0
 TX
 Text HLabel 9350 1700 2    40   Input ~ 0
-5vdc
+5vdc-ft232rl
 NoConn ~ 6800 3650
 NoConn ~ 6800 3550
 NoConn ~ 6800 3950

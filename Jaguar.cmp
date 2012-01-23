@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jan 2012 12:56:55 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 22 Jan 2012 06:00:28 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3365;
@@ -299,6 +299,13 @@ TimeStamp = /4F0BB08D/4F1AFAB9;
 Reference = C43;
 ValeurCmp = 1uF;
 IdModule  = cnp_6mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F1C931B;
+Reference = C44;
+ValeurCmp = 0.22uF;
+IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp

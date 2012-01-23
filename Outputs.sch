@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Jan 2012 12:58:37 AM EST
+EESchema Schematic File Version 2  date Sun 22 Jan 2012 05:59:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,31 +32,44 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4700 3500
-Connection ~ 5200 3500
-Connection ~ 5450 3500
-Connection ~ 5450 4000
+$Comp
+L GND #PWR56
+U 1 1 4F1C4528
+P 5450 4100
+F 0 "#PWR56" H 5450 4100 30  0001 C CNN
+F 1 "GND" H 5450 4030 30  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6350 3700 6350 4000
+	5450 4100 5450 4000
 Wire Wire Line
-	6350 4000 5450 4000
+	6500 3300 6500 3100
+Wire Wire Line
+	6350 3300 6650 3300
+Connection ~ 6500 3300
+Connection ~ 6350 3300
+Connection ~ 6350 3700
+Connection ~ 6050 3500
+Connection ~ 5750 3500
+Connection ~ 5200 3100
+Connection ~ 4700 3100
+Connection ~ 5600 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6500 3100 6000 3100
 Wire Wire Line
 	5200 3500 6050 3500
 Wire Wire Line
-	6000 3100 6500 3100
-Connection ~ 6000 3100
-Connection ~ 5600 3100
-Connection ~ 4700 3100
-Connection ~ 5200 3100
-Connection ~ 5750 3500
-Connection ~ 6050 3500
-Connection ~ 6350 3700
-Connection ~ 6350 3300
-Connection ~ 6500 3300
+	6350 3700 6350 4000
+Connection ~ 5450 4000
+Connection ~ 5450 3500
+Connection ~ 5200 3500
+Connection ~ 4700 3500
 Wire Wire Line
-	6350 3300 6650 3300
-Wire Wire Line
-	6500 3100 6500 3300
+	6350 4000 5350 4000
+Text HLabel 5350 4000 0    40   Input ~ 0
+Output-Ground
 $Comp
 L R R63
 U 1 1 4F1AF0F6
@@ -106,8 +119,6 @@ F 1 "2.4k" V 4950 3100 40  0000 C CNN
 $EndComp
 Text HLabel 4700 3500 0    40   Input ~ 0
 PA7
-Text HLabel 5450 4000 0    40   Input ~ 0
-GND
 Text HLabel 6650 3300 2    40   Output ~ 0
 Relay_Negative
 Text HLabel 4700 3100 0    40   Input ~ 0
