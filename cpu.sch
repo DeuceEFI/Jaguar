@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 01:49:16 PM EST
+EESchema Schematic File Version 2  date Mon 23 Jan 2012 05:31:34 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -22,7 +22,7 @@ LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 6 7
+Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
 Date "23 jan 2012"
 Rev "A.1"
@@ -32,13 +32,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6400 1600 0    40   ~ 0
+C4 and C44 X7R Ceramic
+Wire Notes Line
+	1400 1500 1400 1050
+Wire Wire Line
+	4800 7600 4800 6950
+Connection ~ 4500 6950
+Wire Wire Line
+	4800 6950 4500 6950
+Wire Wire Line
+	4050 1500 4050 900 
+Wire Wire Line
+	7000 4550 7700 4550
+Wire Wire Line
+	7700 4550 7700 4400
+Wire Wire Line
+	7700 4400 8450 4400
+Wire Wire Line
+	1000 3900 1450 3900
 Wire Wire Line
 	1300 4350 1300 4300
-Wire Wire Line
-	1300 4300 1450 4300
 Connection ~ 6100 1750
 Wire Wire Line
-	5900 1750 7150 1750
+	7150 1750 5900 1750
 Connection ~ 7700 2850
 Wire Wire Line
 	7000 2850 7700 2850
@@ -60,15 +77,11 @@ Wire Wire Line
 	1900 7150 1900 7200
 Connection ~ 4050 1400
 Wire Wire Line
-	4050 1250 4050 1500
-Wire Wire Line
 	6100 1750 6100 1850
-Wire Wire Line
-	8450 4400 7950 4400
 Wire Wire Line
 	8450 4400 8450 4450
 Wire Wire Line
-	4400 6550 4400 7700
+	4400 7700 4400 6550
 Connection ~ 4100 7200
 Connection ~ 3600 7200
 Connection ~ 3700 7500
@@ -76,11 +89,9 @@ Connection ~ 4200 7500
 Wire Wire Line
 	4100 7200 4100 6550
 Wire Wire Line
-	3600 7200 3600 7700
+	3600 7700 3600 7200
 Wire Wire Line
-	4500 7250 4800 7250
-Wire Wire Line
-	4500 7250 4500 6550
+	4500 6950 4500 6550
 Connection ~ 7000 4850
 Connection ~ 7000 4750
 Connection ~ 7000 4450
@@ -123,10 +134,6 @@ Wire Wire Line
 	9250 4350 9250 3950
 Wire Wire Line
 	9250 3950 8950 3950
-Wire Wire Line
-	7950 4400 7950 4550
-Wire Wire Line
-	7950 4550 7000 4550
 Connection ~ 4050 1250
 Connection ~ 3650 1250
 Wire Wire Line
@@ -189,17 +196,15 @@ Connection ~ 7000 4550
 Connection ~ 5200 6550
 Connection ~ 1650 6650
 Wire Wire Line
-	7900 6350 8400 6350
+	8400 6350 7900 6350
 Wire Wire Line
 	10450 6300 10450 6400
 Wire Wire Line
 	9950 6300 9950 6400
 Wire Wire Line
-	1300 3900 1450 3900
+	1450 4050 1450 3900
 Wire Wire Line
-	1450 3900 1450 4050
-Wire Wire Line
-	1450 4300 1450 4150
+	1450 4150 1450 4300
 Wire Wire Line
 	1450 4150 2200 4150
 Wire Wire Line
@@ -207,30 +212,17 @@ Wire Wire Line
 Wire Wire Line
 	3800 1400 3650 1400
 Wire Wire Line
-	3650 1400 3650 1250
-Wire Wire Line
 	700  6650 850  6650
 Wire Wire Line
-	7000 4650 7950 4650
-Wire Wire Line
-	7950 4650 7950 4800
-Wire Wire Line
-	7950 4800 8150 4800
-Connection ~ 8150 4400
-Connection ~ 8150 4800
-Wire Wire Line
-	9250 4850 7000 4850
+	7000 4850 9250 4850
 Connection ~ 8950 3950
 Connection ~ 9250 4350
 Connection ~ 8950 4350
 Connection ~ 8950 4850
 Connection ~ 9250 4850
-Connection ~ 8950 5450
 Wire Wire Line
 	4600 6550 4600 6750
 Connection ~ 4600 6550
-Wire Wire Line
-	4800 7250 4800 7600
 Connection ~ 4800 7600
 Connection ~ 4400 7600
 Connection ~ 4700 6550
@@ -264,8 +256,6 @@ Connection ~ 3500 6900
 Wire Wire Line
 	9950 6800 9950 6850
 Wire Wire Line
-	8950 5500 8950 5450
-Wire Wire Line
 	1650 6650 1650 6550
 Wire Wire Line
 	1650 6550 1750 6550
@@ -276,7 +266,6 @@ Wire Wire Line
 Connection ~ 1900 1250
 Wire Wire Line
 	5200 6550 5200 6850
-Connection ~ 4800 7250
 Wire Wire Line
 	1700 7000 1650 7000
 Wire Wire Line
@@ -296,6 +285,95 @@ Connection ~ 5900 1350
 Connection ~ 7150 2150
 Connection ~ 9250 3950
 Connection ~ 1300 4300
+Wire Wire Line
+	8950 4850 8950 5050
+Wire Wire Line
+	8950 5500 8950 5250
+Connection ~ 8950 5050
+Connection ~ 8950 5250
+Wire Wire Line
+	1450 4300 1000 4300
+Connection ~ 1000 3900
+Connection ~ 1000 4300
+Wire Wire Line
+	7000 4650 7700 4650
+Wire Wire Line
+	7700 4650 7700 4800
+Wire Wire Line
+	7700 4800 8200 4800
+Connection ~ 8200 4400
+Connection ~ 8200 4800
+Connection ~ 7900 4800
+Connection ~ 7900 4400
+Wire Wire Line
+	3650 1400 3650 900 
+Connection ~ 3650 900 
+Connection ~ 4050 900 
+Connection ~ 4400 7300
+Connection ~ 4800 7300
+Wire Notes Line
+	1400 1500 2000 1500
+Wire Notes Line
+	2000 1500 2000 1050
+Wire Notes Line
+	2000 1050 1400 1050
+Text Notes 1450 1450 0    60   ~ 0
+CPU Power
+Text Notes 4700 7700 0    40   ~ 0
+C48 10v Tantalum\nC3 X7R Ceramic
+Text Notes 3550 550  0    40   ~ 0
+C47 10v Tantalum\nC2 X7R Ceramic
+$Comp
+L C C48
+U 1 1 4F1DD593
+P 4600 7600
+F 0 "C48" H 4650 7700 50  0000 L CNN
+F 1 "10uF" H 4650 7500 50  0000 L CNN
+	1    4600 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C47
+U 1 1 4F1DD576
+P 3850 900
+F 0 "C47" H 3900 1000 50  0000 L CNN
+F 1 "10uF" H 3900 800 50  0000 L CNN
+	1    3850 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C46
+U 1 1 4F1DD206
+P 8200 4600
+F 0 "C46" H 8250 4700 50  0000 L CNN
+F 1 "0.22uF" H 8250 4500 50  0000 L CNN
+	1    8200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C45
+U 1 1 4F1DD1E9
+P 1000 4100
+F 0 "C45" H 1050 4200 50  0000 L CNN
+F 1 "0.22uF" H 1050 4000 50  0000 L CNN
+	1    1000 4100
+	-1   0    0    1   
+$EndComp
+Text Notes 9050 5100 0    40   ~ 0
+Load/Run:\nOpen = Run\nClosed = Load
+Text Notes 900  3800 0    40   ~ 0
+C1 10v Tantalum\nC45 X7R Ceramic
+Text Notes 7950 4300 0    40   ~ 0
+C5 10v Tantalum\nC46 X7R Ceramic
+$Comp
+L CONN_2 Load1
+U 1 1 4F1DBE71
+P 8600 5150
+F 0 "Load1" V 8550 5150 40  0000 C CNN
+F 1 "Load/Run" V 8650 5150 40  0000 C CNN
+	1    8600 5150
+	-1   0    0    1   
+$EndComp
 $Comp
 L GND #PWR02
 U 1 1 4F1D6CA4
@@ -364,11 +442,11 @@ $EndComp
 $Comp
 L VDD #PWR08
 U 1 1 4F1C3179
-P 4800 7250
-F 0 "#PWR08" H 4800 7350 30  0001 C CNN
-F 1 "VDD" H 4800 7360 30  0000 C CNN
-	1    4800 7250
-	1    0    0    -1  
+P 4800 7300
+F 0 "#PWR08" H 4800 7400 30  0001 C CNN
+F 1 "VDD" H 4800 7410 30  0000 C CNN
+	1    4800 7300
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR09
@@ -418,10 +496,10 @@ $EndComp
 $Comp
 L VDD #PWR014
 U 1 1 4F1C30DD
-P 3650 1250
-F 0 "#PWR014" H 3650 1350 30  0001 C CNN
-F 1 "VDD" H 3650 1360 30  0000 C CNN
-	1    3650 1250
+P 3650 900
+F 0 "#PWR014" H 3650 1000 30  0001 C CNN
+F 1 "VDD" H 3650 1010 30  0000 C CNN
+	1    3650 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -530,15 +608,6 @@ Text Notes 1050 7050 0    40   ~ 0
 BDM Connector
 Text HLabel 7000 2750 2    40   Input ~ 0
 5vdc-analog
-$Comp
-L JUMPER Load1
-U 1 1 4F1B0199
-P 8950 5150
-F 0 "Load1" H 8950 5300 60  0000 C CNN
-F 1 "JUMPER" H 8950 5070 40  0000 C CNN
-	1    8950 5150
-	0    -1   -1   0   
-$EndComp
 Text HLabel 1800 1250 0    40   Input ~ 0
 5vdc-cpu
 $Comp
@@ -866,10 +935,10 @@ $EndComp
 $Comp
 L C C3
 U 1 1 4F0A3455
-P 4600 7600
-F 0 "C3" H 4650 7700 50  0000 L CNN
-F 1 "0.22uF" H 4650 7500 50  0000 L CNN
-	1    4600 7600
+P 4600 7300
+F 0 "C3" H 4650 7400 50  0000 L CNN
+F 1 "0.22uF" H 4650 7200 50  0000 L CNN
+	1    4600 7300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -877,17 +946,17 @@ L C C1
 U 1 1 4F0A3365
 P 1300 4100
 F 0 "C1" H 1350 4200 50  0000 L CNN
-F 1 "0.22uF" H 1350 4000 50  0000 L CNN
+F 1 "10uF" H 1350 4000 50  0000 L CNN
 	1    1300 4100
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C5
 U 1 1 4F0A3335
-P 8150 4600
-F 0 "C5" H 8200 4700 50  0000 L CNN
-F 1 "0.22uF" H 8200 4500 50  0000 L CNN
-	1    8150 4600
+P 7900 4600
+F 0 "C5" H 7950 4700 50  0000 L CNN
+F 1 "10uF" H 7950 4500 50  0000 L CNN
+	1    7900 4600
 	1    0    0    -1  
 $EndComp
 $Comp

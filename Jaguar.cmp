@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 23 Jan 2012 01:35:54 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 23 Jan 2012 05:01:02 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3365;
 Reference = C1;
-ValeurCmp = 0.22uF;
+ValeurCmp = 10uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3455;
 Reference = C3;
 ValeurCmp = 0.22uF;
-IdModule  = cnp_6mm_disc;
+IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3335;
 Reference = C5;
-ValeurCmp = 0.22uF;
+ValeurCmp = 10uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -309,6 +309,34 @@ IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A2F06/4F1DD1E9;
+Reference = C45;
+ValeurCmp = 0.22uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F1DD206;
+Reference = C46;
+ValeurCmp = 0.22uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F1DD576;
+Reference = C47;
+ValeurCmp = 10uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F1DD593;
+Reference = C48;
+ValeurCmp = 10uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F179B05;
 Reference = D1;
 ValeurCmp = LED;
@@ -327,6 +355,20 @@ TimeStamp = /4F0A4778/4F17992C;
 Reference = D3;
 ValeurCmp = 1N5919BG;
 IdModule  = diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1DC643;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1DC64E;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
@@ -568,9 +610,9 @@ IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F1B0199;
+TimeStamp = /4F0A2F06/4F1DBE71;
 Reference = Load1;
-ValeurCmp = JUMPER;
+ValeurCmp = Load/Run;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -880,6 +922,20 @@ TimeStamp = /4F0A2F06/4F179AD3;
 Reference = R8;
 ValeurCmp = 2.4k;
 IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1DC62C;
+Reference = R9;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1DC636;
+Reference = R10;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
