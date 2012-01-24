@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 23 Jan 2012 10:49:58 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 24 Jan 2012 04:57:02 PM EST
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F1E09A1;
+TimeStamp = /4F0A2F06/4F1DD1E9;
 Reference = C1;
-ValeurCmp = 10uF;
+ValeurCmp = 0.22uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -29,9 +29,9 @@ IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F1E0931;
+TimeStamp = /4F0A2F06/4F1DD206;
 Reference = C5;
-ValeurCmp = 10uF;
+ValeurCmp = 0.22uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -309,20 +309,6 @@ IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F1DD1E9;
-Reference = C45;
-ValeurCmp = 0.22uF;
-IdModule  = cnp_3mm_disc;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/4F1DD206;
-Reference = C46;
-ValeurCmp = 0.22uF;
-IdModule  = cnp_3mm_disc;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0A2F06/4F1E09CB;
 Reference = C47;
 ValeurCmp = 10uF;
@@ -582,6 +568,20 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0BB08D/4F1E9F0D;
+Reference = JP1;
+ValeurCmp = POS/NEG;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1ED2EA;
+Reference = JP2;
+ValeurCmp = POS/NEG;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1B7347;
 Reference = JP3;
 ValeurCmp = JUMPER;
@@ -820,6 +820,20 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F1EAE6B;
+Reference = P33;
+ValeurCmp = Injectors-PB;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F1EA4A9;
+Reference = P34;
+ValeurCmp = Injectors;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0D0381/4F062E00;
 Reference = Q1;
 ValeurCmp = VND14NV04;
@@ -872,7 +886,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3C28;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
@@ -893,7 +907,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A40AD;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = rc07_vert;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
@@ -962,14 +976,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8AB0;
 Reference = R14;
-ValeurCmp = 1.6k;
+ValeurCmp = 1k;
 IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8AA6;
 Reference = R15;
-ValeurCmp = 330;
+ValeurCmp = 470;
 IdModule  = RC03_VERT;
 EndCmp
 
@@ -1307,6 +1321,20 @@ TimeStamp = /4F0D82A1/4F1AF0F6;
 Reference = R63;
 ValeurCmp = 100k;
 IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1ED330;
+Reference = R64;
+ValeurCmp = 1k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F1ED2FB;
+Reference = R65;
+ValeurCmp = 470;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp

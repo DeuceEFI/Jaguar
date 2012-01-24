@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 10:59:50 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,19 +33,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VDD #PWR025
+L VDD #PWR026
 U 1 1 4F1C4720
 P 10850 2850
-F 0 "#PWR025" H 10850 2950 30  0001 C CNN
+F 0 "#PWR026" H 10850 2950 30  0001 C CNN
 F 1 "VDD" H 10850 2960 30  0000 C CNN
 	1    10850 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR026
+L VDD #PWR027
 U 1 1 4F1C4712
 P 9350 1700
-F 0 "#PWR026" H 9350 1800 30  0001 C CNN
+F 0 "#PWR027" H 9350 1800 30  0001 C CNN
 F 1 "VDD" H 9350 1810 30  0000 C CNN
 	1    9350 1700
 	1    0    0    -1  
@@ -170,10 +170,10 @@ Wire Wire Line
 Connection ~ 7850 3250
 Connection ~ 7250 3250
 $Comp
-L GND #PWR027
+L GND #PWR028
 U 1 1 4F1C30B1
 P 9350 2600
-F 0 "#PWR027" H 9350 2600 30  0001 C CNN
+F 0 "#PWR028" H 9350 2600 30  0001 C CNN
 F 1 "GND" H 9350 2530 30  0001 C CNN
 	1    9350 2600
 	1    0    0    -1  

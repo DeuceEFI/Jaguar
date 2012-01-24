@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 10:59:50 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -86,19 +86,19 @@ Connection ~ 5050 3750
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR057
+L GND #PWR061
 U 1 1 4F1C2CDE
 P 5050 3850
-F 0 "#PWR057" H 5050 3850 30  0001 C CNN
+F 0 "#PWR061" H 5050 3850 30  0001 C CNN
 F 1 "GND" H 5050 3780 30  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L GND #PWR062
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR058" H 5050 2750 30  0001 C CNN
+F 0 "#PWR062" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  

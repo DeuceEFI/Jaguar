@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jan 2012 10:59:50 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,52 +32,159 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 9300 6150 0    40   Input ~ 0
+DIS-Bypass
+Text GLabel 6900 2150 2    40   Output ~ 0
+DIS-Bypass
+Connection ~ 7000 1200
+Connection ~ 7000 1300
+Connection ~ 7000 1400
+Connection ~ 7000 1500
+Connection ~ 7000 1600
+Connection ~ 7000 1700
+Connection ~ 7000 1900
+NoConn ~ 7000 1800
+Wire Wire Line
+	7000 1200 6900 1200
+Wire Wire Line
+	7000 1400 6900 1400
+Wire Wire Line
+	7000 1600 6900 1600
+Wire Wire Line
+	7000 1900 7000 1950
+Wire Notes Line
+	7200 2800 5050 2800
+Wire Notes Line
+	7200 2800 7200 4600
+Wire Notes Line
+	7200 4600 5050 4600
+Wire Notes Line
+	5050 4600 5050 2800
+Wire Wire Line
+	9000 3950 9000 4100
+Connection ~ 9000 3950
+Connection ~ 9000 4050
+Wire Wire Line
+	9050 4000 9000 4000
+Connection ~ 9000 4000
+Wire Notes Line
+	550  7750 550  550 
+Wire Notes Line
+	550  7750 4200 7750
+Wire Notes Line
+	4200 7750 4200 550 
+Wire Notes Line
+	4200 550  550  550 
+Wire Wire Line
+	7000 1700 6900 1700
+Wire Wire Line
+	7000 1500 6900 1500
+Wire Wire Line
+	7000 1300 6900 1300
+Text Notes 650  1550 0    60   ~ 0
+P33 can be used to install a 100k ohm resistor network \n(Bourns, Inc. P/N 4308R-101-104LF) if it is not used as an\noutput to drive injectors.
+$Comp
+L GND #PWR01
+U 1 1 4F1EAED6
+P 7000 1950
+F 0 "#PWR01" H 7000 1950 30  0001 C CNN
+F 1 "GND" H 7000 1880 30  0001 C CNN
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P33
+U 1 1 4F1EAE6B
+P 7350 1550
+F 0 "P33" V 7300 1550 60  0000 C CNN
+F 1 "Injectors-PB" V 7400 1550 60  0000 C CNN
+	1    7350 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3900 0    40   ~ 0
+For Sequential Injection\nrun jumper wires from:\nP33 to P34 pin for pin\nfor the first 6 pins.\n
+Text Notes 5100 3450 0    40   ~ 0
+For Semi-Sequential Injection\nrun jumper wires from:\nP34 pin 1 to P34 pin 2\nP34 pin 3 to P34 pin 4\nP34 pin 5 to P34 pin 6
+Text Notes 5100 2950 0    40   ~ 0
+For Semi-Sequential Injection \nrun jumper wires from: \nP20 pin 1 to P21 pin 1 = Bank 1\nP20 pin 2 to P21 pin 2 = Bank 2\nP20 pin 3 to P21 pin 3 = Bank 3
+Text Notes 5200 4400 0    60   ~ 0
+P21 and P34 allow for selection for\nSemi-Sequential or Sequential Injection
+Text GLabel 6650 3150 2    40   Output ~ 0
+Injector6-IN
+Text GLabel 6650 3050 2    40   Output ~ 0
+Injector4-IN
+Text GLabel 6650 2950 2    40   Output ~ 0
+Injector2-IN
+Text GLabel 6650 3950 2    40   Output ~ 0
+Injector6-IN
+Text GLabel 6650 3850 2    40   Output ~ 0
+Injector5-IN
+Text GLabel 6650 3750 2    40   Output ~ 0
+Injector4-IN
+Text GLabel 6650 3650 2    40   Output ~ 0
+Injector3-IN
+Text GLabel 6650 3550 2    40   Output ~ 0
+Injector2-IN
+Text GLabel 9050 1300 0    40   Input ~ 0
+Injector6-IN
+Text GLabel 9050 1200 0    40   Input ~ 0
+Injector5-IN
+Text GLabel 9050 1100 0    40   Input ~ 0
+Injector4-IN
+Text GLabel 9050 1000 0    40   Input ~ 0
+Injector3-IN
+Text GLabel 9050 900  0    40   Input ~ 0
+Injector2-IN
+Text GLabel 6650 3450 2    40   Output ~ 0
+Injector1-IN
+Text GLabel 9050 800  0    40   Input ~ 0
+Injector1-IN
+$Comp
+L CONN_6 P34
+U 1 1 4F1EA4A9
+P 6300 3700
+F 0 "P34" V 6250 3700 60  0000 C CNN
+F 1 "Injectors" V 6350 3700 60  0000 C CNN
+	1    6300 3700
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 5200 700  1700 1800
+U 4F0A2F06
+F0 "CPU" 40
+F1 "cpu.sch" 40
+F2 "Fuel-Pump-Drive" O R 6900 2350 40 
+F3 "DIS-Advance-Signal" O R 6900 2250 40 
+F4 "Tach-Signal" I L 5200 1250 40 
+F5 "MAF-Signal" I L 5200 2300 40 
+F6 "MAT-Signal" I L 5200 2100 40 
+F7 "BRV-Signal" I L 5200 1800 40 
+F8 "MAP-Signal" I L 5200 1700 40 
+F9 "O2-Signal" I L 5200 2000 40 
+F10 "TPS-Signal" I L 5200 1900 40 
+F11 "Coolant-Signal" I L 5200 1600 40 
+F12 "IAT-Signal" I L 5200 1500 40 
+F13 "AAP-Signal" I L 5200 2200 40 
+F14 "Cam-Position" I L 5200 1350 40 
+F15 "5vdc-analog" I L 5200 850 40 
+F16 "5vdc-cpu" I L 5200 750 40 
+F17 "Injector6-PB" O R 6900 1700 40 
+F18 "Injector5-PB" O R 6900 1600 40 
+F19 "Injector4-PB" O R 6900 1500 40 
+F20 "Injector3-PB" O R 6900 1400 40 
+F21 "Injector2-PB" O R 6900 1300 40 
+F22 "Injector1-PB" O R 6900 1200 40 
+F23 "Injector3-PT" O R 6900 1000 40 
+F24 "Injector2-PT" O R 6900 900 40 
+F25 "Injector1-PT" O R 6900 800 40 
+F26 "DIS-Bypass-PT" O R 6900 2150 40 
+$EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 34 position will allow for modifications to the board for additional \ninputs as this design only uses 27 positions.
 Text Notes 650  900  0    60   ~ 0
 All Jumpers labeled JP# are crossover wires, nothing more to ease \nsingle sided PCB Prototype testing.
 Text Notes 600  700  0    60   ~ 12
 Notes:
-Wire Notes Line
-	4200 550  550  550 
-Wire Notes Line
-	4200 550  4200 7750
-Wire Notes Line
-	4200 7750 550  7750
-Wire Notes Line
-	550  7750 550  550 
-Connection ~ 9000 4000
-Wire Wire Line
-	9050 4000 9000 4000
-Connection ~ 9000 4050
-Connection ~ 9000 3950
-Wire Wire Line
-	9000 3950 9000 4100
-$Sheet
-S 5200 700  1700 1800
-U 4F0A2F06
-F0 "CPU" 40
-F1 "cpu.sch" 40
-F2 "Fuel-Pump-Drive" O R 6900 1700 40 
-F3 "Injector4-Drive" O R 6900 1100 40 
-F4 "Injector3-Drive" O R 6900 1000 40 
-F5 "Injector2-Drive" O R 6900 900 40 
-F6 "Injector1-Drive" O R 6900 800 40 
-F7 "DIS-Advance-Signal" O R 6900 1500 40 
-F8 "Tach-Signal" I L 5200 1250 40 
-F9 "MAF-Signal" I L 5200 2300 40 
-F10 "MAT-Signal" I L 5200 2100 40 
-F11 "BRV-Signal" I L 5200 1800 40 
-F12 "MAP-Signal" I L 5200 1700 40 
-F13 "O2-Signal" I L 5200 2000 40 
-F14 "TPS-Signal" I L 5200 1900 40 
-F15 "Coolant-Signal" I L 5200 1600 40 
-F16 "IAT-Signal" I L 5200 1500 40 
-F17 "AAP-Signal" I L 5200 2200 40 
-F18 "Cam-Position" I L 5200 1350 40 
-F19 "5vdc-analog" I L 5200 850 40 
-F20 "5vdc-cpu" I L 5200 750 40 
-$EndSheet
 $Comp
 L CONN_1 P32
 U 1 1 4F1CD4E4
@@ -96,74 +203,74 @@ F 1 "OUT-GND" H 8900 2855 30  0001 C CNN
 	1    8900 2800
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7000 4550
-NoConn ~ 7000 5950
-NoConn ~ 7000 5850
-NoConn ~ 7000 5750
-NoConn ~ 7000 5650
-NoConn ~ 7000 5550
-NoConn ~ 7000 5450
-NoConn ~ 7000 5350
-NoConn ~ 7000 5250
-NoConn ~ 7000 5150
-NoConn ~ 5200 5550
-NoConn ~ 5200 5650
-NoConn ~ 5200 5750
-NoConn ~ 5200 5850
-NoConn ~ 5200 5950
-NoConn ~ 5200 6050
-NoConn ~ 5200 6150
-NoConn ~ 5200 5450
-NoConn ~ 5200 5350
-NoConn ~ 5200 5250
-NoConn ~ 5200 5150
-NoConn ~ 5200 5050
-NoConn ~ 5200 4950
-NoConn ~ 5200 4850
-NoConn ~ 5200 4750
-NoConn ~ 5200 4650
-NoConn ~ 5200 4550
+NoConn ~ 7000 5100
+NoConn ~ 7000 6500
+NoConn ~ 7000 6400
+NoConn ~ 7000 6300
+NoConn ~ 7000 6200
+NoConn ~ 7000 6100
+NoConn ~ 7000 6000
+NoConn ~ 7000 5900
+NoConn ~ 7000 5800
+NoConn ~ 7000 5700
+NoConn ~ 5200 6100
+NoConn ~ 5200 6200
+NoConn ~ 5200 6300
+NoConn ~ 5200 6400
+NoConn ~ 5200 6500
+NoConn ~ 5200 6600
+NoConn ~ 5200 6700
+NoConn ~ 5200 6000
+NoConn ~ 5200 5900
+NoConn ~ 5200 5800
+NoConn ~ 5200 5700
+NoConn ~ 5200 5600
+NoConn ~ 5200 5500
+NoConn ~ 5200 5400
+NoConn ~ 5200 5300
+NoConn ~ 5200 5200
+NoConn ~ 5200 5100
 $Comp
-L GND #PWR01
+L GND #PWR02
 U 1 1 4F1CCA54
 P 9000 4100
-F 0 "#PWR01" H 9000 4100 30  0001 C CNN
+F 0 "#PWR02" H 9000 4100 30  0001 C CNN
 F 1 "GND" H 9000 4030 30  0001 C CNN
 	1    9000 4100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7000 4650
-NoConn ~ 7000 4750
-NoConn ~ 7000 4850
-NoConn ~ 7000 4950
-NoConn ~ 7000 5050
-NoConn ~ 7000 6050
-NoConn ~ 7000 6150
-Text GLabel 7000 5950 2    40   Input ~ 0
+NoConn ~ 7000 5200
+NoConn ~ 7000 5300
+NoConn ~ 7000 5400
+NoConn ~ 7000 5500
+NoConn ~ 7000 5600
+NoConn ~ 7000 6600
+NoConn ~ 7000 6700
+Text GLabel 7000 6500 2    40   Input ~ 0
 P26-6
-Text GLabel 7000 5850 2    40   Input ~ 0
+Text GLabel 7000 6400 2    40   Input ~ 0
 P26-5
-Text GLabel 7000 5750 2    40   Input ~ 0
+Text GLabel 7000 6300 2    40   Input ~ 0
 P26-4
-Text GLabel 7000 5650 2    40   Input ~ 0
+Text GLabel 7000 6200 2    40   Input ~ 0
 P26-3
-Text GLabel 7000 5550 2    40   Input ~ 0
+Text GLabel 7000 6100 2    40   Input ~ 0
 P26-2
-Text GLabel 7000 5450 2    40   Input ~ 0
+Text GLabel 7000 6000 2    40   Input ~ 0
 P26-1
-Text GLabel 7000 5250 2    40   Input ~ 0
+Text GLabel 7000 5800 2    40   Input ~ 0
 P19
-Text GLabel 7000 5150 2    40   Input ~ 0
+Text GLabel 7000 5700 2    40   Input ~ 0
 P18
-Text GLabel 7000 5350 2    40   Input ~ 0
+Text GLabel 7000 5900 2    40   Input ~ 0
 P22
-Text GLabel 7000 4550 2    40   Input ~ 0
+Text GLabel 7000 5100 2    40   Input ~ 0
 P25
-Text GLabel 5200 4550 0    40   Input ~ 0
+Text GLabel 5200 5100 0    40   Input ~ 0
 P11
-Text GLabel 5200 4650 0    40   Input ~ 0
+Text GLabel 5200 5200 0    40   Input ~ 0
 P10
-Text GLabel 5200 4750 0    40   Input ~ 0
+Text GLabel 5200 5300 0    40   Input ~ 0
 P9
 $Comp
 L CONN_1 P9
@@ -174,43 +281,43 @@ F 1 "TPS-5v" H 9150 5605 30  0001 C CNN
 	1    9150 5550
 	-1   0    0    1   
 $EndComp
-Text GLabel 5200 4850 0    40   Input ~ 0
+Text GLabel 5200 5400 0    40   Input ~ 0
 P13
-Text GLabel 5200 4950 0    40   Input ~ 0
+Text GLabel 5200 5500 0    40   Input ~ 0
 P12
-Text GLabel 5200 5050 0    40   Input ~ 0
+Text GLabel 5200 5600 0    40   Input ~ 0
 P8
-Text GLabel 5200 5150 0    40   Input ~ 0
+Text GLabel 5200 5700 0    40   Input ~ 0
 P7
-Text GLabel 5200 5250 0    40   Input ~ 0
+Text GLabel 5200 5800 0    40   Input ~ 0
 P6
-Text GLabel 5200 5350 0    40   Input ~ 0
+Text GLabel 5200 5900 0    40   Input ~ 0
 P17
-Text GLabel 5200 5450 0    40   Input ~ 0
+Text GLabel 5200 6000 0    40   Input ~ 0
 P16
-Text GLabel 5200 5550 0    40   Input ~ 0
+Text GLabel 5200 6100 0    40   Input ~ 0
 P15
-Text GLabel 5200 5650 0    40   Input ~ 0
+Text GLabel 5200 6200 0    40   Input ~ 0
 P14
-Text GLabel 5200 6050 0    40   Input ~ 0
+Text GLabel 5200 6600 0    40   Input ~ 0
 P2
-Text GLabel 5200 5750 0    40   Input ~ 0
+Text GLabel 5200 6300 0    40   Input ~ 0
 P5
-Text GLabel 5200 5850 0    40   Input ~ 0
+Text GLabel 5200 6400 0    40   Input ~ 0
 P3
-Text GLabel 5200 5950 0    40   Input ~ 0
+Text GLabel 5200 6500 0    40   Input ~ 0
 P4
-Text GLabel 5200 6150 0    40   Input ~ 0
+Text GLabel 5200 6700 0    40   Input ~ 0
 P1
-Text Notes 5800 6600 0    40   ~ 0
+Text Notes 5900 7000 0    40   ~ 0
 External Connector\nNOT TO SCALE
 $Comp
 L TE-34 J2
 U 1 1 4F1CBAE8
-P 6100 5450
-F 0 "J2" H 6050 6500 60  0000 C CNN
-F 1 "TE-34" H 6100 4600 60  0000 C CNN
-	1    6100 5450
+P 6100 6000
+F 0 "J2" H 6050 7050 60  0000 C CNN
+F 1 "TE-34" H 6100 5150 60  0000 C CNN
+	1    6100 6000
 	1    0    0    -1  
 $EndComp
 Text GLabel 10600 1600 2    40   Output ~ 0
@@ -220,32 +327,33 @@ S 9300 4850 1350 1900
 U 4F0BB08D
 F0 "Inputs" 40
 F1 "inputs.sch" 40
-F2 "DIS-Bypass" O R 10650 6350 40 
-F3 "O2-Sensor-GND" I L 9300 6150 40 
-F4 "TPS-Sensor-GND" I L 9300 5750 40 
-F5 "Coolant-Sensor" I L 9300 5400 40 
-F6 "Coolant-CPU-Signal" O R 10650 5450 40 
-F7 "O2-Sensor" I L 9300 6050 40 
-F8 "O2-CPU-Signal" O R 10650 6050 40 
-F9 "IAT-CPU-Signal" O R 10650 5250 40 
-F10 "IAT-Sensor" I L 9300 5200 40 
-F11 "TPS-CPU-Signal" O R 10650 5750 40 
-F12 "TPS-Sensor" I L 9300 5650 40 
-F13 "MAT-Sensor" I L 9300 5300 40 
-F14 "MAT-CPU-Signal" O R 10650 5350 40 
-F15 "BRV" O R 10650 4900 40 
-F16 "MAP-CPU-Signal" O R 10650 5000 40 
-F17 "5vdc-switched" I L 9300 5000 40 
-F18 "IGN-Advance-Signal" B L 9300 6250 40 
-F19 "IGN-Advance" O R 10650 6450 40 
-F20 "BRV-12v" I L 9300 4900 40 
-F21 "CamPosition-OUT" B R 10650 6650 40 
-F22 "Crank-OUT" O R 10650 6550 40 
-F23 "Cam-IN-" B L 9300 6650 40 
-F24 "Crank-IN-" B L 9300 6450 40 
-F25 "Cam-IN+" B L 9300 6550 40 
-F26 "Crank-IN+" B L 9300 6350 40 
-F27 "TPS-5vdc" O L 9300 5550 40 
+F2 "O2-Sensor-GND" I L 9300 6000 40 
+F3 "TPS-Sensor-GND" I L 9300 5750 40 
+F4 "Coolant-Sensor" I L 9300 5400 40 
+F5 "Coolant-CPU-Signal" O R 10650 5450 40 
+F6 "O2-Sensor" I L 9300 5900 40 
+F7 "O2-CPU-Signal" O R 10650 6050 40 
+F8 "IAT-CPU-Signal" O R 10650 5250 40 
+F9 "IAT-Sensor" I L 9300 5200 40 
+F10 "TPS-CPU-Signal" O R 10650 5750 40 
+F11 "TPS-Sensor" I L 9300 5650 40 
+F12 "MAT-Sensor" I L 9300 5300 40 
+F13 "MAT-CPU-Signal" O R 10650 5350 40 
+F14 "BRV" O R 10650 4900 40 
+F15 "MAP-CPU-Signal" O R 10650 5000 40 
+F16 "5vdc-switched" I L 9300 5000 40 
+F17 "IGN-Advance-Signal" B L 9300 6250 40 
+F18 "IGN-Advance" O R 10650 6450 40 
+F19 "BRV-12v" I L 9300 4900 40 
+F20 "CamPosition-OUT" B R 10650 6650 40 
+F21 "Crank-OUT" O R 10650 6550 40 
+F22 "Cam-IN-" B L 9300 6650 40 
+F23 "Crank-IN-" B L 9300 6450 40 
+F24 "Cam-IN+" B L 9300 6550 40 
+F25 "Crank-IN+" B L 9300 6350 40 
+F26 "TPS-5vdc" O L 9300 5550 40 
+F27 "DIS-Bypass-Signal" I L 9300 6150 40 
+F28 "DIS-Bypass-OUT" O R 10650 6350 40 
 $EndSheet
 Text GLabel 9300 5000 0    40   Input ~ 0
 5vdc-switch
@@ -255,13 +363,12 @@ NoConn ~ 5200 2200
 $Comp
 L CONN_3 P21
 U 1 1 4F18B4DC
-P 8700 900
-F 0 "P21" V 8650 900 50  0000 C CNN
-F 1 "Inj-IN" V 8750 900 40  0000 C CNN
-	1    8700 900 
+P 6300 3050
+F 0 "P21" V 6250 3050 50  0000 C CNN
+F 1 "Inj-IN" V 6350 3050 40  0000 C CNN
+	1    6300 3050
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6900 1100
 $Comp
 L CONN_3 P20
 U 1 1 4F18B47B
@@ -334,7 +441,7 @@ F 1 "CAM+" H 9150 6605 30  0001 C CNN
 $EndComp
 Text GLabel 9050 2550 0    40   Input ~ 0
 Fuel-Pump-Drive
-Text GLabel 6900 1700 2    40   Output ~ 0
+Text GLabel 6900 2350 2    40   Output ~ 0
 Fuel-Pump-Drive
 $Comp
 L CONN_1 P25
@@ -381,6 +488,9 @@ F10 "Injector1" I L 9050 800 40
 F11 "12v-sw" I L 9050 1500 40 
 F12 "Injector-Ground" I L 9050 1600 40 
 F13 "12v-Outputs" O R 10600 1600 40 
+F14 "Injector6" I L 9050 1300 40 
+F15 "Injector5" I L 9050 1200 40 
+F16 "Injector4" I L 9050 1100 40 
 $EndSheet
 $Sheet
 S 9050 3300 1050 400 
@@ -421,19 +531,19 @@ $EndComp
 $Comp
 L CONN_1 P13
 U 1 1 4F0BB588
-P 9150 6150
-F 0 "P13" H 9230 6150 40  0000 L CNN
-F 1 "O2-GND" H 9150 6205 30  0001 C CNN
-	1    9150 6150
+P 9150 6000
+F 0 "P13" H 9230 6000 40  0000 L CNN
+F 1 "O2-GND" H 9150 6055 30  0001 C CNN
+	1    9150 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P12
 U 1 1 4F0BB57B
-P 9150 6050
-F 0 "P12" H 9230 6050 40  0000 L CNN
-F 1 "O2" H 9150 6105 30  0001 C CNN
-	1    9150 6050
+P 9150 5900
+F 0 "P12" H 9230 5900 40  0000 L CNN
+F 1 "O2" H 9150 5955 30  0001 C CNN
+	1    9150 5900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -527,7 +637,7 @@ Text GLabel 10650 5000 2    40   Output ~ 0
 MAP
 Text GLabel 10650 4900 2    40   Output ~ 0
 BRV
-Text GLabel 6900 1500 2    40   Output ~ 0
+Text GLabel 6900 2250 2    40   Output ~ 0
 Timing-Advance
 Text GLabel 5200 1250 0    40   Input ~ 0
 TACH
