@@ -1,10 +1,10 @@
 # Jaguar Board for FreeEMS
 
-JAG 01/23/2012 0746 EST (GMT-0500)
+JAG 01/23/2012 2307 EST (GMT-0500)
 
 ### Introduction
 
-The name "JAGuar" comes from my initials and the great cat keeping in the FreeEMS tradition of using cat names...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.
+The name "Jaguar" comes from my initials and the great cat keeping in the FreeEMS tradition of using cat names...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.
 
 Please see forum.diyefi.org for the most up to date information and links for this project and all of the other aspects of the FreeEMS project.
 
@@ -13,7 +13,7 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B connector).
- * 2 RPM/Position VR or Hall Effect inputs (Crankshaft 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
+ * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
  * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
  * 1 Optional MAF analog input (for future use).
  * 1 ignition advance output to DIS/HEI module.
