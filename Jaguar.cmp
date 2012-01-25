@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 24 Jan 2012 04:57:02 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 24 Jan 2012 11:13:43 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -561,13 +561,6 @@ IdModule  = conn_usb_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1CBAE8;
-Reference = J2;
-ValeurCmp = TE-34;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/4F1E9F0D;
 Reference = JP1;
 ValeurCmp = POS/NEG;
@@ -750,10 +743,10 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F18B47B;
+TimeStamp = /4F1F56DE;
 Reference = P20;
-ValeurCmp = PT3-5;
-IdModule  = PIN_ARRAY_3X1;
+ValeurCmp = PT4-7;
+IdModule  = pin_strip_4;
 EndCmp
 
 BeginCmp
@@ -907,28 +900,28 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A40AD;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A4099;
 Reference = R5;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A355E;
 Reference = R6;
 ValeurCmp = 3.3k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3AF5;
 Reference = R7;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -942,14 +935,14 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1DC62C;
 Reference = R9;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DC636;
 Reference = R10;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -963,35 +956,35 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1880B9;
 Reference = R12;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8E0F;
 Reference = R13;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8AB0;
 Reference = R14;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8AA6;
 Reference = R15;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F187F85;
 Reference = R16;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1005,42 +998,42 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F187E55;
 Reference = R18;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F187E36;
 Reference = R19;
 ValeurCmp = 10k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DA7D5;
 Reference = R20;
 ValeurCmp = 5k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F187F83;
 Reference = R21;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F187E82;
 Reference = R22;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DA6C2;
 Reference = R23;
 ValeurCmp = 5k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1054,21 +1047,21 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B936D;
 Reference = R25;
 ValeurCmp = 2.49k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B934A;
 Reference = R26;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B936E;
 Reference = R27;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1082,7 +1075,7 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B8F4F;
 Reference = R29;
 ValeurCmp = 3.9k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1096,28 +1089,28 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B938D;
 Reference = R31;
 ValeurCmp = 2.49k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B938C;
 Reference = R32;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B937E;
 Reference = R33;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B9357;
 Reference = R34;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1208,49 +1201,49 @@ BeginCmp
 TimeStamp = /4F0D0381/4F1380A7;
 Reference = R47;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13816C;
 Reference = R48;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138176;
 Reference = R49;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13817B;
 Reference = R50;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138183;
 Reference = R51;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13818C;
 Reference = R52;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/4F1384D7;
 Reference = R53;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1278,14 +1271,14 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A462A;
 Reference = R57;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A4640;
 Reference = R58;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1306,7 +1299,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F17944E;
 Reference = R61;
 ValeurCmp = 2.4k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
@@ -1327,14 +1320,14 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1ED330;
 Reference = R64;
 ValeurCmp = 1k;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1ED2FB;
 Reference = R65;
 ValeurCmp = 470;
-IdModule  = RC03_VERT;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp

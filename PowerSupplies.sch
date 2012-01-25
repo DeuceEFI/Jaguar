@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -22,9 +22,9 @@ LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 7
+Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 jan 2012"
+Date "25 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,6 +32,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2300 4150 0    60   ~ 0
+C14, C15, C16 and C17 are 50v X7R Ceramic capacitors.
+Text Notes 2300 4300 0    60   ~ 0
+C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 16v Tantalum capacitors.
 Connection ~ 1750 2850
 Wire Wire Line
 	1750 3350 1750 2250

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 jan 2012"
+Date "25 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -52,8 +52,8 @@ F 1 "VDD" H 9350 1810 30  0000 C CNN
 $EndComp
 Text HLabel 9350 2500 2    40   Input ~ 0
 GND
-Text Notes 5700 2500 0    40   ~ 0
-Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB
+Text Notes 5250 2350 0    40   ~ 0
+Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 Wire Wire Line
 	9350 2600 9350 2500
 Wire Wire Line

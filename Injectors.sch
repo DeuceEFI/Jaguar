@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 jan 2012"
+Date "25 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,8 +32,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5450 1400 0    60   ~ 0
-For Semi-Sequential injection\nR41,42,43,44,45,46 need to be 470 ohm.\n\nFor Sequential injection \nR41,42,43,44,45,46 need to be 1k ohm.
+Text Notes 6200 3100 0    60   ~ 0
+For  4 cylinder Full Sequential injection\nOR 8 cylinder Semi-Sequential injection \nR41, R42, R43, R44 need to be 1k ohm.\n\nFor  4 cylinder Sequential injection\nOR 8 cylinder Semi-Sequential injection\nYou do not need to populate R45, R46, \nR51, R52, D22, D23, D28, D29, Q5 or Q6.\n\nFor 6 cylinder Semi-Sequential injection\nR41,42,43,44,45,46 need to be 470 ohm.\n\nFor 6 cylinder Full Sequential injection \nR41,42,43,44,45,46 need to be 1k ohm.
 Text HLabel 2400 5950 0    60   Input ~ 0
 Injector6
 Text HLabel 2400 5050 0    60   Input ~ 0

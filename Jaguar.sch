@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 jan 2012"
+Date "25 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,73 +32,296 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9300 6150 0    40   Input ~ 0
-DIS-Bypass
-Text GLabel 6900 2150 2    40   Output ~ 0
-DIS-Bypass
-Connection ~ 7000 1200
-Connection ~ 7000 1300
-Connection ~ 7000 1400
-Connection ~ 7000 1500
-Connection ~ 7000 1600
-Connection ~ 7000 1700
-Connection ~ 7000 1900
-NoConn ~ 7000 1800
+Text Notes 6450 6700 0    25   ~ 0
+34
+Text Notes 6450 6600 0    25   ~ 0
+33
+Text Notes 6450 6500 0    25   ~ 0
+32
+Text Notes 6450 6400 0    25   ~ 0
+31
+Text Notes 6450 6300 0    25   ~ 0
+30
+Text Notes 6450 6200 0    25   ~ 0
+29
+Text Notes 6450 6100 0    25   ~ 0
+28
+Text Notes 6450 6000 0    25   ~ 0
+27
+Text Notes 6450 5900 0    25   ~ 0
+26
+Text Notes 6450 5800 0    25   ~ 0
+25
+Text Notes 6450 5700 0    25   ~ 0
+24
+Text Notes 6450 5600 0    25   ~ 0
+23
+Text Notes 6450 5500 0    25   ~ 0
+22
+Text Notes 6450 5400 0    25   ~ 0
+21
+Text Notes 6450 5300 0    25   ~ 0
+20
+Text Notes 6450 5200 0    25   ~ 0
+19
+Text Notes 6450 5100 0    25   ~ 0
+18
+Text Notes 5700 5100 0    25   ~ 0
+17
+Text Notes 5700 5200 0    25   ~ 0
+16
+Text Notes 5700 5300 0    25   ~ 0
+15
+Text Notes 5700 5400 0    25   ~ 0
+14
+Text Notes 5700 5500 0    25   ~ 0
+13
+Text Notes 5700 5600 0    25   ~ 0
+12
+Text Notes 5700 5700 0    25   ~ 0
+11
+Text Notes 5700 5800 0    25   ~ 0
+10
+Text Notes 5700 5900 0    25   ~ 0
+9
+Text Notes 5700 6000 0    25   ~ 0
+8
+Text Notes 5700 6100 0    25   ~ 0
+7
+Text Notes 5700 6200 0    25   ~ 0
+6
+Text Notes 5700 6300 0    25   ~ 0
+5
+Text Notes 5700 6400 0    25   ~ 0
+4
+Text Notes 5700 6500 0    25   ~ 0
+3
+Text Notes 5700 6600 0    25   ~ 0
+2
+Text Notes 5700 6700 0    25   ~ 0
+1
+Text Notes 6050 5000 0    60   ~ 0
+J2
+Text Notes 6600 5100 0    30   ~ 0
+Fuel Pump Relay
+Text Notes 6600 5200 0    30   ~ 0
+N/C
+Text Notes 6600 5300 0    30   ~ 0
+N/C
+Text Notes 6600 5400 0    30   ~ 0
+N/C
+Text Notes 6600 5500 0    30   ~ 0
+N/C
+Text Notes 6600 5600 0    30   ~ 0
+N/C
+Text Notes 6600 5700 0    30   ~ 0
+DIS Bypass
+Text Notes 6600 5800 0    30   ~ 0
+DIS Advance
+Text Notes 6600 5900 0    30   ~ 0
+Injector GND
+Text Notes 6600 6000 0    30   ~ 0
+Injector1
+Text Notes 6600 6100 0    30   ~ 0
+Injector2
+Text Notes 6600 6200 0    30   ~ 0
+Injector3
+Text Notes 6600 6300 0    30   ~ 0
+Injector4
+Text Notes 6600 6400 0    30   ~ 0
+Injector5
+Text Notes 6600 6500 0    30   ~ 0
+Injector6
+Text Notes 6600 6600 0    30   ~ 0
+N/C
+Text Notes 6600 6700 0    30   ~ 0
+N/C
+Text Notes 5250 6700 0    30   ~ 0
+12v Regulators
+Text Notes 5250 6600 0    30   ~ 0
+12V Outputs
+Text Notes 5250 6500 0    30   ~ 0
+BRV IN
+Text Notes 5250 6400 0    30   ~ 0
+GND
+Text Notes 5250 6300 0    30   ~ 0
+GND
+Text Notes 5250 6200 0    30   ~ 0
+CRANK+
+Text Notes 5250 6100 0    30   ~ 0
+CRANK-
+Text Notes 5250 6000 0    30   ~ 0
+CAM+
+Text Notes 5250 5900 0    30   ~ 0
+CAM-
+Text Notes 5250 5800 0    30   ~ 0
+IAT Sensor
+Text Notes 5250 5700 0    30   ~ 0
+MAT Sensor
+Text Notes 5250 5600 0    30   ~ 0
+Coolant Sensor
+Text Notes 5250 5500 0    30   ~ 0
+O2 Sensor
+Text Notes 5250 5400 0    30   ~ 0
+O2 Sensor GND
+Text Notes 5250 5300 0    30   ~ 0
+TPS 5vdc
+Text Notes 5250 5200 0    30   ~ 0
+TPS Signal
+Wire Notes Line
+	6550 5400 7000 5400
+Wire Notes Line
+	6550 5200 7000 5200
+Wire Notes Line
+	5650 5100 5200 5100
+Wire Notes Line
+	5650 5300 5200 5300
+Wire Notes Line
+	5650 6600 5200 6600
+Wire Notes Line
+	5650 6400 5200 6400
+Wire Notes Line
+	5650 6200 5200 6200
+Wire Notes Line
+	5650 6000 5200 6000
+Wire Notes Line
+	5650 5800 5200 5800
+Wire Notes Line
+	5650 5600 5200 5600
+Wire Notes Line
+	6550 5500 7000 5500
+Wire Notes Line
+	6550 5700 7000 5700
+Wire Notes Line
+	6550 5900 7000 5900
+Wire Notes Line
+	6550 6100 7000 6100
+Wire Notes Line
+	6550 6300 7000 6300
+Wire Notes Line
+	6550 6500 7000 6500
+Wire Notes Line
+	7000 6700 6550 6700
+Wire Notes Line
+	6550 6750 5650 6750
+Wire Notes Line
+	6550 6750 6550 5050
+Connection ~ 7050 1300
+Connection ~ 7050 1400
+Connection ~ 7050 1500
+Connection ~ 7050 1600
+Connection ~ 7050 1700
+Connection ~ 7050 1800
+Connection ~ 7050 2000
 Wire Wire Line
-	7000 1200 6900 1200
+	7050 2000 7050 2050
 Wire Wire Line
-	7000 1400 6900 1400
+	7050 1700 6900 1700
 Wire Wire Line
-	7000 1600 6900 1600
+	7050 1500 6900 1500
 Wire Wire Line
-	7000 1900 7000 1950
-Wire Notes Line
-	7200 2800 5050 2800
-Wire Notes Line
-	7200 2800 7200 4600
-Wire Notes Line
-	7200 4600 5050 4600
-Wire Notes Line
-	5050 4600 5050 2800
-Wire Wire Line
-	9000 3950 9000 4100
-Connection ~ 9000 3950
-Connection ~ 9000 4050
-Wire Wire Line
-	9050 4000 9000 4000
-Connection ~ 9000 4000
-Wire Notes Line
-	550  7750 550  550 
-Wire Notes Line
-	550  7750 4200 7750
-Wire Notes Line
-	4200 7750 4200 550 
+	7050 1300 6900 1300
 Wire Notes Line
 	4200 550  550  550 
+Wire Notes Line
+	4200 550  4200 7750
+Wire Notes Line
+	4200 7750 550  7750
+Wire Notes Line
+	550  7750 550  550 
+Connection ~ 9000 4000
 Wire Wire Line
-	7000 1700 6900 1700
+	9050 4000 9000 4000
+Connection ~ 9000 4050
+Connection ~ 9000 3950
 Wire Wire Line
-	7000 1500 6900 1500
+	9000 3950 9000 4100
+Wire Notes Line
+	5050 4600 5050 2800
+Wire Notes Line
+	5050 4600 7200 4600
+Wire Notes Line
+	7200 4600 7200 2800
+Wire Notes Line
+	7200 2800 5050 2800
 Wire Wire Line
-	7000 1300 6900 1300
-Text Notes 650  1550 0    60   ~ 0
+	7050 1400 6900 1400
+Wire Wire Line
+	7050 1600 6900 1600
+Wire Wire Line
+	7050 1800 6900 1800
+Wire Notes Line
+	5650 6750 5650 5050
+Wire Notes Line
+	5650 5050 6550 5050
+Wire Notes Line
+	5650 6700 5200 6700
+Wire Notes Line
+	6550 6600 7000 6600
+Wire Notes Line
+	6550 6400 7000 6400
+Wire Notes Line
+	6550 6200 7000 6200
+Wire Notes Line
+	6550 6000 7000 6000
+Wire Notes Line
+	6550 5800 7000 5800
+Wire Notes Line
+	6550 5600 7000 5600
+Wire Notes Line
+	5650 5500 5200 5500
+Wire Notes Line
+	5650 5700 5200 5700
+Wire Notes Line
+	5650 5900 5200 5900
+Wire Notes Line
+	5650 6100 5200 6100
+Wire Notes Line
+	5650 6300 5200 6300
+Wire Notes Line
+	5650 6500 5200 6500
+Wire Notes Line
+	5650 5400 5200 5400
+Wire Notes Line
+	5650 5200 5200 5200
+Wire Notes Line
+	6550 5100 7000 5100
+Wire Notes Line
+	6550 5300 7000 5300
+Text Notes 5250 5100 0    30   ~ 0
+TPS Ground
+NoConn ~ 7050 1900
+$Comp
+L CONN_4 P20
+U 1 1 4F1F56DE
+P 7250 950
+F 0 "P20" V 7200 950 50  0000 C CNN
+F 1 "PT4-7" V 7300 950 50  0000 C CNN
+	1    7250 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 6150 0    40   Input ~ 0
+DIS-Bypass
+Text GLabel 6900 2200 2    40   Output ~ 0
+DIS-Bypass
+Text Notes 650  1800 0    60   ~ 0
 P33 can be used to install a 100k ohm resistor network \n(Bourns, Inc. P/N 4308R-101-104LF) if it is not used as an\noutput to drive injectors.
 $Comp
 L GND #PWR01
 U 1 1 4F1EAED6
-P 7000 1950
-F 0 "#PWR01" H 7000 1950 30  0001 C CNN
-F 1 "GND" H 7000 1880 30  0001 C CNN
-	1    7000 1950
+P 7050 2050
+F 0 "#PWR01" H 7050 2050 30  0001 C CNN
+F 1 "GND" H 7050 1980 30  0001 C CNN
+	1    7050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P33
 U 1 1 4F1EAE6B
-P 7350 1550
-F 0 "P33" V 7300 1550 60  0000 C CNN
-F 1 "Injectors-PB" V 7400 1550 60  0000 C CNN
-	1    7350 1550
+P 7400 1650
+F 0 "P33" V 7350 1650 60  0000 C CNN
+F 1 "Injectors-PB" V 7450 1650 60  0000 C CNN
+	1    7400 1650
 	1    0    0    -1  
 $EndComp
 Text Notes 5100 3900 0    40   ~ 0
@@ -153,8 +376,8 @@ S 5200 700  1700 1800
 U 4F0A2F06
 F0 "CPU" 40
 F1 "cpu.sch" 40
-F2 "Fuel-Pump-Drive" O R 6900 2350 40 
-F3 "DIS-Advance-Signal" O R 6900 2250 40 
+F2 "Fuel-Pump-Drive" O R 6900 2400 40 
+F3 "DIS-Advance-Signal" O R 6900 2300 40 
 F4 "Tach-Signal" I L 5200 1250 40 
 F5 "MAF-Signal" I L 5200 2300 40 
 F6 "MAT-Signal" I L 5200 2100 40 
@@ -168,21 +391,22 @@ F13 "AAP-Signal" I L 5200 2200 40
 F14 "Cam-Position" I L 5200 1350 40 
 F15 "5vdc-analog" I L 5200 850 40 
 F16 "5vdc-cpu" I L 5200 750 40 
-F17 "Injector6-PB" O R 6900 1700 40 
-F18 "Injector5-PB" O R 6900 1600 40 
-F19 "Injector4-PB" O R 6900 1500 40 
-F20 "Injector3-PB" O R 6900 1400 40 
-F21 "Injector2-PB" O R 6900 1300 40 
-F22 "Injector1-PB" O R 6900 1200 40 
+F17 "Injector6-PB" O R 6900 1800 40 
+F18 "Injector5-PB" O R 6900 1700 40 
+F19 "Injector4-PB" O R 6900 1600 40 
+F20 "Injector3-PB" O R 6900 1500 40 
+F21 "Injector2-PB" O R 6900 1400 40 
+F22 "Injector1-PB" O R 6900 1300 40 
 F23 "Injector3-PT" O R 6900 1000 40 
 F24 "Injector2-PT" O R 6900 900 40 
 F25 "Injector1-PT" O R 6900 800 40 
-F26 "DIS-Bypass-PT" O R 6900 2150 40 
+F26 "DIS-Bypass-PT" O R 6900 2200 40 
+F27 "Injector4-PT" O R 6900 1100 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
-J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 34 position will allow for modifications to the board for additional \ninputs as this design only uses 27 positions.
+J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 34 position will allow for modifications to the board for additional \ninputs as this design only uses 27 positions.  I am still awaiting samples\nto test, however I have ordered samples of AMP Seal water resistant\n35 position connectors to test as well.
 Text Notes 650  900  0    60   ~ 0
-All Jumpers labeled JP# are crossover wires, nothing more to ease \nsingle sided PCB Prototype testing.
+All Jumpers labeled JP# are crossover wires, nothing more.\nThis was done to ease single sided PCB Prototype testing.
 Text Notes 600  700  0    60   ~ 12
 Notes:
 $Comp
@@ -203,33 +427,6 @@ F 1 "OUT-GND" H 8900 2855 30  0001 C CNN
 	1    8900 2800
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7000 5100
-NoConn ~ 7000 6500
-NoConn ~ 7000 6400
-NoConn ~ 7000 6300
-NoConn ~ 7000 6200
-NoConn ~ 7000 6100
-NoConn ~ 7000 6000
-NoConn ~ 7000 5900
-NoConn ~ 7000 5800
-NoConn ~ 7000 5700
-NoConn ~ 5200 6100
-NoConn ~ 5200 6200
-NoConn ~ 5200 6300
-NoConn ~ 5200 6400
-NoConn ~ 5200 6500
-NoConn ~ 5200 6600
-NoConn ~ 5200 6700
-NoConn ~ 5200 6000
-NoConn ~ 5200 5900
-NoConn ~ 5200 5800
-NoConn ~ 5200 5700
-NoConn ~ 5200 5600
-NoConn ~ 5200 5500
-NoConn ~ 5200 5400
-NoConn ~ 5200 5300
-NoConn ~ 5200 5200
-NoConn ~ 5200 5100
 $Comp
 L GND #PWR02
 U 1 1 4F1CCA54
@@ -309,17 +506,8 @@ Text GLabel 5200 6500 0    40   Input ~ 0
 P4
 Text GLabel 5200 6700 0    40   Input ~ 0
 P1
-Text Notes 5900 7000 0    40   ~ 0
-External Connector\nNOT TO SCALE
-$Comp
-L TE-34 J2
-U 1 1 4F1CBAE8
-P 6100 6000
-F 0 "J2" H 6050 7050 60  0000 C CNN
-F 1 "TE-34" H 6100 5150 60  0000 C CNN
-	1    6100 6000
-	1    0    0    -1  
-$EndComp
+Text Notes 5800 6850 0    40   ~ 0
+External Connector\n  NOT TO SCALE
 Text GLabel 10600 1600 2    40   Output ~ 0
 12vdc-Outputs
 $Sheet
@@ -368,15 +556,6 @@ F 0 "P21" V 6250 3050 50  0000 C CNN
 F 1 "Inj-IN" V 6350 3050 40  0000 C CNN
 	1    6300 3050
 	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_3 P20
-U 1 1 4F18B47B
-P 7250 900
-F 0 "P20" V 7200 900 50  0000 C CNN
-F 1 "PT3-5" V 7300 900 40  0000 C CNN
-	1    7250 900 
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 P3
@@ -441,7 +620,7 @@ F 1 "CAM+" H 9150 6605 30  0001 C CNN
 $EndComp
 Text GLabel 9050 2550 0    40   Input ~ 0
 Fuel-Pump-Drive
-Text GLabel 6900 2350 2    40   Output ~ 0
+Text GLabel 6900 2400 2    40   Output ~ 0
 Fuel-Pump-Drive
 $Comp
 L CONN_1 P25
@@ -458,9 +637,9 @@ U 4F0D82A1
 F0 "Outputs" 40
 F1 "Outputs.sch" 40
 F2 "12vdc-switched-relay" I L 9050 2250 40 
-F3 "PA7" I L 9050 2550 40 
-F4 "Output-Ground" I L 9050 2800 40 
-F5 "Fuel_Pump_Relay" O R 10650 2800 40 
+F3 "Output-Ground" I L 9050 2800 40 
+F4 "Fuel_Pump_Relay" O R 10650 2800 40 
+F5 "Relay-Drive-IN" I L 9050 2550 40 
 $EndSheet
 $Comp
 L CONN_6 P26
@@ -637,7 +816,7 @@ Text GLabel 10650 5000 2    40   Output ~ 0
 MAP
 Text GLabel 10650 4900 2    40   Output ~ 0
 BRV
-Text GLabel 6900 2250 2    40   Output ~ 0
+Text GLabel 6900 2300 2    40   Output ~ 0
 Timing-Advance
 Text GLabel 5200 1250 0    40   Input ~ 0
 TACH

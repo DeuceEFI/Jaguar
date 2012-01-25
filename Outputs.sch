@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 02:18:15 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 jan 2012"
+Date "25 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,31 +32,39 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	3800 2750 7400 2750
+Wire Notes Line
+	3800 2750 3800 4400
+Wire Notes Line
+	3800 4400 7400 4400
+Wire Notes Line
+	7400 4400 7400 2750
 Wire Wire Line
-	5350 4000 6350 4000
-Connection ~ 4700 3500
-Connection ~ 5200 3500
-Connection ~ 5450 3500
-Connection ~ 5450 4000
+	6500 3300 6500 3100
 Wire Wire Line
-	6350 4000 6350 3700
+	6350 3300 6650 3300
+Connection ~ 6500 3300
+Connection ~ 6350 3300
+Connection ~ 6350 3700
+Connection ~ 6050 3500
+Connection ~ 5750 3500
+Connection ~ 5200 3100
+Connection ~ 4700 3100
+Connection ~ 5600 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6500 3100 6000 3100
 Wire Wire Line
 	5200 3500 6050 3500
 Wire Wire Line
-	6000 3100 6500 3100
-Connection ~ 6000 3100
-Connection ~ 5600 3100
-Connection ~ 4700 3100
-Connection ~ 5200 3100
-Connection ~ 5750 3500
-Connection ~ 6050 3500
-Connection ~ 6350 3700
-Connection ~ 6350 3300
-Connection ~ 6500 3300
+	6350 3700 6350 4000
+Connection ~ 5450 4000
+Connection ~ 5450 3500
+Connection ~ 5200 3500
+Connection ~ 4700 3500
 Wire Wire Line
-	6350 3300 6650 3300
-Wire Wire Line
-	6500 3100 6500 3300
+	6350 4000 5350 4000
 Text HLabel 5350 4000 0    40   Input ~ 0
 Output-Ground
 $Comp
@@ -77,7 +85,7 @@ F 1 "VND14NV04" H 6260 3350 60  0000 R CNN
 	1    6250 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 5500 4300 0    40   ~ 0
+Text Notes 5500 4300 0    60   ~ 0
 Fuel Pump Relay Output
 $Comp
 L DIODE D31
@@ -107,7 +115,7 @@ F 1 "2.4k" V 4950 3100 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 4700 3500 0    40   Input ~ 0
-PA7
+Relay-Drive-IN
 Text HLabel 6650 3300 2    40   Output ~ 0
 Fuel_Pump_Relay
 Text HLabel 4700 3100 0    40   Input ~ 0
