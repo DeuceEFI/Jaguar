@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 03:16:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "25 jan 2012"
+Date "26 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -90,19 +90,19 @@ Connection ~ 5050 3750
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR061
+L GND #PWR060
 U 1 1 4F1C2CDE
 P 5050 3850
-F 0 "#PWR061" H 5050 3850 30  0001 C CNN
+F 0 "#PWR060" H 5050 3850 30  0001 C CNN
 F 1 "GND" H 5050 3780 30  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR062
+L GND #PWR061
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR062" H 5050 2750 30  0001 C CNN
+F 0 "#PWR061" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  

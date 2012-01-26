@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 11:15:10 PM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 03:16:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "25 jan 2012"
+Date "26 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -563,36 +563,36 @@ Text Notes 800  7350 0    60   ~ 0
 Power Supply For These Modules
 Text Notes 600  6200 0    40   ~ 0
 For Ford EDIS do not populate R64 and R65\nand connect U5 pins 5 and 6 to +5vdc\n(suggest using supply from U5 Pin 9).
-Text Notes 6100 750  0    40   ~ 0
-R24, R25 and R31 should be replaced if using sensors other than\nGM temperature sensors.\nFor Ford use 27k 0.1% Metal Film resistors.\nFor Bosch and Nippon Denso use 2.2k 0.1% Metal Film resistors.\nFor Mopar use 9.31k 1% Metal Film resistors.
+Text Notes 6050 750  0    40   ~ 0
+R24, R25 and R31 should be replaced if using sensors other than\nGM temperature sensors.\nFor Ford use 27k 0.1% Metal Film resistors.\nFor Bosch and Nippon Denso use 2.2k 0.1% Metal Film resistors.\nFor Mopar (Chrysler, Dodge, Plymouth) use 9.31k 1% Metal Film resistors,\nor better yet just use 2.4k 0.1% Metal Film resistors and use FreeTherm\nto adjust the values.
 Text Notes 650  750  0    40   ~ 0
 For GM DIS and Ford EDIS leave Crank-IN- and Cam-IN- totally disconnected.\n\nFor Ford EDIS do not connect Cam-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
 Text Notes 1350 5800 0    40   ~ 0
 CPU Pin 18
 NoConn ~ 3600 5950
 $Comp
-L VCC #PWR029
+L VCC #PWR028
 U 1 1 4F1EDD96
 P 3600 5750
-F 0 "#PWR029" H 3600 5850 30  0001 C CNN
+F 0 "#PWR028" H 3600 5850 30  0001 C CNN
 F 1 "VCC" H 3600 5850 30  0000 C CNN
 	1    3600 5750
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR030
+L GND #PWR029
 U 1 1 4F1EDBE2
 P 900 5450
-F 0 "#PWR030" H 900 5450 30  0001 C CNN
+F 0 "#PWR029" H 900 5450 30  0001 C CNN
 F 1 "GND" H 900 5380 30  0001 C CNN
 	1    900  5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR031
+L VCC #PWR030
 U 1 1 4F1EDBDA
 P 700 5400
-F 0 "#PWR031" H 700 5500 30  0001 C CNN
+F 0 "#PWR030" H 700 5500 30  0001 C CNN
 F 1 "VCC" H 700 5500 30  0000 C CNN
 	1    700  5400
 	-1   0    0    1   
@@ -629,10 +629,10 @@ $EndComp
 Text Notes 1050 4750 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
-L GND #PWR032
+L GND #PWR031
 U 1 1 4F1E9FBA
 P 2450 5150
-F 0 "#PWR032" H 2450 5150 30  0001 C CNN
+F 0 "#PWR031" H 2450 5150 30  0001 C CNN
 F 1 "GND" H 2450 5080 30  0001 C CNN
 	1    2450 5150
 	1    0    0    -1  
@@ -649,19 +649,19 @@ $EndComp
 Text Notes 1350 1350 0    40   ~ 0
 D4/R9 and D5/R10 are \nFor Diagnostics Only!\nIf they cause issues, \nremove them.
 $Comp
-L VCC #PWR033
+L VCC #PWR032
 U 1 1 4F1DC66C
 P 1250 3350
-F 0 "#PWR033" H 1250 3450 30  0001 C CNN
+F 0 "#PWR032" H 1250 3450 30  0001 C CNN
 F 1 "VCC" H 1250 3450 30  0000 C CNN
 	1    1250 3350
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR034
+L VCC #PWR033
 U 1 1 4F1DC665
 P 1250 1450
-F 0 "#PWR034" H 1250 1550 30  0001 C CNN
+F 0 "#PWR033" H 1250 1550 30  0001 C CNN
 F 1 "VCC" H 1250 1550 30  0000 C CNN
 	1    1250 1450
 	1    0    0    -1  
@@ -740,10 +740,10 @@ Do NOT Connect Cam-IN- \nfor Hall/Opto/Digital
 Text Notes 4100 1900 0    40   ~ 0
 Do NOT Connect Crank-IN- \nfor Hall/Opto/Digital
 $Comp
-L GND #PWR035
+L GND #PWR034
 U 1 1 4F1D8DAC
 P 1600 2800
-F 0 "#PWR035" H 1600 2800 30  0001 C CNN
+F 0 "#PWR034" H 1600 2800 30  0001 C CNN
 F 1 "GND" H 1600 2730 30  0001 C CNN
 	1    1600 2800
 	1    0    0    -1  
@@ -757,64 +757,64 @@ Cam-IN-
 Text HLabel 4150 1800 2    40   BiDi ~ 0
 Crank-IN-
 $Comp
-L GND #PWR036
+L GND #PWR035
 U 1 1 4F1C330A
 P 4350 2650
-F 0 "#PWR036" H 4350 2650 30  0001 C CNN
+F 0 "#PWR035" H 4350 2650 30  0001 C CNN
 F 1 "GND" H 4350 2580 30  0001 C CNN
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L GND #PWR036
 U 1 1 4F1C32B6
 P 1700 1950
-F 0 "#PWR037" H 1700 1950 30  0001 C CNN
+F 0 "#PWR036" H 1700 1950 30  0001 C CNN
 F 1 "GND" H 1700 1880 30  0001 C CNN
 	1    1700 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR038
+L VCC #PWR037
 U 1 1 4F1C3261
 P 4350 2150
-F 0 "#PWR038" H 4350 2250 30  0001 C CNN
+F 0 "#PWR037" H 4350 2250 30  0001 C CNN
 F 1 "VCC" H 4350 2250 30  0000 C CNN
 	1    4350 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR039
+L VCC #PWR038
 U 1 1 4F1C325E
 P 4000 800
-F 0 "#PWR039" H 4000 900 30  0001 C CNN
+F 0 "#PWR038" H 4000 900 30  0001 C CNN
 F 1 "VCC" H 4000 900 30  0000 C CNN
 	1    4000 800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR040
+L VCC #PWR039
 U 1 1 4F1C3259
 P 1450 2950
-F 0 "#PWR040" H 1450 3050 30  0001 C CNN
+F 0 "#PWR039" H 1450 3050 30  0001 C CNN
 F 1 "VCC" H 1450 3050 30  0000 C CNN
 	1    1450 2950
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR041
+L VCC #PWR040
 U 1 1 4F1C3254
 P 4000 4200
-F 0 "#PWR041" H 4000 4300 30  0001 C CNN
+F 0 "#PWR040" H 4000 4300 30  0001 C CNN
 F 1 "VCC" H 4000 4300 30  0000 C CNN
 	1    4000 4200
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR042
+L VCC #PWR041
 U 1 1 4F1C3250
 P 1450 1850
-F 0 "#PWR042" H 1450 1950 30  0001 C CNN
+F 0 "#PWR041" H 1450 1950 30  0001 C CNN
 F 1 "VCC" H 1450 1950 30  0000 C CNN
 	1    1450 1850
 	1    0    0    -1  
@@ -822,91 +822,91 @@ $EndComp
 Text Notes 4350 7500 0    40   ~ 0
 P29 and P30 are for mounting holes for MPX4100AP
 $Comp
-L VCC #PWR043
+L VCC #PWR042
 U 1 1 4F1C302C
 P 4350 7350
-F 0 "#PWR043" H 4350 7450 30  0001 C CNN
+F 0 "#PWR042" H 4350 7450 30  0001 C CNN
 F 1 "VCC" H 4350 7450 30  0000 C CNN
 	1    4350 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR043
 U 1 1 4F1C300F
 P 4450 7000
-F 0 "#PWR044" H 4450 7000 30  0001 C CNN
+F 0 "#PWR043" H 4450 7000 30  0001 C CNN
 F 1 "GND" H 4450 6930 30  0001 C CNN
 	1    4450 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR044
 U 1 1 4F1C2FFA
 P 10350 3850
-F 0 "#PWR045" H 10350 3850 30  0001 C CNN
+F 0 "#PWR044" H 10350 3850 30  0001 C CNN
 F 1 "GND" H 10350 3780 30  0001 C CNN
 	1    10350 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR045
 U 1 1 4F1C2FE3
 P 10350 2300
-F 0 "#PWR046" H 10350 2300 30  0001 C CNN
+F 0 "#PWR045" H 10350 2300 30  0001 C CNN
 F 1 "GND" H 10350 2230 30  0001 C CNN
 	1    10350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR047
+L VCC #PWR046
 U 1 1 4F1C2FD7
 P 10050 1400
-F 0 "#PWR047" H 10050 1500 30  0001 C CNN
+F 0 "#PWR046" H 10050 1500 30  0001 C CNN
 F 1 "VCC" H 10050 1500 30  0000 C CNN
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR048
+L VCC #PWR047
 U 1 1 4F1C2F9E
 P 10050 2950
-F 0 "#PWR048" H 10050 3050 30  0001 C CNN
+F 0 "#PWR047" H 10050 3050 30  0001 C CNN
 F 1 "VCC" H 10050 3050 30  0000 C CNN
 	1    10050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR049
+L VCC #PWR048
 U 1 1 4F1C2F82
 P 10050 4750
-F 0 "#PWR049" H 10050 4850 30  0001 C CNN
+F 0 "#PWR048" H 10050 4850 30  0001 C CNN
 F 1 "VCC" H 10050 4850 30  0000 C CNN
 	1    10050 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L GND #PWR049
 U 1 1 4F1C2F74
 P 8850 5800
-F 0 "#PWR050" H 8850 5800 30  0001 C CNN
+F 0 "#PWR049" H 8850 5800 30  0001 C CNN
 F 1 "GND" H 8850 5730 30  0001 C CNN
 	1    8850 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR051
+L GND #PWR050
 U 1 1 4F1C2F64
 P 7750 5700
-F 0 "#PWR051" H 7750 5700 30  0001 C CNN
+F 0 "#PWR050" H 7750 5700 30  0001 C CNN
 F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR052
+L VCC #PWR051
 U 1 1 4F1C2F57
 P 6550 4700
-F 0 "#PWR052" H 6550 4800 30  0001 C CNN
+F 0 "#PWR051" H 6550 4800 30  0001 C CNN
 F 1 "VCC" H 6550 4800 30  0000 C CNN
 	1    6550 4700
 	1    0    0    -1  
@@ -916,73 +916,73 @@ This jumper allows us to \njump over Vcc on the PCB
 Text Notes 7400 2950 0    40   ~ 0
 This jumper allows us to \njump over Vcc on the PCB
 $Comp
-L VCC #PWR053
+L VCC #PWR052
 U 1 1 4F1C2F18
 P 6400 2950
-F 0 "#PWR053" H 6400 3050 30  0001 C CNN
+F 0 "#PWR052" H 6400 3050 30  0001 C CNN
 F 1 "VCC" H 6400 3050 30  0000 C CNN
 	1    6400 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L GND #PWR053
 U 1 1 4F1C2F0A
 P 7600 3950
-F 0 "#PWR054" H 7600 3950 30  0001 C CNN
+F 0 "#PWR053" H 7600 3950 30  0001 C CNN
 F 1 "GND" H 7600 3880 30  0001 C CNN
 	1    7600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L GND #PWR054
 U 1 1 4F1C2EED
 P 7650 2400
-F 0 "#PWR055" H 7650 2400 30  0001 C CNN
+F 0 "#PWR054" H 7650 2400 30  0001 C CNN
 F 1 "GND" H 7650 2330 30  0001 C CNN
 	1    7650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR056
+L VCC #PWR055
 U 1 1 4F1C2E50
 P 6450 1400
-F 0 "#PWR056" H 6450 1500 30  0001 C CNN
+F 0 "#PWR055" H 6450 1500 30  0001 C CNN
 F 1 "VCC" H 6450 1500 30  0000 C CNN
 	1    6450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR057
+L VCC #PWR056
 U 1 1 4F1C2E3A
 P 1700 7100
-F 0 "#PWR057" H 1700 7200 30  0001 C CNN
+F 0 "#PWR056" H 1700 7200 30  0001 C CNN
 F 1 "VCC" H 1700 7200 30  0000 C CNN
 	1    1700 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR058
+L VCC #PWR057
 U 1 1 4F1C2E1E
 P 3600 5350
-F 0 "#PWR058" H 3600 5450 30  0001 C CNN
+F 0 "#PWR057" H 3600 5450 30  0001 C CNN
 F 1 "VCC" H 3600 5450 30  0000 C CNN
 	1    3600 5350
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR059
+L GND #PWR058
 U 1 1 4F1C2DD9
 P 2350 6050
-F 0 "#PWR059" H 2350 6050 30  0001 C CNN
+F 0 "#PWR058" H 2350 6050 30  0001 C CNN
 F 1 "GND" H 2350 5980 30  0001 C CNN
 	1    2350 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR060
+L VCC #PWR059
 U 1 1 4F1C2D2C
 P 2250 5100
-F 0 "#PWR060" H 2250 5200 30  0001 C CNN
+F 0 "#PWR059" H 2250 5200 30  0001 C CNN
 F 1 "VCC" H 2250 5200 30  0000 C CNN
 	1    2250 5100
 	-1   0    0    1   

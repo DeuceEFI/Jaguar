@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 24 Jan 2012 11:13:43 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 03:04:02 AM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -554,6 +554,48 @@ IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D0381/4F20C5D4;
+Reference = D35;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E4;
+Reference = D36;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5D3;
+Reference = D37;
+ValeurCmp = 1N4148;
+IdModule  = diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E5;
+Reference = D38;
+ValeurCmp = 1N4148;
+IdModule  = diode_do41;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C917;
+Reference = D39;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C916;
+Reference = D40;
+ValeurCmp = 1N4148;
+IdModule  = diode_do41;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A450C;
 Reference = J1;
 ValeurCmp = USB_B;
@@ -750,10 +792,10 @@ IdModule  = pin_strip_4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F18B4DC;
+TimeStamp = /4F20E065;
 Reference = P21;
-ValeurCmp = Inj-IN;
-IdModule  = PIN_ARRAY_3X1;
+ValeurCmp = INJ-IN;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -771,10 +813,10 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D0444;
+TimeStamp = /4F20C6A8;
 Reference = P26;
 ValeurCmp = Injectors;
-IdModule  = PIN_ARRAY-6X1;
+IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
@@ -808,7 +850,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1CD4E4;
 Reference = P32;
-ValeurCmp = OUT-12v;
+ValeurCmp = FUEL-12v;
 IdModule  = WireConnection;
 EndCmp
 
@@ -820,10 +862,31 @@ IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1EA4A9;
+TimeStamp = /4F20E01E;
 Reference = P34;
 ValeurCmp = Injectors;
-IdModule  = PIN_ARRAY-6X1;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F20C9CD;
+Reference = P35;
+ValeurCmp = FAN-;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F20FB3D;
+Reference = P36;
+ValeurCmp = FAN-12v;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F210899;
+Reference = PP1;
+ValeurCmp = PP1-3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -871,15 +934,36 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F19BBF5;
 Reference = Q7;
+ValeurCmp = VNN7NV0413TR;
+IdModule  = SOT223-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5D8;
+Reference = Q8;
 ValeurCmp = VND14NV04;
 IdModule  = DPAKGDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E0;
+Reference = Q9;
+ValeurCmp = VND14NV04;
+IdModule  = DPAKGDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C915;
+Reference = Q10;
+ValeurCmp = VNN7NV0413TR;
+IdModule  = SOT223-MOSFET;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3C28;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = rc07_vert;
+IdModule  = RC03;
 EndCmp
 
 BeginCmp
@@ -928,7 +1012,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F179AD3;
 Reference = R8;
 ValeurCmp = 2.4k;
-IdModule  = rc07_vert;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
@@ -1158,42 +1242,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F062C55;
 Reference = R41;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0546;
 Reference = R42;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0558;
 Reference = R43;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0576;
 Reference = R44;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0585;
 Reference = R45;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0590;
 Reference = R46;
-ValeurCmp = 470;
+ValeurCmp = 1k;
 IdModule  = rc07_vert;
 EndCmp
 
@@ -1250,7 +1334,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F0744B6;
 Reference = R54;
 ValeurCmp = 1k;
-IdModule  = RC03;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
@@ -1313,7 +1397,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F1AF0F6;
 Reference = R63;
 ValeurCmp = 100k;
-IdModule  = rc07_vert;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
@@ -1331,6 +1415,69 @@ IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D0381/4F20C5D5;
+Reference = R66;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E3;
+Reference = R67;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5D6;
+Reference = R68;
+ValeurCmp = 100k;
+IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E2;
+Reference = R69;
+ValeurCmp = 100k;
+IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5D7;
+Reference = R70;
+ValeurCmp = 1k;
+IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/4F20C5E1;
+Reference = R71;
+ValeurCmp = 1k;
+IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C918;
+Reference = R72;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C914;
+Reference = R73;
+ValeurCmp = 100k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F20C919;
+Reference = R74;
+ValeurCmp = 1k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A2F47;
 Reference = U1;
 ValeurCmp = MC9S12XDP512;
@@ -1341,14 +1488,14 @@ BeginCmp
 TimeStamp = /4F0A4778/4F0A5180;
 Reference = U2;
 ValeurCmp = LM2937EM-5.0;
-IdModule  = TO220-H;
+IdModule  = TO220_VERT_LM8xx;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A4778/4F0A52BA;
 Reference = U3;
 ValeurCmp = LM2937EM-5.0;
-IdModule  = TO220-H;
+IdModule  = TO220_VERT_LM8xx;
 EndCmp
 
 BeginCmp
