@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 03:16:21 AM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 12:42:01 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -270,10 +270,10 @@ F 4 "1.00KXBK-ND" H 3250 7200 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L MOSFET_N Q9
+L MOSFET_N Q8
 U 1 1 4F20C5E0
 P 3900 7200
-F 0 "Q9" H 4150 7200 60  0000 R CNN
+F 0 "Q8" H 4150 7200 60  0000 R CNN
 F 1 "VND14NV04" H 3910 7050 60  0000 R CNN
 	1    3900 7200
 	1    0    0    -1  
@@ -283,10 +283,10 @@ Injector8_Output
 Text HLabel 4150 6100 2    60   Output ~ 0
 Injector7_Output
 $Comp
-L MOSFET_N Q8
+L MOSFET_N Q7
 U 1 1 4F20C5D8
 P 3900 6300
-F 0 "Q8" H 4150 6300 60  0000 R CNN
+F 0 "Q7" H 4150 6300 60  0000 R CNN
 F 1 "VND14NV04" H 3910 6150 60  0000 R CNN
 	1    3900 6300
 	1    0    0    -1  

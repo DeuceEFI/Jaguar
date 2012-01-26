@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 03:16:21 AM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 12:42:01 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -174,10 +174,10 @@ F 1 "100k" V 5450 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q7
+L MOSFET_N Q9
 U 1 1 4F19BBF5
 P 6250 3500
-F 0 "Q7" H 6260 3670 60  0000 R CNN
+F 0 "Q9" H 6260 3670 60  0000 R CNN
 F 1 "VNN7NV0413TR" H 6260 3350 60  0000 R CNN
 	1    6250 3500
 	1    0    0    -1  
