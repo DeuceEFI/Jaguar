@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 26 Jan 2012 03:04:02 AM EST
+# EESchema Netlist Version 1.1 created  Thu 26 Jan 2012 10:46:37 AM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 GND )
@@ -544,20 +544,20 @@
   ( G N-000209 )
   ( S /Injecto35 )
  )
- ( /4F0D82A1/4F19BBF5 SOT223-MOSFET Q7 VNN7NV0413TR
-  ( D /Outputs17 )
-  ( G N-000231 )
-  ( S /Outputs36 )
- )
- ( /4F0D0381/4F20C5D8 DPAKGDS Q8 VND14NV04
+ ( /4F0D0381/4F20C5D8 DPAKGDS Q7 VND14NV04
   ( D /Injecto18 )
   ( G N-000208 )
   ( S /Injecto35 )
  )
- ( /4F0D0381/4F20C5E0 DPAKGDS Q9 VND14NV04
+ ( /4F0D0381/4F20C5E0 DPAKGDS Q8 VND14NV04
   ( D /Injecto19 )
   ( G N-000222 )
   ( S /Injecto35 )
+ )
+ ( /4F0D82A1/4F19BBF5 SOT223-MOSFET Q9 VNN7NV0413TR
+  ( D /Outputs17 )
+  ( G N-000231 )
+  ( S /Outputs36 )
  )
  ( /4F0D82A1/4F20C915 SOT223-MOSFET Q10 VNN7NV0413TR
   ( D /Outputs20 )

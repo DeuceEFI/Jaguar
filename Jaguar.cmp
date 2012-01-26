@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 03:04:02 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 10:46:37 AM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -932,24 +932,24 @@ IdModule  = DPAKGDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D82A1/4F19BBF5;
-Reference = Q7;
-ValeurCmp = VNN7NV0413TR;
-IdModule  = SOT223-MOSFET;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0D0381/4F20C5D8;
-Reference = Q8;
+Reference = Q7;
 ValeurCmp = VND14NV04;
 IdModule  = DPAKGDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E0;
-Reference = Q9;
+Reference = Q8;
 ValeurCmp = VND14NV04;
 IdModule  = DPAKGDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F19BBF5;
+Reference = Q9;
+ValeurCmp = VNN7NV0413TR;
+IdModule  = SOT223-MOSFET;
 EndCmp
 
 BeginCmp
