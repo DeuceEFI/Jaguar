@@ -1,1 +1,10 @@
 $savebrd.brd
+cpu.bak
+ft232.bak
+Injectors.bak
+inputs.bak
+Jaguar.bak
+Jaguar-cache.bak
+Outputs.bak
+PowerSupplies.bak
+/kicad
