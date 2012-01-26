@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 12:42:01 PM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7000 5050
+Text HLabel 7000 5050 2    40   Output ~ 0
+Accessory-Drive
 $Comp
 L CONN_3 PP1
 U 1 1 4F210899
@@ -41,7 +44,6 @@ F 1 "PP1-3" V 1900 3050 40  0000 C CNN
 	1    1850 3050
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7000 5050
 Connection ~ 2200 3950
 NoConn ~ 7000 5450
 Connection ~ 7000 4950

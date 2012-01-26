@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 10:46:37 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 04:12:22 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -596,6 +596,20 @@ IdModule  = diode_do41;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D82A1/4F21BF55;
+Reference = D41;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F21BF56;
+Reference = D42;
+ValeurCmp = 1N4148;
+IdModule  = diode_do41;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A450C;
 Reference = J1;
 ValeurCmp = USB_B;
@@ -883,6 +897,20 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F21C093;
+Reference = P37;
+ValeurCmp = ACC-;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F21C18C;
+Reference = P38;
+ValeurCmp = ACC-12v;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F210899;
 Reference = PP1;
 ValeurCmp = PP1-3;
@@ -955,6 +983,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F20C915;
 Reference = Q10;
+ValeurCmp = VNN7NV0413TR;
+IdModule  = SOT223-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F21BF57;
+Reference = Q11;
 ValeurCmp = VNN7NV0413TR;
 IdModule  = SOT223-MOSFET;
 EndCmp
@@ -1473,6 +1508,27 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F20C919;
 Reference = R74;
+ValeurCmp = 1k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F21BF54;
+Reference = R75;
+ValeurCmp = 2.4k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F21BF58;
+Reference = R76;
+ValeurCmp = 100k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/4F21BF53;
+Reference = R77;
 ValeurCmp = 1k;
 IdModule  = RC03_VERT;
 EndCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 12:42:01 PM EST
+EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_1 P38
+U 1 1 4F21C18C
+P 8900 2400
+F 0 "P38" H 8980 2400 40  0000 L CNN
+F 1 "ACC-12v" H 8900 2455 30  0001 C CNN
+	1    8900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P37
+U 1 1 4F21C093
+P 10800 2750
+F 0 "P37" H 10880 2750 40  0000 L CNN
+F 1 "ACC-" H 10800 2805 30  0001 C CNN
+	1    10800 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 2750 0    40   Input ~ 0
+Accessory-Drive
+Text GLabel 6900 2600 2    40   Output ~ 0
+Accessory-Drive
 Text Notes 4450 3900 0    50   ~ 10
 AND DO THE FOLLOWING
 Text Notes 5950 3500 0    40   ~ 0
@@ -144,10 +166,10 @@ Injector7-IN
 $Comp
 L CONN_1 P36
 U 1 1 4F20FB3D
-P 8900 2350
-F 0 "P36" H 8980 2350 40  0000 L CNN
-F 1 "FAN-12v" H 8900 2405 30  0001 C CNN
-	1    8900 2350
+P 8900 2300
+F 0 "P36" H 8980 2300 40  0000 L CNN
+F 1 "FAN-12v" H 8900 2355 30  0001 C CNN
+	1    8900 2300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -177,10 +199,10 @@ Fan-Drive
 $Comp
 L CONN_1 P35
 U 1 1 4F20C9CD
-P 10800 2650
-F 0 "P35" H 10880 2650 40  0000 L CNN
-F 1 "FAN-" H 10800 2705 30  0001 C CNN
-	1    10800 2650
+P 10800 2600
+F 0 "P35" H 10880 2600 40  0000 L CNN
+F 1 "FAN-" H 10800 2655 30  0001 C CNN
+	1    10800 2600
 	1    0    0    -1  
 $EndComp
 Text GLabel 9050 2650 0    40   Input ~ 0
@@ -430,6 +452,7 @@ F27 "Injector4-PT" O R 6900 1050 40
 F28 "Injector8-PB" O R 6900 1900 40 
 F29 "Injector7-PB" O R 6900 1800 40 
 F30 "Fan-Drive" O R 6900 2500 40 
+F31 "Accessory-Drive" O R 6900 2600 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 34 position will allow for modifications to the board for additional \ninputs as this design only uses 27 positions.  I am still awaiting samples\nto test, however I have ordered samples of AMP Seal water resistant\n35 position connectors to test as well.
@@ -440,19 +463,19 @@ Notes:
 $Comp
 L CONN_1 P32
 U 1 1 4F1CD4E4
-P 8900 2250
-F 0 "P32" H 8980 2250 40  0000 L CNN
-F 1 "FUEL-12v" H 8900 2305 30  0001 C CNN
-	1    8900 2250
+P 8900 2200
+F 0 "P32" H 8980 2200 40  0000 L CNN
+F 1 "FUEL-12v" H 8900 2255 30  0001 C CNN
+	1    8900 2200
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P31
 U 1 1 4F1CD3BD
-P 8900 2800
-F 0 "P31" H 8980 2800 40  0000 L CNN
-F 1 "OUT-GND" H 8900 2855 30  0001 C CNN
-	1    8900 2800
+P 8900 2850
+F 0 "P31" H 8980 2850 40  0000 L CNN
+F 1 "OUT-GND" H 8900 2905 30  0001 C CNN
+	1    8900 2850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -637,7 +660,7 @@ F 1 "CAM+" H 9150 6605 30  0001 C CNN
 	1    9150 6550
 	-1   0    0    1   
 $EndComp
-Text GLabel 9050 2450 0    40   Input ~ 0
+Text GLabel 9050 2550 0    40   Input ~ 0
 Fuel-Pump-Drive
 Text GLabel 6900 2400 2    40   Output ~ 0
 Fuel-Pump-Drive
@@ -655,13 +678,16 @@ S 9050 2150 1600 750
 U 4F0D82A1
 F0 "Outputs" 40
 F1 "Outputs.sch" 40
-F2 "Output-Ground" I L 9050 2800 40 
+F2 "Output-Ground" I L 9050 2850 40 
 F3 "Fuel_Pump_Relay" O R 10650 2450 40 
-F4 "Fan_Relay" O R 10650 2650 40 
+F4 "Fan_Relay" O R 10650 2600 40 
 F5 "Fan-Relay-Drive-IN" I L 9050 2650 40 
-F6 "Fuel-Relay-Drive-IN" I L 9050 2450 40 
-F7 "12vdc-switched-fan-relay" I L 9050 2350 40 
-F8 "12vdc-switched-fuel-relay" I L 9050 2250 40 
+F6 "Fuel-Relay-Drive-IN" I L 9050 2550 40 
+F7 "12vdc-switched-fan-relay" I L 9050 2300 40 
+F8 "12vdc-switched-fuel-relay" I L 9050 2200 40 
+F9 "Accessory-Relay-Drive-IN" I L 9050 2750 40 
+F10 "Accessory_Relay" O R 10650 2750 40 
+F11 "12vdc-switched-acc-relay" I L 9050 2400 40 
 $EndSheet
 $Sheet
 S 9050 650  1550 1000
