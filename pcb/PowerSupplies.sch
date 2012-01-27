@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "26 jan 2012"
+Date "27 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -111,8 +111,6 @@ Text Label 3450 2650 0    40   ~ 0
 Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
-Text Notes 2350 3000 0    40   ~ 0
-Polarized capacitors are Tantalum, Non-Polarised capacitors are X7R Ceramic.
 Text Notes 5200 3550 0    40   ~ 0
 5.6v/3w
 Text Notes 5200 2450 0    40   ~ 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "26 jan 2012"
+Date "27 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,6 +32,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	1350 6100 1350 5950
+Wire Wire Line
+	1350 5950 1050 5950
 Wire Notes Line
 	2550 6600 550  6600
 Wire Notes Line
@@ -56,10 +60,6 @@ Wire Wire Line
 	800  5400 800  5650
 Wire Wire Line
 	800  5650 2350 5650
-Wire Wire Line
-	1750 5300 1750 5200
-Wire Wire Line
-	1750 5200 1700 5200
 Wire Wire Line
 	1750 5500 1750 5400
 Connection ~ 2250 5500
@@ -525,10 +525,6 @@ Wire Wire Line
 	2250 5950 2250 5850
 Wire Wire Line
 	2250 5850 2350 5850
-Wire Wire Line
-	1700 5850 1750 5850
-Wire Wire Line
-	1750 5850 1750 5750
 Connection ~ 2250 5750
 Connection ~ 2250 5950
 Connection ~ 1750 5950
@@ -547,8 +543,6 @@ Wire Notes Line
 	1050 3500 1050 2500
 Wire Notes Line
 	3800 4500 3800 6500
-Wire Wire Line
-	1750 5950 1700 5950
 Wire Notes Line
 	8400 600  5950 600 
 Wire Notes Line
@@ -557,18 +551,56 @@ Wire Notes Line
 	8400 6150 5950 6150
 Wire Notes Line
 	5950 6150 5950 600 
+Wire Wire Line
+	1700 6100 1700 6050
+Wire Wire Line
+	1700 6050 1750 6050
+Wire Wire Line
+	1750 6050 1750 5950
+Wire Wire Line
+	1050 5750 1750 5750
+Connection ~ 1050 5750
+Connection ~ 1050 5950
+Wire Wire Line
+	1900 5100 1900 5200
+Wire Wire Line
+	1900 5200 1750 5200
+Wire Wire Line
+	1750 5200 1750 5300
+Text Notes 600  4600 0    40   ~ 0
+JP8 Allows us to use Port T2\nby using a shorting jumper \nbetween pins 1 and 2 \nor pin 2 can be routed via \nwire jumper to another CPU\noutput port.
+$Comp
+L CONN_2 JP8
+U 1 1 4F222A46
+P 1800 4750
+F 0 "JP8" V 1750 4750 40  0000 C CNN
+F 1 "DIS-Advance" V 1850 4750 40  0000 C CNN
+	1    1800 4750
+	0    -1   -1   0   
+$EndComp
+Text Notes 600  6250 0    40   ~ 0
+JP7 Allows us to use Port T3 by using a shorting \njumper between pins 1 and 2 or pin 2 can be \nrouted via wire jumper to another CPU output\nport.
+$Comp
+L CONN_2 JP7
+U 1 1 4F222850
+P 700 5850
+F 0 "JP7" V 650 5850 40  0000 C CNN
+F 1 "DIS-Bypass" V 750 5850 40  0000 C CNN
+	1    700  5850
+	-1   0    0    1   
+$EndComp
 Text Notes 5400 6400 0    40   ~ 0
 Use the MPX4100AP for Non-Boosted Engines.\nUse the MPX4250AP for Boosted Engines.
 Text Notes 800  7350 0    60   ~ 0
 Power Supply For These Modules
-Text Notes 600  6200 0    40   ~ 0
-For Ford EDIS do not populate R64 and R65\nand connect U5 pins 5 and 6 to +5vdc\n(suggest using supply from U5 Pin 9).
+Text Notes 2750 4900 0    40   ~ 0
+For Ford EDIS do not populate \nR64 and R65 and connect U5 \npins 5 and 6 to +5vdc.\n(Use +5v supply from U5 Pin 9).
 Text Notes 6050 750  0    40   ~ 0
-R24, R25 and R31 should be replaced if using sensors other than\nGM temperature sensors.\nFor Ford use 27k 0.1% Metal Film resistors.\nFor Bosch and Nippon Denso use 2.2k 0.1% Metal Film resistors.\nFor Mopar (Chrysler, Dodge, Plymouth) use 9.31k 1% Metal Film resistors,\nor better yet just use 2.4k 0.1% Metal Film resistors and use FreeTherm\nto adjust the values.
+R24, R25 and R31 (2.49k) can be replaced if using sensors other than\nGM temperature sensors; For FORD Sensors: use 27.4k 0.1% Metal Film\nresistors; for MOPAR Sensors: use 9.1k 0.1% Metal Film resistors or \nuse 2.43k 0.1% Metal Film resistors (best for most cases).  Be sure to\nuse FreeTherm to adjust the values in the FreeEMS code for the best\naccuracy irregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0
 For GM DIS and Ford EDIS leave Crank-IN- and Cam-IN- totally disconnected.\n\nFor Ford EDIS do not connect Cam-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
-Text Notes 1350 5800 0    40   ~ 0
-CPU Pin 18
+Text Notes 800  6050 0    40   ~ 0
+CPU Pin 12 (PT3)
 NoConn ~ 3600 5950
 $Comp
 L VCC #PWR028
@@ -597,7 +629,7 @@ F 1 "VCC" H 700 5500 30  0000 C CNN
 	1    700  5400
 	-1   0    0    1   
 $EndComp
-Text HLabel 1700 5850 0    40   Input ~ 0
+Text HLabel 1350 6100 0    40   Input ~ 0
 DIS-Bypass-Signal
 $Comp
 L R R64
@@ -626,7 +658,7 @@ F 1 "POS/NEG" V 850 5050 40  0000 C CNN
 	1    800  5050
 	0    -1   -1   0   
 $EndComp
-Text Notes 1050 4750 0    40   ~ 0
+Text Notes 2750 4650 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
 L GND #PWR031
@@ -1320,11 +1352,11 @@ Text Notes 7750 1850 0    40   ~ 0
 CPU Pin 81
 Text Notes 10550 5100 0    40   ~ 0
 CPU Pin 79
-Text Notes 1350 5150 0    40   ~ 0
+Text Notes 1250 5050 0    40   ~ 0
 CPU Pin 11
 Text HLabel 1200 2350 0    40   Output ~ 0
 Crank-OUT
-Text HLabel 1700 5950 0    40   Output ~ 0
+Text HLabel 1700 6100 2    40   Output ~ 0
 DIS-Bypass-OUT
 Text Notes 6700 6050 0    60   ~ 0
 Coolant Temperature
@@ -1517,7 +1549,7 @@ Text HLabel 7750 1900 2    40   Output ~ 0
 MAT-CPU-Signal
 Text Notes 4850 7650 0    60   ~ 0
 Manifold Absolute Pressure
-Text Notes 1500 6450 0    60   ~ 0
+Text Notes 2300 6450 0    60   ~ 0
 Ignition Timing Advance Output
 Text Notes 9200 6000 0    60   ~ 0
 Battery Reference Voltage
@@ -1595,7 +1627,7 @@ F 1 "MPX4100AP" H 6200 6750 70  0000 C CNN
 $EndComp
 Text HLabel 4150 1300 2    40   BiDi ~ 0
 Crank-IN+
-Text HLabel 1700 5200 0    40   BiDi ~ 0
+Text HLabel 1700 5100 0    40   BiDi ~ 0
 IGN-Advance-Signal
 Text HLabel 1700 5400 0    40   Output ~ 0
 IGN-Advance

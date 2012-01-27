@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 26 Jan 2012 04:12:22 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 27 Jan 2012 01:44:24 AM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -333,14 +333,14 @@ BeginCmp
 TimeStamp = /4F0A4778/4F179910;
 Reference = D2;
 ValeurCmp = 1N5919BG;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A4778/4F17992C;
 Reference = D3;
 ValeurCmp = 1N5919BG;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -361,84 +361,84 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1787D6;
 Reference = D6;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1787F9;
 Reference = D7;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178A13;
 Reference = D8;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178A12;
 Reference = D9;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178C6B;
 Reference = D10;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178C67;
 Reference = D11;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178CB7;
 Reference = D12;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178CB3;
 Reference = D13;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178B09;
 Reference = D14;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178AEF;
 Reference = D15;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178BDA;
 Reference = D16;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F178BD7;
 Reference = D17;
 ValeurCmp = 1N5818-TP;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -487,42 +487,42 @@ BeginCmp
 TimeStamp = /4F0D0381/4F17842F;
 Reference = D24;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17845F;
 Reference = D25;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178470;
 Reference = D26;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17847C;
 Reference = D27;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17848A;
 Reference = D28;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178496;
 Reference = D29;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -536,7 +536,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F1784DB;
 Reference = D31;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -571,14 +571,14 @@ BeginCmp
 TimeStamp = /4F0D0381/4F20C5D3;
 Reference = D37;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E5;
 Reference = D38;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -592,7 +592,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F20C916;
 Reference = D40;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -606,7 +606,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F21BF56;
 Reference = D42;
 ValeurCmp = 1N4148;
-IdModule  = diode_do41;
+IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -656,6 +656,20 @@ TimeStamp = /4F0BB08D/4F1B95D7;
 Reference = JP6;
 ValeurCmp = JUMPER;
 IdModule  = rc07_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F222850;
+Reference = JP7;
+ValeurCmp = DIS-Bypass;
+IdModule  = pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F222A46;
+Reference = JP8;
+ValeurCmp = DIS-Advance;
+IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
@@ -878,7 +892,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F20E01E;
 Reference = P34;
-ValeurCmp = Injectors;
+ValeurCmp = Injectors-IN;
 IdModule  = SIL-8;
 EndCmp
 
@@ -911,10 +925,31 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F210899;
+TimeStamp = /4F2222E6;
+Reference = P39;
+ValeurCmp = FAN;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2222DF;
+Reference = P40;
+ValeurCmp = ACC;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F221DE9;
 Reference = PP1;
-ValeurCmp = PP1-3;
-IdModule  = SIL-3;
+ValeurCmp = PP0-3;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F221E2B;
+Reference = PP2;
+ValeurCmp = PP4-7;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -1376,14 +1411,14 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1794BF;
 Reference = R55;
 ValeurCmp = 2k;
-IdModule  = RC03;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F179239;
 Reference = R56;
 ValeurCmp = 2.4k;
-IdModule  = RC03;
+IdModule  = rc07_vert;
 EndCmp
 
 BeginCmp
@@ -1404,7 +1439,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1793A2;
 Reference = R59;
 ValeurCmp = 10k;
-IdModule  = RC03;
+IdModule  = RC03_VERT;
 EndCmp
 
 BeginCmp

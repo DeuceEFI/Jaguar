@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "26 jan 2012"
+Date "27 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -33,31 +33,32 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_1 P38
-U 1 1 4F21C18C
-P 8900 2400
-F 0 "P38" H 8980 2400 40  0000 L CNN
-F 1 "ACC-12v" H 8900 2455 30  0001 C CNN
-	1    8900 2400
+L CONN_1 P39
+U 1 1 4F2222E6
+P 8900 2650
+F 0 "P39" H 8980 2650 40  0000 L CNN
+F 1 "FAN" H 8900 2705 30  0001 C CNN
+	1    8900 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P37
-U 1 1 4F21C093
-P 10800 2750
-F 0 "P37" H 10880 2750 40  0000 L CNN
-F 1 "ACC-" H 10800 2805 30  0001 C CNN
-	1    10800 2750
-	1    0    0    -1  
+L CONN_1 P40
+U 1 1 4F2222DF
+P 8900 2750
+F 0 "P40" H 8980 2750 40  0000 L CNN
+F 1 "ACC" H 8900 2805 30  0001 C CNN
+	1    8900 2750
+	-1   0    0    1   
 $EndComp
-Text GLabel 9050 2750 0    40   Input ~ 0
-Accessory-Drive
-Text GLabel 6900 2600 2    40   Output ~ 0
-Accessory-Drive
-Text Notes 4450 3900 0    50   ~ 10
-AND DO THE FOLLOWING
-Text Notes 5950 3500 0    40   ~ 0
-P21 Pin 1 has a trace to P34 Pin 2 on the PCB\nP21 Pin 2 has a trace to P34 Pin 4 on the PCB\nP21 Pin 3 has a trace to P34 Pin 5 on the PCB\nP21 Pin 4 has a trace to P34 Pin 7 on the PCB
+Text Notes 5950 7600 0    25   ~ 0
+35
+NoConn ~ 6500 7650
+Wire Notes Line
+	6500 7650 6000 7650
+Wire Notes Line
+	6000 7650 6000 7600
+Wire Notes Line
+	550  1900 4200 1900
 Wire Notes Line
 	4350 4650 5500 4650
 Wire Notes Line
@@ -161,7 +162,85 @@ Wire Notes Line
 	6050 6250 6500 6250
 Wire Notes Line
 	5500 3400 5500 5550
-Text GLabel 6650 4200 2    40   Output ~ 0
+Wire Notes Line
+	550  1050 4200 1050
+Wire Notes Line
+	550  2300 4200 2300
+Text Notes 650  2450 0    60   ~ 0
+Serial Monitor (Load1 and CEL) section of the CPU Schematic may not \nbe correct.  Fred is checking into this.
+Text Notes 650  2050 0    60   ~ 0
+Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith mica insulators and use plastic screws.
+Text GLabel 6100 5050 0    40   Input ~ 0
+CPU-PB7
+Text GLabel 6100 4950 0    40   Input ~ 0
+CPU-PB6
+Text GLabel 6100 4850 0    40   Input ~ 0
+CPU-PB5
+Text GLabel 6100 4750 0    40   Input ~ 0
+CPU-PB4
+Text GLabel 6100 4650 0    40   Input ~ 0
+CPU-PB3
+Text GLabel 6100 4550 0    40   Input ~ 0
+CPU-PB2
+Text GLabel 6100 4450 0    40   Input ~ 0
+CPU-PB1
+Text GLabel 6100 4350 0    40   Input ~ 0
+CPU-PB0
+Text GLabel 6900 1900 2    40   Output ~ 0
+CPU-PB7
+Text GLabel 6900 1800 2    40   Output ~ 0
+CPU-PB6
+Text GLabel 6900 1700 2    40   Output ~ 0
+CPU-PB5
+Text GLabel 6900 1600 2    40   Output ~ 0
+CPU-PB4
+Text GLabel 6900 1500 2    40   Output ~ 0
+CPU-PB3
+Text GLabel 6900 1400 2    40   Output ~ 0
+CPU-PB2
+Text GLabel 6900 1300 2    40   Output ~ 0
+CPU-PB1
+Text GLabel 6900 1200 2    40   Output ~ 0
+CPU-PB0
+Text GLabel 6100 4150 0    40   Input ~ 0
+CPU-PT7
+Text GLabel 6100 4050 0    40   Input ~ 0
+CPU-PT6
+Text GLabel 6100 3950 0    40   Input ~ 0
+CPU-PT5
+Text GLabel 6100 3850 0    40   Input ~ 0
+CPU-PT4
+Text GLabel 6900 1050 2    40   Output ~ 0
+CPU-PT7
+Text GLabel 6900 950  2    40   Output ~ 0
+CPU-PT6
+Text GLabel 6900 850  2    40   Output ~ 0
+CPU-PT5
+Text GLabel 6900 750  2    40   Output ~ 0
+CPU-PT4
+$Comp
+L CONN_1 P38
+U 1 1 4F21C18C
+P 8900 2400
+F 0 "P38" H 8980 2400 40  0000 L CNN
+F 1 "ACC-12v" H 8900 2455 30  0001 C CNN
+	1    8900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P37
+U 1 1 4F21C093
+P 10800 2750
+F 0 "P37" H 10880 2750 40  0000 L CNN
+F 1 "ACC-" H 10800 2805 30  0001 C CNN
+	1    10800 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 4000 0    50   ~ 10
+AND DO THE FOLLOWING
+Text Notes 5950 3500 0    40   ~ 0
+P21 Pin 1 has a trace to P34 Pin 2 on the PCB\nP21 Pin 2 has a trace to P34 Pin 4 on the PCB\nP21 Pin 3 has a trace to P34 Pin 5 on the PCB\nP21 Pin 4 has a trace to P34 Pin 7 on the PCB
+Text GLabel 7200 4150 2    40   Output ~ 0
 Injector7-IN
 $Comp
 L CONN_1 P36
@@ -175,27 +254,25 @@ $EndComp
 $Comp
 L CONN_4 P21
 U 1 1 4F20E065
-P 6300 4050
-F 0 "P21" V 6250 4050 50  0000 C CNN
-F 1 "INJ-IN" V 6350 4050 50  0000 C CNN
-	1    6300 4050
+P 6850 4000
+F 0 "P21" V 6800 4000 50  0000 C CNN
+F 1 "INJ-IN" V 6900 4000 50  0000 C CNN
+	1    6850 4000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6650 5100 2    40   Output ~ 0
+Text GLabel 7200 5050 2    40   Output ~ 0
 Injector8-IN
-Text GLabel 6650 5000 2    40   Output ~ 0
+Text GLabel 7200 4950 2    40   Output ~ 0
 Injector7-IN
 $Comp
 L CONN_8 P34
 U 1 1 4F20E01E
-P 6300 4750
-F 0 "P34" V 6250 4750 60  0000 C CNN
-F 1 "Injectors" V 6350 4750 60  0000 C CNN
-	1    6300 4750
+P 6850 4700
+F 0 "P34" V 6800 4700 60  0000 C CNN
+F 1 "Injectors-IN" V 6900 4700 60  0000 C CNN
+	1    6850 4700
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6900 2500 2    40   Output ~ 0
-Fan-Drive
 $Comp
 L CONN_1 P35
 U 1 1 4F20C9CD
@@ -205,8 +282,6 @@ F 1 "FAN-" H 10800 2655 30  0001 C CNN
 	1    10800 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 2650 0    40   Input ~ 0
-Fan-Drive
 Text GLabel 9050 1400 0    40   Input ~ 0
 Injector8-IN
 Text GLabel 9050 1300 0    40   Input ~ 0
@@ -361,10 +436,10 @@ TPS Ground
 $Comp
 L CONN_4 P20
 U 1 1 4F1F56DE
-P 7250 900
-F 0 "P20" V 7200 900 50  0000 C CNN
-F 1 "PT4-7" V 7300 900 50  0000 C CNN
-	1    7250 900 
+P 6450 4000
+F 0 "P20" V 6400 4000 50  0000 C CNN
+F 1 "PT4-7" V 6500 4000 50  0000 C CNN
+	1    6450 4000
 	1    0    0    -1  
 $EndComp
 Text GLabel 9300 6150 0    40   Input ~ 0
@@ -374,35 +449,35 @@ DIS-Bypass
 $Comp
 L CONN_8 P33
 U 1 1 4F1EAE6B
-P 7250 1550
-F 0 "P33" V 7200 1550 60  0000 C CNN
-F 1 "Injectors-PB" V 7300 1550 60  0000 C CNN
-	1    7250 1550
+P 6450 4700
+F 0 "P33" V 6400 4700 60  0000 C CNN
+F 1 "Injectors-PB" V 6500 4700 60  0000 C CNN
+	1    6450 4700
 	1    0    0    -1  
 $EndComp
 Text Notes 4400 4750 0    40   ~ 0
-For Full Sequential Injection\nrun jumper wires from:\nP33 to P34 pin for pin and \ndo not connect anything to P21.\nie: \nP33 pin 1 to P34 pin 1\nP33 pin 2 to P34 pin 2\nP33 pin 3 to P34 pin 3\nP33 pin 4 to P34 pin 4\nP33 pin 5 to P34 pin 5\nP33 pin 6 to P34 pin 6\nP33 pin 7 to P34 pin 7\nP33 pin 8 to P34 pin 8\n
-Text Notes 4400 4000 0    40   ~ 0
-For 6/8 cylinder Semi Sequential\nInjection configuration\n(can be tie-bar shorting jumper if \nyou installed a 0.100" pin header \nfor P34)\njumper from:\n\nP34 pin 1 to P34 pin 2\nP34 pin 3 to P34 pin 4\nP34 pin 5 to P34 pin 6\nP34 pin 7 to P34 pin 8
+To use Port B with future XGATE \ncode, run jumper wires from:\nP33 to P34 pin for pin and \ndo not connect anything to P21.\nie: \n   P33 pin 1 to P34 pin 1\n   P33 pin 2 to P34 pin 2\n   P33 pin 3 to P34 pin 3\n   P33 pin 4 to P34 pin 4\n   P33 pin 5 to P34 pin 5\n   P33 pin 6 to P34 pin 6\n   P33 pin 7 to P34 pin 7\n   P33 pin 8 to P34 pin 8\n
+Text Notes 4400 4100 0    40   ~ 0
+For 6/8 cylinder using Port T with\ncurrent code jumper from:\n(can be tie-bar shorting jumper if \nyou installed a 0.100" pin header \nfor P34)\n   P34 pin 1 to P34 pin 2\n   P34 pin 3 to P34 pin 4\n   P34 pin 5 to P34 pin 6\n   P34 pin 7 to P34 pin 8
 Text Notes 4400 3500 0    40   ~ 0
-For 6/8 cylinder Semi Sequential\nInjection, run jumper wires from: \nP20 pin 1 to P21 pin 1 = Bank 1\nP20 pin 2 to P21 pin 2 = Bank 2\nP20 pin 3 to P21 pin 3 = Bank 3\nP20 pin 4 to P21 pin 4 = Bank 4
-Text Notes 5700 5400 0    60   ~ 0
-P21 and P34 allow for selection for\nSemi-Sequential or Sequential Injection
-Text GLabel 6650 4100 2    40   Output ~ 0
+For 6/8 cylinder using Port T with\ncurrent code, run jumper wires \nfrom: \nP20 pin 1 to P21 pin 1 = Bank 1\nP20 pin 2 to P21 pin 2 = Bank 2\nP20 pin 3 to P21 pin 3 = Bank 3\nP20 pin 4 to P21 pin 4 = Bank 4
+Text Notes 5600 5300 0    60   ~ 0
+P21 and P34 allow for selection to use either \nPort T (4 cpu outputs MAXIMUM:current code)\nor Port B (8 cpu outputs:future XGATE code)
+Text GLabel 7200 4050 2    40   Output ~ 0
 Injector5-IN
-Text GLabel 6650 4000 2    40   Output ~ 0
+Text GLabel 7200 3950 2    40   Output ~ 0
 Injector4-IN
-Text GLabel 6650 3900 2    40   Output ~ 0
+Text GLabel 7200 3850 2    40   Output ~ 0
 Injector2-IN
-Text GLabel 6650 4900 2    40   Output ~ 0
+Text GLabel 7200 4850 2    40   Output ~ 0
 Injector6-IN
-Text GLabel 6650 4800 2    40   Output ~ 0
+Text GLabel 7200 4750 2    40   Output ~ 0
 Injector5-IN
-Text GLabel 6650 4700 2    40   Output ~ 0
+Text GLabel 7200 4650 2    40   Output ~ 0
 Injector4-IN
-Text GLabel 6650 4600 2    40   Output ~ 0
+Text GLabel 7200 4550 2    40   Output ~ 0
 Injector3-IN
-Text GLabel 6650 4500 2    40   Output ~ 0
+Text GLabel 7200 4450 2    40   Output ~ 0
 Injector2-IN
 Text GLabel 9050 1200 0    40   Input ~ 0
 Injector6-IN
@@ -414,7 +489,7 @@ Text GLabel 9050 900  0    40   Input ~ 0
 Injector3-IN
 Text GLabel 9050 800  0    40   Input ~ 0
 Injector2-IN
-Text GLabel 6650 4400 2    40   Output ~ 0
+Text GLabel 7200 4350 2    40   Output ~ 0
 Injector1-IN
 Text GLabel 9050 700  0    40   Input ~ 0
 Injector1-IN
@@ -451,14 +526,12 @@ F26 "DIS-Bypass-PT" O R 6900 2100 40
 F27 "Injector4-PT" O R 6900 1050 40 
 F28 "Injector8-PB" O R 6900 1900 40 
 F29 "Injector7-PB" O R 6900 1800 40 
-F30 "Fan-Drive" O R 6900 2500 40 
-F31 "Accessory-Drive" O R 6900 2600 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
-J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 34 position will allow for modifications to the board for additional \ninputs as this design only uses 27 positions.  I am still awaiting samples\nto test, however I have ordered samples of AMP Seal water resistant\n35 position connectors to test as well.
+J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
 Text Notes 650  900  0    60   ~ 0
-All Jumpers labeled JP# are crossover wires, nothing more.\nThis was done to ease single sided PCB Prototype testing.
-Text Notes 600  700  0    60   ~ 12
+Jumpers labeled JP3, JP4, JP5 and JP6 are crossover wires,nothing \nmore.  This was done to ease single sided PCB Prototype testing.
+Text Notes 600  700  0    70   ~ 14
 Notes:
 $Comp
 L CONN_1 P32

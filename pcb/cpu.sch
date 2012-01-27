@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jan 2012 04:31:41 PM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "26 jan 2012"
+Date "27 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,27 +32,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7000 5050
-Text HLabel 7000 5050 2    40   Output ~ 0
-Accessory-Drive
-$Comp
-L CONN_3 PP1
-U 1 1 4F210899
-P 1850 3050
-F 0 "PP1" V 1800 3050 50  0000 C CNN
-F 1 "PP1-3" V 1900 3050 40  0000 C CNN
-	1    1850 3050
-	-1   0    0    1   
-$EndComp
+Text Notes 1400 1800 0    40   ~ 0
+PP1 and PP2 allow us access to the Port\nP0-7 pins on the CPU so that we can \ntest these outputs in the future.
+NoConn ~ 7000 5050
+NoConn ~ 7000 4950
+Connection ~ 3300 1750
+Connection ~ 3400 1750
+Connection ~ 3500 1750
+Connection ~ 3600 1750
+Wire Wire Line
+	3650 900  3650 1250
+Connection ~ 3700 1400
+Wire Wire Line
+	3700 1250 3700 1400
+Wire Wire Line
+	3700 1250 3650 1250
+Wire Notes Line
+	8400 5650 8400 4950
+Wire Notes Line
+	8400 5650 9550 5650
+Wire Notes Line
+	9550 5650 9550 4950
+Wire Notes Line
+	9550 4950 8400 4950
 Connection ~ 2200 3950
-NoConn ~ 7000 5450
-Connection ~ 7000 4950
-Text HLabel 7000 4950 2    40   Output ~ 0
-Fan-Drive
-Text HLabel 3500 6550 3    40   Output ~ 0
-Injector8-PB
-Text HLabel 3400 6550 3    40   Output ~ 0
-Injector7-PB
 Connection ~ 4200 7500
 Connection ~ 4000 7500
 Connection ~ 3800 7500
@@ -75,17 +78,15 @@ Connection ~ 7850 4800
 Connection ~ 7850 4400
 Connection ~ 4400 7550
 Wire Notes Line
-	2000 1050 1400 1050
+	1400 700  800  700 
 Wire Notes Line
-	2000 1050 2000 1500
+	1400 700  1400 1150
 Wire Notes Line
-	2000 1500 1400 1500
+	1400 1150 800  1150
 Connection ~ 4800 7300
 Connection ~ 4400 7300
 Connection ~ 4050 900 
 Connection ~ 3650 900 
-Wire Wire Line
-	3650 900  3650 1400
 Wire Wire Line
 	7850 4800 7700 4800
 Wire Wire Line
@@ -121,9 +122,9 @@ Wire Wire Line
 	1600 7400 1650 7400
 Wire Wire Line
 	5200 6550 5200 6850
-Connection ~ 1900 1250
+Connection ~ 1300 900 
 Wire Wire Line
-	1800 1250 1900 1250
+	1200 900  1300 900 
 Wire Wire Line
 	1700 7000 1700 6950
 Wire Wire Line
@@ -164,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	650  7050 800  7050
 Wire Wire Line
-	3650 1400 3800 1400
+	3700 1400 3800 1400
 Wire Wire Line
 	3800 1400 3800 1750
 Wire Wire Line
@@ -327,7 +328,7 @@ Connection ~ 4500 6950
 Wire Wire Line
 	4800 6950 4800 7550
 Wire Notes Line
-	1400 1500 1400 1050
+	800  1150 800  700 
 Connection ~ 4800 7550
 Wire Wire Line
 	4100 6550 4100 7000
@@ -336,6 +337,53 @@ Wire Wire Line
 Wire Wire Line
 	4100 7500 4100 7550
 Connection ~ 4100 7500
+Wire Notes Line
+	8400 4800 8400 4000
+Wire Notes Line
+	8400 4800 9100 4800
+Wire Notes Line
+	9100 4800 9100 4000
+Wire Notes Line
+	9100 4000 8400 4000
+Wire Notes Line
+	8350 5700 9850 5700
+Wire Notes Line
+	8350 5700 8350 3750
+Wire Notes Line
+	8350 3750 9850 3750
+Wire Notes Line
+	9850 3750 9850 5700
+Connection ~ 2200 3150
+Connection ~ 2200 3050
+Connection ~ 2200 2950
+Connection ~ 2200 2850
+$Comp
+L CONN_4 PP2
+U 1 1 4F221E2B
+P 3450 1400
+F 0 "PP2" V 3400 1400 50  0000 C CNN
+F 1 "PP4-7" V 3500 1400 50  0000 C CNN
+	1    3450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_4 PP1
+U 1 1 4F221DE9
+P 1850 3000
+F 0 "PP1" V 1800 3000 50  0000 C CNN
+F 1 "PP0-3" V 1900 3000 50  0000 C CNN
+	1    1850 3000
+	-1   0    0    1   
+$EndComp
+Text Notes 8350 3700 0    60   ~ 12
+This Section May NOT Be Correct!
+Text Notes 8450 4150 0    60   ~ 0
+Check\nEngine\nLight
+NoConn ~ 7000 5450
+Text HLabel 3500 6550 3    40   Output ~ 0
+Injector8-PB
+Text HLabel 3400 6550 3    40   Output ~ 0
+Injector7-PB
 Text HLabel 2200 4550 0    40   Output ~ 0
 Injector4-PT
 Text HLabel 2200 3950 0    40   Output ~ 0
@@ -370,11 +418,11 @@ F 1 "10uF" H 4650 7450 50  0000 L CNN
 $EndComp
 Text Notes 6400 1600 0    40   ~ 0
 C4 and C44 X7R Ceramic
-Text Notes 1450 1450 0    60   ~ 0
+Text Notes 850  1100 0    60   ~ 0
 CPU Power
 Text Notes 4900 7500 0    40   ~ 0
 C48 10v Tantalum\nC3 X7R Ceramic
-Text Notes 3550 550  0    40   ~ 0
+Text Notes 4100 1250 0    40   ~ 0
 C47 10v Tantalum\nC2 X7R Ceramic
 $Comp
 L C C5
@@ -398,7 +446,7 @@ Text Notes 9050 5100 0    40   ~ 0
 Load/Run:\nOpen = Run\nClosed = Load
 Text Notes 800  3850 0    40   ~ 0
 C1 X7R Ceramic
-Text Notes 7950 4300 0    40   ~ 0
+Text Notes 7650 4350 0    40   ~ 0
 C5 X7R Ceramic
 $Comp
 L CONN_2 Load1
@@ -522,10 +570,10 @@ $EndComp
 $Comp
 L VDD #PWR013
 U 1 1 4F1C30FA
-P 1900 1250
-F 0 "#PWR013" H 1900 1350 30  0001 C CNN
-F 1 "VDD" H 1900 1360 30  0000 C CNN
-	1    1900 1250
+P 1300 900
+F 0 "#PWR013" H 1300 1000 30  0001 C CNN
+F 1 "VDD" H 1300 1010 30  0000 C CNN
+	1    1300 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -643,7 +691,7 @@ Text Notes 1000 7450 0    60   ~ 0
 BDM Connector
 Text HLabel 7000 2750 2    40   Input ~ 0
 5vdc-analog
-Text HLabel 1800 1250 0    40   Input ~ 0
+Text HLabel 1200 900  0    40   Input ~ 0
 5vdc-cpu
 $Comp
 L R R62
@@ -738,7 +786,6 @@ F3 "TX" B L 5400 900 40
 F4 "GND" O R 5950 900 40 
 F5 "5vdc-ft232rl" I L 5400 1000 40 
 $EndSheet
-NoConn ~ 2200 2850
 NoConn ~ 2200 3250
 NoConn ~ 2200 3350
 NoConn ~ 2200 3450
@@ -784,10 +831,6 @@ NoConn ~ 4200 1750
 NoConn ~ 4100 1750
 NoConn ~ 4000 1750
 NoConn ~ 3700 1750
-NoConn ~ 3600 1750
-NoConn ~ 3500 1750
-NoConn ~ 3400 1750
-NoConn ~ 3300 1750
 Text Label 1600 7150 0    40   ~ 0
 RESET
 Text Label 800  7050 2    40   ~ 0
