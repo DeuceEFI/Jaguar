@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 05:27:19 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,10 +32,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1400 1800 0    40   ~ 0
-PP1 and PP2 allow us access to the Port\nP0-7 pins on the CPU so that we can \ntest these outputs in the future.
-NoConn ~ 7000 5050
-NoConn ~ 7000 4950
+Connection ~ 8300 4850
+Connection ~ 8800 4850
+Wire Wire Line
+	8800 4850 9250 4850
+Wire Notes Line
+	9100 4800 8750 4800
+Wire Notes Line
+	8400 5400 8400 4950
+Wire Notes Line
+	8400 5400 9550 5400
 Connection ~ 3300 1750
 Connection ~ 3400 1750
 Connection ~ 3500 1750
@@ -48,13 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 1250 3650 1250
 Wire Notes Line
-	8400 5650 8400 4950
-Wire Notes Line
-	8400 5650 9550 5650
-Wire Notes Line
-	9550 5650 9550 4950
-Wire Notes Line
-	9550 4950 8400 4950
+	8400 4950 9550 4950
 Connection ~ 2200 3950
 Connection ~ 4200 7500
 Connection ~ 4000 7500
@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6900 4000 6550
 Wire Wire Line
-	4000 7500 4200 7500
+	4200 7500 4000 7500
 Wire Wire Line
 	4200 6550 4200 7000
 Wire Wire Line
@@ -97,8 +97,6 @@ Wire Wire Line
 	1450 4300 1300 4300
 Connection ~ 8950 5250
 Connection ~ 8950 5050
-Wire Wire Line
-	8950 5500 8950 5250
 Wire Wire Line
 	8950 4850 8950 5050
 Connection ~ 1300 4300
@@ -161,8 +159,6 @@ Connection ~ 8950 4350
 Connection ~ 9250 4350
 Connection ~ 8950 3950
 Wire Wire Line
-	7000 4850 9250 4850
-Wire Wire Line
 	650  7050 800  7050
 Wire Wire Line
 	3700 1400 3800 1400
@@ -179,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 6400 10450 6300
 Wire Wire Line
-	8400 6350 7900 6350
+	7900 6350 8400 6350
 Connection ~ 1600 7050
 Connection ~ 5200 6550
 Connection ~ 7000 4550
@@ -284,7 +280,7 @@ Connection ~ 7000 4850
 Wire Wire Line
 	4500 6550 4500 6950
 Wire Wire Line
-	4400 7700 4400 6550
+	4400 6550 4400 7700
 Wire Wire Line
 	6100 1750 6100 1850
 Connection ~ 4050 1400
@@ -308,7 +304,7 @@ Wire Wire Line
 	7700 2850 7000 2850
 Connection ~ 7700 2850
 Wire Wire Line
-	7150 1750 5900 1750
+	5900 1750 7150 1750
 Connection ~ 6100 1750
 Wire Wire Line
 	1300 4300 1300 4350
@@ -321,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 4550 7000 4550
 Wire Wire Line
-	4050 1500 4050 900 
+	4050 900  4050 1500
 Wire Wire Line
 	4500 6950 4800 6950
 Connection ~ 4500 6950
@@ -338,25 +334,38 @@ Wire Wire Line
 	4100 7500 4100 7550
 Connection ~ 4100 7500
 Wire Notes Line
-	8400 4800 8400 4000
-Wire Notes Line
-	8400 4800 9100 4800
-Wire Notes Line
 	9100 4800 9100 4000
 Wire Notes Line
 	9100 4000 8400 4000
-Wire Notes Line
-	8350 5700 9850 5700
-Wire Notes Line
-	8350 5700 8350 3750
-Wire Notes Line
-	8350 3750 9850 3750
-Wire Notes Line
-	9850 3750 9850 5700
 Connection ~ 2200 3150
 Connection ~ 2200 3050
 Connection ~ 2200 2950
 Connection ~ 2200 2850
+Wire Wire Line
+	8300 4850 7000 4850
+Wire Wire Line
+	8950 5250 8950 5300
+Wire Notes Line
+	9550 4950 9550 5400
+Wire Notes Line
+	8400 4000 8400 4400
+Wire Notes Line
+	8400 4400 8750 4400
+Wire Notes Line
+	8750 4400 8750 4800
+$Comp
+L R R78
+U 1 1 4F22F2CC
+P 8550 4850
+F 0 "R78" V 8630 4850 50  0000 C CNN
+F 1 "1k" V 8550 4850 50  0000 C CNN
+	1    8550 4850
+	0    -1   -1   0   
+$EndComp
+Text Notes 1400 1800 0    40   ~ 0
+PP1 and PP2 allow us access to the Port\nP0-7 pins on the CPU so that we can \ntest these outputs in the future.
+NoConn ~ 7000 5050
+NoConn ~ 7000 4950
 $Comp
 L CONN_4 PP2
 U 1 1 4F221E2B
@@ -375,8 +384,6 @@ F 1 "PP0-3" V 1900 3000 50  0000 C CNN
 	1    1850 3000
 	-1   0    0    1   
 $EndComp
-Text Notes 8350 3700 0    60   ~ 12
-This Section May NOT Be Correct!
 Text Notes 8450 4150 0    60   ~ 0
 Check\nEngine\nLight
 NoConn ~ 7000 5450
@@ -633,10 +640,10 @@ $EndComp
 $Comp
 L GND #PWR020
 U 1 1 4F1C284A
-P 8950 5500
-F 0 "#PWR020" H 8950 5500 30  0001 C CNN
-F 1 "GND" H 8950 5430 30  0001 C CNN
-	1    8950 5500
+P 8950 5300
+F 0 "#PWR020" H 8950 5300 30  0001 C CNN
+F 1 "GND" H 8950 5230 30  0001 C CNN
+	1    8950 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -719,7 +726,7 @@ L R R8
 U 1 1 4F179AD3
 P 9250 4600
 F 0 "R8" V 9330 4600 50  0000 C CNN
-F 1 "2.4k" V 9250 4600 50  0000 C CNN
+F 1 "10k" V 9250 4600 50  0000 C CNN
 	1    9250 4600
 	-1   0    0    1   
 $EndComp
@@ -946,7 +953,7 @@ L C C11
 U 1 1 4F0A35E9
 P 10450 6600
 F 0 "C11" H 10500 6700 50  0000 L CNN
-F 1 "22pF" H 10500 6500 50  0000 L CNN
+F 1 "18pF" H 10500 6500 50  0000 L CNN
 	1    10450 6600
 	-1   0    0    1   
 $EndComp
@@ -955,7 +962,7 @@ L C C10
 U 1 1 4F0A35D9
 P 9950 6600
 F 0 "C10" H 10000 6700 50  0000 L CNN
-F 1 "22pF" H 10000 6500 50  0000 L CNN
+F 1 "18pF" H 10000 6500 50  0000 L CNN
 	1    9950 6600
 	-1   0    0    1   
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:59:21 AM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 05:27:19 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,33 +32,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P39
-U 1 1 4F2222E6
-P 8900 2650
-F 0 "P39" H 8980 2650 40  0000 L CNN
-F 1 "FAN" H 8900 2705 30  0001 C CNN
-	1    8900 2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P40
-U 1 1 4F2222DF
-P 8900 2750
-F 0 "P40" H 8980 2750 40  0000 L CNN
-F 1 "ACC" H 8900 2805 30  0001 C CNN
-	1    8900 2750
-	-1   0    0    1   
-$EndComp
-Text Notes 5950 7600 0    25   ~ 0
-35
-NoConn ~ 6500 7650
+Wire Notes Line
+	550  2450 4200 2450
 Wire Notes Line
 	6500 7650 6000 7650
 Wire Notes Line
 	6000 7650 6000 7600
-Wire Notes Line
-	550  1900 4200 1900
 Wire Notes Line
 	4350 4650 5500 4650
 Wire Notes Line
@@ -165,10 +144,38 @@ Wire Notes Line
 Wire Notes Line
 	550  1050 4200 1050
 Wire Notes Line
-	550  2300 4200 2300
-Text Notes 650  2450 0    60   ~ 0
-Serial Monitor (Load1 and CEL) section of the CPU Schematic may not \nbe correct.  Fred is checking into this.
-Text Notes 650  2050 0    60   ~ 0
+	550  2050 4200 2050
+$Comp
+L CONN_1 P41
+U 1 1 4F22BF32
+P 5050 2300
+F 0 "P41" H 5130 2300 40  0000 L CNN
+F 1 "MAF-Signal" H 5050 2355 30  0001 C CNN
+	1    5050 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P39
+U 1 1 4F2222E6
+P 8900 2650
+F 0 "P39" H 8980 2650 40  0000 L CNN
+F 1 "FAN" H 8900 2705 30  0001 C CNN
+	1    8900 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P40
+U 1 1 4F2222DF
+P 8900 2750
+F 0 "P40" H 8980 2750 40  0000 L CNN
+F 1 "ACC" H 8900 2805 30  0001 C CNN
+	1    8900 2750
+	-1   0    0    1   
+$EndComp
+Text Notes 5950 7600 0    25   ~ 0
+35
+NoConn ~ 6500 7650
+Text Notes 650  2200 0    60   ~ 0
 Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith mica insulators and use plastic screws.
 Text GLabel 6100 5050 0    40   Input ~ 0
 CPU-PB7
@@ -528,7 +535,7 @@ F28 "Injector8-PB" O R 6900 1900 40
 F29 "Injector7-PB" O R 6900 1800 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
-J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
+J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
 Text Notes 650  900  0    60   ~ 0
 Jumpers labeled JP3, JP4, JP5 and JP6 are crossover wires,nothing \nmore.  This was done to ease single sided PCB Prototype testing.
 Text Notes 600  700  0    70   ~ 14
@@ -692,7 +699,6 @@ F 1 "12v-SW2" H 8900 1555 30  0001 C CNN
 $EndComp
 Text GLabel 5200 1800 0    40   Input ~ 0
 BRV
-NoConn ~ 5200 2300
 Text GLabel 5200 1350 0    40   Input ~ 0
 CAM
 Text GLabel 10650 6650 2    40   Output ~ 0

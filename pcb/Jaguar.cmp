@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 27 Jan 2012 01:44:24 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 27 Jan 2012 01:59:04 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35D9;
 Reference = C10;
-ValeurCmp = 22pF;
+ValeurCmp = 18pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35E9;
 Reference = C11;
-ValeurCmp = 22pF;
+ValeurCmp = 18pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -939,6 +939,13 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F22BF32;
+Reference = P41;
+ValeurCmp = MAF-Signal;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F221DE9;
 Reference = PP1;
 ValeurCmp = PP0-3;
@@ -1081,7 +1088,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F179AD3;
 Reference = R8;
-ValeurCmp = 2.4k;
+ValeurCmp = 10k;
 IdModule  = RC03_VERT;
 EndCmp
 
@@ -1564,6 +1571,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F21BF53;
 Reference = R77;
+ValeurCmp = 1k;
+IdModule  = RC03_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F22F2CC;
+Reference = R78;
 ValeurCmp = 1k;
 IdModule  = RC03_VERT;
 EndCmp
