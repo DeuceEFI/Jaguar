@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 27 Jan 2012 05:27:19 PM EST
+EESchema Schematic File Version 2  date Sun 29 Jan 2012 12:24:07 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "27 jan 2012"
+Date "29 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,28 +32,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L VDD #PWR025
-U 1 1 4F1C4720
-P 10850 2850
-F 0 "#PWR025" H 10850 2950 30  0001 C CNN
-F 1 "VDD" H 10850 2960 30  0000 C CNN
-	1    10850 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR026
-U 1 1 4F1C4712
-P 9350 1700
-F 0 "#PWR026" H 9350 1800 30  0001 C CNN
-F 1 "VDD" H 9350 1810 30  0000 C CNN
-	1    9350 1700
-	1    0    0    -1  
-$EndComp
-Text HLabel 9350 2500 2    40   Input ~ 0
-GND
-Text Notes 5250 2350 0    40   ~ 0
-Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
+Text Notes 1500 4850 0    40   ~ 0
+USB-B Mini Connector
+Connection ~ 2600 5250
+Connection ~ 2600 5150
+Connection ~ 2600 5050
+Connection ~ 2600 4950
+NoConn ~ 2250 4450
+NoConn ~ 2250 5700
+NoConn ~ 2600 5350
+Wire Wire Line
+	2600 5250 2850 5250
+Wire Wire Line
+	2600 5050 2650 5050
 Wire Wire Line
 	9350 2600 9350 2500
 Wire Wire Line
@@ -169,6 +160,53 @@ Wire Wire Line
 	7850 3150 7850 3250
 Connection ~ 7850 3250
 Connection ~ 7250 3250
+Wire Wire Line
+	2600 4950 2800 4950
+Wire Wire Line
+	2600 5150 2650 5150
+Text Label 2600 5150 0    25   ~ 0
+D+
+Text Label 2600 5050 0    25   ~ 0
+D-
+Text Label 2600 3350 0    25   ~ 0
+D+
+Text Label 2600 3250 0    25   ~ 0
+D-
+Text Label 2600 4950 0    40   ~ 0
+5v-USB
+Text Label 2600 5250 0    40   ~ 0
+USB-GND
+$Comp
+L USB_B-MINI J2
+U 1 1 4F24FF34
+P 2250 5050
+F 0 "J2" H 2100 5450 60  0000 C CNN
+F 1 "USB_B-MINI" H 2225 4450 60  0001 C CNN
+	1    2250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD #PWR025
+U 1 1 4F1C4720
+P 10850 2850
+F 0 "#PWR025" H 10850 2950 30  0001 C CNN
+F 1 "VDD" H 10850 2960 30  0000 C CNN
+	1    10850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR026
+U 1 1 4F1C4712
+P 9350 1700
+F 0 "#PWR026" H 9350 1800 30  0001 C CNN
+F 1 "VDD" H 9350 1810 30  0000 C CNN
+	1    9350 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 9350 2500 2    40   Input ~ 0
+GND
+Text Notes 5250 2350 0    40   ~ 0
+Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
 L GND #PWR027
 U 1 1 4F1C30B1

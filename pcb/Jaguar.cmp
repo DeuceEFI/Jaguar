@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 27 Jan 2012 01:59:04 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 29 Jan 2012 12:15:57 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -326,7 +326,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F179B05;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_yellow;
 EndCmp
 
 BeginCmp
@@ -347,14 +347,14 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1DC643;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_green;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DC64E;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_green;
 EndCmp
 
 BeginCmp
@@ -445,42 +445,42 @@ BeginCmp
 TimeStamp = /4F0D0381/4F138097;
 Reference = D18;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13816D;
 Reference = D19;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138175;
 Reference = D20;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13817C;
 Reference = D21;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138182;
 Reference = D22;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13818D;
 Reference = D23;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F1384E1;
 Reference = D30;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -543,28 +543,28 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A45FE;
 Reference = D33;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_green;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A4611;
 Reference = D34;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_green;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5D4;
 Reference = D35;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E4;
 Reference = D36;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -585,7 +585,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F20C917;
 Reference = D39;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -599,7 +599,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F21BF55;
 Reference = D41;
 ValeurCmp = LED;
-IdModule  = LED-3MM;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -617,17 +617,24 @@ IdModule  = conn_usb_B;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/4F24FF34;
+Reference = J2;
+ValeurCmp = USB_B-MINI;
+IdModule  = USB-B-mini;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/4F1E9F0D;
 Reference = JP1;
 ValeurCmp = POS/NEG;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1ED2EA;
 Reference = JP2;
 ValeurCmp = POS/NEG;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -677,6 +684,13 @@ TimeStamp = /4F0A2F06/4F1DBE71;
 Reference = Load1;
 ValeurCmp = Load/Run;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/4F24F92A;
+Reference = MOV1;
+ValeurCmp = ERZ-V14D220;
+IdModule  = cnp_7.5mm_disc;
 EndCmp
 
 BeginCmp

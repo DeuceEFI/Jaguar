@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 27 Jan 2012 05:27:19 PM EST
+EESchema Schematic File Version 2  date Sun 29 Jan 2012 12:24:07 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "27 jan 2012"
+Date "29 jan 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -32,77 +32,99 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1750 3350
+Connection ~ 1750 3850
+Wire Wire Line
+	1750 3850 1750 3900
+Connection ~ 5050 3750
+Connection ~ 5050 3350
+Connection ~ 5050 2650
+Connection ~ 5050 2250
+Connection ~ 3450 2650
+Wire Wire Line
+	3450 2550 3450 2650
+Connection ~ 4550 3750
+Connection ~ 4550 3350
+Connection ~ 4100 3750
+Connection ~ 4100 3350
+Connection ~ 3850 3350
+Connection ~ 3450 3650
+Connection ~ 2350 3750
+Connection ~ 2800 3750
+Connection ~ 3050 3350
+Connection ~ 2800 3350
+Connection ~ 2350 3350
+Connection ~ 2350 2650
+Connection ~ 2800 2650
+Connection ~ 3450 2550
+Connection ~ 4100 2650
+Connection ~ 4550 2650
+Connection ~ 4550 2250
+Connection ~ 4100 2250
+Connection ~ 3850 2250
+Connection ~ 3050 2250
+Connection ~ 2800 2250
+Connection ~ 2350 2250
+Wire Wire Line
+	3850 3350 5350 3350
+Wire Wire Line
+	3850 2250 5350 2250
+Wire Wire Line
+	3050 2250 1750 2250
+Wire Wire Line
+	2350 2650 5050 2650
+Wire Wire Line
+	3050 3350 1750 3350
+Wire Wire Line
+	3450 3650 3450 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	2350 3750 5050 3750
+Wire Wire Line
+	5050 2650 5050 2750
+Wire Wire Line
+	5050 3750 5050 3850
+Wire Wire Line
+	1750 3350 1750 2250
+Connection ~ 1750 2850
+$Comp
+L GND #PWR060
+U 1 1 4F24F936
+P 1750 3900
+F 0 "#PWR060" H 1750 3900 30  0001 C CNN
+F 1 "GND" H 1750 3830 30  0001 C CNN
+	1    1750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR MOV1
+U 1 1 4F24F92A
+P 1750 3600
+F 0 "MOV1" V 1850 3600 50  0000 C CNN
+F 1 "ERZ-V14D220" V 1650 3600 50  0000 C CNN
+	1    1750 3600
+	1    0    0    -1  
+$EndComp
 Text Notes 2300 4150 0    60   ~ 0
 C14, C15, C16 and C17 are 50v X7R Ceramic capacitors.
 Text Notes 2300 4300 0    60   ~ 0
 C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 16v Tantalum capacitors.
-Connection ~ 1750 2850
-Wire Wire Line
-	1750 3350 1750 2250
-Wire Wire Line
-	5050 3850 5050 3750
-Wire Wire Line
-	5050 2750 5050 2650
-Wire Wire Line
-	5050 3750 2350 3750
-Connection ~ 3450 3750
-Wire Wire Line
-	3450 3650 3450 3750
-Wire Wire Line
-	1750 3350 3050 3350
-Wire Wire Line
-	5050 2650 2350 2650
-Wire Wire Line
-	1750 2250 3050 2250
-Wire Wire Line
-	3850 2250 5350 2250
-Wire Wire Line
-	3850 3350 5350 3350
-Connection ~ 2350 2250
-Connection ~ 2800 2250
-Connection ~ 3050 2250
-Connection ~ 3850 2250
-Connection ~ 4100 2250
-Connection ~ 4550 2250
-Connection ~ 4550 2650
-Connection ~ 4100 2650
-Connection ~ 3450 2550
-Connection ~ 2800 2650
-Connection ~ 2350 2650
-Connection ~ 2350 3350
-Connection ~ 2800 3350
-Connection ~ 3050 3350
-Connection ~ 2800 3750
-Connection ~ 2350 3750
-Connection ~ 3450 3650
-Connection ~ 3850 3350
-Connection ~ 4100 3350
-Connection ~ 4100 3750
-Connection ~ 4550 3350
-Connection ~ 4550 3750
-Wire Wire Line
-	3450 2550 3450 2650
-Connection ~ 3450 2650
-Connection ~ 5050 2250
-Connection ~ 5050 2650
-Connection ~ 5050 3350
-Connection ~ 5050 3750
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR060
+L GND #PWR061
 U 1 1 4F1C2CDE
 P 5050 3850
-F 0 "#PWR060" H 5050 3850 30  0001 C CNN
+F 0 "#PWR061" H 5050 3850 30  0001 C CNN
 F 1 "GND" H 5050 3780 30  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L GND #PWR062
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR061" H 5050 2750 30  0001 C CNN
+F 0 "#PWR062" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  
