@@ -1,0 +1,155 @@
+# EESchema Netlist Version 1.1 created  Mon 30 Jan 2012 08:27:49 PM EST
+(
+ ( /4F26076E TE-776163 J1 TE-776163
+  ( 1 N-000013 )
+  ( 2 N-000014 )
+  ( 3 N-000015 )
+  ( 4 N-000016 )
+  ( 5 N-000017 )
+  ( 6 N-000018 )
+  ( 7 N-000019 )
+  ( 8 N-000020 )
+  ( 9 N-000021 )
+  ( 10 N-000022 )
+  ( 11 N-000002 )
+  ( 12 N-000004 )
+  ( 13 N-000034 )
+  ( 14 N-000023 )
+  ( 15 N-000033 )
+  ( 16 N-000031 )
+  ( 17 N-000032 )
+  ( 18 N-000028 )
+  ( 19 N-000029 )
+  ( 20 N-000026 )
+  ( 21 N-000036 )
+  ( 22 N-000035 )
+  ( 23 N-000010 )
+  ( 24 N-000007 )
+  ( 25 /12Out )
+  ( 26 N-000027 )
+  ( 27 N-000024 )
+  ( 28 N-000025 )
+  ( 29 ? )
+  ( 30 N-000001 )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 N-000006 )
+  ( 34 N-000008 )
+  ( 35 N-000009 )
+ )
+ ( /4F1CD4E4 WireConnection P1 FUEL-12v
+  ( 1 /12Out )
+ )
+ ( /4F20FB3D WireConnection P2 FAN-12v
+  ( 1 /12Out )
+ )
+ ( /4F21C18C WireConnection P3 ACC-12v
+  ( 1 /12Out )
+ )
+ ( /4F268B7F WireConnection P4 12vdc
+  ( 1 /12Out )
+ )
+ ( /4F268B92 WireConnection P5 12vdc
+  ( 1 /12Out )
+ )
+ ( /4F0A55A0 WireConnection P6 12v-SW
+  ( 1 N-000007 )
+ )
+ ( /4F189D1F WireConnection P7 12v-SW2
+  ( 1 /12Out )
+ )
+ ( /4F189D7E WireConnection P8 GND
+  ( 1 N-000027 )
+ )
+ ( /4F0C7391 WireConnection P9 GND2
+  ( 1 N-000024 )
+ )
+ ( /4F0BB588 WireConnection P10 O2-GND
+  ( 1 N-000025 )
+ )
+ ( /4F0BB568 WireConnection P11 TPS-GND
+  ( 1 N-000001 )
+ )
+ ( /4F27368D WireConnection P12 INJ-7
+  ( 1 N-000006 )
+ )
+ ( /4F273690 WireConnection P13 INJ-8
+  ( 1 N-000008 )
+ )
+ ( /4F125936 WireConnection P14 INJ-GND
+  ( 1 N-000009 )
+ )
+ ( /4F0C73A3 WireConnection P15 BRV-12v
+  ( 1 /12Out )
+ )
+ ( /4F0BB599 WireConnection P16 CRANK+
+  ( 1 N-000013 )
+ )
+ ( /4F1248F4 WireConnection P17 CAM+
+  ( 1 N-000014 )
+ )
+ ( /4F1CC8BD WireConnection P18 TPS-5v
+  ( 1 N-000015 )
+ )
+ ( /4F0BB55E WireConnection P19 TPS
+  ( 1 N-000016 )
+ )
+ ( /4F0BB57B WireConnection P20 O2
+  ( 1 N-000017 )
+ )
+ ( /4F0BB528 WireConnection P21 IAT
+  ( 1 N-000018 )
+ )
+ ( /4F0BB535 WireConnection P22 MAT
+  ( 1 N-000019 )
+ )
+ ( /4F0BB53F WireConnection P23 COOLANT
+  ( 1 N-000020 )
+ )
+ ( /4F22BF32 WireConnection P24 MAF-Signal
+  ( 1 N-000021 )
+ )
+ ( /4F273692 WireConnection P25 INJ-1
+  ( 1 N-000022 )
+ )
+ ( /4F273686 WireConnection P26 INJ-2
+  ( 1 N-000002 )
+ )
+ ( /4F273651 WireConnection P27 INJ-3
+  ( 1 N-000004 )
+ )
+ ( /4F186A57 WireConnection P28 CRANK-
+  ( 1 N-000034 )
+ )
+ ( /4F124A8E WireConnection P29 CAM-
+  ( 1 N-000023 )
+ )
+ ( /4F1CD3BD WireConnection P30 OUT-GND
+  ( 1 N-000033 )
+ )
+ ( /4F21C093 WireConnection P31 ACC-
+  ( 1 N-000031 )
+ )
+ ( /4F20C9CD WireConnection P32 FAN-
+  ( 1 N-000032 )
+ )
+ ( /4F0D8467 WireConnection P33 FUEL-
+  ( 1 N-000028 )
+ )
+ ( /4F0BB4F8 WireConnection P34 IGN-ADVANCE
+  ( 1 N-000029 )
+ )
+ ( /4F0BB4F1 WireConnection P35 DIS-BYPASS
+  ( 1 N-000026 )
+ )
+ ( /4F273688 WireConnection P36 INJ-4
+  ( 1 N-000036 )
+ )
+ ( /4F27367E WireConnection P37 INJ-5
+  ( 1 N-000035 )
+ )
+ ( /4F273679 WireConnection P38 INJ-6
+  ( 1 N-000010 )
+ )
+)
+*

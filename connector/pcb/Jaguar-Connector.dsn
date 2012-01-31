@@ -1,0 +1,379 @@
+(pcb "/home/andy/git/Jaguar-Connector/pcb/Jaguar-Connector.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(2010-03-14)-final")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  4300 -5000  2300 -5000  2300 -2000  4300 -2000  4300 -5000)
+    )
+    (plane "N-000013" (polygon Front 0  4300 -4900  4300 -2100  2300 -2100  2300 -4900))
+    (plane "N-000013" (polygon Back 0  4300 -4900  4300 -2100  2300 -2100  2300 -4900))
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 10)
+      (clearance 6.1)
+      (clearance 6.1 (type default_smd))
+      (clearance 1.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component pin_strip_8
+      (place P26 3500 -3850 front 270 (PN Injectors))
+    )
+    (component WireConnection
+      (place P43 3975 -2800 front 0 (PN 12vdc))
+      (place P42 3825 -2800 front 0 (PN 12vdc))
+      (place P41 3200 -3975 front 0 (PN "MAF-Signal"))
+      (place P38 3675 -2800 front 0 (PN "ACC-12v"))
+      (place P37 3225 -2325 front 0 (PN "ACC-"))
+      (place P36 3525 -2800 front 0 (PN "FAN-12v"))
+      (place P35 3425 -2325 front 0 (PN "FAN-"))
+      (place P32 3350 -2800 front 0 (PN "FUEL-12v"))
+      (place P31 3050 -3425 front 0 (PN "OUT-GND"))
+      (place P25 3600 -2325 front 0 (PN "FUEL-"))
+      (place P22 3050 -2325 front 0 (PN "INJ-GND"))
+      (place P19 3200 -4275 front 0 (PN "IGN-ADVANCE"))
+      (place P18 3200 -4125 front 0 (PN "DIS-BYPASS"))
+      (place P17 3050 -4375 front 0 (PN "CAM-"))
+      (place P16 3050 -4200 front 0 (PN CAM+))
+      (place P15 3050 -4050 front 0 (PN "CRANK-"))
+      (place P14 3050 -3900 front 0 (PN CRANK+))
+      (place P13 3200 -3800 front 0 (PN "O2-GND"))
+      (place P12 3200 -3650 front 0 (PN O2))
+      (place P11 3200 -3025 front 0 (PN "TPS-GND"))
+      (place P10 3200 -2875 front 0 (PN TPS))
+      (place P9 3200 -2700 front 0 (PN "TPS-5v"))
+      (place P8 3200 -3500 front 0 (PN COOLANT))
+      (place P7 3200 -3350 front 0 (PN MAT))
+      (place P6 3200 -3200 front 0 (PN IAT))
+      (place P5 3050 -3275 front 0 (PN GND2))
+      (place P4 3050 -2950 front 0 (PN "BRV-12v"))
+      (place P3 3050 -3100 front 0 (PN GND))
+      (place P2 3075 -2800 front 0 (PN "12v-SW2"))
+      (place P1 3050 -2625 front 0 (PN "12v-SW"))
+    )
+    (component "TE-776163"
+      (place J3 2650 -3500 front 270 (PN "TE-776163"))
+    )
+  )
+  (library
+    (image pin_strip_8
+      (outline (path signal 12  -300 50  -300 -50))
+      (outline (path signal 12  -400 50  400 50))
+      (outline (path signal 12  400 50  400 -50))
+      (outline (path signal 12  400 -50  -400 -50))
+      (outline (path signal 12  -400 -50  -400 50))
+      (pin Rect[A]Pad_60x86.6_mil 1 -350 0)
+      (pin Oval[A]Pad_60x86.6_mil 2 -250 0)
+      (pin Oval[A]Pad_60x86.6_mil 3 -150 0)
+      (pin Oval[A]Pad_60x86.6_mil 4 -50 0)
+      (pin Oval[A]Pad_60x86.6_mil 5 50 0)
+      (pin Oval[A]Pad_60x86.6_mil 6 150 0)
+      (pin Oval[A]Pad_60x86.6_mil 7 250 0)
+      (pin Oval[A]Pad_60x86.6_mil 8 350 0)
+    )
+    (image WireConnection
+      (outline (path signal 5  31.6 0  30 -9.7  25.5 -18.5  18.5 -25.5  9.7 -30  0 -31.6
+            -9.7 -30  -18.5 -25.5  -25.5 -18.5  -30 -9.7  -31.6 0  -30 9.7
+            -25.5 18.5  -18.5 25.5  -9.7 30  0 31.6  9.7 30  18.5 25.5  25.5 18.5
+            30 9.7))
+      (pin Round[A]Pad_90_mil 1 0 0)
+    )
+    (image "TE-776163"
+      (outline (path signal 15  -150 300  -150 350))
+      (outline (path signal 15  -150 350  -100 350))
+      (outline (path signal 15  -100 350  -100 300))
+      (outline (path signal 15  -100 300  100 300))
+      (outline (path signal 15  100 300  100 350))
+      (outline (path signal 15  100 350  150 350))
+      (outline (path signal 15  150 350  150 300))
+      (outline (path signal 15  -1000 -150  -1000 150))
+      (outline (path signal 15  850 -300  -850 -300))
+      (outline (path signal 15  1000 150  1000 -150))
+      (outline (path signal 15  -850 300  850 300))
+      (pin Round[A]Pad_86.6_mil 18 0 0)
+      (pin Round[A]Pad_86.6_mil 17 -157.5 0)
+      (pin Round[A]Pad_86.6_mil 19 157.5 0)
+      (pin Round[A]Pad_86.6_mil 16 -315 0)
+      (pin Round[A]Pad_86.6_mil 15 -472.5 0)
+      (pin Round[A]Pad_86.6_mil 14 -630 0)
+      (pin Round[A]Pad_86.6_mil 13 -787.5 0)
+      (pin Round[A]Pad_86.6_mil 20 315 0)
+      (pin Round[A]Pad_86.6_mil 21 472.5 0)
+      (pin Round[A]Pad_86.6_mil 22 630 0)
+      (pin Round[A]Pad_86.6_mil 23 787.5 0)
+      (pin Round[A]Pad_86.6_mil 1 -866.2 157.5)
+      (pin Round[A]Pad_86.6_mil 6 -78.7 157.5)
+      (pin Round[A]Pad_86.6_mil 2 -708.7 157.5)
+      (pin Round[A]Pad_86.6_mil 3 -551.2 157.5)
+      (pin Round[A]Pad_86.6_mil 4 -393.7 157.5)
+      (pin Round[A]Pad_86.6_mil 5 -236.2 157.5)
+      (pin Round[A]Pad_86.6_mil 7 78.7 157.5)
+      (pin Round[A]Pad_86.6_mil 8 236.2 157.5)
+      (pin Round[A]Pad_86.6_mil 9 393.7 157.5)
+      (pin Round[A]Pad_86.6_mil 10 551.2 157.5)
+      (pin Round[A]Pad_86.6_mil 11 708.7 157.5)
+      (pin Round[A]Pad_86.6_mil 12 866.2 157.5)
+      (pin Round[A]Pad_86.6_mil 24 -866.2 -157.5)
+      (pin Round[A]Pad_86.6_mil 25 -708.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 26 -551.2 -157.5)
+      (pin Round[A]Pad_86.6_mil 27 -393.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 28 -236.2 -157.5)
+      (pin Round[A]Pad_86.6_mil 29 -78.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 30 78.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 31 236.2 -157.5)
+      (pin Round[A]Pad_86.6_mil 32 393.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 33 551.2 -157.5)
+      (pin Round[A]Pad_86.6_mil 34 708.7 -157.5)
+      (pin Round[A]Pad_86.6_mil 35 866.2 -157.5)
+      (pin Round[A]Pad_125_mil 36 -1122.1 -19.7)
+      (pin Round[A]Pad_125_mil 37 1122.1 -19.7)
+    )
+    (padstack Round[A]Pad_125_mil
+      (shape (circle Front 125))
+      (shape (circle Back 125))
+      (attach off)
+    )
+    (padstack Round[A]Pad_86.6_mil
+      (shape (circle Front 86.6))
+      (shape (circle Back 86.6))
+      (attach off)
+    )
+    (padstack Round[A]Pad_90_mil
+      (shape (circle Front 90))
+      (shape (circle Back 90))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_60x86.6_mil
+      (shape (path Front 60  0 -13.3  0 13.3))
+      (shape (path Back 60  0 -13.3  0 13.3))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x86.6_mil
+      (shape (rect Front -30 -43.3 30 43.3))
+      (shape (rect Back -30 -43.3 30 43.3))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /12Out
+      (pins P43-1 P42-1 P38-1 P36-1 P32-1 P2-1 J3-2)
+    )
+    (net "/IN-GND"
+      (pins P5-1 J3-5)
+    )
+    (net "N-000001"
+      (pins P16-1 J3-11)
+    )
+    (net "N-000002"
+      (pins P26-4 J3-31)
+    )
+    (net "N-000003"
+      (pins P17-1 J3-12)
+    )
+    (net "N-000004"
+      (pins P26-6 J3-33)
+    )
+    (net "N-000005"
+      (pins P25-1 J3-24)
+    )
+    (net "N-000006"
+      (pins P26-7 J3-34)
+    )
+    (net "N-000007"
+      (pins P35-1 J3-25)
+    )
+    (net "N-000008"
+      (pins P37-1 J3-26)
+    )
+    (net "N-000011"
+      (pins P1-1 J3-1)
+    )
+    (net "N-000012"
+      (pins P4-1 J3-3)
+    )
+    (net "N-000013"
+      (pins P3-1 J3-4)
+    )
+    (net "N-000014"
+      (pins P31-1 J3-6)
+    )
+    (net "N-000015"
+      (pins P14-1 J3-9)
+    )
+    (net "N-000016"
+      (pins P15-1 J3-10)
+    )
+    (net "N-000017"
+      (pins P22-1 J3-27)
+    )
+    (net "N-000019"
+      (pins P13-1 J3-20)
+    )
+    (net "N-000020"
+      (pins P11-1 J3-15)
+    )
+    (net "N-000021"
+      (pins P10-1 J3-14)
+    )
+    (net "N-000022"
+      (pins P7-1 J3-17)
+    )
+    (net "N-000023"
+      (pins P6-1 J3-16)
+    )
+    (net "N-000024"
+      (pins P19-1 J3-23)
+    )
+    (net "N-000025"
+      (pins P18-1 J3-22)
+    )
+    (net "N-000026"
+      (pins P8-1 J3-18)
+    )
+    (net "N-000027"
+      (pins P12-1 J3-19)
+    )
+    (net "N-000028"
+      (pins P26-2 J3-29)
+    )
+    (net "N-000029"
+      (pins P41-1 J3-21)
+    )
+    (net "N-000031"
+      (pins P26-1 J3-28)
+    )
+    (net "N-000032"
+      (pins P26-3 J3-30)
+    )
+    (net "N-000033"
+      (pins P26-5 J3-32)
+    )
+    (net "N-000034"
+      (pins P26-8 J3-35)
+    )
+    (net "N-000035"
+      (pins P9-1 J3-13)
+    )
+    (class kicad_default "" /12Out "/IN-GND" "N-000001" "N-000003" "N-000005"
+      "N-000007" "N-000008" "N-000011" "N-000012" "N-000013" "N-000014" "N-000015"
+      "N-000016" "N-000019" "N-000020" "N-000021" "N-000022" "N-000023" "N-000024"
+      "N-000025" "N-000026" "N-000027" "N-000029" "N-000035"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 10)
+        (clearance 6.1)
+      )
+    )
+    (class Injector "N-000002" "N-000004" "N-000006" "N-000017" "N-000028"
+      "N-000031" "N-000032" "N-000033" "N-000034"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 25)
+        (clearance 9.1)
+      )
+    )
+    (class SMD
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 10)
+        (clearance 6.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Front 10  3825 -2800  3975 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  3675 -2800  3825 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  3525 -2800  3675 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  3350 -2800  3525 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  3075 -2800  3350 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  2807.5 -2791.3  3066.3 -2791.3  3075 -2800)(net /12Out)(type protect))
+    (wire (path Front 10  2807.5 -3263.8  3038.8 -3263.8  3050 -3275)(net "/IN-GND")(type protect))
+    (wire (path Front 10  2807.5 -4208.7  3041.3 -4208.7  3050 -4200)(net "N-000001")(type protect))
+    (wire (path Front 10  2807.5 -4366.2  3041.2 -4366.2  3050 -4375)(net "N-000003")(type protect))
+    (wire (path Front 10  2492.5 -2633.8  2516.2 -2633.8)(net "N-000005")(type protect))
+    (wire (path Front 10  3600 -2225  3600 -2325)(net "N-000005")(type protect))
+    (wire (path Front 10  3575 -2200  3600 -2225)(net "N-000005")(type protect))
+    (wire (path Front 10  3350 -2200  3575 -2200)(net "N-000005")(type protect))
+    (wire (path Front 10  3325 -2225  3350 -2200)(net "N-000005")(type protect))
+    (wire (path Front 10  3325 -2400  3325 -2225)(net "N-000005")(type protect))
+    (wire (path Front 10  3325 -2475  3325 -2400)(net "N-000005")(type protect))
+    (wire (path Front 10  2675 -2475  3325 -2475)(net "N-000005")(type protect))
+    (wire (path Front 10  2516.2 -2633.8  2675 -2475)(net "N-000005")(type protect))
+    (wire (path Front 10  2492.5 -2791.3  2533.7 -2791.3)(net "N-000007")(type protect))
+    (wire (path Front 10  3425 -2475  3425 -2325)(net "N-000007")(type protect))
+    (wire (path Front 10  3375 -2525  3425 -2475)(net "N-000007")(type protect))
+    (wire (path Front 10  2675 -2525  3375 -2525)(net "N-000007")(type protect))
+    (wire (path Front 10  2575 -2625  2675 -2525)(net "N-000007")(type protect))
+    (wire (path Front 10  2575 -2750  2575 -2625)(net "N-000007")(type protect))
+    (wire (path Front 10  2533.7 -2791.3  2575 -2750)(net "N-000007")(type protect))
+    (wire (path Front 10  2492.5 -2948.8  2492.5 -2917.5)(net "N-000008")(type protect))
+    (wire (path Front 10  3225 -2375  3225 -2325)(net "N-000008")(type protect))
+    (wire (path Front 10  3175 -2425  3225 -2375)(net "N-000008")(type protect))
+    (wire (path Front 10  2925 -2425  3175 -2425)(net "N-000008")(type protect))
+    (wire (path Front 10  2875 -2375  2925 -2425)(net "N-000008")(type protect))
+    (wire (path Front 10  2875 -2350  2875 -2375)(net "N-000008")(type protect))
+    (wire (path Front 10  2775 -2250  2875 -2350)(net "N-000008")(type protect))
+    (wire (path Front 10  2475 -2250  2775 -2250)(net "N-000008")(type protect))
+    (wire (path Front 10  2400 -2325  2475 -2250)(net "N-000008")(type protect))
+    (wire (path Front 10  2400 -2825  2400 -2325)(net "N-000008")(type protect))
+    (wire (path Front 10  2492.5 -2917.5  2400 -2825)(net "N-000008")(type protect))
+    (wire (path Front 10  2807.5 -2633.8  3041.2 -2633.8  3050 -2625)(net "N-000011")(type protect))
+    (wire (path Front 10  2807.5 -2948.8  3048.8 -2948.8  3050 -2950)(net "N-000012")(type protect))
+    (wire (path Front 10  2807.5 -3106.3  3043.7 -3106.3  3050 -3100)(net "N-000013")(type protect))
+    (wire (path Front 10  2807.5 -3421.3  3046.3 -3421.3  3050 -3425)(net "N-000014")(type protect))
+    (wire (path Front 10  2807.5 -3893.7  3043.7 -3893.7  3050 -3900)(net "N-000015")(type protect))
+    (wire (path Front 10  2807.5 -4051.2  3048.8 -4051.2  3050 -4050)(net "N-000016")(type protect))
+    (wire (path Front 25  2492.5 -3106.3  2481.3 -3106.3)(net "N-000017")(type protect))
+    (wire (path Front 25  3050 -2275  3050 -2325)(net "N-000017")(type protect))
+    (wire (path Front 25  2950 -2175  3050 -2275)(net "N-000017")(type protect))
+    (wire (path Front 25  2450 -2175  2950 -2175)(net "N-000017")(type protect))
+    (wire (path Front 25  2350 -2275  2450 -2175)(net "N-000017")(type protect))
+    (wire (path Front 25  2350 -2975  2350 -2275)(net "N-000017")(type protect))
+    (wire (path Front 25  2481.3 -3106.3  2350 -2975)(net "N-000017")(type protect))
+    (wire (path Front 10  2650 -3815  3185 -3815  3200 -3800)(net "N-000019")(type protect))
+    (wire (path Front 10  2650 -3027.5  3197.5 -3027.5  3200 -3025)(net "N-000020")(type protect))
+    (wire (path Front 10  2650 -2870  3195 -2870  3200 -2875)(net "N-000021")(type protect))
+    (wire (path Front 10  2650 -3342.5  3192.5 -3342.5  3200 -3350)(net "N-000022")(type protect))
+    (wire (path Front 10  2650 -3185  3185 -3185  3200 -3200)(net "N-000023")(type protect))
+    (wire (path Front 10  2650 -4287.5  3187.5 -4287.5  3200 -4275)(net "N-000024")(type protect))
+    (wire (path Front 10  2650 -4130  3195 -4130  3200 -4125)(net "N-000025")(type protect))
+    (wire (path Front 10  2650 -3500  3200 -3500)(net "N-000026")(type protect))
+    (wire (path Front 10  2650 -3657.5  3192.5 -3657.5  3200 -3650)(net "N-000027")(type protect))
+    (wire (path Front 10  2650 -3972.5  3197.5 -3972.5  3200 -3975)(net "N-000029")(type protect))
+    (wire (path Front 10  3200 -2700  2662.5 -2700  2650 -2712.5)(net "N-000035")(type protect))
+  )
+)

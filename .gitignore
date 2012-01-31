@@ -1,4 +1,5 @@
 pcb/$savebrd.brd
+connector/pcb/$savebrd.brd
 pcb/cpu.bak
 pcb/ft232.bak
 pcb/Injectors.bak

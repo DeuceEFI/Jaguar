@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 01/27/2012 1728 EST (GMT-0500)
+JAG 01/30/2012 2230 EST (GMT-0500)
 
 ### Introduction
 
@@ -20,9 +20,9 @@ Core IO specs:
  * 1 Optional MAF analog input pin, no supporting circuitry (for future use).
  * 1 ignition advance output to GM DIS/GM HEI/Ford EDIS module.
  * 1 DIS Bypass signal output from CPU.
- * 6 injector drives (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4567 or 1 injector per CPU output using Port B0-7 once firmware is ready.
- * 5 Ground connections (CPU, Injectors, Ignition, TPS and Analog Sensors).
- * 4 "12V" connections (All are +12V SWITCHED, please use relay(s) to supply power to these pins).
+ * 8 injector drives (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4567 or 1 injector per CPU output using Port B0-7 once firmware is ready.
+ * 6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).
+ * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
  * 1 Fuel Pump relay drive.
  * 1 Cooling Fan relay drive.
  * 1 Accessory relay drive (Boost/Idle).
@@ -37,8 +37,7 @@ The 35 positions will allow for modifications to the board for additional inputs
 Connector Part #'s:
 
 1-776163-2 Right Angle 35 Position Header (Natural Color)
-OR
-1-776231-2 Vertical 35 Position Header (Natural Color)
+The Jaguar Connector Board is design for any of the 1-776163-x Right Angle Headers.
 
 AND the following
 776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
