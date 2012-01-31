@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 29 Jan 2012 12:15:57 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 31 Jan 2012 01:27:45 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -956,6 +956,13 @@ BeginCmp
 TimeStamp = /4F22BF32;
 Reference = P41;
 ValeurCmp = MAF-Signal;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F283254;
+Reference = P42;
+ValeurCmp = INJ-GND2;
 IdModule  = WireConnection;
 EndCmp
 

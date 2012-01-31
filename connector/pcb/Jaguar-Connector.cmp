@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 30 Jan 2012 08:27:49 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 31 Jan 2012 12:37:20 PM EST
 
 BeginCmp
-TimeStamp = /4F26076E;
+TimeStamp = /4F27FFDF;
 Reference = J1;
 ValeurCmp = TE-776163;
 IdModule  = TE-776163;
@@ -73,14 +73,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB588;
 Reference = P10;
-ValeurCmp = O2-GND;
+ValeurCmp = VR-SHIELD;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB568;
 Reference = P11;
-ValeurCmp = TPS-GND;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -164,7 +164,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB53F;
 Reference = P23;
-ValeurCmp = COOLANT;
+ValeurCmp = CHT;
 IdModule  = WireConnection;
 EndCmp
 
@@ -213,7 +213,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1CD3BD;
 Reference = P30;
-ValeurCmp = OUT-GND;
+ValeurCmp = INJ-GND2;
 IdModule  = WireConnection;
 EndCmp
 
@@ -270,6 +270,34 @@ BeginCmp
 TimeStamp = /4F273679;
 Reference = P38;
 ValeurCmp = INJ-6;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2805E9;
+Reference = P39;
+ValeurCmp = IGN-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F28059B;
+Reference = P40;
+ValeurCmp = Sensor-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F280588;
+Reference = P41;
+ValeurCmp = Sensor-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F28058E;
+Reference = P42;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
