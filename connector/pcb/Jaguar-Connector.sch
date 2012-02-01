@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 01 Feb 2012 11:24:33 AM EST
+EESchema Schematic File Version 2  date Wed 01 Feb 2012 01:47:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -164,7 +164,7 @@ L CONN_1 P39
 U 1 1 4F2805E9
 P 6350 3700
 F 0 "P39" H 6430 3700 40  0000 L CNN
-F 1 "Sensor/EST-GND" H 6350 3755 30  0001 C CNN
+F 1 "Sensor-GND" H 6350 3755 30  0001 C CNN
 	1    6350 3700
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Feb 2012 10:39:05 AM EST
+# EESchema Netlist Version 1.1 created  Wed 01 Feb 2012 01:46:47 PM EST
 (
  ( /4F27FFDF TE-776163 J1 TE-776163
   ( 1 N-000012 )
@@ -151,7 +151,7 @@
  ( /4F273679 WireConnection P38 INJ-6
   ( 1 N-000021 )
  )
- ( /4F2805E9 WireConnection P39 Sensor/EST-GND
+ ( /4F2805E9 WireConnection P39 Sensor-GND
   ( 1 /GND )
  )
  ( /4F28059B WireConnection P40 Sensor-GND

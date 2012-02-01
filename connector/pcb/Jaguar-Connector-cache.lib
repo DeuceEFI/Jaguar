@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Wed 01 Feb 2012 11:24:33 AM EST
+EESchema-LIBRARY Version 2.3  Date: Wed 01 Feb 2012 01:47:51 PM EST
 #
 # CONN_1
 #
@@ -18,16 +18,16 @@ DEF TE-776163 J 0 40 Y Y 1 F N
 F0 "J" -150 3000 60 H V C CNN
 F1 "TE-776163" -150 2800 60 H V C CNN
 DRAW
-T 0 -1550 400 60 0 0 0 Analog~Sensors  Normal 0 L C
-T 0 -1550 -2000 60 0 0 0 High~Current  Normal 0 L C
+T 0 -1550 900 60 0 0 0 Analog~Sensors  Normal 0 L C
+T 0 -1550 -1200 60 0 0 0 High~Current  Normal 0 L C
 T 0 -1550 -50 60 0 0 0 Low~Current  Normal 0 L C
-T 0 -1550 -2600 60 0 0 0 Power/Grounds  Normal 0 L C
-T 0 -1550 1750 60 0 0 0 RPM~Sensors  Normal 0 L C
+T 0 -1550 -2450 60 0 0 0 Power/Grounds  Normal 0 L C
+T 0 -1600 2100 60 0 0 0 RPM~Sensors  Normal 0 L C
 S -300 2500 -1600 1650 0 0 0 N
 S -300 -2150 -1600 -2700 0 1 0 N
 S -300 -200 -1600 -2100 0 1 0 N
-S -300 250 -1600 -150 0 1 0 N
-S -300 1600 -1600 300 0 1 0 N
+S -300 100 -1600 -150 0 1 0 N
+S -300 1600 -1600 150 0 1 0 N
 X CRANK+ 1 0 2300 300 L 40 60 1 1 I
 X CAM+ 2 0 1850 300 L 40 60 1 1 I
 X MAF 3 0 1400 300 L 40 60 1 1 I
@@ -62,7 +62,7 @@ X Sensor-GND 27 0 1100 300 L 40 60 1 1 I
 X DIS-Bypass 18 0 -100 300 L 40 60 1 1 I
 X Sensor-GND 28 0 650 300 L 40 60 1 1 I
 X Injector-5 19 0 -550 300 L 40 60 1 1 I
-X Sensor/EST-GND 29 0 200 300 L 40 60 1 1 I
+X Sensor-GND 29 0 200 300 L 40 60 1 1 I
 ENDDRAW
 ENDDEF
 #

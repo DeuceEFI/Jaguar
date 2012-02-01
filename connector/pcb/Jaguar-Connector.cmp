@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 01 Feb 2012 10:39:05 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 01 Feb 2012 01:46:47 PM EST
 
 BeginCmp
 TimeStamp = /4F27FFDF;
@@ -276,7 +276,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F2805E9;
 Reference = P39;
-ValeurCmp = Sensor/EST-GND;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
