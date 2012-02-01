@@ -1,62 +1,62 @@
-# EESchema Netlist Version 1.1 created  Tue 31 Jan 2012 12:37:20 PM EST
+# EESchema Netlist Version 1.1 created  Wed 01 Feb 2012 10:39:05 AM EST
 (
  ( /4F27FFDF TE-776163 J1 TE-776163
-  ( 1 N-000027 )
-  ( 2 N-000014 )
-  ( 3 N-000015 )
-  ( 4 N-000016 )
-  ( 5 N-000017 )
-  ( 6 N-000028 )
-  ( 7 N-000012 )
+  ( 1 N-000012 )
+  ( 2 N-000013 )
+  ( 3 N-000014 )
+  ( 4 N-000015 )
+  ( 5 N-000016 )
+  ( 6 N-000017 )
+  ( 7 /INJ-GND )
   ( 8 N-000018 )
   ( 9 N-000019 )
   ( 10 N-000020 )
-  ( 11 /GND )
-  ( 12 N-000023 )
-  ( 13 N-000026 )
-  ( 14 N-000002 )
-  ( 15 N-000003 )
-  ( 16 N-000005 )
-  ( 17 N-000007 )
+  ( 11 N-000022 )
+  ( 12 N-000025 )
+  ( 13 N-000002 )
+  ( 14 N-000004 )
+  ( 15 N-000005 )
+  ( 16 N-000006 )
+  ( 17 N-000008 )
   ( 18 N-000009 )
-  ( 19 N-000011 )
+  ( 19 N-000010 )
   ( 20 N-000021 )
-  ( 21 N-000013 )
-  ( 22 N-000024 )
-  ( 23 N-000029 )
+  ( 21 N-000023 )
+  ( 22 N-000026 )
+  ( 23 N-000027 )
   ( 24 /GND )
-  ( 25 ? )
-  ( 26 N-000006 )
-  ( 27 N-000008 )
-  ( 28 ? )
+  ( 25 /GND )
+  ( 26 N-000007 )
+  ( 27 /GND )
+  ( 28 /GND )
   ( 29 /GND )
-  ( 30 N-000028 )
-  ( 31 N-000022 )
-  ( 32 N-000025 )
-  ( 33 N-000001 )
+  ( 30 /INJ-GND )
+  ( 31 N-000024 )
+  ( 32 N-000001 )
+  ( 33 N-000003 )
   ( 34 /GND )
   ( 35 /GND )
  )
  ( /4F1CD4E4 WireConnection P1 FUEL-12v
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F20FB3D WireConnection P2 FAN-12v
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F21C18C WireConnection P3 ACC-12v
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F268B7F WireConnection P4 12vdc
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F268B92 WireConnection P5 12vdc
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F0A55A0 WireConnection P6 12v-SW
-  ( 1 N-000023 )
+  ( 1 N-000025 )
  )
  ( /4F189D1F WireConnection P7 12v-SW2
-  ( 1 N-000029 )
+  ( 1 N-000027 )
  )
  ( /4F189D7E WireConnection P8 GND
   ( 1 /GND )
@@ -64,94 +64,94 @@
  ( /4F0C7391 WireConnection P9 GND2
   ( 1 /GND )
  )
- ( /4F0BB588 WireConnection P10 VR-SHIELD
+ ( /4F0BB588 WireConnection P10 CRANK-SHIELD
   ( 1 /GND )
  )
  ( /4F0BB568 WireConnection P11 Sensor-GND
   ( 1 /GND )
  )
  ( /4F27368D WireConnection P12 INJ-7
-  ( 1 N-000021 )
+  ( 1 N-000023 )
  )
  ( /4F273690 WireConnection P13 INJ-8
-  ( 1 N-000013 )
+  ( 1 N-000026 )
  )
  ( /4F125936 WireConnection P14 INJ-GND
-  ( 1 N-000028 )
+  ( 1 /INJ-GND )
  )
  ( /4F0C73A3 WireConnection P15 BRV-12v
-  ( 1 N-000029 )
- )
- ( /4F0BB599 WireConnection P16 CRANK+
   ( 1 N-000027 )
  )
+ ( /4F0BB599 WireConnection P16 CRANK+
+  ( 1 N-000012 )
+ )
  ( /4F1248F4 WireConnection P17 CAM+
-  ( 1 N-000014 )
+  ( 1 N-000013 )
  )
  ( /4F1CC8BD WireConnection P18 TPS-5v
-  ( 1 N-000024 )
+  ( 1 N-000016 )
  )
  ( /4F0BB55E WireConnection P19 TPS
   ( 1 N-000008 )
  )
  ( /4F0BB57B WireConnection P20 O2
-  ( 1 N-000005 )
- )
- ( /4F0BB528 WireConnection P21 IAT
   ( 1 N-000006 )
  )
+ ( /4F0BB528 WireConnection P21 IAT
+  ( 1 N-000007 )
+ )
  ( /4F0BB535 WireConnection P22 MAT
-  ( 1 N-000003 )
+  ( 1 N-000005 )
  )
  ( /4F0BB53F WireConnection P23 CHT
-  ( 1 N-000016 )
- )
- ( /4F22BF32 WireConnection P24 MAF-Signal
   ( 1 N-000015 )
  )
- ( /4F273692 WireConnection P25 INJ-1
-  ( 1 N-000012 )
+ ( /4F22BF32 WireConnection P24 MAF-Signal
+  ( 1 N-000014 )
  )
- ( /4F273686 WireConnection P26 INJ-2
+ ( /4F273692 WireConnection P25 INJ-1
   ( 1 N-000018 )
  )
- ( /4F273651 WireConnection P27 INJ-3
+ ( /4F273686 WireConnection P26 INJ-2
   ( 1 N-000019 )
  )
- ( /4F186A57 WireConnection P28 CRANK-
-  ( 1 N-000026 )
+ ( /4F273651 WireConnection P27 INJ-3
+  ( 1 N-000020 )
  )
- ( /4F124A8E WireConnection P29 CAM-
+ ( /4F186A57 WireConnection P28 CRANK-
   ( 1 N-000002 )
  )
+ ( /4F124A8E WireConnection P29 CAM-
+  ( 1 N-000004 )
+ )
  ( /4F1CD3BD WireConnection P30 INJ-GND2
-  ( 1 N-000028 )
+  ( 1 /INJ-GND )
  )
  ( /4F21C093 WireConnection P31 ACC-
-  ( 1 N-000001 )
+  ( 1 N-000003 )
  )
  ( /4F20C9CD WireConnection P32 FAN-
-  ( 1 N-000025 )
+  ( 1 N-000001 )
  )
  ( /4F0D8467 WireConnection P33 FUEL-
-  ( 1 N-000022 )
+  ( 1 N-000024 )
  )
  ( /4F0BB4F8 WireConnection P34 IGN-ADVANCE
   ( 1 N-000017 )
  )
  ( /4F0BB4F1 WireConnection P35 DIS-BYPASS
-  ( 1 N-000007 )
- )
- ( /4F273688 WireConnection P36 INJ-4
-  ( 1 N-000020 )
- )
- ( /4F27367E WireConnection P37 INJ-5
   ( 1 N-000009 )
  )
- ( /4F273679 WireConnection P38 INJ-6
-  ( 1 N-000011 )
+ ( /4F273688 WireConnection P36 INJ-4
+  ( 1 N-000022 )
  )
- ( /4F2805E9 WireConnection P39 IGN-GND
+ ( /4F27367E WireConnection P37 INJ-5
+  ( 1 N-000010 )
+ )
+ ( /4F273679 WireConnection P38 INJ-6
+  ( 1 N-000021 )
+ )
+ ( /4F2805E9 WireConnection P39 Sensor/EST-GND
   ( 1 /GND )
  )
  ( /4F28059B WireConnection P40 Sensor-GND
@@ -161,6 +161,9 @@
   ( 1 /GND )
  )
  ( /4F28058E WireConnection P42 Sensor-GND
+  ( 1 /GND )
+ )
+ ( /4F294CE6 WireConnection P43 CAM-SHIELD
   ( 1 /GND )
  )
 )
