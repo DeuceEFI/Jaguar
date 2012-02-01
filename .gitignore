@@ -1,5 +1,7 @@
 pcb/$savebrd.brd
 connector/pcb/$savebrd.brd
+connector/pcb/Jaguar-Connector.bak
+connector/pcb/Jaguar-Connector-cache.bak
 pcb/cpu.bak
 pcb/ft232.bak
 pcb/Injectors.bak

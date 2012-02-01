@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 01/30/2012 2230 EST (GMT-0500)
+JAG 02/01/2012 1339 EST (GMT-0500)
 
 ### Introduction
 
