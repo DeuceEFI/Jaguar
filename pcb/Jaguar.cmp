@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 31 Jan 2012 01:27:45 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 01 Feb 2012 11:40:01 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -766,7 +766,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB568;
 Reference = P11;
-ValeurCmp = TPS-GND;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -780,7 +780,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB588;
 Reference = P13;
-ValeurCmp = O2-GND;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -960,9 +960,30 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F283254;
+TimeStamp = /4F2A047E;
 Reference = P42;
 ValeurCmp = INJ-GND2;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2A0D4D;
+Reference = P43;
+ValeurCmp = Crank-Shield;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2A0D57;
+Reference = P44;
+ValeurCmp = Cam-Shield;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2A0E57;
+Reference = P45;
+ValeurCmp = Sensor-GND;
 IdModule  = WireConnection;
 EndCmp
 
