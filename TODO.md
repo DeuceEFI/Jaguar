@@ -1,10 +1,10 @@
 # To Do List
 
-JAG 02/01/2012 1336 EST (GMT-0500)
+JAG 02/02/2012 0026 EST (GMT-0500)
 
-1.  Have others at forum.diyefi.org check the schematics and component choices.  DONE 2/1/2012
-2.  Double check to make sure everything is correct in the schematics.  DONE 2/1/2012
-3.  Double check to make sure everything is good with the board layout.  DONE 2/1/2012
+1.  Have others at forum.diyefi.org check the schematics and component choices.  IN PROGRESS
+2.  Double check to make sure everything is correct in the schematics.  IN PROGRESS
+3.  Double check to make sure everything is good with the board layout.  IN PROGRESS
 4.  Check that the chosen TE Connectivity automotive grade connectors will work for this design. DONE
 5.  Pick another TE Connectivity Header/Housing set that is commonly available. DONE, See README.md
 6.  Update Bill of Materials.  DONE 2/1/2012
