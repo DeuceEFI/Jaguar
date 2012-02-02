@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 29 Jan 2012 12:24:07 PM EST
+EESchema Schematic File Version 2  date Wed 01 Feb 2012 11:23:21 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "29 jan 2012"
+Date "2 feb 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -173,8 +173,6 @@ Wire Wire Line
 	2400 900  3000 900 
 Wire Wire Line
 	3000 1800 2400 1800
-Wire Wire Line
-	850  600  1000 600 
 Connection ~ 3700 6100
 Connection ~ 4000 6800
 Wire Wire Line
@@ -222,7 +220,7 @@ Connection ~ 3700 7000
 Text HLabel 2400 7200 0    60   Input ~ 0
 Injector8
 Text HLabel 2400 7000 0    40   Input ~ 0
-12v-sw
+12v-sw2
 $Comp
 L DIODE D38
 U 1 1 4F20C5E5
@@ -338,7 +336,7 @@ F 1 "1N4148" H 3500 6000 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 6100 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 2400 6300 0    60   Input ~ 0
 Injector7
 Text HLabel 2400 5400 0    60   Input ~ 0
@@ -349,20 +347,16 @@ Text HLabel 2400 3600 0    60   Input ~ 0
 Injector4
 Text HLabel 2400 900  0    60   Input ~ 0
 Injector1
-Text HLabel 1000 600  2    40   Output ~ 0
-12v-Outputs
-Text HLabel 850  600  0    40   Input ~ 0
-12v-sw
 Text HLabel 2400 5200 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 2400 4300 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 2400 3400 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 2400 2500 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 2400 1600 0    40   Input ~ 0
-12v-sw
+12v-sw2
 Text HLabel 5400 5900 2    40   Input ~ 0
 Injector-Ground
 Text HLabel 2400 2700 0    60   Input ~ 0
@@ -512,7 +506,7 @@ F 1 "2.4k" V 2650 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 2400 700  0    40   Input ~ 0
-12v-sw
+12v-sw2
 $Comp
 L R R47
 U 1 1 4F1380A7
