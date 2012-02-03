@@ -1,0 +1,185 @@
+PCBNEW-LibDoc----V1  Thu 02 Feb 2012 09:06:52 PM EST
+#
+$MODULE 9S12XDP512
+Li 9S12XDP512
+Cd MCU9S12
+Kw Adapt, MCU, 9S12, Freescale
+$EndMODULE
+#
+$MODULE TO220_sm
+Li TO220_sm
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
+$MODULE cap-master-TT-025-030
+Li cap-master-TT-025-030
+Cd POLCAP TANTALUM
+Kw POLCAP TANTALUM
+$EndMODULE
+#
+$MODULE cnp_3mm_disc
+Li cnp_3mm_disc
+Cd Small ceramic capacitor
+Kw C
+$EndMODULE
+#
+$MODULE cnp_6mm_disc
+Li cnp_6mm_disc
+Cd 6mm disc ceramic capacitor
+Kw C
+$EndMODULE
+#
+$MODULE diode_do35
+Li diode_do35
+Cd Diode, DO-35 package
+$EndMODULE
+#
+$MODULE diode_do41
+Li diode_do41
+Cd Diode, DO-41 package
+$EndMODULE
+#
+$MODULE DPACKGDS
+Li DPACKGDS
+Cd MOS boitier DPACK G-D-S
+Kw CMD DPACK
+$EndMODULE
+#
+$MODULE HC-49S
+Li HC-49S
+Cd Crystal, HC-49S
+Kw QUARTZ
+$EndMODULE
+#
+$MODULE led_3mm_green
+Li led_3mm_green
+Cd 3mm green led
+Kw led
+$EndMODULE
+#
+$MODULE led_3mm_red
+Li led_3mm_red
+Cd 3mm red led
+Kw led
+$EndMODULE
+#
+$MODULE led_3mm_yellow
+Li led_3mm_yellow
+Cd 3mm yellow led
+Kw led
+$EndMODULE
+#
+$MODULE MPX5700AP_h
+Li MPX5700AP_h
+Cd 50 KPA PRESSURE SENSOR
+Kw 50 KPA PRESSURE SENSOR
+$EndMODULE
+#
+$MODULE PIN_ARRAY_2
+Li PIN_ARRAY_2
+Cd Connecteurs 2 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE PQFP112
+Li PQFP112
+Cd module cms PQFP 112 pins
+Kw PQFP CMS
+$EndMODULE
+#
+$MODULE -QSOP16
+Li -QSOP16
+Cd SMALL OUTLINE PACKAGE
+Kw SMALL OUTLINE PACKAGE
+$EndMODULE
+#
+$MODULE RC03
+Li RC03
+Cd Resistor, RC03
+Kw R
+$EndMODULE
+#
+$MODULE RC03_vert
+Li RC03_vert
+Cd Resistor, RC03 vertical
+$EndMODULE
+#
+$MODULE RC07_vert
+Li RC07_vert
+Cd Resistor, RC07 vertical
+$EndMODULE
+#
+$MODULE SOT223-MOSFET
+Li SOT223-MOSFET
+Cd SOT223 MOSFET
+Kw SOT223
+$EndMODULE
+#
+$MODULE SSOP28
+Li SSOP28
+Cd SSOP 28 pins
+Kw CMS SSOP SMD
+$EndMODULE
+#
+$MODULE TO220_VERT
+Li TO220_VERT
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
+$MODULE USB-B-mini
+Li USB-B-mini
+Cd MOLEX USB TYPE MINI-B SURFACE MOUNT CONNECTOR THRU HOLE
+Kw MOLEX USB TYPE MINI-B SURFACE MOUNT CONNECTOR THRU HOLE
+$EndMODULE
+#
+$MODULE WireConnection
+Li WireConnection
+Cd module 1 pin
+Kw DEV
+$EndMODULE
+#
+$MODULE PIN_ARRAY_3X2
+Li PIN_ARRAY_3X2
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE PIN_STRIP_2
+Li PIN_STRIP_2
+Cd Pin strip 2pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE PIN_STRIP_4
+Li PIN_STRIP_4
+Cd Pin strip 4pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-3
+Li SIL-3
+Cd Connecteur 3 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-4
+Li SIL-4
+Cd Connecteur 4 pibs
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-8
+Li SIL-8
+Cd Connecteur 8 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE DIP-14__300
+Li DIP-14__300
+Cd 14 pins DIL package, round pads
+Kw DIL
+$EndMODULE
+#
+$EndLIBDOC
