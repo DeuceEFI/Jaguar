@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 02 Feb 2012 09:38:49 PM EST
+EESchema Schematic File Version 2  date Fri 03 Feb 2012 01:25:30 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "2 feb 2012"
+Date "3 feb 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -953,7 +953,7 @@ L C C11
 U 1 1 4F0A35E9
 P 10450 6600
 F 0 "C11" H 10500 6700 50  0000 L CNN
-F 1 "18pF" H 10500 6500 50  0000 L CNN
+F 1 "20pF" H 10500 6500 50  0000 L CNN
 	1    10450 6600
 	-1   0    0    1   
 $EndComp
@@ -962,7 +962,7 @@ L C C10
 U 1 1 4F0A35D9
 P 9950 6600
 F 0 "C10" H 10000 6700 50  0000 L CNN
-F 1 "18pF" H 10000 6500 50  0000 L CNN
+F 1 "20pF" H 10000 6500 50  0000 L CNN
 	1    9950 6600
 	-1   0    0    1   
 $EndComp
