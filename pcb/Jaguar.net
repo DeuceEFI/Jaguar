@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Feb 2012 11:40:01 PM EST
+# EESchema Netlist Version 1.1 created  Fri 03 Feb 2012 04:57:08 PM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 GND )
@@ -36,11 +36,11 @@
   ( 1 N-000107 )
   ( 2 N-000113 )
  )
- ( /4F0A2F06/4F0A35D9 cnp_3mm_disc C10 18pF
+ ( /4F0A2F06/4F0A35D9 cnp_3mm_disc C10 12pF
   ( 1 GND )
   ( 2 N-000135 )
  )
- ( /4F0A2F06/4F0A35E9 cnp_3mm_disc C11 18pF
+ ( /4F0A2F06/4F0A35E9 cnp_3mm_disc C11 12pF
   ( 1 GND )
   ( 2 N-000131 )
  )
@@ -68,7 +68,7 @@
   ( 1 /CPU/5vdc-cpu )
   ( 2 GND )
  )
- ( /4F0A4778/4F0A51B7 cap-master-TT-025-030 C18 47uF
+ ( /4F0A4778/4F0A51B7 cap-master-TT-025-030 C18 22uF
   ( 1 VCC )
   ( 2 GND )
  )
@@ -846,7 +846,7 @@
   ( 1 N-000240 )
   ( 2 /CPU/Fue61 )
  )
- ( /4F0A2F06/4F0A3F95/4F1794BF RC03_VERT R55 2k
+ ( /4F0A2F06/4F0A3F95/4F1794BF RC03_VERT R55 2.4k
   ( 1 N-000257 )
   ( 2 /CPU/ft210 )
  )

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 01 Feb 2012 11:40:01 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 03 Feb 2012 04:57:08 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35D9;
 Reference = C10;
-ValeurCmp = 18pF;
+ValeurCmp = 12pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35E9;
 Reference = C11;
-ValeurCmp = 18pF;
+ValeurCmp = 12pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -122,7 +122,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4F0A51B7;
 Reference = C18;
-ValeurCmp = 47uF;
+ValeurCmp = 22uF;
 IdModule  = cap-master-TT-025-030;
 EndCmp
 
@@ -1459,7 +1459,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1794BF;
 Reference = R55;
-ValeurCmp = 2k;
+ValeurCmp = 2.4k;
 IdModule  = RC03_VERT;
 EndCmp
 
