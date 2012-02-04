@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 Feb 2012 04:57:29 PM EST
+EESchema Schematic File Version 2  date Fri 03 Feb 2012 10:01:20 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -24,7 +24,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "3 feb 2012"
+Date "4 feb 2012"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""

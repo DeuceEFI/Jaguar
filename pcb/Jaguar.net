@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 03 Feb 2012 04:57:08 PM EST
+# EESchema Netlist Version 1.1 created  Fri 03 Feb 2012 09:59:41 PM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 GND )
@@ -68,11 +68,11 @@
   ( 1 /CPU/5vdc-cpu )
   ( 2 GND )
  )
- ( /4F0A4778/4F0A51B7 cap-master-TT-025-030 C18 22uF
+ ( /4F0A4778/4F0A51B7 cap-master-TT-025-030 C18 47uF
   ( 1 VCC )
   ( 2 GND )
  )
- ( /4F0A4778/4F0A52B7 cap-master-TT-025-030 C19 22uF
+ ( /4F0A4778/4F0A52B7 cap-master-TT-025-030 C19 47uF
   ( 1 /CPU/5vdc-cpu )
   ( 2 GND )
  )

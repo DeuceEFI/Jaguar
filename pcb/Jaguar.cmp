@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 03 Feb 2012 04:57:08 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 03 Feb 2012 09:59:41 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -122,14 +122,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4F0A51B7;
 Reference = C18;
-ValeurCmp = 22uF;
+ValeurCmp = 47uF;
 IdModule  = cap-master-TT-025-030;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A4778/4F0A52B7;
 Reference = C19;
-ValeurCmp = 22uF;
+ValeurCmp = 47uF;
 IdModule  = cap-master-TT-025-030;
 EndCmp
 
