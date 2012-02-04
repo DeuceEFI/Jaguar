@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 Feb 2012 10:01:20 PM EST
+EESchema Schematic File Version 2  date Sat 04 Feb 2012 04:47:17 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7900 6050 0    25   ~ 0
+CPU Pin 45
+Text Notes 8350 6850 0    25   ~ 0
+CPU Pin 44
+Text Notes 7650 6300 0    25   ~ 0
+CPU Pin 43
 Connection ~ 8300 4850
 Connection ~ 8800 4850
 Wire Wire Line
@@ -691,7 +697,7 @@ MODA
 Text Notes 10050 6950 0    40   ~ 0
 Crystal Circuit
 Text Notes 9950 6250 0    40   ~ 0
-R62 is Optional
+R62 1M or 10M
 Text Notes 7950 6950 0    40   ~ 0
 PLL Circuit
 Text Notes 1000 7450 0    60   ~ 0
