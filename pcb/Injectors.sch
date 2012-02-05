@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:19:47 AM EST
+EESchema Schematic File Version 2  date Sun 05 Feb 2012 11:20:52 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -7,24 +7,17 @@ LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:analog_switches
-LIBS:motorola
 LIBS:interface
 LIBS:opto
-LIBS:atmel
 LIBS:contrib
-LIBS:mc9s12xdp512
-LIBS:ft232rl
-LIBS:lm2937et
-LIBS:usb_b
-LIBS:freeEMS_lib
-LIBS:mpx4100a
+LIBS:Jaguar
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "4 feb 2012"
+Date "5 feb 2012"
 Rev "A.2"
 Comp "diyefi.org"
 Comment1 ""
