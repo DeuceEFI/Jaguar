@@ -1,23 +1,14 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 11:20:52 AM EST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:interface
+EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
 LIBS:opto
-LIBS:contrib
 LIBS:Jaguar
+LIBS:power
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 feb 2012"
+Date "6 feb 2012"
 Rev "A.2"
 Comp "diyefi.org"
 Comment1 ""
@@ -25,10 +16,83 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR063
+U 1 1 4F2F3F04
+P 2950 5000
+F 0 "#PWR063" H 2950 5000 30  0001 C CNN
+F 1 "GND" H 2950 4930 30  0001 C CNN
+	1    2950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR064
+U 1 1 4F2F3ECC
+P 2950 2300
+F 0 "#PWR064" H 2950 2300 30  0001 C CNN
+F 1 "GND" H 2950 2230 30  0001 C CNN
+	1    2950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR065
+U 1 1 4F2F3EC7
+P 2950 3200
+F 0 "#PWR065" H 2950 3200 30  0001 C CNN
+F 1 "GND" H 2950 3130 30  0001 C CNN
+	1    2950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR066
+U 1 1 4F2F3EC3
+P 2950 4100
+F 0 "#PWR066" H 2950 4100 30  0001 C CNN
+F 1 "GND" H 2950 4030 30  0001 C CNN
+	1    2950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR067
+U 1 1 4F2F3EBF
+P 2950 5900
+F 0 "#PWR067" H 2950 5900 30  0001 C CNN
+F 1 "GND" H 2950 5830 30  0001 C CNN
+	1    2950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR068
+U 1 1 4F2F3EBC
+P 2950 6800
+F 0 "#PWR068" H 2950 6800 30  0001 C CNN
+F 1 "GND" H 2950 6730 30  0001 C CNN
+	1    2950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR069
+U 1 1 4F2F3EB6
+P 2950 7700
+F 0 "#PWR069" H 2950 7700 30  0001 C CNN
+F 1 "GND" H 2950 7630 30  0001 C CNN
+	1    2950 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 7700 4000 7700
+Wire Wire Line
+	5400 5900 4000 5900
+Wire Wire Line
+	4000 4700 4000 5000
+Wire Wire Line
+	5400 4100 4000 4100
+Wire Wire Line
+	5400 2300 4000 2300
 Connection ~ 5400 2300
 Connection ~ 5400 6800
 Wire Wire Line
-	5400 1400 5400 7700
+	5400 7700 5400 1400
 Wire Wire Line
 	3700 1600 4150 1600
 Wire Wire Line
@@ -44,16 +108,8 @@ Wire Wire Line
 	3700 3400 4150 3400
 Connection ~ 2400 3400
 Connection ~ 2400 4300
-Connection ~ 4000 2300
 Connection ~ 5400 2300
-Wire Wire Line
-	5400 2300 2950 2300
-Connection ~ 4000 4100
 Connection ~ 5400 4100
-Wire Wire Line
-	5400 4100 2950 4100
-Wire Wire Line
-	5400 5900 2950 5900
 Wire Wire Line
 	2400 5400 3000 5400
 Connection ~ 2400 5200
@@ -73,7 +129,7 @@ Connection ~ 2900 1600
 Connection ~ 2900 700 
 Connection ~ 3300 700 
 Wire Wire Line
-	4000 1400 4000 1100
+	4000 1100 4000 1400
 Connection ~ 2950 1400
 Wire Wire Line
 	3700 900  3500 900 
@@ -115,8 +171,6 @@ Wire Wire Line
 Connection ~ 2950 4100
 Wire Wire Line
 	4000 4100 4000 3800
-Wire Wire Line
-	4000 4700 4000 5000
 Connection ~ 2950 5000
 Wire Wire Line
 	3700 4500 3500 4500
@@ -138,20 +192,10 @@ Connection ~ 2950 5900
 Wire Wire Line
 	4000 5900 4000 5600
 Connection ~ 4000 700 
-Connection ~ 4000 5900
 Wire Wire Line
 	3000 4500 2400 4500
-Wire Wire Line
-	5400 5000 2950 5000
 Connection ~ 5400 5000
-Connection ~ 4000 5000
-Wire Wire Line
-	5400 3200 2950 3200
 Connection ~ 5400 3200
-Connection ~ 4000 3200
-Wire Wire Line
-	5400 1400 2950 1400
-Connection ~ 4000 1400
 Wire Wire Line
 	2400 3600 3000 3600
 Wire Wire Line
@@ -167,9 +211,8 @@ Wire Wire Line
 Wire Wire Line
 	3000 1800 2400 1800
 Connection ~ 3700 6100
-Connection ~ 4000 6800
 Wire Wire Line
-	4000 6800 4000 6500
+	4000 6500 4000 6800
 Connection ~ 2950 6800
 Wire Wire Line
 	3700 6300 3500 6300
@@ -185,13 +228,9 @@ Connection ~ 2400 6100
 Wire Wire Line
 	2400 6300 3000 6300
 Wire Wire Line
-	2950 6800 5400 6800
-Wire Wire Line
 	3700 6100 4150 6100
 Wire Wire Line
 	3700 7000 4150 7000
-Wire Wire Line
-	5400 7700 2950 7700
 Wire Wire Line
 	2400 7200 3000 7200
 Connection ~ 2400 7000
@@ -208,8 +247,24 @@ Wire Wire Line
 Connection ~ 2950 7700
 Wire Wire Line
 	4000 7700 4000 7400
-Connection ~ 4000 7700
 Connection ~ 3700 7000
+Wire Wire Line
+	4000 1400 5400 1400
+Wire Wire Line
+	4000 3200 5400 3200
+Wire Wire Line
+	4000 5000 5400 5000
+Wire Wire Line
+	4000 6800 5400 6800
+$Comp
+L GND #PWR070
+U 1 1 4F2F3E75
+P 2950 1400
+F 0 "#PWR070" H 2950 1400 30  0001 C CNN
+F 1 "GND" H 2950 1330 30  0001 C CNN
+	1    2950 1400
+	1    0    0    -1  
+$EndComp
 Text HLabel 2400 7200 0    60   Input ~ 0
 Injector8
 Text HLabel 2400 7000 0    40   Input ~ 0

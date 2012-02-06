@@ -1,23 +1,14 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 11:20:52 AM EST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:interface
+EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
 LIBS:opto
-LIBS:contrib
 LIBS:Jaguar
+LIBS:power
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 feb 2012"
+Date "6 feb 2012"
 Rev "A.2"
 Comp "diyefi.org"
 Comment1 ""
@@ -25,138 +16,154 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1500 4850 0    40   ~ 0
-USB-B Mini Connector
-Connection ~ 2600 5250
-Connection ~ 2600 5150
-Connection ~ 2600 5050
+Connection ~ 2550 2500
+Connection ~ 2550 2000
+Wire Wire Line
+	2550 2000 2550 1800
 Connection ~ 2600 4950
-NoConn ~ 2250 4450
-NoConn ~ 2250 5700
-NoConn ~ 2600 5350
 Wire Wire Line
-	2600 5250 2850 5250
+	2550 1800 4950 1800
 Wire Wire Line
-	2600 5050 2650 5050
+	2600 5150 2650 5150
 Wire Wire Line
-	9350 2600 9350 2500
+	2600 4950 2800 4950
+Connection ~ 7250 3250
+Connection ~ 7850 3250
 Wire Wire Line
-	6800 3250 7250 3250
-Connection ~ 10850 3650
-Connection ~ 10850 3350
-Connection ~ 10850 2850
-Connection ~ 9350 2500
-Connection ~ 9350 2200
-Connection ~ 9350 1700
-Connection ~ 4000 1800
-Connection ~ 4000 2200
+	7850 3250 7850 3150
 Wire Wire Line
-	3550 2200 4000 2200
+	7850 3150 6800 3150
+Connection ~ 6800 3450
+Connection ~ 7400 3450
 Wire Wire Line
-	4250 3650 4000 3650
+	7400 3450 7400 3350
 Wire Wire Line
-	9600 3350 8850 3350
+	7400 3350 6800 3350
+Connection ~ 4250 3650
+Connection ~ 4750 3650
+Connection ~ 4950 3650
 Wire Wire Line
-	8850 3350 8850 3050
+	4750 3650 4950 3650
+Connection ~ 6800 3150
+Connection ~ 6800 3250
+Connection ~ 6800 3350
+Connection ~ 6800 3450
 Wire Wire Line
-	8850 3050 6800 3050
+	9400 2850 9650 2850
 Wire Wire Line
-	8100 1700 7850 1700
+	6800 2950 8100 2950
 Wire Wire Line
-	4950 3000 4950 1800
+	8100 2950 8100 2500
+Connection ~ 8100 1700
+Connection ~ 8100 2500
+Connection ~ 9400 2850
+Connection ~ 9400 3350
+Connection ~ 9600 3350
+Connection ~ 9600 3650
 Wire Wire Line
-	4950 1800 2550 1800
+	9600 3650 9350 3650
+Connection ~ 8100 2200
 Wire Wire Line
-	4950 4550 4950 4850
+	8400 3950 8400 3650
 Wire Wire Line
-	2550 3450 2550 4550
+	6200 4850 4950 4850
+Connection ~ 6800 2950
+Connection ~ 6800 3050
+Connection ~ 8400 3950
+Connection ~ 8400 3650
+Connection ~ 7900 3650
+Connection ~ 7900 3950
+Connection ~ 7500 3950
+Connection ~ 7500 3650
+Connection ~ 6800 3750
+Connection ~ 6800 3850
+Connection ~ 6200 4850
+Connection ~ 6050 4850
+Connection ~ 5900 4850
+Connection ~ 5750 4850
+Connection ~ 4950 4550
+Connection ~ 4950 4150
+Connection ~ 4950 3350
+Connection ~ 4950 3250
+Connection ~ 4950 3000
+Connection ~ 4950 2900
+Connection ~ 2550 3450
+Connection ~ 2550 3350
+Connection ~ 2550 3250
+Connection ~ 2550 3150
+Connection ~ 3550 2200
+Connection ~ 3550 1800
 Wire Wire Line
-	6800 3750 7500 3750
+	7500 3950 7500 3850
 Wire Wire Line
-	7500 3750 7500 3650
+	7500 3850 6800 3850
+Wire Wire Line
+	2550 3350 4950 3350
+Connection ~ 5600 4850
+Wire Wire Line
+	2550 4550 4950 4550
 Wire Wire Line
 	4950 3250 2550 3250
 Wire Wire Line
-	2550 4550 4950 4550
-Connection ~ 5600 4850
+	7500 3650 7500 3750
 Wire Wire Line
-	2550 3350 4950 3350
+	7500 3750 6800 3750
 Wire Wire Line
-	6800 3850 7500 3850
+	2550 4550 2550 3450
 Wire Wire Line
-	7500 3850 7500 3950
-Connection ~ 3550 1800
-Connection ~ 3550 2200
-Connection ~ 2550 3150
-Connection ~ 2550 3250
-Connection ~ 2550 3350
-Connection ~ 2550 3450
-Connection ~ 4950 2900
-Connection ~ 4950 3000
-Connection ~ 4950 3250
-Connection ~ 4950 3350
-Connection ~ 4950 4150
-Connection ~ 4950 4550
-Connection ~ 5750 4850
-Connection ~ 5900 4850
-Connection ~ 6050 4850
-Connection ~ 6200 4850
-Connection ~ 6800 3850
-Connection ~ 6800 3750
-Connection ~ 7500 3650
-Connection ~ 7500 3950
-Connection ~ 7900 3950
-Connection ~ 7900 3650
-Connection ~ 8400 3650
-Connection ~ 8400 3950
-Connection ~ 6800 3050
-Connection ~ 6800 2950
+	4950 4550 4950 4850
 Wire Wire Line
-	4950 4850 6200 4850
+	4950 1800 4950 3000
 Wire Wire Line
-	2550 1800 2550 3150
+	8100 1700 7850 1700
 Wire Wire Line
-	8400 3950 8400 3650
-Connection ~ 8100 2200
+	6800 3050 8850 3050
 Wire Wire Line
-	9600 3650 9350 3650
-Connection ~ 9600 3650
-Connection ~ 9600 3350
-Connection ~ 9400 3350
-Connection ~ 9400 2850
-Connection ~ 8100 2500
-Connection ~ 8100 1700
+	8850 3050 8850 3350
 Wire Wire Line
-	8100 2500 8100 2950
+	8850 3350 9600 3350
 Wire Wire Line
-	8100 2950 6800 2950
+	4250 3650 4000 3650
 Wire Wire Line
-	9400 2850 9650 2850
-Connection ~ 6800 3450
-Connection ~ 6800 3350
-Connection ~ 6800 3250
-Connection ~ 6800 3150
+	3550 2200 4000 2200
+Connection ~ 4000 2200
+Connection ~ 4000 1800
+Connection ~ 9350 1700
+Connection ~ 9350 2200
+Connection ~ 9350 2500
+Connection ~ 10850 2850
+Connection ~ 10850 3350
+Connection ~ 10850 3650
 Wire Wire Line
-	4750 3650 4950 3650
-Connection ~ 4950 3650
-Connection ~ 4750 3650
-Connection ~ 4250 3650
+	6800 3250 7250 3250
 Wire Wire Line
-	6800 3350 7400 3350
+	9350 2600 9350 2500
 Wire Wire Line
-	7400 3350 7400 3450
-Connection ~ 7400 3450
-Connection ~ 6800 3450
+	2600 5050 2650 5050
 Wire Wire Line
-	6800 3150 7850 3150
+	2600 5250 2850 5250
+Connection ~ 2600 4950
+Connection ~ 2600 5050
+Connection ~ 2600 5150
+Connection ~ 2600 5250
 Wire Wire Line
-	7850 3150 7850 3250
-Connection ~ 7850 3250
-Connection ~ 7250 3250
-Wire Wire Line
-	2600 4950 2800 4950
-Wire Wire Line
-	2600 5150 2650 5150
+	2550 3150 2550 2500
+Text Label 2550 3000 1    40   ~ 0
+Vbus
+$Comp
+L R R79
+U 1 1 4F2F42B1
+P 2550 2250
+F 0 "R79" V 2630 2250 50  0000 C CNN
+F 1 "22" V 2550 2250 50  0000 C CNN
+	1    2550 2250
+	-1   0    0    1   
+$EndComp
+Text Notes 1500 4850 0    40   ~ 0
+USB-B Mini Connector
+NoConn ~ 2250 4450
+NoConn ~ 2250 5700
+NoConn ~ 2600 5350
 Text Label 2600 5150 0    25   ~ 0
 D+
 Text Label 2600 5050 0    25   ~ 0
@@ -166,7 +173,7 @@ D+
 Text Label 2600 3250 0    25   ~ 0
 D-
 Text Label 2600 4950 0    40   ~ 0
-5v-USB
+Vbus
 Text Label 2600 5250 0    40   ~ 0
 USB-GND
 $Comp
@@ -309,7 +316,7 @@ Text Label 8100 1700 2    40   ~ 0
 5v-USB
 Text Label 8400 3650 0    40   ~ 0
 5v-USB
-Text Label 2700 1800 0    40   ~ 0
+Text Label 2650 1800 0    40   ~ 0
 5v-USB
 Text Label 3550 2200 2    40   ~ 0
 USB-GND

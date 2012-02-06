@@ -1,23 +1,14 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 11:20:52 AM EST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:interface
+EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
 LIBS:opto
-LIBS:contrib
 LIBS:Jaguar
+LIBS:power
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 feb 2012"
+Date "6 feb 2012"
 Rev "A.2"
 Comp "diyefi.org"
 Comment1 ""
@@ -25,7 +16,133 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5350 5650 0    40   Input ~ 0
+$Comp
+L GND #PWR060
+U 1 1 4F2F3E3F
+P 5450 5650
+F 0 "#PWR060" H 5450 5650 30  0001 C CNN
+F 1 "GND" H 5450 5580 30  0001 C CNN
+	1    5450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5650 6350 5650
+Wire Wire Line
+	5450 1550 4700 1550
+Wire Notes Line
+	3800 800  7400 800 
+Wire Notes Line
+	3800 800  3800 2450
+Wire Notes Line
+	3800 2450 7400 2450
+Wire Notes Line
+	7400 2450 7400 800 
+Wire Wire Line
+	6500 1350 6500 1150
+Wire Wire Line
+	6350 1350 6650 1350
+Connection ~ 6500 1350
+Connection ~ 6350 1350
+Connection ~ 6350 1750
+Connection ~ 6050 1550
+Connection ~ 5200 1150
+Connection ~ 4700 1150
+Connection ~ 5600 1150
+Connection ~ 6000 1150
+Wire Wire Line
+	6500 1150 6000 1150
+Wire Wire Line
+	6350 1750 6350 2050
+Connection ~ 5450 2050
+Connection ~ 5450 1550
+Wire Wire Line
+	5950 1550 6050 1550
+Connection ~ 4850 1550
+Connection ~ 4850 3350
+Wire Wire Line
+	5950 3350 6050 3350
+Connection ~ 5450 3350
+Connection ~ 5450 3850
+Wire Wire Line
+	6350 3550 6350 3850
+Wire Wire Line
+	6000 2950 6500 2950
+Connection ~ 6000 2950
+Connection ~ 5600 2950
+Connection ~ 4700 2950
+Connection ~ 5200 2950
+Connection ~ 6050 3350
+Connection ~ 6350 3550
+Connection ~ 6350 3150
+Connection ~ 6500 3150
+Wire Wire Line
+	6350 3150 6650 3150
+Wire Wire Line
+	6500 2950 6500 3150
+Wire Notes Line
+	7400 4250 7400 2600
+Wire Notes Line
+	7400 4250 3800 4250
+Wire Notes Line
+	3800 4250 3800 2600
+Wire Notes Line
+	3800 2600 7400 2600
+Wire Wire Line
+	5450 3350 4700 3350
+Wire Wire Line
+	5450 5150 4700 5150
+Wire Notes Line
+	3800 4400 7400 4400
+Wire Notes Line
+	3800 4400 3800 6050
+Wire Notes Line
+	3800 6050 7400 6050
+Wire Notes Line
+	7400 6050 7400 4400
+Wire Wire Line
+	6500 4950 6500 4750
+Wire Wire Line
+	6350 4950 6650 4950
+Connection ~ 6500 4950
+Connection ~ 6350 4950
+Connection ~ 6350 5350
+Connection ~ 6050 5150
+Connection ~ 5200 4750
+Connection ~ 4700 4750
+Connection ~ 5600 4750
+Connection ~ 6000 4750
+Wire Wire Line
+	6500 4750 6000 4750
+Wire Wire Line
+	6350 5650 6350 5350
+Connection ~ 5450 5650
+Connection ~ 5450 5150
+Wire Wire Line
+	5950 5150 6050 5150
+Connection ~ 4850 5150
+Wire Wire Line
+	6350 2050 6300 2050
+Wire Wire Line
+	6350 3850 6300 3850
+$Comp
+L GND #PWR061
+U 1 1 4F2F3E2D
+P 5450 3850
+F 0 "#PWR061" H 5450 3850 30  0001 C CNN
+F 1 "GND" H 5450 3780 30  0001 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR062
+U 1 1 4F2F3E0C
+P 5450 2050
+F 0 "#PWR062" H 5450 2050 30  0001 C CNN
+F 1 "GND" H 5450 1980 30  0001 C CNN
+	1    5450 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 6300 5650 0    40   Input ~ 0
 Output-Ground
 $Comp
 L R R76
@@ -89,105 +206,6 @@ F 1 "1k" V 5700 5150 40  0000 C CNN
 	1    5700 5150
 	0    1    1    0   
 $EndComp
-Connection ~ 4850 5150
-Wire Wire Line
-	5950 5150 6050 5150
-Wire Wire Line
-	5350 5650 6350 5650
-Connection ~ 5450 5150
-Connection ~ 5450 5650
-Wire Wire Line
-	6350 5650 6350 5350
-Wire Wire Line
-	6000 4750 6500 4750
-Connection ~ 6000 4750
-Connection ~ 5600 4750
-Connection ~ 4700 4750
-Connection ~ 5200 4750
-Connection ~ 6050 5150
-Connection ~ 6350 5350
-Connection ~ 6350 4950
-Connection ~ 6500 4950
-Wire Wire Line
-	6350 4950 6650 4950
-Wire Wire Line
-	6500 4750 6500 4950
-Wire Notes Line
-	7400 6050 7400 4400
-Wire Notes Line
-	7400 6050 3800 6050
-Wire Notes Line
-	3800 6050 3800 4400
-Wire Notes Line
-	3800 4400 7400 4400
-Wire Wire Line
-	5450 5150 4700 5150
-Wire Wire Line
-	5450 3350 4700 3350
-Wire Notes Line
-	3800 2600 7400 2600
-Wire Notes Line
-	3800 2600 3800 4250
-Wire Notes Line
-	3800 4250 7400 4250
-Wire Notes Line
-	7400 4250 7400 2600
-Wire Wire Line
-	6500 3150 6500 2950
-Wire Wire Line
-	6350 3150 6650 3150
-Connection ~ 6500 3150
-Connection ~ 6350 3150
-Connection ~ 6350 3550
-Connection ~ 6050 3350
-Connection ~ 5200 2950
-Connection ~ 4700 2950
-Connection ~ 5600 2950
-Connection ~ 6000 2950
-Wire Wire Line
-	6500 2950 6000 2950
-Wire Wire Line
-	6350 3550 6350 3850
-Connection ~ 5450 3850
-Connection ~ 5450 3350
-Wire Wire Line
-	6350 3850 5350 3850
-Wire Wire Line
-	5950 3350 6050 3350
-Connection ~ 4850 3350
-Connection ~ 4850 1550
-Wire Wire Line
-	5950 1550 6050 1550
-Wire Wire Line
-	5350 2050 6350 2050
-Connection ~ 5450 1550
-Connection ~ 5450 2050
-Wire Wire Line
-	6350 2050 6350 1750
-Wire Wire Line
-	6000 1150 6500 1150
-Connection ~ 6000 1150
-Connection ~ 5600 1150
-Connection ~ 4700 1150
-Connection ~ 5200 1150
-Connection ~ 6050 1550
-Connection ~ 6350 1750
-Connection ~ 6350 1350
-Connection ~ 6500 1350
-Wire Wire Line
-	6350 1350 6650 1350
-Wire Wire Line
-	6500 1150 6500 1350
-Wire Notes Line
-	7400 2450 7400 800 
-Wire Notes Line
-	7400 2450 3800 2450
-Wire Notes Line
-	3800 2450 3800 800 
-Wire Notes Line
-	3800 800  7400 800 
-Wire Wire Line
-	5450 1550 4700 1550
 $Comp
 L R R74
 U 1 1 4F20C919
@@ -250,9 +268,9 @@ F 1 "100k" V 5450 3600 50  0000 C CNN
 	1    5450 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 3850 0    40   Input ~ 0
+Text HLabel 6300 3850 0    40   Input ~ 0
 Output-Ground
-Text HLabel 5350 2050 0    40   Input ~ 0
+Text HLabel 6300 2050 0    40   Input ~ 0
 Output-Ground
 $Comp
 L R R63
