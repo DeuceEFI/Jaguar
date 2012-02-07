@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 02/03/2012 2012 EST (GMT-0500)
+JAG 02/07/2012 0114 EST (GMT-0500)
 
 ### Introduction
 
@@ -13,7 +13,7 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B connector).
- * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
+ * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 3x or 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
  * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
@@ -28,12 +28,13 @@ Core IO specs:
  * 1 Accessory relay drive (Boost/Idle).
  * 1 switched +5V output for TPS.
 
-PCB Size is to be as small as possible, due to the limited room in the car it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
+PCB Size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com 
 
-The suggested connectors are TE Connectivity (www.te.com) Automotive Grade water resistant connector. 
-The 35 positions will allow for modifications to the board for additional inputs/outputs as this design currently only uses 27 positions.
+The suggested connectors are TE Connectivity (www.te.com) Automotive Grade water resistant connectors. 
+The all 35 positions are used for inputs/outputs.
+
 Connector Part #'s:
 
 1-776163-2 Right Angle 35 Position Header (Natural Color)
