@@ -1,10 +1,10 @@
 # Jaguar Board for FreeEMS
 
-JAG 02/07/2012 0114 EST (GMT-0500)
+JAG 02/09/2012 0714 EST (GMT-0500)
 
 ### Introduction
 
-The name "Jaguar" comes from my initials and the great cat keeping in the FreeEMS tradition of using cat names...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.
+The name "Jaguar" comes from my initials and the great cat keeping in the FreeEMS tradition of using cat names...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.  The Jaguar board can also be used for other 4/6/8 cylinder engines using a Ford EDIS ignition system. 
 
 Please see forum.diyefi.org for the most up to date information and links for this project and all of the other aspects of the FreeEMS project.
 
@@ -13,7 +13,7 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B connector).
- * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 3x or 24x RPM sensor and camshaft position sensor, CAM indicates cylinder #1).
+ * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 3x or 24x RPM sensor and 1x camshaft position sensor, CAM indicates cylinder #1).
  * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
@@ -25,7 +25,7 @@ Core IO specs:
  * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
  * 1 Fuel Pump relay drive.
  * 1 Cooling Fan relay drive.
- * 1 Accessory relay drive (Boost/Idle).
+ * 1 Accessory relay drive (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
 PCB Size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
