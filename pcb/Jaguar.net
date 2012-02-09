@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 06 Feb 2012 02:31:48 PM EST
+# EESchema Netlist Version 1.1 created  Wed 08 Feb 2012 10:04:25 PM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 GND )
@@ -467,7 +467,7 @@
  ( /4F0BB4F1 WireConnection P18 DIS-BYPASS
   ( 1 /Inputs/28 )
  )
- ( /4F0BB4F8 WireConnection P19 IGN-ADVANCE
+ ( /4F0BB4F8 WireConnection P19 ADVANCE
   ( 1 /Inputs/29 )
  )
  ( /4F1F56DE PIN_STRIP_4 P20 PT4-7
@@ -1112,7 +1112,7 @@
   ( 13 VCC )
   ( 14 VCC )
  )
- ( /4F0BB08D/4F0B8DF0 MPX5700AP_h U6 MPX4100AP
+ ( /4F0BB08D/4F0B8DF0 MPX4100AP_h U6 MPX4100AP
   ( 1 N-000202 )
   ( 2 GND )
   ( 3 VCC )

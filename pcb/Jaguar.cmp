@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 06 Feb 2012 02:31:48 PM EST
+Cmp-Mod V01 Genere par PcbNew le Wed 08 Feb 2012 10:06:09 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -836,7 +836,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB4F8;
 Reference = P19;
-ValeurCmp = IGN-ADVANCE;
+ValeurCmp = ADVANCE;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1684,7 +1684,7 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B8DF0;
 Reference = U6;
 ValeurCmp = MPX4100AP;
-IdModule  = MPX5700AP_h;
+IdModule  = MPX4100AP_h;
 EndCmp
 
 BeginCmp
