@@ -1,33 +1,50 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
+EESchema Schematic File Version 2  date Sat 18 Feb 2012 05:28:44 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
+LIBS:conn
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 feb 2012"
-Rev "A.2"
+Date "18 feb 2012"
+Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 6650 2950 2    40   Input ~ 0
+5vdc-analog
+Wire Wire Line
+	600  5400 700  5400
+Connection ~ 3700 5650
+Wire Wire Line
+	3700 5550 3600 5550
+Wire Wire Line
+	3700 5550 3700 5750
+Wire Notes Line
+	1050 1550 1050 2250
+Wire Notes Line
+	1050 1550 800  1550
+Wire Notes Line
+	800  1550 800  1250
+Wire Notes Line
+	800  1250 2150 1250
+Wire Notes Line
+	1750 3500 1750 3050
+Wire Notes Line
+	1750 3500 1050 3500
+Wire Wire Line
+	4000 700  4000 800 
+Connection ~ 4350 2150
 Wire Wire Line
 	1350 6100 1350 5950
 Wire Wire Line
 	1350 5950 1050 5950
-Wire Notes Line
-	2550 6600 550  6600
-Wire Notes Line
-	2550 6600 2550 7700
-Wire Notes Line
-	2550 7700 550  7700
-Wire Notes Line
-	550  7700 550  6600
 Wire Notes Line
 	550  6500 550  4500
 Wire Notes Line
@@ -37,7 +54,7 @@ Wire Notes Line
 Wire Notes Line
 	550  4500 3800 4500
 Wire Wire Line
-	3600 5750 3600 5850
+	3600 5850 3600 5750
 Wire Wire Line
 	2250 5750 2350 5750
 Wire Wire Line
@@ -69,10 +86,6 @@ Wire Notes Line
 	4000 7700 4000 6300
 Wire Notes Line
 	1050 2250 1350 2250
-Wire Notes Line
-	1050 2250 1050 1250
-Wire Notes Line
-	1050 1250 2150 1250
 Wire Notes Line
 	2150 1250 2150 1550
 Wire Notes Line
@@ -197,7 +210,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2150 3400 2150
 Wire Wire Line
-	3600 5350 3600 5550
+	3600 5550 3600 5350
 Wire Wire Line
 	7300 3050 6650 3050
 Wire Wire Line
@@ -356,15 +369,12 @@ Connection ~ 4000 2550
 Connection ~ 3650 2550
 Wire Wire Line
 	2350 5950 2350 6050
-Connection ~ 1700 7100
 Wire Wire Line
 	7650 2300 7650 2400
 Wire Wire Line
 	7750 5600 7750 5700
 Wire Wire Line
 	10350 2200 10350 2300
-Wire Wire Line
-	1600 7100 1700 7100
 Wire Notes Line
 	8500 1250 8500 2500
 Wire Notes Line
@@ -398,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 6950 5550 6950
 Wire Wire Line
-	5550 7350 4350 7350
+	5550 7350 4600 7350
 Wire Notes Line
 	6000 2500 8350 2500
 Wire Notes Line
@@ -490,8 +500,6 @@ Connection ~ 1450 2350
 Connection ~ 1250 1450
 Connection ~ 1250 1850
 Wire Notes Line
-	1400 3500 1050 3500
-Wire Notes Line
 	4000 6300 6900 6300
 Wire Notes Line
 	6900 6300 6900 7700
@@ -518,13 +526,9 @@ Connection ~ 800  5400
 Connection ~ 700  5400
 Connection ~ 3600 5750
 Wire Notes Line
-	1400 3500 1400 3050
+	1350 2500 1350 3050
 Wire Notes Line
-	1400 3050 1350 3050
-Wire Notes Line
-	1350 3050 1350 2500
-Wire Notes Line
-	1050 3500 1050 2500
+	1050 2500 1050 3500
 Wire Notes Line
 	3800 4500 3800 6500
 Wire Notes Line
@@ -551,6 +555,48 @@ Wire Wire Line
 	1900 5200 1750 5200
 Wire Wire Line
 	1750 5200 1750 5300
+Wire Wire Line
+	4000 4200 4000 4300
+Wire Notes Line
+	1350 3050 1750 3050
+Wire Wire Line
+	3700 5650 3750 5650
+Wire Wire Line
+	3600 5750 3700 5750
+Wire Wire Line
+	2100 5100 2250 5100
+Text HLabel 600  5400 1    40   Input ~ 0
+5vdc-analog
+Text HLabel 2100 5100 1    40   Input ~ 0
+5vdc-analog
+Text HLabel 3750 5650 1    40   Input ~ 0
+5vdc-analog
+Text HLabel 1250 1450 0    40   Input ~ 0
+5vdc-analog
+Text HLabel 1450 1850 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 1450 2950 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 1250 3350 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 4000 4300 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 4350 2150 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 4000 700  2    40   Input ~ 0
+5vdc-analog
+Text HLabel 6700 1400 2    40   Input ~ 0
+5vdc-analog
+Text HLabel 10050 1400 0    40   Input ~ 0
+5vdc-analog
+Text HLabel 10050 2950 0    40   Input ~ 0
+5vdc-analog
+Text HLabel 10050 4750 0    40   Input ~ 0
+5vdc-analog
+Text HLabel 6550 4700 0    40   Input ~ 0
+5vdc-analog
+Text HLabel 4600 7350 0    40   Input ~ 0
+5vdc-analog
 Text Notes 600  4600 0    40   ~ 0
 JP8 Allows us to use Port T2\nby using a shorting jumper \nbetween pins 1 and 2 \nor pin 2 can be routed via \nwire jumper to another CPU\noutput port.
 $Comp
@@ -575,8 +621,6 @@ F 1 "DIS-Bypass" V 750 5850 40  0000 C CNN
 $EndComp
 Text Notes 5400 6400 0    40   ~ 0
 Use the MPX4100AP for Non-Boosted Engines.\nUse the MPX4250AP for Boosted Engines.
-Text Notes 800  7350 0    60   ~ 0
-Power Supply For These Modules
 Text Notes 2750 4900 0    40   ~ 0
 For Ford EDIS do not populate \nR64 and R65 and connect U5 \npins 5 and 6 to +5vdc.\n(Use +5v supply from U5 Pin 9).
 Text Notes 6050 750  0    40   ~ 0
@@ -587,31 +631,13 @@ Text Notes 800  6050 0    40   ~ 0
 CPU Pin 12 (PT3)
 NoConn ~ 3600 5950
 $Comp
-L VCC #PWR028
-U 1 1 4F1EDD96
-P 3600 5750
-F 0 "#PWR028" H 3600 5850 30  0001 C CNN
-F 1 "VCC" H 3600 5850 30  0000 C CNN
-	1    3600 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR029
+L GND #PWR016
 U 1 1 4F1EDBE2
 P 900 5450
-F 0 "#PWR029" H 900 5450 30  0001 C CNN
+F 0 "#PWR016" H 900 5450 30  0001 C CNN
 F 1 "GND" H 900 5380 30  0001 C CNN
 	1    900  5450
 	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR030
-U 1 1 4F1EDBDA
-P 700 5400
-F 0 "#PWR030" H 700 5500 30  0001 C CNN
-F 1 "VCC" H 700 5500 30  0000 C CNN
-	1    700  5400
-	-1   0    0    1   
 $EndComp
 Text HLabel 1350 6100 0    40   Input ~ 0
 DIS-Bypass-Signal
@@ -645,10 +671,10 @@ $EndComp
 Text Notes 2750 4650 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
-L GND #PWR031
+L GND #PWR017
 U 1 1 4F1E9FBA
 P 2450 5150
-F 0 "#PWR031" H 2450 5150 30  0001 C CNN
+F 0 "#PWR017" H 2450 5150 30  0001 C CNN
 F 1 "GND" H 2450 5080 30  0001 C CNN
 	1    2450 5150
 	1    0    0    -1  
@@ -664,24 +690,6 @@ F 1 "POS/NEG" V 2400 4750 40  0000 C CNN
 $EndComp
 Text Notes 1350 1350 0    40   ~ 0
 D4/R9 and D5/R10 are \nFor Diagnostics Only!\nIf they cause issues, \nremove them.
-$Comp
-L VCC #PWR032
-U 1 1 4F1DC66C
-P 1250 3350
-F 0 "#PWR032" H 1250 3450 30  0001 C CNN
-F 1 "VCC" H 1250 3450 30  0000 C CNN
-	1    1250 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L VCC #PWR033
-U 1 1 4F1DC665
-P 1250 1450
-F 0 "#PWR033" H 1250 1550 30  0001 C CNN
-F 1 "VCC" H 1250 1550 30  0000 C CNN
-	1    1250 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED D5
 U 1 1 4F1DC64E
@@ -756,175 +764,85 @@ Do NOT Connect Cam-IN- \nfor Hall/Opto/Digital
 Text Notes 4100 1900 0    40   ~ 0
 Do NOT Connect Crank-IN- \nfor Hall/Opto/Digital
 $Comp
-L GND #PWR034
+L GND #PWR018
 U 1 1 4F1D8DAC
 P 1600 2800
-F 0 "#PWR034" H 1600 2800 30  0001 C CNN
+F 0 "#PWR018" H 1600 2800 30  0001 C CNN
 F 1 "GND" H 1600 2730 30  0001 C CNN
 	1    1600 2800
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4300 7650
 NoConn ~ 4100 7650
-Text HLabel 10050 1400 0    40   Output ~ 0
+Text HLabel 10050 1400 2    40   Output ~ 0
 TPS-5vdc
 Text HLabel 4150 3200 2    40   BiDi ~ 0
 Cam-IN-
 Text HLabel 4150 1800 2    40   BiDi ~ 0
 Crank-IN-
 $Comp
-L GND #PWR035
+L GND #PWR019
 U 1 1 4F1C330A
 P 4350 2650
-F 0 "#PWR035" H 4350 2650 30  0001 C CNN
+F 0 "#PWR019" H 4350 2650 30  0001 C CNN
 F 1 "GND" H 4350 2580 30  0001 C CNN
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND #PWR020
 U 1 1 4F1C32B6
 P 1700 1950
-F 0 "#PWR036" H 1700 1950 30  0001 C CNN
+F 0 "#PWR020" H 1700 1950 30  0001 C CNN
 F 1 "GND" H 1700 1880 30  0001 C CNN
 	1    1700 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR037
-U 1 1 4F1C3261
-P 4350 2150
-F 0 "#PWR037" H 4350 2250 30  0001 C CNN
-F 1 "VCC" H 4350 2250 30  0000 C CNN
-	1    4350 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR038
-U 1 1 4F1C325E
-P 4000 800
-F 0 "#PWR038" H 4000 900 30  0001 C CNN
-F 1 "VCC" H 4000 900 30  0000 C CNN
-	1    4000 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR039
-U 1 1 4F1C3259
-P 1450 2950
-F 0 "#PWR039" H 1450 3050 30  0001 C CNN
-F 1 "VCC" H 1450 3050 30  0000 C CNN
-	1    1450 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR040
-U 1 1 4F1C3254
-P 4000 4200
-F 0 "#PWR040" H 4000 4300 30  0001 C CNN
-F 1 "VCC" H 4000 4300 30  0000 C CNN
-	1    4000 4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L VCC #PWR041
-U 1 1 4F1C3250
-P 1450 1850
-F 0 "#PWR041" H 1450 1950 30  0001 C CNN
-F 1 "VCC" H 1450 1950 30  0000 C CNN
-	1    1450 1850
 	1    0    0    -1  
 $EndComp
 Text Notes 4350 7500 0    40   ~ 0
 P29 and P30 are for mounting holes for MPX4100AP
 $Comp
-L VCC #PWR042
-U 1 1 4F1C302C
-P 4350 7350
-F 0 "#PWR042" H 4350 7450 30  0001 C CNN
-F 1 "VCC" H 4350 7450 30  0000 C CNN
-	1    4350 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR043
+L GND #PWR021
 U 1 1 4F1C300F
 P 4450 7000
-F 0 "#PWR043" H 4450 7000 30  0001 C CNN
+F 0 "#PWR021" H 4450 7000 30  0001 C CNN
 F 1 "GND" H 4450 6930 30  0001 C CNN
 	1    4450 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR022
 U 1 1 4F1C2FFA
 P 10350 3850
-F 0 "#PWR044" H 10350 3850 30  0001 C CNN
+F 0 "#PWR022" H 10350 3850 30  0001 C CNN
 F 1 "GND" H 10350 3780 30  0001 C CNN
 	1    10350 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR023
 U 1 1 4F1C2FE3
 P 10350 2300
-F 0 "#PWR045" H 10350 2300 30  0001 C CNN
+F 0 "#PWR023" H 10350 2300 30  0001 C CNN
 F 1 "GND" H 10350 2230 30  0001 C CNN
 	1    10350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR046
-U 1 1 4F1C2FD7
-P 10050 1400
-F 0 "#PWR046" H 10050 1500 30  0001 C CNN
-F 1 "VCC" H 10050 1500 30  0000 C CNN
-	1    10050 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR047
-U 1 1 4F1C2F9E
-P 10050 2950
-F 0 "#PWR047" H 10050 3050 30  0001 C CNN
-F 1 "VCC" H 10050 3050 30  0000 C CNN
-	1    10050 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR048
-U 1 1 4F1C2F82
-P 10050 4750
-F 0 "#PWR048" H 10050 4850 30  0001 C CNN
-F 1 "VCC" H 10050 4850 30  0000 C CNN
-	1    10050 4750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR049
+L GND #PWR024
 U 1 1 4F1C2F74
 P 8850 5800
-F 0 "#PWR049" H 8850 5800 30  0001 C CNN
+F 0 "#PWR024" H 8850 5800 30  0001 C CNN
 F 1 "GND" H 8850 5730 30  0001 C CNN
 	1    8850 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L GND #PWR025
 U 1 1 4F1C2F64
 P 7750 5700
-F 0 "#PWR050" H 7750 5700 30  0001 C CNN
+F 0 "#PWR025" H 7750 5700 30  0001 C CNN
 F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR051
-U 1 1 4F1C2F57
-P 6550 4700
-F 0 "#PWR051" H 6550 4800 30  0001 C CNN
-F 1 "VCC" H 6550 4800 30  0000 C CNN
-	1    6550 4700
 	1    0    0    -1  
 $EndComp
 Text Notes 7500 4650 0    40   ~ 0
@@ -932,76 +850,31 @@ This jumper allows us to \njump over Vcc on the PCB
 Text Notes 7400 2950 0    40   ~ 0
 This jumper allows us to \njump over Vcc on the PCB
 $Comp
-L VCC #PWR052
-U 1 1 4F1C2F18
-P 6400 2950
-F 0 "#PWR052" H 6400 3050 30  0001 C CNN
-F 1 "VCC" H 6400 3050 30  0000 C CNN
-	1    6400 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR053
+L GND #PWR026
 U 1 1 4F1C2F0A
 P 7600 3950
-F 0 "#PWR053" H 7600 3950 30  0001 C CNN
+F 0 "#PWR026" H 7600 3950 30  0001 C CNN
 F 1 "GND" H 7600 3880 30  0001 C CNN
 	1    7600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L GND #PWR027
 U 1 1 4F1C2EED
 P 7650 2400
-F 0 "#PWR054" H 7650 2400 30  0001 C CNN
+F 0 "#PWR027" H 7650 2400 30  0001 C CNN
 F 1 "GND" H 7650 2330 30  0001 C CNN
 	1    7650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR055
-U 1 1 4F1C2E50
-P 6450 1400
-F 0 "#PWR055" H 6450 1500 30  0001 C CNN
-F 1 "VCC" H 6450 1500 30  0000 C CNN
-	1    6450 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR056
-U 1 1 4F1C2E3A
-P 1700 7100
-F 0 "#PWR056" H 1700 7200 30  0001 C CNN
-F 1 "VCC" H 1700 7200 30  0000 C CNN
-	1    1700 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR057
-U 1 1 4F1C2E1E
-P 3600 5350
-F 0 "#PWR057" H 3600 5450 30  0001 C CNN
-F 1 "VCC" H 3600 5450 30  0000 C CNN
-	1    3600 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR058
+L GND #PWR028
 U 1 1 4F1C2DD9
 P 2350 6050
-F 0 "#PWR058" H 2350 6050 30  0001 C CNN
+F 0 "#PWR028" H 2350 6050 30  0001 C CNN
 F 1 "GND" H 2350 5980 30  0001 C CNN
 	1    2350 6050
 	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR059
-U 1 1 4F1C2D2C
-P 2250 5100
-F 0 "#PWR059" H 2250 5200 30  0001 C CNN
-F 1 "VCC" H 2250 5200 30  0000 C CNN
-	1    2250 5100
-	-1   0    0    1   
 $EndComp
 $Comp
 L JUMPER JP6
@@ -1615,8 +1488,6 @@ Text HLabel 1700 5100 0    40   BiDi ~ 0
 IGN-Advance-Signal
 Text HLabel 1700 5400 0    40   Output ~ 0
 IGN-Advance
-Text HLabel 1600 7100 0    40   Input ~ 0
-5vdc-analog
 NoConn ~ 3600 5650
 $Comp
 L R R14

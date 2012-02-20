@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 08 Feb 2012 10:06:09 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 18 Feb 2012 04:45:30 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -652,20 +652,6 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F1B7347;
-Reference = JP3;
-ValeurCmp = JUMPER;
-IdModule  = RC03;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F1B747C;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = RC03;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/4F1B944F;
 Reference = JP5;
 ValeurCmp = JUMPER;
@@ -690,6 +676,20 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F222A46;
 Reference = JP8;
 ValeurCmp = DIS-Advance;
+IdModule  = PIN_ARRAY_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/4F4014CF;
+Reference = JP9;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/4F401512;
+Reference = JP10;
+ValeurCmp = JUMPER;
 IdModule  = PIN_ARRAY_2;
 EndCmp
 
@@ -836,7 +836,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB4F8;
 Reference = P19;
-ValeurCmp = ADVANCE;
+ValeurCmp = IGN-ADVANCE;
 IdModule  = WireConnection;
 EndCmp
 
@@ -998,6 +998,34 @@ BeginCmp
 TimeStamp = /4F2A0E57;
 Reference = P45;
 ValeurCmp = Sensor-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/4F40049E;
+Reference = P46;
+ValeurCmp = RXB;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/4F40047F;
+Reference = P47;
+ValeurCmp = TXB;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/4F4003FA;
+Reference = P48;
+ValeurCmp = RX;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/4F4003E3;
+Reference = P49;
+ValeurCmp = TX;
 IdModule  = WireConnection;
 EndCmp
 

@@ -1,15 +1,16 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
+EESchema Schematic File Version 2  date Sat 18 Feb 2012 05:28:44 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
+LIBS:conn
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 feb 2012"
-Rev "A.2"
+Date "18 feb 2012"
+Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -17,10 +18,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR060
+L GND #PWR029
 U 1 1 4F2F3E3F
 P 5450 5650
-F 0 "#PWR060" H 5450 5650 30  0001 C CNN
+F 0 "#PWR029" H 5450 5650 30  0001 C CNN
 F 1 "GND" H 5450 5580 30  0001 C CNN
 	1    5450 5650
 	1    0    0    -1  
@@ -125,19 +126,19 @@ Wire Wire Line
 Wire Wire Line
 	6350 3850 6300 3850
 $Comp
-L GND #PWR061
+L GND #PWR030
 U 1 1 4F2F3E2D
 P 5450 3850
-F 0 "#PWR061" H 5450 3850 30  0001 C CNN
+F 0 "#PWR030" H 5450 3850 30  0001 C CNN
 F 1 "GND" H 5450 3780 30  0001 C CNN
 	1    5450 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR062
+L GND #PWR031
 U 1 1 4F2F3E0C
 P 5450 2050
-F 0 "#PWR062" H 5450 2050 30  0001 C CNN
+F 0 "#PWR031" H 5450 2050 30  0001 C CNN
 F 1 "GND" H 5450 1980 30  0001 C CNN
 	1    5450 2050
 	1    0    0    -1  

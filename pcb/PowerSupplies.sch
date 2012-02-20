@@ -1,21 +1,30 @@
-EESchema Schematic File Version 2  date Sun 05 Feb 2012 10:59:48 PM EST
+EESchema Schematic File Version 2  date Sat 18 Feb 2012 05:28:44 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
+LIBS:conn
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 feb 2012"
-Rev "A.2"
+Date "18 feb 2012"
+Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 5450 2700 0    60   ~ 0
+JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
+Connection ~ 5300 3350
+Connection ~ 5900 3350
+Wire Wire Line
+	5900 3350 5950 3350
+Wire Wire Line
+	5300 2250 3850 2250
 Connection ~ 1850 3350
 Connection ~ 2250 3350
 Wire Wire Line
@@ -34,10 +43,6 @@ Wire Wire Line
 	3450 3650 3450 3750
 Wire Wire Line
 	5050 2650 2350 2650
-Wire Wire Line
-	3850 2250 5350 2250
-Wire Wire Line
-	3850 3350 5350 3350
 Connection ~ 2350 2250
 Connection ~ 2800 2250
 Connection ~ 3050 2250
@@ -77,6 +82,30 @@ Wire Wire Line
 Connection ~ 2150 2250
 Wire Wire Line
 	1750 3350 1850 3350
+Wire Wire Line
+	5900 2250 5950 2250
+Connection ~ 5300 2250
+Connection ~ 5900 2250
+Wire Wire Line
+	5300 3350 3850 3350
+$Comp
+L JUMPER JP10
+U 1 1 4F401512
+P 5600 3350
+F 0 "JP10" H 5600 3500 60  0000 C CNN
+F 1 "JUMPER" H 5600 3270 40  0000 C CNN
+	1    5600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP9
+U 1 1 4F4014CF
+P 5600 2250
+F 0 "JP9" H 5600 2400 60  0000 C CNN
+F 1 "JUMPER" H 5600 2170 40  0000 C CNN
+	1    5600 2250
+	1    0    0    -1  
+$EndComp
 $Comp
 L DIODESCH D44
 U 1 1 4F2F40C5
@@ -96,10 +125,10 @@ F 1 "1N5818-TP" H 1950 2150 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L GND #PWR040
 U 1 1 4F24F936
 P 1750 3900
-F 0 "#PWR071" H 1750 3900 30  0001 C CNN
+F 0 "#PWR040" H 1750 3900 30  0001 C CNN
 F 1 "GND" H 1750 3830 30  0001 C CNN
 	1    1750 3900
 	1    0    0    -1  
@@ -120,19 +149,19 @@ C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 10v Tantalum capacitor
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR072
+L GND #PWR041
 U 1 1 4F1C2CDE
 P 5050 3850
-F 0 "#PWR072" H 5050 3850 30  0001 C CNN
+F 0 "#PWR041" H 5050 3850 30  0001 C CNN
 F 1 "GND" H 5050 3780 30  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L GND #PWR042
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR073" H 5050 2750 30  0001 C CNN
+F 0 "#PWR042" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  
@@ -208,9 +237,9 @@ F 1 "47uF" H 4600 3450 50  0000 L CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 2250 2    40   Output ~ 0
+Text HLabel 5950 2250 2    40   Output ~ 0
 5vdc-analog
-Text HLabel 5350 3350 2    40   Output ~ 0
+Text HLabel 5950 3350 2    40   Output ~ 0
 5vdc-cpu
 $Comp
 L CP1 C18
