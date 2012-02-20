@@ -1,10 +1,5 @@
-update=Sat 18 Feb 2012 03:01:36 PM EST
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=Sun 19 Feb 2012 10:24:14 PM EST
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -30,8 +25,9 @@ TxtLar=120
 MSegLar=100
 WpenSer=10
 [pcbnew/libraries]
-LibDir=
 LibName1=Jaguar
+LibName2=w_smd_dil
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -72,3 +68,8 @@ LibName1=opto
 LibName2=Jaguar
 LibName3=power
 LibName4=conn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
