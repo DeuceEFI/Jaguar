@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 18 Feb 2012 04:45:30 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 19 Feb 2012 10:56:57 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1723,17 +1723,17 @@ IdModule  = SSOP28;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F1B46FD;
+TimeStamp = /4F0A2F06/4F0A3F95/4F41C216;
 Reference = U8;
-ValeurCmp = PS2911-1-F3-A;
-IdModule  = 4-SMD;
+ValeurCmp = HCPL-061A;
+IdModule  = so-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F1B4731;
+TimeStamp = /4F0A2F06/4F0A3F95/4F41C2BB;
 Reference = U9;
-ValeurCmp = PS2911-1-F3-A;
-IdModule  = 4-SMD;
+ValeurCmp = HCPL-061A;
+IdModule  = so-8;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 18 Feb 2012 05:28:44 PM EST
+EESchema Schematic File Version 2  date Sun 19 Feb 2012 11:18:36 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "18 feb 2012"
+Date "20 feb 2012"
 Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 10600 1600 2    40   Input ~ 0
+Ground
 Text Notes 8900 4350 0    25   ~ 0
 Sensor-GND
 Text Notes 8750 3350 0    40   ~ 0
@@ -856,6 +858,7 @@ F16 "Injector8_Output" O R 10600 1400 40
 F17 "Injector7_Output" O R 10600 1300 40 
 F18 "Injector8" I L 9050 1400 40 
 F19 "12v-sw2" I L 9050 1500 40 
+F20 "PCB-GND" I R 10600 1600 40 
 $EndSheet
 $Sheet
 S 9050 3300 1050 400 

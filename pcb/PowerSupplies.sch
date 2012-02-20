@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 18 Feb 2012 05:28:44 PM EST
+EESchema Schematic File Version 2  date Sun 19 Feb 2012 11:18:36 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "18 feb 2012"
+Date "20 feb 2012"
 Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,77 +17,81 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5450 2700 0    60   ~ 0
-JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
-Connection ~ 5300 3350
-Connection ~ 5900 3350
 Wire Wire Line
-	5900 3350 5950 3350
+	2350 3850 1750 3850
 Wire Wire Line
-	5300 2250 3850 2250
-Connection ~ 1850 3350
-Connection ~ 2250 3350
-Wire Wire Line
-	2250 3350 3050 3350
-Connection ~ 1750 2850
-Wire Wire Line
-	1750 2250 1750 3350
-Wire Wire Line
-	5050 3850 5050 3750
-Wire Wire Line
-	5050 2750 5050 2650
-Wire Wire Line
-	5050 3750 2350 3750
-Connection ~ 3450 3750
-Wire Wire Line
-	3450 3650 3450 3750
-Wire Wire Line
-	5050 2650 2350 2650
-Connection ~ 2350 2250
-Connection ~ 2800 2250
-Connection ~ 3050 2250
-Connection ~ 3850 2250
-Connection ~ 4100 2250
-Connection ~ 4550 2250
-Connection ~ 4550 2650
-Connection ~ 4100 2650
-Connection ~ 3450 2550
-Connection ~ 2800 2650
-Connection ~ 2350 2650
-Connection ~ 2350 3350
-Connection ~ 2800 3350
-Connection ~ 3050 3350
-Connection ~ 2800 3750
-Connection ~ 2350 3750
-Connection ~ 3450 3650
-Connection ~ 3850 3350
-Connection ~ 4100 3350
-Connection ~ 4100 3750
-Connection ~ 4550 3350
-Connection ~ 4550 3750
-Wire Wire Line
-	3450 2550 3450 2650
-Connection ~ 3450 2650
-Connection ~ 5050 2250
-Connection ~ 5050 2650
-Connection ~ 5050 3350
-Connection ~ 5050 3750
-Wire Wire Line
-	1750 3850 1750 3900
-Connection ~ 1750 3850
-Connection ~ 1750 3350
-Connection ~ 1750 2250
-Wire Wire Line
-	2150 2250 3050 2250
-Connection ~ 2150 2250
-Wire Wire Line
-	1750 3350 1850 3350
-Wire Wire Line
-	5900 2250 5950 2250
-Connection ~ 5300 2250
-Connection ~ 5900 2250
+	2350 3850 2350 3750
 Wire Wire Line
 	5300 3350 3850 3350
+Connection ~ 5900 2250
+Connection ~ 5300 2250
+Wire Wire Line
+	5900 2250 5950 2250
+Wire Wire Line
+	1850 3350 1750 3350
+Connection ~ 2150 2250
+Wire Wire Line
+	2150 2250 3050 2250
+Connection ~ 1750 2250
+Connection ~ 1750 3350
+Connection ~ 1750 3850
+Wire Wire Line
+	1750 3850 1750 3900
+Connection ~ 5050 3750
+Connection ~ 5050 3350
+Connection ~ 5050 2650
+Connection ~ 5050 2250
+Connection ~ 3450 2650
+Wire Wire Line
+	3450 2550 3450 2650
+Connection ~ 4550 3750
+Connection ~ 4550 3350
+Connection ~ 4100 3750
+Connection ~ 4100 3350
+Connection ~ 3850 3350
+Connection ~ 3450 3650
+Connection ~ 2350 3750
+Connection ~ 2800 3750
+Connection ~ 3050 3350
+Connection ~ 2800 3350
+Connection ~ 2350 3350
+Connection ~ 2350 2650
+Connection ~ 2800 2650
+Connection ~ 3450 2550
+Connection ~ 4100 2650
+Connection ~ 4550 2650
+Connection ~ 4550 2250
+Connection ~ 4100 2250
+Connection ~ 3850 2250
+Connection ~ 3050 2250
+Connection ~ 2800 2250
+Connection ~ 2350 2250
+Wire Wire Line
+	2350 2650 5050 2650
+Wire Wire Line
+	3450 3650 3450 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	2350 3750 5050 3750
+Wire Wire Line
+	5050 2650 5050 2750
+Wire Wire Line
+	5050 3750 5050 3850
+Wire Wire Line
+	1750 3350 1750 2250
+Connection ~ 1750 2850
+Wire Wire Line
+	2250 3350 3050 3350
+Connection ~ 2250 3350
+Connection ~ 1850 3350
+Wire Wire Line
+	5300 2250 3850 2250
+Wire Wire Line
+	5900 3350 5950 3350
+Connection ~ 5900 3350
+Connection ~ 5300 3350
+Text Notes 5450 2700 0    60   ~ 0
+JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
 L JUMPER JP10
 U 1 1 4F401512
