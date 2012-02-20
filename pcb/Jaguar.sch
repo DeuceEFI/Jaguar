@@ -1,12 +1,13 @@
-EESchema Schematic File Version 2  date Sun 19 Feb 2012 11:18:36 PM EST
+EESchema Schematic File Version 2  date 2/20/2012 12:13:35 AM
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:Jaguar-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
 Date "20 feb 2012"
@@ -615,7 +616,7 @@ $EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
 Text Notes 650  900  0    60   ~ 0
-Jumpers labeled JP3, JP4, JP5 and JP6 are crossover wires,nothing \nmore.  This was done to ease single sided PCB Prototype testing.
+Jumpers labeled JP5 and JP6 are crossover wires,nothing \nmore.  This was done to ease single sided PCB Prototype testing.
 Text Notes 600  700  0    70   ~ 14
 Notes:
 $Comp

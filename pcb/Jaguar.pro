@@ -1,7 +1,5 @@
-update=Sun 19 Feb 2012 10:24:14 PM EST
-last_client=cvpcb
-[general]
-version=1
+update=2/20/2012 12:14:12 AM
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=217
@@ -28,6 +26,11 @@ WpenSer=10
 LibName1=Jaguar
 LibName2=w_smd_dil
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -58,18 +61,11 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-SimCmd=
-UseNetN=0
 LabSize=25
-PrintMonochrome=1
-ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=opto
 LibName2=Jaguar
 LibName3=power
 LibName4=conn
-[cvpcb]
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
