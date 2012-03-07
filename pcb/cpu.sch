@@ -1,16 +1,15 @@
-EESchema Schematic File Version 2  date 2/20/2012 12:13:35 AM
+EESchema Schematic File Version 2  date Wed 07 Mar 2012 12:24:35 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:Jaguar-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-encoding utf-8
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "20 feb 2012"
+Date "7 mar 2012"
 Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
@@ -596,8 +595,6 @@ Text Notes 4200 6750 1    40   ~ 0
 MODA
 Text Notes 10050 6950 0    40   ~ 0
 Crystal Circuit
-Text Notes 9950 6250 0    40   ~ 0
-R62 1M or 10M
 Text Notes 7950 6950 0    40   ~ 0
 PLL Circuit
 Text Notes 950  7650 0    60   ~ 0
@@ -857,7 +854,7 @@ L C C11
 U 1 1 4F0A35E9
 P 10450 6600
 F 0 "C11" H 10500 6700 50  0000 L CNN
-F 1 "12pF" H 10500 6500 50  0000 L CNN
+F 1 "22pF" H 10500 6500 50  0000 L CNN
 	1    10450 6600
 	-1   0    0    1   
 $EndComp
@@ -866,7 +863,7 @@ L C C10
 U 1 1 4F0A35D9
 P 9950 6600
 F 0 "C10" H 10000 6700 50  0000 L CNN
-F 1 "12pF" H 10000 6500 50  0000 L CNN
+F 1 "22pF" H 10000 6500 50  0000 L CNN
 	1    9950 6600
 	-1   0    0    1   
 $EndComp
