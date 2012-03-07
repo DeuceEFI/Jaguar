@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 19 Feb 2012 10:56:57 PM EST
+# EESchema Netlist Version 1.1 created  Mon 20 Feb 2012 05:51:20 PM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 GND )
@@ -662,7 +662,7 @@
   ( 1 N-000158 )
   ( 2 GND )
  )
- ( /4F0A2F06/4F0A40AD rc03_vert R4 10k
+ ( /4F0A2F06/4F0A40AD RC03 R4 10k
   ( 1 /CPU/BKGD )
   ( 2 /Power_S1 )
  )
