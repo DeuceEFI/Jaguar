@@ -1,19 +1,25 @@
 # To Do List
 
-JAG 02/19/2012 2202 EST (GMT-0500)
+JAG 04/15/2012 1800 EST (GMT-0500)
 
-1.  Have others at forum.diyefi.org check the schematics.  IN PROGESS, at Revision A.3 02/19/2012
-2.  Have others at forum.diyefi.org check the component choices and BOM.  IN PROGRESS, at Revision A.3 02/19/2012 
-3.  Double check to make sure everything is good with the board layout.  IN PROGRESS, at Revision A.3 02/19/2012
-4.  Check that the chosen TE Connectivity automotive grade connectors will work for this design. DONE 02/09/2012
-5.  Update Bill of Materials.  DONE 02/03/2012
-6.  Order Samples from SAMTEC for Water-Resistent USB connectors for case.  RECEIVED 02/17/2012
-7.  Order components not already on hand.  NEED TO ORDER OPTOCOUPLERS
-8.  Create Assembly documentation.  IN PROGRESS, repo on github as of 02/19/2012 for peer review.
-9.  Print out proof sheets onto paper to check component spacing.  DONE 02/19/2012 
-10. Print out photo sheets to photo-etch a prototype board.  DONE 02/19/2012
-11. Test prototype board after etching.  DONE, good etch, pads and traces look good.
-12. Assemble prototype board.  DONE 02/19/2012  WILL TEST OPTOCOUPLERS WHEN THEY ARRIVE
-13. Bench test assembled board.  DONE 02/19/2012, I/O works, Awaiting firmware code for RPM inputs and Ignition outputs.
-14. Connect Jaguar board to my engine with a rough tune and try it out!
+To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 
+1. Fix R12 and C1 pads from being connected to the ground plane on the Through Hole component side - DONE 03/2012
+2. Delete JP6 (not necessary) - DONE 04/15/2012
+3. Change XOR chip from DIP to SMD
+4. Make Silk Screen lines thinner for outlines on SMD side
+5. Move R15 label from inside XOR (U5) outline to outside near R15's position
+6. Add D37, D38, D40 and D42 to BOM - DONE 04/14/2012
+7. Add instructions to use High Temperature Silicone or something similar to brace the upright components
+8. Improve the silk screen for the LEDs to show anode/cathode orientation
+9. Too much copper around pads, looks like it is set to 8 per hole, 4 would be better/sufficient/good
+10. Along with #9 above, revisit ground plane thermal relief rules to keep from sucking all the heat out of the pad while soldering
+11. C23 and C42 need to be different part #'s with different lead spacing
+12. Move C17 label outside of U3
+13. Delete D43 and D44 as the LM2937 is already reverse protected - DONE 04/15/2012
+14. Fix J2 footprint so that the pin out connections are correct
+15. Re-route power feed to MOV first, then to the input capacitors, then to the regulators
+16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot
+17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side)
+
+ 

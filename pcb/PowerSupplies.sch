@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 07 Mar 2012 12:24:35 AM EST
+EESchema Schematic File Version 2  date Sun 15 Apr 2012 10:34:10 AM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "7 mar 2012"
+Date "15 apr 2012"
 Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3050 3350 1750 3350
 Wire Wire Line
 	2350 3850 1750 3850
 Wire Wire Line
@@ -27,12 +29,6 @@ Connection ~ 5900 2250
 Connection ~ 5300 2250
 Wire Wire Line
 	5900 2250 5950 2250
-Wire Wire Line
-	1850 3350 1750 3350
-Connection ~ 2150 2250
-Wire Wire Line
-	2150 2250 3050 2250
-Connection ~ 1750 2250
 Connection ~ 1750 3350
 Connection ~ 1750 3850
 Wire Wire Line
@@ -81,15 +77,13 @@ Wire Wire Line
 	1750 3350 1750 2250
 Connection ~ 1750 2850
 Wire Wire Line
-	2250 3350 3050 3350
-Connection ~ 2250 3350
-Connection ~ 1850 3350
-Wire Wire Line
 	5300 2250 3850 2250
 Wire Wire Line
 	5900 3350 5950 3350
 Connection ~ 5900 3350
 Connection ~ 5300 3350
+Wire Wire Line
+	1750 2250 3050 2250
 Text Notes 5450 2700 0    60   ~ 0
 JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
@@ -108,24 +102,6 @@ P 5600 2250
 F 0 "JP9" H 5600 2400 60  0000 C CNN
 F 1 "JUMPER" H 5600 2170 40  0000 C CNN
 	1    5600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODESCH D44
-U 1 1 4F2F40C5
-P 2050 3350
-F 0 "D44" H 2050 3450 40  0000 C CNN
-F 1 "1N5818-TP" H 2050 3250 40  0000 C CNN
-	1    2050 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODESCH D43
-U 1 1 4F2F408F
-P 1950 2250
-F 0 "D43" H 1950 2350 40  0000 C CNN
-F 1 "1N5818-TP" H 1950 2150 40  0000 C CNN
-	1    1950 2250
 	1    0    0    -1  
 $EndComp
 $Comp

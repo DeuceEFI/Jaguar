@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 07 Mar 2012 12:24:35 AM EST
+EESchema Schematic File Version 2  date Sun 15 Apr 2012 10:34:10 AM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "7 mar 2012"
+Date "15 apr 2012"
 Rev "A3"
 Comp "diyefi.org"
 Comment1 ""
@@ -148,7 +148,6 @@ Connection ~ 5200 6950
 Connection ~ 5200 6550
 Wire Notes Line
 	6000 6100 8350 6100
-Connection ~ 8100 5400
 Connection ~ 8100 4800
 Wire Wire Line
 	8100 4800 7750 4800
@@ -877,15 +876,6 @@ F 1 "GND" H 2350 5980 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER JP6
-U 1 1 4F1B95D7
-P 8100 5100
-F 0 "JP6" H 8100 5250 60  0000 C CNN
-F 1 "JUMPER" H 8100 5020 40  0000 C CNN
-	1    8100 5100
-	0    1    1    0   
-$EndComp
-$Comp
 L JUMPER JP5
 U 1 1 4F1B944F
 P 7950 3350
@@ -1199,7 +1189,7 @@ F 1 ".." H 4100 7555 30  0001 C CNN
 $EndComp
 Text Notes 10450 3300 0    40   ~ 0
 CPU Pin 73
-Text Notes 8050 5950 1    40   ~ 0
+Text Notes 8200 5150 1    40   ~ 0
 CPU Pin 69
 Text Notes 7900 4100 1    40   ~ 0
 CPU Pin 67
@@ -1267,7 +1257,7 @@ F 1 "1uF" H 7800 5300 50  0000 L CNN
 $EndComp
 Text HLabel 6550 5200 0    40   Input ~ 0
 Coolant-Sensor
-Text HLabel 8100 5400 3    40   Output ~ 0
+Text HLabel 8100 4800 3    40   Output ~ 0
 Coolant-CPU-Signal
 Text Label 7000 5600 0    40   ~ 0
 Ground
