@@ -21,5 +21,5 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 15. Re-route power feed to MOV first, then to the input capacitors, then to the regulators
 16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot
 17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side)
-
+18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case 
  
