@@ -22,5 +22,13 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot
 17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side)
 18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
-19. add more space around the BDM header 
+19. Add more space around the BDM header
+20. Remove the 5.6v Zener diode (D3) as it is not necessary since there is no chance of voltage feeding back from the MCU
+21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1
+22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine.
+23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
+24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC
+25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
+26. Update documentation to reflect these changes
+ 
  
