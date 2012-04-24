@@ -29,6 +29,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
 24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC
 25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
-26. Update documentation to reflect these changes
+26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
+27. Update documentation to reflect these changes
  
  
