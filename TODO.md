@@ -33,4 +33,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
 28. Update documentation to reflect these changes
  
- 
+----------
+Jaguar Wish List Items:
+
+1. Bluetooth TTL serial header in addition to the USB interface.
