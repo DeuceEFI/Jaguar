@@ -31,7 +31,8 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
 26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
-28. Update documentation to reflect these changes
+28. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
+29. Update documentation to reflect these changes
  
 ----------
 Jaguar Wish List Items:
