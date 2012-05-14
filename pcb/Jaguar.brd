@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 03 Mar 2012 11:54:23 AM EST
+PCBNEW-BOARD Version 1 date Sun 13 May 2012 09:13:20 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -9,7 +9,7 @@ EnabledLayers 1FFF8001
 Links 437
 NoConn 1
 Di -76 -76 66017 39090
-Ndraw 325
+Ndraw 326
 Ntrack 1817
 Nzone 0
 BoardThickness 630
@@ -20,7 +20,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "5.5\"
-Date "3 mar 2012"
+Date "14 may 2012"
 Rev "A.2"
 Comp ""
 Comment1 ""
@@ -12652,6 +12652,11 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  RC03_vert
+$TEXTPCB
+Te "git - 69b4045ba576e226284cbb9f613b4f8160685e36"
+Po 60300 27800 100 200 25 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 33297 12553 33297 12601 150
 De 21 0 900 0 0
@@ -13927,7 +13932,7 @@ Po 17920 37720 500 600 100 0
 De 15 1 0 Italic
 $EndTEXTPCB
 $TEXTPCB
-Te "Rev. A3"
+Te "Rev. AG"
 Po 60900 26810 500 600 100 0
 De 15 1 0 Normal
 $EndTEXTPCB
@@ -17692,7 +17697,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -31462,7 +31467,7 @@ ZLayer 15
 ZAux 5 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 63759 9831 0

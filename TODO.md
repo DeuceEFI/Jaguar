@@ -32,7 +32,11 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
 28. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
-29. Update documentation to reflect these changes
+29. C10 and C11 (crystal load capacitors) need to be changed to 20pF to match the manufacturer specifications.
+30. Update BOM to use S912XDP512MAL MCU not the VAL variant as listed. (I used the MAL on all my prototypes).
+31. Add git hash to PCB design file for tracking
+32. Update documentation to reflect these changes
+33. Update the Jaguar Assembly Manual with photos of the Serial #1 build.
  
 ----------
 Jaguar Wish List Items:
