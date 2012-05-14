@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 20 Feb 2012 05:51:20 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 13 May 2012 10:35:24 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35D9;
 Reference = C10;
-ValeurCmp = 12pF;
+ValeurCmp = 20pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A35E9;
 Reference = C11;
-ValeurCmp = 12pF;
+ValeurCmp = 20pF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -610,20 +610,6 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A4778/4F2F408F;
-Reference = D43;
-ValeurCmp = 1N5818-TP;
-IdModule  = diode_do35;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A4778/4F2F40C5;
-Reference = D44;
-ValeurCmp = 1N5818-TP;
-IdModule  = diode_do35;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A450C;
 Reference = J1;
 ValeurCmp = USB_B;
@@ -654,13 +640,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F1B944F;
 Reference = JP5;
-ValeurCmp = JUMPER;
-IdModule  = rc07_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB08D/4F1B95D7;
-Reference = JP6;
 ValeurCmp = JUMPER;
 IdModule  = rc07_vert;
 EndCmp
@@ -1548,13 +1527,6 @@ IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F1AF16D;
-Reference = R62;
-ValeurCmp = 1M;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0D82A1/4F1AF0F6;
 Reference = R63;
 ValeurCmp = 100k;
@@ -1705,7 +1677,7 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B8A6D;
 Reference = U5;
 ValeurCmp = 74LS86;
-IdModule  = DIP-14__300;
+IdModule  = so-14;
 EndCmp
 
 BeginCmp
