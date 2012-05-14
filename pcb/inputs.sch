@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 13 May 2012 09:31:32 PM EDT
+EESchema Schematic File Version 2  date Sun 13 May 2012 10:20:01 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 13 May 2012 09:31:32 PM EDT
+EESchema Schematic File Version 2  date Sun 13 May 2012 10:20:01 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -141,8 +141,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 1400 3900 1750
 Connection ~ 1300 3900
-Connection ~ 9950 6300
-Connection ~ 10450 6300
 Wire Wire Line
 	9900 5950 9900 6300
 Wire Wire Line
@@ -601,15 +599,6 @@ Text Notes 950  7650 0    60   ~ 0
 BDM Connector
 Text HLabel 7000 2750 2    40   Input ~ 0
 5vdc-analog
-$Comp
-L R R62
-U 1 1 4F1AF16D
-P 10200 6300
-F 0 "R62" V 10280 6300 50  0000 C CNN
-F 1 "1M" V 10200 6300 50  0000 C CNN
-	1    10200 6300
-	0    1    1    0   
-$EndComp
 Text HLabel 7000 3450 2    40   Input ~ 0
 AAP-Signal
 NoConn ~ 7000 4350
