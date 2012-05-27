@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 26 May 2012 11:01:18 PM EDT
+PCBNEW-BOARD Version 1 date Sat 26 May 2012 11:08:48 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -12604,7 +12604,7 @@ Po 0 38990 21960 41450 19500 150
 De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "git - 69b4045ba576e226284cbb9f613b4f8160685e36"
+Te "git - 28f88417b038ab98dc02950eee36be236608505c"
 Po 60300 27800 100 200 25 0
 De 21 1 0 Normal
 $EndTEXTPCB
@@ -17486,7 +17486,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 300 150
+ZOptions 1 16 F 300 150
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -24185,7 +24185,7 @@ ZLayer 15
 ZAux 5 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 300 150
+ZOptions 1 16 F 300 150
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 63759 9831 0
