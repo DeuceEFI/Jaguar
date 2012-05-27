@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 13 May 2012 10:20:01 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:13:06 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "14 may 2012"
+Date "27 may 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4550 3850 4550 3750
 Wire Wire Line
 	3050 3350 1750 3350
 Wire Wire Line
@@ -33,8 +35,6 @@ Connection ~ 1750 3350
 Connection ~ 1750 3850
 Wire Wire Line
 	1750 3850 1750 3900
-Connection ~ 5050 3750
-Connection ~ 5050 3350
 Connection ~ 5050 2650
 Connection ~ 5050 2250
 Connection ~ 3450 2650
@@ -68,11 +68,9 @@ Wire Wire Line
 	3450 3650 3450 3750
 Connection ~ 3450 3750
 Wire Wire Line
-	2350 3750 5050 3750
+	2350 3750 4550 3750
 Wire Wire Line
 	5050 2650 5050 2750
-Wire Wire Line
-	5050 3750 5050 3850
 Wire Wire Line
 	1750 3350 1750 2250
 Connection ~ 1750 2850
@@ -131,10 +129,10 @@ Text HLabel 1750 2850 0    40   Input ~ 0
 $Comp
 L GND #PWR041
 U 1 1 4F1C2CDE
-P 5050 3850
-F 0 "#PWR041" H 5050 3850 30  0001 C CNN
-F 1 "GND" H 5050 3780 30  0001 C CNN
-	1    5050 3850
+P 4550 3850
+F 0 "#PWR041" H 4550 3850 30  0001 C CNN
+F 1 "GND" H 4550 3780 30  0001 C CNN
+	1    4550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -150,19 +148,8 @@ Text Label 3450 2650 0    40   ~ 0
 Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
-Text Notes 5200 3550 0    40   ~ 0
-5.6v/3w
 Text Notes 5200 2450 0    40   ~ 0
 5.6v/3w
-$Comp
-L ZENER D3
-U 1 1 4F17992C
-P 5050 3550
-F 0 "D3" H 5050 3650 50  0000 C CNN
-F 1 "1N5919BG" H 5050 3450 40  0000 C CNN
-	1    5050 3550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L ZENER D2
 U 1 1 4F179910
