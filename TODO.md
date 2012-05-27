@@ -1,6 +1,6 @@
 # To Do List
 
-JAG 04/18/2012 1300 EST (GMT-0500)
+JAG 05/26/2012 2230 EST (GMT-0500)
 
 To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 

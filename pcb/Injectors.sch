@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:29:30 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2950 7700 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 6800 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 5900 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 5000 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 4100 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 3200 0    40   Input ~ 0
+PCB-GND
+Text HLabel 2950 2300 0    40   Input ~ 0
+PCB-GND
 Text HLabel 2950 1400 0    40   Input ~ 0
 PCB-GND
 $Comp

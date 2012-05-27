@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 13 May 2012 10:35:24 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 26 May 2012 10:50:01 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -332,13 +332,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4F179910;
 Reference = D2;
-ValeurCmp = 1N5919BG;
-IdModule  = diode_do35;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A4778/4F17992C;
-Reference = D3;
 ValeurCmp = 1N5919BG;
 IdModule  = diode_do35;
 EndCmp
@@ -1642,6 +1635,20 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F2F42B1;
 Reference = R79;
 ValeurCmp = 22;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4FC18EC4;
+Reference = R80;
+ValeurCmp = 1k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4FC18F60;
+Reference = R81;
+ValeurCmp = 1k;
 IdModule  = RC03_vert;
 EndCmp
 

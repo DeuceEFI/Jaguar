@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:29:30 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,8 +17,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9250 3950 2    40   Input ~ 0
-5vdc-cpu
+Text HLabel 8100 4400 2    25   Input ~ 0
+PCB-GND
+Text HLabel 1300 4300 0    25   Input ~ 0
+PCB-GND
+Text HLabel 1600 6950 0    25   Input ~ 0
+PCB-GND
+Text HLabel 1850 7550 0    25   Input ~ 0
+PCB-GND
+Text HLabel 4100 7650 0    25   Input ~ 0
+PCB-GND
+Wire Wire Line
+	4100 7700 4100 7500
+Connection ~ 6050 900 
+Connection ~ 1700 7000
 Connection ~ 1250 6550
 Wire Wire Line
 	1250 6450 1250 6550
@@ -43,8 +55,6 @@ Wire Notes Line
 Wire Notes Line
 	9100 4000 9100 4800
 Connection ~ 4100 7500
-Wire Wire Line
-	4100 7500 4100 7550
 Wire Wire Line
 	4000 7000 4100 7000
 Wire Wire Line
@@ -328,6 +338,27 @@ Wire Wire Line
 	8800 4850 9250 4850
 Connection ~ 8800 4850
 Connection ~ 8300 4850
+Wire Wire Line
+	8400 5900 8400 5950
+Connection ~ 8400 5950
+Text HLabel 4400 7650 0    25   Input ~ 0
+PCB-GND
+Text HLabel 5200 6800 2    25   Input ~ 0
+PCB-GND
+Text HLabel 10450 6800 2    25   Input ~ 0
+PCB-GND
+Text HLabel 8400 5900 2    25   Input ~ 0
+PCB-GND
+Text HLabel 8950 5250 2    25   Input ~ 0
+PCB-GND
+Text HLabel 7150 1750 2    25   Input ~ 0
+PCB-GND
+Text HLabel 6050 900  2    25   Input ~ 0
+PCB-GND
+Text HLabel 4050 1400 2    25   Input ~ 0
+PCB-GND
+Text HLabel 9250 3950 2    40   Input ~ 0
+5vdc-cpu
 Text HLabel 4800 1750 1    40   Input ~ 0
 5vdc-cpu
 Text HLabel 7700 2850 2    40   Input ~ 0
@@ -581,10 +612,10 @@ $EndComp
 $Comp
 L GND #PWR014
 U 1 1 4F1C273A
-P 4100 7550
-F 0 "#PWR014" H 4100 7550 30  0001 C CNN
-F 1 "GND" H 4100 7480 30  0001 C CNN
-	1    4100 7550
+P 4100 7700
+F 0 "#PWR014" H 4100 7700 30  0001 C CNN
+F 1 "GND" H 4100 7630 30  0001 C CNN
+	1    4100 7700
 	1    0    0    -1  
 $EndComp
 Text Notes 4100 6750 1    40   ~ 0

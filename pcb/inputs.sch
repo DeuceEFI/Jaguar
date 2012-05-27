@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:29:30 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 4950 6950 0    40   ~ 0
+Ground
+Text Label 6900 3850 0    40   ~ 0
+Ground
+Text Label 6950 2300 0    40   ~ 0
+Ground
+Text Label 9600 2200 0    40   ~ 0
+Ground
+Text Label 9750 3750 0    40   ~ 0
+Ground
+Text Label 8900 5700 0    40   ~ 0
+Ground
 Wire Wire Line
 	750  2550 750  2450
 Wire Wire Line

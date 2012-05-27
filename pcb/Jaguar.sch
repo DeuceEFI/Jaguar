@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:29:30 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 5200 2400 0    40   Input ~ 0
+Ground
+Connection ~ 9350 4100
+Connection ~ 10600 1600
 Text GLabel 10600 1600 2    40   Input ~ 0
 Ground
 Text Notes 8900 4350 0    25   ~ 0
@@ -611,6 +615,7 @@ F26 "DIS-Bypass-PT" O R 6900 2100 40
 F27 "Injector4-PT" O R 6900 1050 40 
 F28 "Injector8-PB" O R 6900 1900 40 
 F29 "Injector7-PB" O R 6900 1800 40 
+F30 "PCB-GND" I L 5200 2400 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
