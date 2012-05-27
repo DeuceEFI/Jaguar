@@ -1,6 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 02/09/2012 0714 EST (GMT-0500)
+JAG 05/26/2012 2320 EST (GMT-0500)
+
+####Do NOT use these files to make a PCB, I am in the process of making corrections to the layout of the PCB.
 
 ### Introduction
 
