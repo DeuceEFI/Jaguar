@@ -6,7 +6,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 
 1. Fix R12 and C1 pads from being connected to the ground plane on the Through Hole component side - DONE 03/2012
 2. Delete JP6 (not necessary) - DONE 04/15/2012
-3. Change XOR chip from DIP to SMD - Changed Footprint, still need to regenerate PCB file 05/13/2012 
+3. Change XOR chip from DIP to SMD - Changed Footprint, still need to regenerate PCB file - DONE 05/13/2012 
 4. Make Silk Screen lines thinner for outlines on SMD side
 5. Move R15 label from inside XOR (U5) outline to outside near R15's position
 6. Add D37, D38, D40 and D42 to BOM - DONE 04/14/2012
@@ -24,7 +24,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
 19. Add more space around the BDM header
 20. Remove the 5.6v Zener diode (D3) as it is not necessary since there is no chance of voltage feeding back from the MCU - DONE 05/26/2012
-21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1
+21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1 - DONE 05/26/2012
 22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine.
 23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
 24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC
