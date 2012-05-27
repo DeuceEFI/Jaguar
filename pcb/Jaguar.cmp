@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 26 May 2012 10:50:01 PM EDT
+=======
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 19 Feb 2012 10:56:57 PM EST
+>>>>>>> parent of 59a9bfa... pcb/Jaguar.brd changed to correct the R12/C1 pad errors.
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1117,7 +1121,7 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A40AD;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = RC03;
+IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
