@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:23:28 PM EDT
+EESchema Schematic File Version 2  date Sat 26 May 2012 10:26:33 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 9250 3950 2    40   Input ~ 0
+5vdc-cpu
 Connection ~ 1250 6550
 Wire Wire Line
 	1250 6450 1250 6550
@@ -466,8 +468,6 @@ F 1 "GND" H 1300 4280 30  0001 C CNN
 	1    1300 4350
 	1    0    0    -1  
 $EndComp
-Text HLabel 9250 3950 2    40   Input ~ 0
-5vdc-analog
 $Comp
 L C C44
 U 1 1 4F1C931B
