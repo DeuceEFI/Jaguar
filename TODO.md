@@ -25,14 +25,14 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 19. Add more space around the BDM header
 20. Remove the 5.6v Zener diode (D3) as it is not necessary since there is no chance of voltage feeding back from the MCU - DONE 05/26/2012
 21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1 - DONE 05/26/2012
-22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine. - DONE 05/26/2012
+22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine) - DONE 05/26/2012
 23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
 24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC
 25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
 26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
 28. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
-29. C10 and C11 (crystal load capacitors) need to be changed to 20pF to match the manufacturer specifications.
+29. C10 and C11 (crystal load capacitors) need to be changed to 20pF to match the manufacturer specifications. - DONE 05/26/2012
 30. Update BOM to use S912XDP512MAL MCU not the VAL variant as listed. (I used the MAL on all my prototypes).
 31. Add git hash to PCB design file for tracking
 32. Update documentation to reflect these changes
