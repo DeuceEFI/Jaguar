@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
+EESchema Schematic File Version 2  date Mon 02 Jul 2012 07:40:14 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "27 may 2012"
+Date "2 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,6 +17,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 9050 3600 0    40   Input ~ 0
+Ground
 Text GLabel 5200 2400 0    40   Input ~ 0
 Ground
 Connection ~ 9350 4100
@@ -873,6 +875,7 @@ F1 "PowerSupplies.sch" 40
 F2 "12v-switch" I L 9050 3400 40 
 F3 "5vdc-analog" O R 10100 3600 40 
 F4 "5vdc-cpu" O R 10100 3400 40 
+F5 "PWR-GND" I L 9050 3600 40 
 $EndSheet
 $Comp
 L CONN_1 P4

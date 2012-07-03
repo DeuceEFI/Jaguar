@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 10:50:58 PM EDT
+EESchema Schematic File Version 2  date Mon 02 Jul 2012 07:40:14 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "27 may 2012"
+Date "2 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,71 +17,77 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2350 2650 0    25   Input ~ 0
+PWR-GND
+Text HLabel 1500 3900 0    25   Input ~ 0
+PWR-GND
 Wire Wire Line
-	4550 3850 4550 3750
+	1650 3850 2350 3850
 Wire Wire Line
-	3050 3350 1750 3350
+	1650 3850 1650 3900
 Wire Wire Line
-	2350 3850 1750 3850
+	1650 3900 1500 3900
 Wire Wire Line
-	2350 3850 2350 3750
-Wire Wire Line
-	5300 3350 3850 3350
-Connection ~ 5900 2250
-Connection ~ 5300 2250
-Wire Wire Line
-	5900 2250 5950 2250
-Connection ~ 1750 3350
-Connection ~ 1750 3850
-Wire Wire Line
-	1750 3850 1750 3900
-Connection ~ 5050 2650
-Connection ~ 5050 2250
-Connection ~ 3450 2650
-Wire Wire Line
-	3450 2550 3450 2650
-Connection ~ 4550 3750
-Connection ~ 4550 3350
-Connection ~ 4100 3750
-Connection ~ 4100 3350
-Connection ~ 3850 3350
-Connection ~ 3450 3650
-Connection ~ 2350 3750
-Connection ~ 2800 3750
-Connection ~ 3050 3350
-Connection ~ 2800 3350
-Connection ~ 2350 3350
-Connection ~ 2350 2650
-Connection ~ 2800 2650
-Connection ~ 3450 2550
-Connection ~ 4100 2650
-Connection ~ 4550 2650
-Connection ~ 4550 2250
-Connection ~ 4100 2250
-Connection ~ 3850 2250
-Connection ~ 3050 2250
-Connection ~ 2800 2250
-Connection ~ 2350 2250
-Wire Wire Line
-	2350 2650 5050 2650
-Wire Wire Line
-	3450 3650 3450 3750
-Connection ~ 3450 3750
-Wire Wire Line
-	2350 3750 4550 3750
-Wire Wire Line
-	5050 2650 5050 2750
-Wire Wire Line
-	1750 3350 1750 2250
-Connection ~ 1750 2850
-Wire Wire Line
-	5300 2250 3850 2250
+	3050 2250 1750 2250
+Connection ~ 5300 3350
+Connection ~ 5900 3350
 Wire Wire Line
 	5900 3350 5950 3350
-Connection ~ 5900 3350
-Connection ~ 5300 3350
 Wire Wire Line
-	1750 2250 3050 2250
+	5300 2250 3850 2250
+Connection ~ 1750 2850
+Wire Wire Line
+	1750 2250 1750 3350
+Wire Wire Line
+	5050 2750 5050 2650
+Wire Wire Line
+	2350 3750 4550 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	3450 3650 3450 3750
+Wire Wire Line
+	5050 2650 2350 2650
+Connection ~ 2350 2250
+Connection ~ 2800 2250
+Connection ~ 3050 2250
+Connection ~ 3850 2250
+Connection ~ 4100 2250
+Connection ~ 4550 2250
+Connection ~ 4550 2650
+Connection ~ 4100 2650
+Connection ~ 3450 2550
+Connection ~ 2800 2650
+Connection ~ 2350 2650
+Connection ~ 2350 3350
+Connection ~ 2800 3350
+Connection ~ 3050 3350
+Connection ~ 2800 3750
+Connection ~ 2350 3750
+Connection ~ 3450 3650
+Connection ~ 3850 3350
+Connection ~ 4100 3350
+Connection ~ 4100 3750
+Connection ~ 4550 3350
+Connection ~ 4550 3750
+Wire Wire Line
+	3450 2550 3450 2650
+Connection ~ 3450 2650
+Connection ~ 5050 2250
+Connection ~ 5050 2650
+Connection ~ 1750 3850
+Connection ~ 1750 3350
+Wire Wire Line
+	5900 2250 5950 2250
+Connection ~ 5300 2250
+Connection ~ 5900 2250
+Wire Wire Line
+	5300 3350 3850 3350
+Wire Wire Line
+	2350 3750 2350 3850
+Wire Wire Line
+	1750 3350 3050 3350
+Wire Wire Line
+	4550 3750 4550 3850
 Text Notes 5450 2700 0    60   ~ 0
 JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
@@ -103,20 +109,11 @@ F 1 "JUMPER" H 5600 2170 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
-U 1 1 4F24F936
-P 1750 3900
-F 0 "#PWR040" H 1750 3900 30  0001 C CNN
-F 1 "GND" H 1750 3830 30  0001 C CNN
-	1    1750 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L VR MOV1
 U 1 1 4F24F92A
 P 1750 3600
 F 0 "MOV1" V 1850 3600 50  0000 C CNN
-F 1 "ERZ-V14D220" V 1650 3600 50  0000 C CNN
+F 1 "ERZ-V14D220" V 1650 3650 50  0000 C CNN
 	1    1750 3600
 	1    0    0    -1  
 $EndComp
@@ -127,19 +124,19 @@ C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 10v Tantalum capacitor
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR041
+L GND #PWR040
 U 1 1 4F1C2CDE
 P 4550 3850
-F 0 "#PWR041" H 4550 3850 30  0001 C CNN
+F 0 "#PWR040" H 4550 3850 30  0001 C CNN
 F 1 "GND" H 4550 3780 30  0001 C CNN
 	1    4550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR041
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR042" H 5050 2750 30  0001 C CNN
+F 0 "#PWR041" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  

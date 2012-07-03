@@ -1,5 +1,5 @@
 .gitignore
-pcb/$savebrd.brd
+pcb/$savepcb.brd
 connector/pcb/$savebrd.brd
 connector/pcb/Jaguar-Connector.bak
 connector/pcb/Jaguar-Connector-cache.bak
