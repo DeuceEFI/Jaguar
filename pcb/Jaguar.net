@@ -1,13 +1,13 @@
-# EESchema Netlist Version 1.1 created  Mon 02 Jul 2012 03:00:56 PM EDT
+# EESchema Netlist Version 1.1 created  Tue 03 Jul 2012 12:27:09 PM EDT
 (
  ( /4F2A0E57 $noname  P45 Sensor-GND {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F2A0D57 $noname  P44 Cam-Shield {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F2A0D4D $noname  P43 Crank-Shield {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F2A047E $noname  P42 INJ-GND2 {Lib=CONN_1}
   (    1 /Injectors/Injector-Ground )
@@ -82,10 +82,10 @@
   (    1 /Outputs/Output-Ground )
  )
  ( /4F1CC8BD $noname  P9 TPS-5v {Lib=CONN_1}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
  )
  ( /4F189D7E $noname  P3 GND {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F189D1F $noname  P2 12v-SW2 {Lib=CONN_1}
   (    1 /Injectors/12v-sw2 )
@@ -109,19 +109,19 @@
   (    1 /Inputs/BRV-12v )
  )
  ( /4F0C7391 $noname  P5 GND2 {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F0BB599 $noname  P14 CRANK+ {Lib=CONN_1}
   (    1 /Inputs/Crank-IN+ )
  )
  ( /4F0BB588 $noname  P13 Sensor-GND {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F0BB57B $noname  P12 O2 {Lib=CONN_1}
   (    1 /Inputs/O2-Sensor )
  )
  ( /4F0BB568 $noname  P11 Sensor-GND {Lib=CONN_1}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
  )
  ( /4F0BB55E $noname  P10 TPS {Lib=CONN_1}
   (    1 /Inputs/TPS-Sensor )
@@ -136,7 +136,7 @@
   (    1 /Inputs/IAT-Sensor )
  )
  ( /4F0BB4F8 $noname  P19 IGN-ADVANCE {Lib=CONN_1}
-  (    1 /Inputs/Ignition-Advance )
+  (    1 /Inputs/IGN-Advance )
  )
  ( /4F0BB4F1 $noname  P18 DIS-BYPASS {Lib=CONN_1}
   (    1 /Inputs/DIS-Bypass-OUT )
@@ -146,7 +146,7 @@
  )
  ( /4F0A2F06/4F1E09CB $noname  C47 10uF {Lib=CP1}
   (    1 /CPU/5vdc-cpu )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F22F2CC $noname  R78 1k {Lib=R}
   (    1 N-000105 )
@@ -166,23 +166,23 @@
  )
  ( /4F0A2F06/4F1E0953 $noname  C48 10uF {Lib=CP1}
   (    1 /CPU/5vdc-cpu )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F1DD206 $noname  C5 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000136 )
  )
  ( /4F0A2F06/4F1DD1E9 $noname  C1 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000117 )
  )
  ( /4F0A2F06/4F1DBE71 $noname  Load1 Load/Run {Lib=CONN_2}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000182 )
  )
  ( /4F0A2F06/4F1C931B $noname  C44 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0A2F06/4F179B05 $noname  D1 LED {Lib=LED}
   (    1 /CPU/5vdc-cpu )
@@ -194,7 +194,7 @@
  )
  ( /4F0A2F06/4F1572C7 $noname  C6 0.1uF {Lib=C}
   (    1 /CPU/RESET )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F0A2F47 mc9s12xdp512-LQFP112  U1 MC9S12XDP512 {Lib=MC9S12XDP512}
   (    1 N-000152 )
@@ -205,12 +205,12 @@
   (    6 ? )
   (    7 ? )
   (    8 ? )
-  (    9 /Inputs/Crank-OUT )
+  (    9 /CPU/Tach-Signal )
   (   10 /CPU/Cam-Position )
   (   11 /Inputs/IGN-Advance-Signal )
   (   12 /CPU/DIS-Bypass-PT )
   (   13 N-000117 )
-  (   14 /Power_Supplies/Ground )
+  (   14 GND )
   (   15 /CPU/Injector1-PT )
   (   16 /CPU/Injector2-PT )
   (   17 /CPU/Injector3-PT )
@@ -236,15 +236,15 @@
   (   37 N-000134 )
   (   38 N-000160 )
   (   39 ? )
-  (   40 /Power_Supplies/Ground )
+  (   40 GND )
   (   41 /CPU/5vdc-cpu )
   (   42 /CPU/RESET )
   (   43 N-000114 )
   (   44 N-000108 )
-  (   45 /Power_Supplies/Ground )
+  (   45 GND )
   (   46 N-000139 )
   (   47 N-000133 )
-  (   48 /Power_Supplies/Ground )
+  (   48 GND )
   (   49 ? )
   (   50 ? )
   (   51 ? )
@@ -260,10 +260,10 @@
   (   61 ? )
   (   62 ? )
   (   63 N-000105 )
-  (   64 /CPU/Fuel-Pump-Drive )
+  (   64 /Outputs/Fuel-Relay-Drive-IN )
   (   65 N-000136 )
-  (   66 /Power_Supplies/Ground )
-  (   67 /CPU/IAT-Signal )
+  (   66 GND )
+  (   67 /Inputs/IAT-CPU-Signal )
   (   68 ? )
   (   69 /Inputs/Coolant-CPU-Signal )
   (   70 ? )
@@ -271,18 +271,18 @@
   (   72 /CPU/MAF-Signal )
   (   73 /CPU/O2-Signal )
   (   74 ? )
-  (   75 /Inputs/MAP-CPU-Signal )
+  (   75 /CPU/MAP-Signal )
   (   76 ? )
   (   77 ? )
   (   78 ? )
-  (   79 /Inputs/BRV )
+  (   79 /CPU/BRV-Signal )
   (   80 ? )
-  (   81 /CPU/MAT-Signal )
+  (   81 /Inputs/MAT-CPU-Signal )
   (   82 ? )
   (   83 /CPU/5vdc-cpu )
-  (   84 /Inputs/TPS-5vdc )
-  (   85 /Power_Supplies/Ground )
-  (   86 /Power_Supplies/Ground )
+  (   84 /Inputs/5vdc-analog )
+  (   85 GND )
+  (   86 GND )
   (   87 ? )
   (   88 ? )
   (   89 /CPU/RX )
@@ -302,7 +302,7 @@
   (  103 ? )
   (  104 ? )
   (  105 ? )
-  (  106 /Power_Supplies/Ground )
+  (  106 GND )
   (  107 /CPU/5vdc-cpu )
   (  108 ? )
   (  109 N-000173 )
@@ -312,7 +312,7 @@
  )
  ( /4F0A2F06/4F0A40D7 $noname  P27 BDM {Lib=CONN_3X2}
   (    1 /CPU/BKGD )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
   (    3 ? )
   (    4 /CPU/RESET )
   (    5 ? )
@@ -332,11 +332,11 @@
  )
  ( /4F0A2F06/4F0A3BEF $noname  R2 10k {Lib=R}
   (    1 N-000134 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F0A3BDD $noname  R3 10k {Lib=R}
   (    1 N-000160 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F0A3AF5 $noname  R7 1k {Lib=R}
   (    1 N-000182 )
@@ -347,11 +347,11 @@
   (    2 N-000133 )
  )
  ( /4F0A2F06/4F0A35E9 $noname  C11 20pF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000133 )
  )
  ( /4F0A2F06/4F0A35D9 $noname  C10 20pF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000139 )
  )
  ( /4F0A2F06/4F0A355E $noname  R6 3.3k {Lib=R}
@@ -367,46 +367,46 @@
   (    2 N-000114 )
  )
  ( /4F0A2F06/4F0A3521 $noname  C8 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000114 )
  )
  ( /4F0A2F06/4F0A3455 $noname  C3 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 /CPU/5vdc-cpu )
  )
  ( /4F0A2F06/4F0A32B1 $noname  C4 0.22uF {Lib=C}
   (    1 /CPU/5vdc-cpu )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F0A300F $noname  C2 0.22uF {Lib=C}
   (    1 /CPU/5vdc-cpu )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A2F06/4F0A3F95/4F41C2BB $noname  U9 HCPL-061A {Lib=HCPL-061A}
   (    1 ? )
-  (    2 N-000257 )
+  (    2 N-000258 )
   (    3 /CPU/ft232/TX )
   (    4 ? )
   (    5 /CPU/ft232/USB-GND )
-  (    6 N-000266 )
+  (    6 N-000267 )
   (    7 ? )
   (    8 ? )
  )
  ( /4F0A2F06/4F0A3F95/4F41C216 $noname  U8 HCPL-061A {Lib=HCPL-061A}
   (    1 ? )
-  (    2 N-000258 )
-  (    3 N-000248 )
+  (    2 N-000259 )
+  (    3 N-000249 )
   (    4 ? )
-  (    5 /Power_Supplies/Ground )
+  (    5 GND )
   (    6 /CPU/RX )
   (    7 ? )
   (    8 ? )
  )
  ( /4F0A2F06/4F0A3F95/4F40049E $noname  P46 RXB {Lib=CONN_1}
-  (    1 N-000248 )
+  (    1 N-000249 )
  )
  ( /4F0A2F06/4F0A3F95/4F40047F $noname  P47 TXB {Lib=CONN_1}
-  (    1 N-000266 )
+  (    1 N-000267 )
  )
  ( /4F0A2F06/4F0A3F95/4F4003FA $noname  P48 RX {Lib=CONN_1}
   (    1 /CPU/RX )
@@ -430,16 +430,16 @@
   (    2 /CPU/ft232/USB-GND )
  )
  ( /4F0A2F06/4F0A3F95/4F1794BF $noname  R55 2.4k {Lib=R}
-  (    1 N-000251 )
+  (    1 N-000252 )
   (    2 /CPU/ft232/5v-USB )
  )
  ( /4F0A2F06/4F0A3F95/4F17944E $noname  R61 2.4k {Lib=R}
   (    1 /CPU/5vdc-cpu )
-  (    2 N-000257 )
+  (    2 N-000258 )
  )
  ( /4F0A2F06/4F0A3F95/4F1793A2 $noname  R59 10k {Lib=R}
   (    1 /CPU/ft232/5v-USB )
-  (    2 N-000266 )
+  (    2 N-000267 )
  )
  ( /4F0A2F06/4F0A3F95/4F1792E7 $noname  R60 10k {Lib=R}
   (    1 /CPU/5vdc-cpu )
@@ -447,7 +447,7 @@
  )
  ( /4F0A2F06/4F0A3F95/4F179239 $noname  R56 2.4k {Lib=R}
   (    1 /CPU/ft232/5v-USB )
-  (    2 N-000258 )
+  (    2 N-000259 )
  )
  ( /4F0A2F06/4F0A3F95/4F0A45B0 $noname  C39 0.1uF {Lib=C}
   (    1 /CPU/ft232/5v-USB )
@@ -455,22 +455,22 @@
  )
  ( /4F0A2F06/4F0A3F95/4F0A4640 $noname  R58 470 {Lib=R}
   (    1 /CPU/ft232/5v-USB )
-  (    2 N-000283 )
+  (    2 N-000284 )
  )
  ( /4F0A2F06/4F0A3F95/4F0A462A $noname  R57 470 {Lib=R}
   (    1 /CPU/ft232/5v-USB )
-  (    2 N-000284 )
+  (    2 N-000285 )
  )
  ( /4F0A2F06/4F0A3F95/4F0A4611 $noname  D34 LED {Lib=LED}
-  (    1 N-000283 )
-  (    2 N-000247 )
+  (    1 N-000284 )
+  (    2 N-000248 )
  )
  ( /4F0A2F06/4F0A3F95/4F0A45FE $noname  D33 LED {Lib=LED}
-  (    1 N-000284 )
-  (    2 N-000246 )
+  (    1 N-000285 )
+  (    2 N-000247 )
  )
  ( /4F0A2F06/4F0A3F95/4F0A4530 $noname  C41 0.1uF {Lib=C}
-  (    1 N-000278 )
+  (    1 N-000279 )
   (    2 /CPU/ft232/USB-GND )
  )
  ( /4F0A2F06/4F0A3F95/4F0A450C $noname  J1 USB_B {Lib=USB_B}
@@ -482,11 +482,11 @@
   (    6 ? )
  )
  ( /4F0A2F06/4F0A3F95/4F0A4204 $noname  U7 FT232RL {Lib=FT232RL}
-  (    1 N-000248 )
+  (    1 N-000249 )
   (    2 ? )
   (    3 ? )
   (    4 /CPU/ft232/5v-USB )
-  (    5 N-000266 )
+  (    5 N-000267 )
   (    6 ? )
   (    7 /CPU/ft232/USB-GND )
   (    8 ? )
@@ -498,13 +498,13 @@
   (   14 ? )
   (   15 /CPU/ft232/D+ )
   (   16 /CPU/ft232/D- )
-  (   17 N-000278 )
+  (   17 N-000279 )
   (   18 /CPU/ft232/USB-GND )
-  (   19 N-000251 )
+  (   19 N-000252 )
   (   20 /CPU/ft232/5v-USB )
   (   21 /CPU/ft232/USB-GND )
-  (   22 N-000247 )
-  (   23 N-000246 )
+  (   22 N-000248 )
+  (   23 N-000247 )
   (   24 ? )
   (   25 /CPU/ft232/USB-GND )
   (   26 /CPU/ft232/USB-GND )
@@ -512,16 +512,16 @@
   (   28 ? )
  )
  ( /4F0BB08D/4FC18F60 $noname  R81 1k {Lib=R}
-  (    1 N-000204 )
+  (    1 N-000205 )
   (    2 /CPU/Cam-Position )
  )
  ( /4F0BB08D/4F1DC636 $noname  R10 2.4k {Lib=R}
-  (    1 N-000204 )
+  (    1 N-000205 )
   (    2 N-000187 )
  )
  ( /4F0BB08D/4FC18EC4 $noname  R80 1k {Lib=R}
-  (    1 N-000202 )
-  (    2 /Inputs/Crank-OUT )
+  (    1 N-000203 )
+  (    2 /CPU/Tach-Signal )
  )
  ( /4F0BB08D/4F222A46 $noname  JP8 DIS-Advance {Lib=CONN_2}
   (    1 /Inputs/IGN-Advance-Signal )
@@ -529,37 +529,37 @@
  )
  ( /4F0BB08D/4F222850 $noname  JP7 DIS-Bypass {Lib=CONN_2}
   (    1 /CPU/DIS-Bypass-PT )
-  (    2 /CPU/DIS-Bypass-PT )
+  (    2 /Inputs/DIS-Bypass-CPU-Signal )
  )
  ( /4F0BB08D/4F1ED330 $noname  R64 1k {Lib=R}
-  (    1 N-000211 )
-  (    2 /CPU/DIS-Bypass-PT )
+  (    1 N-000212 )
+  (    2 /Inputs/DIS-Bypass-CPU-Signal )
  )
  ( /4F0BB08D/4F1ED2FB $noname  R65 470 {Lib=R}
   (    1 N-000186 )
   (    2 /Inputs/DIS-Bypass-OUT )
  )
  ( /4F0BB08D/4F1ED2EA $noname  JP2 POS/NEG {Lib=CONN_3}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/DIS-Bypass-Polarity )
-  (    3 /Power_Supplies/Ground )
+  (    3 GND )
  )
  ( /4F0BB08D/4F1E9F0D $noname  JP1 POS/NEG {Lib=CONN_3}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/IGN-Advance-Polarity )
-  (    3 /Power_Supplies/Ground )
+  (    3 GND )
  )
  ( /4F0BB08D/4F1DC64E $noname  D5 LED {Lib=LED}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 N-000187 )
  )
  ( /4F0BB08D/4F1DC643 $noname  D4 LED {Lib=LED}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 N-000189 )
  )
  ( /4F0BB08D/4F1DC62C $noname  R9 2.4k {Lib=R}
   (    1 N-000189 )
-  (    2 N-000202 )
+  (    2 N-000203 )
  )
  ( /4F0BB08D/4F1DA7D5 $noname  R20 5k {Lib=R}
   (    1 /Inputs/Cam-IN- )
@@ -570,146 +570,146 @@
   (    2 /Inputs/Crank-IN- )
  )
  ( /4F0BB08D/4F187F85 $noname  R16 10k {Lib=R}
-  (    1 N-000203 )
+  (    1 N-000204 )
   (    2 /Inputs/Cam-IN- )
  )
  ( /4F0BB08D/4F1B944F $noname  JP5 JUMPER {Lib=JUMPER}
-  (    1 N-000209 )
-  (    2 /CPU/IAT-Signal )
+  (    1 N-000210 )
+  (    2 /Inputs/IAT-CPU-Signal )
  )
  ( /4F0BB08D/4F1AFAB9 $noname  C43 1uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F1AFAA2 $noname  C42 10nF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F1880B9 $noname  R12 10k {Lib=R}
-  (    1 N-000204 )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 N-000205 )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F187F87 $noname  C25 1nF {Lib=C}
-  (    1 N-000203 )
-  (    2 N-000205 )
+  (    1 N-000204 )
+  (    2 N-000206 )
  )
  ( /4F0BB08D/4F187F86 $noname  R17 10k {Lib=R}
-  (    1 N-000205 )
+  (    1 N-000206 )
   (    2 /Inputs/Cam-IN+ )
  )
  ( /4F0BB08D/4F187F83 $noname  R21 1k {Lib=R}
   (    1 /Inputs/Cam-IN+ )
-  (    2 /Inputs/TPS-5vdc )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F187E82 $noname  R22 1k {Lib=R}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/Crank-IN+ )
  )
  ( /4F0BB08D/4F187E55 $noname  R18 10k {Lib=R}
-  (    1 N-000208 )
+  (    1 N-000209 )
   (    2 /Inputs/Crank-IN+ )
  )
  ( /4F0BB08D/4F187E36 $noname  R19 10k {Lib=R}
-  (    1 N-000207 )
+  (    1 N-000208 )
   (    2 /Inputs/Crank-IN- )
  )
  ( /4F0BB08D/4F187E1E $noname  C24 1nF {Lib=C}
-  (    1 N-000208 )
-  (    2 N-000207 )
+  (    1 N-000209 )
+  (    2 N-000208 )
  )
  ( /4F0BB08D/4F187DDD $noname  C26 0.1uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F187DB4 $noname  R11 10k {Lib=R}
-  (    1 /Inputs/TPS-5vdc )
-  (    2 N-000202 )
+  (    1 /Inputs/5vdc-analog )
+  (    2 N-000203 )
  )
  ( /4F0BB08D/4F187CC7 $noname  U4 MAX9926UAEE+ {Lib=MAX9926UAEE+}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 ? )
-  (    3 /Power_Supplies/Ground )
-  (    4 N-000202 )
-  (    5 N-000204 )
-  (    6 /Power_Supplies/Ground )
+  (    3 GND )
+  (    4 N-000203 )
+  (    5 N-000205 )
+  (    6 GND )
   (    7 ? )
-  (    8 /Power_Supplies/Ground )
-  (    9 N-000205 )
-  (   10 N-000203 )
-  (   11 /Power_Supplies/Ground )
+  (    8 GND )
+  (    9 N-000206 )
+  (   10 N-000204 )
+  (   11 GND )
   (   12 ? )
-  (   13 /Power_Supplies/Ground )
-  (   14 /Inputs/TPS-5vdc )
-  (   15 N-000207 )
-  (   16 N-000208 )
+  (   13 GND )
+  (   14 /Inputs/5vdc-analog )
+  (   15 N-000208 )
+  (   16 N-000209 )
  )
  ( /4F0BB08D/4F178D50 $noname  C22 0.1uF {Lib=C}
-  (    1 N-000193 )
-  (    2 /Power_Supplies/Ground )
+  (    1 N-000194 )
+  (    2 GND )
  )
  ( /4F0BB08D/4F178CB7 $noname  D12 1N5818-TP {Lib=DIODESCH}
   (    1 /Inputs/Coolant-CPU-Signal )
-  (    2 /Inputs/TPS-5vdc )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F178CB3 $noname  D13 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 /Inputs/Coolant-CPU-Signal )
  )
  ( /4F0BB08D/4F178C6B $noname  D10 1N5818-TP {Lib=DIODESCH}
-  (    1 N-000209 )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 N-000210 )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F178C67 $noname  D11 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
-  (    2 N-000209 )
+  (    1 GND )
+  (    2 N-000210 )
  )
  ( /4F0BB08D/4F178BDA $noname  D16 1N5818-TP {Lib=DIODESCH}
   (    1 /CPU/O2-Signal )
-  (    2 /Inputs/TPS-5vdc )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F178BD7 $noname  D17 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 /CPU/O2-Signal )
  )
  ( /4F0BB08D/4F178BB2 $noname  C34 0.1uF {Lib=C}
   (    1 /Inputs/O2-Sensor )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F178B09 $noname  D14 1N5818-TP {Lib=DIODESCH}
   (    1 /CPU/TPS-Signal )
-  (    2 /Inputs/TPS-5vdc )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F178AEF $noname  D15 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 /CPU/TPS-Signal )
  )
  ( /4F0BB08D/4F178A13 $noname  D8 1N5818-TP {Lib=DIODESCH}
-  (    1 /CPU/MAT-Signal )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 /Inputs/MAT-CPU-Signal )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F178A12 $noname  D9 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
-  (    2 /CPU/MAT-Signal )
+  (    1 GND )
+  (    2 /Inputs/MAT-CPU-Signal )
  )
  ( /4F0BB08D/4F178883 $noname  C27 0.22uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/BRV )
+  (    1 GND )
+  (    2 /CPU/BRV-Signal )
  )
  ( /4F0BB08D/4F178872 $noname  C32 0.1uF {Lib=C}
-  (    1 N-000206 )
-  (    2 /Power_Supplies/Ground )
+  (    1 N-000207 )
+  (    2 GND )
  )
  ( /4F0BB08D/4F17882B $noname  R28 470 {Lib=R}
-  (    1 /Inputs/BRV )
-  (    2 N-000206 )
+  (    1 /CPU/BRV-Signal )
+  (    2 N-000207 )
  )
  ( /4F0BB08D/4F1787F9 $noname  D7 1N5818-TP {Lib=DIODESCH}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/BRV )
+  (    1 GND )
+  (    2 /CPU/BRV-Signal )
  )
  ( /4F0BB08D/4F1787D6 $noname  D6 1N5818-TP {Lib=DIODESCH}
-  (    1 /Inputs/BRV )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 /CPU/BRV-Signal )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F1101C7 $noname  P30 . {Lib=CONN_1}
   (    1 ? )
@@ -718,7 +718,7 @@
   (    1 ? )
  )
  ( /4F0BB08D/4F0B938D $noname  R31 2.49k {Lib=R}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/Coolant-Sensor )
  )
  ( /4F0BB08D/4F0B938C $noname  R32 470 {Lib=R}
@@ -727,11 +727,11 @@
  )
  ( /4F0BB08D/4F0B938B $noname  C33 0.1uF {Lib=C}
   (    1 /Inputs/Coolant-Sensor )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B938A $noname  C36 1uF {Lib=C}
   (    1 /Inputs/Coolant-CPU-Signal )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B937E $noname  R33 470 {Lib=R}
   (    1 /CPU/O2-Signal )
@@ -739,382 +739,382 @@
  )
  ( /4F0BB08D/4F0B937C $noname  C38 0.22uF {Lib=C}
   (    1 /CPU/O2-Signal )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B9370 $noname  C31 1uF {Lib=C}
-  (    1 N-000209 )
-  (    2 /Power_Supplies/Ground )
+  (    1 N-000210 )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B936F $noname  C29 0.1uF {Lib=C}
   (    1 /Inputs/IAT-Sensor )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B936E $noname  R27 470 {Lib=R}
-  (    1 N-000209 )
+  (    1 N-000210 )
   (    2 /Inputs/IAT-Sensor )
  )
  ( /4F0BB08D/4F0B936D $noname  R25 2.49k {Lib=R}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/IAT-Sensor )
  )
  ( /4F0BB08D/4F0B9359 $noname  C37 0.22uF {Lib=C}
   (    1 /CPU/TPS-Signal )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B9358 $noname  C35 0.1uF {Lib=C}
   (    1 /Inputs/TPS-Sensor )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B9357 $noname  R34 470 {Lib=R}
   (    1 /CPU/TPS-Signal )
   (    2 /Inputs/TPS-Sensor )
  )
  ( /4F0BB08D/4F0B934B $noname  R24 2.49k {Lib=R}
-  (    1 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
   (    2 /Inputs/MAT-Sensor )
  )
  ( /4F0BB08D/4F0B934A $noname  R26 470 {Lib=R}
-  (    1 /CPU/MAT-Signal )
+  (    1 /Inputs/MAT-CPU-Signal )
   (    2 /Inputs/MAT-Sensor )
  )
  ( /4F0BB08D/4F0B9349 $noname  C28 0.1uF {Lib=C}
   (    1 /Inputs/MAT-Sensor )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B9348 $noname  C30 1uF {Lib=C}
-  (    1 /CPU/MAT-Signal )
-  (    2 /Power_Supplies/Ground )
+  (    1 /Inputs/MAT-CPU-Signal )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B8F55 $noname  R30 1k {Lib=R}
-  (    1 N-000206 )
-  (    2 /Power_Supplies/Ground )
+  (    1 N-000207 )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B8F4F $noname  R29 3.9k {Lib=R}
   (    1 /Inputs/BRV-12v )
-  (    2 N-000206 )
+  (    2 N-000207 )
  )
  ( /4F0BB08D/4F0B8E51 $noname  C23 0.01uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F0B8E4C $noname  C21 0.33uF {Lib=C}
-  (    1 /Power_Supplies/Ground )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 GND )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0BB08D/4F0B8E3C $noname  C20 0.22uF {Lib=C}
-  (    1 /Inputs/MAP-CPU-Signal )
-  (    2 /Power_Supplies/Ground )
+  (    1 /CPU/MAP-Signal )
+  (    2 GND )
  )
  ( /4F0BB08D/4F0B8E0F $noname  R13 1k {Lib=R}
-  (    1 N-000193 )
-  (    2 /Inputs/MAP-CPU-Signal )
+  (    1 N-000194 )
+  (    2 /CPU/MAP-Signal )
  )
  ( /4F0BB08D/4F0B8DF0 $noname  U6 MPX4100AP {Lib=MPX4100A}
-  (    1 N-000193 )
-  (    2 /Power_Supplies/Ground )
-  (    3 /Inputs/TPS-5vdc )
+  (    1 N-000194 )
+  (    2 GND )
+  (    3 /Inputs/5vdc-analog )
   (    4 ? )
   (    5 ? )
   (    6 ? )
  )
  ( /4F0BB08D/4F0B8AB0 $noname  R14 1k {Lib=R}
-  (    1 N-000198 )
+  (    1 N-000199 )
   (    2 /Inputs/Ignition-Advance-Signal )
  )
  ( /4F0BB08D/4F0B8AA6 $noname  R15 470 {Lib=R}
-  (    1 /Inputs/Ignition-Advance )
+  (    1 /Inputs/IGN-Advance )
   (    2 N-000191 )
  )
  ( /4F0BB08D/4F0B8A6D $noname  U5 74LS86 {Lib=74LS86_FREEEMS}
-  (    1 /Inputs/TPS-5vdc )
-  (    2 /Inputs/TPS-5vdc )
+  (    1 /Inputs/5vdc-analog )
+  (    2 /Inputs/5vdc-analog )
   (    3 ? )
   (    4 /Inputs/DIS-Bypass-Polarity )
-  (    5 N-000211 )
+  (    5 N-000212 )
   (    6 N-000186 )
-  (    7 /Power_Supplies/Ground )
+  (    7 GND )
   (    8 N-000191 )
-  (    9 N-000198 )
+  (    9 N-000199 )
   (   10 /Inputs/IGN-Advance-Polarity )
   (   11 ? )
-  (   12 /Inputs/TPS-5vdc )
-  (   13 /Inputs/TPS-5vdc )
-  (   14 /Inputs/TPS-5vdc )
+  (   12 /Inputs/5vdc-analog )
+  (   13 /Inputs/5vdc-analog )
+  (   14 /Inputs/5vdc-analog )
  )
  ( /4F0D82A1/4F21BF58 $noname  R76 100k {Lib=R}
   (    1 /Outputs/Accessory-Relay-Drive-IN )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D82A1/4F21BF57 $noname  Q11 VNN7NV0413TR {Lib=MOSFET_N}
   (    D /Outputs/Accessory_Relay )
-  (    G N-000242 )
+  (    G N-000243 )
   (    S /Outputs/Output-Ground )
  )
  ( /4F0D82A1/4F21BF56 $noname  D42 1N4148 {Lib=DIODE}
-  (    1 N-000243 )
+  (    1 N-000244 )
   (    2 /Outputs/Accessory_Relay )
  )
  ( /4F0D82A1/4F21BF55 $noname  D41 LED {Lib=LED}
-  (    1 N-000244 )
-  (    2 N-000243 )
+  (    1 N-000245 )
+  (    2 N-000244 )
  )
  ( /4F0D82A1/4F21BF54 $noname  R75 2.4k {Lib=R}
-  (    1 N-000244 )
+  (    1 N-000245 )
   (    2 /Outputs/12vdc-switched-acc-relay )
  )
  ( /4F0D82A1/4F21BF53 $noname  R77 1k {Lib=R}
-  (    1 N-000242 )
+  (    1 N-000243 )
   (    2 /Outputs/Accessory-Relay-Drive-IN )
  )
  ( /4F0D82A1/4F20C919 $noname  R74 1k {Lib=R}
-  (    1 N-000245 )
+  (    1 N-000246 )
   (    2 /Outputs/Fan-Relay-Drive-IN )
  )
  ( /4F0D82A1/4F20C918 $noname  R72 2.4k {Lib=R}
-  (    1 N-000237 )
+  (    1 N-000238 )
   (    2 /Outputs/12vdc-switched-fan-relay )
  )
  ( /4F0D82A1/4F20C917 $noname  D39 LED {Lib=LED}
-  (    1 N-000237 )
-  (    2 N-000241 )
+  (    1 N-000238 )
+  (    2 N-000242 )
  )
  ( /4F0D82A1/4F20C916 $noname  D40 1N4148 {Lib=DIODE}
-  (    1 N-000241 )
+  (    1 N-000242 )
   (    2 /Outputs/Fan_Relay )
  )
  ( /4F0D82A1/4F20C915 $noname  Q10 VNN7NV0413TR {Lib=MOSFET_N}
   (    D /Outputs/Fan_Relay )
-  (    G N-000245 )
+  (    G N-000246 )
   (    S /Outputs/Output-Ground )
  )
  ( /4F0D82A1/4F20C914 $noname  R73 100k {Lib=R}
   (    1 /Outputs/Fan-Relay-Drive-IN )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D82A1/4F1AF0F6 $noname  R63 100k {Lib=R}
-  (    1 /CPU/Fuel-Pump-Drive )
-  (    2 /Power_Supplies/Ground )
+  (    1 /Outputs/Fuel-Relay-Drive-IN )
+  (    2 GND )
  )
  ( /4F0D82A1/4F19BBF5 $noname  Q9 VNN7NV0413TR {Lib=MOSFET_N}
   (    D /Outputs/Fuel_Pump_Relay )
-  (    G N-000238 )
+  (    G N-000239 )
   (    S /Outputs/Output-Ground )
  )
  ( /4F0D82A1/4F1784DB $noname  D31 1N4148 {Lib=DIODE}
-  (    1 N-000240 )
+  (    1 N-000241 )
   (    2 /Outputs/Fuel_Pump_Relay )
  )
  ( /4F0D82A1/4F1384E1 $noname  D30 LED {Lib=LED}
-  (    1 N-000239 )
-  (    2 N-000240 )
+  (    1 N-000240 )
+  (    2 N-000241 )
  )
  ( /4F0D82A1/4F1384D7 $noname  R53 2.4k {Lib=R}
-  (    1 N-000239 )
+  (    1 N-000240 )
   (    2 /Outputs/12vdc-switched-fuel-relay )
  )
  ( /4F0D82A1/4F0744B6 $noname  R54 1k {Lib=R}
-  (    1 N-000238 )
-  (    2 /CPU/Fuel-Pump-Drive )
+  (    1 N-000239 )
+  (    2 /Outputs/Fuel-Relay-Drive-IN )
  )
  ( /4F0D0381/4F20C5E5 $noname  D38 1N4148 {Lib=DIODE}
-  (    1 N-000235 )
+  (    1 N-000236 )
   (    2 /Injectors/Injector8_Output )
  )
  ( /4F0D0381/4F20C5E4 $noname  D36 LED {Lib=LED}
-  (    1 N-000236 )
-  (    2 N-000235 )
+  (    1 N-000237 )
+  (    2 N-000236 )
  )
  ( /4F0D0381/4F20C5E3 $noname  R67 2.4k {Lib=R}
-  (    1 N-000236 )
+  (    1 N-000237 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F20C5E2 $noname  R69 100k {Lib=R}
   (    1 /Injectors/Injector8 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F20C5E1 $noname  R71 1k {Lib=R}
-  (    1 N-000232 )
+  (    1 N-000233 )
   (    2 /Injectors/Injector8 )
  )
  ( /4F0D0381/4F20C5E0 $noname  Q8 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector8_Output )
-  (    G N-000232 )
+  (    G N-000233 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F20C5D8 $noname  Q7 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector7_Output )
-  (    G N-000233 )
+  (    G N-000234 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F20C5D7 $noname  R70 1k {Lib=R}
-  (    1 N-000233 )
+  (    1 N-000234 )
   (    2 /Injectors/Injector7 )
  )
  ( /4F0D0381/4F20C5D6 $noname  R68 100k {Lib=R}
   (    1 /Injectors/Injector7 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F20C5D5 $noname  R66 2.4k {Lib=R}
-  (    1 N-000234 )
+  (    1 N-000235 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F20C5D4 $noname  D35 LED {Lib=LED}
-  (    1 N-000234 )
-  (    2 N-000226 )
+  (    1 N-000235 )
+  (    2 N-000227 )
  )
  ( /4F0D0381/4F20C5D3 $noname  D37 1N4148 {Lib=DIODE}
-  (    1 N-000226 )
+  (    1 N-000227 )
   (    2 /Injectors/Injector7_Output )
  )
  ( /4F0D0381/4F178496 $noname  D29 1N4148 {Lib=DIODE}
-  (    1 N-000220 )
+  (    1 N-000221 )
   (    2 /Injectors/Injector6_Output )
  )
  ( /4F0D0381/4F17848A $noname  D28 1N4148 {Lib=DIODE}
-  (    1 N-000225 )
+  (    1 N-000226 )
   (    2 /Injectors/Injector5_Output )
  )
  ( /4F0D0381/4F17847C $noname  D27 1N4148 {Lib=DIODE}
-  (    1 N-000224 )
+  (    1 N-000225 )
   (    2 /Injectors/Injector4_Output )
  )
  ( /4F0D0381/4F178470 $noname  D26 1N4148 {Lib=DIODE}
-  (    1 N-000223 )
+  (    1 N-000224 )
   (    2 /Injectors/Injector3_Output )
  )
  ( /4F0D0381/4F17845F $noname  D25 1N4148 {Lib=DIODE}
-  (    1 N-000222 )
+  (    1 N-000223 )
   (    2 /Injectors/Injector2_Output )
  )
  ( /4F0D0381/4F17842F $noname  D24 1N4148 {Lib=DIODE}
-  (    1 N-000221 )
+  (    1 N-000222 )
   (    2 /Injectors/Injector1_Output )
  )
  ( /4F0D0381/4F13818D $noname  D23 LED {Lib=LED}
-  (    1 N-000219 )
-  (    2 N-000220 )
+  (    1 N-000220 )
+  (    2 N-000221 )
  )
  ( /4F0D0381/4F13818C $noname  R52 2.4k {Lib=R}
-  (    1 N-000219 )
+  (    1 N-000220 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F138183 $noname  R51 2.4k {Lib=R}
-  (    1 N-000231 )
+  (    1 N-000232 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F138182 $noname  D22 LED {Lib=LED}
+  (    1 N-000232 )
+  (    2 N-000226 )
+ )
+ ( /4F0D0381/4F13817C $noname  D21 LED {Lib=LED}
   (    1 N-000231 )
   (    2 N-000225 )
  )
- ( /4F0D0381/4F13817C $noname  D21 LED {Lib=LED}
-  (    1 N-000230 )
-  (    2 N-000224 )
- )
  ( /4F0D0381/4F13817B $noname  R50 2.4k {Lib=R}
-  (    1 N-000230 )
+  (    1 N-000231 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F138176 $noname  R49 2.4k {Lib=R}
-  (    1 N-000229 )
+  (    1 N-000230 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F138175 $noname  D20 LED {Lib=LED}
+  (    1 N-000230 )
+  (    2 N-000224 )
+ )
+ ( /4F0D0381/4F13816D $noname  D19 LED {Lib=LED}
   (    1 N-000229 )
   (    2 N-000223 )
  )
- ( /4F0D0381/4F13816D $noname  D19 LED {Lib=LED}
-  (    1 N-000228 )
-  (    2 N-000222 )
- )
  ( /4F0D0381/4F13816C $noname  R48 2.4k {Lib=R}
-  (    1 N-000228 )
+  (    1 N-000229 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F1380A7 $noname  R47 2.4k {Lib=R}
-  (    1 N-000227 )
+  (    1 N-000228 )
   (    2 /Injectors/12v-sw2 )
  )
  ( /4F0D0381/4F138097 $noname  D18 LED {Lib=LED}
-  (    1 N-000227 )
-  (    2 N-000221 )
+  (    1 N-000228 )
+  (    2 N-000222 )
  )
  ( /4F0D0381/4F0D0591 $noname  R40 100k {Lib=R}
   (    1 /Injectors/Injector6 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F0D0590 $noname  R46 1k {Lib=R}
-  (    1 N-000215 )
+  (    1 N-000216 )
   (    2 /Injectors/Injector6 )
  )
  ( /4F0D0381/4F0D058F $noname  Q6 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector6_Output )
-  (    G N-000215 )
+  (    G N-000216 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F0D0586 $noname  Q5 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector5_Output )
-  (    G N-000214 )
+  (    G N-000215 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F0D0585 $noname  R45 1k {Lib=R}
-  (    1 N-000214 )
+  (    1 N-000215 )
   (    2 /Injectors/Injector5 )
  )
  ( /4F0D0381/4F0D0584 $noname  R39 100k {Lib=R}
   (    1 /Injectors/Injector5 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F0D0577 $noname  R38 100k {Lib=R}
   (    1 /Injectors/Injector4 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F0D0576 $noname  R44 1k {Lib=R}
-  (    1 N-000218 )
+  (    1 N-000219 )
   (    2 /Injectors/Injector4 )
  )
  ( /4F0D0381/4F0D0575 $noname  Q4 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector4_Output )
-  (    G N-000218 )
+  (    G N-000219 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F0D0559 $noname  R37 100k {Lib=R}
   (    1 /Injectors/Injector3 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F0D0558 $noname  R43 1k {Lib=R}
-  (    1 N-000217 )
+  (    1 N-000218 )
   (    2 /Injectors/Injector3 )
  )
  ( /4F0D0381/4F0D0557 $noname  Q3 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector3_Output )
-  (    G N-000217 )
+  (    G N-000218 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F0D0547 $noname  R36 100k {Lib=R}
   (    1 /Injectors/Injector2 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0D0381/4F0D0546 $noname  R42 1k {Lib=R}
-  (    1 N-000216 )
+  (    1 N-000217 )
   (    2 /Injectors/Injector2 )
  )
  ( /4F0D0381/4F0D0545 $noname  Q2 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector2_Output )
-  (    G N-000216 )
+  (    G N-000217 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F062E00 $noname  Q1 VND14NV04 {Lib=MOSFET_N}
   (    D /Injectors/Injector1_Output )
-  (    G N-000213 )
+  (    G N-000214 )
   (    S /Injectors/Injector-Ground )
  )
  ( /4F0D0381/4F062C55 $noname  R41 1k {Lib=R}
-  (    1 N-000213 )
+  (    1 N-000214 )
   (    2 /Injectors/Injector1 )
  )
  ( /4F0D0381/4F062C4D $noname  R35 100k {Lib=R}
   (    1 /Injectors/Injector1 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F401512 $noname  JP10 JUMPER {Lib=JUMPER}
   (    1 N-000183 )
@@ -1122,57 +1122,57 @@
  )
  ( /4F0A4778/4F4014CF $noname  JP9 JUMPER {Lib=JUMPER}
   (    1 N-000184 )
-  (    2 /Inputs/TPS-5vdc )
+  (    2 /Inputs/5vdc-analog )
  )
  ( /4F0A4778/4F24F92A $noname  MOV1 ERZ-V14D220 {Lib=VR}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F179910 $noname  D2 1N5919BG {Lib=ZENER}
-  (    1 /Power_Supplies/Ground )
+  (    1 GND )
   (    2 N-000184 )
  )
  ( /4F0A4778/4F0A52BC $noname  C13 10uF {Lib=CP1}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A52BB $noname  C15 0.1uF {Lib=C}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A52BA $noname  U3 LM2937EM-5.0 {Lib=LM2937EM-5.0}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
   (    3 N-000183 )
  )
  ( /4F0A4778/4F0A52B9 $noname  C17 0.1uF {Lib=C}
   (    1 N-000183 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A52B7 $noname  C19 47uF {Lib=CP1}
   (    1 N-000183 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A51B7 $noname  C18 47uF {Lib=CP1}
   (    1 N-000184 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A519C $noname  C16 0.1uF {Lib=C}
   (    1 N-000184 )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A5180 $noname  U2 LM2937EM-5.0 {Lib=LM2937EM-5.0}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
   (    3 N-000184 )
  )
  ( /4F0A4778/4F0A5164 $noname  C14 0.1uF {Lib=C}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
  ( /4F0A4778/4F0A514B $noname  C12 10uF {Lib=CP1}
   (    1 /Power_Supplies/12v-switch )
-  (    2 /Power_Supplies/Ground )
+  (    2 GND )
  )
 )
 *
@@ -2130,76 +2130,141 @@ Net 1 "/CPU/Cam-Position" "Cam-Position"
 Net 2 "/Inputs/BRV-12v" "BRV-12v"
  P4 1
  R29 1
-Net 3 "/Inputs/Ignition-Advance" "Ignition-Advance"
- R15 1
+Net 3 "/Inputs/IGN-Advance" "IGN-Advance"
  P19 1
+ R15 1
 Net 4 "/Inputs/IGN-Advance-Signal" "IGN-Advance-Signal"
  JP8 1
  U1 11
-Net 5 "/CPU/MAT-Signal" "MAT-Signal"
+Net 5 "/Inputs/MAT-CPU-Signal" "MAT-CPU-Signal"
+ R26 1
+ C30 1
  D9 2
  D8 1
- C30 1
  U1 81
- R26 1
 Net 6 "/Inputs/MAT-Sensor" "MAT-Sensor"
- P7 1
- C28 1
- R26 2
  R24 2
+ C28 1
+ P7 1
+ R26 2
 Net 7 "/Inputs/TPS-Sensor" "TPS-Sensor"
- R34 2
  P10 1
+ R34 2
  C35 1
 Net 8 "/CPU/TPS-Signal" "TPS-Signal"
- D15 2
  D14 1
+ D15 2
  U1 71
- R34 1
  C37 1
+ R34 1
 Net 9 "/Inputs/IAT-Sensor" "IAT-Sensor"
- C29 1
- R27 2
  R25 2
+ R27 2
+ C29 1
  P6 1
-Net 10 "/CPU/IAT-Signal" "IAT-Signal"
- U1 67
+Net 10 "/Inputs/IAT-CPU-Signal" "IAT-CPU-Signal"
  JP5 2
+ U1 67
 Net 11 "/CPU/O2-Signal" "O2-Signal"
- R33 1
  U1 73
- D17 2
  D16 1
+ R33 1
+ D17 2
  C38 1
 Net 12 "/Inputs/O2-Sensor" "O2-Sensor"
- R33 2
  P12 1
  C34 1
+ R33 2
 Net 13 "/Inputs/Coolant-CPU-Signal" "Coolant-CPU-Signal"
+ U1 69
  C36 1
  R32 1
  D12 1
  D13 2
- U1 69
 Net 14 "/Inputs/Coolant-Sensor" "Coolant-Sensor"
+ P8 1
+ R31 2
  R32 2
  C33 1
- R31 2
- P8 1
-Net 15 "/Power Supplies/Ground" "Ground"
+Net 15 "GND" "GND"
+ U1 106
+ C20 2
  R30 2
  C23 1
+ C21 1
+ C38 2
  C26 1
- U1 40
- U4 1
  R2 2
- C18 2
- C16 2
- U2 2
- C14 2
+ U6 2
+ JP2 3
+ JP1 3
  C28 2
  C30 2
+ C10 1
+ C31 2
+ C29 2
+ U1 40
+ C35 2
+ C2 2
+ C8 1
+ U4 8
+ U4 1
+ C4 2
+ U4 6
+ U4 3
+ C3 1
+ C37 2
+ C11 1
+ C43 1
+ C36 2
+ C33 2
+ P27 2
+ R3 2
+ C5 1
+ C48 2
+ C44 1
+ Load1 1
+ C1 1
+ C47 2
  D2 1
+ C15 2
+ C13 2
+ MOV1 2
+ C12 2
+ C14 2
+ U2 2
+ C16 2
+ C18 2
+ C19 2
+ C17 2
+ U3 2
+ P45 1
+ P44 1
+ P43 1
+ R38 2
+ R39 2
+ R35 2
+ R63 2
+ R73 2
+ R76 2
+ P3 1
+ U8 5
+ R37 2
+ R36 2
+ R69 2
+ R68 2
+ P11 1
+ P13 1
+ R40 2
+ P5 1
+ U4 13
+ C22 2
+ D13 1
+ U1 48
+ D11 1
+ D17 1
+ U1 14
+ U5 7
  C42 1
  C6 2
  C34 2
@@ -2207,155 +2272,88 @@ Net 15 "/Power Supplies/Ground" "Ground"
  U1 86
  U1 66
  D9 1
- C12 2
  C27 1
- U4 3
- U4 6
- U4 8
- MOV1 2
- C43 1
- U1 106
- JP2 3
- JP1 3
- C37 2
- C4 2
- C2 2
- C35 2
- P27 2
- C33 2
- C36 2
- C38 2
- C21 1
- C20 2
- U6 2
- C11 1
- C13 2
- C15 2
- R3 2
- C10 1
- C31 2
- U3 2
- C29 2
- C17 2
- C19 2
- C8 1
- C3 1
- Load1 1
- C1 1
- C5 1
- C44 1
- R63 2
- R73 2
- R76 2
- P3 1
- U8 5
- P5 1
- R40 2
- P13 1
- P11 1
- R68 2
- R69 2
- R36 2
- R37 2
- R38 2
- R39 2
- C48 2
- R35 2
- U1 14
- C47 2
- U5 7
  C32 2
  U1 85
  D7 1
  U4 11
  U1 45
- U4 13
- C22 2
- D13 1
- U1 48
- D11 1
- D17 1
- P43 1
- P44 1
- P45 1
 Net 16 "/Inputs/Crank-IN-" "Crank-IN-"
- R23 2
  R19 2
  P15 1
+ R23 2
 Net 17 "/Injectors/12v-sw2" "12v-sw2"
- P2 1
+ R52 2
  R47 2
+ R48 2
+ R49 2
+ R50 2
  R51 2
  R66 2
- R50 2
  R67 2
- R48 2
- R52 2
- R49 2
+ P2 1
 Net 19 "/Inputs/DIS-Bypass-OUT" "DIS-Bypass-OUT"
  R65 2
  P18 1
 Net 20 "/CPU/DIS-Bypass-PT" "DIS-Bypass-PT"
- U1 12
- R64 2
- JP7 2
  JP7 1
-Net 21 "/Inputs/TPS-5vdc" "TPS-5vdc"
- U5 14
- U5 13
- U5 12
- U5 2
- D4 1
- D5 1
- JP1 1
- JP2 1
- JP9 2
- D16 2
- D10 2
+ U1 12
+Net 21 "/Inputs/5vdc-analog" "5vdc-analog"
  D12 2
  U4 14
- D6 2
- D8 2
- D14 2
- R22 1
- R21 2
- R12 2
- C42 2
+ U5 1
  C43 2
+ D4 1
+ D5 1
+ C42 2
+ R12 2
+ R21 2
+ R22 1
  R11 1
  C26 2
+ JP1 1
+ D14 2
  C23 2
- U5 1
- U6 3
- C21 2
- R31 1
- R24 1
+ D8 2
+ D6 2
+ JP9 2
  R25 1
- P9 1
- U1 84
+ U5 14
+ U5 13
+ JP2 1
+ U5 12
+ U5 2
+ D16 2
+ C21 2
+ D10 2
+ U6 3
+ R24 1
+ R31 1
  C44 2
+ U1 84
+ P9 1
 Net 22 "/Inputs/Crank-IN+" "Crank-IN+"
- P14 1
- R23 1
  R22 2
  R18 2
+ R23 1
+ P14 1
 Net 23 "/Inputs/Cam-IN+" "Cam-IN+"
- P16 1
- R20 2
  R21 1
  R17 2
+ R20 2
+ P16 1
 Net 24 "/Inputs/Cam-IN-" "Cam-IN-"
+ P17 1
  R20 1
  R16 2
- P17 1
-Net 25 "/Inputs/Crank-OUT" "Crank-OUT"
- U1 9
+Net 25 "/CPU/Tach-Signal" "Tach-Signal"
  R80 2
+ U1 9
 Net 34 "/Outputs/Output-Ground" "Output-Ground"
+ Q11 S
+ P31 1
  Q10 S
  Q9 S
- P31 1
- Q11 S
 Net 35 "/Outputs/12vdc-switched-fuel-relay" "12vdc-switched-fuel-relay"
  R53 2
  P32 1
@@ -2363,8 +2361,8 @@ Net 36 "/CPU/Injector7-PB" "Injector7-PB"
  U1 30
  P33 7
 Net 37 "/CPU/Injector8-PB" "Injector8-PB"
- U1 31
  P33 8
+ U1 31
 Net 38 "/CPU/Injector4-PT" "Injector4-PT"
  U1 18
  P20 4
@@ -2372,41 +2370,41 @@ Net 39 "/CPU/Injector1-PT" "Injector1-PT"
  P20 1
  U1 15
 Net 58 "/CPU/5vdc-cpu" "5vdc-cpu"
+ U1 97
+ C47 1
+ C3 2
+ C4 1
+ C2 1
  P27 6
  R4 2
  R5 2
+ R60 1
+ R61 1
+ U1 107
  R1 2
- C2 1
- C4 1
- C3 2
+ C48 1
  U1 41
  D1 1
  R8 2
- U1 97
  U1 83
- C47 1
- U1 107
  JP10 2
- C48 1
- R61 1
- R60 1
 Net 59 "/Power Supplies/12v-switch" "12v-switch"
+ U3 1
+ C15 1
  C13 1
+ P1 1
+ MOV1 1
  C12 1
  C14 1
  U2 1
- P1 1
- C15 1
- U3 1
- MOV1 1
 Net 60 "/Injectors/Injector5_Output" "Injector5_Output"
+ D28 2
  Q5 D
  P26 5
- D28 2
 Net 61 "/Injectors/Injector6_Output" "Injector6_Output"
- Q6 D
- D29 2
  P26 6
+ D29 2
+ Q6 D
 Net 62 "/Outputs/12vdc-switched-acc-relay" "12vdc-switched-acc-relay"
  P38 1
  R75 2
@@ -2415,102 +2413,102 @@ Net 63 "/Outputs/Accessory_Relay" "Accessory_Relay"
  Q11 D
  D42 2
 Net 64 "/Outputs/Accessory-Relay-Drive-IN" "Accessory-Relay-Drive-IN"
- R77 2
  R76 1
+ R77 2
  P40 1
 Net 65 "/Outputs/12vdc-switched-fan-relay" "12vdc-switched-fan-relay"
  P36 1
  R72 2
 Net 66 "/Outputs/Fan-Relay-Drive-IN" "Fan-Relay-Drive-IN"
+ R73 1
  R74 2
  P39 1
- R73 1
 Net 67 "/Outputs/Fan_Relay" "Fan_Relay"
  D40 2
- Q10 D
  P35 1
+ Q10 D
 Net 68 "/Outputs/Fuel_Pump_Relay" "Fuel_Pump_Relay"
  Q9 D
  D31 2
  P25 1
 Net 69 "/Injectors/Injector8" "Injector8"
- R69 1
- R71 2
  P34 8
+ R71 2
+ R69 1
 Net 70 "/Injectors/Injector7_Output" "Injector7_Output"
+ D37 2
  P26 7
  Q7 D
- D37 2
 Net 71 "/Injectors/Injector8_Output" "Injector8_Output"
  Q8 D
- D38 2
  P26 8
+ D38 2
 Net 72 "/Injectors/Injector4" "Injector4"
- R44 2
- R38 1
  P34 4
  P21 2
+ R44 2
+ R38 1
 Net 73 "/Injectors/Injector5" "Injector5"
- P21 3
- R45 2
  R39 1
+ R45 2
+ P21 3
  P34 5
 Net 74 "/Injectors/Injector6" "Injector6"
+ P34 6
  R46 2
  R40 1
- P34 6
 Net 75 "/Injectors/Injector1" "Injector1"
- R41 2
  R35 1
+ R41 2
  P34 1
 Net 76 "/Injectors/Injector1_Output" "Injector1_Output"
- P26 1
  D24 2
  Q1 D
+ P26 1
 Net 77 "/Injectors/Injector2_Output" "Injector2_Output"
- Q2 D
  D25 2
  P26 2
+ Q2 D
 Net 78 "/Injectors/Injector2" "Injector2"
- R36 1
- P34 2
  R42 2
+ P34 2
  P21 1
+ R36 1
 Net 79 "/Injectors/Injector3" "Injector3"
- P34 3
- R43 2
  R37 1
+ R43 2
+ P34 3
 Net 80 "/Injectors/Injector3_Output" "Injector3_Output"
  Q3 D
  D26 2
  P26 3
 Net 81 "/Injectors/Injector4_Output" "Injector4_Output"
- P26 4
  Q4 D
+ P26 4
  D27 2
 Net 82 "/CPU/MAF-Signal" "MAF-Signal"
- U1 72
  P41 1
+ U1 72
 Net 83 "/Injectors/Injector-Ground" "Injector-Ground"
- Q5 S
- Q6 S
- P42 1
- Q7 S
- Q8 S
  Q4 S
- Q1 S
- P22 1
- Q3 S
+ Q6 S
+ Q5 S
  Q2 S
+ Q1 S
+ P42 1
+ Q8 S
+ Q7 S
+ Q3 S
+ P22 1
 Net 84 "/Injectors/Injector7" "Injector7"
- R70 2
  P34 7
+ R70 2
  R68 1
  P21 4
-Net 94 "/CPU/Fuel-Pump-Drive" "Fuel-Pump-Drive"
- R63 1
- R54 2
+Net 94 "/Outputs/Fuel-Relay-Drive-IN" "Fuel-Relay-Drive-IN"
  U1 64
+ R54 2
+ R63 1
 Net 95 "/CPU/Injector2-PT" "Injector2-PT"
  P20 2
  U1 16
@@ -2518,8 +2516,8 @@ Net 96 "/CPU/Injector3-PT" "Injector3-PT"
  P20 3
  U1 17
 Net 97 "/CPU/Injector3-PB" "Injector3-PB"
- P33 3
  U1 26
+ P33 3
 Net 98 "/CPU/Injector4-PB" "Injector4-PB"
  U1 27
  P33 4
@@ -2527,24 +2525,24 @@ Net 99 "/CPU/Injector5-PB" "Injector5-PB"
  U1 28
  P33 5
 Net 100 "/CPU/Injector6-PB" "Injector6-PB"
- P33 6
  U1 29
-Net 101 "/Inputs/MAP-CPU-Signal" "MAP-CPU-Signal"
+ P33 6
+Net 101 "/CPU/MAP-Signal" "MAP-Signal"
+ U1 75
  C20 1
  R13 2
- U1 75
-Net 102 "/Inputs/BRV" "BRV"
- C27 2
+Net 102 "/CPU/BRV-Signal" "BRV-Signal"
+ D6 1
+ D7 2
  U1 79
  R28 1
- D7 2
- D6 1
+ C27 2
 Net 103 "/CPU/Injector2-PB" "Injector2-PB"
- U1 25
  P33 2
+ U1 25
 Net 104 "/CPU/Injector1-PB" "Injector1-PB"
- P33 1
  U1 24
+ P33 1
 Net 105 "" ""
  U1 63
  R78 1
@@ -2553,26 +2551,26 @@ Net 108 "" ""
  R6 2
  C9 1
 Net 114 "" ""
- C7 2
  C9 2
- U1 43
+ C7 2
  C8 2
+ U1 43
 Net 116 "/CPU/BKGD" "BKGD"
  R4 1
- P27 1
  U1 23
+ P27 1
 Net 117 "" ""
  C1 2
  U1 13
 Net 122 "/CPU/RESET" "RESET"
- C6 1
- P27 4
- R5 1
  U1 42
+ P27 4
+ C6 1
+ R5 1
 Net 133 "" ""
- X1 2
  U1 47
  C11 2
+ X1 2
 Net 134 "" ""
  U1 37
  R2 1
@@ -2580,18 +2578,18 @@ Net 136 "" ""
  U1 65
  C5 2
 Net 138 "" ""
- R1 1
  U1 36
+ R1 1
 Net 139 "" ""
  C10 2
- X1 1
  U1 46
+ X1 1
 Net 143 "" ""
- D1 2
  R7 2
+ D1 2
 Net 152 "" ""
- U1 1
  PP1 4
+ U1 1
 Net 153 "" ""
  U1 2
  PP1 3
@@ -2606,222 +2604,225 @@ Net 160 "" ""
  U1 38
 Net 161 "/CPU/ft232/TX" "TX"
  U1 90
- U9 3
  P49 1
+ U9 3
 Net 171 "" ""
- R6 1
  C7 1
+ R6 1
 Net 173 "" ""
- U1 109
  PP2 4
+ U1 109
 Net 177 "/CPU/RX" "RX"
+ U1 89
  R60 2
  U8 6
  P48 1
- U1 89
 Net 179 "" ""
  PP2 3
  U1 110
 Net 180 "" ""
- PP2 2
  U1 111
+ PP2 2
 Net 181 "" ""
- PP2 1
  U1 112
+ PP2 1
 Net 182 "" ""
+ R78 2
  R7 1
  R8 1
- R78 2
  Load1 2
 Net 183 "" ""
- U3 3
- C17 1
- C19 1
  JP10 1
+ C19 1
+ C17 1
+ U3 3
 Net 184 "" ""
- D2 2
- JP9 1
  C18 1
  C16 1
  U2 3
+ D2 2
+ JP9 1
 Net 185 "/Inputs/Ignition-Advance-Signal" "Ignition-Advance-Signal"
- R14 2
  JP8 2
+ R14 2
 Net 186 "" ""
- R65 1
  U5 6
+ R65 1
 Net 187 "" ""
- D5 2
  R10 2
+ D5 2
 Net 189 "" ""
- D4 2
  R9 1
+ D4 2
 Net 191 "" ""
- R15 2
  U5 8
-Net 193 "" ""
+ R15 2
+Net 192 "/Inputs/DIS-Bypass-CPU-Signal" "DIS-Bypass-CPU-Signal"
+ JP7 2
+ R64 2
+Net 194 "" ""
  R13 1
- C22 1
  U6 1
-Net 198 "" ""
+ C22 1
+Net 199 "" ""
  U5 9
  R14 1
-Net 202 "" ""
- U4 4
- R80 1
- R11 2
- R9 2
 Net 203 "" ""
+ R80 1
+ U4 4
+ R9 2
+ R11 2
+Net 204 "" ""
  R16 1
  U4 10
  C25 1
-Net 204 "" ""
+Net 205 "" ""
  R10 1
+ R12 1
  R81 1
  U4 5
- R12 1
-Net 205 "" ""
- R17 1
- U4 9
- C25 2
 Net 206 "" ""
- R30 1
- R29 2
- R28 2
- C32 1
+ R17 1
+ C25 2
+ U4 9
 Net 207 "" ""
+ C32 1
+ R28 2
+ R29 2
+ R30 1
+Net 208 "" ""
+ C24 2
  U4 15
  R19 1
- C24 2
-Net 208 "" ""
- U4 16
- C24 1
- R18 1
 Net 209 "" ""
- R27 1
- JP5 1
- C31 1
+ R18 1
+ C24 1
+ U4 16
+Net 210 "" ""
  D11 2
  D10 1
-Net 210 "/Inputs/DIS-Bypass-Polarity" "DIS-Bypass-Polarity"
+ JP5 1
+ C31 1
+ R27 1
+Net 211 "/Inputs/DIS-Bypass-Polarity" "DIS-Bypass-Polarity"
  U5 4
  JP2 2
-Net 211 "" ""
+Net 212 "" ""
  R64 1
  U5 5
-Net 212 "/Inputs/IGN-Advance-Polarity" "IGN-Advance-Polarity"
- JP1 2
+Net 213 "/Inputs/IGN-Advance-Polarity" "IGN-Advance-Polarity"
  U5 10
-Net 213 "" ""
- R41 1
- Q1 G
+ JP1 2
 Net 214 "" ""
+ Q1 G
+ R41 1
+Net 215 "" ""
  R45 1
  Q5 G
-Net 215 "" ""
- R46 1
- Q6 G
 Net 216 "" ""
- Q2 G
- R42 1
+ Q6 G
+ R46 1
 Net 217 "" ""
+ R42 1
+ Q2 G
+Net 218 "" ""
  R43 1
  Q3 G
-Net 218 "" ""
- R44 1
- Q4 G
 Net 219 "" ""
- D23 1
- R52 1
+ Q4 G
+ R44 1
 Net 220 "" ""
+ R52 1
+ D23 1
+Net 221 "" ""
  D29 1
  D23 2
-Net 221 "" ""
+Net 222 "" ""
  D18 2
  D24 1
-Net 222 "" ""
- D25 1
- D19 2
 Net 223 "" ""
- D20 2
- D26 1
+ D19 2
+ D25 1
 Net 224 "" ""
- D21 2
- D27 1
+ D26 1
+ D20 2
 Net 225 "" ""
- D22 2
- D28 1
+ D27 1
+ D21 2
 Net 226 "" ""
- D35 2
- D37 1
+ D28 1
+ D22 2
 Net 227 "" ""
- D18 1
- R47 1
+ D37 1
+ D35 2
 Net 228 "" ""
+ R47 1
+ D18 1
+Net 229 "" ""
  D19 1
  R48 1
-Net 229 "" ""
+Net 230 "" ""
  D20 1
  R49 1
-Net 230 "" ""
- R50 1
- D21 1
 Net 231 "" ""
- R51 1
- D22 1
+ D21 1
+ R50 1
 Net 232 "" ""
+ D22 1
+ R51 1
+Net 233 "" ""
  R71 1
  Q8 G
-Net 233 "" ""
- Q7 G
- R70 1
 Net 234 "" ""
- D35 1
- R66 1
+ R70 1
+ Q7 G
 Net 235 "" ""
- D38 1
- D36 2
+ R66 1
+ D35 1
 Net 236 "" ""
- D36 1
- R67 1
+ D36 2
+ D38 1
 Net 237 "" ""
+ R67 1
+ D36 1
+Net 238 "" ""
  R72 1
  D39 1
-Net 238 "" ""
+Net 239 "" ""
  Q9 G
  R54 1
-Net 239 "" ""
+Net 240 "" ""
  R53 1
  D30 1
-Net 240 "" ""
+Net 241 "" ""
  D30 2
  D31 1
-Net 241 "" ""
- D39 2
- D40 1
 Net 242 "" ""
- R77 1
- Q11 G
+ D40 1
+ D39 2
 Net 243 "" ""
- D42 1
- D41 2
+ Q11 G
+ R77 1
 Net 244 "" ""
+ D41 2
+ D42 1
+Net 245 "" ""
  D41 1
  R75 1
-Net 245 "" ""
+Net 246 "" ""
  Q10 G
  R74 1
-Net 246 "" ""
- D33 2
- U7 23
 Net 247 "" ""
+ U7 23
+ D33 2
+Net 248 "" ""
  D34 2
  U7 22
-Net 248 "" ""
+Net 249 "" ""
  U8 3
  P46 1
  U7 1
-Net 250 "/CPU/ft232/5v-USB" "5v-USB"
+Net 251 "/CPU/ft232/5v-USB" "5v-USB"
  R57 1
  R58 1
  R79 2
@@ -2832,10 +2833,10 @@ Net 250 "/CPU/ft232/5v-USB" "5v-USB"
  R56 1
  U7 20
  U7 4
-Net 251 "" ""
+Net 252 "" ""
  R55 1
  U7 19
-Net 252 "/CPU/ft232/USB-GND" "USB-GND"
+Net 253 "/CPU/ft232/USB-GND" "USB-GND"
  C40 2
  C41 2
  U7 18
@@ -2847,36 +2848,36 @@ Net 252 "/CPU/ft232/USB-GND" "USB-GND"
  J1 4
  C39 2
  J2 5
-Net 253 "/CPU/ft232/D+" "D+"
+Net 254 "/CPU/ft232/D+" "D+"
  J1 3
  J2 3
  U7 15
-Net 255 "/CPU/ft232/Vbus" "Vbus"
+Net 256 "/CPU/ft232/Vbus" "Vbus"
  J1 1
  J2 1
  R79 1
-Net 256 "/CPU/ft232/D-" "D-"
+Net 257 "/CPU/ft232/D-" "D-"
  J1 2
  J2 2
  U7 16
-Net 257 "" ""
+Net 258 "" ""
  R61 2
  U9 2
-Net 258 "" ""
+Net 259 "" ""
  R56 2
  U8 2
-Net 266 "" ""
+Net 267 "" ""
  R59 2
  P47 1
  U9 6
  U7 5
-Net 278 "" ""
+Net 279 "" ""
  C41 1
  U7 17
-Net 283 "" ""
+Net 284 "" ""
  D34 1
  R58 2
-Net 284 "" ""
+Net 285 "" ""
  D33 1
  R57 2
 }
