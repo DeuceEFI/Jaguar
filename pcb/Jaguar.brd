@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 05 Jul 2012 07:29:22 AM EDT
+PCBNEW-BOARD Version 1 date Thu 05 Jul 2012 07:30:51 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -13374,7 +13374,7 @@ Po 0 38990 21960 41450 19500 150
 De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "git - 61f0629e7d052d37d8f7bec4d48e303a9adba4e9"
+Te "git - e8748bd2bbbf502cfe71dd2635c6ee45de3829fd"
 Po 59500 27790 150 250 25 0
 De 21 1 0 Normal
 $EndTEXTPCB
