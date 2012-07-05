@@ -1,16 +1,10 @@
 # To Do List
 
-JAG 07/05/2012 0734 EST (GMT-0500)
+JAG 07/05/2012 1527 EST (GMT-0500)
 
 Things left to do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 
-Add instructions to use High Temperature Silicone or something similar to brace the upright components
-
-Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
-
-Update documentation to reflect these changes
-
-Update the Jaguar Assembly Manual with photos of the Serial #1 build.
+Update documentation to reflect these changes for the A4 PCB
 
 ----------
 Items Completed:
@@ -45,10 +39,14 @@ Label GND/RESET or something near BDM (possibly), might have to shift BDM over a
 C10 and C11 (crystal load capacitors) need to be changed to 20pF to match the manufacturer specifications. - DONE 05/26/2012
 Update BOM to use S912XDP512MAL MCU not the VAL variant as listed. (I used the MAL on all my prototypes). DONE 07/02/2012
 Add git hash to PCB design file for tracking - DONE 07/04/2012
+Update the Jaguar Assembly Manual with photos of the Serial #1 build. - DONE 07/05/2012
+Add instructions to use High Temperature Silicone or something similar to brace the upright components - DONE 07/05/2012
+
  
 ----------
 Jaguar Wish List Items:
 
+Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
 Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
 Bluetooth TTL serial header in addition to the USB interface.
 Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
