@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Jul 2012 10:57:35 PM EDT
+EESchema Schematic File Version 2  date Thu 05 Jul 2012 11:32:25 AM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 4700 4750 0    40   Input ~ 0
+12vdc-switched-outputs
+Text HLabel 4700 2950 0    40   Input ~ 0
+12vdc-switched-outputs
 $Comp
 L GND #PWR029
 U 1 1 4F2F3E3F
@@ -196,8 +200,6 @@ Text HLabel 4700 5150 0    40   Input ~ 0
 Accessory-Relay-Drive-IN
 Text HLabel 6650 4950 2    40   Output ~ 0
 Accessory_Relay
-Text HLabel 4700 4750 0    40   Input ~ 0
-12vdc-switched-acc-relay
 $Comp
 L R R77
 U 1 1 4F21BF53
@@ -216,8 +218,6 @@ F 1 "1k" V 5700 3350 40  0000 C CNN
 	1    5700 3350
 	0    1    1    0   
 $EndComp
-Text HLabel 4700 2950 0    40   Input ~ 0
-12vdc-switched-fan-relay
 Text HLabel 6650 3150 2    40   Output ~ 0
 Fan_Relay
 Text HLabel 4700 3350 0    40   Input ~ 0
@@ -325,7 +325,7 @@ Fuel-Relay-Drive-IN
 Text HLabel 6650 1350 2    40   Output ~ 0
 Fuel_Pump_Relay
 Text HLabel 4700 1150 0    40   Input ~ 0
-12vdc-switched-fuel-relay
+12vdc-switched-outputs
 $Comp
 L R R54
 U 1 1 4F0744B6

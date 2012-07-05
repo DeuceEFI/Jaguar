@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Jul 2012 10:57:35 PM EDT
+EESchema Schematic File Version 2  date Thu 05 Jul 2012 11:32:25 AM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,12 +17,155 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	9050 2200 9050 2100
+Wire Wire Line
+	9050 2100 8550 2100
+Wire Wire Line
+	8550 2100 8550 1500
+Wire Wire Line
+	8550 1500 9050 1500
+Wire Wire Line
+	9300 4400 9300 3950
+Connection ~ 9300 4250
+Connection ~ 9000 4250
+Connection ~ 9000 4150
+Connection ~ 9300 4150
+Wire Wire Line
+	9000 4150 9300 4150
+Connection ~ 9300 4050
+Wire Wire Line
+	9000 4050 9300 4050
+Wire Wire Line
+	9300 4250 9000 4250
+Wire Wire Line
+	8950 1700 8950 1600
+Wire Notes Line
+	550  2050 4200 2050
+Wire Notes Line
+	550  1050 4200 1050
+Wire Notes Line
+	5500 3400 5500 5550
+Wire Notes Line
+	6050 6250 6500 6250
+Wire Notes Line
+	6050 6050 6500 6050
+Wire Notes Line
+	5150 5950 4700 5950
+Wire Notes Line
+	5150 6150 4700 6150
+Wire Notes Line
+	5150 7450 4700 7450
+Wire Notes Line
+	5150 7250 4700 7250
+Wire Notes Line
+	5150 7050 4700 7050
+Wire Notes Line
+	5150 6850 4700 6850
+Wire Notes Line
+	5150 6650 4700 6650
+Wire Notes Line
+	5150 6450 4700 6450
+Wire Notes Line
+	6050 6350 6500 6350
+Wire Notes Line
+	6050 6550 6500 6550
+Wire Notes Line
+	6050 6750 6500 6750
+Wire Notes Line
+	6050 6950 6500 6950
+Wire Notes Line
+	6050 7150 6500 7150
+Wire Notes Line
+	6050 7350 6500 7350
+Wire Notes Line
+	6500 7550 6050 7550
+Wire Notes Line
+	6050 7600 5150 7600
+Wire Notes Line
+	6050 7600 6050 5900
+Wire Notes Line
+	4200 550  550  550 
+Wire Notes Line
+	4200 550  4200 7750
+Wire Notes Line
+	4200 7750 550  7750
+Wire Notes Line
+	550  7750 550  550 
+Connection ~ 9000 4050
+Connection ~ 9000 3950
+Wire Notes Line
+	5150 7600 5150 5900
+Wire Notes Line
+	5150 5900 6050 5900
+Wire Notes Line
+	5150 7550 4700 7550
+Wire Notes Line
+	6050 7450 6500 7450
+Wire Notes Line
+	6050 7250 6500 7250
+Wire Notes Line
+	6050 7050 6500 7050
+Wire Notes Line
+	6050 6850 6500 6850
+Wire Notes Line
+	6050 6650 6500 6650
+Wire Notes Line
+	6050 6450 6500 6450
+Wire Notes Line
+	5150 6350 4700 6350
+Wire Notes Line
+	5150 6550 4700 6550
+Wire Notes Line
+	5150 6750 4700 6750
+Wire Notes Line
+	5150 6950 4700 6950
+Wire Notes Line
+	5150 7150 4700 7150
+Wire Notes Line
+	5150 7350 4700 7350
+Wire Notes Line
+	5150 6250 4700 6250
+Wire Notes Line
+	5150 6050 4700 6050
+Wire Notes Line
+	6050 5950 6500 5950
+Wire Notes Line
+	6050 6150 6500 6150
+Wire Notes Line
+	7850 3400 4350 3400
+Wire Notes Line
+	7850 3400 7850 5550
+Wire Notes Line
+	7850 5550 4350 5550
+Wire Notes Line
+	4350 5550 4350 3400
+Wire Notes Line
+	4350 4650 5500 4650
+Wire Notes Line
+	6000 7600 6000 7650
+Wire Notes Line
+	6000 7650 6500 7650
+Wire Notes Line
+	550  2450 4200 2450
+Wire Wire Line
+	8950 1600 9050 1600
+Connection ~ 8950 1600
+Connection ~ 8950 1700
+Wire Wire Line
+	9300 3950 9000 3950
+Wire Wire Line
+	9300 4100 9350 4100
+Connection ~ 9300 4100
+Wire Wire Line
+	9000 4350 9300 4350
+Connection ~ 9300 4350
+Connection ~ 10600 1600
+Connection ~ 9350 4100
 Text GLabel 9050 3600 0    40   Input ~ 0
 Ground
 Text GLabel 5200 2400 0    40   Input ~ 0
 Ground
-Connection ~ 9350 4100
-Connection ~ 10600 1600
 Text GLabel 10600 1600 2    40   Input ~ 0
 Ground
 Text Notes 8900 4350 0    25   ~ 0
@@ -33,141 +176,6 @@ Text Notes 650  2600 0    60   ~ 0
 5vdc-cpu = VDD\n\n5vdc-analog = VCC\n\nINJ-GND and INJ-GND2 are isolated to only be used by the Injector FETs
 Text GLabel 6500 7050 2    40   Input ~ 0
 P45
-Connection ~ 9300 4350
-Wire Wire Line
-	9000 4350 9300 4350
-Connection ~ 9300 4100
-Wire Wire Line
-	9300 4100 9350 4100
-Wire Wire Line
-	9000 3950 9300 3950
-Connection ~ 8950 1700
-Connection ~ 8950 1600
-Wire Wire Line
-	9050 1600 8950 1600
-Wire Notes Line
-	550  2450 4200 2450
-Wire Notes Line
-	6500 7650 6000 7650
-Wire Notes Line
-	6000 7650 6000 7600
-Wire Notes Line
-	4350 4650 5500 4650
-Wire Notes Line
-	4350 5550 4350 3400
-Wire Notes Line
-	4350 5550 7850 5550
-Wire Notes Line
-	7850 5550 7850 3400
-Wire Notes Line
-	7850 3400 4350 3400
-Wire Notes Line
-	6050 6150 6500 6150
-Wire Notes Line
-	6050 5950 6500 5950
-Wire Notes Line
-	5150 6050 4700 6050
-Wire Notes Line
-	5150 6250 4700 6250
-Wire Notes Line
-	5150 7350 4700 7350
-Wire Notes Line
-	5150 7150 4700 7150
-Wire Notes Line
-	5150 6950 4700 6950
-Wire Notes Line
-	5150 6750 4700 6750
-Wire Notes Line
-	5150 6550 4700 6550
-Wire Notes Line
-	5150 6350 4700 6350
-Wire Notes Line
-	6050 6450 6500 6450
-Wire Notes Line
-	6050 6650 6500 6650
-Wire Notes Line
-	6050 6850 6500 6850
-Wire Notes Line
-	6050 7050 6500 7050
-Wire Notes Line
-	6050 7250 6500 7250
-Wire Notes Line
-	6050 7450 6500 7450
-Wire Notes Line
-	5150 7550 4700 7550
-Wire Notes Line
-	5150 5900 6050 5900
-Wire Notes Line
-	5150 5900 5150 7600
-Connection ~ 9000 3950
-Connection ~ 9000 4050
-Wire Notes Line
-	550  7750 550  550 
-Wire Notes Line
-	550  7750 4200 7750
-Wire Notes Line
-	4200 7750 4200 550 
-Wire Notes Line
-	4200 550  550  550 
-Wire Notes Line
-	6050 5900 6050 7600
-Wire Notes Line
-	6050 7600 5150 7600
-Wire Notes Line
-	6500 7550 6050 7550
-Wire Notes Line
-	6050 7350 6500 7350
-Wire Notes Line
-	6050 7150 6500 7150
-Wire Notes Line
-	6050 6950 6500 6950
-Wire Notes Line
-	6050 6750 6500 6750
-Wire Notes Line
-	6050 6550 6500 6550
-Wire Notes Line
-	6050 6350 6500 6350
-Wire Notes Line
-	5150 6450 4700 6450
-Wire Notes Line
-	5150 6650 4700 6650
-Wire Notes Line
-	5150 6850 4700 6850
-Wire Notes Line
-	5150 7050 4700 7050
-Wire Notes Line
-	5150 7250 4700 7250
-Wire Notes Line
-	5150 7450 4700 7450
-Wire Notes Line
-	5150 6150 4700 6150
-Wire Notes Line
-	5150 5950 4700 5950
-Wire Notes Line
-	6050 6050 6500 6050
-Wire Notes Line
-	6050 6250 6500 6250
-Wire Notes Line
-	5500 3400 5500 5550
-Wire Notes Line
-	550  1050 4200 1050
-Wire Notes Line
-	550  2050 4200 2050
-Wire Wire Line
-	8950 1600 8950 1700
-Wire Wire Line
-	9300 4250 9000 4250
-Wire Wire Line
-	9000 4050 9300 4050
-Connection ~ 9300 4050
-Wire Wire Line
-	9000 4150 9300 4150
-Connection ~ 9300 4150
-Connection ~ 9000 4150
-Connection ~ 9000 4250
-Connection ~ 9300 4250
-Wire Wire Line
-	9300 3950 9300 4400
 $Comp
 L CONN_1 P45
 U 1 1 4F2A0E57
@@ -326,15 +334,6 @@ CPU-PT5
 Text GLabel 6900 750  2    40   Output ~ 0
 CPU-PT4
 $Comp
-L CONN_1 P38
-U 1 1 4F21C18C
-P 8900 2400
-F 0 "P38" H 8980 2400 40  0000 L CNN
-F 1 "ACC-12v" H 8900 2455 30  0001 C CNN
-	1    8900 2400
-	-1   0    0    1   
-$EndComp
-$Comp
 L CONN_1 P37
 U 1 1 4F21C093
 P 10800 2750
@@ -349,15 +348,6 @@ Text Notes 5950 3500 0    40   ~ 0
 P21 Pin 1 has a trace to P34 Pin 2 on the PCB\nP21 Pin 2 has a trace to P34 Pin 4 on the PCB\nP21 Pin 3 has a trace to P34 Pin 5 on the PCB\nP21 Pin 4 has a trace to P34 Pin 7 on the PCB
 Text GLabel 7200 4150 2    40   Output ~ 0
 Injector7-IN
-$Comp
-L CONN_1 P36
-U 1 1 4F20FB3D
-P 8900 2300
-F 0 "P36" H 8980 2300 40  0000 L CNN
-F 1 "FAN-12v" H 8900 2355 30  0001 C CNN
-	1    8900 2300
-	-1   0    0    1   
-$EndComp
 $Comp
 L CONN_4 P21
 U 1 1 4F20E065
@@ -630,7 +620,7 @@ L CONN_1 P32
 U 1 1 4F1CD4E4
 P 8900 2200
 F 0 "P32" H 8980 2200 40  0000 L CNN
-F 1 "FUEL-12v" H 8900 2255 30  0001 C CNN
+F 1 "OUTPUT-12v" H 8900 2255 30  0001 C CNN
 	1    8900 2200
 	-1   0    0    1   
 $EndComp
@@ -762,15 +752,6 @@ F 1 "GND" H 8850 4005 30  0001 C CNN
 	1    8850 3950
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_1 P2
-U 1 1 4F189D1F
-P 8900 1500
-F 0 "P2" H 8980 1500 40  0000 L CNN
-F 1 "12v-SW2" H 8900 1555 30  0001 C CNN
-	1    8900 1500
-	-1   0    0    1   
-$EndComp
 Text GLabel 5200 1800 0    40   Input ~ 0
 BRV
 Text GLabel 5200 1350 0    40   Input ~ 0
@@ -836,11 +817,9 @@ F3 "Fuel_Pump_Relay" O R 10650 2450 40
 F4 "Fan_Relay" O R 10650 2600 40 
 F5 "Fan-Relay-Drive-IN" I L 9050 2650 40 
 F6 "Fuel-Relay-Drive-IN" I L 9050 2550 40 
-F7 "12vdc-switched-fan-relay" I L 9050 2300 40 
-F8 "12vdc-switched-fuel-relay" I L 9050 2200 40 
-F9 "Accessory-Relay-Drive-IN" I L 9050 2750 40 
-F10 "Accessory_Relay" O R 10650 2750 40 
-F11 "12vdc-switched-acc-relay" I L 9050 2400 40 
+F7 "Accessory-Relay-Drive-IN" I L 9050 2750 40 
+F8 "Accessory_Relay" O R 10650 2750 40 
+F9 "12vdc-switched-outputs" I L 9050 2200 40 
 $EndSheet
 $Sheet
 S 9050 650  1550 1000

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 05 Jul 2012 06:56:43 AM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 05 Jul 2012 11:32:37 AM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -687,13 +687,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F189D1F;
-Reference = P2;
-ValeurCmp = 12v-SW2;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F189D7E;
 Reference = P3;
 ValeurCmp = GND;
@@ -878,7 +871,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1CD4E4;
 Reference = P32;
-ValeurCmp = FUEL-12v;
+ValeurCmp = OUTPUT-12v;
 IdModule  = WireConnection;
 EndCmp
 
@@ -904,23 +897,9 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F20FB3D;
-Reference = P36;
-ValeurCmp = FAN-12v;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F21C093;
 Reference = P37;
 ValeurCmp = ACC-;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F21C18C;
-Reference = P38;
-ValeurCmp = ACC-12v;
 IdModule  = WireConnection;
 EndCmp
 

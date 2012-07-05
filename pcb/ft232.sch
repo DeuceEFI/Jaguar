@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Jul 2012 10:57:35 PM EDT
+EESchema Schematic File Version 2  date Thu 05 Jul 2012 11:32:25 AM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -175,7 +175,7 @@ P 8400 2400
 F 0 "U8" H 8600 2700 60  0000 C CNN
 F 1 "HCPL-061A" H 8400 2100 60  0000 C CNN
 	1    8400 2400
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Text HLabel 10350 2650 2    40   Input ~ 0
 5vdc-ft232rl
