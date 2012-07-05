@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Jul 2012 05:10:08 PM EDT
+EESchema Schematic File Version 2  date Wed 04 Jul 2012 10:57:35 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "4 jul 2012"
+Date "5 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -175,7 +175,7 @@ P 8400 2400
 F 0 "U8" H 8600 2700 60  0000 C CNN
 F 1 "HCPL-061A" H 8400 2100 60  0000 C CNN
 	1    8400 2400
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text HLabel 10350 2650 2    40   Input ~ 0
 5vdc-ft232rl
