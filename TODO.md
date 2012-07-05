@@ -26,9 +26,9 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 20. Remove the 5.6v Zener diode (D3) as it is not necessary since there is no chance of voltage feeding back from the MCU - DONE 05/26/2012
 21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1 - DONE 05/26/2012
 22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine) - DONE 05/26/2012
-23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
+23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC - DONE 07/04/2012
 24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC - DONE 07/04/2102
-25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
+25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side - DONE 07/04/2012
 26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
 28. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
