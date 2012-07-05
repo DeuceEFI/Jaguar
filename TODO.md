@@ -19,7 +19,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 13. Delete D43 and D44 as the LM2937 is already reverse protected - DONE 04/15/2012
 14. Fix J2 footprint so that the pin out connections are correct - DONE 05/13/2012
 15. Re-route power feed to MOV first, then to the input capacitors, then to the regulators - DONE 07/04/2012
-16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot
+16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot - DONE 07/04/2012
 17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side)
 18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
 19. Add more space around the BDM header - DONE 07/04/2012
@@ -27,7 +27,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 21. Add 1k resistor to each output of the MAX9926 to limit current to MCU Port T0 and T1 - DONE 05/26/2012
 22. Change 5vdc-analog to 5vdc-cpu at CEL (D1) so that the CPU supply is used to power up all the necessary MCU functions. (Analog supply should only be for inputs from the engine) - DONE 05/26/2012
 23. FTDI USB IC decouple caps are on the wrong side of the feed from R79, and also pretty far from the IC
-24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC
+24. Check MAX9926 decouple caps to make sure power feed is on the correct side and they are close to the IC - DONE 07/04/2102
 25. Check the MCU decouple caps are close to the MCU and power is feeding from the correct side
 26. Label GND/RESET or something near BDM (possibly), might have to shift BDM over a little
 27. Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
