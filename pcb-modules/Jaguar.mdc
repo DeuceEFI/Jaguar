@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Mon 02 Jul 2012 12:15:43 PM EDT
+PCBNEW-LibDoc----V1  Thu 05 Jul 2012 01:16:17 PM EDT
 #
 $MODULE 9S12XDP512
 Li 9S12XDP512
@@ -105,24 +105,6 @@ Cd Crystal, HC-49S
 Kw QUARTZ
 $EndMODULE
 #
-$MODULE led_3mm_red
-Li led_3mm_red
-Cd 3mm red led
-Kw led
-$EndMODULE
-#
-$MODULE led_3mm_green
-Li led_3mm_green
-Cd 3mm green led
-Kw led
-$EndMODULE
-#
-$MODULE led_3mm_yellow
-Li led_3mm_yellow
-Cd 3mm yellow led
-Kw led
-$EndMODULE
-#
 $MODULE MPX4100AP_h
 Li MPX4100AP_h
 Cd 50 KPA PRESSURE SENSOR
@@ -209,6 +191,24 @@ $MODULE WireConnection
 Li WireConnection
 Cd module 1 pin
 Kw DEV
+$EndMODULE
+#
+$MODULE led_3mm_green
+Li led_3mm_green
+Cd 3mm green led
+Kw led
+$EndMODULE
+#
+$MODULE led_3mm_red
+Li led_3mm_red
+Cd 3mm red led
+Kw led
+$EndMODULE
+#
+$MODULE led_3mm_yellow
+Li led_3mm_yellow
+Cd 3mm yellow led
+Kw led
 $EndMODULE
 #
 $EndLIBDOC
