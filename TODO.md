@@ -6,8 +6,6 @@ Things left to do For Revision A4 PCB based on what has been learned from Revisi
 
 7. Add instructions to use High Temperature Silicone or something similar to brace the upright components
 
-11. C23 and C42 need to be different part #'s with different lead spacing
-
 18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
 
 27. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
@@ -28,7 +26,7 @@ Items Completed:
 8. Improve the silk screen for the LEDs to show anode/cathode orientation - DONE 07/04/2012
 9. Too much copper around pads, looks like it is set to 8 per hole, 4 would be better/sufficient/good - DONE 07/04/2012
 10. Along with #9 above, revisit ground plane thermal relief rules to keep from sucking all the heat out of the pad while soldering - DONE, increased Thermal Relief Antipad Size from 0.0200" to 0.0300", Copper Width from 0.0200" to 0.0150" 05/13/2012
-
+11. C26, C42 and C43 need to be different part #'s with different lead spacing or the footprint changed back to 3mm disc - DONE 07/05/2012
 12. Move C17 label outside of U3 - DONE 05/13/2012
 13. Delete D43 and D44 as the LM2937 is already reverse protected - DONE 04/15/2012
 14. Fix J2 footprint so that the pin out connections are correct - DONE 05/13/2012
