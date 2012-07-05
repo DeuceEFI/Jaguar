@@ -1,6 +1,6 @@
 # To Do List
 
-JAG 07/04/2012 2149 EST (GMT-0500)
+JAG 07/04/2012 2254 EST (GMT-0500)
 
 Things left to do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 
@@ -8,7 +8,6 @@ Things left to do For Revision A4 PCB based on what has been learned from Revisi
 
 11. C23 and C42 need to be different part #'s with different lead spacing
 
-17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side)
 18. Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
 
 27. Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
@@ -35,6 +34,7 @@ Items Completed:
 14. Fix J2 footprint so that the pin out connections are correct - DONE 05/13/2012
 15. Re-route power feed to MOV first, then to the input capacitors, then to the regulators - DONE 07/04/2012
 16. Move FAN and FUEL labels and outlines to observe the 1/16" space from the edge of the PCB for the case slot - DONE 07/04/2012
+17. Re-route some of the ground plane traces onto the Through Hole side of the PCB to clean up the SMD side (signal side) - DONE 07/04/2012
 
 19. Add more space around the BDM header - DONE 07/04/2012
 20. Remove the 5.6v Zener diode (D3) as it is not necessary since there is no chance of voltage feeding back from the MCU - DONE 05/26/2012
