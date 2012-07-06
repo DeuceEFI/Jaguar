@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 05 Jul 2012 11:32:25 AM EDT
+EESchema Schematic File Version 2  date Fri 06 Jul 2012 12:40:00 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 jul 2012"
+Date "6 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -822,7 +822,7 @@ F8 "Accessory_Relay" O R 10650 2750 40
 F9 "12vdc-switched-outputs" I L 9050 2200 40 
 $EndSheet
 $Sheet
-S 9050 650  1550 1000
+S 9050 650  1550 1300
 U 4F0D0381
 F0 "Injectors" 40
 F1 "Injectors.sch" 40

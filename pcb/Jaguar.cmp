@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 05 Jul 2012 11:32:37 AM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 06 Jul 2012 12:46:00 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -603,6 +603,20 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A4778/4FF707BE;
+Reference = D43;
+ValeurCmp = 1N5818-TP;
+IdModule  = diode_do35;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/4FF707FF;
+Reference = D44;
+ValeurCmp = 1N5818-TP;
+IdModule  = diode_do35;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F0A450C;
 Reference = J1;
 ValeurCmp = USB_B;
@@ -822,7 +836,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F125936;
 Reference = P22;
-ValeurCmp = INJ-GND;
+ValeurCmp = INJ1-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -927,7 +941,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F2A047E;
 Reference = P42;
-ValeurCmp = INJ-GND2;
+ValeurCmp = INJ2-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -977,6 +991,48 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F4003E3;
 Reference = P49;
 ValeurCmp = TX;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF7158B;
+Reference = P50;
+ValeurCmp = INJ3-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF7158E;
+Reference = P51;
+ValeurCmp = INJ4-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF7159F;
+Reference = P52;
+ValeurCmp = INJ8-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF7159C;
+Reference = P53;
+ValeurCmp = INJ7-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF71599;
+Reference = P54;
+ValeurCmp = INJ6-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF71591;
+Reference = P55;
+ValeurCmp = INJ5-GND;
 IdModule  = WireConnection;
 EndCmp
 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 05 Jul 2012 11:32:25 AM EDT
+EESchema Schematic File Version 2  date Fri 06 Jul 2012 12:40:00 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -9,7 +9,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 jul 2012"
+Date "6 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,6 +17,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 4000 7400 2    40   Input ~ 0
+Injector8-Ground
+Text HLabel 4000 6500 2    40   Input ~ 0
+Injector7-Ground
+Text HLabel 4000 4700 2    40   Input ~ 0
+Injector5-Ground
+Text HLabel 4000 5600 2    40   Input ~ 0
+Injector6-Ground
+Text HLabel 4000 3800 2    40   Input ~ 0
+Injector4-Ground
+Text HLabel 4000 2900 2    40   Input ~ 0
+Injector3-Ground
+Text HLabel 4000 2000 2    40   Input ~ 0
+Injector2-Ground
+Text HLabel 4000 1100 2    40   Input ~ 0
+Injector1-Ground
 Text HLabel 2950 7700 0    40   Input ~ 0
 PCB-GND
 Text HLabel 2950 6800 0    40   Input ~ 0
@@ -97,20 +113,6 @@ F 1 "GND" H 2950 7630 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 7700 4000 7700
-Wire Wire Line
-	5400 5900 4000 5900
-Wire Wire Line
-	4000 4700 4000 5000
-Wire Wire Line
-	5400 4100 4000 4100
-Wire Wire Line
-	5400 2300 4000 2300
-Connection ~ 5400 2300
-Connection ~ 5400 6800
-Wire Wire Line
-	5400 7700 5400 1400
-Wire Wire Line
 	3700 1600 4150 1600
 Wire Wire Line
 	3700 5200 4150 5200
@@ -125,12 +127,9 @@ Wire Wire Line
 	3700 3400 4150 3400
 Connection ~ 2400 3400
 Connection ~ 2400 4300
-Connection ~ 5400 2300
-Connection ~ 5400 4100
 Wire Wire Line
 	2400 5400 3000 5400
 Connection ~ 2400 5200
-Connection ~ 5400 5900
 Connection ~ 3700 1600
 Connection ~ 3700 700 
 Connection ~ 3300 5200
@@ -145,8 +144,6 @@ Connection ~ 3300 1600
 Connection ~ 2900 1600
 Connection ~ 2900 700 
 Connection ~ 3300 700 
-Wire Wire Line
-	4000 1100 4000 1400
 Connection ~ 2950 1400
 Wire Wire Line
 	3700 900  3500 900 
@@ -164,8 +161,6 @@ Connection ~ 4000 1600
 Wire Wire Line
 	3700 1800 3500 1800
 Connection ~ 2950 2300
-Wire Wire Line
-	4000 2300 4000 2000
 Connection ~ 2950 2700
 Connection ~ 3000 2700
 Connection ~ 3500 2700
@@ -175,8 +170,6 @@ Connection ~ 4000 2500
 Wire Wire Line
 	3700 2700 3500 2700
 Connection ~ 2950 3200
-Wire Wire Line
-	4000 2900 4000 3200
 Connection ~ 2950 3600
 Connection ~ 3000 3600
 Connection ~ 3500 3600
@@ -186,8 +179,6 @@ Connection ~ 4000 3400
 Wire Wire Line
 	3700 3600 3500 3600
 Connection ~ 2950 4100
-Wire Wire Line
-	4000 4100 4000 3800
 Connection ~ 2950 5000
 Wire Wire Line
 	3700 4500 3500 4500
@@ -206,13 +197,9 @@ Connection ~ 4000 5200
 Wire Wire Line
 	3700 5400 3500 5400
 Connection ~ 2950 5900
-Wire Wire Line
-	4000 5900 4000 5600
 Connection ~ 4000 700 
 Wire Wire Line
 	3000 4500 2400 4500
-Connection ~ 5400 5000
-Connection ~ 5400 3200
 Wire Wire Line
 	2400 3600 3000 3600
 Wire Wire Line
@@ -228,8 +215,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 1800 2400 1800
 Connection ~ 3700 6100
-Wire Wire Line
-	4000 6500 4000 6800
 Connection ~ 2950 6800
 Wire Wire Line
 	3700 6300 3500 6300
@@ -262,17 +247,7 @@ Connection ~ 4000 7000
 Wire Wire Line
 	3700 7200 3500 7200
 Connection ~ 2950 7700
-Wire Wire Line
-	4000 7700 4000 7400
 Connection ~ 3700 7000
-Wire Wire Line
-	4000 1400 5400 1400
-Wire Wire Line
-	4000 3200 5400 3200
-Wire Wire Line
-	4000 5000 5400 5000
-Wire Wire Line
-	4000 6800 5400 6800
 $Comp
 L GND #PWR039
 U 1 1 4F2F3E75
@@ -422,8 +397,6 @@ Text HLabel 2400 2500 0    40   Input ~ 0
 12v-sw2
 Text HLabel 2400 1600 0    40   Input ~ 0
 12v-sw2
-Text HLabel 5400 5900 2    40   Input ~ 0
-Injector-Ground
 Text HLabel 2400 2700 0    60   Input ~ 0
 Injector3
 $Comp
