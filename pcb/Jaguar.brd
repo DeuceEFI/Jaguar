@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 06 Jul 2012 12:51:56 PM EDT
+PCBNEW-BOARD Version 1 date Fri 06 Jul 2012 12:54:21 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -13755,7 +13755,7 @@ De 15 1 0 Italic
 $EndTEXTPCB
 $TEXTPCB
 Te "Version J.A.G."
-Po 59720 27038 500 600 100 0
+Po 59681 27111 500 600 100 0
 De 15 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
