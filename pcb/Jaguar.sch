@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Jul 2012 12:40:00 PM EDT
+EESchema Schematic File Version 2  date Fri 06 Jul 2012 11:19:11 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -17,6 +17,60 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_1 P52
+U 1 1 4FF7159F
+P 10750 1650
+F 0 "P52" H 10830 1650 40  0000 L CNN
+F 1 "INJ8-GND" H 10750 1705 30  0001 C CNN
+	1    10750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P53
+U 1 1 4FF7159C
+P 10750 1750
+F 0 "P53" H 10830 1750 40  0000 L CNN
+F 1 "INJ7-GND" H 10750 1805 30  0001 C CNN
+	1    10750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P54
+U 1 1 4FF71599
+P 10750 1850
+F 0 "P54" H 10830 1850 40  0000 L CNN
+F 1 "INJ6-GND" H 10750 1905 30  0001 C CNN
+	1    10750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P55
+U 1 1 4FF71591
+P 10750 1950
+F 0 "P55" H 10830 1950 40  0000 L CNN
+F 1 "INJ5-GND" H 10750 2005 30  0001 C CNN
+	1    10750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P51
+U 1 1 4FF7158E
+P 8900 1950
+F 0 "P51" H 8980 1950 40  0000 L CNN
+F 1 "INJ4-GND" H 8900 2005 30  0001 C CNN
+	1    8900 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P50
+U 1 1 4FF7158B
+P 8900 1850
+F 0 "P50" H 8980 1850 40  0000 L CNN
+F 1 "INJ3-GND" H 8900 1905 30  0001 C CNN
+	1    8900 1850
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	9050 2200 9050 2100
 Wire Wire Line
@@ -38,8 +92,6 @@ Wire Wire Line
 	9000 4050 9300 4050
 Wire Wire Line
 	9300 4250 9000 4250
-Wire Wire Line
-	8950 1700 8950 1600
 Wire Notes Line
 	550  2050 4200 2050
 Wire Notes Line
@@ -149,10 +201,6 @@ Wire Notes Line
 Wire Notes Line
 	550  2450 4200 2450
 Wire Wire Line
-	8950 1600 9050 1600
-Connection ~ 8950 1600
-Connection ~ 8950 1700
-Wire Wire Line
 	9300 3950 9000 3950
 Wire Wire Line
 	9300 4100 9350 4100
@@ -160,13 +208,12 @@ Connection ~ 9300 4100
 Wire Wire Line
 	9000 4350 9300 4350
 Connection ~ 9300 4350
-Connection ~ 10600 1600
 Connection ~ 9350 4100
 Text GLabel 9050 3600 0    40   Input ~ 0
 Ground
 Text GLabel 5200 2400 0    40   Input ~ 0
 Ground
-Text GLabel 10600 1600 2    40   Input ~ 0
+Text GLabel 10600 1550 2    40   Input ~ 0
 Ground
 Text Notes 8900 4350 0    25   ~ 0
 Sensor-GND
@@ -248,10 +295,10 @@ GND
 $Comp
 L CONN_1 P42
 U 1 1 4F2A047E
-P 8800 1700
-F 0 "P42" H 8880 1700 40  0000 L CNN
-F 1 "INJ-GND2" H 8800 1755 30  0001 C CNN
-	1    8800 1700
+P 8900 1750
+F 0 "P42" H 8980 1750 40  0000 L CNN
+F 1 "INJ2-GND" H 8900 1805 30  0001 C CNN
+	1    8900 1750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -770,10 +817,10 @@ $EndComp
 $Comp
 L CONN_1 P22
 U 1 1 4F125936
-P 8800 1600
-F 0 "P22" H 8880 1600 40  0000 L CNN
-F 1 "INJ-GND" H 8800 1655 30  0001 C CNN
-	1    8800 1600
+P 8900 1650
+F 0 "P22" H 8980 1650 40  0000 L CNN
+F 1 "INJ1-GND" H 8900 1705 30  0001 C CNN
+	1    8900 1650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -822,7 +869,7 @@ F8 "Accessory_Relay" O R 10650 2750 40
 F9 "12vdc-switched-outputs" I L 9050 2200 40 
 $EndSheet
 $Sheet
-S 9050 650  1550 1300
+S 9050 650  1550 1350
 U 4F0D0381
 F0 "Injectors" 40
 F1 "Injectors.sch" 40
@@ -835,16 +882,23 @@ F7 "Injector2" I L 9050 800 40
 F8 "Injector2_Output" O R 10600 800 40 
 F9 "Injector1_Output" O R 10600 700 40 
 F10 "Injector1" I L 9050 700 40 
-F11 "Injector-Ground" I L 9050 1600 40 
-F12 "Injector6" I L 9050 1200 40 
-F13 "Injector5" I L 9050 1100 40 
-F14 "Injector4" I L 9050 1000 40 
-F15 "Injector7" I L 9050 1300 40 
-F16 "Injector8_Output" O R 10600 1400 40 
-F17 "Injector7_Output" O R 10600 1300 40 
-F18 "Injector8" I L 9050 1400 40 
-F19 "12v-sw2" I L 9050 1500 40 
-F20 "PCB-GND" I R 10600 1600 40 
+F11 "Injector6" I L 9050 1200 40 
+F12 "Injector5" I L 9050 1100 40 
+F13 "Injector4" I L 9050 1000 40 
+F14 "Injector7" I L 9050 1300 40 
+F15 "Injector8_Output" O R 10600 1400 40 
+F16 "Injector7_Output" O R 10600 1300 40 
+F17 "Injector8" I L 9050 1400 40 
+F18 "12v-sw2" I L 9050 1500 40 
+F19 "PCB-GND" I R 10600 1550 40 
+F20 "Injector8-Ground" I R 10600 1650 40 
+F21 "Injector7-Ground" I R 10600 1750 40 
+F22 "Injector5-Ground" I R 10600 1950 40 
+F23 "Injector6-Ground" I R 10600 1850 40 
+F24 "Injector4-Ground" I L 9050 1950 40 
+F25 "Injector3-Ground" I L 9050 1850 40 
+F26 "Injector2-Ground" I L 9050 1750 40 
+F27 "Injector1-Ground" I L 9050 1650 40 
 $EndSheet
 $Sheet
 S 9050 3300 1050 400 
