@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 08 Jul 2012 04:36:18 PM EDT
+EESchema Schematic File Version 2  date Sun 08 Jul 2012 05:17:31 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -18,19 +18,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 5100 6750
 Wire Wire Line
-	5100 7650 5100 1350
+	5100 7650 5100 6750
+Wire Wire Line
+	5100 4050 5100 3150
 Wire Wire Line
 	5100 7650 4000 7650
 Wire Wire Line
 	4000 7650 4000 7400
-Connection ~ 5100 4950
 Wire Wire Line
-	5100 5850 4000 5850
+	4000 5850 5100 5850
 Wire Wire Line
 	4000 5850 4000 5600
-Connection ~ 5100 3150
 Wire Wire Line
 	5100 4050 4000 4050
 Wire Wire Line
@@ -183,17 +182,18 @@ Wire Wire Line
 	4000 2900 4000 3150
 Wire Wire Line
 	4000 3150 5100 3150
-Connection ~ 5100 2250
 Wire Wire Line
 	4000 4700 4000 4950
 Wire Wire Line
 	4000 4950 5100 4950
-Connection ~ 5100 4050
 Wire Wire Line
 	4000 6500 4000 6750
 Wire Wire Line
 	4000 6750 5100 6750
-Connection ~ 5100 5850
+Wire Wire Line
+	5100 1350 5100 2250
+Wire Wire Line
+	5100 4950 5100 5850
 Text HLabel 4000 7400 2    40   Input ~ 0
 Injector8-Ground
 Text HLabel 4000 6500 2    40   Input ~ 0
