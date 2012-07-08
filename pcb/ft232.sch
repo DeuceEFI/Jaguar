@@ -1,15 +1,16 @@
-EESchema Schematic File Version 2  date Fri 06 Jul 2012 11:19:11 PM EDT
+EESchema Schematic File Version 2  date Sun 08 Jul 2012 04:36:18 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
+LIBS:transistors
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 jul 2012"
+Date "8 jul 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -17,168 +18,129 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 2600 5150
-Connection ~ 2600 4850
+Connection ~ 7800 3350
 Wire Wire Line
-	2600 4850 2750 4850
+	7800 3350 7500 3350
+Connection ~ 7200 1950
+Connection ~ 7400 1650
 Wire Wire Line
-	9100 3550 8800 3550
+	7400 1650 7150 1650
 Wire Wire Line
-	9000 2400 9450 2400
-Wire Notes Line
-	4850 4000 4850 3550
-Wire Notes Line
-	4850 4000 3950 4000
-Wire Notes Line
-	3950 4000 3950 3550
-Wire Notes Line
-	3950 3550 4850 3550
+	7750 1950 7750 2500
 Wire Wire Line
-	8900 2850 8650 2850
+	7750 1950 7600 1950
 Wire Wire Line
-	7500 3050 7500 3350
+	7750 2500 7500 2500
 Wire Wire Line
-	7500 3050 6800 3050
-Connection ~ 2550 2500
-Connection ~ 2550 2000
+	7500 2500 7500 2950
 Wire Wire Line
-	2550 2000 2550 1800
+	7500 2950 6800 2950
+Wire Wire Line
+	2550 3150 2550 2500
+Connection ~ 2600 5250
+Connection ~ 2600 5050
 Connection ~ 2600 4950
 Wire Wire Line
-	2550 1800 4950 1800
-Connection ~ 4250 3650
-Connection ~ 4750 3650
-Connection ~ 4950 3650
+	2600 5250 2850 5250
 Wire Wire Line
-	4750 3650 4950 3650
-Connection ~ 7750 1700
-Connection ~ 7750 2500
-Connection ~ 8900 2850
-Connection ~ 8900 3350
-Connection ~ 9100 3350
-Connection ~ 7750 2200
+	2600 5050 2650 5050
+Connection ~ 4000 1800
+Connection ~ 4000 2200
 Wire Wire Line
-	8400 3950 8400 3650
-Wire Wire Line
-	6200 4850 4950 4850
-Connection ~ 6800 2950
-Connection ~ 6800 3050
-Connection ~ 8400 3950
-Connection ~ 8400 3650
-Connection ~ 7900 3650
-Connection ~ 7900 3950
-Connection ~ 7500 3950
-Connection ~ 7500 3650
-Connection ~ 6800 3750
-Connection ~ 6800 3850
-Connection ~ 6200 4850
-Connection ~ 6050 4850
-Connection ~ 5900 4850
-Connection ~ 5750 4850
-Connection ~ 4950 4550
-Connection ~ 4950 4150
-Connection ~ 4950 3350
-Connection ~ 4950 3250
-Connection ~ 4950 3000
-Connection ~ 4950 2900
-Connection ~ 2550 3450
-Connection ~ 2550 3350
-Connection ~ 2550 3250
-Connection ~ 2550 3150
-Connection ~ 3550 2200
-Connection ~ 3550 1800
-Wire Wire Line
-	7500 3950 7500 3850
-Wire Wire Line
-	7500 3850 6800 3850
-Wire Wire Line
-	2550 3350 4950 3350
-Connection ~ 5600 4850
-Wire Wire Line
-	2550 4550 4950 4550
-Wire Wire Line
-	4950 3250 2550 3250
-Wire Wire Line
-	7500 3650 7500 3750
-Wire Wire Line
-	7500 3750 6800 3750
-Wire Wire Line
-	2550 4550 2550 3450
-Wire Wire Line
-	4950 4550 4950 4850
-Wire Wire Line
-	4950 1800 4950 3000
+	3550 2200 4000 2200
 Wire Wire Line
 	4250 3650 4000 3650
 Wire Wire Line
-	3550 2200 4000 2200
-Connection ~ 4000 2200
-Connection ~ 4000 1800
-Connection ~ 10350 2650
+	4950 3000 4950 1800
 Wire Wire Line
-	2600 5050 2650 5050
+	4950 4550 4950 4850
 Wire Wire Line
-	2600 5250 2850 5250
+	2550 3450 2550 4550
+Wire Wire Line
+	6800 3750 7500 3750
+Wire Wire Line
+	7500 3750 7500 3650
+Wire Wire Line
+	4950 3250 2550 3250
+Wire Wire Line
+	2550 4550 4950 4550
+Connection ~ 5600 4850
+Wire Wire Line
+	2550 3350 4950 3350
+Wire Wire Line
+	6800 3850 7500 3850
+Wire Wire Line
+	7500 3850 7500 3950
+Connection ~ 3550 1800
+Connection ~ 3550 2200
+Connection ~ 2550 3150
+Connection ~ 2550 3250
+Connection ~ 2550 3350
+Connection ~ 2550 3450
+Connection ~ 4950 2900
+Connection ~ 4950 3000
+Connection ~ 4950 3250
+Connection ~ 4950 3350
+Connection ~ 4950 4150
+Connection ~ 4950 4550
+Connection ~ 5750 4850
+Connection ~ 5900 4850
+Connection ~ 6050 4850
+Connection ~ 6200 4850
+Connection ~ 6800 3850
+Connection ~ 6800 3750
+Connection ~ 7500 3650
+Connection ~ 7500 3950
+Connection ~ 7900 3950
+Connection ~ 7900 3650
+Connection ~ 8400 3650
+Connection ~ 8400 3950
+Connection ~ 6800 3050
+Connection ~ 6800 2950
+Wire Wire Line
+	4950 4850 6200 4850
+Wire Wire Line
+	8400 3950 8400 3650
+Connection ~ 7750 2500
+Wire Wire Line
+	4750 3650 4950 3650
+Connection ~ 4950 3650
+Connection ~ 4750 3650
+Connection ~ 4250 3650
+Wire Wire Line
+	4950 1800 2550 1800
 Connection ~ 2600 4950
-Connection ~ 2600 5050
-Connection ~ 2600 5250
 Wire Wire Line
-	2550 3150 2550 2500
+	2550 1800 2550 2000
+Connection ~ 2550 2000
+Connection ~ 2550 2500
 Wire Wire Line
-	6800 2950 7500 2950
+	6800 3050 7500 3050
 Wire Wire Line
-	7500 2950 7500 2500
+	7500 3050 7500 3350
+Wire Notes Line
+	3950 3550 4850 3550
+Wire Notes Line
+	3950 3550 3950 4000
+Wire Notes Line
+	3950 4000 4850 4000
+Wire Notes Line
+	4850 4000 4850 3550
 Wire Wire Line
-	7500 2500 7750 2500
+	2600 4850 2750 4850
+Connection ~ 2600 4850
 Wire Wire Line
-	7500 3350 9100 3350
-Wire Wire Line
-	7750 1700 7500 1700
-Wire Wire Line
-	9000 2600 9000 2650
-Connection ~ 9200 1900
-Connection ~ 9200 2400
-Connection ~ 9450 2400
-Connection ~ 9000 2400
-Wire Wire Line
-	9450 2400 9450 2300
-Wire Wire Line
-	9450 2300 9500 2300
-Wire Wire Line
-	10350 3450 10350 3350
-Wire Wire Line
-	10350 3350 10400 3350
-Connection ~ 10350 3150
-Connection ~ 10350 3450
-Connection ~ 8750 3350
-NoConn ~ 10050 3550
-NoConn ~ 10050 3050
-NoConn ~ 9400 3050
-NoConn ~ 9000 2250
-NoConn ~ 8050 2600
-NoConn ~ 8050 2100
-NoConn ~ 8700 2100
-NoConn ~ 9100 3200
+	6200 4850 6200 4950
 $Comp
-L HCPL-061A U9
-U 1 1 4F41C2BB
-P 9700 3350
-F 0 "U9" H 9900 3650 60  0000 C CNN
-F 1 "HCPL-061A" H 9700 3050 60  0000 C CNN
-	1    9700 3350
-	-1   0    0    -1  
+L BC237 Q12
+U 1 1 4FF8BBCD
+P 7400 1850
+F 0 "Q12" V 7300 1700 50  0000 C CNN
+F 1 "2N3906" V 7250 2050 50  0000 C CNN
+	1    7400 1850
+	0    1    1    0   
 $EndComp
-$Comp
-L HCPL-061A U8
-U 1 1 4F41C216
-P 8400 2400
-F 0 "U8" H 8600 2700 60  0000 C CNN
-F 1 "HCPL-061A" H 8400 2100 60  0000 C CNN
-	1    8400 2400
-	1    0    0    -1  
-$EndComp
-Text HLabel 10350 2650 2    40   Input ~ 0
-5vdc-ft232rl
+NoConn ~ 2600 5150
 Text Notes 4000 3850 0    55   ~ 0
 R55 is Optional\npopulate if needed
 $Comp
@@ -193,29 +155,11 @@ $EndComp
 $Comp
 L CONN_1 P47
 U 1 1 4F40047F
-P 8750 3200
-F 0 "P47" H 8830 3200 40  0000 L CNN
-F 1 "TXB" H 8750 3255 30  0001 C CNN
-	1    8750 3200
+P 7800 3200
+F 0 "P47" H 7880 3200 40  0000 L CNN
+F 1 "TXB" H 7800 3255 30  0001 C CNN
+	1    7800 3200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P48
-U 1 1 4F4003FA
-P 9600 2400
-F 0 "P48" H 9680 2400 40  0000 L CNN
-F 1 "RX" H 9600 2455 30  0001 C CNN
-	1    9600 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P49
-U 1 1 4F4003E3
-P 10500 3450
-F 0 "P49" H 10580 3450 40  0000 L CNN
-F 1 "TX" H 10500 3505 30  0001 C CNN
-	1    10500 3450
-	1    0    0    -1  
 $EndComp
 NoConn ~ 6800 3150
 NoConn ~ 6800 3250
@@ -255,17 +199,17 @@ F 1 "USB_B-MINI" H 2225 4450 60  0001 C CNN
 	1    2250 5050
 	0    -1   -1   0   
 $EndComp
-Text HLabel 9000 2600 2    40   Input ~ 0
+Text HLabel 6200 4850 2    40   Input ~ 0
 GND
 Text Notes 5250 2350 0    40   ~ 0
 Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
 L GND #PWR015
 U 1 1 4F1C30B1
-P 9000 2650
-F 0 "#PWR015" H 9000 2650 30  0001 C CNN
-F 1 "GND" H 9000 2580 30  0001 C CNN
-	1    9000 2650
+P 6200 4950
+F 0 "#PWR015" H 6200 4950 30  0001 C CNN
+F 1 "GND" H 6200 4880 30  0001 C CNN
+	1    6200 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -288,47 +232,7 @@ F 1 "2.4k" V 4500 3650 50  0000 C CNN
 	1    4500 3650
 	0    1    1    0   
 $EndComp
-$Comp
-L R R61
-U 1 1 4F17944E
-P 10350 2900
-F 0 "R61" V 10430 2900 50  0000 C CNN
-F 1 "2.4k" V 10350 2900 50  0000 C CNN
-	1    10350 2900
-	1    0    0    -1  
-$EndComp
-Text Label 8650 2850 0    40   ~ 0
-5v-USB
-$Comp
-L R R59
-U 1 1 4F1793A2
-P 8900 3100
-F 0 "R59" V 8980 3100 50  0000 C CNN
-F 1 "10k" V 8900 3100 50  0000 C CNN
-	1    8900 3100
-	1    0    0    -1  
-$EndComp
-Text Label 9100 3550 2    40   ~ 0
-USB-GND
-$Comp
-L R R60
-U 1 1 4F1792E7
-P 9200 2150
-F 0 "R60" V 9280 2150 50  0000 C CNN
-F 1 "10k" V 9200 2150 50  0000 C CNN
-	1    9200 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R56
-U 1 1 4F179239
-P 7750 1950
-F 0 "R56" V 7830 1950 50  0000 C CNN
-F 1 "2.4k" V 7750 1950 50  0000 C CNN
-	1    7750 1950
-	1    0    0    -1  
-$EndComp
-Text Label 7500 1700 0    40   ~ 0
+Text Label 7150 1650 0    40   ~ 0
 5v-USB
 Text Label 8400 3650 0    40   ~ 0
 5v-USB
@@ -407,11 +311,11 @@ NoConn ~ 4950 3550
 NoConn ~ 4950 3750
 NoConn ~ 4950 3950
 NoConn ~ 4950 3850
-Text HLabel 9500 2300 2    40   BiDi ~ 0
+Text HLabel 7750 2500 2    40   BiDi ~ 0
 RX
-Text HLabel 10400 3350 2    40   BiDi ~ 0
+Text HLabel 7800 3350 2    40   BiDi ~ 0
 TX
-Text HLabel 9200 1900 2    40   Input ~ 0
+Text HLabel 7200 1950 0    40   Input ~ 0
 5vdc-ft232rl
 NoConn ~ 6800 3650
 NoConn ~ 6800 3550
