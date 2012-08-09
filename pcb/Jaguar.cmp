@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 08 Jul 2012 04:36:38 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 09 Aug 2012 03:50:45 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -232,7 +232,7 @@ IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F178BB2;
+TimeStamp = /4F0BB08D/5023F4F3;
 Reference = C34;
 ValeurCmp = 0.1uF;
 IdModule  = cnp_3mm_disc;
@@ -260,7 +260,7 @@ IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F0B937C;
+TimeStamp = /4F0BB08D/5023F4F5;
 Reference = C38;
 ValeurCmp = 0.22uF;
 IdModule  = cnp_3mm_disc;
@@ -320,6 +320,20 @@ TimeStamp = /4F0A2F06/4F1E0953;
 Reference = C48;
 ValeurCmp = 10uF;
 IdModule  = cap-master-TT-025-030;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F178BB2;
+Reference = C49;
+ValeurCmp = 0.1uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F0B937C;
+Reference = C51;
+ValeurCmp = 0.22uF;
+IdModule  = cnp_3mm_disc;
 EndCmp
 
 BeginCmp
@@ -421,14 +435,14 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F178BDA;
+TimeStamp = /4F0BB08D/5023F4F1;
 Reference = D16;
 ValeurCmp = 1N5818-TP;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F178BD7;
+TimeStamp = /4F0BB08D/5023F4F2;
 Reference = D17;
 ValeurCmp = 1N5818-TP;
 IdModule  = diode_do35;
@@ -612,6 +626,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4FF707FF;
 Reference = D44;
+ValeurCmp = 1N5818-TP;
+IdModule  = diode_do35;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F178BDA;
+Reference = D45;
+ValeurCmp = 1N5818-TP;
+IdModule  = diode_do35;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F178BD7;
+Reference = D46;
 ValeurCmp = 1N5818-TP;
 IdModule  = diode_do35;
 EndCmp
@@ -934,7 +962,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F22BF32;
 Reference = P41;
-ValeurCmp = MAF-Signal;
+ValeurCmp = MAF-Sensor;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1019,6 +1047,13 @@ BeginCmp
 TimeStamp = /4FF71591;
 Reference = P55;
 ValeurCmp = INJ5-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /502413D0;
+Reference = P56;
+ValeurCmp = MAF-CPU-Signal;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1345,10 +1380,10 @@ IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F0B937E;
+TimeStamp = /4F0BB08D/5023F4F4;
 Reference = R33;
 ValeurCmp = 470;
-IdModule  = rc03_vert;
+IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
@@ -1649,6 +1684,13 @@ BeginCmp
 TimeStamp = /4F0BB08D/4FC18F60;
 Reference = R81;
 ValeurCmp = 1k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/4F0B937E;
+Reference = R82;
+ValeurCmp = 470;
 IdModule  = RC03_vert;
 EndCmp
 

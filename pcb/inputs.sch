@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 08 Jul 2012 05:17:31 PM EDT
+EESchema Schematic File Version 2  date Thu 09 Aug 2012 03:50:48 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "8 jul 2012"
+Date "9 aug 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,6 +18,99 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 10450 3850 2    40   Output ~ 0
+O2-CPU-Signal
+Text HLabel 9100 3850 0    40   Input ~ 0
+O2-Sensor
+$Comp
+L C C38
+U 1 1 5023F4F5
+P 10350 4050
+F 0 "C38" H 10400 4150 50  0000 L CNN
+F 1 "0.22uF" H 10400 3950 50  0000 L CNN
+	1    10350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 5023F4F4
+P 9550 3850
+F 0 "R33" V 9630 3850 50  0000 C CNN
+F 1 "470" V 9550 3850 50  0000 C CNN
+	1    9550 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 9100 4250 0    40   Input ~ 0
+O2-Sensor-GND
+Text Notes 9200 4500 0    60   ~ 0
+Exhaust Oxygen Sensor
+Text Notes 10450 3800 0    40   ~ 0
+CPU Pin 73
+$Comp
+L C C34
+U 1 1 5023F4F3
+P 9100 4050
+F 0 "C34" H 9150 4150 50  0000 L CNN
+F 1 "0.1uF" H 9150 3950 50  0000 L CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D17
+U 1 1 5023F4F2
+P 10050 4050
+F 0 "D17" H 10050 4150 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 3950 40  0000 C CNN
+	1    10050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODESCH D16
+U 1 1 5023F4F1
+P 10050 3650
+F 0 "D16" H 10050 3750 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 3550 40  0000 C CNN
+	1    10050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5023F4F0
+P 10350 4350
+F 0 "#PWR016" H 10350 4350 30  0001 C CNN
+F 1 "GND" H 10350 4280 30  0001 C CNN
+	1    10350 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 10050 3450 0    40   Input ~ 0
+5vdc-analog
+Text Label 9750 4250 0    40   ~ 0
+Ground
+Wire Notes Line
+	11050 4550 11050 3300
+Wire Notes Line
+	11050 4550 8500 4550
+Wire Notes Line
+	11050 3300 8500 3300
+Wire Wire Line
+	9100 4250 10350 4250
+Connection ~ 10050 3850
+Wire Wire Line
+	9800 3850 10450 3850
+Wire Wire Line
+	9300 3850 9100 3850
+Connection ~ 9800 3850
+Connection ~ 9300 3850
+Connection ~ 10050 4250
+Connection ~ 10050 3450
+Connection ~ 10350 3850
+Connection ~ 10350 4250
+Connection ~ 9100 4250
+Connection ~ 9100 3850
+Wire Wire Line
+	10350 4250 10350 4350
+Wire Notes Line
+	8500 3300 8500 4550
 Text Label 4200 5850 0    25   ~ 0
 Ignition-Advance-Signal
 Text Label 4600 5850 0    25   ~ 0
@@ -178,21 +271,21 @@ Wire Wire Line
 Wire Wire Line
 	7600 3050 7600 3450
 Wire Notes Line
-	8500 6050 8500 4550
+	8500 6150 8500 4650
 Wire Notes Line
-	8500 6050 11050 6050
+	8500 6150 11050 6150
 Wire Notes Line
-	11050 6050 11050 4550
+	11050 6150 11050 4650
 Wire Notes Line
-	11050 4550 8500 4550
+	11050 4650 8500 4650
 Wire Notes Line
-	8500 2800 8500 4050
+	8500 1950 8500 3200
 Wire Notes Line
-	11050 2500 8500 2500
+	11050 1850 8500 1850
 Wire Notes Line
-	11050 2500 11050 1250
+	11050 1850 11050 600 
 Wire Notes Line
-	11050 1250 8500 1250
+	11050 600  8500 600 
 Wire Notes Line
 	4900 4350 4900 3750
 Wire Notes Line
@@ -208,9 +301,9 @@ Wire Notes Line
 Wire Wire Line
 	4350 2650 4350 2550
 Wire Wire Line
-	10350 3850 10350 3750
+	10350 3000 10350 2900
 Wire Wire Line
-	8850 5800 8850 5700
+	8850 5900 8850 5800
 Wire Wire Line
 	7600 3950 7600 3850
 Wire Wire Line
@@ -235,29 +328,29 @@ Connection ~ 7750 5200
 Connection ~ 7450 4800
 Wire Wire Line
 	7600 3850 6400 3850
-Connection ~ 9100 3350
-Connection ~ 9100 3750
-Connection ~ 10350 3750
-Connection ~ 10350 3350
-Connection ~ 10050 2950
-Connection ~ 10350 2200
-Connection ~ 10050 1400
-Connection ~ 10350 1800
+Connection ~ 9100 2500
+Connection ~ 9100 2900
+Connection ~ 10350 2900
+Connection ~ 10350 2500
+Connection ~ 10050 2100
+Connection ~ 10350 1550
+Connection ~ 10050 750 
+Connection ~ 10350 1150
 Connection ~ 7650 2300
 Wire Wire Line
 	6450 2300 7650 2300
-Connection ~ 9250 5550
-Connection ~ 10050 5550
-Connection ~ 9250 5150
-Connection ~ 9350 5150
-Connection ~ 9850 5150
-Connection ~ 10050 5150
-Connection ~ 10050 4750
-Connection ~ 9250 5700
+Connection ~ 9250 5650
+Connection ~ 10050 5650
+Connection ~ 9250 5250
+Connection ~ 9350 5250
+Connection ~ 9850 5250
+Connection ~ 10050 5250
+Connection ~ 10050 4850
+Connection ~ 9250 5800
 Wire Wire Line
-	9250 5550 9250 5700
+	9250 5650 9250 5800
 Connection ~ 3600 5350
-Connection ~ 10050 3750
+Connection ~ 10050 2900
 Wire Wire Line
 	7150 1900 7750 1900
 Connection ~ 6550 5600
@@ -281,14 +374,14 @@ Connection ~ 6650 1900
 Connection ~ 6450 1900
 Connection ~ 6450 1400
 Connection ~ 7350 1900
-Connection ~ 9300 3350
-Connection ~ 9800 3350
-Connection ~ 8850 5700
-Connection ~ 8850 4600
-Connection ~ 8850 5100
+Connection ~ 9300 2500
+Connection ~ 9800 2500
+Connection ~ 8850 5800
+Connection ~ 8850 4700
 Connection ~ 8850 5200
+Connection ~ 8850 5300
 Wire Wire Line
-	8850 5200 8850 5100
+	8850 5300 8850 5200
 Connection ~ 2350 5650
 Connection ~ 2350 5750
 Connection ~ 2350 5950
@@ -304,37 +397,37 @@ Connection ~ 5550 7150
 Wire Wire Line
 	6650 1900 6450 1900
 Wire Wire Line
-	9350 1800 9150 1800
+	9350 1150 9150 1150
 Wire Wire Line
 	6600 3450 6400 3450
 Wire Wire Line
-	9300 3350 9100 3350
+	9300 2500 9100 2500
 Wire Wire Line
 	6750 5200 6550 5200
-Connection ~ 10050 2200
-Connection ~ 10050 1800
-Connection ~ 9850 1800
-Connection ~ 9350 1800
-Connection ~ 9150 1800
-Connection ~ 9150 2200
-Connection ~ 8850 5150
+Connection ~ 10050 1550
+Connection ~ 10050 1150
+Connection ~ 9850 1150
+Connection ~ 9350 1150
+Connection ~ 9150 1150
+Connection ~ 9150 1550
+Connection ~ 8850 5250
 Wire Wire Line
-	9850 1800 10450 1800
+	9850 1150 10450 1150
 Wire Wire Line
-	9800 3350 10450 3350
-Connection ~ 10050 3350
+	9800 2500 10450 2500
+Connection ~ 10050 2500
 Wire Wire Line
-	9350 5150 8850 5150
+	9350 5250 8850 5250
 Wire Wire Line
-	8850 5700 10350 5700
+	8850 5800 10350 5800
 Wire Wire Line
-	10050 5550 10050 5700
-Connection ~ 10050 5700
+	10050 5650 10050 5800
+Connection ~ 10050 5800
 Connection ~ 7350 1500
 Wire Wire Line
-	9150 2200 10350 2200
+	9150 1550 10350 1550
 Wire Wire Line
-	10350 3750 9100 3750
+	10350 2900 9100 2900
 Connection ~ 7300 3050
 Connection ~ 7600 3450
 Connection ~ 7600 3850
@@ -383,21 +476,21 @@ Wire Wire Line
 Wire Wire Line
 	7750 5600 7750 5700
 Wire Wire Line
-	10350 2200 10350 2300
+	10350 1550 10350 1650
 Wire Notes Line
-	8500 1250 8500 2500
+	8500 600  8500 1850
 Wire Notes Line
-	8500 2800 11050 2800
+	8500 1950 11050 1950
 Wire Notes Line
-	8500 4050 11050 4050
+	8500 3200 11050 3200
 Wire Notes Line
-	11050 4050 11050 2800
-Connection ~ 10350 5150
+	11050 3200 11050 1950
+Connection ~ 10350 5250
 Wire Wire Line
-	10350 5700 10350 5550
-Connection ~ 10350 5700
+	10350 5800 10350 5650
+Connection ~ 10350 5800
 Wire Wire Line
-	10600 5150 9850 5150
+	10600 5250 9850 5250
 Wire Notes Line
 	6000 1250 8350 1250
 Wire Wire Line
@@ -593,11 +686,11 @@ Text Label 6900 3850 0    40   ~ 0
 Ground
 Text Label 6950 2300 0    40   ~ 0
 Ground
-Text Label 9600 2200 0    40   ~ 0
+Text Label 9600 1550 0    40   ~ 0
 Ground
-Text Label 9750 3750 0    40   ~ 0
+Text Label 9750 2900 0    40   ~ 0
 Ground
-Text Label 8900 5700 0    40   ~ 0
+Text Label 8900 5800 0    40   ~ 0
 Ground
 $Comp
 L R R81
@@ -648,11 +741,11 @@ Text HLabel 4000 700  2    40   Input ~ 0
 5vdc-analog
 Text HLabel 6700 1400 2    40   Input ~ 0
 5vdc-analog
-Text HLabel 10050 1400 0    40   Input ~ 0
+Text HLabel 10050 750  0    40   Input ~ 0
 5vdc-analog
-Text HLabel 10050 2950 0    40   Input ~ 0
+Text HLabel 10050 2100 0    40   Input ~ 0
 5vdc-analog
-Text HLabel 10050 4750 0    40   Input ~ 0
+Text HLabel 10050 4850 0    40   Input ~ 0
 5vdc-analog
 Text HLabel 6550 4700 0    40   Input ~ 0
 5vdc-analog
@@ -691,10 +784,10 @@ For GM DIS and Ford EDIS leave Crank-IN- and Cam-IN- totally disconnected.\n\nFo
 Text Notes 800  6050 0    40   ~ 0
 CPU Pin 12 (PT3)
 $Comp
-L GND #PWR016
+L GND #PWR017
 U 1 1 4F1EDBE2
 P 900 5450
-F 0 "#PWR016" H 900 5450 30  0001 C CNN
+F 0 "#PWR017" H 900 5450 30  0001 C CNN
 F 1 "GND" H 900 5380 30  0001 C CNN
 	1    900  5450
 	1    0    0    -1  
@@ -731,10 +824,10 @@ $EndComp
 Text Notes 650  4700 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
-L GND #PWR017
+L GND #PWR018
 U 1 1 4F1E9FBA
 P 4200 5500
-F 0 "#PWR017" H 4200 5500 30  0001 C CNN
+F 0 "#PWR018" H 4200 5500 30  0001 C CNN
 F 1 "GND" H 4200 5430 30  0001 C CNN
 	1    4200 5500
 	1    0    0    -1  
@@ -815,36 +908,36 @@ Do NOT Connect Cam-IN- \nfor Hall/Opto/Digital
 Text Notes 4100 1900 0    40   ~ 0
 Do NOT Connect Crank-IN- \nfor Hall/Opto/Digital
 $Comp
-L GND #PWR018
+L GND #PWR019
 U 1 1 4F1D8DAC
 P 1600 2800
-F 0 "#PWR018" H 1600 2800 30  0001 C CNN
+F 0 "#PWR019" H 1600 2800 30  0001 C CNN
 F 1 "GND" H 1600 2730 30  0001 C CNN
 	1    1600 2800
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4300 7650
 NoConn ~ 4100 7650
-Text HLabel 10050 1400 2    40   Output ~ 0
+Text HLabel 10050 750  2    40   Output ~ 0
 TPS-5vdc
 Text HLabel 4150 3200 2    40   BiDi ~ 0
 Cam-IN-
 Text HLabel 4150 1800 2    40   BiDi ~ 0
 Crank-IN-
 $Comp
-L GND #PWR019
+L GND #PWR020
 U 1 1 4F1C330A
 P 4350 2650
-F 0 "#PWR019" H 4350 2650 30  0001 C CNN
+F 0 "#PWR020" H 4350 2650 30  0001 C CNN
 F 1 "GND" H 4350 2580 30  0001 C CNN
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR021
 U 1 1 4F1C32B6
 P 1700 1950
-F 0 "#PWR020" H 1700 1950 30  0001 C CNN
+F 0 "#PWR021" H 1700 1950 30  0001 C CNN
 F 1 "GND" H 1700 1880 30  0001 C CNN
 	1    1700 1950
 	1    0    0    -1  
@@ -852,46 +945,46 @@ $EndComp
 Text Notes 4350 7500 0    40   ~ 0
 P29 and P30 are for mounting holes for MPX4100AP
 $Comp
-L GND #PWR021
+L GND #PWR022
 U 1 1 4F1C300F
 P 4450 7000
-F 0 "#PWR021" H 4450 7000 30  0001 C CNN
+F 0 "#PWR022" H 4450 7000 30  0001 C CNN
 F 1 "GND" H 4450 6930 30  0001 C CNN
 	1    4450 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
-U 1 1 4F1C2FFA
-P 10350 3850
-F 0 "#PWR022" H 10350 3850 30  0001 C CNN
-F 1 "GND" H 10350 3780 30  0001 C CNN
-	1    10350 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR023
-U 1 1 4F1C2FE3
-P 10350 2300
-F 0 "#PWR023" H 10350 2300 30  0001 C CNN
-F 1 "GND" H 10350 2230 30  0001 C CNN
-	1    10350 2300
+U 1 1 4F1C2FFA
+P 10350 3000
+F 0 "#PWR023" H 10350 3000 30  0001 C CNN
+F 1 "GND" H 10350 2930 30  0001 C CNN
+	1    10350 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR024
-U 1 1 4F1C2F74
-P 8850 5800
-F 0 "#PWR024" H 8850 5800 30  0001 C CNN
-F 1 "GND" H 8850 5730 30  0001 C CNN
-	1    8850 5800
-	-1   0    0    -1  
+U 1 1 4F1C2FE3
+P 10350 1650
+F 0 "#PWR024" H 10350 1650 30  0001 C CNN
+F 1 "GND" H 10350 1580 30  0001 C CNN
+	1    10350 1650
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR025
+U 1 1 4F1C2F74
+P 8850 5900
+F 0 "#PWR025" H 8850 5900 30  0001 C CNN
+F 1 "GND" H 8850 5830 30  0001 C CNN
+	1    8850 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
 U 1 1 4F1C2F64
 P 7750 5700
-F 0 "#PWR025" H 7750 5700 30  0001 C CNN
+F 0 "#PWR026" H 7750 5700 30  0001 C CNN
 F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
 	1    0    0    -1  
@@ -901,28 +994,28 @@ This jumper allows us to \njump over Vcc on the PCB
 Text Notes 7400 2950 0    40   ~ 0
 This jumper allows us to \njump over Vcc on the PCB
 $Comp
-L GND #PWR026
+L GND #PWR027
 U 1 1 4F1C2F0A
 P 7600 3950
-F 0 "#PWR026" H 7600 3950 30  0001 C CNN
+F 0 "#PWR027" H 7600 3950 30  0001 C CNN
 F 1 "GND" H 7600 3880 30  0001 C CNN
 	1    7600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR028
 U 1 1 4F1C2EED
 P 7650 2400
-F 0 "#PWR027" H 7650 2400 30  0001 C CNN
+F 0 "#PWR028" H 7650 2400 30  0001 C CNN
 F 1 "GND" H 7650 2330 30  0001 C CNN
 	1    7650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L GND #PWR029
 U 1 1 4F1C2DD9
 P 2350 6050
-F 0 "#PWR028" H 2350 6050 30  0001 C CNN
+F 0 "#PWR029" H 2350 6050 30  0001 C CNN
 F 1 "GND" H 2350 5980 30  0001 C CNN
 	1    2350 6050
 	1    0    0    -1  
@@ -1114,48 +1207,48 @@ F 1 "1N5818-TP" H 7300 3550 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODESCH D16
+L DIODESCH D45
 U 1 1 4F178BDA
-P 10050 3150
-F 0 "D16" H 10050 3250 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 3050 40  0000 C CNN
-	1    10050 3150
+P 10050 2300
+F 0 "D45" H 10050 2400 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 2200 40  0000 C CNN
+	1    10050 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODESCH D17
+L DIODESCH D46
 U 1 1 4F178BD7
-P 10050 3550
-F 0 "D17" H 10050 3650 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 3450 40  0000 C CNN
-	1    10050 3550
+P 10050 2700
+F 0 "D46" H 10050 2800 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 2600 40  0000 C CNN
+	1    10050 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C34
+L C C49
 U 1 1 4F178BB2
-P 9100 3550
-F 0 "C34" H 9150 3650 50  0000 L CNN
-F 1 "0.1uF" H 9150 3450 50  0000 L CNN
-	1    9100 3550
+P 9100 2700
+F 0 "C49" H 9150 2800 50  0000 L CNN
+F 1 "0.1uF" H 9150 2600 50  0000 L CNN
+	1    9100 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODESCH D14
 U 1 1 4F178B09
-P 10050 1600
-F 0 "D14" H 10050 1700 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 1500 40  0000 C CNN
-	1    10050 1600
+P 10050 950
+F 0 "D14" H 10050 1050 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 850 40  0000 C CNN
+	1    10050 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L DIODESCH D15
 U 1 1 4F178AEF
-P 10050 2000
-F 0 "D15" H 10050 2100 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 1900 40  0000 C CNN
-	1    10050 2000
+P 10050 1350
+F 0 "D15" H 10050 1450 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 1250 40  0000 C CNN
+	1    10050 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1179,46 +1272,46 @@ $EndComp
 $Comp
 L C C27
 U 1 1 4F178883
-P 10350 5350
-F 0 "C27" H 10400 5450 50  0000 L CNN
-F 1 "0.22uF" H 10400 5250 50  0000 L CNN
-	1    10350 5350
+P 10350 5450
+F 0 "C27" H 10400 5550 50  0000 L CNN
+F 1 "0.22uF" H 10400 5350 50  0000 L CNN
+	1    10350 5450
 	1    0    0    1   
 $EndComp
 $Comp
 L C C32
 U 1 1 4F178872
-P 9250 5350
-F 0 "C32" H 9300 5450 50  0000 L CNN
-F 1 "0.1uF" H 9300 5250 50  0000 L CNN
-	1    9250 5350
+P 9250 5450
+F 0 "C32" H 9300 5550 50  0000 L CNN
+F 1 "0.1uF" H 9300 5350 50  0000 L CNN
+	1    9250 5450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R28
 U 1 1 4F17882B
-P 9600 5150
-F 0 "R28" V 9680 5150 50  0000 C CNN
-F 1 "470" V 9600 5150 50  0000 C CNN
-	1    9600 5150
+P 9600 5250
+F 0 "R28" V 9680 5250 50  0000 C CNN
+F 1 "470" V 9600 5250 50  0000 C CNN
+	1    9600 5250
 	0    1    -1   0   
 $EndComp
 $Comp
 L DIODESCH D7
 U 1 1 4F1787F9
-P 10050 5350
-F 0 "D7" H 10050 5450 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 5250 40  0000 C CNN
-	1    10050 5350
+P 10050 5450
+F 0 "D7" H 10050 5550 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 5350 40  0000 C CNN
+	1    10050 5450
 	0    1    -1   0   
 $EndComp
 $Comp
 L DIODESCH D6
 U 1 1 4F1787D6
-P 10050 4950
-F 0 "D6" H 10050 5050 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 4850 40  0000 C CNN
-	1    10050 4950
+P 10050 5050
+F 0 "D6" H 10050 5150 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 4950 40  0000 C CNN
+	1    10050 5050
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1239,17 +1332,17 @@ F 1 ".." H 4100 7555 30  0001 C CNN
 	1    4100 7500
 	0    -1   -1   0   
 $EndComp
-Text Notes 10450 3300 0    40   ~ 0
-CPU Pin 73
+Text Notes 10450 2450 0    40   ~ 0
+CPU Pin 72
 Text Notes 8200 5150 1    40   ~ 0
 CPU Pin 69
 Text Notes 7900 4100 1    40   ~ 0
 CPU Pin 67
-Text Notes 10450 1750 0    40   ~ 0
+Text Notes 10450 1100 0    40   ~ 0
 CPU Pin 71
 Text Notes 7750 1850 0    40   ~ 0
 CPU Pin 81
-Text Notes 10550 5100 0    40   ~ 0
+Text Notes 10550 5200 0    40   ~ 0
 CPU Pin 79
 Text Notes 4698 5800 0    40   ~ 0
 CPU Pin 11
@@ -1259,17 +1352,15 @@ Text HLabel 1700 6100 2    40   Output ~ 0
 DIS-Bypass-OUT
 Text Notes 6700 6050 0    60   ~ 0
 Coolant Temperature
-Text Notes 9200 4000 0    60   ~ 0
-Exhaust Oxygen Sensor
+Text Notes 9200 3150 0    60   ~ 0
+Mass Air Flow Sensor
 Text Notes 6650 4200 0    60   ~ 0
 Intake Air Temperature
-Text Notes 9200 2450 0    60   ~ 0
+Text Notes 9200 1800 0    60   ~ 0
 Throttle Position Sensor
 Text Notes 6400 2450 0    60   ~ 0
 Manifold Air Temperature
-Text HLabel 9100 3750 0    40   Input ~ 0
-O2-Sensor-GND
-Text HLabel 9150 2200 0    40   Input ~ 0
+Text HLabel 9150 1550 0    40   Input ~ 0
 TPS-Sensor-GND
 $Comp
 L R R31
@@ -1314,27 +1405,27 @@ Coolant-CPU-Signal
 Text Label 7000 5600 0    40   ~ 0
 Ground
 $Comp
-L R R33
+L R R82
 U 1 1 4F0B937E
-P 9550 3350
-F 0 "R33" V 9630 3350 50  0000 C CNN
-F 1 "470" V 9550 3350 50  0000 C CNN
-	1    9550 3350
+P 9550 2500
+F 0 "R82" V 9630 2500 50  0000 C CNN
+F 1 "470" V 9550 2500 50  0000 C CNN
+	1    9550 2500
 	0    1    1    0   
 $EndComp
 $Comp
-L C C38
+L C C51
 U 1 1 4F0B937C
-P 10350 3550
-F 0 "C38" H 10400 3650 50  0000 L CNN
-F 1 "0.22uF" H 10400 3450 50  0000 L CNN
-	1    10350 3550
+P 10350 2700
+F 0 "C51" H 10400 2800 50  0000 L CNN
+F 1 "0.22uF" H 10400 2600 50  0000 L CNN
+	1    10350 2700
 	1    0    0    -1  
 $EndComp
-Text HLabel 9100 3350 0    40   Input ~ 0
-O2-Sensor
-Text HLabel 10450 3350 2    40   Output ~ 0
-O2-CPU-Signal
+Text HLabel 9100 2500 0    40   Input ~ 0
+MAF-Sensor
+Text HLabel 10450 2500 2    40   Output ~ 0
+MAF-CPU-Signal
 Text HLabel 7950 3650 3    40   Output ~ 0
 IAT-CPU-Signal
 Text HLabel 6400 3450 0    40   Input ~ 0
@@ -1375,35 +1466,35 @@ F 1 "2.49k" V 6400 3200 50  0000 C CNN
 	1    6400 3200
 	1    0    0    -1  
 $EndComp
-Text HLabel 10450 1800 2    40   Output ~ 0
+Text HLabel 10450 1150 2    40   Output ~ 0
 TPS-CPU-Signal
-Text HLabel 9150 1800 0    40   Input ~ 0
+Text HLabel 9150 1150 0    40   Input ~ 0
 TPS-Sensor
 $Comp
 L C C37
 U 1 1 4F0B9359
-P 10350 2000
-F 0 "C37" H 10400 2100 50  0000 L CNN
-F 1 "0.22uF" H 10400 1900 50  0000 L CNN
-	1    10350 2000
+P 10350 1350
+F 0 "C37" H 10400 1450 50  0000 L CNN
+F 1 "0.22uF" H 10400 1250 50  0000 L CNN
+	1    10350 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C35
 U 1 1 4F0B9358
-P 9150 2000
-F 0 "C35" H 9200 2100 50  0000 L CNN
-F 1 "0.1uF" H 9200 1900 50  0000 L CNN
-	1    9150 2000
+P 9150 1350
+F 0 "C35" H 9200 1450 50  0000 L CNN
+F 1 "0.1uF" H 9200 1250 50  0000 L CNN
+	1    9150 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R34
 U 1 1 4F0B9357
-P 9600 1800
-F 0 "R34" V 9680 1800 50  0000 C CNN
-F 1 "470" V 9600 1800 50  0000 C CNN
-	1    9600 1800
+P 9600 1150
+F 0 "R34" V 9680 1150 50  0000 C CNN
+F 1 "470" V 9600 1150 50  0000 C CNN
+	1    9600 1150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1450,28 +1541,28 @@ Text Notes 4850 7650 0    60   ~ 0
 Manifold Absolute Pressure
 Text Notes 2300 6450 0    60   ~ 0
 Ignition Timing Advance Output
-Text Notes 9200 6000 0    60   ~ 0
+Text Notes 9200 6100 0    60   ~ 0
 Battery Reference Voltage
-Text HLabel 10600 5150 2    40   Output ~ 0
+Text HLabel 10600 5250 2    40   Output ~ 0
 BRV
-Text HLabel 8850 4600 0    40   Input ~ 0
+Text HLabel 8850 4700 0    40   Input ~ 0
 BRV-12v
 $Comp
 L R R30
 U 1 1 4F0B8F55
-P 8850 5450
-F 0 "R30" V 8930 5450 50  0000 C CNN
-F 1 "1k" V 8850 5450 50  0000 C CNN
-	1    8850 5450
+P 8850 5550
+F 0 "R30" V 8930 5550 50  0000 C CNN
+F 1 "1k" V 8850 5550 50  0000 C CNN
+	1    8850 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R29
 U 1 1 4F0B8F4F
-P 8850 4850
-F 0 "R29" V 8930 4850 50  0000 C CNN
-F 1 "3.9k" V 8850 4850 50  0000 C CNN
-	1    8850 4850
+P 8850 4950
+F 0 "R29" V 8930 4950 50  0000 C CNN
+F 1 "3.9k" V 8850 4950 50  0000 C CNN
+	1    8850 4950
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 6850 7150
