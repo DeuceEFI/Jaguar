@@ -1,10 +1,20 @@
 # To Do List
 
-JAG 07/05/2012 1527 EST (GMT-0500)
+JAG 08/29/2012 2015 EST (GMT-0500)
 
 Things left to do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 
+
+Add MAF input protection circuit
 Update documentation to reflect these changes for the A4 PCB
+
+----------
+Jaguar Wish List Items:
+
+Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
+Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
+Bluetooth TTL serial header in addition to the USB interface.
+Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
 
 ----------
 Items Completed:
@@ -43,10 +53,4 @@ Update the Jaguar Assembly Manual with photos of the Serial #1 build. - DONE 07/
 Add instructions to use High Temperature Silicone or something similar to brace the upright components - DONE 07/05/2012
 
  
-----------
-Jaguar Wish List Items:
 
-Add a SPST switch of some kind for the LOAD/RUN switch instead of a pin header to allow firmware updates without opening the case
-Add an AAP sensor in addition to the existing MAP sensor for measuring the atmospheric pressure
-Bluetooth TTL serial header in addition to the USB interface.
-Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists
