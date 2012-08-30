@@ -15,27 +15,27 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B connector).
- * 2 RPM/Position VR or Hall/Opto/Digital inputs (Crankshaft 3x or 24x RPM sensor and 1x camshaft position sensor, CAM indicates cylinder #1).
+ * 2 RPM/Position VR or Hall/Opto/Digital inputs (GM DIS 3x and 1x camshaft position sensor, CAM indicates cylinder #1).
  * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
  * 1 Optional MAF analog input pin, no supporting circuitry (for future use).
  * 1 ignition advance output to GM DIS/GM HEI/Ford EDIS module.
- * 1 DIS Bypass signal output from CPU.
- * 8 injector drives (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4567 or 1 injector per CPU output using Port B0-7 once firmware is ready.
+ * 1 DIS Bypass signal output to GM DIS/GM HEI module.
+ * 8 injector drivers (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4567 or 1 injector per CPU output using Port B0-7 once firmware is ready.
  * 6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).
  * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
- * 1 Fuel Pump relay drive.
- * 1 Cooling Fan relay drive.
- * 1 Accessory relay drive (Boost/Idle/TCC Lockup).
+ * 1 Fuel Pump relay driver.
+ * 1 Cooling Fan relay driver.
+ * 1 Accessory relay driver (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
-PCB Size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
+PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com 
 
 The suggested connectors are TE Connectivity (www.te.com) Automotive Grade water resistant connectors. 
-The all 35 positions are used for inputs/outputs.
+All 35 positions on the connector are used for inputs/outputs when using all 8 injector drivers and all 3 relay drivers.
 
 Connector Part #'s:
 

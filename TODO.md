@@ -37,6 +37,7 @@ To do For Revision A4 PCB based on what has been learned from Revision A3 PCB:
 31. Add git hash to PCB design file for tracking
 32. Update documentation to reflect these changes
 33. Update the Jaguar Assembly Manual with photos of the Serial #1 build.
+34. Add MAF input protection circuitry.
  
 ----------
 Jaguar Wish List Items:
