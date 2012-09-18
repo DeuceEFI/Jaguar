@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 29 Aug 2012 07:47:00 PM EDT
+EESchema Schematic File Version 2  date Tue 18 Sep 2012 06:00:01 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "9 aug 2012"
+Date "18 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,21 +18,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7800 3350
+Connection ~ 7500 2850
+Connection ~ 7500 2950
+Connection ~ 7500 3050
+Connection ~ 7500 3150
+Connection ~ 8600 2850
+Connection ~ 8600 2950
+Connection ~ 8600 3050
+Connection ~ 8600 3150
 Wire Wire Line
-	7800 3350 7500 3350
-Connection ~ 7200 1950
-Connection ~ 7400 1650
+	8600 3200 8600 3150
 Wire Wire Line
-	7400 1650 7150 1650
-Wire Wire Line
-	7750 1950 7750 2500
-Wire Wire Line
-	7750 1950 7600 1950
-Wire Wire Line
-	7750 2500 7500 2500
-Wire Wire Line
-	7500 2500 7500 2950
+	7500 2850 7200 2850
 Wire Wire Line
 	7500 2950 6800 2950
 Wire Wire Line
@@ -101,7 +98,6 @@ Wire Wire Line
 	4950 4850 6200 4850
 Wire Wire Line
 	8400 3950 8400 3650
-Connection ~ 7750 2500
 Wire Wire Line
 	4750 3650 4950 3650
 Connection ~ 4950 3650
@@ -116,8 +112,6 @@ Connection ~ 2550 2000
 Connection ~ 2550 2500
 Wire Wire Line
 	6800 3050 7500 3050
-Wire Wire Line
-	7500 3050 7500 3350
 Wire Notes Line
 	3950 3550 4850 3550
 Wire Notes Line
@@ -130,37 +124,21 @@ Wire Wire Line
 	2600 4850 2750 4850
 Connection ~ 2600 4850
 Wire Wire Line
-	6200 4850 6200 4950
+	7150 3150 7500 3150
+Text Label 7450 3150 2    40   ~ 0
+USB-GND
 $Comp
-L BC237 Q12
-U 1 1 4FF8BBCD
-P 7400 1850
-F 0 "Q12" V 7300 1700 50  0000 C CNN
-F 1 "2N3906" V 7250 2050 50  0000 C CNN
-	1    7400 1850
-	0    1    1    0   
+L ADUMX201 U8
+U 1 1 5058DC75
+P 8050 3000
+F 0 "U8" H 8050 3300 60  0000 C CNN
+F 1 "ADUMX201" H 8050 2700 60  0000 C CNN
+	1    8050 3000
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 2600 5150
 Text Notes 4000 3850 0    55   ~ 0
 R55 is Optional\npopulate if needed
-$Comp
-L CONN_1 P46
-U 1 1 4F40049E
-P 7750 2650
-F 0 "P46" H 7830 2650 40  0000 L CNN
-F 1 "RXB" H 7750 2705 30  0001 C CNN
-	1    7750 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_1 P47
-U 1 1 4F40047F
-P 7800 3200
-F 0 "P47" H 7880 3200 40  0000 L CNN
-F 1 "TXB" H 7800 3255 30  0001 C CNN
-	1    7800 3200
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6800 3150
 NoConn ~ 6800 3250
 NoConn ~ 6800 3350
@@ -199,17 +177,17 @@ F 1 "USB_B-MINI" H 2225 4450 60  0001 C CNN
 	1    2250 5050
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6200 4850 2    40   Input ~ 0
+Text HLabel 8600 3150 2    40   Input ~ 0
 GND
 Text Notes 5250 2350 0    40   ~ 0
 Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
 L GND #PWR015
 U 1 1 4F1C30B1
-P 6200 4950
-F 0 "#PWR015" H 6200 4950 30  0001 C CNN
-F 1 "GND" H 6200 4880 30  0001 C CNN
-	1    6200 4950
+P 8600 3200
+F 0 "#PWR015" H 8600 3200 30  0001 C CNN
+F 1 "GND" H 8600 3130 30  0001 C CNN
+	1    8600 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -232,7 +210,7 @@ F 1 "2.4k" V 4500 3650 50  0000 C CNN
 	1    4500 3650
 	0    1    1    0   
 $EndComp
-Text Label 7150 1650 0    40   ~ 0
+Text Label 7450 2850 2    40   ~ 0
 5v-USB
 Text Label 8400 3650 0    40   ~ 0
 5v-USB
@@ -311,11 +289,11 @@ NoConn ~ 4950 3550
 NoConn ~ 4950 3750
 NoConn ~ 4950 3950
 NoConn ~ 4950 3850
-Text HLabel 7750 2500 2    40   BiDi ~ 0
+Text HLabel 8600 2950 2    40   BiDi ~ 0
 RX
-Text HLabel 7800 3350 2    40   BiDi ~ 0
+Text HLabel 8600 3050 2    40   BiDi ~ 0
 TX
-Text HLabel 7200 1950 0    40   Input ~ 0
+Text HLabel 8600 2850 2    40   Input ~ 0
 5vdc-ft232rl
 NoConn ~ 6800 3650
 NoConn ~ 6800 3550

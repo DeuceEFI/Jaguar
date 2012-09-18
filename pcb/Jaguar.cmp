@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 09 Aug 2012 03:50:45 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 18 Sep 2012 06:00:45 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -995,20 +995,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F40049E;
-Reference = P46;
-ValeurCmp = RXB;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F40047F;
-Reference = P47;
-ValeurCmp = TXB;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FF7158B;
 Reference = P50;
 ValeurCmp = INJ3-GND;
@@ -1146,13 +1132,6 @@ TimeStamp = /4F0D82A1/4F21BF57;
 Reference = Q11;
 ValeurCmp = VNN7NV0413TR;
 IdModule  = SOT223-MOSFET;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4FF8BBCD;
-Reference = Q12;
-ValeurCmp = 2N3906;
-IdModule  = transistor-TO92-EBC;
 EndCmp
 
 BeginCmp
@@ -1741,6 +1720,13 @@ TimeStamp = /4F0A2F06/4F0A3F95/4F0A4204;
 Reference = U7;
 ValeurCmp = FT232RL;
 IdModule  = SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/5058DC75;
+Reference = U8;
+ValeurCmp = ADUMX201;
+IdModule  = so-8;
 EndCmp
 
 BeginCmp
