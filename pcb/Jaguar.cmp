@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 18 Sep 2012 06:00:45 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 21 Sep 2012 11:14:59 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1040,6 +1040,34 @@ BeginCmp
 TimeStamp = /502413D0;
 Reference = P56;
 ValeurCmp = MAF-CPU-Signal;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/505D24DB;
+Reference = P57;
+ValeurCmp = TX1;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/505D24CE;
+Reference = P58;
+ValeurCmp = RX1;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/505D2CDB;
+Reference = P59;
+ValeurCmp = TX;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/505D2CE4;
+Reference = P60;
+ValeurCmp = RX;
 IdModule  = WireConnection;
 EndCmp
 

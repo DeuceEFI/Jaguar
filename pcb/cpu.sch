@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 18 Sep 2012 06:00:01 PM EDT
+EESchema Schematic File Version 2  date Fri 21 Sep 2012 11:15:08 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "18 sep 2012"
+Date "22 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,6 +18,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5600 1650
+Connection ~ 5500 1650
+$Comp
+L CONN_1 P60
+U 1 1 505D2CE4
+P 5600 1500
+F 0 "P60" H 5680 1500 40  0000 L CNN
+F 1 "RX" H 5600 1555 30  0001 C CNN
+	1    5600 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P59
+U 1 1 505D2CDB
+P 5500 1500
+F 0 "P59" H 5580 1500 40  0000 L CNN
+F 1 "TX" H 5500 1555 30  0001 C CNN
+	1    5500 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 1750
+Connection ~ 5400 1750
+$Comp
+L CONN_1 P57
+U 1 1 505D24DB
+P 5300 1600
+F 0 "P57" H 5380 1600 40  0000 L CNN
+F 1 "TX1" H 5300 1655 30  0001 C CNN
+	1    5300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P58
+U 1 1 505D24CE
+P 5400 1600
+F 0 "P58" H 5480 1600 40  0000 L CNN
+F 1 "RX1" H 5400 1655 30  0001 C CNN
+	1    5400 1600
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	7150 1750 6000 1750
 Wire Wire Line
@@ -753,8 +793,6 @@ NoConn ~ 7000 3150
 NoConn ~ 7000 2950
 NoConn ~ 5800 1750
 NoConn ~ 5700 1750
-NoConn ~ 5400 1750
-NoConn ~ 5300 1750
 NoConn ~ 5200 1750
 NoConn ~ 5100 1750
 NoConn ~ 4900 1750
