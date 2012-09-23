@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 21 Sep 2012 11:14:59 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 22 Sep 2012 09:01:06 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -808,28 +808,28 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB599;
 Reference = P14;
-ValeurCmp = CRANK+;
+ValeurCmp = RPM0+;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F186A57;
 Reference = P15;
-ValeurCmp = CRANK-;
+ValeurCmp = RPM0-;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F1248F4;
 Reference = P16;
-ValeurCmp = CAM+;
+ValeurCmp = RPM1+;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F124A8E;
 Reference = P17;
-ValeurCmp = CAM-;
+ValeurCmp = RPM1-;
 IdModule  = WireConnection;
 EndCmp
 
@@ -976,14 +976,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F2A0D4D;
 Reference = P43;
-ValeurCmp = Crank-Shield;
+ValeurCmp = RPM0-Shield;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F2A0D57;
 Reference = P44;
-ValeurCmp = Cam-Shield;
+ValeurCmp = RPM1-Shield;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1068,6 +1068,20 @@ BeginCmp
 TimeStamp = /4F0A2F06/505D2CE4;
 Reference = P60;
 ValeurCmp = RX;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /505E593A;
+Reference = P61;
+ValeurCmp = Fan-Out;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /505E5BF7;
+Reference = P62;
+ValeurCmp = PK5;
 IdModule  = WireConnection;
 EndCmp
 

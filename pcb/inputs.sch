@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 21 Sep 2012 11:15:08 PM EDT
+EESchema Schematic File Version 2  date Sat 22 Sep 2012 09:01:10 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "22 sep 2012"
+Date "23 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,74 +18,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 10450 3850 2    40   Output ~ 0
-O2-CPU-Signal
-Text HLabel 9100 3850 0    40   Input ~ 0
-O2-Sensor
-$Comp
-L C C38
-U 1 1 5023F4F5
-P 10350 4050
-F 0 "C38" H 10400 4150 50  0000 L CNN
-F 1 "0.22uF" H 10400 3950 50  0000 L CNN
-	1    10350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R33
-U 1 1 5023F4F4
-P 9550 3850
-F 0 "R33" V 9630 3850 50  0000 C CNN
-F 1 "470" V 9550 3850 50  0000 C CNN
-	1    9550 3850
-	0    1    1    0   
-$EndComp
-Text HLabel 9100 4250 0    40   Input ~ 0
-O2-Sensor-GND
-Text Notes 9200 4500 0    60   ~ 0
-Exhaust Oxygen Sensor
-Text Notes 10450 3800 0    40   ~ 0
-CPU Pin 73
-$Comp
-L C C34
-U 1 1 5023F4F3
-P 9100 4050
-F 0 "C34" H 9150 4150 50  0000 L CNN
-F 1 "0.1uF" H 9150 3950 50  0000 L CNN
-	1    9100 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODESCH D17
-U 1 1 5023F4F2
-P 10050 4050
-F 0 "D17" H 10050 4150 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 3950 40  0000 C CNN
-	1    10050 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DIODESCH D16
-U 1 1 5023F4F1
-P 10050 3650
-F 0 "D16" H 10050 3750 40  0000 C CNN
-F 1 "1N5818-TP" H 10050 3550 40  0000 C CNN
-	1    10050 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR016
-U 1 1 5023F4F0
-P 10350 4350
-F 0 "#PWR016" H 10350 4350 30  0001 C CNN
-F 1 "GND" H 10350 4280 30  0001 C CNN
-	1    10350 4350
-	1    0    0    -1  
-$EndComp
-Text HLabel 10050 3450 0    40   Input ~ 0
-5vdc-analog
-Text Label 9750 4250 0    40   ~ 0
-Ground
+Wire Notes Line
+	4000 2950 4000 3350
+Wire Notes Line
+	4000 2950 3500 2950
+Wire Notes Line
+	3500 2950 3500 3350
+Wire Notes Line
+	2800 1700 3500 1700
+Wire Notes Line
+	2800 1700 2800 1400
+Wire Notes Line
+	2800 1400 3500 1400
+Wire Notes Line
+	3500 1400 3500 1700
+Wire Notes Line
+	3500 3300 3500 3600
 Wire Notes Line
 	11050 4550 11050 3300
 Wire Notes Line
@@ -111,14 +59,6 @@ Wire Wire Line
 	10350 4250 10350 4350
 Wire Notes Line
 	8500 3300 8500 4550
-Text Label 4200 5850 0    25   ~ 0
-Ignition-Advance-Signal
-Text Label 4600 5850 0    25   ~ 0
-CPU-Pin-11-PT2
-Text Label 3700 5700 0    25   ~ 0
-IGN-Advance-Polarity
-Text Label 4200 6050 0    25   ~ 0
-Ignition-Advance
 Wire Wire Line
 	1750 5900 1750 6050
 Wire Wire Line
@@ -671,6 +611,114 @@ Wire Notes Line
 	3850 6250 3850 6500
 Wire Notes Line
 	3850 6500 3750 6500
+Wire Notes Line
+	3550 1650 3550 2100
+Wire Notes Line
+	3550 1650 3600 1650
+Wire Notes Line
+	3600 1650 3600 1600
+Wire Notes Line
+	3600 1600 3950 1600
+Wire Notes Line
+	3950 1600 3950 1850
+Wire Notes Line
+	3950 1850 4050 1850
+Wire Notes Line
+	4050 1850 4050 2100
+Wire Notes Line
+	4050 2100 3550 2100
+Wire Notes Line
+	3500 3300 2700 3300
+Wire Notes Line
+	2700 3300 2700 3600
+Wire Notes Line
+	2700 3600 3500 3600
+Wire Notes Line
+	3500 3350 4000 3350
+Text Notes 2850 1550 0    35   ~ 0
+Only use C25\nif needed.
+Text Notes 2800 3450 0    35   ~ 0
+Only use C25\nif needed.
+Text Notes 3550 3050 0    35   ~ 0
+R16 is for \nVR Input ONLY.
+Text Notes 3600 1950 0    35   ~ 0
+R19 is for \nVR Input ONLY.
+Text HLabel 10450 3850 2    40   Output ~ 0
+O2-CPU-Signal
+Text HLabel 9100 3850 0    40   Input ~ 0
+O2-Sensor
+$Comp
+L C C38
+U 1 1 5023F4F5
+P 10350 4050
+F 0 "C38" H 10400 4150 50  0000 L CNN
+F 1 "0.22uF" H 10400 3950 50  0000 L CNN
+	1    10350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 5023F4F4
+P 9550 3850
+F 0 "R33" V 9630 3850 50  0000 C CNN
+F 1 "470" V 9550 3850 50  0000 C CNN
+	1    9550 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 9100 4250 0    40   Input ~ 0
+O2-Sensor-GND
+Text Notes 9200 4500 0    60   ~ 0
+Exhaust Oxygen Sensor
+Text Notes 10450 3800 0    40   ~ 0
+CPU Pin 73
+$Comp
+L C C34
+U 1 1 5023F4F3
+P 9100 4050
+F 0 "C34" H 9150 4150 50  0000 L CNN
+F 1 "0.1uF" H 9150 3950 50  0000 L CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D17
+U 1 1 5023F4F2
+P 10050 4050
+F 0 "D17" H 10050 4150 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 3950 40  0000 C CNN
+	1    10050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODESCH D16
+U 1 1 5023F4F1
+P 10050 3650
+F 0 "D16" H 10050 3750 40  0000 C CNN
+F 1 "1N5818-TP" H 10050 3550 40  0000 C CNN
+	1    10050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5023F4F0
+P 10350 4350
+F 0 "#PWR016" H 10350 4350 30  0001 C CNN
+F 1 "GND" H 10350 4280 30  0001 C CNN
+	1    10350 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 10050 3450 0    40   Input ~ 0
+5vdc-analog
+Text Label 9750 4250 0    40   ~ 0
+Ground
+Text Label 4200 5850 0    25   ~ 0
+Ignition-Advance-Signal
+Text Label 4600 5850 0    25   ~ 0
+CPU-Pin-11-PT2
+Text Label 3700 5700 0    25   ~ 0
+IGN-Advance-Polarity
+Text Label 4200 6050 0    25   ~ 0
+Ignition-Advance
 Text Label 1750 5900 0    25   ~ 0
 DIS-Bypass-Output
 Text Label 1050 5950 0    25   ~ 0
@@ -780,7 +828,7 @@ For Ford EDIS do not populate \nR64 and R65 and connect U5 \npins 5 and 6 to +5v
 Text Notes 6050 750  0    40   ~ 0
 R24, R25 and R31 (2.49k) can be replaced if using sensors other than\nGM temperature sensors; For FORD Sensors: use 27.4k 0.1% Metal Film\nresistors; for MOPAR Sensors: use 9.1k 0.1% Metal Film resistors or \nuse 2.43k 0.1% Metal Film resistors (best for most cases).  Be sure to\nuse FreeTherm to adjust the values in the FreeEMS code for the best\naccuracy irregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0
-For GM DIS and Ford EDIS leave Crank-IN- and Cam-IN- totally disconnected.\n\nFor Ford EDIS do not connect Cam-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
+For GM DIS and Ford EDIS leave RPM0-IN- and RPM1-IN- totally disconnected.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR19, R16, R20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
 Text Notes 800  6050 0    40   ~ 0
 CPU Pin 12 (PT3)
 $Comp
@@ -893,7 +941,7 @@ F 1 "5k" V 4100 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 650  3800 0    40   ~ 0
-NOTE: MAX9926 should be configured as Mode A2 \nfor both VR and Hall/Opto/Digital inputs.\nLeave Crank-IN- and Cam-IN- disconnected (floating)\nfor Hall/Opto/Digital inputs.\n\nRead this link for more information on why this works:\nhttp://forum.diyefi.org/viewtopic.php?f=53&t=1049
+NOTE: MAX9926 should be configured as Mode A2 \nfor both VR and Hall/Opto/Digital inputs.\nLeave RPM0-IN- and RPM1-IN- disconnected (floating)\nfor Hall/Opto/Digital inputs.\n\nRead this link for more information on why this works:\nhttp://forum.diyefi.org/viewtopic.php?f=53&t=1049
 $Comp
 L R R16
 U 1 1 4F187F85
@@ -904,9 +952,9 @@ F 1 "10k" V 3750 3250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 4050 3050 0    40   ~ 0
-Do NOT Connect Cam-IN- \nfor Hall/Opto/Digital
+Do NOT Connect RPM1-IN- \nfor Hall/Opto/Digital
 Text Notes 4100 1900 0    40   ~ 0
-Do NOT Connect Crank-IN- \nfor Hall/Opto/Digital
+Do NOT Connect RPM0-IN- \nfor Hall/Opto/Digital
 $Comp
 L GND #PWR019
 U 1 1 4F1D8DAC
@@ -921,9 +969,9 @@ NoConn ~ 4100 7650
 Text HLabel 10050 750  2    40   Output ~ 0
 TPS-5vdc
 Text HLabel 4150 3200 2    40   BiDi ~ 0
-Cam-IN-
+RPM1-IN-
 Text HLabel 4150 1800 2    40   BiDi ~ 0
-Crank-IN-
+RPM0-IN-
 $Comp
 L GND #PWR020
 U 1 1 4F1C330A
@@ -1066,8 +1114,8 @@ $Comp
 L C C25
 U 1 1 4F187F87
 P 3400 3450
-F 0 "C25" H 3450 3550 50  0000 L CNN
-F 1 "1nF" H 3450 3350 50  0000 L CNN
+F 0 "C25" H 3250 3550 50  0000 L CNN
+F 1 "1nF" H 3250 3350 50  0000 L CNN
 	1    3400 3450
 	1    0    0    -1  
 $EndComp
@@ -1120,8 +1168,8 @@ $Comp
 L C C24
 U 1 1 4F187E1E
 P 3400 1550
-F 0 "C24" H 3450 1650 50  0000 L CNN
-F 1 "1nF" H 3450 1450 50  0000 L CNN
+F 0 "C24" H 3250 1650 50  0000 L CNN
+F 1 "1nF" H 3250 1450 50  0000 L CNN
 	1    3400 1550
 	1    0    0    -1  
 $EndComp
@@ -1156,9 +1204,9 @@ F 1 "MAX9926UAEE+" H 2450 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 750  2550 3    40   BiDi ~ 0
-CamPosition-OUT
+RPM1-OUT
 Text HLabel 4150 3700 2    40   BiDi ~ 0
-Cam-IN+
+RPM1-IN+
 Text Notes 4150 6500 0    40   ~ 0
 CPU Pin 75
 $Comp
@@ -1347,7 +1395,7 @@ CPU Pin 79
 Text Notes 4698 5800 0    40   ~ 0
 CPU Pin 11
 Text HLabel 750  2250 1    40   Output ~ 0
-Crank-OUT
+RPM0-OUT
 Text HLabel 1700 6100 2    40   Output ~ 0
 DIS-Bypass-OUT
 Text Notes 6700 6050 0    60   ~ 0
@@ -1616,7 +1664,7 @@ F 1 "MPX4100AP" H 6200 6750 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 4150 1300 2    40   BiDi ~ 0
-Crank-IN+
+RPM0-IN+
 Text HLabel 4600 5850 2    40   BiDi ~ 0
 IGN-Advance-Signal
 Text HLabel 4250 6050 2    40   Output ~ 0

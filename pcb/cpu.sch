@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 21 Sep 2012 11:15:08 PM EDT
+EESchema Schematic File Version 2  date Sat 22 Sep 2012 09:01:10 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "22 sep 2012"
+Date "23 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,6 +18,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2200 4650
+Text HLabel 2200 4650 0    40   Output ~ 0
+PK5
+Connection ~ 3500 6550
+Connection ~ 3400 6550
+Connection ~ 3300 6550
+Connection ~ 2200 5550
+Connection ~ 2200 5450
+Connection ~ 2200 5350
+Connection ~ 2200 5250
+Connection ~ 2200 5150
+Connection ~ 2200 4750
+Connection ~ 2200 4550
+Connection ~ 2200 4450
+Text HLabel 2200 4750 0    40   Output ~ 0
+Fan-PK4
 Connection ~ 5600 1650
 Connection ~ 5500 1650
 $Comp
@@ -736,9 +752,9 @@ Injector1-PT
 Text HLabel 2200 3850 0    40   Output ~ 0
 DIS-Advance-Signal
 Text HLabel 2200 3750 0    40   Input ~ 0
-Cam-Position
+RPM1
 Text HLabel 2200 3650 0    40   Input ~ 0
-Tach-Signal
+RPM0
 $Comp
 L MC9S12XDP512 U1
 U 1 1 4F0A2F47
@@ -765,8 +781,6 @@ NoConn ~ 2200 3250
 NoConn ~ 2200 3350
 NoConn ~ 2200 3450
 NoConn ~ 2200 3550
-NoConn ~ 2200 4650
-NoConn ~ 2200 4750
 NoConn ~ 2200 4850
 NoConn ~ 2200 4950
 NoConn ~ 3600 6550

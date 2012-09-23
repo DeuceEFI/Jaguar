@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 21 Sep 2012 11:15:08 PM EDT
+EESchema Schematic File Version 2  date Sat 22 Sep 2012 09:01:10 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "22 sep 2012"
+Date "23 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,6 +18,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_1 P62
+U 1 1 505E5BF7
+P 7050 2100
+F 0 "P62" H 7130 2100 40  0000 L CNN
+F 1 "PK5" H 7050 2155 30  0001 C CNN
+	1    7050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P61
+U 1 1 505E593A
+P 7050 2000
+F 0 "P61" H 7130 2000 40  0000 L CNN
+F 1 "Fan-Out" H 7050 2055 30  0001 C CNN
+	1    7050 2000
+	1    0    0    -1  
+$EndComp
 Connection ~ 4800 2400
 Connection ~ 4800 2300
 Connection ~ 5200 2300
@@ -258,15 +276,15 @@ P44
 Text GLabel 6500 6550 2    40   Input ~ 0
 P43
 Text Notes 8900 4250 0    30   ~ 0
-Cam-Shield
+RPM1-Shield
 Text Notes 8900 4150 0    30   ~ 0
-Crank-Shield
+RPM0-Shield
 $Comp
 L CONN_1 P44
 U 1 1 4F2A0D57
 P 8850 4250
 F 0 "P44" H 8930 4250 40  0000 L CNN
-F 1 "Cam-Shield" H 8850 4305 30  0001 C CNN
+F 1 "RPM1-Shield" H 8850 4305 30  0001 C CNN
 	1    8850 4250
 	-1   0    0    1   
 $EndComp
@@ -275,7 +293,7 @@ L CONN_1 P43
 U 1 1 4F2A0D4D
 P 8850 4150
 F 0 "P43" H 8930 4150 40  0000 L CNN
-F 1 "Crank-Shield" H 8850 4205 30  0001 C CNN
+F 1 "RPM0-Shield" H 8850 4205 30  0001 C CNN
 	1    8850 4150
 	-1   0    0    1   
 $EndComp
@@ -593,7 +611,7 @@ F 1 "PT4-7" V 6500 4000 50  0000 C CNN
 $EndComp
 Text GLabel 9300 6150 0    40   Input ~ 0
 DIS-Bypass
-Text GLabel 6900 2100 2    40   Output ~ 0
+Text GLabel 6900 2200 2    40   Output ~ 0
 DIS-Bypass
 $Comp
 L CONN_8 P33
@@ -648,34 +666,36 @@ U 4F0A2F06
 F0 "CPU" 40
 F1 "cpu.sch" 40
 F2 "Fuel-Pump-Drive" O R 6900 2400 40 
-F3 "DIS-Advance-Signal" O R 6900 2200 40 
-F4 "Tach-Signal" I L 5200 1250 40 
-F5 "MAF-Signal" I L 5200 2300 40 
-F6 "MAT-Signal" I L 5200 2100 40 
-F7 "BRV-Signal" I L 5200 1800 40 
-F8 "MAP-Signal" I L 5200 1700 40 
-F9 "O2-Signal" I L 5200 2000 40 
-F10 "TPS-Signal" I L 5200 1900 40 
-F11 "Coolant-Signal" I L 5200 1600 40 
-F12 "IAT-Signal" I L 5200 1500 40 
-F13 "AAP-Signal" I L 5200 2200 40 
-F14 "Cam-Position" I L 5200 1350 40 
-F15 "5vdc-analog" I L 5200 850 40 
-F16 "5vdc-cpu" I L 5200 750 40 
-F17 "Injector6-PB" O R 6900 1700 40 
-F18 "Injector5-PB" O R 6900 1600 40 
-F19 "Injector4-PB" O R 6900 1500 40 
-F20 "Injector3-PB" O R 6900 1400 40 
-F21 "Injector2-PB" O R 6900 1300 40 
-F22 "Injector1-PB" O R 6900 1200 40 
-F23 "Injector3-PT" O R 6900 950 40 
-F24 "Injector2-PT" O R 6900 850 40 
-F25 "Injector1-PT" O R 6900 750 40 
-F26 "DIS-Bypass-PT" O R 6900 2100 40 
-F27 "Injector4-PT" O R 6900 1050 40 
-F28 "Injector8-PB" O R 6900 1900 40 
-F29 "Injector7-PB" O R 6900 1800 40 
-F30 "PCB-GND" I L 5200 2400 40 
+F3 "DIS-Advance-Signal" O R 6900 2300 40 
+F4 "MAF-Signal" I L 5200 2300 40 
+F5 "MAT-Signal" I L 5200 2100 40 
+F6 "BRV-Signal" I L 5200 1800 40 
+F7 "MAP-Signal" I L 5200 1700 40 
+F8 "O2-Signal" I L 5200 2000 40 
+F9 "TPS-Signal" I L 5200 1900 40 
+F10 "Coolant-Signal" I L 5200 1600 40 
+F11 "IAT-Signal" I L 5200 1500 40 
+F12 "AAP-Signal" I L 5200 2200 40 
+F13 "5vdc-analog" I L 5200 850 40 
+F14 "5vdc-cpu" I L 5200 750 40 
+F15 "Injector6-PB" O R 6900 1700 40 
+F16 "Injector5-PB" O R 6900 1600 40 
+F17 "Injector4-PB" O R 6900 1500 40 
+F18 "Injector3-PB" O R 6900 1400 40 
+F19 "Injector2-PB" O R 6900 1300 40 
+F20 "Injector1-PB" O R 6900 1200 40 
+F21 "Injector3-PT" O R 6900 950 40 
+F22 "Injector2-PT" O R 6900 850 40 
+F23 "Injector1-PT" O R 6900 750 40 
+F24 "DIS-Bypass-PT" O R 6900 2200 40 
+F25 "Injector4-PT" O R 6900 1050 40 
+F26 "Injector8-PB" O R 6900 1900 40 
+F27 "Injector7-PB" O R 6900 1800 40 
+F28 "PCB-GND" I L 5200 2400 40 
+F29 "Fan-PK4" O R 6900 2000 40 
+F30 "RPM1" I L 5200 1350 40 
+F31 "RPM0" I L 5200 1250 40 
+F32 "PK5" O R 6900 2100 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
@@ -795,18 +815,18 @@ F15 "MAP-CPU-Signal" O R 10650 5000 40
 F16 "IGN-Advance-Signal" B L 9300 6250 40 
 F17 "IGN-Advance" O R 10650 6450 40 
 F18 "BRV-12v" I L 9300 4900 40 
-F19 "CamPosition-OUT" B R 10650 6650 40 
-F20 "Crank-OUT" O R 10650 6550 40 
-F21 "Cam-IN-" B L 9300 6650 40 
-F22 "Crank-IN-" B L 9300 6450 40 
-F23 "Cam-IN+" B L 9300 6550 40 
-F24 "Crank-IN+" B L 9300 6350 40 
-F25 "TPS-5vdc" O L 9300 5550 40 
-F26 "DIS-Bypass-Signal" I L 9300 6150 40 
-F27 "DIS-Bypass-OUT" O R 10650 6350 40 
-F28 "5vdc-analog" I L 9300 5000 40 
-F29 "MAF-Sensor" I L 9300 5450 40 
-F30 "MAF-CPU-Signal" O R 10650 5450 40 
+F19 "TPS-5vdc" O L 9300 5550 40 
+F20 "DIS-Bypass-Signal" I L 9300 6150 40 
+F21 "DIS-Bypass-OUT" O R 10650 6350 40 
+F22 "5vdc-analog" I L 9300 5000 40 
+F23 "MAF-Sensor" I L 9300 5450 40 
+F24 "MAF-CPU-Signal" O R 10650 5450 40 
+F25 "RPM1-IN-" B L 9300 6650 40 
+F26 "RPM0-IN-" B L 9300 6450 40 
+F27 "RPM1-IN+" B L 9300 6550 40 
+F28 "RPM0-IN+" B L 9300 6350 40 
+F29 "RPM1-OUT" B R 10650 6650 40 
+F30 "RPM0-OUT" O R 10650 6550 40 
 $EndSheet
 Text GLabel 9300 5000 0    40   Input ~ 0
 5vdc-analog
@@ -825,15 +845,15 @@ $EndComp
 Text GLabel 5200 1800 0    40   Input ~ 0
 BRV
 Text GLabel 5200 1350 0    40   Input ~ 0
-CAM
+RPM1
 Text GLabel 10650 6650 2    40   Output ~ 0
-CAM
+RPM1
 $Comp
 L CONN_1 P15
 U 1 1 4F186A57
 P 9150 6450
 F 0 "P15" H 9230 6450 40  0000 L CNN
-F 1 "CRANK-" H 9150 6505 30  0001 C CNN
+F 1 "RPM0-" H 9150 6505 30  0001 C CNN
 	1    9150 6450
 	-1   0    0    1   
 $EndComp
@@ -851,7 +871,7 @@ L CONN_1 P17
 U 1 1 4F124A8E
 P 9150 6650
 F 0 "P17" H 9230 6650 40  0000 L CNN
-F 1 "CAM-" H 9150 6705 30  0001 C CNN
+F 1 "RPM1-" H 9150 6705 30  0001 C CNN
 	1    9150 6650
 	-1   0    0    1   
 $EndComp
@@ -860,7 +880,7 @@ L CONN_1 P16
 U 1 1 4F1248F4
 P 9150 6550
 F 0 "P16" H 9230 6550 40  0000 L CNN
-F 1 "CAM+" H 9150 6605 30  0001 C CNN
+F 1 "RPM1+" H 9150 6605 30  0001 C CNN
 	1    9150 6550
 	-1   0    0    1   
 $EndComp
@@ -956,7 +976,7 @@ L CONN_1 P14
 U 1 1 4F0BB599
 P 9150 6350
 F 0 "P14" H 9230 6350 40  0000 L CNN
-F 1 "CRANK+" H 9150 6405 30  0001 C CNN
+F 1 "RPM0+" H 9150 6405 30  0001 C CNN
 	1    9150 6350
 	-1   0    0    1   
 $EndComp
@@ -1042,7 +1062,7 @@ F 1 "DIS-BYPASS" H 10800 6405 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10650 6550 2    40   Output ~ 0
-TACH
+RPM0
 Text GLabel 9300 6250 0    40   Input ~ 0
 Timing-Advance
 Text GLabel 5200 2000 0    40   Input ~ 0
@@ -1069,10 +1089,10 @@ Text GLabel 10650 5000 2    40   Output ~ 0
 MAP
 Text GLabel 10650 4900 2    40   Output ~ 0
 BRV
-Text GLabel 6900 2200 2    40   Output ~ 0
+Text GLabel 6900 2300 2    40   Output ~ 0
 Timing-Advance
 Text GLabel 5200 1250 0    40   Input ~ 0
-TACH
+RPM0
 Text GLabel 5200 1700 0    40   Input ~ 0
 MAP
 Text GLabel 5200 750  0    40   Input ~ 0
