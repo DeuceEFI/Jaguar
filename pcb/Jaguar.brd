@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 22 Sep 2012 09:58:25 PM EDT
+PCBNEW-BOARD Version 1 date Sun 23 Sep 2012 08:49:58 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -9,7 +9,7 @@ EnabledLayers 1FFF8001
 Links 443
 NoConn 1
 Di -76 -76 66017 39086
-Ndraw 276
+Ndraw 279
 Ntrack 1522
 Nzone 0
 BoardThickness 630
@@ -20,7 +20,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "5.5\"
-Date "23 sep 2012"
+Date "24 sep 2012"
 Rev "A.2"
 Comp ""
 Comment1 ""
@@ -12732,6 +12732,21 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  WireConnection
+$TEXTPCB
+Te "MAP"
+Po 56860 29590 400 400 60 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "GND"
+Po 56880 28620 400 400 60 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "5v"
+Po 56640 27610 400 400 60 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 39010 15020 39030 15020 70
 De 21 0 900 0 0
@@ -13778,7 +13793,7 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "MAP"
-Po 56790 29590 500 500 120 900
+Po 63270 26950 500 500 120 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -17002,7 +17017,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -33036,7 +33051,7 @@ ZLayer 15
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 350 124
+ZOptions 1 16 S 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 37793 19086 0
