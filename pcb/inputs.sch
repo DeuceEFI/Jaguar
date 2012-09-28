@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 24 Sep 2012 11:14:27 AM EDT
+EESchema Schematic File Version 2  date Thu 27 Sep 2012 11:56:19 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 sep 2012"
+Date "28 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -19,20 +19,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Notes Line
-	2850 7700 6900 7700
-Wire Notes Line
-	2850 6300 2850 7700
-Wire Notes Line
-	2850 6300 6900 6300
-Connection ~ 4050 7350
-Connection ~ 4050 6950
-Connection ~ 4250 6950
-Connection ~ 4250 6550
-Connection ~ 4050 6550
+	6950 6300 6950 7700
+Connection ~ 5400 6950
 Wire Wire Line
-	4050 6950 4050 6550
+	5400 6950 5400 6550
+Connection ~ 5400 6550
 Wire Wire Line
-	3900 6550 4700 6550
+	4250 6950 5200 6950
+Wire Wire Line
+	6300 7350 4250 7350
+Wire Notes Line
+	6950 6300 2900 6300
 Wire Notes Line
 	550  6250 550  4500
 Wire Notes Line
@@ -123,8 +120,6 @@ Wire Wire Line
 	900  5400 900  5450
 Wire Wire Line
 	4100 5450 4100 5700
-Wire Notes Line
-	6900 6300 6900 7700
 Connection ~ 1250 1850
 Connection ~ 1250 1450
 Connection ~ 1450 2350
@@ -213,8 +208,6 @@ Wire Notes Line
 	8350 2500 8350 1250
 Wire Notes Line
 	8350 2500 6000 2500
-Wire Wire Line
-	5550 6950 4250 6950
 Wire Notes Line
 	8350 4550 8350 6100
 Wire Notes Line
@@ -324,11 +317,11 @@ Wire Wire Line
 	9350 1150 9150 1150
 Wire Wire Line
 	6650 1900 6450 1900
-Connection ~ 5550 7150
-Connection ~ 5550 6950
-Connection ~ 5550 6750
+Connection ~ 4250 7150
+Connection ~ 4250 6950
+Connection ~ 4250 6750
 Wire Wire Line
-	5550 7150 5550 7350
+	4250 7350 4250 7150
 Connection ~ 3600 5450
 Connection ~ 3600 5550
 Connection ~ 3600 5750
@@ -396,9 +389,9 @@ Connection ~ 7450 4800
 Connection ~ 7750 5200
 Connection ~ 7750 5600
 Wire Wire Line
-	5200 6550 5550 6550
+	4600 6550 4250 6550
 Wire Wire Line
-	5550 6550 5550 6750
+	4250 6550 4250 6750
 Wire Wire Line
 	6400 2950 6650 2950
 Wire Wire Line
@@ -467,13 +460,12 @@ Wire Wire Line
 Connection ~ 8100 4800
 Wire Notes Line
 	6000 6100 8350 6100
-Connection ~ 5200 6550
-Connection ~ 5200 6950
-Connection ~ 5200 7350
-Connection ~ 4600 7350
-Connection ~ 4600 6950
 Connection ~ 4600 6550
-Connection ~ 4700 6550
+Connection ~ 4600 6950
+Connection ~ 4600 7350
+Connection ~ 5200 6950
+Connection ~ 5200 6550
+Connection ~ 5100 6550
 Wire Notes Line
 	6000 1250 6000 2500
 Wire Wire Line
@@ -633,28 +625,55 @@ Wire Notes Line
 Wire Notes Line
 	4000 2950 4000 3350
 Wire Wire Line
-	4250 6950 4250 7000
+	6300 6550 5100 6550
 Wire Wire Line
-	5550 7350 3900 7350
-Text Notes 2900 6750 0    40   ~ 0
+	5200 6950 5200 7000
+Wire Wire Line
+	5850 6950 6300 6950
+Wire Wire Line
+	6300 6950 6300 7000
+Connection ~ 5850 6550
+Connection ~ 5850 6950
+Connection ~ 5850 7350
+Connection ~ 5400 7350
+Wire Notes Line
+	6950 7700 1600 7700
+Wire Notes Line
+	1600 7700 1600 6300
+Wire Notes Line
+	1600 6300 2950 6300
+Text Notes 1650 7200 0    40   ~ 0
+Do not populate C23 and C21\nif you are using an external MAP\nsensor.  \n\nChange R13 value from 1k to 470 ohm\nif you are using an external MAP\nsensor.
+Text Label 6150 6950 0    40   ~ 0
+Ground
+$Comp
+L GND #PWR016
+U 1 1 50609B5A
+P 6300 7000
+F 0 "#PWR016" H 6300 7000 30  0001 C CNN
+F 1 "GND" H 6300 6930 30  0001 C CNN
+	1    6300 7000
+	-1   0    0    -1  
+$EndComp
+Text Notes 1650 6800 0    40   ~ 0
 D47 and D48 are only populated\nif you are using an external MAP\nsensor.  Do not populate these \nlocations if you are using the\non-board sensor.
 $Comp
 L DIODESCH D48
 U 1 1 5060769B
-P 4250 6750
-F 0 "D48" H 4250 6850 40  0000 C CNN
-F 1 "1N5818-TP" H 4250 6650 40  0000 C CNN
-	1    4250 6750
-	0    -1   -1   0   
+P 5200 6750
+F 0 "D48" H 5200 6850 40  0000 C CNN
+F 1 "1N5818-TP" H 5200 6650 40  0000 C CNN
+	1    5200 6750
+	0    1    -1   0   
 $EndComp
 $Comp
 L DIODESCH D47
 U 1 1 50607687
-P 4050 7150
-F 0 "D47" H 4050 7250 40  0000 C CNN
-F 1 "1N5818-TP" H 4050 7050 40  0000 C CNN
-	1    4050 7150
-	0    1    1    0   
+P 5400 7150
+F 0 "D47" H 5400 7250 40  0000 C CNN
+F 1 "1N5818-TP" H 5400 7050 40  0000 C CNN
+	1    5400 7150
+	0    -1   1    0   
 $EndComp
 Text Notes 2850 1550 0    35   ~ 0
 Only use C25\nif needed.
@@ -720,10 +739,10 @@ F 1 "1N5818-TP" H 10050 3550 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR017
 U 1 1 5023F4F0
 P 10350 4350
-F 0 "#PWR016" H 10350 4350 30  0001 C CNN
+F 0 "#PWR017" H 10350 4350 30  0001 C CNN
 F 1 "GND" H 10350 4280 30  0001 C CNN
 	1    10350 4350
 	1    0    0    -1  
@@ -749,7 +768,7 @@ DIS-Bypass-Polarity
 Text Label 1200 5750 0    25   ~ 0
 DIS-Bypass-CPU-Signal
 NoConn ~ 2350 5550
-Text Label 4950 6950 0    40   ~ 0
+Text Label 4642 6950 0    40   ~ 0
 Ground
 Text Label 6900 3850 0    40   ~ 0
 Ground
@@ -818,7 +837,7 @@ Text HLabel 10050 4850 0    40   Input ~ 0
 5vdc-analog
 Text HLabel 6550 4700 0    40   Input ~ 0
 5vdc-analog
-Text HLabel 3900 7350 0    40   Input ~ 0
+Text HLabel 6300 7350 2    40   Input ~ 0
 5vdc-analog
 Text Notes 4400 5050 0    40   ~ 0
 JP8 Allows us to use Port T2\nby using a shorting jumper \nbetween pins 1 and 2 \nor pin 2 can be routed via \nwire jumper to another CPU\noutput port.
@@ -842,7 +861,7 @@ F 1 "DIS-Bypass" V 750 5850 40  0000 C CNN
 	1    700  5850
 	-1   0    0    1   
 $EndComp
-Text Notes 5400 6400 0    40   ~ 0
+Text Notes 2950 6400 0    40   ~ 0
 Use the MPX4100AP for Non-Boosted Engines.\nUse the MPX4250AP for Boosted Engines.
 Text Notes 2750 4900 0    40   ~ 0
 For Ford EDIS do not populate \nR64 and R65 and connect U5 \npins 5 and 6 to +5vdc.\n(Use +5v supply from U5 Pin 9).
@@ -853,10 +872,10 @@ For GM DIS and Ford EDIS leave RPM0-IN- and RPM1-IN- totally disconnected.\n\nFo
 Text Notes 800  6050 0    40   ~ 0
 CPU Pin 12 (PT3)
 $Comp
-L GND #PWR017
+L GND #PWR018
 U 1 1 4F1EDBE2
 P 900 5450
-F 0 "#PWR017" H 900 5450 30  0001 C CNN
+F 0 "#PWR018" H 900 5450 30  0001 C CNN
 F 1 "GND" H 900 5380 30  0001 C CNN
 	1    900  5450
 	1    0    0    -1  
@@ -893,10 +912,10 @@ $EndComp
 Text Notes 650  4700 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
-L GND #PWR018
+L GND #PWR019
 U 1 1 4F1E9FBA
 P 4200 5500
-F 0 "#PWR018" H 4200 5500 30  0001 C CNN
+F 0 "#PWR019" H 4200 5500 30  0001 C CNN
 F 1 "GND" H 4200 5430 30  0001 C CNN
 	1    4200 5500
 	1    0    0    -1  
@@ -977,16 +996,16 @@ Do NOT Connect RPM1-IN- \nfor Hall/Opto/Digital
 Text Notes 4100 1900 0    40   ~ 0
 Do NOT Connect RPM0-IN- \nfor Hall/Opto/Digital
 $Comp
-L GND #PWR019
+L GND #PWR020
 U 1 1 4F1D8DAC
 P 1600 2800
-F 0 "#PWR019" H 1600 2800 30  0001 C CNN
+F 0 "#PWR020" H 1600 2800 30  0001 C CNN
 F 1 "GND" H 1600 2730 30  0001 C CNN
 	1    1600 2800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4300 7650
-NoConn ~ 4100 7650
+NoConn ~ 5500 7650
+NoConn ~ 5700 7650
 Text HLabel 10050 750  2    40   Output ~ 0
 TPS-5vdc
 Text HLabel 4150 3200 2    40   BiDi ~ 0
@@ -994,66 +1013,66 @@ RPM1-IN-
 Text HLabel 4150 1800 2    40   BiDi ~ 0
 RPM0-IN-
 $Comp
-L GND #PWR020
+L GND #PWR021
 U 1 1 4F1C330A
 P 4350 2650
-F 0 "#PWR020" H 4350 2650 30  0001 C CNN
+F 0 "#PWR021" H 4350 2650 30  0001 C CNN
 F 1 "GND" H 4350 2580 30  0001 C CNN
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR022
 U 1 1 4F1C32B6
 P 1700 1950
-F 0 "#PWR021" H 1700 1950 30  0001 C CNN
+F 0 "#PWR022" H 1700 1950 30  0001 C CNN
 F 1 "GND" H 1700 1880 30  0001 C CNN
 	1    1700 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 4350 7500 0    40   ~ 0
+Text Notes 3824 7500 0    40   ~ 0
 P29 and P30 are for mounting holes for MPX4100AP
 $Comp
-L GND #PWR022
+L GND #PWR023
 U 1 1 4F1C300F
-P 4250 7000
-F 0 "#PWR022" H 4250 7000 30  0001 C CNN
-F 1 "GND" H 4250 6930 30  0001 C CNN
-	1    4250 7000
-	1    0    0    -1  
+P 5200 7000
+F 0 "#PWR023" H 5200 7000 30  0001 C CNN
+F 1 "GND" H 5200 6930 30  0001 C CNN
+	1    5200 7000
+	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L GND #PWR024
 U 1 1 4F1C2FFA
 P 10350 3000
-F 0 "#PWR023" H 10350 3000 30  0001 C CNN
+F 0 "#PWR024" H 10350 3000 30  0001 C CNN
 F 1 "GND" H 10350 2930 30  0001 C CNN
 	1    10350 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR025
 U 1 1 4F1C2FE3
 P 10350 1650
-F 0 "#PWR024" H 10350 1650 30  0001 C CNN
+F 0 "#PWR025" H 10350 1650 30  0001 C CNN
 F 1 "GND" H 10350 1580 30  0001 C CNN
 	1    10350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L GND #PWR026
 U 1 1 4F1C2F74
 P 8850 5900
-F 0 "#PWR025" H 8850 5900 30  0001 C CNN
+F 0 "#PWR026" H 8850 5900 30  0001 C CNN
 F 1 "GND" H 8850 5830 30  0001 C CNN
 	1    8850 5900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND #PWR027
 U 1 1 4F1C2F64
 P 7750 5700
-F 0 "#PWR026" H 7750 5700 30  0001 C CNN
+F 0 "#PWR027" H 7750 5700 30  0001 C CNN
 F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
 	1    0    0    -1  
@@ -1063,28 +1082,28 @@ This jumper allows us to \njump over Vcc on the PCB
 Text Notes 7400 2950 0    40   ~ 0
 This jumper allows us to \njump over Vcc on the PCB
 $Comp
-L GND #PWR027
+L GND #PWR028
 U 1 1 4F1C2F0A
 P 7600 3950
-F 0 "#PWR027" H 7600 3950 30  0001 C CNN
+F 0 "#PWR028" H 7600 3950 30  0001 C CNN
 F 1 "GND" H 7600 3880 30  0001 C CNN
 	1    7600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L GND #PWR029
 U 1 1 4F1C2EED
 P 7650 2400
-F 0 "#PWR028" H 7650 2400 30  0001 C CNN
+F 0 "#PWR029" H 7650 2400 30  0001 C CNN
 F 1 "GND" H 7650 2330 30  0001 C CNN
 	1    7650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR030
 U 1 1 4F1C2DD9
 P 2350 6000
-F 0 "#PWR029" H 2350 6000 30  0001 C CNN
+F 0 "#PWR030" H 2350 6000 30  0001 C CNN
 F 1 "GND" H 2350 5930 30  0001 C CNN
 	1    2350 6000
 	1    0    0    -1  
@@ -1228,16 +1247,16 @@ Text HLabel 750  2550 3    40   BiDi ~ 0
 RPM1-OUT
 Text HLabel 4150 3700 2    40   BiDi ~ 0
 RPM1-IN+
-Text Notes 4150 6500 0    40   ~ 0
+Text Notes 6400 6500 0    40   ~ 0
 CPU Pin 75
 $Comp
 L C C22
 U 1 1 4F178D50
-P 5200 6750
-F 0 "C22" H 5250 6850 50  0000 L CNN
-F 1 "0.1uF" H 5250 6650 50  0000 L CNN
-	1    5200 6750
-	1    0    0    -1  
+P 4600 6750
+F 0 "C22" H 4650 6850 50  0000 L CNN
+F 1 "0.1uF" H 4650 6650 50  0000 L CNN
+	1    4600 6750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L DIODESCH D12
@@ -1386,20 +1405,20 @@ $EndComp
 $Comp
 L CONN_1 P30
 U 1 1 4F1101C7
-P 4300 7500
-F 0 "P30" V 4200 7450 40  0000 L CNN
-F 1 "." H 4300 7555 30  0001 C CNN
-	1    4300 7500
-	0    -1   -1   0   
+P 5500 7500
+F 0 "P30" V 5400 7450 40  0000 L CNN
+F 1 "." H 5500 7555 30  0001 C CNN
+	1    5500 7500
+	0    1    -1   0   
 $EndComp
 $Comp
 L CONN_1 P29
 U 1 1 4F1101BF
-P 4100 7500
-F 0 "P29" V 4000 7450 40  0000 L CNN
-F 1 ".." H 4100 7555 30  0001 C CNN
-	1    4100 7500
-	0    -1   -1   0   
+P 5700 7500
+F 0 "P29" V 5600 7450 40  0000 L CNN
+F 1 ".." H 5700 7555 30  0001 C CNN
+	1    5700 7500
+	0    1    -1   0   
 $EndComp
 Text Notes 10450 2450 0    40   ~ 0
 CPU Pin 72
@@ -1606,7 +1625,7 @@ Text HLabel 6450 1900 0    40   Input ~ 0
 MAT-Sensor
 Text HLabel 7750 1900 2    40   Output ~ 0
 MAT-CPU-Signal
-Text Notes 4850 7650 0    60   ~ 0
+Text Notes 3714 7650 0    60   ~ 0
 Manifold Absolute Pressure
 Text Notes 2350 6200 0    60   ~ 0
 Ignition Timing Advance Output
@@ -1634,55 +1653,55 @@ F 1 "3.9k" V 8850 4950 50  0000 C CNN
 	1    8850 4950
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6850 7150
-NoConn ~ 6850 6950
-NoConn ~ 6850 6750
-Text HLabel 3900 6550 0    40   Output ~ 0
+NoConn ~ 2950 7150
+NoConn ~ 2950 6950
+NoConn ~ 2950 6750
+Text HLabel 6300 6550 2    40   Output ~ 0
 MAP-CPU-Signal
 $Comp
 L C C23
 U 1 1 4F0B8E51
-P 5200 7150
-F 0 "C23" H 5250 7250 50  0000 L CNN
-F 1 "0.01uF" H 5250 7050 50  0000 L CNN
-	1    5200 7150
-	1    0    0    -1  
+P 4600 7150
+F 0 "C23" H 4650 7250 50  0000 L CNN
+F 1 "0.01uF" H 4650 7050 50  0000 L CNN
+	1    4600 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C21
 U 1 1 4F0B8E4C
-P 4600 7150
-F 0 "C21" H 4650 7250 50  0000 L CNN
-F 1 "0.33uF" H 4650 7050 50  0000 L CNN
-	1    4600 7150
-	1    0    0    -1  
+P 5850 7150
+F 0 "C21" H 5900 7250 50  0000 L CNN
+F 1 "0.33uF" H 5900 7050 50  0000 L CNN
+	1    5850 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C20
 U 1 1 4F0B8E3C
-P 4600 6750
-F 0 "C20" H 4650 6850 50  0000 L CNN
-F 1 "0.22uF" H 4650 6650 50  0000 L CNN
-	1    4600 6750
-	1    0    0    -1  
+P 5850 6750
+F 0 "C20" H 5900 6850 50  0000 L CNN
+F 1 "0.22uF" H 5900 6650 50  0000 L CNN
+	1    5850 6750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R13
 U 1 1 4F0B8E0F
-P 4950 6550
-F 0 "R13" V 5030 6550 50  0000 C CNN
-F 1 "1k" V 4950 6550 50  0000 C CNN
-	1    4950 6550
-	0    1    1    0   
+P 4850 6550
+F 0 "R13" V 4930 6550 50  0000 C CNN
+F 1 "1k" V 4850 6550 50  0000 C CNN
+	1    4850 6550
+	0    -1   1    0   
 $EndComp
 $Comp
 L MPX4100A U6
 U 1 1 4F0B8DF0
-P 6200 7050
-F 0 "U6" H 6200 7550 70  0000 C CNN
-F 1 "MPX4100AP" H 6200 6750 70  0000 C CNN
-	1    6200 7050
-	1    0    0    -1  
+P 3600 7050
+F 0 "U6" H 3600 7550 70  0000 C CNN
+F 1 "MPX4100AP" H 3600 6750 70  0000 C CNN
+	1    3600 7050
+	-1   0    0    -1  
 $EndComp
 Text HLabel 4150 1300 2    40   BiDi ~ 0
 RPM0-IN+

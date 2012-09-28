@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 24 Sep 2012 11:14:27 AM EDT
+EESchema Schematic File Version 2  date Thu 27 Sep 2012 11:56:19 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 sep 2012"
+Date "28 sep 2012"
 Rev "A4"
 Comp "diyefi.org"
 Comment1 ""
@@ -18,24 +18,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P62
-U 1 1 505E5BF7
-P 7050 2100
-F 0 "P62" H 7130 2100 40  0000 L CNN
-F 1 "PK5" H 7050 2155 30  0001 C CNN
-	1    7050 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P61
-U 1 1 505E593A
-P 7050 2000
-F 0 "P61" H 7130 2000 40  0000 L CNN
-F 1 "Fan-Out" H 7050 2055 30  0001 C CNN
-	1    7050 2000
-	1    0    0    -1  
-$EndComp
+Connection ~ 8500 2750
+Connection ~ 9050 2650
+Connection ~ 8500 2650
+Wire Wire Line
+	8500 2750 8500 2650
+Connection ~ 7350 1900
+Connection ~ 6900 2000
+Connection ~ 6900 2100
+Connection ~ 7350 2000
+Wire Wire Line
+	7350 1900 7350 2000
 Connection ~ 4800 2400
 Connection ~ 4800 2300
 Connection ~ 5200 2300
@@ -181,6 +174,32 @@ Connection ~ 9300 4350
 Connection ~ 9350 4100
 Wire Wire Line
 	4800 2300 4800 2400
+Wire Wire Line
+	7400 2000 6900 2000
+Wire Wire Line
+	9050 2650 8450 2650
+Text GLabel 8450 2650 0    40   Input ~ 0
+FAN
+Text GLabel 7400 2000 2    40   Output ~ 0
+FAN
+$Comp
+L CONN_1 P62
+U 1 1 505E5BF7
+P 7050 2100
+F 0 "P62" H 7130 2100 40  0000 L CNN
+F 1 "PK5" H 7050 2155 30  0001 C CNN
+	1    7050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P61
+U 1 1 505E593A
+P 7500 1900
+F 0 "P61" H 7580 1900 40  0000 L CNN
+F 1 "Fan-Out" H 7500 1955 30  0001 C CNN
+	1    7500 1900
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONN_1 P56
 U 1 1 502413D0
@@ -352,10 +371,10 @@ $EndComp
 $Comp
 L CONN_1 P39
 U 1 1 4F2222E6
-P 8900 2650
-F 0 "P39" H 8980 2650 40  0000 L CNN
-F 1 "FAN" H 8900 2705 30  0001 C CNN
-	1    8900 2650
+P 8350 2750
+F 0 "P39" H 8430 2750 40  0000 L CNN
+F 1 "FAN" H 8350 2805 30  0001 C CNN
+	1    8350 2750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -430,19 +449,6 @@ F 1 "ACC-" H 10800 2805 30  0001 C CNN
 $EndComp
 Text Notes 4450 4000 0    50   ~ 10
 AND DO THE FOLLOWING
-Text Notes 5950 3500 0    40   ~ 0
-P21 Pin 1 has a trace to P34 Pin 2 on the PCB\nP21 Pin 2 has a trace to P34 Pin 4 on the PCB\nP21 Pin 3 has a trace to P34 Pin 5 on the PCB\nP21 Pin 4 has a trace to P34 Pin 7 on the PCB
-Text GLabel 7200 4150 2    40   Output ~ 0
-Injector7-IN
-$Comp
-L CONN_4 P21
-U 1 1 4F20E065
-P 6850 4000
-F 0 "P21" V 6800 4000 50  0000 C CNN
-F 1 "INJ-IN" V 6900 4000 50  0000 C CNN
-	1    6850 4000
-	-1   0    0    -1  
-$EndComp
 Text GLabel 7200 5050 2    40   Output ~ 0
 Injector8-IN
 Text GLabel 7200 4950 2    40   Output ~ 0
@@ -623,19 +629,13 @@ F 1 "Injectors-PB" V 6500 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4400 4750 0    40   ~ 0
-To use Port B with future XGATE \ncode, run jumper wires from:\nP33 to P34 pin for pin and \ndo not connect anything to P21.\nie: \n   P33 pin 1 to P34 pin 1\n   P33 pin 2 to P34 pin 2\n   P33 pin 3 to P34 pin 3\n   P33 pin 4 to P34 pin 4\n   P33 pin 5 to P34 pin 5\n   P33 pin 6 to P34 pin 6\n   P33 pin 7 to P34 pin 7\n   P33 pin 8 to P34 pin 8\n
+To use Port B with future XGATE \ncode, run jumper wires from:\nP33 to P34 pin for pin and \ndo not connect anything to P20.\nie: \n   P33 pin 1 to P34 pin 1\n   P33 pin 2 to P34 pin 2\n   P33 pin 3 to P34 pin 3\n   P33 pin 4 to P34 pin 4\n   P33 pin 5 to P34 pin 5\n   P33 pin 6 to P34 pin 6\n   P33 pin 7 to P34 pin 7\n   P33 pin 8 to P34 pin 8\n
 Text Notes 4400 4100 0    40   ~ 0
 For 6/8 cylinder using Port T with\ncurrent code jumper from:\n(can be tie-bar shorting jumper if \nyou installed a 0.100" pin header \nfor P34)\n   P34 pin 1 to P34 pin 2\n   P34 pin 3 to P34 pin 4\n   P34 pin 5 to P34 pin 6\n   P34 pin 7 to P34 pin 8
 Text Notes 4400 3500 0    40   ~ 0
-For 6/8 cylinder using Port T with\ncurrent code, run jumper wires \nfrom: \nP20 pin 1 to P21 pin 1 = Bank 1\nP20 pin 2 to P21 pin 2 = Bank 2\nP20 pin 3 to P21 pin 3 = Bank 3\nP20 pin 4 to P21 pin 4 = Bank 4
+For 6/8 cylinder using Port T with\ncurrent code, run jumper wires \nfrom: \nP20 pin 1 to P34 pin 1 = Bank 1\nP20 pin 2 to P34 pin 3 = Bank 2\nP20 pin 3 to P34 pin 5 = Bank 3\nP20 pin 4 to P34 pin 7 = Bank 4
 Text Notes 5600 5300 0    60   ~ 0
-P21 and P34 allow for selection to use either \nPort T (4 cpu outputs MAXIMUM:current code)\nor Port B (8 cpu outputs:future XGATE code)
-Text GLabel 7200 4050 2    40   Output ~ 0
-Injector5-IN
-Text GLabel 7200 3950 2    40   Output ~ 0
-Injector4-IN
-Text GLabel 7200 3850 2    40   Output ~ 0
-Injector2-IN
+P20 and P34 allow for selection to use either \nPort T (4 cpu outputs MAXIMUM:current code)\nor Port B (8 cpu outputs:future XGATE code)
 Text GLabel 7200 4850 2    40   Output ~ 0
 Injector6-IN
 Text GLabel 7200 4750 2    40   Output ~ 0

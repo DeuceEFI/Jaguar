@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 24 Sep 2012 11:11:34 AM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 27 Sep 2012 11:56:16 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -494,42 +494,42 @@ BeginCmp
 TimeStamp = /4F0D0381/4F17842F;
 Reference = D24;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17845F;
 Reference = D25;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178470;
 Reference = D26;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17847C;
 Reference = D27;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17848A;
 Reference = D28;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178496;
 Reference = D29;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
@@ -543,7 +543,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F1784DB;
 Reference = D31;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
@@ -578,14 +578,14 @@ BeginCmp
 TimeStamp = /4F0D0381/4F20C5D3;
 Reference = D37;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E5;
 Reference = D38;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
@@ -599,7 +599,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F20C916;
 Reference = D40;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
@@ -613,7 +613,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F21BF56;
 Reference = D42;
 ValeurCmp = 1N4148;
-IdModule  = diode_do35;
+IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
@@ -865,13 +865,6 @@ BeginCmp
 TimeStamp = /4F1F56DE;
 Reference = P20;
 ValeurCmp = PT4-7;
-IdModule  = PIN_STRIP_4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F20E065;
-Reference = P21;
-ValeurCmp = INJ-IN;
 IdModule  = PIN_STRIP_4;
 EndCmp
 
