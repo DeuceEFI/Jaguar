@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 28 Sep 2012 12:48:07 AM EDT
+PCBNEW-BOARD Version 1 date Sun 21 Oct 2012 11:22:05 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -20,7 +20,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "5.5\"
-Date "28 sep 2012"
+Date "21 oct 2012"
 Rev "A.2"
 Comp ""
 Comment1 ""
@@ -13870,18 +13870,19 @@ Po 34050 13032 400 400 100 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "ACC"
-Po 30700 26500 500 500 120 0
+Te "LSD-2"
+Po 30460 30660 350 350 80 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "FUEL"
-Po 34121 37731 500 500 120 0
+nl "PUMP"
+Po 34200 37460 350 350 80 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "FAN"
-Po 28680 37540 500 500 120 0
+Te "LSD-1"
+Po 29520 35930 350 350 80 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $DRAWSEGMENT
@@ -17109,7 +17110,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -33354,7 +33355,7 @@ ZLayer 15
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 350 124
+ZOptions 1 16 S 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 37793 19086 0
