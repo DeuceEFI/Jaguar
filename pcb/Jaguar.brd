@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 23 Oct 2012 10:41:43 PM EDT
+PCBNEW-BOARD Version 1 date Wed 24 Oct 2012 11:01:03 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -19,9 +19,9 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
-Title "5.5\"
-Date "24 oct 2012"
-Rev "A.2"
+Title "Jaguar"
+Date "25 oct 2012"
+Rev "0.4-alpha"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -18054,7 +18054,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -34260,7 +34260,7 @@ ZLayer 15
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 350 124
+ZOptions 1 16 S 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 37793 19086 0
