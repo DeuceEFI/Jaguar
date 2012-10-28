@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 24 Oct 2012 11:06:13 PM EDT
+EESchema Schematic File Version 2  date Sun 28 Oct 2012 07:09:13 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "23 oct 2012"
+Date "28 oct 2012"
 Rev "0.4-alpha"
 Comp "git hash: b8d4085b1b"
 Comment1 ""
@@ -18,6 +18,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4500 5950
+Connection ~ 5000 5950
+Wire Wire Line
+	5000 5950 5000 6000
+Connection ~ 1050 5800
+Connection ~ 1550 5800
+Wire Wire Line
+	1550 5800 1550 5850
 Connection ~ 3400 2950
 Connection ~ 3400 3150
 Connection ~ 3900 2950
@@ -492,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 6050 1750 6050
 Wire Wire Line
-	1050 5750 1750 5750
+	1750 5750 1050 5750
 Connection ~ 1050 5750
 Connection ~ 1050 5950
 Wire Wire Line
@@ -511,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5550 4000 5450
 Wire Wire Line
-	4200 5850 4400 5850
+	4400 5850 4200 5850
 Connection ~ 4600 5850
 Connection ~ 4400 5850
 Wire Wire Line
@@ -549,6 +557,50 @@ Wire Wire Line
 	4400 2550 4400 2450
 Wire Wire Line
 	3200 3650 3400 3650
+Wire Wire Line
+	1050 5750 1050 5800
+Wire Wire Line
+	4200 5850 4200 5900
+Wire Wire Line
+	4200 5900 4500 5900
+Wire Wire Line
+	4500 5900 4500 5950
+$Comp
+L GND #PWR016
+U 1 1 508DBA91
+P 5000 6000
+F 0 "#PWR016" H 5000 6000 30  0001 C CNN
+F 1 "GND" H 5000 5930 30  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R86
+U 1 1 508DBA85
+P 4750 5950
+F 0 "R86" V 4830 5950 50  0000 C CNN
+F 1 "100k" V 4750 5950 50  0000 C CNN
+	1    4750 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 508DBA59
+P 1550 5850
+F 0 "#PWR017" H 1550 5850 30  0001 C CNN
+F 1 "GND" H 1550 5780 30  0001 C CNN
+	1    1550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R85
+U 1 1 508DBA08
+P 1300 5800
+F 0 "R85" V 1380 5800 50  0000 C CNN
+F 1 "100k" V 1300 5800 50  0000 C CNN
+	1    1300 5800
+	0    1    1    0   
+$EndComp
 Text Notes 2850 1450 0    35   ~ 0
 Change R18\nand R19 to\n10k for VR \nInput ONLY.
 $Comp
@@ -580,10 +632,10 @@ Do not populate C23 and C21\nif you are using an external MAP\nsensor.  \n\nChan
 Text Label 6150 6950 0    40   ~ 0
 Ground
 $Comp
-L GND #PWR016
+L GND #PWR018
 U 1 1 50609B5A
 P 6300 7000
-F 0 "#PWR016" H 6300 7000 30  0001 C CNN
+F 0 "#PWR018" H 6300 7000 30  0001 C CNN
 F 1 "GND" H 6300 6930 30  0001 C CNN
 	1    6300 7000
 	-1   0    0    -1  
@@ -666,10 +718,10 @@ F 1 "1N5818-TP" H 10050 3550 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR019
 U 1 1 5023F4F0
 P 10350 4350
-F 0 "#PWR017" H 10350 4350 30  0001 C CNN
+F 0 "#PWR019" H 10350 4350 30  0001 C CNN
 F 1 "GND" H 10350 4280 30  0001 C CNN
 	1    10350 4350
 	1    0    0    -1  
@@ -799,10 +851,10 @@ For GM DIS and Ford EDIS leave RPM0-IN- and RPM1-IN- totally disconnected.\n\nFo
 Text Notes 800  6050 0    40   ~ 0
 CPU Pin 12 (PT3)
 $Comp
-L GND #PWR018
+L GND #PWR020
 U 1 1 4F1EDBE2
 P 900 5450
-F 0 "#PWR018" H 900 5450 30  0001 C CNN
+F 0 "#PWR020" H 900 5450 30  0001 C CNN
 F 1 "GND" H 900 5380 30  0001 C CNN
 	1    900  5450
 	1    0    0    -1  
@@ -839,10 +891,10 @@ $EndComp
 Text Notes 650  4700 0    40   ~ 0
 JP1 and JP2 are to select \nnormal or inverting gates.
 $Comp
-L GND #PWR019
+L GND #PWR021
 U 1 1 4F1E9FBA
 P 4200 5500
-F 0 "#PWR019" H 4200 5500 30  0001 C CNN
+F 0 "#PWR021" H 4200 5500 30  0001 C CNN
 F 1 "GND" H 4200 5430 30  0001 C CNN
 	1    4200 5500
 	1    0    0    -1  
@@ -921,10 +973,10 @@ $EndComp
 Text Notes 4050 3050 0    40   ~ 0
 Connect RPM1-IN- to GND \nfor Hall/Opto/Digital
 $Comp
-L GND #PWR020
+L GND #PWR022
 U 1 1 4F1D8DAC
 P 1600 2800
-F 0 "#PWR020" H 1600 2800 30  0001 C CNN
+F 0 "#PWR022" H 1600 2800 30  0001 C CNN
 F 1 "GND" H 1600 2730 30  0001 C CNN
 	1    1600 2800
 	1    0    0    -1  
@@ -938,19 +990,19 @@ RPM1-IN-
 Text HLabel 3900 1800 2    40   BiDi ~ 0
 RPM0-IN-
 $Comp
-L GND #PWR021
+L GND #PWR023
 U 1 1 4F1C330A
 P 4500 2500
-F 0 "#PWR021" H 4500 2500 30  0001 C CNN
+F 0 "#PWR023" H 4500 2500 30  0001 C CNN
 F 1 "GND" H 4500 2430 30  0001 C CNN
 	1    4500 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L GND #PWR024
 U 1 1 4F1C32B6
 P 1700 1950
-F 0 "#PWR022" H 1700 1950 30  0001 C CNN
+F 0 "#PWR024" H 1700 1950 30  0001 C CNN
 F 1 "GND" H 1700 1880 30  0001 C CNN
 	1    1700 1950
 	1    0    0    -1  
@@ -958,46 +1010,46 @@ $EndComp
 Text Notes 3824 7500 0    40   ~ 0
 P29 and P30 are for mounting holes for MPX4100AP
 $Comp
-L GND #PWR023
+L GND #PWR025
 U 1 1 4F1C300F
 P 5200 7000
-F 0 "#PWR023" H 5200 7000 30  0001 C CNN
+F 0 "#PWR025" H 5200 7000 30  0001 C CNN
 F 1 "GND" H 5200 6930 30  0001 C CNN
 	1    5200 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR026
 U 1 1 4F1C2FFA
 P 10350 3000
-F 0 "#PWR024" H 10350 3000 30  0001 C CNN
+F 0 "#PWR026" H 10350 3000 30  0001 C CNN
 F 1 "GND" H 10350 2930 30  0001 C CNN
 	1    10350 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L GND #PWR027
 U 1 1 4F1C2FE3
 P 10350 1650
-F 0 "#PWR025" H 10350 1650 30  0001 C CNN
+F 0 "#PWR027" H 10350 1650 30  0001 C CNN
 F 1 "GND" H 10350 1580 30  0001 C CNN
 	1    10350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND #PWR028
 U 1 1 4F1C2F74
 P 8850 5900
-F 0 "#PWR026" H 8850 5900 30  0001 C CNN
+F 0 "#PWR028" H 8850 5900 30  0001 C CNN
 F 1 "GND" H 8850 5830 30  0001 C CNN
 	1    8850 5900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR029
 U 1 1 4F1C2F64
 P 7750 5700
-F 0 "#PWR027" H 7750 5700 30  0001 C CNN
+F 0 "#PWR029" H 7750 5700 30  0001 C CNN
 F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
 	1    0    0    -1  
@@ -1007,28 +1059,28 @@ This jumper allows us to \njump over Vcc on the PCB
 Text Notes 7400 2950 0    40   ~ 0
 This jumper allows us to \njump over Vcc on the PCB
 $Comp
-L GND #PWR028
+L GND #PWR030
 U 1 1 4F1C2F0A
 P 7600 3950
-F 0 "#PWR028" H 7600 3950 30  0001 C CNN
+F 0 "#PWR030" H 7600 3950 30  0001 C CNN
 F 1 "GND" H 7600 3880 30  0001 C CNN
 	1    7600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR031
 U 1 1 4F1C2EED
 P 7650 2400
-F 0 "#PWR029" H 7650 2400 30  0001 C CNN
+F 0 "#PWR031" H 7650 2400 30  0001 C CNN
 F 1 "GND" H 7650 2330 30  0001 C CNN
 	1    7650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND #PWR032
 U 1 1 4F1C2DD9
 P 2350 6000
-F 0 "#PWR030" H 2350 6000 30  0001 C CNN
+F 0 "#PWR032" H 2350 6000 30  0001 C CNN
 F 1 "GND" H 2350 5930 30  0001 C CNN
 	1    2350 6000
 	1    0    0    -1  

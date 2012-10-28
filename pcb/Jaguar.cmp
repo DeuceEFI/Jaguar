@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 23 Oct 2012 07:02:35 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 28 Oct 2012 07:09:03 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1733,6 +1733,20 @@ BeginCmp
 TimeStamp = /4F0BB08D/50871BA6;
 Reference = R84;
 ValeurCmp = 1k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/508DBA08;
+Reference = R85;
+ValeurCmp = 100k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0BB08D/508DBA85;
+Reference = R86;
+ValeurCmp = 100k;
 IdModule  = RC03_vert;
 EndCmp
 

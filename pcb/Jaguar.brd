@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 24 Oct 2012 11:05:55 PM EDT
+PCBNEW-BOARD Version 1 date Sun 28 Oct 2012 07:33:35 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -6,21 +6,21 @@ $GENERAL
 LayerCount 2
 Ly 1FFF8001
 EnabledLayers 1FFF8001
-Links 448
+Links 452
 NoConn 0
 Di -76 -76 66017 39086
-Ndraw 525
-Ntrack 1502
+Ndraw 531
+Ntrack 1509
 Nzone 0
 BoardThickness 630
-Nmodule 257
+Nmodule 259
 Nnets 167
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "Jaguar"
-Date "25 oct 2012"
+Date "28 oct 2012"
 Rev "0.4-alpha"
 Comp "git hash: b8d4085b1b"
 Comment1 ""
@@ -66,15 +66,15 @@ Na 0 ""
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 1 "/CPU/BKGD"
+Na 1 "/CPU/5vdc-analog"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 2 "/CPU/DIS30"
+Na 2 "/CPU/BKGD"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 3 "/CPU/Fue64"
+Na 3 "/CPU/Fue61"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -82,79 +82,79 @@ Na 4 "/CPU/IAT-Signal"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 5 "/CPU/Inj36"
+Na 5 "/CPU/Inj33"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 6 "/CPU/Inj37"
+Na 6 "/CPU/Inj34"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 7 "/CPU/Inj38"
+Na 7 "/CPU/Inj35"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 8 "/CPU/Inj39"
+Na 8 "/CPU/Inj36"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 9 "/CPU/Inj43"
+Na 9 "/CPU/Inj40"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 10 "/CPU/Inj44"
+Na 10 "/CPU/Inj41"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 11 "/CPU/Inj45"
+Na 11 "/CPU/Inj42"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 12 "/CPU/Inj46"
+Na 12 "/CPU/Inj43"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 13 "/CPU/Inj47"
+Na 13 "/CPU/Inj44"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 14 "/CPU/Inj48"
+Na 14 "/CPU/Inj45"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 15 "/CPU/Inj49"
+Na 15 "/CPU/Inj46"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 16 "/CPU/Inj50"
+Na 16 "/CPU/Inj47"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 17 "/CPU/O2-Signal"
+Na 17 "/CPU/MAF-Signal"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 18 "/CPU/PK5"
+Na 18 "/CPU/MAT-Signal"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 19 "/CPU/RESET"
+Na 19 "/CPU/O2-Signal"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 20 "/CPU/RPM0"
+Na 20 "/CPU/PK5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 21 "/CPU/RPM1"
+Na 21 "/CPU/RESET"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 22 "/CPU/RX"
+Na 22 "/CPU/RPM0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 23 "/CPU/TX"
+Na 23 "/CPU/RX"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -162,11 +162,11 @@ Na 24 "/CPU/ft21"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 25 "/CPU/ft212"
+Na 25 "/CPU/ft210"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 26 "/CPU/ft213"
+Na 26 "/CPU/ft211"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -178,219 +178,219 @@ Na 28 "/CPU/ft232/D-"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 29 "/CPU/ft232/Vbus"
+Na 29 "/CPU/ft232/TX"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 30 "/Injecto16"
+Na 30 "/CPU/ft232/Vbus"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 31 "/Injecto17"
+Na 31 "/Injecto13"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 32 "/Injecto18"
+Na 32 "/Injecto14"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 33 "/Injecto19"
+Na 33 "/Injecto15"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 34 "/Injecto20"
+Na 34 "/Injecto16"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 35 "/Injecto21"
+Na 35 "/Injecto17"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 36 "/Injecto23"
+Na 36 "/Injecto18"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 37 "/Injecto24"
+Na 37 "/Injecto20"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 38 "/Injecto40"
+Na 38 "/Injecto21"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 39 "/Injecto42"
+Na 39 "/Injecto37"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 40 "/Injecto51"
+Na 40 "/Injecto39"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 41 "/Injecto52"
+Na 41 "/Injecto48"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 42 "/Injecto53"
+Na 42 "/Injecto49"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 43 "/Injecto54"
+Na 43 "/Injecto50"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 44 "/Injecto55"
+Na 44 "/Injecto51"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 45 "/Injecto56"
+Na 45 "/Injecto52"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 46 "/Injecto57"
+Na 46 "/Injecto53"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 47 "/Injecto58"
+Na 47 "/Injecto54"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 48 "/Injecto61"
+Na 48 "/Injecto55"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 49 "/Injecto62"
+Na 49 "/Injecto58"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 50 "/Injecto63"
+Na 50 "/Injecto59"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 51 "/Inputs/10"
+Na 51 "/Injecto60"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 52 "/Inputs/11"
+Na 52 "/Inputs/12"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 53 "/Inputs/14"
+Na 53 "/Inputs/2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 54 "/Inputs/15"
+Na 54 "/Inputs/25"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 55 "/Inputs/2"
+Na 55 "/Inputs/26"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 56 "/Inputs/28"
+Na 56 "/Inputs/27"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 57 "/Inputs/29"
+Na 57 "/Inputs/28"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 58 "/Inputs/3"
+Na 58 "/Inputs/29"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 59 "/Inputs/31"
+Na 59 "/Inputs/3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 60 "/Inputs/32"
+Na 60 "/Inputs/30"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 61 "/Inputs/33"
+Na 61 "/Inputs/31"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 62 "/Inputs/34"
+Na 62 "/Inputs/32"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 63 "/Inputs/35"
+Na 63 "/Inputs/4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 64 "/Inputs/4"
+Na 64 "/Inputs/5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 65 "/Inputs/5"
+Na 65 "/Inputs/6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 66 "/Inputs/6"
+Na 66 "/Inputs/7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 67 "/Inputs/7"
+Na 67 "/Inputs/8"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 68 "/Inputs/8"
+Na 68 "/Inputs/9"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 69 "/Inputs/9"
+Na 69 "/Inputs/BRV"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 70 "/Inputs/BRV"
+Na 70 "/Inputs/BRV-12v"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 71 "/Inputs/BRV-12v"
+Na 71 "/Inputs/RPM0-IN+"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 72 "/Inputs/RPM0-IN+"
+Na 72 "/Inputs/RPM0-IN-"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 73 "/Inputs/RPM0-IN-"
+Na 73 "/Inputs/RPM1-IN+"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 74 "/Inputs/RPM1-IN+"
+Na 74 "/Inputs/RPM1-IN-"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 75 "/Inputs/RPM1-IN-"
+Na 75 "/Inputs/RPM1-OUT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 76 "/Outputs22"
+Na 76 "/Outputs19"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 77 "/Outputs25"
+Na 77 "/Outputs22"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 78 "/Outputs26"
+Na 78 "/Outputs23"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 79 "/Outputs41"
+Na 79 "/Outputs38"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 80 "/Outputs59"
+Na 80 "/Outputs56"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 81 "/Outputs60"
+Na 81 "/Outputs57"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 82 "/Power_S27"
+Na 82 "/Power_S24"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -506,23 +506,23 @@ Na 110 "N-000186"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 111 "N-000187"
+Na 111 "N-000188"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 112 "N-000191"
+Na 112 "N-000189"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 113 "N-000192"
+Na 113 "N-000190"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 114 "N-000194"
+Na 114 "N-000193"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 115 "N-000196"
+Na 115 "N-000195"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -530,7 +530,7 @@ Na 116 "N-000197"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 117 "N-000198"
+Na 117 "N-000200"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -542,19 +542,19 @@ Na 119 "N-000202"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 120 "N-000204"
+Na 120 "N-000205"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 121 "N-000206"
+Na 121 "N-000207"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 122 "N-000207"
+Na 122 "N-000208"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 123 "N-000208"
+Na 123 "N-000209"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -739,65 +739,64 @@ ViaDrill 315
 uViaDia 200
 uViaDrill 50
 AddNet ""
+AddNet "/CPU/5vdc-analog"
 AddNet "/CPU/BKGD"
-AddNet "/CPU/DIS30"
-AddNet "/CPU/Fue64"
+AddNet "/CPU/Fue61"
 AddNet "/CPU/IAT-Signal"
+AddNet "/CPU/Inj33"
+AddNet "/CPU/Inj34"
+AddNet "/CPU/Inj35"
 AddNet "/CPU/Inj36"
-AddNet "/CPU/Inj37"
-AddNet "/CPU/Inj38"
-AddNet "/CPU/Inj39"
+AddNet "/CPU/Inj40"
+AddNet "/CPU/Inj41"
+AddNet "/CPU/Inj42"
 AddNet "/CPU/Inj43"
 AddNet "/CPU/Inj44"
 AddNet "/CPU/Inj45"
 AddNet "/CPU/Inj46"
 AddNet "/CPU/Inj47"
-AddNet "/CPU/Inj48"
-AddNet "/CPU/Inj49"
-AddNet "/CPU/Inj50"
+AddNet "/CPU/MAF-Signal"
+AddNet "/CPU/MAT-Signal"
 AddNet "/CPU/O2-Signal"
 AddNet "/CPU/PK5"
 AddNet "/CPU/RESET"
 AddNet "/CPU/RPM0"
-AddNet "/CPU/RPM1"
 AddNet "/CPU/RX"
-AddNet "/CPU/TX"
 AddNet "/CPU/ft21"
-AddNet "/CPU/ft212"
-AddNet "/CPU/ft213"
+AddNet "/CPU/ft210"
+AddNet "/CPU/ft211"
 AddNet "/CPU/ft232/D+"
 AddNet "/CPU/ft232/D-"
+AddNet "/CPU/ft232/TX"
 AddNet "/CPU/ft232/Vbus"
-AddNet "/Injecto19"
+AddNet "/Injecto13"
+AddNet "/Injecto14"
+AddNet "/Injecto15"
 AddNet "/Injecto20"
-AddNet "/Injecto23"
-AddNet "/Injecto24"
-AddNet "/Injecto40"
-AddNet "/Injecto42"
+AddNet "/Injecto37"
+AddNet "/Injecto39"
+AddNet "/Injecto48"
+AddNet "/Injecto49"
+AddNet "/Injecto50"
 AddNet "/Injecto51"
 AddNet "/Injecto52"
 AddNet "/Injecto53"
 AddNet "/Injecto54"
 AddNet "/Injecto55"
-AddNet "/Injecto56"
-AddNet "/Injecto57"
 AddNet "/Injecto58"
-AddNet "/Injecto61"
-AddNet "/Injecto62"
-AddNet "/Injecto63"
-AddNet "/Inputs/10"
-AddNet "/Inputs/11"
-AddNet "/Inputs/14"
-AddNet "/Inputs/15"
+AddNet "/Injecto59"
+AddNet "/Injecto60"
+AddNet "/Inputs/12"
 AddNet "/Inputs/2"
+AddNet "/Inputs/25"
+AddNet "/Inputs/26"
+AddNet "/Inputs/27"
 AddNet "/Inputs/28"
 AddNet "/Inputs/29"
 AddNet "/Inputs/3"
+AddNet "/Inputs/30"
 AddNet "/Inputs/31"
 AddNet "/Inputs/32"
-AddNet "/Inputs/33"
-AddNet "/Inputs/34"
-AddNet "/Inputs/35"
 AddNet "/Inputs/4"
 AddNet "/Inputs/5"
 AddNet "/Inputs/6"
@@ -810,13 +809,14 @@ AddNet "/Inputs/RPM0-IN+"
 AddNet "/Inputs/RPM0-IN-"
 AddNet "/Inputs/RPM1-IN+"
 AddNet "/Inputs/RPM1-IN-"
+AddNet "/Inputs/RPM1-OUT"
+AddNet "/Outputs19"
 AddNet "/Outputs22"
-AddNet "/Outputs25"
-AddNet "/Outputs26"
-AddNet "/Outputs41"
-AddNet "/Outputs59"
-AddNet "/Outputs60"
-AddNet "/Power_S27"
+AddNet "/Outputs23"
+AddNet "/Outputs38"
+AddNet "/Outputs56"
+AddNet "/Outputs57"
+AddNet "/Power_S24"
 AddNet "GND"
 AddNet "N-000111"
 AddNet "N-000114"
@@ -843,19 +843,19 @@ AddNet "N-000183"
 AddNet "N-000184"
 AddNet "N-000185"
 AddNet "N-000186"
-AddNet "N-000187"
-AddNet "N-000191"
-AddNet "N-000192"
-AddNet "N-000194"
-AddNet "N-000196"
+AddNet "N-000188"
+AddNet "N-000189"
+AddNet "N-000190"
+AddNet "N-000193"
+AddNet "N-000195"
 AddNet "N-000197"
-AddNet "N-000198"
+AddNet "N-000200"
 AddNet "N-000201"
 AddNet "N-000202"
-AddNet "N-000204"
-AddNet "N-000206"
+AddNet "N-000205"
 AddNet "N-000207"
 AddNet "N-000208"
+AddNet "N-000209"
 AddNet "N-000210"
 AddNet "N-000215"
 AddNet "N-000216"
@@ -1005,7 +1005,7 @@ $PAD
 Sh "3" C 600 600 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 -4405
 .SolderMask 60
 .SolderPaste -40
@@ -1100,7 +1100,7 @@ $PAD
 Sh "4" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 123 "N-000208"
+Ne 123 "N-000209"
 Po -125 1082
 .SolderMask 60
 .SolderPaste -40
@@ -1109,7 +1109,7 @@ $PAD
 Sh "5" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 119 "N-000202"
+Ne 118 "N-000201"
 Po 125 1082
 .SolderMask 60
 .SolderPaste -40
@@ -1145,7 +1145,7 @@ $PAD
 Sh "9" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 120 "N-000204"
+Ne 120 "N-000205"
 Po 875 -1082
 .SolderMask 60
 .SolderPaste -40
@@ -1154,7 +1154,7 @@ $PAD
 Sh "10" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 113 "N-000192"
+Ne 119 "N-000202"
 Po 625 -1082
 .SolderMask 60
 .SolderPaste -40
@@ -1190,7 +1190,7 @@ $PAD
 Sh "14" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -375 -1082
 .SolderMask 60
 .SolderPaste -40
@@ -1199,7 +1199,7 @@ $PAD
 Sh "15" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 122 "N-000207"
+Ne 122 "N-000208"
 Po -625 -1082
 .SolderMask 60
 .SolderPaste -40
@@ -1208,7 +1208,7 @@ $PAD
 Sh "16" R 157 393 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 121 "N-000206"
+Ne 121 "N-000207"
 Po -875 -1082
 .SolderMask 60
 .SolderPaste -40
@@ -1328,7 +1328,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 29 "/CPU/ft232/Vbus"
+Ne 30 "/CPU/ft232/Vbus"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1337,7 +1337,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1367,7 +1367,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 82 "/Power_S27"
+Ne 82 "/Power_S24"
 Po -1000 0
 .SolderMask 60
 .SolderPaste -40
@@ -1593,7 +1593,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 52 "/Inputs/11"
+Ne 68 "/Inputs/9"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1633,7 +1633,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 69 "/Inputs/9"
+Ne 66 "/Inputs/7"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1673,7 +1673,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 68 "/Inputs/8"
+Ne 65 "/Inputs/6"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1713,7 +1713,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 17 "/CPU/O2-Signal"
+Ne 19 "/CPU/O2-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1793,7 +1793,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 55 "/Inputs/2"
+Ne 53 "/Inputs/2"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1842,7 +1842,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1882,7 +1882,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -1962,7 +1962,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2033,7 +2033,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 66 "/Inputs/6"
+Ne 18 "/CPU/MAT-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2073,7 +2073,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 64 "/Inputs/4"
+Ne 59 "/Inputs/3"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2113,7 +2113,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 117 "N-000198"
+Ne 116 "N-000197"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2162,7 +2162,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 70 "/Inputs/BRV"
+Ne 69 "/Inputs/BRV"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2193,7 +2193,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 51 "/Inputs/10"
+Ne 67 "/Inputs/8"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2233,7 +2233,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 67 "/Inputs/7"
+Ne 64 "/Inputs/5"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2273,7 +2273,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 118 "N-000201"
+Ne 117 "N-000200"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2313,7 +2313,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 65 "/Inputs/5"
+Ne 63 "/Inputs/4"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2520,7 +2520,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 19 "/CPU/RESET"
+Ne 21 "/CPU/RESET"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2760,7 +2760,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 121 "N-000206"
+Ne 121 "N-000207"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2769,7 +2769,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 122 "N-000207"
+Ne 122 "N-000208"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2800,7 +2800,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 113 "N-000192"
+Ne 119 "N-000202"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2809,7 +2809,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 120 "N-000204"
+Ne 120 "N-000205"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2853,7 +2853,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2862,7 +2862,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2893,7 +2893,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2902,7 +2902,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2942,7 +2942,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -2972,7 +2972,7 @@ $PAD
 Sh "1" R 600 600 0 0 0
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 1 "/CPU/BKGD"
+Ne 2 "/CPU/BKGD"
 Po -1000 -500
 .SolderMask 60
 .SolderPaste -40
@@ -2999,7 +2999,7 @@ $PAD
 Sh "4" C 600 600 0 0 0
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 19 "/CPU/RESET"
+Ne 21 "/CPU/RESET"
 Po 0 500
 .SolderMask 60
 .SolderPaste -40
@@ -3048,7 +3048,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 9 "/CPU/Inj43"
+Ne 9 "/CPU/Inj40"
 Po -3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3057,7 +3057,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 10 "/CPU/Inj44"
+Ne 10 "/CPU/Inj41"
 Po -2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3066,7 +3066,7 @@ $PAD
 Sh "3" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 11 "/CPU/Inj45"
+Ne 11 "/CPU/Inj42"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3075,7 +3075,7 @@ $PAD
 Sh "4" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 12 "/CPU/Inj46"
+Ne 12 "/CPU/Inj43"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3084,7 +3084,7 @@ $PAD
 Sh "5" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 13 "/CPU/Inj47"
+Ne 13 "/CPU/Inj44"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3093,7 +3093,7 @@ $PAD
 Sh "6" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 14 "/CPU/Inj48"
+Ne 14 "/CPU/Inj45"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3102,7 +3102,7 @@ $PAD
 Sh "7" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 15 "/CPU/Inj49"
+Ne 15 "/CPU/Inj46"
 Po 2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3111,7 +3111,7 @@ $PAD
 Sh "8" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 16 "/CPU/Inj50"
+Ne 16 "/CPU/Inj47"
 Po 3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3142,7 +3142,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 5 "/CPU/Inj36"
+Ne 5 "/CPU/Inj33"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3151,7 +3151,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 6 "/CPU/Inj37"
+Ne 6 "/CPU/Inj34"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3160,7 +3160,7 @@ $PAD
 Sh "3" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 7 "/CPU/Inj38"
+Ne 7 "/CPU/Inj35"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3169,7 +3169,7 @@ $PAD
 Sh "4" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 8 "/CPU/Inj39"
+Ne 8 "/CPU/Inj36"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3200,7 +3200,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 40 "/Injecto51"
+Ne 41 "/Injecto48"
 Po -3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3209,7 +3209,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 41 "/Injecto52"
+Ne 42 "/Injecto49"
 Po -2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3218,7 +3218,7 @@ $PAD
 Sh "3" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 42 "/Injecto53"
+Ne 43 "/Injecto50"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3227,7 +3227,7 @@ $PAD
 Sh "4" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 43 "/Injecto54"
+Ne 44 "/Injecto51"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3236,7 +3236,7 @@ $PAD
 Sh "5" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 44 "/Injecto55"
+Ne 45 "/Injecto52"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3245,7 +3245,7 @@ $PAD
 Sh "6" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 45 "/Injecto56"
+Ne 46 "/Injecto53"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3254,7 +3254,7 @@ $PAD
 Sh "7" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 46 "/Injecto57"
+Ne 47 "/Injecto54"
 Po 2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3263,7 +3263,7 @@ $PAD
 Sh "8" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 47 "/Injecto58"
+Ne 48 "/Injecto55"
 Po 3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3499,7 +3499,7 @@ $PAD
 Sh "1" R 600 600 0 0 1800
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 60 "/Inputs/32"
+Ne 58 "/Inputs/29"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3508,7 +3508,7 @@ $PAD
 Sh "2" C 600 600 0 0 1800
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 61 "/Inputs/33"
+Ne 60 "/Inputs/30"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3538,7 +3538,7 @@ $PAD
 Sh "1" R 600 600 0 0 1800
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 2 "/CPU/DIS30"
+Ne 56 "/Inputs/27"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3547,7 +3547,7 @@ $PAD
 Sh "2" C 600 600 0 0 1800
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 59 "/Inputs/31"
+Ne 57 "/Inputs/28"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3655,7 +3655,7 @@ $PAD
 Sh "1" C 650 650 0 0 2700
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 38 "/Injecto40"
+Ne 39 "/Injecto37"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -3707,7 +3707,7 @@ $PAD
 Sh "5" C 400 400 0 0 2700
 Dr 197 0 0
 At STD N 00D0FFFF
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 654 1575
 .SolderMask 60
 .SolderPaste -40
@@ -3716,7 +3716,7 @@ $PAD
 Sh "1" C 400 400 0 0 2700
 Dr 197 0 0
 At STD N 00D0FFFF
-Ne 29 "/CPU/ft232/Vbus"
+Ne 30 "/CPU/ft232/Vbus"
 Po -654 1575
 .SolderMask 60
 .SolderPaste -40
@@ -3785,7 +3785,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 118 "N-000201"
+Ne 117 "N-000200"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3794,7 +3794,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3836,7 +3836,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 17 "/CPU/O2-Signal"
+Ne 19 "/CPU/O2-Signal"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3869,7 +3869,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 17 "/CPU/O2-Signal"
+Ne 19 "/CPU/O2-Signal"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3878,7 +3878,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3920,7 +3920,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 66 "/Inputs/6"
+Ne 18 "/CPU/MAT-Signal"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3953,7 +3953,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 66 "/Inputs/6"
+Ne 18 "/CPU/MAT-Signal"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -3962,7 +3962,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4004,7 +4004,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 70 "/Inputs/BRV"
+Ne 69 "/Inputs/BRV"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4037,7 +4037,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 70 "/Inputs/BRV"
+Ne 69 "/Inputs/BRV"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4046,7 +4046,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4109,7 +4109,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 53 "/Inputs/14"
+Ne 52 "/Inputs/12"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -4151,7 +4151,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 118 "N-000201"
+Ne 117 "N-000200"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4193,7 +4193,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 51 "/Inputs/10"
+Ne 67 "/Inputs/8"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4226,7 +4226,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 51 "/Inputs/10"
+Ne 67 "/Inputs/8"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4235,7 +4235,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4319,7 +4319,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 52 "/Inputs/11"
+Ne 68 "/Inputs/9"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4352,7 +4352,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 52 "/Inputs/11"
+Ne 68 "/Inputs/9"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4361,7 +4361,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4397,7 +4397,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4424,7 +4424,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 80 "/Outputs59"
+Ne 80 "/Outputs56"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -4451,7 +4451,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 81 "/Outputs60"
+Ne 81 "/Outputs57"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -4478,7 +4478,7 @@ $PAD
 Sh "1" C 800 800 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 78 "/Outputs26"
+Ne 78 "/Outputs23"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -4513,7 +4513,7 @@ $PAD
 Sh "D" R 1440 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 78 "/Outputs26"
+Ne 78 "/Outputs23"
 Po 0 -1300
 .SolderMask 60
 .SolderPaste -40
@@ -4531,7 +4531,7 @@ $PAD
 Sh "S" R 400 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 79 "/Outputs41"
+Ne 79 "/Outputs38"
 Po 900 1300
 .SolderMask 60
 .SolderPaste -40
@@ -4576,7 +4576,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4603,7 +4603,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 81 "/Outputs60"
+Ne 81 "/Outputs57"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4648,7 +4648,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 81 "/Outputs60"
+Ne 81 "/Outputs57"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4683,7 +4683,7 @@ $PAD
 Sh "D" R 1440 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 77 "/Outputs25"
+Ne 77 "/Outputs22"
 Po 0 -1300
 .SolderMask 60
 .SolderPaste -40
@@ -4701,7 +4701,7 @@ $PAD
 Sh "S" R 400 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 79 "/Outputs41"
+Ne 79 "/Outputs38"
 Po 900 1300
 .SolderMask 60
 .SolderPaste -40
@@ -4745,7 +4745,7 @@ $PAD
 Sh "D" R 1440 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 76 "/Outputs22"
+Ne 76 "/Outputs19"
 Po 0 -1300
 .SolderMask 60
 .SolderPaste -40
@@ -4763,7 +4763,7 @@ $PAD
 Sh "S" R 400 800 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 79 "/Outputs41"
+Ne 79 "/Outputs38"
 Po 900 1300
 .SolderMask 60
 .SolderPaste -40
@@ -4885,7 +4885,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4912,7 +4912,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 80 "/Outputs59"
+Ne 80 "/Outputs56"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4957,7 +4957,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 80 "/Outputs59"
+Ne 80 "/Outputs56"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -4984,7 +4984,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 77 "/Outputs25"
+Ne 77 "/Outputs22"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -5011,7 +5011,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 46 "/Injecto57"
+Ne 47 "/Injecto54"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5047,7 +5047,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 47 "/Injecto58"
+Ne 48 "/Injecto55"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5092,7 +5092,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 46 "/Injecto57"
+Ne 47 "/Injecto54"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5128,7 +5128,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 47 "/Injecto58"
+Ne 48 "/Injecto55"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5164,7 +5164,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 3 "/CPU/Fue64"
+Ne 3 "/CPU/Fue61"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5191,7 +5191,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 3 "/CPU/Fue64"
+Ne 3 "/CPU/Fue61"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5227,7 +5227,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 112 "N-000191"
+Ne 114 "N-000193"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5236,7 +5236,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 123 "N-000208"
+Ne 123 "N-000209"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5263,7 +5263,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 119 "N-000202"
+Ne 118 "N-000201"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5272,7 +5272,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 111 "N-000187"
+Ne 111 "N-000188"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5299,7 +5299,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 75 "/Inputs/RPM1-IN-"
+Ne 74 "/Inputs/RPM1-IN-"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5308,7 +5308,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 74 "/Inputs/RPM1-IN+"
+Ne 73 "/Inputs/RPM1-IN+"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5335,7 +5335,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 72 "/Inputs/RPM0-IN+"
+Ne 71 "/Inputs/RPM0-IN+"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5344,7 +5344,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 73 "/Inputs/RPM0-IN-"
+Ne 72 "/Inputs/RPM0-IN-"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -5371,7 +5371,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -5398,7 +5398,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 79 "/Outputs41"
+Ne 79 "/Outputs38"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -5425,7 +5425,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 118 "N-000201"
+Ne 117 "N-000200"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5461,7 +5461,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5470,7 +5470,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 64 "/Inputs/4"
+Ne 59 "/Inputs/3"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5497,7 +5497,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 117 "N-000198"
+Ne 116 "N-000197"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5533,7 +5533,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 70 "/Inputs/BRV"
+Ne 69 "/Inputs/BRV"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5542,7 +5542,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 117 "N-000198"
+Ne 116 "N-000197"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -5732,7 +5732,7 @@ $PAD
 Sh "9" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 20 "/CPU/RPM0"
+Ne 22 "/CPU/RPM0"
 Po 1410 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5741,7 +5741,7 @@ $PAD
 Sh "10" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 21 "/CPU/RPM1"
+Ne 75 "/Inputs/RPM1-OUT"
 Po 1155 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5750,7 +5750,7 @@ $PAD
 Sh "11" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 60 "/Inputs/32"
+Ne 58 "/Inputs/29"
 Po 895 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5759,7 +5759,7 @@ $PAD
 Sh "12" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 2 "/CPU/DIS30"
+Ne 56 "/Inputs/27"
 Po 640 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5786,7 +5786,7 @@ $PAD
 Sh "15" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 5 "/CPU/Inj36"
+Ne 5 "/CPU/Inj33"
 Po -130 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5795,7 +5795,7 @@ $PAD
 Sh "16" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 6 "/CPU/Inj37"
+Ne 6 "/CPU/Inj34"
 Po -385 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5804,7 +5804,7 @@ $PAD
 Sh "17" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 7 "/CPU/Inj38"
+Ne 7 "/CPU/Inj35"
 Po -640 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5813,7 +5813,7 @@ $PAD
 Sh "18" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 8 "/CPU/Inj39"
+Ne 8 "/CPU/Inj36"
 Po -895 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5822,7 +5822,7 @@ $PAD
 Sh "19" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 18 "/CPU/PK5"
+Ne 20 "/CPU/PK5"
 Po -1155 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5831,7 +5831,7 @@ $PAD
 Sh "20" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 80 "/Outputs59"
+Ne 80 "/Outputs56"
 Po -1410 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5858,7 +5858,7 @@ $PAD
 Sh "23" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 1 "/CPU/BKGD"
+Ne 2 "/CPU/BKGD"
 Po -2175 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5867,7 +5867,7 @@ $PAD
 Sh "24" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 9 "/CPU/Inj43"
+Ne 9 "/CPU/Inj40"
 Po -2435 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5876,7 +5876,7 @@ $PAD
 Sh "25" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 10 "/CPU/Inj44"
+Ne 10 "/CPU/Inj41"
 Po -2690 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5885,7 +5885,7 @@ $PAD
 Sh "26" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 11 "/CPU/Inj45"
+Ne 11 "/CPU/Inj42"
 Po -2945 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5894,7 +5894,7 @@ $PAD
 Sh "27" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 12 "/CPU/Inj46"
+Ne 12 "/CPU/Inj43"
 Po -3200 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5903,7 +5903,7 @@ $PAD
 Sh "28" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 13 "/CPU/Inj47"
+Ne 13 "/CPU/Inj44"
 Po -3455 -4325
 .SolderMask 60
 .SolderPaste -40
@@ -5912,7 +5912,7 @@ $PAD
 Sh "29" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 14 "/CPU/Inj48"
+Ne 14 "/CPU/Inj45"
 Po -4325 -3455
 .SolderMask 60
 .SolderPaste -40
@@ -5921,7 +5921,7 @@ $PAD
 Sh "30" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 15 "/CPU/Inj49"
+Ne 15 "/CPU/Inj46"
 Po -4325 -3200
 .SolderMask 60
 .SolderPaste -40
@@ -5930,7 +5930,7 @@ $PAD
 Sh "31" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 16 "/CPU/Inj50"
+Ne 16 "/CPU/Inj47"
 Po -4325 -2945
 .SolderMask 60
 .SolderPaste -40
@@ -6029,7 +6029,7 @@ $PAD
 Sh "42" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 19 "/CPU/RESET"
+Ne 21 "/CPU/RESET"
 Po -4325 -130
 .SolderMask 60
 .SolderPaste -40
@@ -6227,7 +6227,7 @@ $PAD
 Sh "64" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 3 "/CPU/Fue64"
+Ne 3 "/CPU/Fue61"
 Po -1665 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6272,7 +6272,7 @@ $PAD
 Sh "69" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 51 "/Inputs/10"
+Ne 67 "/Inputs/8"
 Po -385 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6290,7 +6290,7 @@ $PAD
 Sh "71" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 52 "/Inputs/11"
+Ne 68 "/Inputs/9"
 Po 130 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6299,7 +6299,7 @@ $PAD
 Sh "72" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po 385 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6308,7 +6308,7 @@ $PAD
 Sh "73" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 17 "/CPU/O2-Signal"
+Ne 19 "/CPU/O2-Signal"
 Po 640 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6326,7 +6326,7 @@ $PAD
 Sh "75" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 55 "/Inputs/2"
+Ne 53 "/Inputs/2"
 Po 1155 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6362,7 +6362,7 @@ $PAD
 Sh "79" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 70 "/Inputs/BRV"
+Ne 69 "/Inputs/BRV"
 Po 2175 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6380,7 +6380,7 @@ $PAD
 Sh "81" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 66 "/Inputs/6"
+Ne 18 "/CPU/MAT-Signal"
 Po 2690 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6407,7 +6407,7 @@ $PAD
 Sh "84" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 3455 4325
 .SolderMask 60
 .SolderPaste -40
@@ -6452,7 +6452,7 @@ $PAD
 Sh "89" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 22 "/CPU/RX"
+Ne 23 "/CPU/RX"
 Po 4325 2435
 .SolderMask 60
 .SolderPaste -40
@@ -6461,7 +6461,7 @@ $PAD
 Sh "90" R 800 150 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 23 "/CPU/TX"
+Ne 29 "/CPU/ft232/TX"
 Po 4325 2175
 .SolderMask 60
 .SolderPaste -40
@@ -6680,7 +6680,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 120 "N-000204"
+Ne 120 "N-000205"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6689,7 +6689,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 74 "/Inputs/RPM1-IN+"
+Ne 73 "/Inputs/RPM1-IN+"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6716,7 +6716,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6725,7 +6725,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 123 "N-000208"
+Ne 123 "N-000209"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6761,7 +6761,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 44 "/Injecto55"
+Ne 45 "/Injecto52"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6797,7 +6797,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 45 "/Injecto56"
+Ne 46 "/Injecto53"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6824,7 +6824,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 42 "/Injecto53"
+Ne 43 "/Injecto50"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6860,7 +6860,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 43 "/Injecto54"
+Ne 44 "/Injecto51"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6896,7 +6896,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 44 "/Injecto55"
+Ne 45 "/Injecto52"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6932,7 +6932,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 45 "/Injecto56"
+Ne 46 "/Injecto53"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -6977,7 +6977,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 42 "/Injecto53"
+Ne 43 "/Injecto50"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7013,7 +7013,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 43 "/Injecto54"
+Ne 44 "/Injecto51"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7040,7 +7040,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 41 "/Injecto52"
+Ne 42 "/Injecto49"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7085,7 +7085,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 41 "/Injecto52"
+Ne 42 "/Injecto49"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7098,13 +7098,13 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  RC07_vert
 $MODULE RC07_vert
-Po 25720 15420 1800 0 4FF4806F 4F18B375 ~~
+Po 25720 15420 1800 0 508DBBEB 4F18B375 ~~
 Li RC07_vert
 Cd Resistor, RC07 vertical
 Sc 4F18B375
 AR /4F0D0381/4F062C4D
 Op 0 0 0
-T0 100 530 300 300 1800 50 M V 20 N"R35"
+T0 1470 340 300 300 1800 50 M V 20 N"R35"
 T1 29 -32 300 300 1800 50 M I 20 N"100k"
 DC -755 3 -327 291 100 20
 DS 750 0 -750 0 100 20
@@ -7112,7 +7112,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 40 "/Injecto51"
+Ne 41 "/Injecto48"
 Po -750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7157,7 +7157,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 40 "/Injecto51"
+Ne 41 "/Injecto48"
 Po 750 0
 .SolderMask 60
 .SolderPaste -40
@@ -7184,7 +7184,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 38 "/Injecto40"
+Ne 39 "/Injecto37"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7211,7 +7211,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 82 "/Power_S27"
+Ne 82 "/Power_S24"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7238,7 +7238,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 71 "/Inputs/BRV-12v"
+Ne 70 "/Inputs/BRV-12v"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7292,7 +7292,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 65 "/Inputs/5"
+Ne 63 "/Inputs/4"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7319,7 +7319,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 64 "/Inputs/4"
+Ne 59 "/Inputs/3"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7346,7 +7346,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 67 "/Inputs/7"
+Ne 64 "/Inputs/5"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7373,7 +7373,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7400,7 +7400,7 @@ $PAD
 Sh "1" C 800 800 0 0 1800
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 69 "/Inputs/9"
+Ne 66 "/Inputs/7"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7454,7 +7454,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 68 "/Inputs/8"
+Ne 65 "/Inputs/6"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7508,7 +7508,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 72 "/Inputs/RPM0-IN+"
+Ne 71 "/Inputs/RPM0-IN+"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7535,7 +7535,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 73 "/Inputs/RPM0-IN-"
+Ne 72 "/Inputs/RPM0-IN-"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7562,7 +7562,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 74 "/Inputs/RPM1-IN+"
+Ne 73 "/Inputs/RPM1-IN+"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7589,7 +7589,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 76 "/Outputs22"
+Ne 76 "/Outputs19"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7616,7 +7616,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 19 "/CPU/RESET"
+Ne 21 "/CPU/RESET"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -7679,7 +7679,7 @@ $PAD
 Sh "1" C 650 650 0 0 1800
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 75 "/Inputs/RPM1-IN-"
+Ne 74 "/Inputs/RPM1-IN-"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -7741,7 +7741,7 @@ $PAD
 Sh "4" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -880 1400
 .SolderMask 60
 .SolderPaste -40
@@ -7768,7 +7768,7 @@ $PAD
 Sh "7" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po -110 1400
 .SolderMask 60
 .SolderPaste -40
@@ -7867,7 +7867,7 @@ $PAD
 Sh "18" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 910 -1400
 .SolderMask 60
 .SolderPaste -40
@@ -7885,7 +7885,7 @@ $PAD
 Sh "20" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po 400 -1400
 .SolderMask 60
 .SolderPaste -40
@@ -7894,7 +7894,7 @@ $PAD
 Sh "21" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 140 -1400
 .SolderMask 60
 .SolderPaste -40
@@ -7930,7 +7930,7 @@ $PAD
 Sh "25" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po -880 -1400
 .SolderMask 60
 .SolderPaste -40
@@ -7939,7 +7939,7 @@ $PAD
 Sh "26" R 160 500 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po -1140 -1400
 .SolderMask 60
 .SolderPaste -40
@@ -8065,7 +8065,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 55 "/Inputs/2"
+Ne 53 "/Inputs/2"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8092,7 +8092,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 113 "N-000192"
+Ne 119 "N-000202"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8101,7 +8101,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 75 "/Inputs/RPM1-IN-"
+Ne 74 "/Inputs/RPM1-IN-"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8128,7 +8128,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 121 "N-000206"
+Ne 121 "N-000207"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8137,7 +8137,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 72 "/Inputs/RPM0-IN+"
+Ne 71 "/Inputs/RPM0-IN+"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8164,7 +8164,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 122 "N-000207"
+Ne 122 "N-000208"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8173,7 +8173,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 73 "/Inputs/RPM0-IN-"
+Ne 72 "/Inputs/RPM0-IN-"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8200,7 +8200,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8209,7 +8209,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 65 "/Inputs/5"
+Ne 63 "/Inputs/4"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8236,7 +8236,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 66 "/Inputs/6"
+Ne 18 "/CPU/MAT-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8245,7 +8245,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 64 "/Inputs/4"
+Ne 59 "/Inputs/3"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8272,7 +8272,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 118 "N-000201"
+Ne 117 "N-000200"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8281,7 +8281,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 65 "/Inputs/5"
+Ne 63 "/Inputs/4"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8308,7 +8308,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 71 "/Inputs/BRV-12v"
+Ne 70 "/Inputs/BRV-12v"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8317,7 +8317,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 117 "N-000198"
+Ne 116 "N-000197"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8344,7 +8344,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8353,7 +8353,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 67 "/Inputs/7"
+Ne 64 "/Inputs/5"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8380,7 +8380,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 51 "/Inputs/10"
+Ne 67 "/Inputs/8"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8389,7 +8389,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 67 "/Inputs/7"
+Ne 64 "/Inputs/5"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8416,7 +8416,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 17 "/CPU/O2-Signal"
+Ne 19 "/CPU/O2-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8425,7 +8425,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 68 "/Inputs/8"
+Ne 65 "/Inputs/6"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8452,7 +8452,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 52 "/Inputs/11"
+Ne 68 "/Inputs/9"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8461,7 +8461,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 69 "/Inputs/9"
+Ne 66 "/Inputs/7"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8497,7 +8497,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8524,7 +8524,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8560,7 +8560,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -8610,7 +8610,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 30 "/Injecto16"
+Ne 31 "/Injecto13"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8619,7 +8619,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 38 "/Injecto40"
+Ne 39 "/Injecto37"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8660,7 +8660,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 32 "/Injecto18"
+Ne 33 "/Injecto15"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8669,7 +8669,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 48 "/Injecto61"
+Ne 49 "/Injecto58"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8710,7 +8710,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 31 "/Injecto17"
+Ne 32 "/Injecto14"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8719,7 +8719,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 38 "/Injecto40"
+Ne 39 "/Injecto37"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8760,7 +8760,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 34 "/Injecto20"
+Ne 35 "/Injecto17"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8769,7 +8769,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 50 "/Injecto63"
+Ne 51 "/Injecto60"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8810,7 +8810,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 35 "/Injecto21"
+Ne 36 "/Injecto18"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8819,7 +8819,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 50 "/Injecto63"
+Ne 51 "/Injecto60"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8860,7 +8860,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 37 "/Injecto24"
+Ne 38 "/Injecto21"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8869,7 +8869,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 49 "/Injecto62"
+Ne 50 "/Injecto59"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -8910,7 +8910,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 36 "/Injecto23"
+Ne 37 "/Injecto20"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -8919,7 +8919,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 49 "/Injecto62"
+Ne 50 "/Injecto59"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -9001,7 +9001,7 @@ $PAD
 Sh "1" C 580 580 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 29 "/CPU/ft232/Vbus"
+Ne 30 "/CPU/ft232/Vbus"
 Po 500 1850
 .SolderMask 60
 .SolderPaste -40
@@ -9028,7 +9028,7 @@ $PAD
 Sh "4" C 580 580 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 500 1063
 .SolderMask 60
 .SolderPaste -40
@@ -9124,7 +9124,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9156,7 +9156,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 1 "/CPU/BKGD"
+Ne 2 "/CPU/BKGD"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9192,7 +9192,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 123 "N-000208"
+Ne 123 "N-000209"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9201,7 +9201,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 20 "/CPU/RPM0"
+Ne 22 "/CPU/RPM0"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9245,14 +9245,14 @@ $PAD
 Sh "1" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1500 1100
 $EndPAD
 $PAD
 Sh "2" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1000 1100
 $EndPAD
 $PAD
@@ -9266,21 +9266,21 @@ $PAD
 Sh "4" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 57 "/Inputs/29"
+Ne 55 "/Inputs/26"
 Po 0 1100
 $EndPAD
 $PAD
 Sh "5" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 114 "N-000194"
+Ne 112 "N-000189"
 Po 500 1100
 $EndPAD
 $PAD
 Sh "6" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 115 "N-000196"
+Ne 113 "N-000190"
 Po 1000 1100
 $EndPAD
 $PAD
@@ -9294,7 +9294,7 @@ $PAD
 Sh "8" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 116 "N-000197"
+Ne 115 "N-000195"
 Po 1500 -1100
 $EndPAD
 $PAD
@@ -9308,7 +9308,7 @@ $PAD
 Sh "10" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 56 "/Inputs/28"
+Ne 54 "/Inputs/25"
 Po 500 -1100
 $EndPAD
 $PAD
@@ -9322,21 +9322,21 @@ $PAD
 Sh "12" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 -1100
 $EndPAD
 $PAD
 Sh "13" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1000 -1100
 $EndPAD
 $PAD
 Sh "14" R 236 787 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1500 -1100
 $EndPAD
 $SHAPE3D
@@ -9365,7 +9365,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1000 0
 .SolderMask 60
 .SolderPaste -40
@@ -9374,7 +9374,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 57 "/Inputs/29"
+Ne 55 "/Inputs/26"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -9410,7 +9410,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 63 "/Inputs/35"
+Ne 62 "/Inputs/32"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9419,7 +9419,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 116 "N-000197"
+Ne 115 "N-000195"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9446,7 +9446,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 63 "/Inputs/35"
+Ne 62 "/Inputs/32"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -9473,7 +9473,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 115 "N-000196"
+Ne 113 "N-000190"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9482,7 +9482,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 62 "/Inputs/34"
+Ne 61 "/Inputs/31"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9509,7 +9509,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 460 0 0
 At STD N 00D0FFFF
-Ne 62 "/Inputs/34"
+Ne 61 "/Inputs/31"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -9540,7 +9540,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -1000 0
 .SolderMask 60
 .SolderPaste -40
@@ -9549,7 +9549,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 56 "/Inputs/28"
+Ne 54 "/Inputs/25"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -9571,13 +9571,13 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SIL-3
 $MODULE RC03_vert
-Po 28170 12910 0 0 4FF1E589 4FF1E536 ~~
+Po 28030 12690 0 0 508DBD2A 4FF1E536 ~~
 Li RC03_vert
 Cd Resistor, RC03 vertical
 Sc 4FF1E536
 AR /4F0BB08D/4F0B8AB0
 Op 0 0 0
-T0 1300 10 300 300 0 50 M V 20 N"R14"
+T0 210 -520 300 300 0 50 M V 20 N"R14"
 T1 -3 -20 200 200 0 50 M I 20 N"1k"
 DC -503 0 -138 222 100 20
 DS -500 0 500 0 100 20
@@ -9594,7 +9594,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 61 "/Inputs/33"
+Ne 60 "/Inputs/30"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9621,7 +9621,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 114 "N-000194"
+Ne 112 "N-000189"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9630,7 +9630,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 59 "/Inputs/31"
+Ne 57 "/Inputs/28"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9657,7 +9657,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 119 "N-000202"
+Ne 118 "N-000201"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9666,7 +9666,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 21 "/CPU/RPM1"
+Ne 75 "/Inputs/RPM1-OUT"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9693,7 +9693,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 119 "N-000202"
+Ne 118 "N-000201"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9702,7 +9702,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9738,7 +9738,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9769,7 +9769,7 @@ $PAD
 Sh "1" R 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 30 "/Injecto16"
+Ne 31 "/Injecto13"
 Po -3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9778,7 +9778,7 @@ $PAD
 Sh "2" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 31 "/Injecto17"
+Ne 32 "/Injecto14"
 Po -2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9787,7 +9787,7 @@ $PAD
 Sh "3" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 32 "/Injecto18"
+Ne 33 "/Injecto15"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9796,7 +9796,7 @@ $PAD
 Sh "4" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 33 "/Injecto19"
+Ne 34 "/Injecto16"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9805,7 +9805,7 @@ $PAD
 Sh "5" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 34 "/Injecto20"
+Ne 35 "/Injecto17"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9814,7 +9814,7 @@ $PAD
 Sh "6" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 35 "/Injecto21"
+Ne 36 "/Injecto18"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9823,7 +9823,7 @@ $PAD
 Sh "7" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 36 "/Injecto23"
+Ne 37 "/Injecto20"
 Po 2500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9832,7 +9832,7 @@ $PAD
 Sh "8" C 600 600 0 0 2700
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 37 "/Injecto24"
+Ne 38 "/Injecto21"
 Po 3500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9868,7 +9868,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9904,7 +9904,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9940,7 +9940,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -9976,7 +9976,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10012,7 +10012,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10048,7 +10048,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10084,7 +10084,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 39 "/Injecto42"
+Ne 40 "/Injecto39"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10111,7 +10111,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10120,7 +10120,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 74 "/Inputs/RPM1-IN+"
+Ne 73 "/Inputs/RPM1-IN+"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10147,7 +10147,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10156,7 +10156,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 72 "/Inputs/RPM0-IN+"
+Ne 71 "/Inputs/RPM0-IN+"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10434,7 +10434,7 @@ $PAD
 Sh "D" R 2400 2400 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 33 "/Injecto19"
+Ne 34 "/Injecto16"
 Po 0 -2500
 .SolderMask 60
 .SolderPaste -40
@@ -10443,7 +10443,7 @@ $PAD
 Sh "S" R 650 1200 0 0 900
 Dr 0 0 0
 At SMD N 00A88000
-Ne 48 "/Injecto61"
+Ne 49 "/Injecto58"
 Po 900 0
 .SolderMask 60
 .SolderPaste -40
@@ -10483,7 +10483,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10523,7 +10523,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -10563,7 +10563,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11295,7 +11295,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 0 500
 .SolderMask 60
 .SolderPaste -40
@@ -11304,7 +11304,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 111 "N-000187"
+Ne 111 "N-000188"
 Po 0 -500
 .SolderMask 60
 .SolderPaste -40
@@ -11352,7 +11352,7 @@ $PAD
 Sh "1" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 0 500
 .SolderMask 60
 .SolderPaste -40
@@ -11361,7 +11361,7 @@ $PAD
 Sh "2" C 550 550 0 0 1800
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 112 "N-000191"
+Ne 114 "N-000193"
 Po 0 -500
 .SolderMask 60
 .SolderPaste -40
@@ -11508,7 +11508,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 82 "/Power_S27"
+Ne 82 "/Power_S24"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11550,7 +11550,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 82 "/Power_S27"
+Ne 82 "/Power_S24"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11586,7 +11586,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 50 "/Injecto63"
+Ne 51 "/Injecto60"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11613,7 +11613,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 50 "/Injecto63"
+Ne 51 "/Injecto60"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11640,7 +11640,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 49 "/Injecto62"
+Ne 50 "/Injecto59"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11667,7 +11667,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 49 "/Injecto62"
+Ne 50 "/Injecto59"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11694,7 +11694,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 48 "/Injecto61"
+Ne 49 "/Injecto58"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11721,7 +11721,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 48 "/Injecto61"
+Ne 49 "/Injecto58"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11752,7 +11752,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11792,7 +11792,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 53 "/Inputs/14"
+Ne 52 "/Inputs/12"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11843,7 +11843,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11876,7 +11876,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11885,7 +11885,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11912,7 +11912,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11921,7 +11921,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 53 "/Inputs/14"
+Ne 52 "/Inputs/12"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -11948,7 +11948,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 54 "/Inputs/15"
+Ne 17 "/CPU/MAF-Signal"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -11993,14 +11993,14 @@ $PAD
 Sh "2" R 236 787 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/CPU/RX"
+Ne 23 "/CPU/RX"
 Po -250 1100
 $EndPAD
 $PAD
 Sh "3" R 236 787 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 23 "/CPU/TX"
+Ne 29 "/CPU/ft232/TX"
 Po 250 1100
 $EndPAD
 $PAD
@@ -12014,7 +12014,7 @@ $PAD
 Sh "5" R 236 787 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/CPU/ft213"
+Ne 26 "/CPU/ft211"
 Po 750 -1100
 $EndPAD
 $PAD
@@ -12035,7 +12035,7 @@ $PAD
 Sh "8" R 236 787 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 25 "/CPU/ft212"
+Ne 25 "/CPU/ft210"
 Po -750 -1100
 $EndPAD
 $SHAPE3D
@@ -12114,7 +12114,7 @@ $PAD
 Sh "1" C 600 600 0 0 0
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 22 "/CPU/RX"
+Ne 23 "/CPU/RX"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -12141,7 +12141,7 @@ $PAD
 Sh "1" C 600 600 0 0 0
 Dr 394 0 0
 At STD N 00D0FFFF
-Ne 23 "/CPU/TX"
+Ne 29 "/CPU/ft232/TX"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -12168,7 +12168,7 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 80 "/Outputs59"
+Ne 80 "/Outputs56"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -12195,7 +12195,7 @@ $PAD
 Sh "1" C 650 650 0 0 0
 Dr 400 0 0
 At STD N 00D0FFFF
-Ne 18 "/CPU/PK5"
+Ne 20 "/CPU/PK5"
 Po 0 0
 .SolderMask 60
 .SolderPaste -40
@@ -12237,7 +12237,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 55 "/Inputs/2"
+Ne 53 "/Inputs/2"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12270,7 +12270,7 @@ $PAD
 Sh "1" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 55 "/Inputs/2"
+Ne 53 "/Inputs/2"
 Po -1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12279,7 +12279,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 1500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12321,7 +12321,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 30 "/Injecto16"
+Ne 31 "/Injecto13"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12363,7 +12363,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 31 "/Injecto17"
+Ne 32 "/Injecto14"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12405,7 +12405,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 32 "/Injecto18"
+Ne 33 "/Injecto15"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12447,7 +12447,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 33 "/Injecto19"
+Ne 34 "/Injecto16"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12489,7 +12489,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 34 "/Injecto20"
+Ne 35 "/Injecto17"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12531,7 +12531,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 35 "/Injecto21"
+Ne 36 "/Injecto18"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12573,7 +12573,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 76 "/Outputs22"
+Ne 76 "/Outputs19"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12615,7 +12615,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 36 "/Injecto23"
+Ne 37 "/Injecto20"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12657,7 +12657,7 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 37 "/Injecto24"
+Ne 38 "/Injecto21"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12699,7 +12699,7 @@ $PAD
 Sh "2" C 550 550 0 0 900
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 77 "/Outputs25"
+Ne 77 "/Outputs22"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12741,7 +12741,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 78 "/Outputs26"
+Ne 78 "/Outputs23"
 Po 1275 0
 .SolderMask 60
 .SolderPaste -40
@@ -12768,7 +12768,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 113 "N-000192"
+Ne 119 "N-000202"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12777,7 +12777,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12804,7 +12804,7 @@ $PAD
 Sh "1" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 122 "N-000207"
+Ne 122 "N-000208"
 Po -500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12813,7 +12813,7 @@ $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 315 0 0
 At STD N 00D0FFFF
-Ne 58 "/Inputs/3"
+Ne 1 "/CPU/5vdc-analog"
 Po 500 0
 .SolderMask 60
 .SolderPaste -40
@@ -12825,6 +12825,118 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  RC03_vert
+$MODULE RC03_vert
+Po 29800 13010 900 0 508DBCED 508DBB3D ~~
+Li RC03_vert
+Cd Resistor, RC03 vertical
+Sc 508DBB3D
+AR /4F0BB08D/508DBA85
+Op 0 0 0
+T0 280 -560 300 300 900 50 M V 20 N"R86"
+T1 -3 -20 200 200 900 50 M I 20 N"100k"
+DC -503 0 -138 222 100 20
+DS -500 0 500 0 100 20
+$PAD
+Sh "1" C 550 550 0 0 900
+Dr 315 0 0
+At STD N 00D0FFFF
+Ne 83 "GND"
+Po -500 0
+.SolderMask 60
+.SolderPaste -40
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 900
+Dr 315 0 0
+At STD N 00D0FFFF
+Ne 60 "/Inputs/30"
+Po 500 0
+.SolderMask 60
+.SolderPaste -40
+$EndPAD
+$SHAPE3D
+Na "walter/pth_resistors/rc03vert.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  RC03_vert
+$MODULE RC03_vert
+Po 26920 14350 0 0 508DBBE4 508DBB3F ~~
+Li RC03_vert
+Cd Resistor, RC03 vertical
+Sc 508DBB3F
+AR /4F0BB08D/508DBA08
+Op 0 0 0
+T0 -1410 40 300 300 0 50 M V 20 N"R85"
+T1 -3 -20 200 200 0 50 M I 20 N"100k"
+DC -503 0 -138 222 100 20
+DS -500 0 500 0 100 20
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 315 0 0
+At STD N 00D0FFFF
+Ne 83 "GND"
+Po -500 0
+.SolderMask 60
+.SolderPaste -40
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 315 0 0
+At STD N 00D0FFFF
+Ne 57 "/Inputs/28"
+Po 500 0
+.SolderMask 60
+.SolderPaste -40
+$EndPAD
+$SHAPE3D
+Na "walter/pth_resistors/rc03vert.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  RC03_vert
+$DRAWSEGMENT
+Po 0 25090 14100 19960 14100 70
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 25830 14840 25090 14100 70
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 27770 14840 25830 14840 70
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 27770 13850 27770 14840 70
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 27940 13850 27770 13850 70
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 27770 13850 27930 13850 70
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 27770 14840 27770 13850 70
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 25830 14840 27770 14840 70
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 25090 14100 25830 14840 70
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 19960 14100 25090 14100 70
+De 21 0 900 0 0
+$EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 54920 37850 54920 36810 70
 De 21 0 900 0 0
@@ -13796,14 +13908,6 @@ Po 0 19960 14100 19530 14530 70
 De 21 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
-Po 0 27690 14100 19960 14100 70
-De 21 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 27940 13850 27690 14100 70
-De 21 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
 Po 0 30450 13850 27940 13850 70
 De 21 0 900 0 0
 $EndDRAWSEGMENT
@@ -13825,14 +13929,6 @@ De 20 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 27940 13850 30450 13850 70
-De 20 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 27690 14100 27940 13850 70
-De 20 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 19960 14100 27690 14100 70
 De 20 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
@@ -15058,53 +15154,323 @@ Po 0 41416 19546 41422 19540 150 -1
 De 15 0 0 0 0
 Po 0 0 0 0 0 150 -1
 De 15 0 0 0 0
+Po 0 46135 13248 46135 12635 124 -1
+De 15 0 1 0 800
+Po 0 46350 12420 46810 12420 124 -1
+De 15 0 1 0 400
+Po 0 46135 12635 46350 12420 124 -1
+De 15 0 1 0 0
+Po 0 28780 10570 28770 10570 124 -1
+De 0 0 1 0 800
+Po 0 27900 11440 27840 11440 124 -1
+De 0 0 1 0 400
+Po 0 28770 10570 27900 11440 124 -1
+De 0 0 1 0 0
+Po 0 23990 11070 25700 11070 124 -1
+De 0 0 1 0 800
+Po 0 28270 10060 28780 10570 124 -1
+De 0 0 1 0 400
+Po 0 26710 10060 28270 10060 124 -1
+De 0 0 1 0 0
+Po 0 25700 11070 26710 10060 124 -1
+De 0 0 1 0 0
+Po 0 49840 13140 49840 14110 124 -1
+De 0 0 1 0 800
+Po 0 49840 14110 50090 14360 124 -1
+De 0 0 1 0 0
+Po 0 49450 27130 49450 26650 124 -1
+De 15 0 1 0 800
+Po 0 52470 25470 52850 25470 124 -1
+De 15 0 1 0 400
+Po 0 51580 26360 52470 25470 124 -1
+De 15 0 1 0 0
+Po 0 49740 26360 51580 26360 124 -1
+De 15 0 1 0 0
+Po 0 49450 26650 49740 26360 124 -1
+De 15 0 1 0 0
+Po 0 49450 27130 49450 25290 124 -1
+De 0 0 1 0 800
+Po 0 52440 17260 51260 16080 124 -1
+De 0 0 1 0 400
+Po 0 52440 19380 52440 17260 124 -1
+De 0 0 1 0 0
+Po 0 50880 20940 52440 19380 124 -1
+De 0 0 1 0 0
+Po 0 50880 24480 50880 20940 124 -1
+De 0 0 1 0 0
+Po 0 50430 24930 50880 24480 124 -1
+De 0 0 1 0 0
+Po 0 49810 24930 50430 24930 124 -1
+De 0 0 1 0 0
+Po 0 49450 25290 49810 24930 124 -1
+De 0 0 1 0 0
+Po 0 48120 26970 49290 26970 124 -1
+De 15 0 1 0 800
+Po 0 49290 26970 49450 27130 124 -1
+De 15 0 1 0 400
+Po 0 48140 28080 48140 26990 124 -1
+De 15 0 1 0 800
+Po 0 48140 26990 48120 26970 124 -1
+De 15 0 1 0 400
+Po 0 48140 28080 46760 28080 124 -1
+De 15 0 1 0 800
+Po 0 46760 28080 46510 28330 124 -1
+De 15 0 1 0 400
+Po 0 53820 26000 53380 26000 124 -1
+De 15 0 1 0 800
+Po 0 53380 26000 52850 25470 124 -1
+De 15 0 1 0 400
+Po 0 54820 26490 54310 26490 124 -1
+De 15 0 1 0 800
+Po 0 54310 26490 53820 26000 124 -1
+De 15 0 1 0 400
+Po 0 54820 26490 54820 26590 124 -1
+De 15 0 1 0 800
+Po 0 55745 27515 55745 27570 124 -1
+De 15 0 1 0 400
+Po 0 54820 26590 55745 27515 124 -1
+De 15 0 1 0 0
+Po 0 52260 30830 53710 30830 124 -1
+De 15 0 1 0 800
+Po 0 55810 27570 55745 27570 124 -1
+De 15 0 1 0 400
+Po 0 56430 28190 55810 27570 124 -1
+De 15 0 1 0 0
+Po 0 56430 30020 56430 28190 124 -1
+De 15 0 1 0 0
+Po 0 56150 30300 56430 30020 124 -1
+De 15 0 1 0 0
+Po 0 54240 30300 56150 30300 124 -1
+De 15 0 1 0 0
+Po 0 53710 30830 54240 30300 124 -1
+De 15 0 1 0 0
+Po 0 52260 30830 52260 31830 124 -1
+De 15 0 1 0 C00
+Po 0 20110 13140 20110 12580 150 -1
+De 15 0 1 0 800
+Po 0 19841 12311 19841 12273 150 -1
+De 15 0 1 0 0
+Po 0 20110 12580 19841 12311 150 -1
+De 15 0 1 0 0
+Po 0 20610 13140 20610 12436 150 -1
+De 15 0 1 0 800
+Po 0 20610 12436 20485 12311 150 -1
+De 15 0 1 0 0
+Po 0 20485 12311 19803 12311 150 -1
+De 15 0 1 0 0
+Po 0 19803 12311 19841 12273 150 -1
+De 15 0 1 0 0
+Po 0 15454 10800 16080 10800 150 -1
+De 15 0 1 0 400
+Po 0 19841 12273 19357 12757 150 -1
+De 15 0 1 0 0
+Po 0 19357 12757 17197 12757 150 -1
+De 15 0 1 0 0
+Po 0 17197 12757 16407 13547 150 -1
+De 15 0 1 0 0
+Po 0 16407 13547 15607 13547 150 -1
+De 15 0 1 0 0
+Po 0 15607 13547 15267 13207 150 -1
+De 15 0 1 0 0
+Po 0 15267 13207 15267 10987 150 -1
+De 15 0 1 0 0
+Po 0 15267 10987 15454 10800 150 -1
+De 15 0 1 0 0
+Po 0 20110 10940 20110 11573 150 -1
+De 15 0 1 0 800
+Po 0 20110 11573 19916 11767 150 -1
+De 15 0 1 0 0
+Po 0 20610 10940 20610 11633 150 -1
+De 15 0 1 0 800
+Po 0 20610 11633 20476 11767 150 -1
+De 15 0 1 0 0
+Po 0 21110 10940 21110 11594 150 -1
+De 15 0 1 0 800
+Po 0 21110 11594 20937 11767 150 -1
+De 15 0 1 0 0
+Po 0 20937 11767 20476 11767 150 -1
+De 15 0 1 0 0
+Po 0 18810 10800 16080 10800 150 -1
+De 15 0 1 0 400
+Po 0 19916 11767 19777 11767 150 -1
+De 15 0 1 0 0
+Po 0 19777 11767 18810 10800 150 -1
+De 15 0 1 0 0
+Po 0 20476 11767 19916 11767 150 -1
+De 15 0 1 0 0
+Po 0 46135 13248 46135 13655 150 -1
+De 15 0 1 0 800
+Po 0 46135 13655 45960 13830 150 -1
+De 15 0 1 0 0
+Po 0 45960 13830 44940 13830 150 -1
+De 15 0 1 0 0
+Po 0 44940 13830 44910 13860 150 -1
+De 15 0 1 0 400
+Po 0 44965 27155 44965 27895 150 -1
+De 15 0 1 0 800
+Po 0 44965 27895 45400 28330 150 -1
+De 15 0 1 0 0
+Po 0 45400 28330 46510 28330 150 -1
+De 15 0 1 0 400
+Po 0 50066 37086 50523 37086 150 -1
+De 15 0 1 0 800
+Po 0 56922 36608 57460 36070 150 -1
+De 15 0 1 0 400
+Po 0 55107 36608 56922 36608 150 -1
+De 15 0 1 0 0
+Po 0 54631 37084 55107 36608 150 -1
+De 15 0 1 0 0
+Po 0 54631 37462 54631 37084 150 -1
+De 15 0 1 0 0
+Po 0 54200 37893 54631 37462 150 -1
+De 15 0 1 0 0
+Po 0 53783 37893 54200 37893 150 -1
+De 15 0 1 0 0
+Po 0 53513 37623 53783 37893 150 -1
+De 15 0 1 0 0
+Po 0 50918 37623 53513 37623 150 -1
+De 15 0 1 0 0
+Po 0 50558 37263 50918 37623 150 -1
+De 15 0 1 0 0
+Po 0 50558 37121 50558 37263 150 -1
+De 15 0 1 0 0
+Po 0 50523 37086 50558 37121 150 -1
+De 15 0 1 0 0
+Po 0 51010 37080 50072 37080 150 -1
+De 15 0 1 0 800
+Po 0 50072 37080 50066 37086 150 -1
+De 15 0 1 0 400
+Po 0 42930 13860 42930 13990 124 -1
+De 0 0 1 0 800
+Po 0 42930 13990 43300 14360 124 -1
+De 0 0 1 0 0
+Po 0 43300 14360 50090 14360 124 -1
+De 0 0 1 0 0
+Po 0 50090 14360 50840 14360 124 -1
+De 0 0 1 0 0
+Po 0 50840 14360 51240 14760 124 -1
+De 0 0 1 0 0
+Po 0 51240 14760 51240 16060 124 -1
+De 0 0 1 0 0
+Po 0 51240 16060 51260 16080 124 -1
+De 0 0 1 0 400
+Po 0 49960 16000 51180 16000 124 -1
+De 15 0 1 0 800
+Po 0 51180 16000 51260 16080 124 -1
+De 15 0 1 0 400
+Po 0 49760 17080 49760 16200 124 -1
+De 15 0 1 0 800
+Po 0 49760 16200 49960 16000 124 -1
+De 15 0 1 0 400
+Po 0 23990 11070 23990 10410 124 -1
+De 0 0 1 0 800
+Po 0 23990 10410 24160 10240 124 -1
+De 0 0 1 0 0
+Po 0 16080 10500 16080 10800 124 -1
+De 0 0 1 0 400
+Po 0 24160 10240 16340 10240 124 -1
+De 0 0 1 0 0
+Po 0 16340 10240 16080 10500 124 -1
+De 0 0 1 0 0
+Po 0 41150 11060 32840 11060 124 -1
+De 15 0 1 0 800
+Po 0 32840 11060 32730 10950 124 -1
+De 15 0 1 0 0
+Po 0 32730 10950 30520 10950 124 -1
+De 15 0 1 0 0
+Po 0 30520 10950 29270 12200 124 -1
+De 15 0 1 0 0
+Po 0 29270 12200 28210 12200 124 -1
+De 15 0 1 0 0
+Po 0 28210 12200 27840 11830 124 -1
+De 15 0 1 0 0
+Po 0 27840 11830 27840 11440 124 -1
+De 15 0 1 0 400
+Po 0 40510 30830 40510 31940 124 -1
+De 15 0 1 0 800
+Po 0 40510 31940 40590 32020 124 -1
+De 15 0 1 0 0
+Po 0 41510 34580 41510 34280 124 -1
+De 15 0 1 0 800
+Po 0 39570 32020 39510 32080 124 -1
+De 15 0 1 0 400
+Po 0 41920 32020 40590 32020 124 -1
+De 15 0 1 0 0
+Po 0 40590 32020 39570 32020 124 -1
+De 15 0 1 0 0
+Po 0 42410 32510 41920 32020 124 -1
+De 15 0 1 0 0
+Po 0 42410 33380 42410 32510 124 -1
+De 15 0 1 0 0
+Po 0 41510 34280 42410 33380 124 -1
+De 15 0 1 0 0
+Po 0 41150 11060 41150 11100 124 -1
+De 15 0 1 0 800
+Po 0 42350 13860 42930 13860 124 -1
+De 15 0 1 0 400
+Po 0 41850 13360 42350 13860 124 -1
+De 15 0 1 0 0
+Po 0 41850 11800 41850 13360 124 -1
+De 15 0 1 0 0
+Po 0 41150 11100 41850 11800 124 -1
+De 15 0 1 0 0
+Po 0 43930 13860 42930 13860 124 -1
+De 15 0 1 0 C00
+Po 0 44910 13860 43930 13860 124 -1
+De 15 0 1 0 C00
+Po 0 50190 35440 50220 35410 150 -1
+De 0 0 1 0 0
+Po 0 51010 37080 51010 36200 150 -1
+De 0 0 1 0 800
+Po 0 51010 36200 50220 35410 150 -1
+De 0 0 1 0 0
+Po 0 52260 31830 52120 31830 150 -1
+De 0 0 1 0 800
+Po 0 49790 35840 50190 35440 150 -1
+De 0 0 1 0 0
+Po 0 45470 35840 49790 35840 150 -1
+De 0 0 1 0 0
+Po 0 43960 34330 45470 35840 150 -1
+De 0 0 1 0 0
+Po 0 42510 34330 43960 34330 150 -1
+De 0 0 1 0 800
+Po 0 52120 31830 50190 33760 150 -1
+De 0 0 1 0 0
+Po 0 50190 33760 50190 35440 150 -1
+De 0 0 1 0 0
+Po 0 41510 34580 42260 34580 150 -1
+De 15 0 1 0 800
+Po 0 42260 34580 42510 34330 150 -1
+De 15 0 1 0 400
+Po 0 42260 34580 42510 34330 150 -1
+De 15 0 1 0 400
 Po 0 39335 18505 39335 17575 124 -1
-De 15 0 1 0 800
-Po 0 33360 13922 32650 14632 124 -1
-De 15 0 1 0 400
-Po 0 33360 13420 33360 13922 124 -1
-De 15 0 1 0 0
-Po 0 33560 13220 33360 13420 124 -1
-De 15 0 1 0 0
-Po 0 34680 13220 33560 13220 124 -1
-De 15 0 1 0 0
-Po 0 34870 13410 34680 13220 124 -1
-De 15 0 1 0 0
-Po 0 34870 14690 34870 13410 124 -1
-De 15 0 1 0 0
-Po 0 37090 16910 34870 14690 124 -1
-De 15 0 1 0 0
-Po 0 38670 16910 37090 16910 124 -1
-De 15 0 1 0 0
-Po 0 39335 17575 38670 16910 124 -1
-De 15 0 1 0 0
-Po 0 28970 14840 28970 14440 124 -1
-De 15 0 1 0 800
-Po 0 32138 14120 32650 14632 124 -1
-De 15 0 1 0 400
-Po 0 29290 14120 32138 14120 124 -1
-De 15 0 1 0 0
-Po 0 28970 14440 29290 14120 124 -1
-De 15 0 1 0 0
-Po 0 42150 18505 42150 16720 124 -1
 De 15 0 2 0 800
-Po 0 33544 11860 32075 13329 124 -1
+Po 0 33360 13922 32650 14632 124 -1
 De 15 0 2 0 400
-Po 0 39730 11860 33544 11860 124 -1
+Po 0 33360 13420 33360 13922 124 -1
 De 15 0 2 0 0
-Po 0 40100 12230 39730 11860 124 -1
+Po 0 33560 13220 33360 13420 124 -1
 De 15 0 2 0 0
-Po 0 40100 14690 40100 12230 124 -1
+Po 0 34680 13220 33560 13220 124 -1
 De 15 0 2 0 0
-Po 0 40400 14990 40100 14690 124 -1
+Po 0 34870 13410 34680 13220 124 -1
 De 15 0 2 0 0
-Po 0 41650 14990 40400 14990 124 -1
+Po 0 34870 14690 34870 13410 124 -1
 De 15 0 2 0 0
-Po 0 41900 15240 41650 14990 124 -1
+Po 0 37090 16910 34870 14690 124 -1
 De 15 0 2 0 0
-Po 0 41900 16470 41900 15240 124 -1
+Po 0 38670 16910 37090 16910 124 -1
 De 15 0 2 0 0
-Po 0 42150 16720 41900 16470 124 -1
+Po 0 39335 17575 38670 16910 124 -1
+De 15 0 2 0 0
+Po 0 28970 14840 28970 14440 124 -1
+De 15 0 2 0 800
+Po 0 32138 14120 32650 14632 124 -1
+De 15 0 2 0 400
+Po 0 29290 14120 32138 14120 124 -1
+De 15 0 2 0 0
+Po 0 28970 14440 29290 14120 124 -1
 De 15 0 2 0 0
 Po 0 39845 27155 39845 28205 124 -1
 De 15 0 3 0 800
@@ -15254,133 +15620,189 @@ Po 0 36050 20500 34340 20500 124 -1
 De 15 0 16 0 0
 Po 0 34340 20500 34010 20830 124 -1
 De 15 0 16 0 400
-Po 0 42150 27155 42150 27840 124 -1
+Po 0 51390 24470 52450 24470 124 -1
 De 15 0 17 0 800
-Po 0 42150 27840 42504 28194 124 -1
-De 15 0 17 0 0
-Po 0 43900 30756 43900 33980 124 -1
-De 15 0 17 0 0
-Po 0 43494 30350 43900 30756 124 -1
-De 15 0 17 0 0
-Po 0 43172 30350 43494 30350 124 -1
-De 15 0 17 0 0
-Po 0 42504 29682 43172 30350 124 -1
-De 15 0 17 0 0
-Po 0 42504 28194 42504 29682 124 -1
-De 15 0 17 0 0
-Po 0 43900 33980 45710 35790 124 -1
-De 15 0 17 0 0
-Po 0 45710 35790 49660 35790 124 -1
-De 15 0 17 0 0
-Po 0 49660 35790 50260 35190 124 -1
-De 15 0 17 0 0
-Po 0 50260 35190 50260 33940 124 -1
-De 15 0 17 0 0
-Po 0 50260 33940 51360 32840 124 -1
-De 15 0 17 0 0
-Po 0 51360 32840 52240 32840 124 -1
-De 15 0 17 0 0
-Po 0 52240 32840 52610 32470 124 -1
-De 15 0 17 0 0
-Po 0 52610 32470 53890 32470 124 -1
-De 15 0 17 0 0
-Po 0 53890 32470 54250 32830 124 -1
-De 15 0 17 0 0
-Po 0 54250 32830 54260 32830 124 -1
+Po 0 52450 24470 52500 24420 124 -1
 De 15 0 17 0 400
-Po 0 54260 32830 55290 32830 124 -1
+Po 0 50370 24130 51250 24130 124 -1
 De 15 0 17 0 800
-Po 0 55290 32830 55340 32780 124 -1
+Po 0 51390 24270 51390 24470 124 -1
 De 15 0 17 0 400
-Po 0 54260 32830 54250 32830 124 -1
+Po 0 51250 24130 51390 24270 124 -1
+De 15 0 17 0 0
+Po 0 49450 24130 50370 24130 124 -1
+De 15 0 17 0 C00
+Po 0 49450 24130 49450 24660 124 -1
+De 0 0 17 0 800
+Po 0 48680 27540 48680 27580 124 -1
+De 0 0 17 0 0
+Po 0 48640 27580 48680 27540 124 -1
+De 0 0 17 0 0
+Po 0 48860 27360 48640 27580 124 -1
+De 0 0 17 0 0
+Po 0 48860 25250 48860 27360 124 -1
+De 0 0 17 0 0
+Po 0 49450 24660 48860 25250 124 -1
+De 0 0 17 0 0
+Po 0 47840 27730 47830 27730 124 -1
+De 0 0 17 0 0
+Po 0 43200 30990 43200 31130 124 -1
+De 0 0 17 0 400
+Po 0 45300 28890 43200 30990 124 -1
+De 0 0 17 0 0
+Po 0 46490 28890 45300 28890 124 -1
+De 0 0 17 0 0
+Po 0 46560 28820 46490 28890 124 -1
+De 0 0 17 0 0
+Po 0 46780 28820 46560 28820 124 -1
+De 0 0 17 0 0
+Po 0 47110 28490 46780 28820 124 -1
+De 0 0 17 0 0
+Po 0 47110 28450 47110 28490 124 -1
+De 0 0 17 0 0
+Po 0 47830 27730 47110 28450 124 -1
+De 0 0 17 0 0
+Po 0 47990 27580 48680 27580 124 -1
+De 0 0 17 0 0
+Po 0 47840 27730 47990 27580 124 -1
+De 0 0 17 0 0
+Po 0 41895 27155 41895 29825 124 -1
 De 15 0 17 0 800
-Po 0 53420 32000 53420 31730 124 -1
+Po 0 41895 29825 43200 31130 124 -1
 De 15 0 17 0 400
-Po 0 54250 32830 53420 32000 124 -1
-De 15 0 17 0 0
-Po 0 55260 30830 54660 30830 124 -1
-De 15 0 17 0 800
-Po 0 54660 30830 54440 31050 124 -1
-De 15 0 17 0 0
-Po 0 54440 31050 54440 31430 124 -1
-De 15 0 17 0 0
-Po 0 54440 31430 54140 31730 124 -1
-De 15 0 17 0 0
-Po 0 54140 31730 53420 31730 124 -1
-De 15 0 17 0 400
-Po 0 40355 18505 40355 17895 124 -1
+Po 0 49070 31090 49070 32390 124 -1
 De 15 0 18 0 800
-Po 0 36760 13260 36100 12600 124 -1
+Po 0 49070 32390 49260 32580 124 -1
 De 15 0 18 0 400
-Po 0 36760 15840 36760 13260 124 -1
+Po 0 49070 31090 49070 30860 124 -1
+De 15 0 18 0 800
+Po 0 49800 30130 50090 30130 124 -1
+De 15 0 18 0 400
+Po 0 49070 30860 49800 30130 124 -1
 De 15 0 18 0 0
-Po 0 37370 16450 36760 15840 124 -1
+Po 0 48140 31080 49060 31080 124 -1
+De 15 0 18 0 800
+Po 0 49060 31080 49070 31090 124 -1
+De 15 0 18 0 400
+Po 0 44200 27155 44200 27720 124 -1
+De 15 0 18 0 800
+Po 0 49260 32586 49260 32580 124 -1
+De 15 0 18 0 400
+Po 0 48773 33073 49260 32586 124 -1
 De 15 0 18 0 0
-Po 0 38910 16450 37370 16450 124 -1
+Po 0 46833 33073 48773 33073 124 -1
 De 15 0 18 0 0
-Po 0 40355 17895 38910 16450 124 -1
+Po 0 46520 32760 46833 33073 124 -1
 De 15 0 18 0 0
-Po 0 37185 22700 31480 22700 124 -1
+Po 0 46520 30040 46520 32760 124 -1
+De 15 0 18 0 0
+Po 0 44200 27720 46520 30040 124 -1
+De 15 0 18 0 0
+Po 0 42150 27155 42150 27840 124 -1
 De 15 0 19 0 800
-Po 0 31480 22700 30930 22150 124 -1
+Po 0 42150 27840 42504 28194 124 -1
 De 15 0 19 0 0
-Po 0 30930 22150 30930 17750 124 -1
+Po 0 43900 30756 43900 33980 124 -1
 De 15 0 19 0 0
-Po 0 30930 17750 30510 17330 124 -1
+Po 0 43494 30350 43900 30756 124 -1
+De 15 0 19 0 0
+Po 0 43172 30350 43494 30350 124 -1
+De 15 0 19 0 0
+Po 0 42504 29682 43172 30350 124 -1
+De 15 0 19 0 0
+Po 0 42504 28194 42504 29682 124 -1
+De 15 0 19 0 0
+Po 0 43900 33980 45710 35790 124 -1
+De 15 0 19 0 0
+Po 0 45710 35790 49660 35790 124 -1
+De 15 0 19 0 0
+Po 0 49660 35790 50260 35190 124 -1
+De 15 0 19 0 0
+Po 0 50260 35190 50260 33940 124 -1
+De 15 0 19 0 0
+Po 0 50260 33940 51360 32840 124 -1
+De 15 0 19 0 0
+Po 0 51360 32840 52240 32840 124 -1
+De 15 0 19 0 0
+Po 0 52240 32840 52610 32470 124 -1
+De 15 0 19 0 0
+Po 0 52610 32470 53890 32470 124 -1
+De 15 0 19 0 0
+Po 0 53890 32470 54250 32830 124 -1
+De 15 0 19 0 0
+Po 0 54250 32830 54260 32830 124 -1
 De 15 0 19 0 400
-Po 0 29970 15840 29970 17350 124 -1
+Po 0 54260 32830 55290 32830 124 -1
 De 15 0 19 0 800
-Po 0 29970 17350 30200 17580 124 -1
-De 15 0 19 0 0
-Po 0 29510 17580 30200 17580 124 -1
-De 15 0 19 0 800
-Po 0 30200 17580 30260 17580 124 -1
-De 15 0 19 0 0
-Po 0 30260 17580 30510 17330 124 -1
+Po 0 55290 32830 55340 32780 124 -1
 De 15 0 19 0 400
-Po 0 42920 18505 42920 16620 124 -1
+Po 0 54260 32830 54250 32830 124 -1
+De 15 0 19 0 800
+Po 0 53420 32000 53420 31730 124 -1
+De 15 0 19 0 400
+Po 0 54250 32830 53420 32000 124 -1
+De 15 0 19 0 0
+Po 0 55260 30830 54660 30830 124 -1
+De 15 0 19 0 800
+Po 0 54660 30830 54440 31050 124 -1
+De 15 0 19 0 0
+Po 0 54440 31050 54440 31430 124 -1
+De 15 0 19 0 0
+Po 0 54440 31430 54140 31730 124 -1
+De 15 0 19 0 0
+Po 0 54140 31730 53420 31730 124 -1
+De 15 0 19 0 400
+Po 0 40355 18505 40355 17895 124 -1
 De 15 0 20 0 800
-Po 0 42920 16620 43250 16290 124 -1
-De 15 0 20 0 0
-Po 0 43250 16290 43610 16290 124 -1
+Po 0 36760 13260 36100 12600 124 -1
 De 15 0 20 0 400
-Po 0 42410 16230 42410 15070 124 -1
-De 15 0 21 0 0
-Po 0 41510 14370 41160 14020 124 -1
-De 15 0 21 0 400
-Po 0 41710 14370 41510 14370 124 -1
-De 15 0 21 0 0
-Po 0 42410 15070 41710 14370 124 -1
-De 15 0 21 0 0
-Po 0 42665 16485 42410 16230 124 -1
-De 15 0 21 0 0
-Po 0 42665 18505 42665 16485 124 -1
+Po 0 36760 15840 36760 13260 124 -1
+De 15 0 20 0 0
+Po 0 37370 16450 36760 15840 124 -1
+De 15 0 20 0 0
+Po 0 38910 16450 37370 16450 124 -1
+De 15 0 20 0 0
+Po 0 40355 17895 38910 16450 124 -1
+De 15 0 20 0 0
+Po 0 37185 22700 31480 22700 124 -1
 De 15 0 21 0 800
-Po 0 50280 22570 49070 22570 124 -1
+Po 0 31480 22700 30930 22150 124 -1
+De 15 0 21 0 0
+Po 0 30930 22150 30930 17750 124 -1
+De 15 0 21 0 0
+Po 0 30930 17750 30510 17330 124 -1
+De 15 0 21 0 400
+Po 0 29970 15840 29970 17350 124 -1
+De 15 0 21 0 800
+Po 0 29970 17350 30200 17580 124 -1
+De 15 0 21 0 0
+Po 0 29510 17580 30200 17580 124 -1
+De 15 0 21 0 800
+Po 0 30200 17580 30260 17580 124 -1
+De 15 0 21 0 0
+Po 0 30260 17580 30510 17330 124 -1
+De 15 0 21 0 400
+Po 0 42920 18505 42920 16620 124 -1
 De 15 0 22 0 800
-Po 0 48760 23860 48210 24410 124 -1
-De 0 0 22 0 400
-Po 0 48760 22880 48760 23860 124 -1
-De 0 0 22 0 0
-Po 0 49070 22570 48760 22880 124 -1
-De 0 0 22 0 0
-Po 3 49070 22570 49070 22570 550 -1
-De 15 1 22 0 0
-Po 0 45835 25265 47445 25265 124 -1
-De 15 0 22 0 800
-Po 0 48210 24500 48210 24410 124 -1
-De 15 0 22 0 400
-Po 0 47445 25265 48210 24500 124 -1
+Po 0 42920 16620 43250 16290 124 -1
 De 15 0 22 0 0
-Po 0 50280 23070 48150 23070 124 -1
-De 15 0 23 0 C00
-Po 0 45835 25005 47325 25005 124 -1
+Po 0 43250 16290 43610 16290 124 -1
+De 15 0 22 0 400
+Po 0 50280 22570 49070 22570 124 -1
 De 15 0 23 0 800
-Po 0 47680 23540 48150 23070 124 -1
+Po 0 48760 23860 48210 24410 124 -1
+De 0 0 23 0 400
+Po 0 48760 22880 48760 23860 124 -1
+De 0 0 23 0 0
+Po 0 49070 22570 48760 22880 124 -1
+De 0 0 23 0 0
+Po 3 49070 22570 49070 22570 550 -1
+De 15 1 23 0 0
+Po 0 45835 25265 47445 25265 124 -1
+De 15 0 23 0 800
+Po 0 48210 24500 48210 24410 124 -1
 De 15 0 23 0 400
-Po 0 47680 24650 47680 23540 124 -1
-De 15 0 23 0 0
-Po 0 47325 25005 47680 24650 124 -1
+Po 0 47445 25265 48210 24500 124 -1
 De 15 0 23 0 0
 Po 0 48760 20580 48570 20580 124 -1
 De 0 0 24 0 800
@@ -15730,1040 +16152,728 @@ Po 0 56180 16280 56480 16580 124 -1
 De 15 0 28 0 0
 Po 0 56480 16580 57910 16580 124 -1
 De 15 0 28 0 400
-Po 0 58150 18210 57480 18210 70 -1
-De 15 0 29 0 0
-Po 0 57480 18210 57450 18180 70 -1
-De 15 0 29 0 0
-Po 0 57450 18180 57450 18040 70 -1
-De 15 0 29 0 0
-Po 0 60611 16250 60435 16426 70 -1
-De 15 0 29 0 400
-Po 0 61070 16250 60611 16250 70 -1
-De 15 0 29 0 0
-Po 0 61278 16458 61070 16250 70 -1
-De 15 0 29 0 0
-Po 0 61278 17632 61278 16458 70 -1
-De 15 0 29 0 0
-Po 0 60700 18210 61278 17632 70 -1
-De 15 0 29 0 0
-Po 0 58150 18210 60700 18210 70 -1
-De 15 0 29 0 0
-Po 0 57450 18040 57910 17580 70 -1
-De 15 0 29 0 400
-Po 0 56380 19570 56910 19570 124 -1
+Po 0 50280 23070 48150 23070 124 -1
+De 15 0 29 0 C00
+Po 0 45835 25005 47325 25005 124 -1
 De 15 0 29 0 800
-Po 0 56910 19570 57450 19030 124 -1
-De 15 0 29 0 0
-Po 0 57450 19030 57450 18040 124 -1
-De 15 0 29 0 0
-Po 0 57450 18040 57910 17580 124 -1
+Po 0 47680 23540 48150 23070 124 -1
 De 15 0 29 0 400
+Po 0 47680 24650 47680 23540 124 -1
+De 15 0 29 0 0
+Po 0 47325 25005 47680 24650 124 -1
+De 15 0 29 0 0
+Po 0 58150 18210 57480 18210 70 -1
+De 15 0 30 0 0
+Po 0 57480 18210 57450 18180 70 -1
+De 15 0 30 0 0
+Po 0 57450 18180 57450 18040 70 -1
+De 15 0 30 0 0
+Po 0 60611 16250 60435 16426 70 -1
+De 15 0 30 0 400
+Po 0 61070 16250 60611 16250 70 -1
+De 15 0 30 0 0
+Po 0 61278 16458 61070 16250 70 -1
+De 15 0 30 0 0
+Po 0 61278 17632 61278 16458 70 -1
+De 15 0 30 0 0
+Po 0 60700 18210 61278 17632 70 -1
+De 15 0 30 0 0
+Po 0 58150 18210 60700 18210 70 -1
+De 15 0 30 0 0
+Po 0 57450 18040 57910 17580 70 -1
+De 15 0 30 0 400
+Po 0 56380 19570 56910 19570 124 -1
+De 15 0 30 0 800
+Po 0 56910 19570 57450 19030 124 -1
+De 15 0 30 0 0
+Po 0 57450 19030 57450 18040 124 -1
+De 15 0 30 0 0
+Po 0 57450 18040 57910 17580 124 -1
+De 15 0 30 0 400
 Po 0 14500 23150 14500 19100 350 -1
-De 15 0 30 0 800
+De 15 0 31 0 800
 Po 0 19700 15275 19525 15100 350 -1
-De 15 0 30 0 400
+De 15 0 31 0 400
 Po 0 19700 16750 19700 15275 350 -1
-De 15 0 30 0 0
+De 15 0 31 0 0
 Po 0 19200 17250 19700 16750 350 -1
-De 15 0 30 0 0
+De 15 0 31 0 0
 Po 0 16350 17250 19200 17250 350 -1
-De 15 0 30 0 0
+De 15 0 31 0 0
 Po 0 14500 19100 16350 17250 350 -1
-De 15 0 30 0 0
+De 15 0 31 0 0
 Po 0 21260 15830 20255 15830 350 -1
-De 15 0 30 0 800
+De 15 0 31 0 800
 Po 0 20255 15830 19525 15100 350 -1
-De 15 0 30 0 400
+De 15 0 31 0 400
 Po 0 14500 24150 15100 24150 350 -1
-De 15 0 31 0 800
+De 15 0 32 0 800
 Po 0 19700 18225 19525 18050 350 -1
-De 15 0 31 0 400
+De 15 0 32 0 400
 Po 0 19700 19850 19700 18225 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 19300 20250 19700 19850 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 16000 20250 19300 20250 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 15400 20850 16000 20250 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 15400 23850 15400 20850 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 15100 24150 15400 23850 350 -1
-De 15 0 31 0 0
+De 15 0 32 0 0
 Po 0 21260 18830 20305 18830 350 -1
-De 15 0 31 0 800
+De 15 0 32 0 800
 Po 0 20305 18830 19525 18050 350 -1
-De 15 0 31 0 400
+De 15 0 32 0 400
 Po 0 14500 25150 15200 25150 350 -1
-De 15 0 32 0 800
+De 15 0 33 0 800
 Po 0 19700 21225 19525 21050 350 -1
-De 15 0 32 0 400
+De 15 0 33 0 400
 Po 0 19700 22750 19700 21225 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 19200 23250 19700 22750 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 16400 23250 19200 23250 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 16050 23600 16400 23250 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 16050 24300 16050 23600 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 15200 25150 16050 24300 350 -1
-De 15 0 32 0 0
+De 15 0 33 0 0
 Po 0 21260 21830 20305 21830 350 -1
-De 15 0 32 0 800
+De 15 0 33 0 800
 Po 0 20305 21830 19525 21050 350 -1
-De 15 0 32 0 400
+De 15 0 33 0 400
 Po 0 14500 26150 15450 26150 350 -1
-De 15 0 33 0 800
+De 15 0 34 0 800
 Po 0 19700 24225 19525 24050 350 -1
-De 15 0 33 0 400
+De 15 0 34 0 400
 Po 0 19700 25600 19700 24225 350 -1
-De 15 0 33 0 0
+De 15 0 34 0 0
 Po 0 19400 25900 19700 25600 350 -1
-De 15 0 33 0 0
+De 15 0 34 0 0
 Po 0 15700 25900 19400 25900 350 -1
-De 15 0 33 0 0
+De 15 0 34 0 0
 Po 0 15450 26150 15700 25900 350 -1
-De 15 0 33 0 0
+De 15 0 34 0 0
 Po 0 21270 24810 20285 24810 350 -1
-De 15 0 33 0 800
+De 15 0 34 0 800
 Po 0 20285 24810 19525 24050 350 -1
-De 15 0 33 0 400
+De 15 0 34 0 400
 Po 0 14500 27150 15450 27150 350 -1
-De 15 0 34 0 800
+De 15 0 35 0 800
 Po 0 19525 26725 19525 27050 350 -1
-De 15 0 34 0 400
+De 15 0 35 0 400
 Po 0 19250 26450 19525 26725 350 -1
-De 15 0 34 0 0
+De 15 0 35 0 0
 Po 0 16150 26450 19250 26450 350 -1
-De 15 0 34 0 0
+De 15 0 35 0 0
 Po 0 15450 27150 16150 26450 350 -1
-De 15 0 34 0 0
+De 15 0 35 0 0
 Po 0 21260 27830 20305 27830 350 -1
-De 15 0 34 0 800
+De 15 0 35 0 800
 Po 0 20305 27830 19525 27050 350 -1
-De 15 0 34 0 400
+De 15 0 35 0 400
 Po 0 14500 28150 15050 28150 350 -1
-De 15 0 35 0 800
+De 15 0 36 0 800
 Po 0 19525 29675 19525 30050 350 -1
-De 15 0 35 0 400
+De 15 0 36 0 400
 Po 0 19050 29200 19525 29675 350 -1
-De 15 0 35 0 0
+De 15 0 36 0 0
 Po 0 16100 29200 19050 29200 350 -1
-De 15 0 35 0 0
+De 15 0 36 0 0
 Po 0 15050 28150 16100 29200 350 -1
-De 15 0 35 0 0
+De 15 0 36 0 0
 Po 0 21260 30830 20305 30830 350 -1
-De 15 0 35 0 800
+De 15 0 36 0 800
 Po 0 20305 30830 19525 30050 350 -1
-De 15 0 35 0 400
+De 15 0 36 0 400
 Po 0 14500 29150 14950 29150 350 -1
-De 15 0 36 0 800
+De 15 0 37 0 800
 Po 0 19525 32525 19525 33050 350 -1
-De 15 0 36 0 400
+De 15 0 37 0 400
 Po 0 19150 32150 19525 32525 350 -1
-De 15 0 36 0 0
+De 15 0 37 0 0
 Po 0 15850 32150 19150 32150 350 -1
-De 15 0 36 0 0
+De 15 0 37 0 0
 Po 0 15400 31700 15850 32150 350 -1
-De 15 0 36 0 0
+De 15 0 37 0 0
 Po 0 15400 29600 15400 31700 350 -1
-De 15 0 36 0 0
+De 15 0 37 0 0
 Po 0 14950 29150 15400 29600 350 -1
-De 15 0 36 0 0
+De 15 0 37 0 0
 Po 0 21260 33830 20305 33830 350 -1
-De 15 0 36 0 800
+De 15 0 37 0 800
 Po 0 20305 33830 19525 33050 350 -1
-De 15 0 36 0 400
+De 15 0 37 0 400
 Po 0 14500 30150 14500 31800 350 -1
-De 15 0 37 0 800
+De 15 0 38 0 800
 Po 0 19525 35575 19525 36100 350 -1
-De 15 0 37 0 400
+De 15 0 38 0 400
 Po 0 19200 35250 19525 35575 350 -1
-De 15 0 37 0 0
+De 15 0 38 0 0
 Po 0 16000 35250 19200 35250 350 -1
-De 15 0 37 0 0
+De 15 0 38 0 0
 Po 0 15300 34550 16000 35250 350 -1
-De 15 0 37 0 0
+De 15 0 38 0 0
 Po 0 15300 32600 15300 34550 350 -1
-De 15 0 37 0 0
+De 15 0 38 0 0
 Po 0 14500 31800 15300 32600 350 -1
-De 15 0 37 0 0
+De 15 0 38 0 0
 Po 0 21260 36830 20255 36830 350 -1
-De 15 0 37 0 800
+De 15 0 38 0 800
 Po 0 20255 36830 19525 36100 350 -1
-De 15 0 37 0 400
+De 15 0 38 0 400
 Po 0 23760 15720 23760 18720 700 -1
-De 0 0 38 0 C00
+De 0 0 39 0 C00
 Po 0 23760 14930 23760 15720 321 -1
-De 15 0 38 0 C00
+De 15 0 39 0 C00
 Po 0 23760 17930 23760 18720 321 -1
-De 15 0 38 0 C00
+De 15 0 39 0 C00
 Po 0 28260 36330 28080 36330 124 -1
-De 0 0 39 0 800
+De 0 0 40 0 800
 Po 0 28900 28750 29400 28250 124 -1
-De 0 0 39 0 400
+De 0 0 40 0 400
 Po 0 28900 30450 28900 28750 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 28350 31000 28900 30450 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 28350 32500 28350 31000 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 27550 33300 28350 32500 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 27550 35800 27550 33300 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 28080 36330 27550 35800 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 16100 37250 16650 37800 124 -1
-De 0 0 39 0 800
+De 0 0 40 0 800
 Po 0 27440 37150 28260 36330 124 -1
-De 0 0 39 0 400
+De 0 0 40 0 400
 Po 0 26000 37150 27440 37150 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 25900 37050 26000 37150 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 24550 37050 25900 37050 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 23800 37800 24550 37050 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 16650 37800 23800 37800 124 -1
-De 0 0 39 0 0
+De 0 0 40 0 0
 Po 0 16100 19200 16100 16250 124 -1
-De 0 0 39 0 C00
+De 0 0 40 0 C00
 Po 0 16100 22200 16100 19200 124 -1
-De 0 0 39 0 C00
+De 0 0 40 0 C00
 Po 0 16150 25200 16150 22250 124 -1
-De 0 0 39 0 800
+De 0 0 40 0 800
 Po 0 16150 22250 16100 22200 124 -1
-De 0 0 39 0 400
+De 0 0 40 0 400
 Po 0 16100 28200 16100 25250 124 -1
-De 0 0 39 0 800
+De 0 0 40 0 800
 Po 0 16100 25250 16150 25200 124 -1
-De 0 0 39 0 400
+De 0 0 40 0 400
 Po 0 16100 31200 16100 28200 124 -1
-De 0 0 39 0 C00
+De 0 0 40 0 C00
 Po 0 16100 34200 16100 31200 124 -1
-De 0 0 39 0 C00
+De 0 0 40 0 C00
 Po 0 16100 37250 16100 34200 124 -1
-De 0 0 39 0 C00
+De 0 0 40 0 C00
 Po 0 28260 36330 28260 36640 124 -1
-De 15 0 39 0 800
-Po 0 31230 37470 31530 37170 124 -1
-De 15 0 39 0 400
-Po 0 29090 37470 31230 37470 124 -1
-De 15 0 39 0 0
-Po 0 28260 36640 29090 37470 124 -1
-De 15 0 39 0 0
-Po 0 31530 37170 33250 37170 124 -1
-De 15 0 39 0 800
-Po 0 33250 37170 33580 36840 124 -1
-De 15 0 39 0 400
-Po 0 27960 22980 27960 20750 124 -1
 De 15 0 40 0 800
-Po 0 26470 17370 26470 16730 124 -1
+Po 0 31230 37470 31530 37170 124 -1
 De 15 0 40 0 400
-Po 0 27340 18240 26470 17370 124 -1
+Po 0 29090 37470 31230 37470 124 -1
 De 15 0 40 0 0
-Po 0 27340 20130 27340 18240 124 -1
+Po 0 28260 36640 29090 37470 124 -1
 De 15 0 40 0 0
-Po 0 27960 20750 27340 20130 124 -1
-De 15 0 40 0 0
-Po 0 26470 15420 26470 16730 124 -1
-De 15 0 40 0 C00
-Po 0 27960 23980 27710 23980 124 -1
+Po 0 31530 37170 33250 37170 124 -1
+De 15 0 40 0 800
+Po 0 33250 37170 33580 36840 124 -1
+De 15 0 40 0 400
+Po 0 27960 22980 27960 20750 124 -1
 De 15 0 41 0 800
-Po 0 26470 20250 26470 19710 124 -1
+Po 0 26470 17370 26470 16730 124 -1
 De 15 0 41 0 400
-Po 0 27210 20990 26470 20250 124 -1
+Po 0 27340 18240 26470 17370 124 -1
 De 15 0 41 0 0
-Po 0 27210 23480 27210 20990 124 -1
+Po 0 27340 20130 27340 18240 124 -1
 De 15 0 41 0 0
-Po 0 27710 23980 27210 23480 124 -1
+Po 0 27960 20750 27340 20130 124 -1
 De 15 0 41 0 0
-Po 0 26470 18470 26470 19710 124 -1
+Po 0 26470 15420 26470 16730 124 -1
 De 15 0 41 0 C00
-Po 0 27960 24980 27370 24980 124 -1
+Po 0 27960 23980 27710 23980 124 -1
 De 15 0 42 0 800
-Po 0 26470 23210 26470 22730 124 -1
+Po 0 26470 20250 26470 19710 124 -1
 De 15 0 42 0 400
-Po 0 27070 23810 26470 23210 124 -1
+Po 0 27210 20990 26470 20250 124 -1
 De 15 0 42 0 0
-Po 0 27070 24680 27070 23810 124 -1
+Po 0 27210 23480 27210 20990 124 -1
 De 15 0 42 0 0
-Po 0 27370 24980 27070 24680 124 -1
+Po 0 27710 23980 27210 23480 124 -1
 De 15 0 42 0 0
-Po 0 26470 21450 26470 22730 124 -1
+Po 0 26470 18470 26470 19710 124 -1
 De 15 0 42 0 C00
-Po 0 27960 25980 26740 25980 124 -1
+Po 0 27960 24980 27370 24980 124 -1
 De 15 0 43 0 800
-Po 0 26740 25980 26470 25710 124 -1
+Po 0 26470 23210 26470 22730 124 -1
 De 15 0 43 0 400
-Po 0 26470 24460 26470 25710 124 -1
+Po 0 27070 23810 26470 23210 124 -1
+De 15 0 43 0 0
+Po 0 27070 24680 27070 23810 124 -1
+De 15 0 43 0 0
+Po 0 27370 24980 27070 24680 124 -1
+De 15 0 43 0 0
+Po 0 26470 21450 26470 22730 124 -1
 De 15 0 43 0 C00
-Po 0 27960 26980 26950 26980 124 -1
+Po 0 27960 25980 26740 25980 124 -1
 De 15 0 44 0 800
-Po 0 26950 26980 26470 27460 124 -1
+Po 0 26740 25980 26470 25710 124 -1
 De 15 0 44 0 400
-Po 0 26470 27460 26470 28730 124 -1
+Po 0 26470 24460 26470 25710 124 -1
 De 15 0 44 0 C00
-Po 0 27960 27980 27580 27980 124 -1
+Po 0 27960 26980 26950 26980 124 -1
 De 15 0 45 0 800
-Po 0 26470 29740 26470 30500 124 -1
+Po 0 26950 26980 26470 27460 124 -1
 De 15 0 45 0 400
-Po 0 27120 29090 26470 29740 124 -1
-De 15 0 45 0 0
-Po 0 27120 28440 27120 29090 124 -1
-De 15 0 45 0 0
-Po 0 27580 27980 27120 28440 124 -1
-De 15 0 45 0 0
-Po 0 26470 30500 26470 31730 124 -1
+Po 0 26470 27460 26470 28730 124 -1
 De 15 0 45 0 C00
-Po 0 27960 28980 27810 28980 124 -1
+Po 0 27960 27980 27580 27980 124 -1
 De 15 0 46 0 800
-Po 0 26480 32680 26480 33490 124 -1
+Po 0 26470 29740 26470 30500 124 -1
 De 15 0 46 0 400
-Po 0 27190 31970 26480 32680 124 -1
+Po 0 27120 29090 26470 29740 124 -1
 De 15 0 46 0 0
-Po 0 27190 29600 27190 31970 124 -1
+Po 0 27120 28440 27120 29090 124 -1
 De 15 0 46 0 0
-Po 0 27810 28980 27190 29600 124 -1
+Po 0 27580 27980 27120 28440 124 -1
 De 15 0 46 0 0
-Po 0 26480 33490 26480 34730 124 -1
+Po 0 26470 30500 26470 31730 124 -1
 De 15 0 46 0 C00
-Po 0 27960 29980 27960 32480 124 -1
+Po 0 27960 28980 27810 28980 124 -1
 De 15 0 47 0 800
-Po 0 26490 36470 26470 36490 124 -1
+Po 0 26480 32680 26480 33490 124 -1
 De 15 0 47 0 400
-Po 0 26490 35730 26490 36470 124 -1
+Po 0 27190 31970 26480 32680 124 -1
 De 15 0 47 0 0
-Po 0 27130 35090 26490 35730 124 -1
+Po 0 27190 29600 27190 31970 124 -1
 De 15 0 47 0 0
-Po 0 27130 33310 27130 35090 124 -1
+Po 0 27810 28980 27190 29600 124 -1
 De 15 0 47 0 0
-Po 0 27960 32480 27130 33310 124 -1
-De 15 0 47 0 0
-Po 0 26470 36490 26470 37730 124 -1
+Po 0 26480 33490 26480 34730 124 -1
 De 15 0 47 0 C00
+Po 0 27960 29980 27960 32480 124 -1
+De 15 0 48 0 800
+Po 0 26490 36470 26470 36490 124 -1
+De 15 0 48 0 400
+Po 0 26490 35730 26490 36470 124 -1
+De 15 0 48 0 0
+Po 0 27130 35090 26490 35730 124 -1
+De 15 0 48 0 0
+Po 0 27130 33310 27130 35090 124 -1
+De 15 0 48 0 0
+Po 0 27960 32480 27130 33310 124 -1
+De 15 0 48 0 0
+Po 0 26470 36490 26470 37730 124 -1
+De 15 0 48 0 C00
 Po 0 23760 21720 23760 24690 700 -1
-De 0 0 48 0 800
+De 0 0 49 0 800
 Po 0 23760 24690 23770 24700 700 -1
-De 0 0 48 0 400
+De 0 0 49 0 400
 Po 0 23760 20930 23760 21720 321 -1
-De 15 0 48 0 C00
+De 15 0 49 0 C00
 Po 0 23770 23910 23770 24700 321 -1
-De 15 0 48 0 C00
+De 15 0 49 0 C00
 Po 0 23760 33720 23760 36720 700 -1
-De 0 0 49 0 C00
-Po 0 23760 35930 23760 36720 321 -1
-De 15 0 49 0 C00
-Po 0 23760 32930 23760 33720 321 -1
-De 15 0 49 0 C00
-Po 0 23760 27720 23760 30720 700 -1
 De 0 0 50 0 C00
+Po 0 23760 35930 23760 36720 321 -1
+De 15 0 50 0 C00
+Po 0 23760 32930 23760 33720 321 -1
+De 15 0 50 0 C00
+Po 0 23760 27720 23760 30720 700 -1
+De 0 0 51 0 C00
 Po 0 23760 29930 23760 30720 321 -1
-De 15 0 50 0 C00
+De 15 0 51 0 C00
 Po 0 23760 26930 23760 27720 321 -1
-De 15 0 50 0 C00
-Po 0 41125 27155 41125 28035 124 -1
-De 15 0 51 0 800
-Po 0 41125 28035 41370 28280 124 -1
-De 15 0 51 0 0
-Po 0 41370 28280 41370 30580 124 -1
-De 15 0 51 0 0
-Po 0 41370 30580 41530 30740 124 -1
-De 15 0 51 0 0
-Po 0 41530 30740 41700 30740 124 -1
-De 15 0 51 0 0
-Po 0 41700 30740 42250 31290 124 -1
-De 15 0 51 0 0
-Po 0 42250 31290 42250 31850 124 -1
-De 15 0 51 0 0
-Po 0 42250 31850 42820 32420 124 -1
-De 15 0 51 0 0
-Po 0 42820 32420 42820 33880 124 -1
-De 15 0 51 0 0
-Po 0 42820 33880 43510 34570 124 -1
-De 15 0 51 0 0
-Po 0 43510 34570 43510 35330 124 -1
-De 15 0 51 0 400
-Po 0 42510 37330 42570 37330 124 -1
-De 15 0 51 0 800
-Po 0 44540 37340 46420 37340 124 -1
-De 15 0 51 0 400
-Po 0 43950 37930 44540 37340 124 -1
-De 15 0 51 0 0
-Po 0 43170 37930 43950 37930 124 -1
-De 15 0 51 0 0
-Po 0 42570 37330 43170 37930 124 -1
-De 15 0 51 0 0
-Po 0 41510 37580 42260 37580 124 -1
-De 15 0 51 0 800
-Po 0 42260 37580 42510 37330 124 -1
-De 15 0 51 0 400
-Po 0 43510 35330 42910 35330 124 -1
-De 15 0 51 0 800
-Po 0 42510 35730 42510 37330 124 -1
-De 15 0 51 0 400
-Po 0 42910 35330 42510 35730 124 -1
-De 15 0 51 0 0
-Po 0 41640 27155 41640 30220 124 -1
-De 15 0 52 0 800
-Po 0 41640 30220 42480 31060 124 -1
-De 15 0 52 0 0
-Po 0 42480 31060 42480 31440 124 -1
-De 15 0 52 0 0
-Po 0 42480 31440 43450 32410 124 -1
-De 15 0 52 0 0
-Po 0 43450 32410 43450 34080 124 -1
-De 15 0 52 0 0
-Po 0 43450 34080 45570 36200 124 -1
-De 15 0 52 0 0
-Po 0 45570 36200 50160 36200 124 -1
-De 15 0 52 0 0
-Po 0 50160 36200 51010 35350 124 -1
-De 15 0 52 0 0
-Po 0 51010 35350 51010 34080 124 -1
-De 15 0 52 0 400
-Po 0 52010 34080 51010 34080 124 -1
-De 15 0 52 0 C00
-Po 0 53010 35330 52140 35330 124 -1
-De 15 0 52 0 800
-Po 0 52010 35200 52010 34080 124 -1
-De 15 0 52 0 400
-Po 0 52140 35330 52010 35200 124 -1
-De 15 0 52 0 0
-Po 0 54010 36330 53360 36330 124 -1
-De 15 0 52 0 800
-Po 0 53010 35980 53010 35330 124 -1
-De 15 0 52 0 400
-Po 0 53360 36330 53010 35980 124 -1
-De 15 0 52 0 0
+De 15 0 51 0 C00
 Po 0 54580 23740 54660 23740 124 -1
-De 15 0 53 0 800
+De 15 0 52 0 800
 Po 0 55780 22620 56320 22620 124 -1
-De 15 0 53 0 400
+De 15 0 52 0 400
 Po 0 54660 23740 55780 22620 124 -1
-De 15 0 53 0 0
+De 15 0 52 0 0
 Po 0 53500 24420 53610 24420 124 -1
-De 15 0 53 0 800
+De 15 0 52 0 800
 Po 0 54290 23740 54580 23740 124 -1
-De 15 0 53 0 400
+De 15 0 52 0 400
 Po 0 53610 24420 54290 23740 124 -1
-De 15 0 53 0 0
-Po 0 51390 24470 52450 24470 124 -1
-De 15 0 54 0 800
-Po 0 52450 24470 52500 24420 124 -1
-De 15 0 54 0 400
-Po 0 50370 24130 51250 24130 124 -1
-De 15 0 54 0 800
-Po 0 51390 24270 51390 24470 124 -1
-De 15 0 54 0 400
-Po 0 51250 24130 51390 24270 124 -1
-De 15 0 54 0 0
-Po 0 49450 24130 50370 24130 124 -1
-De 15 0 54 0 C00
-Po 0 49450 24130 49450 24660 124 -1
-De 0 0 54 0 800
-Po 0 48680 27540 48680 27580 124 -1
-De 0 0 54 0 0
-Po 0 48640 27580 48680 27540 124 -1
-De 0 0 54 0 0
-Po 0 48860 27360 48640 27580 124 -1
-De 0 0 54 0 0
-Po 0 48860 25250 48860 27360 124 -1
-De 0 0 54 0 0
-Po 0 49450 24660 48860 25250 124 -1
-De 0 0 54 0 0
-Po 0 47840 27730 47830 27730 124 -1
-De 0 0 54 0 0
-Po 0 43200 30990 43200 31130 124 -1
-De 0 0 54 0 400
-Po 0 45300 28890 43200 30990 124 -1
-De 0 0 54 0 0
-Po 0 46490 28890 45300 28890 124 -1
-De 0 0 54 0 0
-Po 0 46560 28820 46490 28890 124 -1
-De 0 0 54 0 0
-Po 0 46780 28820 46560 28820 124 -1
-De 0 0 54 0 0
-Po 0 47110 28490 46780 28820 124 -1
-De 0 0 54 0 0
-Po 0 47110 28450 47110 28490 124 -1
-De 0 0 54 0 0
-Po 0 47830 27730 47110 28450 124 -1
-De 0 0 54 0 0
-Po 0 47990 27580 48680 27580 124 -1
-De 0 0 54 0 0
-Po 0 47840 27730 47990 27580 124 -1
-De 0 0 54 0 0
-Po 0 41895 27155 41895 29825 124 -1
-De 15 0 54 0 800
-Po 0 41895 29825 43200 31130 124 -1
-De 15 0 54 0 400
+De 15 0 52 0 0
 Po 0 52030 29900 52030 29340 124 -1
-De 15 0 55 0 800
+De 15 0 53 0 800
 Po 0 51180 28490 51180 28410 124 -1
-De 15 0 55 0 400
+De 15 0 53 0 400
 Po 0 52030 29340 51180 28490 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 53820 29000 53530 29000 124 -1
-De 15 0 55 0 800
+De 15 0 53 0 800
 Po 0 52770 29760 52770 29890 124 -1
-De 15 0 55 0 400
+De 15 0 53 0 400
 Po 0 53530 29000 52770 29760 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 52030 29900 52760 29900 124 -1
-De 15 0 55 0 800
+De 15 0 53 0 800
 Po 0 52760 29900 52770 29890 124 -1
-De 15 0 55 0 400
+De 15 0 53 0 400
 Po 0 52025 30375 52525 30375 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 52770 30130 52770 29890 124 -1
-De 15 0 55 0 400
+De 15 0 53 0 400
 Po 0 52525 30375 52770 30130 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 51325 32355 51590 32090 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 51790 30610 52025 30375 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 51790 31310 51790 30610 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 51590 31510 51790 31310 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 51590 32090 51590 31510 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 42665 27155 42665 27845 124 -1
-De 15 0 55 0 800
+De 15 0 53 0 800
 Po 0 42665 27845 42920 28100 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 42920 28100 42920 29520 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 42920 29520 43380 29980 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 43380 29980 43640 29980 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 43640 29980 44250 30590 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 44250 30590 44250 33680 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 44250 33680 46030 35460 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 46030 35460 49510 35460 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 49510 35460 49860 35110 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 49860 35110 49860 33820 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 49860 33820 51325 32355 124 -1
-De 15 0 55 0 0
+De 15 0 53 0 0
 Po 0 22110 10940 22110 11670 124 -1
-De 15 0 56 0 800
+De 15 0 54 0 800
 Po 0 22110 11670 22510 12070 124 -1
-De 15 0 56 0 0
+De 15 0 54 0 0
 Po 0 22510 12070 23990 12070 124 -1
-De 15 0 56 0 400
+De 15 0 54 0 400
 Po 0 21610 13140 21610 12421 124 -1
-De 15 0 57 0 800
+De 15 0 55 0 800
 Po 0 17010 11800 16080 11800 124 -1
-De 15 0 57 0 400
+De 15 0 55 0 400
 Po 0 17255 12045 17010 11800 124 -1
-De 15 0 57 0 0
+De 15 0 55 0 0
 Po 0 21234 12045 17255 12045 124 -1
-De 15 0 57 0 0
+De 15 0 55 0 0
 Po 0 21610 12421 21234 12045 124 -1
+De 15 0 55 0 0
+Po 0 42150 18505 42150 16720 124 -1
+De 15 0 56 0 800
+Po 0 33544 11860 32075 13329 124 -1
+De 15 0 56 0 400
+Po 0 39730 11860 33544 11860 124 -1
+De 15 0 56 0 0
+Po 0 40100 12230 39730 11860 124 -1
+De 15 0 56 0 0
+Po 0 40100 14690 40100 12230 124 -1
+De 15 0 56 0 0
+Po 0 40400 14990 40100 14690 124 -1
+De 15 0 56 0 0
+Po 0 41650 14990 40400 14990 124 -1
+De 15 0 56 0 0
+Po 0 41900 15240 41650 14990 124 -1
+De 15 0 56 0 0
+Po 0 41900 16470 41900 15240 124 -1
+De 15 0 56 0 0
+Po 0 42150 16720 41900 16470 124 -1
+De 15 0 56 0 0
+Po 0 27420 14350 27420 13770 124 -1
+De 15 0 57 0 800
+Po 0 27420 13770 27620 13570 124 -1
 De 15 0 57 0 0
-Po 0 46135 13248 46135 12635 124 -1
-De 15 0 58 0 800
-Po 0 46350 12420 46810 12420 124 -1
-De 15 0 58 0 400
-Po 0 46135 12635 46350 12420 124 -1
-De 15 0 58 0 0
-Po 0 28780 10570 28770 10570 124 -1
-De 0 0 58 0 800
-Po 0 27900 11440 27840 11440 124 -1
-De 0 0 58 0 400
-Po 0 28770 10570 27900 11440 124 -1
-De 0 0 58 0 0
-Po 0 23990 11070 25700 11070 124 -1
-De 0 0 58 0 800
-Po 0 28270 10060 28780 10570 124 -1
-De 0 0 58 0 400
-Po 0 26710 10060 28270 10060 124 -1
-De 0 0 58 0 0
-Po 0 25700 11070 26710 10060 124 -1
-De 0 0 58 0 0
-Po 0 49840 13140 49840 14110 124 -1
-De 0 0 58 0 800
-Po 0 49840 14110 50090 14360 124 -1
-De 0 0 58 0 0
-Po 0 49450 27130 49450 26650 124 -1
-De 15 0 58 0 800
-Po 0 52470 25470 52850 25470 124 -1
-De 15 0 58 0 400
-Po 0 51580 26360 52470 25470 124 -1
-De 15 0 58 0 0
-Po 0 49740 26360 51580 26360 124 -1
-De 15 0 58 0 0
-Po 0 49450 26650 49740 26360 124 -1
-De 15 0 58 0 0
-Po 0 49450 27130 49450 25290 124 -1
-De 0 0 58 0 800
-Po 0 52440 17260 51260 16080 124 -1
-De 0 0 58 0 400
-Po 0 52440 19380 52440 17260 124 -1
-De 0 0 58 0 0
-Po 0 50880 20940 52440 19380 124 -1
-De 0 0 58 0 0
-Po 0 50880 24480 50880 20940 124 -1
-De 0 0 58 0 0
-Po 0 50430 24930 50880 24480 124 -1
-De 0 0 58 0 0
-Po 0 49810 24930 50430 24930 124 -1
-De 0 0 58 0 0
-Po 0 49450 25290 49810 24930 124 -1
-De 0 0 58 0 0
-Po 0 48120 26970 49290 26970 124 -1
-De 15 0 58 0 800
-Po 0 49290 26970 49450 27130 124 -1
-De 15 0 58 0 400
-Po 0 48140 28080 48140 26990 124 -1
-De 15 0 58 0 800
-Po 0 48140 26990 48120 26970 124 -1
-De 15 0 58 0 400
-Po 0 48140 28080 46760 28080 124 -1
-De 15 0 58 0 800
-Po 0 46760 28080 46510 28330 124 -1
-De 15 0 58 0 400
-Po 0 53820 26000 53380 26000 124 -1
-De 15 0 58 0 800
-Po 0 53380 26000 52850 25470 124 -1
-De 15 0 58 0 400
-Po 0 54820 26490 54310 26490 124 -1
-De 15 0 58 0 800
-Po 0 54310 26490 53820 26000 124 -1
-De 15 0 58 0 400
-Po 0 54820 26490 54820 26590 124 -1
-De 15 0 58 0 800
-Po 0 55745 27515 55745 27570 124 -1
-De 15 0 58 0 400
-Po 0 54820 26590 55745 27515 124 -1
-De 15 0 58 0 0
-Po 0 52260 30830 53710 30830 124 -1
-De 15 0 58 0 800
-Po 0 55810 27570 55745 27570 124 -1
-De 15 0 58 0 400
-Po 0 56430 28190 55810 27570 124 -1
-De 15 0 58 0 0
-Po 0 56430 30020 56430 28190 124 -1
-De 15 0 58 0 0
-Po 0 56150 30300 56430 30020 124 -1
-De 15 0 58 0 0
-Po 0 54240 30300 56150 30300 124 -1
-De 15 0 58 0 0
-Po 0 53710 30830 54240 30300 124 -1
-De 15 0 58 0 0
-Po 0 52260 30830 52260 31830 124 -1
-De 15 0 58 0 C00
-Po 0 20110 13140 20110 12580 150 -1
-De 15 0 58 0 800
-Po 0 19841 12311 19841 12273 150 -1
-De 15 0 58 0 0
-Po 0 20110 12580 19841 12311 150 -1
-De 15 0 58 0 0
-Po 0 20610 13140 20610 12436 150 -1
-De 15 0 58 0 800
-Po 0 20610 12436 20485 12311 150 -1
-De 15 0 58 0 0
-Po 0 20485 12311 19803 12311 150 -1
-De 15 0 58 0 0
-Po 0 19803 12311 19841 12273 150 -1
-De 15 0 58 0 0
-Po 0 15454 10800 16080 10800 150 -1
-De 15 0 58 0 400
-Po 0 19841 12273 19357 12757 150 -1
-De 15 0 58 0 0
-Po 0 19357 12757 17197 12757 150 -1
-De 15 0 58 0 0
-Po 0 17197 12757 16407 13547 150 -1
-De 15 0 58 0 0
-Po 0 16407 13547 15607 13547 150 -1
-De 15 0 58 0 0
-Po 0 15607 13547 15267 13207 150 -1
-De 15 0 58 0 0
-Po 0 15267 13207 15267 10987 150 -1
-De 15 0 58 0 0
-Po 0 15267 10987 15454 10800 150 -1
-De 15 0 58 0 0
-Po 0 20110 10940 20110 11573 150 -1
-De 15 0 58 0 800
-Po 0 20110 11573 19916 11767 150 -1
-De 15 0 58 0 0
-Po 0 20610 10940 20610 11633 150 -1
-De 15 0 58 0 800
-Po 0 20610 11633 20476 11767 150 -1
-De 15 0 58 0 0
-Po 0 21110 10940 21110 11594 150 -1
-De 15 0 58 0 800
-Po 0 21110 11594 20937 11767 150 -1
-De 15 0 58 0 0
-Po 0 20937 11767 20476 11767 150 -1
-De 15 0 58 0 0
-Po 0 18810 10800 16080 10800 150 -1
-De 15 0 58 0 400
-Po 0 19916 11767 19777 11767 150 -1
-De 15 0 58 0 0
-Po 0 19777 11767 18810 10800 150 -1
-De 15 0 58 0 0
-Po 0 20476 11767 19916 11767 150 -1
-De 15 0 58 0 0
-Po 0 46135 13248 46135 13655 150 -1
-De 15 0 58 0 800
-Po 0 46135 13655 45960 13830 150 -1
-De 15 0 58 0 0
-Po 0 45960 13830 44940 13830 150 -1
-De 15 0 58 0 0
-Po 0 44940 13830 44910 13860 150 -1
-De 15 0 58 0 400
-Po 0 44965 27155 44965 27895 150 -1
-De 15 0 58 0 800
-Po 0 44965 27895 45400 28330 150 -1
-De 15 0 58 0 0
-Po 0 45400 28330 46510 28330 150 -1
-De 15 0 58 0 400
-Po 0 50066 37086 50523 37086 150 -1
-De 15 0 58 0 800
-Po 0 56922 36608 57460 36070 150 -1
-De 15 0 58 0 400
-Po 0 55107 36608 56922 36608 150 -1
-De 15 0 58 0 0
-Po 0 54631 37084 55107 36608 150 -1
-De 15 0 58 0 0
-Po 0 54631 37462 54631 37084 150 -1
-De 15 0 58 0 0
-Po 0 54200 37893 54631 37462 150 -1
-De 15 0 58 0 0
-Po 0 53783 37893 54200 37893 150 -1
-De 15 0 58 0 0
-Po 0 53513 37623 53783 37893 150 -1
-De 15 0 58 0 0
-Po 0 50918 37623 53513 37623 150 -1
-De 15 0 58 0 0
-Po 0 50558 37263 50918 37623 150 -1
-De 15 0 58 0 0
-Po 0 50558 37121 50558 37263 150 -1
-De 15 0 58 0 0
-Po 0 50523 37086 50558 37121 150 -1
-De 15 0 58 0 0
-Po 0 51010 37080 50072 37080 150 -1
-De 15 0 58 0 800
-Po 0 50072 37080 50066 37086 150 -1
-De 15 0 58 0 400
-Po 0 42930 13860 42930 13990 124 -1
-De 0 0 58 0 800
-Po 0 42930 13990 43300 14360 124 -1
-De 0 0 58 0 0
-Po 0 43300 14360 50090 14360 124 -1
-De 0 0 58 0 0
-Po 0 50090 14360 50840 14360 124 -1
-De 0 0 58 0 0
-Po 0 50840 14360 51240 14760 124 -1
-De 0 0 58 0 0
-Po 0 51240 14760 51240 16060 124 -1
-De 0 0 58 0 0
-Po 0 51240 16060 51260 16080 124 -1
-De 0 0 58 0 400
-Po 0 49960 16000 51180 16000 124 -1
-De 15 0 58 0 800
-Po 0 51180 16000 51260 16080 124 -1
-De 15 0 58 0 400
-Po 0 49760 17080 49760 16200 124 -1
-De 15 0 58 0 800
-Po 0 49760 16200 49960 16000 124 -1
-De 15 0 58 0 400
-Po 0 23990 11070 23990 10410 124 -1
-De 0 0 58 0 800
-Po 0 23990 10410 24160 10240 124 -1
-De 0 0 58 0 0
-Po 0 16080 10500 16080 10800 124 -1
-De 0 0 58 0 400
-Po 0 24160 10240 16340 10240 124 -1
-De 0 0 58 0 0
-Po 0 16340 10240 16080 10500 124 -1
-De 0 0 58 0 0
-Po 0 41150 11060 32840 11060 124 -1
-De 15 0 58 0 800
-Po 0 32840 11060 32730 10950 124 -1
-De 15 0 58 0 0
-Po 0 32730 10950 30520 10950 124 -1
-De 15 0 58 0 0
-Po 0 30520 10950 29270 12200 124 -1
-De 15 0 58 0 0
-Po 0 29270 12200 28210 12200 124 -1
-De 15 0 58 0 0
-Po 0 28210 12200 27840 11830 124 -1
-De 15 0 58 0 0
-Po 0 27840 11830 27840 11440 124 -1
-De 15 0 58 0 400
-Po 0 40510 30830 40510 31940 124 -1
-De 15 0 58 0 800
-Po 0 40510 31940 40590 32020 124 -1
-De 15 0 58 0 0
-Po 0 41510 34580 41510 34280 124 -1
-De 15 0 58 0 800
-Po 0 39570 32020 39510 32080 124 -1
-De 15 0 58 0 400
-Po 0 41920 32020 40590 32020 124 -1
-De 15 0 58 0 0
-Po 0 40590 32020 39570 32020 124 -1
-De 15 0 58 0 0
-Po 0 42410 32510 41920 32020 124 -1
-De 15 0 58 0 0
-Po 0 42410 33380 42410 32510 124 -1
-De 15 0 58 0 0
-Po 0 41510 34280 42410 33380 124 -1
-De 15 0 58 0 0
-Po 0 41150 11060 41150 11100 124 -1
-De 15 0 58 0 800
-Po 0 42350 13860 42930 13860 124 -1
-De 15 0 58 0 400
-Po 0 41850 13360 42350 13860 124 -1
-De 15 0 58 0 0
-Po 0 41850 11800 41850 13360 124 -1
-De 15 0 58 0 0
-Po 0 41150 11100 41850 11800 124 -1
-De 15 0 58 0 0
-Po 0 43930 13860 42930 13860 124 -1
-De 15 0 58 0 C00
-Po 0 44910 13860 43930 13860 124 -1
-De 15 0 58 0 C00
-Po 0 50190 35440 50220 35410 150 -1
-De 0 0 58 0 0
-Po 0 51010 37080 51010 36200 150 -1
-De 0 0 58 0 800
-Po 0 51010 36200 50220 35410 150 -1
-De 0 0 58 0 0
-Po 0 52260 31830 52120 31830 150 -1
-De 0 0 58 0 800
-Po 0 49790 35840 50190 35440 150 -1
-De 0 0 58 0 0
-Po 0 45470 35840 49790 35840 150 -1
-De 0 0 58 0 0
-Po 0 43960 34330 45470 35840 150 -1
-De 0 0 58 0 0
-Po 0 42510 34330 43960 34330 150 -1
-De 0 0 58 0 800
-Po 0 52120 31830 50190 33760 150 -1
-De 0 0 58 0 0
-Po 0 50190 33760 50190 35440 150 -1
-De 0 0 58 0 0
-Po 0 41510 34580 42260 34580 150 -1
-De 15 0 58 0 800
-Po 0 42260 34580 42510 34330 150 -1
-De 15 0 58 0 400
-Po 0 42260 34580 42510 34330 150 -1
-De 15 0 58 0 400
-Po 0 26800 13570 30834 13570 124 -1
-De 15 0 59 0 800
-Po 0 30834 13570 31075 13329 124 -1
-De 15 0 59 0 400
+Po 0 31075 13329 31075 13295 124 -1
+De 15 0 57 0 800
+Po 0 28690 13570 27620 13570 124 -1
+De 15 0 57 0 0
+Po 0 27620 13570 26800 13570 124 -1
+De 15 0 57 0 400
+Po 0 29240 13020 28690 13570 124 -1
+De 15 0 57 0 0
+Po 0 30800 13020 29240 13020 124 -1
+De 15 0 57 0 0
+Po 0 31075 13295 30800 13020 124 -1
+De 15 0 57 0 0
 Po 0 41740 14680 40530 14680 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 40420 14570 40420 11940 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 40530 14680 40420 14570 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 42405 18505 42405 16545 124 -1
-De 15 0 60 0 800
+De 15 0 58 0 800
 Po 0 42405 16545 42210 16350 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 42210 16350 42210 15150 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 42210 15150 41740 14680 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 40420 11940 40060 11580 124 -1
-De 15 0 60 0 0
+De 15 0 58 0 0
 Po 0 40060 11580 32010 11580 124 -1
-De 15 0 60 0 400
-Po 0 28670 12910 29500 12910 150 -1
-De 15 0 61 0 800
-Po 0 30830 11580 31010 11580 150 -1
-De 15 0 61 0 400
-Po 0 29500 12910 30830 11580 150 -1
-De 15 0 61 0 0
-Po 0 17250 13810 17490 13810 124 -1
-De 15 0 62 0 800
-Po 0 17760 13540 18220 13540 124 -1
-De 15 0 62 0 400
-Po 0 17490 13810 17760 13540 124 -1
-De 15 0 62 0 0
-Po 0 26690 12060 26690 11090 124 -1
-De 15 0 63 0 800
-Po 0 26690 11090 26850 10930 124 -1
-De 15 0 63 0 400
+De 15 0 58 0 400
 Po 0 50760 31830 50760 32360 124 -1
-De 15 0 64 0 800
+De 15 0 59 0 800
 Po 0 49540 33300 49260 33580 124 -1
-De 15 0 64 0 400
+De 15 0 59 0 400
 Po 0 49820 33300 49540 33300 124 -1
-De 15 0 64 0 0
+De 15 0 59 0 0
 Po 0 50760 32360 49820 33300 124 -1
-De 15 0 64 0 0
+De 15 0 59 0 0
 Po 0 48780 34690 48780 33720 124 -1
-De 15 0 64 0 800
+De 15 0 59 0 800
 Po 0 48780 33720 48640 33580 124 -1
-De 15 0 64 0 0
+De 15 0 59 0 0
 Po 0 48010 33580 48640 33580 124 -1
-De 15 0 64 0 800
+De 15 0 59 0 800
 Po 0 48640 33580 49260 33580 124 -1
-De 15 0 64 0 400
+De 15 0 59 0 400
+Po 0 29800 12510 30080 12510 124 -1
+De 15 0 60 0 800
+Po 0 30080 12510 31010 11580 124 -1
+De 15 0 60 0 400
+Po 0 28530 12690 29620 12690 124 -1
+De 15 0 60 0 800
+Po 0 29620 12690 29800 12510 124 -1
+De 15 0 60 0 400
+Po 0 17250 13810 17490 13810 124 -1
+De 15 0 61 0 800
+Po 0 17760 13540 18220 13540 124 -1
+De 15 0 61 0 400
+Po 0 17490 13810 17760 13540 124 -1
+De 15 0 61 0 0
+Po 0 26690 12060 26690 11090 124 -1
+De 15 0 62 0 800
+Po 0 26690 11090 26850 10930 124 -1
+De 15 0 62 0 400
 Po 0 37510 36830 37510 36270 124 -1
-De 15 0 65 0 800
+De 15 0 63 0 800
 Po 0 38050 34580 38510 34580 124 -1
-De 15 0 65 0 400
+De 15 0 63 0 400
 Po 0 37730 34900 38050 34580 124 -1
-De 15 0 65 0 0
+De 15 0 63 0 0
 Po 0 37730 36050 37730 34900 124 -1
-De 15 0 65 0 0
+De 15 0 63 0 0
 Po 0 37510 36270 37730 36050 124 -1
-De 15 0 65 0 0
+De 15 0 63 0 0
 Po 0 38510 33580 39240 33580 124 -1
-De 15 0 65 0 800
+De 15 0 63 0 800
 Po 0 39510 33310 39510 33080 124 -1
-De 15 0 65 0 400
+De 15 0 63 0 400
 Po 0 39240 33580 39510 33310 124 -1
-De 15 0 65 0 0
+De 15 0 63 0 0
 Po 0 38510 33580 38510 34580 124 -1
-De 15 0 65 0 C00
-Po 0 49070 31090 49070 32390 124 -1
-De 15 0 66 0 800
-Po 0 49070 32390 49260 32580 124 -1
-De 15 0 66 0 400
-Po 0 49070 31090 49070 30860 124 -1
-De 15 0 66 0 800
-Po 0 49800 30130 50090 30130 124 -1
-De 15 0 66 0 400
-Po 0 49070 30860 49800 30130 124 -1
-De 15 0 66 0 0
-Po 0 48140 31080 49060 31080 124 -1
-De 15 0 66 0 800
-Po 0 49060 31080 49070 31090 124 -1
-De 15 0 66 0 400
-Po 0 44200 27155 44200 27720 124 -1
-De 15 0 66 0 800
-Po 0 49260 32586 49260 32580 124 -1
-De 15 0 66 0 400
-Po 0 48773 33073 49260 32586 124 -1
-De 15 0 66 0 0
-Po 0 46833 33073 48773 33073 124 -1
-De 15 0 66 0 0
-Po 0 46520 32760 46833 33073 124 -1
-De 15 0 66 0 0
-Po 0 46520 30040 46520 32760 124 -1
-De 15 0 66 0 0
-Po 0 44200 27720 46520 30040 124 -1
-De 15 0 66 0 0
+De 15 0 63 0 C00
 Po 0 41510 36580 40760 36580 124 -1
-De 15 0 67 0 800
+De 15 0 64 0 800
 Po 0 40760 36580 40510 36830 124 -1
-De 15 0 67 0 400
+De 15 0 64 0 400
 Po 0 41510 35580 41510 36580 124 -1
-De 15 0 67 0 C00
+De 15 0 64 0 C00
 Po 0 40510 35580 41510 35580 124 -1
-De 15 0 67 0 C00
+De 15 0 64 0 C00
 Po 0 53010 33080 53230 33080 124 -1
-De 15 0 68 0 800
+De 15 0 65 0 800
 Po 0 53230 33080 53980 33830 124 -1
-De 15 0 68 0 0
+De 15 0 65 0 0
 Po 0 54260 33830 54660 33830 124 -1
-De 15 0 68 0 800
+De 15 0 65 0 800
 Po 0 55260 34430 55260 34580 124 -1
-De 15 0 68 0 400
+De 15 0 65 0 400
 Po 0 54660 33830 55260 34430 124 -1
-De 15 0 68 0 0
+De 15 0 65 0 0
 Po 0 53980 33830 54260 33830 124 -1
-De 15 0 68 0 400
+De 15 0 65 0 400
 Po 0 55260 35830 54540 35830 124 -1
-De 15 0 69 0 800
+De 15 0 66 0 800
 Po 0 54010 35300 54010 34830 124 -1
-De 15 0 69 0 400
+De 15 0 66 0 400
 Po 0 54540 35830 54010 35300 124 -1
-De 15 0 69 0 0
+De 15 0 66 0 0
 Po 0 53010 34330 53700 34330 124 -1
-De 15 0 69 0 800
+De 15 0 66 0 800
 Po 0 54010 34640 54010 34830 124 -1
-De 15 0 69 0 400
+De 15 0 66 0 400
 Po 0 53700 34330 54010 34640 124 -1
-De 15 0 69 0 0
+De 15 0 66 0 0
+Po 0 41125 27155 41125 28035 124 -1
+De 15 0 67 0 800
+Po 0 41125 28035 41370 28280 124 -1
+De 15 0 67 0 0
+Po 0 41370 28280 41370 30580 124 -1
+De 15 0 67 0 0
+Po 0 41370 30580 41530 30740 124 -1
+De 15 0 67 0 0
+Po 0 41530 30740 41700 30740 124 -1
+De 15 0 67 0 0
+Po 0 41700 30740 42250 31290 124 -1
+De 15 0 67 0 0
+Po 0 42250 31290 42250 31850 124 -1
+De 15 0 67 0 0
+Po 0 42250 31850 42820 32420 124 -1
+De 15 0 67 0 0
+Po 0 42820 32420 42820 33880 124 -1
+De 15 0 67 0 0
+Po 0 42820 33880 43510 34570 124 -1
+De 15 0 67 0 0
+Po 0 43510 34570 43510 35330 124 -1
+De 15 0 67 0 400
+Po 0 42510 37330 42570 37330 124 -1
+De 15 0 67 0 800
+Po 0 44540 37340 46420 37340 124 -1
+De 15 0 67 0 400
+Po 0 43950 37930 44540 37340 124 -1
+De 15 0 67 0 0
+Po 0 43170 37930 43950 37930 124 -1
+De 15 0 67 0 0
+Po 0 42570 37330 43170 37930 124 -1
+De 15 0 67 0 0
+Po 0 41510 37580 42260 37580 124 -1
+De 15 0 67 0 800
+Po 0 42260 37580 42510 37330 124 -1
+De 15 0 67 0 400
+Po 0 43510 35330 42910 35330 124 -1
+De 15 0 67 0 800
+Po 0 42510 35730 42510 37330 124 -1
+De 15 0 67 0 400
+Po 0 42910 35330 42510 35730 124 -1
+De 15 0 67 0 0
+Po 0 41640 27155 41640 30220 124 -1
+De 15 0 68 0 800
+Po 0 41640 30220 42480 31060 124 -1
+De 15 0 68 0 0
+Po 0 42480 31060 42480 31440 124 -1
+De 15 0 68 0 0
+Po 0 42480 31440 43450 32410 124 -1
+De 15 0 68 0 0
+Po 0 43450 32410 43450 34080 124 -1
+De 15 0 68 0 0
+Po 0 43450 34080 45570 36200 124 -1
+De 15 0 68 0 0
+Po 0 45570 36200 50160 36200 124 -1
+De 15 0 68 0 0
+Po 0 50160 36200 51010 35350 124 -1
+De 15 0 68 0 0
+Po 0 51010 35350 51010 34080 124 -1
+De 15 0 68 0 400
+Po 0 52010 34080 51010 34080 124 -1
+De 15 0 68 0 C00
+Po 0 53010 35330 52140 35330 124 -1
+De 15 0 68 0 800
+Po 0 52010 35200 52010 34080 124 -1
+De 15 0 68 0 400
+Po 0 52140 35330 52010 35200 124 -1
+De 15 0 68 0 0
+Po 0 54010 36330 53360 36330 124 -1
+De 15 0 68 0 800
+Po 0 53010 35980 53010 35330 124 -1
+De 15 0 68 0 400
+Po 0 53360 36330 53010 35980 124 -1
+De 15 0 68 0 0
 Po 0 43685 27155 43685 28155 124 -1
-De 15 0 70 0 800
+De 15 0 69 0 800
 Po 0 43685 28155 43510 28330 124 -1
-De 15 0 70 0 400
+De 15 0 69 0 400
 Po 0 43510 28330 43510 28620 124 -1
-De 15 0 70 0 800
+De 15 0 69 0 800
 Po 0 43760 28870 43760 29330 124 -1
-De 15 0 70 0 400
+De 15 0 69 0 400
 Po 0 43510 28620 43760 28870 124 -1
-De 15 0 70 0 0
+De 15 0 69 0 0
 Po 0 45010 30580 45010 29860 124 -1
-De 15 0 70 0 800
+De 15 0 69 0 800
 Po 0 45010 29860 44480 29330 124 -1
-De 15 0 70 0 0
+De 15 0 69 0 0
 Po 0 44480 29330 43760 29330 124 -1
-De 15 0 70 0 400
+De 15 0 69 0 400
 Po 0 45010 30580 45760 30580 124 -1
-De 15 0 70 0 800
+De 15 0 69 0 800
 Po 0 45760 30580 46010 30330 124 -1
-De 15 0 70 0 400
+De 15 0 69 0 400
 Po 0 46010 34430 46010 33410 124 -1
-De 15 0 71 0 C00
+De 15 0 70 0 C00
 Po 0 42010 11080 42010 11280 124 -1
-De 15 0 72 0 800
+De 15 0 71 0 800
 Po 0 42010 11280 42510 11780 124 -1
-De 15 0 72 0 400
+De 15 0 71 0 400
 Po 0 42010 11080 43010 11080 124 -1
-De 15 0 72 0 C00
+De 15 0 71 0 C00
 Po 0 28840 11440 29330 11440 124 -1
-De 15 0 72 0 800
+De 15 0 71 0 800
 Po 0 41540 10610 42010 11080 124 -1
-De 15 0 72 0 400
+De 15 0 71 0 400
 Po 0 30160 10610 41540 10610 124 -1
-De 15 0 72 0 0
+De 15 0 71 0 0
 Po 0 29330 11440 30160 10610 124 -1
-De 15 0 72 0 0
+De 15 0 71 0 0
 Po 0 44880 10810 45740 10810 124 -1
-De 15 0 73 0 800
+De 15 0 72 0 800
 Po 0 45740 10810 45850 10700 124 -1
-De 15 0 73 0 400
+De 15 0 72 0 400
 Po 0 44010 11080 44610 11080 124 -1
-De 15 0 73 0 800
+De 15 0 72 0 800
 Po 0 44610 11080 44880 10810 124 -1
-De 15 0 73 0 400
+De 15 0 72 0 400
 Po 0 27780 10570 27780 10560 124 -1
-De 15 0 74 0 800
+De 15 0 73 0 800
 Po 0 49590 10020 50400 10830 124 -1
-De 15 0 74 0 400
+De 15 0 73 0 400
 Po 0 28320 10020 49590 10020 124 -1
-De 15 0 74 0 0
+De 15 0 73 0 0
 Po 0 27780 10560 28320 10020 124 -1
-De 15 0 74 0 0
+De 15 0 73 0 0
 Po 0 49540 10830 49520 10810 124 -1
-De 15 0 74 0 400
+De 15 0 73 0 400
 Po 0 50400 10830 49540 10830 124 -1
-De 15 0 74 0 800
+De 15 0 73 0 800
 Po 0 50730 12000 50730 11160 124 -1
-De 15 0 74 0 800
+De 15 0 73 0 800
 Po 0 50730 11160 50400 10830 124 -1
-De 15 0 74 0 400
+De 15 0 73 0 400
 Po 0 49010 11370 49010 11830 124 -1
-De 15 0 75 0 400
+De 15 0 74 0 400
 Po 0 48520 10880 49010 11370 124 -1
-De 15 0 75 0 0
+De 15 0 74 0 0
 Po 0 48520 10810 48520 10880 124 -1
-De 15 0 75 0 800
+De 15 0 74 0 800
 Po 0 47560 10810 48520 10810 124 -1
-De 15 0 75 0 C00
+De 15 0 74 0 C00
+Po 0 42410 16230 42410 15070 124 -1
+De 15 0 75 0 0
+Po 0 41510 14370 41160 14020 124 -1
+De 15 0 75 0 400
+Po 0 41710 14370 41510 14370 124 -1
+De 15 0 75 0 0
+Po 0 42410 15070 41710 14370 124 -1
+De 15 0 75 0 0
+Po 0 42665 16485 42410 16230 124 -1
+De 15 0 75 0 0
+Po 0 42665 18505 42665 16485 124 -1
+De 15 0 75 0 800
 Po 0 35445 37730 35570 37730 124 -1
 De 15 0 76 0 800
 Po 0 35570 37730 36280 37020 124 -1
@@ -16908,6 +17018,18 @@ Po 0 63457 23465 63457 30143 150 -1
 De 15 0 82 0 0
 Po 0 63100 23108 63457 23465 150 -1
 De 15 0 82 0 0
+Po 0 26420 14350 26490 14350 124 -1
+De 0 0 83 0 800
+Po 0 27980 15840 28970 15840 124 -1
+De 0 0 83 0 400
+Po 0 26490 14350 27980 15840 124 -1
+De 0 0 83 0 0
+Po 0 23990 13070 24050 13070 124 -1
+De 0 0 83 0 800
+Po 0 25330 14350 26420 14350 124 -1
+De 0 0 83 0 400
+Po 0 24050 13070 25330 14350 124 -1
+De 0 0 83 0 0
 Po 0 45850 14860 45850 14800 124 -1
 De 15 0 83 0 0
 Po 0 47350 14780 47385 14815 124 -1
@@ -17198,18 +17320,6 @@ Po 0 41640 17420 40780 16560 124 -1
 De 15 0 83 0 0
 Po 0 40260 15590 40260 15580 124 -1
 De 15 0 83 0 400
-Po 0 23990 13070 23990 13072 124 -1
-De 0 0 83 0 800
-Po 0 28469 15339 28970 15840 124 -1
-De 0 0 83 0 400
-Po 0 28249 15339 28469 15339 124 -1
-De 0 0 83 0 0
-Po 0 27377 14467 28249 15339 124 -1
-De 0 0 83 0 0
-Po 0 25385 14467 27377 14467 124 -1
-De 0 0 83 0 0
-Po 0 23990 13072 25385 14467 124 -1
-De 0 0 83 0 0
 Po 0 34272 26882 34279 26882 124 -1
 De 0 0 83 0 800
 Po 0 41127 29083 40410 29800 124 -1
@@ -17640,121 +17750,121 @@ Po 0 48760 15080 49880 15080 124 -1
 De 15 0 111 0 800
 Po 0 49880 15080 49960 15000 124 -1
 De 15 0 111 0 400
-Po 0 51760 17830 51760 17580 124 -1
-De 15 0 112 0 800
-Po 0 51760 17580 51260 17080 124 -1
-De 15 0 112 0 400
-Po 0 47135 13248 47135 12825 124 -1
-De 15 0 113 0 800
-Po 0 47630 12330 48010 12330 124 -1
-De 15 0 113 0 400
-Po 0 47135 12825 47630 12330 124 -1
-De 15 0 113 0 0
-Po 0 49840 12140 49700 12140 124 -1
-De 15 0 113 0 800
-Po 0 49700 12140 49010 12830 124 -1
-De 15 0 113 0 400
-Po 0 49010 12830 48510 12830 124 -1
-De 15 0 113 0 800
-Po 0 48510 12830 48010 12330 124 -1
-De 15 0 113 0 400
 Po 0 22110 13140 22110 12620 124 -1
-De 15 0 114 0 800
+De 15 0 112 0 800
 Po 0 22110 12620 22267 12463 124 -1
-De 15 0 114 0 0
+De 15 0 112 0 0
 Po 0 23474 12570 24800 12570 124 -1
-De 15 0 114 0 0
+De 15 0 112 0 0
 Po 0 23367 12463 23474 12570 124 -1
-De 15 0 114 0 0
+De 15 0 112 0 0
 Po 0 22267 12463 23367 12463 124 -1
-De 15 0 114 0 0
+De 15 0 112 0 0
 Po 0 24800 12570 25800 13570 124 -1
-De 15 0 114 0 400
+De 15 0 112 0 400
 Po 0 22610 13140 22610 13790 124 -1
-De 15 0 115 0 800
+De 15 0 113 0 800
 Po 0 22610 13790 22410 13990 124 -1
-De 15 0 115 0 0
+De 15 0 113 0 0
 Po 0 22410 13990 19670 13990 124 -1
-De 15 0 115 0 0
+De 15 0 113 0 0
 Po 0 19670 13990 19220 13540 124 -1
-De 15 0 115 0 400
+De 15 0 113 0 400
+Po 0 51760 17830 51760 17580 124 -1
+De 15 0 114 0 800
+Po 0 51760 17580 51260 17080 124 -1
+De 15 0 114 0 400
 Po 0 25690 10440 25690 12060 124 -1
-De 15 0 116 0 400
+De 15 0 115 0 400
 Po 0 23110 10940 23110 10463 124 -1
-De 15 0 116 0 800
+De 15 0 115 0 800
 Po 0 23293 10280 25530 10280 124 -1
-De 15 0 116 0 0
+De 15 0 115 0 0
 Po 0 23110 10463 23293 10280 124 -1
-De 15 0 116 0 0
+De 15 0 115 0 0
 Po 0 25530 10280 25690 10440 124 -1
-De 15 0 116 0 0
+De 15 0 115 0 0
 Po 0 46010 32330 45550 32330 124 -1
-De 15 0 117 0 800
+De 15 0 116 0 800
 Po 0 45270 32740 45010 32740 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 45440 32570 45270 32740 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 45440 32440 45440 32570 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 45550 32330 45440 32440 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 46010 32330 46010 31580 124 -1
-De 15 0 117 0 800
+De 15 0 116 0 800
 Po 0 46010 31580 45760 31330 124 -1
-De 15 0 117 0 400
+De 15 0 116 0 400
 Po 0 45010 33410 45010 32940 124 -1
-De 15 0 117 0 800
+De 15 0 116 0 800
 Po 0 45010 32940 45010 32740 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 45010 32740 45010 32700 124 -1
-De 15 0 117 0 0
+De 15 0 116 0 0
 Po 0 45010 32700 45010 32080 124 -1
-De 15 0 117 0 400
+De 15 0 116 0 400
 Po 0 38560 36830 38560 35630 124 -1
-De 15 0 118 0 800
+De 15 0 117 0 800
 Po 0 38560 35630 38510 35580 124 -1
-De 15 0 118 0 400
+De 15 0 117 0 400
 Po 0 38510 35580 39380 35580 124 -1
-De 15 0 118 0 800
+De 15 0 117 0 800
 Po 0 39500 34090 39510 34080 124 -1
-De 15 0 118 0 400
+De 15 0 117 0 400
 Po 0 39500 35460 39500 34090 124 -1
-De 15 0 118 0 0
+De 15 0 117 0 0
 Po 0 39380 35580 39500 35460 124 -1
-De 15 0 118 0 0
+De 15 0 117 0 0
 Po 0 39510 34080 39950 34080 124 -1
-De 15 0 118 0 800
+De 15 0 117 0 800
 Po 0 39950 34080 40200 33830 124 -1
-De 15 0 118 0 0
+De 15 0 117 0 0
 Po 0 40200 33830 40510 33830 124 -1
-De 15 0 118 0 400
+De 15 0 117 0 400
 Po 0 41510 32830 41510 33210 124 -1
-De 15 0 118 0 800
+De 15 0 117 0 800
 Po 0 41510 33210 40890 33830 124 -1
-De 15 0 118 0 0
+De 15 0 117 0 0
 Po 0 40890 33830 40510 33830 124 -1
-De 15 0 118 0 400
+De 15 0 117 0 400
 Po 0 46635 15412 46635 15775 124 -1
-De 15 0 119 0 800
+De 15 0 118 0 800
 Po 0 46730 15870 48550 15870 124 -1
-De 15 0 119 0 0
+De 15 0 118 0 0
 Po 0 46635 15775 46730 15870 124 -1
-De 15 0 119 0 0
+De 15 0 118 0 0
 Po 0 41160 13020 41160 13195 124 -1
-De 15 0 119 0 800
+De 15 0 118 0 800
 Po 0 46635 14619 46635 15412 124 -1
-De 15 0 119 0 400
+De 15 0 118 0 400
 Po 0 46378 14362 46635 14619 124 -1
-De 15 0 119 0 0
+De 15 0 118 0 0
 Po 0 42327 14362 46378 14362 124 -1
-De 15 0 119 0 0
+De 15 0 118 0 0
 Po 0 41160 13195 42327 14362 124 -1
-De 15 0 119 0 0
+De 15 0 118 0 0
 Po 0 41150 12060 41150 13010 124 -1
-De 15 0 119 0 800
+De 15 0 118 0 800
 Po 0 41150 13010 41160 13020 124 -1
-De 15 0 119 0 400
+De 15 0 118 0 400
 Po 0 48550 15870 48760 16080 124 -1
+De 15 0 118 0 400
+Po 0 47135 13248 47135 12825 124 -1
+De 15 0 119 0 800
+Po 0 47630 12330 48010 12330 124 -1
+De 15 0 119 0 400
+Po 0 47135 12825 47630 12330 124 -1
+De 15 0 119 0 0
+Po 0 49840 12140 49700 12140 124 -1
+De 15 0 119 0 800
+Po 0 49700 12140 49010 12830 124 -1
+De 15 0 119 0 400
+Po 0 49010 12830 48510 12830 124 -1
+De 15 0 119 0 800
+Po 0 48510 12830 48010 12330 124 -1
 De 15 0 119 0 400
 Po 0 50730 13500 50720 13500 124 -1
 De 15 0 120 0 800
@@ -17826,20 +17936,20 @@ Po 0 49760 18580 51510 18580 150 -1
 De 15 0 123 0 800
 Po 0 51510 18580 51760 18830 150 -1
 De 15 0 123 0 400
-Po 0 22610 10940 22610 11530 124 -1
+Po 0 22610 10940 22610 11450 124 -1
 De 15 0 124 0 800
-Po 0 22610 11530 22648 11568 124 -1
-De 15 0 124 0 0
-Po 0 24378 11568 25500 12690 124 -1
-De 15 0 124 0 0
-Po 0 22648 11568 24378 11568 124 -1
-De 15 0 124 0 0
-Po 0 25500 12690 26345 12690 124 -1
-De 15 0 124 0 0
-Po 0 26345 12690 26565 12910 124 -1
-De 15 0 124 0 0
-Po 0 26565 12910 27670 12910 124 -1
+Po 0 25430 12690 27530 12690 124 -1
 De 15 0 124 0 400
+Po 0 25060 12320 25430 12690 124 -1
+De 15 0 124 0 0
+Po 0 25060 12120 25060 12320 124 -1
+De 15 0 124 0 0
+Po 0 24510 11570 25060 12120 124 -1
+De 15 0 124 0 0
+Po 0 22730 11570 24510 11570 124 -1
+De 15 0 124 0 0
+Po 0 22610 11450 22730 11570 124 -1
+De 15 0 124 0 0
 Po 0 54810 29580 55735 29580 124 -1
 De 15 0 125 0 800
 Po 0 55735 29580 55745 29570 124 -1
@@ -18055,7 +18165,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 300 124
+ZOptions 1 16 F 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
@@ -18415,50 +18525,139 @@ $POLYSCORNERS
 28459 15281 0 0
 28421 15189 0 0
 28421 14490 0 0
+28425 14480 0 1
+28425 13215 0 0
+28232 13135 0 0
+28085 12987 0 0
+28030 12854 0 0
+27975 12988 0 0
+27827 13135 0 0
+27634 13215 0 0
+27425 13215 0 0
+27232 13135 0 0
+27085 12987 0 0
+27005 12794 0 0
+27005 12585 0 0
+27073 12418 0 0
+26987 12505 0 0
+26794 12585 0 0
+26585 12585 0 0
+26392 12505 0 0
+26245 12357 0 0
+26190 12224 0 0
+26135 12358 0 0
+25987 12505 0 0
+25794 12585 0 0
+25585 12585 0 0
+25392 12505 0 0
+25245 12357 0 0
+25165 12164 0 0
+25165 11955 0 0
+25245 11762 0 0
+25393 11615 0 0
+25586 11535 0 0
+25795 11535 0 0
+25988 11615 0 0
+26135 11763 0 0
+26189 11895 0 0
+26245 11762 0 0
+26393 11615 0 0
+26586 11535 0 0
+26795 11535 0 0
+26988 11615 0 0
+27135 11763 0 0
+27215 11956 0 0
+27215 12165 0 0
+27146 12331 0 0
+27233 12245 0 0
+27426 12165 0 0
+27635 12165 0 0
+27828 12245 0 0
+27975 12393 0 0
+28029 12525 0 0
+28085 12392 0 0
+28233 12245 0 0
+28426 12165 0 0
+28635 12165 0 0
+28828 12245 0 0
+28975 12393 0 0
+29055 12586 0 0
+29055 12795 0 0
+28975 12988 0 0
+28827 13135 0 0
+28634 13215 0 0
+28425 13215 0 1
+28425 14480 0 0
 28459 14399 0 0
 28529 14329 0 0
-28565 14314 0 1
-28565 13435 0 0
-28372 13355 0 0
-28225 13207 0 0
-28170 13074 0 0
-28115 13208 0 0
-27967 13355 0 0
-27774 13435 0 0
-27565 13435 0 0
-27372 13355 0 0
-27225 13207 0 0
-27145 13014 0 0
-27145 12805 0 0
-27225 12612 0 0
-27373 12465 0 0
-27566 12385 0 0
-27775 12385 0 0
-27968 12465 0 0
-28115 12613 0 0
-28169 12745 0 0
-28225 12612 0 0
-28373 12465 0 0
-28566 12385 0 0
-28775 12385 0 0
-28968 12465 0 0
-29115 12613 0 0
-29195 12806 0 0
-29195 13015 0 0
-29115 13208 0 0
-28967 13355 0 0
-28774 13435 0 0
-28565 13435 0 1
-28565 14314 0 0
 28621 14291 0 0
 29320 14291 0 0
 29411 14329 0 0
+29412 14330 0 1
+29412 13881 0 0
+29289 13867 0 0
+29274 13847 0 0
+29186 13620 0 0
+29190 13376 0 0
+29289 13153 0 0
+29412 13139 0 0
+29783 13510 0 0
+29412 13881 0 1
+29412 14330 0 0
 29481 14399 0 0
 29519 14491 0 0
 29519 14515 0 0
 29659 14375 0 0
+29695 14360 0 0
 29861 14291 0 0
+29910 14291 0 1
+29910 14124 0 0
+29695 14120 0 0
+29666 14120 0 0
+29443 14021 0 0
+29429 13898 0 0
+29800 13527 0 1
+29800 13493 0 0
+29429 13122 0 0
+29443 12999 0 0
+29463 12984 0 0
+29519 12962 0 0
+29502 12955 0 0
+29355 12807 0 0
+29275 12614 0 0
+29275 12405 0 0
+29355 12212 0 0
+29503 12065 0 0
+29696 11985 0 0
+29905 11985 0 0
+30098 12065 0 0
+30245 12213 0 0
+30325 12406 0 0
+30325 12615 0 0
+30245 12808 0 0
+30097 12955 0 0
+30076 12963 0 0
+30157 12999 0 0
+30171 13122 0 0
+29800 13493 0 1
+29800 13527 0 0
+30171 13898 0 0
+30157 14021 0 0
+30137 14036 0 0
+29910 14124 0 1
+29910 14291 0 0
 30079 14291 0 0
+30188 14336 0 1
+30188 13881 0 0
+29817 13510 0 0
+30188 13139 0 0
+30311 13153 0 0
+30326 13173 0 0
+30414 13400 0 0
+30410 13644 0 0
+30311 13867 0 0
+30188 13881 0 1
+30188 14336 0 0
 30281 14375 0 0
 30435 14529 0 0
 30470 14613 0 0
@@ -20254,74 +20453,14 @@ $POLYSCORNERS
 25945 15315 0 0
 26025 15122 0 0
 26173 14975 0 0
-26366 14895 0 0
-26575 14895 0 0
-26695 14944 0 1
-26695 14095 0 0
-26502 14015 0 0
-26355 13867 0 0
-26300 13734 0 0
-26245 13868 0 0
-26097 14015 0 0
-25904 14095 0 0
-25695 14095 0 0
-25502 14015 0 0
-25355 13867 0 0
-25275 13674 0 0
-25275 13465 0 0
-25355 13272 0 0
-25503 13125 0 0
-25696 13045 0 0
-25905 13045 0 0
-26098 13125 0 0
-26245 13273 0 0
-26299 13405 0 0
-26355 13272 0 0
-26503 13125 0 0
-26585 13091 0 1
-26585 12585 0 0
-26392 12505 0 0
-26245 12357 0 0
-26190 12224 0 0
-26135 12358 0 0
-25987 12505 0 0
-25794 12585 0 0
-25585 12585 0 0
-25392 12505 0 0
-25245 12357 0 0
-25165 12164 0 0
-25165 11955 0 0
-25245 11762 0 0
-25393 11615 0 0
-25586 11535 0 0
-25795 11535 0 0
-25988 11615 0 0
-26135 11763 0 0
-26189 11895 0 0
-26245 11762 0 0
-26393 11615 0 0
-26586 11535 0 0
-26795 11535 0 0
-26988 11615 0 0
-27135 11763 0 0
-27215 11956 0 0
-27215 12165 0 0
-27135 12358 0 0
-26987 12505 0 0
-26794 12585 0 0
-26585 12585 0 1
-26585 13091 0 0
-26696 13045 0 0
-26905 13045 0 0
-27098 13125 0 0
-27245 13273 0 0
-27325 13466 0 0
-27325 13675 0 0
-27245 13868 0 0
-27097 14015 0 0
-26904 14095 0 0
-26695 14095 0 1
-26695 14944 0 0
+26248 14943 0 0
+26063 14861 0 0
+26049 14738 0 0
+26420 14367 0 0
+26791 14738 0 0
+26777 14861 0 0
+26757 14876 0 0
+26639 14921 0 0
 26768 14975 0 0
 26915 15123 0 0
 26995 15316 0 0
@@ -20478,6 +20617,54 @@ $POLYSCORNERS
 27238 33304 0 0
 27237 33300 0 0
 27262 33180 0 0
+27315 33100 0 1
+27315 14875 0 0
+27122 14795 0 0
+26975 14647 0 0
+26966 14626 0 0
+26931 14707 0 0
+26808 14721 0 0
+26437 14350 0 0
+26420 14333 0 0
+26403 14350 0 0
+26032 14721 0 0
+25909 14707 0 0
+25894 14687 0 0
+25806 14460 0 0
+25810 14216 0 0
+25863 14095 0 0
+25695 14095 0 0
+25502 14015 0 0
+25355 13867 0 0
+25275 13674 0 0
+25275 13465 0 0
+25355 13272 0 0
+25503 13125 0 0
+25696 13045 0 0
+25905 13045 0 0
+26098 13125 0 0
+26245 13273 0 0
+26299 13405 0 0
+26355 13272 0 0
+26503 13125 0 0
+26696 13045 0 0
+26905 13045 0 0
+27098 13125 0 0
+27245 13273 0 0
+27325 13466 0 0
+27325 13675 0 0
+27251 13851 0 0
+27316 13825 0 0
+27525 13825 0 0
+27718 13905 0 0
+27865 14053 0 0
+27945 14246 0 0
+27945 14455 0 0
+27865 14648 0 0
+27717 14795 0 0
+27524 14875 0 0
+27315 14875 0 1
+27315 33100 0 0
 27329 33079 0 0
 27851 32557 0 1
 27851 30529 0 0
@@ -27165,7 +27352,8 @@ $FILLSEGMENTS
 13965 12039 15585 12039
 16574 12039 23441 12039
 24539 12039 25165 12039
-27215 12039 30693 12039
+27215 12039 29566 12039
+30036 12039 30693 12039
 31327 12039 31517 12039
 32503 12039 32768 12039
 33392 12039 35953 12039
@@ -27191,7 +27379,8 @@ $FILLSEGMENTS
 13965 12119 15623 12119
 16536 12119 23441 12119
 24539 12119 25165 12119
-27215 12119 30876 12119
+27215 12119 29449 12119
+30152 12119 30876 12119
 31143 12119 31636 12119
 32383 12119 32768 12119
 33392 12119 35768 12119
@@ -27220,7 +27409,10 @@ $FILLSEGMENTS
 13965 12199 15703 12199
 16456 12199 23449 12199
 24530 12199 25179 12199
-27200 12199 32768 12199
+27200 12199 27344 12199
+27718 12199 28344 12199
+28718 12199 29369 12199
+30232 12199 32768 12199
 33392 12199 35688 12199
 36512 12199 38906 12199
 39062 12199 39096 12199
@@ -27250,7 +27442,10 @@ $FILLSEGMENTS
 16454 12279 23482 12279
 24497 12279 25212 12279
 26167 12279 26212 12279
-27167 12279 32768 12279
+27167 12279 27199 12279
+27862 12279 28199 12279
+28862 12279 29328 12279
+30273 12279 32768 12279
 33392 12279 35611 12279
 36590 12279 38871 12279
 39142 12279 39176 12279
@@ -27281,7 +27476,9 @@ $FILLSEGMENTS
 16465 12359 23515 12359
 24464 12359 25246 12359
 26133 12359 26246 12359
-27133 12359 32768 12359
+27942 12359 28119 12359
+28942 12359 29295 12359
+30306 12359 32768 12359
 33392 12359 35578 12359
 36623 12359 38835 12359
 39222 12359 39256 12359
@@ -27314,9 +27511,10 @@ $FILLSEGMENTS
 16620 12439 23583 12439
 24396 12439 25326 12439
 26053 12439 26326 12439
-27053 12439 27436 12439
-27906 12439 28436 12439
-28906 12439 32768 12439
+27052 12439 27065 12439
+27994 12439 28066 12439
+28995 12439 29275 12439
+30325 12439 32768 12439
 33392 12439 35545 12439
 36656 12439 37739 12439
 38681 12439 38802 12439
@@ -27350,9 +27548,10 @@ $FILLSEGMENTS
 16654 12519 23650 12519
 24320 12519 25425 12519
 25953 12519 26425 12519
-26953 12519 27319 12519
-28022 12519 28319 12519
-29022 12519 32768 12519
+26953 12519 27032 12519
+28027 12519 28032 12519
+29028 12519 29275 12519
+30325 12519 32768 12519
 33392 12519 35525 12519
 36675 12519 37683 12519
 38738 12519 38801 12519
@@ -27383,9 +27582,9 @@ $FILLSEGMENTS
 15862 12599 15896 12599
 16264 12599 16298 12599
 16685 12599 23610 12599
-24371 12599 27239 12599
-28102 12599 28239 12599
-29102 12599 32768 12599
+24371 12599 27005 12599
+29055 12599 29275 12599
+30325 12599 32768 12599
 33392 12599 35525 12599
 36675 12599 37661 12599
 38759 12599 38799 12599
@@ -27416,9 +27615,9 @@ $FILLSEGMENTS
 15942 12679 15976 12679
 16184 12679 16218 12679
 16716 12679 23616 12679
-24364 12679 27198 12679
-28142 12679 28197 12679
-29143 12679 32768 12679
+24364 12679 27005 12679
+29055 12679 29301 12679
+30298 12679 32768 12679
 33392 12679 35525 12679
 36675 12679 37661 12679
 38759 12679 38797 12679
@@ -27451,8 +27650,9 @@ $FILLSEGMENTS
 16717 12759 23432 12759
 23662 12759 23696 12759
 24284 12759 24318 12759
-24552 12759 27165 12759
-29176 12759 32768 12759
+24552 12759 27005 12759
+29055 12759 29335 12759
+30265 12759 32768 12759
 33392 12759 35543 12759
 36656 12759 37661 12759
 38759 12759 38820 12759
@@ -27481,8 +27681,9 @@ $FILLSEGMENTS
 16715 12839 23397 12839
 23742 12839 23776 12839
 24204 12839 24238 12839
-24583 12839 27145 12839
-29195 12839 30825 12839
+24583 12839 27023 12839
+29036 12839 29386 12839
+30213 12839 30825 12839
 31326 12839 31613 12839
 32537 12839 32768 12839
 33392 12839 35576 12839
@@ -27513,8 +27714,10 @@ $FILLSEGMENTS
 16714 12919 23361 12919
 23822 12919 23856 12919
 24124 12919 24158 12919
-24615 12919 27145 12919
-29195 12919 30709 12919
+24615 12919 27056 12919
+28003 12919 28056 12919
+29003 12919 29466 12919
+30133 12919 30709 12919
 31441 12919 31552 12919
 32599 12919 32768 12919
 33392 12919 35609 12919
@@ -27543,8 +27746,10 @@ $FILLSEGMENTS
 16688 12999 23355 12999
 23902 12999 23936 12999
 24044 12999 24078 12999
-24628 12999 27145 12999
-29195 12999 30629 12999
+24628 12999 27096 12999
+27963 12999 28096 12999
+28963 12999 29443 12999
+30157 12999 30629 12999
 31521 12999 31526 12999
 32624 12999 32768 12999
 33392 12999 35686 12999
@@ -27572,9 +27777,10 @@ $FILLSEGMENTS
 23964 13079 24016 13079
 24626 13079 25614 13079
 25988 13079 26614 13079
-26988 13079 27171 13079
-28167 13079 28172 13079
-29168 13079 30585 13079
+26988 13079 27176 13079
+27883 13079 28176 13079
+28883 13079 29434 13079
+30167 13079 30585 13079
 32624 13079 32768 13079
 33392 13079 35766 13079
 36434 13079 37661 13079
@@ -27602,9 +27808,12 @@ $FILLSEGMENTS
 24062 13159 24096 13159
 24625 13159 25469 13159
 26132 13159 26469 13159
-27132 13159 27205 13159
-28135 13159 28205 13159
-29135 13159 30552 13159
+27132 13159 27289 13159
+27769 13159 28289 13159
+28769 13159 29287 13159
+29432 13159 29466 13159
+30134 13159 30168 13159
+30316 13159 30552 13159
 32624 13159 32768 13159
 33392 13159 35946 13159
 36252 13159 37661 13159
@@ -27630,9 +27839,10 @@ $FILLSEGMENTS
 24142 13239 24176 13239
 24611 13239 25389 13239
 26212 13239 26389 13239
-27212 13239 27256 13239
-28083 13239 28256 13239
-29083 13239 30526 13239
+27212 13239 29251 13239
+29512 13239 29546 13239
+30054 13239 30088 13239
+30352 13239 30526 13239
 32624 13239 32768 13239
 33392 13239 37661 13239
 38759 13239 39357 13239
@@ -27656,9 +27866,10 @@ $FILLSEGMENTS
 24222 13319 24256 13319
 24576 13319 25336 13319
 26264 13319 26336 13319
-27265 13319 27336 13319
-28003 13319 28336 13319
-29003 13319 30526 13319
+27265 13319 29216 13319
+29592 13319 29626 13319
+29974 13319 30008 13319
+30383 13319 30526 13319
 32624 13319 32768 13319
 33392 13319 33569 13319
 34451 13319 37681 13319
@@ -27681,9 +27892,10 @@ $FILLSEGMENTS
 24302 13399 24336 13399
 24540 13399 25303 13399
 26297 13399 26302 13399
-27298 13399 27478 13399
-27860 13399 28478 13399
-28860 13399 30526 13399
+27298 13399 29190 13399
+29672 13399 29706 13399
+29894 13399 29928 13399
+30414 13399 30526 13399
 32624 13399 32768 13399
 33392 13399 33495 13399
 34526 13399 37737 13399
@@ -27703,7 +27915,10 @@ $FILLSEGMENTS
 13965 13479 16768 13479
 19745 13479 23601 13479
 24378 13479 25275 13479
-27325 13479 30543 13479
+27325 13479 29189 13479
+29752 13479 29786 13479
+29814 13479 29848 13479
+30412 13479 30543 13479
 32624 13479 32768 13479
 33392 13479 33462 13479
 34559 13479 37875 13479
@@ -27723,7 +27938,10 @@ $FILLSEGMENTS
 13965 13559 16732 13559
 19745 13559 23612 13559
 24367 13559 25275 13559
-27325 13559 30576 13559
+27325 13559 29188 13559
+29734 13559 29768 13559
+29832 13559 29866 13559
+30411 13559 30576 13559
 32624 13559 32739 13559
 33392 13559 33461 13559
 34559 13559 37795 13559
@@ -27744,7 +27962,10 @@ $FILLSEGMENTS
 13965 13639 16699 13639
 19745 13639 23702 13639
 24282 13639 25275 13639
-27325 13639 30609 13639
+27325 13639 29193 13639
+29654 13639 29688 13639
+29912 13639 29946 13639
+30410 13639 30609 13639
 33392 13639 33461 13639
 34559 13639 37733 13639
 38688 13639 40799 13639
@@ -27764,7 +27985,10 @@ $FILLSEGMENTS
 13965 13719 16675 13719
 18713 13719 18726 13719
 19714 13719 25293 13719
-27306 13719 30689 13719
+27306 13719 29224 13719
+29574 13719 29608 13719
+29992 13719 30026 13719
+30376 13719 30689 13719
 31461 13719 31542 13719
 33379 13719 33461 13719
 34559 13719 37700 13719
@@ -27783,8 +28007,10 @@ $FILLSEGMENTS
 13965 13799 16675 13799
 18681 13799 18759 13799
 19681 13799 25326 13799
-26273 13799 26326 13799
-27273 13799 30776 13799
+27272 13799 29255 13799
+29494 13799 29528 13799
+30072 13799 30106 13799
+30341 13799 30776 13799
 31373 13799 31593 13799
 33354 13799 33461 13799
 34559 13799 37666 13799
@@ -27803,8 +28029,10 @@ $FILLSEGMENTS
 13965 13879 16675 13879
 18623 13879 18816 13879
 19623 13879 25366 13879
-26233 13879 26366 13879
-27233 13879 32089 13879
+27656 13879 29394 13879
+29414 13879 29448 13879
+30152 13879 30186 13879
+30205 13879 32089 13879
 33302 13879 33461 13879
 34559 13879 37661 13879
 38759 13879 40650 13879
@@ -27822,8 +28050,8 @@ $FILLSEGMENTS
 17810 13959 17896 13959
 18543 13959 18896 13959
 19543 13959 25446 13959
-26153 13959 26446 13959
-27153 13959 32009 13959
+27772 13959 29435 13959
+30164 13959 32009 13959
 33221 13959 33461 13959
 34559 13959 37661 13959
 38759 13959 40635 13959
@@ -27840,8 +28068,8 @@ $FILLSEGMENTS
 17777 14039 18052 14039
 18386 14039 19052 14039
 19386 14039 25559 14039
-26039 14039 26559 14039
-27039 14039 31929 14039
+27852 14039 29483 14039
+30129 14039 31929 14039
 33142 14039 33461 14039
 34559 14039 37665 14039
 38754 14039 40635 14039
@@ -27854,7 +28082,9 @@ $FILLSEGMENTS
 60015 14039 60735 14039
 61263 14039 63555 14039
 13965 14119 16755 14119
-17744 14119 31849 14119
+17744 14119 25853 14119
+27893 14119 29663 14119
+29922 14119 31849 14119
 33062 14119 33461 14119
 34559 14119 37698 14119
 38721 14119 40635 14119
@@ -27865,7 +28095,8 @@ $FILLSEGMENTS
 58345 14119 59334 14119
 60186 14119 63555 14119
 13965 14199 16826 14199
-17674 14199 31769 14199
+17674 14199 25818 14199
+27926 14199 31769 14199
 32960 14199 33469 14199
 34551 14199 37731 14199
 38688 14199 40666 14199
@@ -27876,7 +28107,8 @@ $FILLSEGMENTS
 58345 14199 59254 14199
 60266 14199 63555 14199
 13965 14279 16906 14279
-17594 14279 31689 14279
+17594 14279 25809 14279
+27945 14279 31689 14279
 33040 14279 33507 14279
 34513 14279 37793 14279
 38627 14279 40699 14279
@@ -27887,7 +28119,9 @@ $FILLSEGMENTS
 58339 14279 59174 14279
 60346 14279 63555 14279
 13965 14359 17072 14359
-17427 14359 28499 14359
+17427 14359 25808 14359
+26394 14359 26446 14359
+27945 14359 28499 14359
 29441 14359 29698 14359
 30243 14359 30698 14359
 31243 14359 31609 14359
@@ -27901,7 +28135,10 @@ $FILLSEGMENTS
 57305 14359 57334 14359
 58306 14359 59125 14359
 60397 14359 63555 14359
-13965 14439 28443 14439
+13965 14439 25807 14439
+26314 14439 26348 14439
+26492 14439 26526 14439
+27945 14439 28443 14439
 29498 14439 29595 14439
 30345 14439 30595 14439
 31345 14439 31546 14439
@@ -27914,7 +28151,10 @@ $FILLSEGMENTS
 57272 14439 57367 14439
 58272 14439 59092 14439
 60430 14439 63555 14439
-13965 14519 28421 14519
+13965 14519 25828 14519
+26234 14519 26268 14519
+26572 14519 26606 14519
+27918 14519 28421 14519
 30425 14519 30515 14519
 31425 14519 31506 14519
 33172 14519 33545 14519
@@ -27929,7 +28169,10 @@ $FILLSEGMENTS
 60463 14519 63555 14519
 13965 14599 16814 14599
 17140 14599 19364 14599
-19688 14599 28421 14599
+19688 14599 25859 14599
+26154 14599 26188 14599
+26652 14599 26686 14599
+27885 14599 28421 14599
 30465 14599 30476 14599
 31465 14599 31490 14599
 33175 14599 33512 14599
@@ -27943,7 +28186,11 @@ $FILLSEGMENTS
 60485 14599 63555 14599
 13965 14679 16654 14679
 17297 14679 19204 14679
-19847 14679 28421 14679
+19847 14679 25890 14679
+26074 14679 26108 14679
+26732 14679 26766 14679
+26943 14679 27006 14679
+27833 14679 28421 14679
 33175 14679 33479 14679
 34542 14679 35604 14679
 36557 14679 37716 14679
@@ -27958,7 +28205,9 @@ $FILLSEGMENTS
 60485 14679 63555 14679
 13965 14759 16574 14759
 17377 14759 19124 14759
-19927 14759 28421 14759
+19927 14759 26051 14759
+26788 14759 27086 14759
+27753 14759 28421 14759
 32112 14759 32134 14759
 33165 14759 33461 14759
 34559 14759 35570 14759
@@ -27973,7 +28222,9 @@ $FILLSEGMENTS
 13965 14839 16515 14839
 17435 14839 19065 14839
 19985 14839 24775 14839
-25170 14839 28421 14839
+25170 14839 26060 14839
+26779 14839 27228 14839
+27610 14839 28421 14839
 32112 14839 32167 14839
 33132 14839 33461 14839
 34559 14839 35555 14839
@@ -27988,8 +28239,8 @@ $FILLSEGMENTS
 13965 14919 16482 14919
 17469 14919 19032 14919
 20019 14919 24612 14919
-25329 14919 26309 14919
-26634 14919 28421 14919
+25329 14919 26193 14919
+26644 14919 28421 14919
 32112 14919 32200 14919
 33099 14919 33461 14919
 34559 14919 35555 14919
@@ -34261,7 +34512,7 @@ ZLayer 15
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 350 124
+ZOptions 1 16 F 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 37793 19086 0
