@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 12:23:35 PM EDT
+EESchema Schematic File Version 2  date Mon 29 Oct 2012 02:08:29 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -360,19 +360,19 @@ Connection ~ 2200 4650
 Wire Wire Line
 	3900 1400 4300 1400
 $Comp
-L CONN_1 P?
+L CONN_1 P65
 U 1 1 508EA553
 P 4100 1600
-F 0 "P?" H 4150 1600 40  0000 L CNN
+F 0 "P65" H 4150 1600 40  0000 L CNN
 F 1 "TXCAN0" H 4100 1655 30  0001 C CNN
 	1    4100 1600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P?
+L CONN_1 P64
 U 1 1 508EA544
 P 4000 1600
-F 0 "P?" H 4050 1600 40  0000 L CNN
+F 0 "P64" H 4050 1600 40  0000 L CNN
 F 1 "RXCAN0" H 4000 1655 30  0001 C CNN
 	1    4000 1600
 	0    -1   -1   0   

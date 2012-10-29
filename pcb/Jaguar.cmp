@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 29 Oct 2012 12:23:33 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 29 Oct 2012 02:08:28 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -969,7 +969,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F22BF32;
 Reference = P41;
-ValeurCmp = MAF-Sensor;
+ValeurCmp = MAF;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1047,7 +1047,7 @@ BeginCmp
 TimeStamp = /502413D0;
 Reference = P56;
 ValeurCmp = MAF-CPU-Signal;
-IdModule  = WireConnection;
+IdModule  = wirewrap;
 EndCmp
 
 BeginCmp
@@ -1093,15 +1093,22 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/508EA544;
+TimeStamp = /508EBEFF;
 Reference = P63;
+ValeurCmp = AAP;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/508EA544;
+Reference = P64;
 ValeurCmp = RXCAN0;
 IdModule  = wirewrap;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/508EA553;
-Reference = P64;
+Reference = P65;
 ValeurCmp = TXCAN0;
 IdModule  = wirewrap;
 EndCmp

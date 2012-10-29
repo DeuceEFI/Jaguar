@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 12:23:35 PM EDT
+EESchema Schematic File Version 2  date Mon 29 Oct 2012 02:08:29 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -18,6 +18,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5200 2200
+$Comp
+L CONN_1 P63
+U 1 1 508EBEFF
+P 5050 2200
+F 0 "P63" H 5130 2200 40  0000 L CNN
+F 1 "AAP" H 5050 2255 30  0001 C CNN
+	1    5050 2200
+	-1   0    0    1   
+$EndComp
 Connection ~ 8500 2750
 Connection ~ 9050 2650
 Connection ~ 8500 2650
@@ -364,7 +374,7 @@ L CONN_1 P41
 U 1 1 4F22BF32
 P 9150 5450
 F 0 "P41" H 9230 5450 40  0000 L CNN
-F 1 "MAF-Sensor" H 9150 5505 30  0001 C CNN
+F 1 "MAF" H 9150 5505 30  0001 C CNN
 	1    9150 5450
 	-1   0    0    1   
 $EndComp
@@ -832,7 +842,6 @@ Text GLabel 9300 5000 0    40   Input ~ 0
 5vdc-analog
 Text GLabel 5200 850  0    40   Input ~ 0
 5vdc-analog
-NoConn ~ 5200 2200
 $Comp
 L CONN_1 P3
 U 1 1 4F189D7E
