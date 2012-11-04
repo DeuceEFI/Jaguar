@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Sun 04 Nov 2012 12:37:30 AM EDT
+PCBNEW-LibDoc----V1  Sun 04 Nov 2012 06:01:33 PM EST
 #
 $MODULE 9S12XDP512
 Li 9S12XDP512
@@ -123,12 +123,6 @@ Cd Connecteurs 2 pins
 Kw CONN DEV
 $EndMODULE
 #
-$MODULE PIN_ARRAY_3X2
-Li PIN_ARRAY_3X2
-Cd Double rangee de contacts 2 x 4 pins
-Kw CONN
-$EndMODULE
-#
 $MODULE PIN_STRIP_2
 Li PIN_STRIP_2
 Cd Pin strip 2pin
@@ -220,6 +214,12 @@ $MODULE wirewrap
 Li wirewrap
 Cd module 1 pin
 Kw DEV
+$EndMODULE
+#
+$MODULE PIN_ARRAY_3X2
+Li PIN_ARRAY_3X2
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
 $EndMODULE
 #
 $EndLIBDOC
