@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Thu 05 Jul 2012 01:16:17 PM EDT
+PCBNEW-LibDoc----V1  Sun 04 Nov 2012 12:37:30 AM EDT
 #
 $MODULE 9S12XDP512
 Li 9S12XDP512
@@ -209,6 +209,17 @@ $MODULE led_3mm_yellow
 Li led_3mm_yellow
 Cd 3mm yellow led
 Kw led
+$EndMODULE
+#
+$MODULE 1n4148ta
+Li 1n4148ta
+Cd 1N4148TA Diode, DO-35 package
+$EndMODULE
+#
+$MODULE wirewrap
+Li wirewrap
+Cd module 1 pin
+Kw DEV
 $EndMODULE
 #
 $EndLIBDOC

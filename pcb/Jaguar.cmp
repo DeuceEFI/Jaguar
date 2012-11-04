@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 29 Oct 2012 02:08:28 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 01 Nov 2012 04:48:20 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -333,6 +333,13 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F0B937C;
 Reference = C51;
 ValeurCmp = 0.22uF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BFAA;
+Reference = C52;
+ValeurCmp = 1uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -719,6 +726,13 @@ TimeStamp = /4F0A4778/4F401512;
 Reference = JP10;
 ValeurCmp = JUMPER;
 IdModule  = PIN_ARRAY_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BFDF;
+Reference = JP11;
+ValeurCmp = 12v/5v;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -1111,6 +1125,48 @@ TimeStamp = /4F0A2F06/508EA553;
 Reference = P65;
 ValeurCmp = TXCAN0;
 IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092C0CA;
+Reference = P66;
+ValeurCmp = IG1;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092C0D7;
+Reference = P67;
+ValeurCmp = IG2;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092C00C;
+Reference = P68;
+ValeurCmp = 5v;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092C018;
+Reference = P69;
+ValeurCmp = 12v;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092DFBA;
+Reference = P70;
+ValeurCmp = Ignitor1;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /5092DFC3;
+Reference = P71;
+ValeurCmp = Ignitor2;
+IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
@@ -1772,6 +1828,48 @@ IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D82A1/5092BB4A;
+Reference = R87;
+ValeurCmp = 1k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BB37;
+Reference = R88;
+ValeurCmp = 1k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BB2D;
+Reference = R89;
+ValeurCmp = 100k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BB06;
+Reference = R90;
+ValeurCmp = 100k;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BECA;
+Reference = R91;
+ValeurCmp = 100;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092BED6;
+Reference = R92;
+ValeurCmp = 100;
+IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A2F47;
 Reference = U1;
 ValeurCmp = MC9S12XDP512;
@@ -1824,6 +1922,13 @@ BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/5058DC75;
 Reference = U8;
 ValeurCmp = ADUMX201;
+IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/5092B819;
+Reference = U9;
+ValeurCmp = TC442XA;
 IdModule  = so-8;
 EndCmp
 

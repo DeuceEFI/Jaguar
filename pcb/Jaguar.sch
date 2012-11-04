@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 02:14:51 PM EDT
+EESchema Schematic File Version 2  date Thu 01 Nov 2012 06:25:00 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "29 oct 2012"
+Date "1 nov 2012"
 Rev "0.4-alpha"
 Comp "git hash: 3c361c3027"
 Comment1 ""
@@ -18,6 +18,96 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_1 P79
+U 1 1 5092E97B
+P 10750 1400
+F 0 "P79" H 10830 1400 40  0000 L CNN
+F 1 "INJ8" H 10750 1455 30  0001 C CNN
+	1    10750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P78
+U 1 1 5092E979
+P 10750 1300
+F 0 "P78" H 10830 1300 40  0000 L CNN
+F 1 "INJ7" H 10750 1355 30  0001 C CNN
+	1    10750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P77
+U 1 1 5092E978
+P 10750 1200
+F 0 "P77" H 10830 1200 40  0000 L CNN
+F 1 "INJ6" H 10750 1255 30  0001 C CNN
+	1    10750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P76
+U 1 1 5092E975
+P 10750 1100
+F 0 "P76" H 10830 1100 40  0000 L CNN
+F 1 "INJ5" H 10750 1155 30  0001 C CNN
+	1    10750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P75
+U 1 1 5092E972
+P 10750 1000
+F 0 "P75" H 10830 1000 40  0000 L CNN
+F 1 "INJ4" H 10750 1055 30  0001 C CNN
+	1    10750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P74
+U 1 1 5092E96E
+P 10750 900
+F 0 "P74" H 10830 900 40  0000 L CNN
+F 1 "INJ3" H 10750 955 30  0001 C CNN
+	1    10750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P73
+U 1 1 5092E96A
+P 10750 800
+F 0 "P73" H 10830 800 40  0000 L CNN
+F 1 "INJ2" H 10750 855 30  0001 C CNN
+	1    10750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P72
+U 1 1 5092E964
+P 10750 700
+F 0 "P72" H 10830 700 40  0000 L CNN
+F 1 "INJ1" H 10750 755 30  0001 C CNN
+	1    10750 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P71
+U 1 1 5092DFC3
+P 10800 2300
+F 0 "P71" H 10880 2300 40  0000 L CNN
+F 1 "Ignitor2" H 10800 2355 30  0001 C CNN
+	1    10800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P70
+U 1 1 5092DFBA
+P 10800 2200
+F 0 "P70" H 10880 2200 40  0000 L CNN
+F 1 "Ignitor1" H 10800 2255 30  0001 C CNN
+	1    10800 2200
+	1    0    0    -1  
+$EndComp
 Connection ~ 5200 2200
 $Comp
 L CONN_1 P63
@@ -485,15 +575,6 @@ Text GLabel 9050 1400 0    40   Input ~ 0
 Injector8-IN
 Text GLabel 9050 1300 0    40   Input ~ 0
 Injector7-IN
-$Comp
-L CONN_8 P26
-U 1 1 4F20C6A8
-P 10950 1050
-F 0 "P26" V 10900 1050 60  0000 C CNN
-F 1 "Injectors" V 11000 1050 60  0000 C CNN
-	1    10950 1050
-	1    0    0    -1  
-$EndComp
 Text Notes 5950 7550 0    25   ~ 0
 34
 Text Notes 5950 7450 0    25   ~ 0
@@ -732,10 +813,10 @@ F 1 "OUT-GND" H 8900 2905 30  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 4F1CCA54
 P 9300 4400
-F 0 "#PWR01" H 9300 4400 30  0001 C CNN
+F 0 "#PWR1" H 9300 4400 30  0001 C CNN
 F 1 "GND" H 9300 4330 30  0001 C CNN
 	1    9300 4400
 	1    0    0    -1  
@@ -919,6 +1000,8 @@ F6 "Fuel-Relay-Drive-IN" I L 9050 2550 40
 F7 "Accessory-Relay-Drive-IN" I L 9050 2750 40 
 F8 "Accessory_Relay" O R 10650 2750 40 
 F9 "12vdc-switched-outputs" I L 9050 2200 40 
+F10 "Ignitor2" I R 10650 2300 40 
+F11 "Ignitor1" I R 10650 2200 40 
 $EndSheet
 $Sheet
 S 9050 650  1550 1350
