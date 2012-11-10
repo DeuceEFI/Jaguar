@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 06:25:00 PM EDT
+EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:26:13 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "1 nov 2012"
+Date "10 nov 2012"
 Rev "0.4-alpha"
 Comp "git hash: 3c361c3027"
 Comment1 ""
@@ -18,6 +18,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 10650 5050 2    40   Output ~ 0
+AAP
+Text GLabel 5200 2200 0    40   Input ~ 0
+AAP
+Text GLabel 9050 2550 0    40   Input ~ 0
+DIS-Bypass-Signal
+Text GLabel 9050 2450 0    40   Input ~ 0
+DIS-Advance-Signal
+Text GLabel 6900 2300 2    40   Output ~ 0
+DIS-Bypass-Signal
+Text GLabel 6900 2200 2    40   Output ~ 0
+DIS-Advance-Signal
+Connection ~ 9050 1500
+Connection ~ 9050 2200
+Connection ~ 8550 2200
+Text GLabel 9050 2300 0    40   Input ~ 0
+5vdc-analog
 $Comp
 L CONN_1 P79
 U 1 1 5092E97B
@@ -90,39 +107,11 @@ F 1 "INJ1" H 10750 755 30  0001 C CNN
 	1    10750 700 
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P71
-U 1 1 5092DFC3
-P 10800 2300
-F 0 "P71" H 10880 2300 40  0000 L CNN
-F 1 "Ignitor2" H 10800 2355 30  0001 C CNN
-	1    10800 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P70
-U 1 1 5092DFBA
-P 10800 2200
-F 0 "P70" H 10880 2200 40  0000 L CNN
-F 1 "Ignitor1" H 10800 2255 30  0001 C CNN
-	1    10800 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 5200 2200
-$Comp
-L CONN_1 P63
-U 1 1 508EBEFF
-P 5050 2200
-F 0 "P63" H 5130 2200 40  0000 L CNN
-F 1 "AAP" H 5050 2255 30  0001 C CNN
-	1    5050 2200
-	-1   0    0    1   
-$EndComp
-Connection ~ 8500 2750
-Connection ~ 9050 2650
-Connection ~ 8500 2650
+Connection ~ 8500 3000
+Connection ~ 9050 2900
+Connection ~ 8500 2900
 Wire Wire Line
-	8500 2750 8500 2650
+	8500 3000 8500 2900
 Connection ~ 7350 1900
 Connection ~ 6900 2000
 Connection ~ 6900 2100
@@ -135,11 +124,9 @@ Connection ~ 5200 2300
 Wire Wire Line
 	5200 2300 4800 2300
 Wire Wire Line
-	9050 2200 9050 2100
+	9050 2200 8550 2200
 Wire Wire Line
-	9050 2100 8550 2100
-Wire Wire Line
-	8550 2100 8550 1500
+	8550 2200 8550 1500
 Wire Wire Line
 	8550 1500 9050 1500
 Wire Wire Line
@@ -277,8 +264,8 @@ Wire Wire Line
 Wire Wire Line
 	7400 2000 6900 2000
 Wire Wire Line
-	9050 2650 8450 2650
-Text GLabel 8450 2650 0    40   Input ~ 0
+	9050 2900 8450 2900
+Text GLabel 8450 2900 0    40   Input ~ 0
 FAN
 Text GLabel 7400 2000 2    40   Output ~ 0
 FAN
@@ -311,7 +298,7 @@ F 1 "MAF-CPU-Signal" H 4650 2355 30  0001 C CNN
 $EndComp
 Text GLabel 4800 2400 0    40   Input ~ 0
 MAF
-Text GLabel 10650 5450 2    40   Output ~ 0
+Text GLabel 10650 5750 2    40   Output ~ 0
 MAF
 $Comp
 L CONN_1 P52
@@ -471,19 +458,19 @@ $EndComp
 $Comp
 L CONN_1 P39
 U 1 1 4F2222E6
-P 8350 2750
-F 0 "P39" H 8430 2750 40  0000 L CNN
-F 1 "FAN" H 8350 2805 30  0001 C CNN
-	1    8350 2750
+P 8350 3000
+F 0 "P39" H 8430 3000 40  0000 L CNN
+F 1 "FAN" H 8350 3055 30  0001 C CNN
+	1    8350 3000
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P40
 U 1 1 4F2222DF
-P 8900 2750
-F 0 "P40" H 8980 2750 40  0000 L CNN
-F 1 "ACC" H 8900 2805 30  0001 C CNN
-	1    8900 2750
+P 8900 3000
+F 0 "P40" H 8980 3000 40  0000 L CNN
+F 1 "ACC" H 8900 3055 30  0001 C CNN
+	1    8900 3000
 	-1   0    0    1   
 $EndComp
 Text Notes 5950 7600 0    25   ~ 0
@@ -541,10 +528,10 @@ CPU-PT4
 $Comp
 L CONN_1 P37
 U 1 1 4F21C093
-P 10800 2750
-F 0 "P37" H 10880 2750 40  0000 L CNN
-F 1 "ACC-" H 10800 2805 30  0001 C CNN
-	1    10800 2750
+P 10800 3100
+F 0 "P37" H 10880 3100 40  0000 L CNN
+F 1 "ACC-" H 10800 3155 30  0001 C CNN
+	1    10800 3100
 	1    0    0    -1  
 $EndComp
 Text Notes 4450 4000 0    50   ~ 10
@@ -565,10 +552,10 @@ $EndComp
 $Comp
 L CONN_1 P35
 U 1 1 4F20C9CD
-P 10800 2600
-F 0 "P35" H 10880 2600 40  0000 L CNN
-F 1 "FAN-" H 10800 2655 30  0001 C CNN
-	1    10800 2600
+P 10800 3000
+F 0 "P35" H 10880 3000 40  0000 L CNN
+F 1 "FAN-" H 10800 3055 30  0001 C CNN
+	1    10800 3000
 	1    0    0    -1  
 $EndComp
 Text GLabel 9050 1400 0    40   Input ~ 0
@@ -706,10 +693,6 @@ F 1 "PT4-7" V 6500 4000 50  0000 C CNN
 	1    6450 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 6150 0    40   Input ~ 0
-DIS-Bypass
-Text GLabel 6900 2200 2    40   Output ~ 0
-DIS-Bypass
 $Comp
 L CONN_8 P33
 U 1 1 4F1EAE6B
@@ -757,7 +740,7 @@ U 4F0A2F06
 F0 "CPU" 40
 F1 "cpu.sch" 40
 F2 "Fuel-Pump-Drive" O R 6900 2400 40 
-F3 "DIS-Advance-Signal" O R 6900 2300 40 
+F3 "DIS-Advance-Signal" O R 6900 2200 40 
 F4 "MAF-Signal" I L 5200 2300 40 
 F5 "MAT-Signal" I L 5200 2100 40 
 F6 "BRV-Signal" I L 5200 1800 40 
@@ -778,7 +761,7 @@ F20 "Injector1-PB" O R 6900 1200 40
 F21 "Injector3-PT" O R 6900 950 40 
 F22 "Injector2-PT" O R 6900 850 40 
 F23 "Injector1-PT" O R 6900 750 40 
-F24 "DIS-Bypass-PT" O R 6900 2200 40 
+F24 "DIS-Bypass-PT" O R 6900 2300 40 
 F25 "Injector4-PT" O R 6900 1050 40 
 F26 "Injector8-PB" O R 6900 1900 40 
 F27 "Injector7-PB" O R 6900 1800 40 
@@ -797,26 +780,26 @@ Notes:
 $Comp
 L CONN_1 P32
 U 1 1 4F1CD4E4
-P 8900 2200
-F 0 "P32" H 8980 2200 40  0000 L CNN
-F 1 "OUTPUT-12v" H 8900 2255 30  0001 C CNN
-	1    8900 2200
+P 8400 2200
+F 0 "P32" H 8480 2200 40  0000 L CNN
+F 1 "OUTPUT-12v" H 8400 2255 30  0001 C CNN
+	1    8400 2200
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P31
 U 1 1 4F1CD3BD
-P 8900 2850
-F 0 "P31" H 8980 2850 40  0000 L CNN
-F 1 "OUT-GND" H 8900 2905 30  0001 C CNN
-	1    8900 2850
+P 8900 3100
+F 0 "P31" H 8980 3100 40  0000 L CNN
+F 1 "OUT-GND" H 8900 3155 30  0001 C CNN
+	1    8900 3100
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 4F1CCA54
 P 9300 4400
-F 0 "#PWR1" H 9300 4400 30  0001 C CNN
+F 0 "#PWR01" H 9300 4400 30  0001 C CNN
 F 1 "GND" H 9300 4330 30  0001 C CNN
 	1    9300 4400
 	1    0    0    -1  
@@ -892,32 +875,29 @@ F1 "inputs.sch" 40
 F2 "O2-Sensor-GND" I L 9300 6000 40 
 F3 "TPS-Sensor-GND" I L 9300 5750 40 
 F4 "Coolant-Sensor" I L 9300 5350 40 
-F5 "Coolant-CPU-Signal" O R 10650 5350 40 
+F5 "Coolant-CPU-Signal" O R 10650 5450 40 
 F6 "O2-Sensor" I L 9300 5900 40 
-F7 "O2-CPU-Signal" O R 10650 5900 40 
-F8 "IAT-CPU-Signal" O R 10650 5150 40 
+F7 "O2-CPU-Signal" O R 10650 5550 40 
+F8 "IAT-CPU-Signal" O R 10650 5250 40 
 F9 "IAT-Sensor" I L 9300 5150 40 
-F10 "TPS-CPU-Signal" O R 10650 5650 40 
+F10 "TPS-CPU-Signal" O R 10650 5350 40 
 F11 "TPS-Sensor" I L 9300 5650 40 
 F12 "MAT-Sensor" I L 9300 5250 40 
-F13 "MAT-CPU-Signal" O R 10650 5250 40 
+F13 "MAT-CPU-Signal" O R 10650 5650 40 
 F14 "BRV" O R 10650 4900 40 
-F15 "MAP-CPU-Signal" O R 10650 5000 40 
-F16 "IGN-Advance-Signal" B L 9300 6250 40 
-F17 "IGN-Advance" O R 10650 6450 40 
-F18 "BRV-12v" I L 9300 4900 40 
-F19 "TPS-5vdc" O L 9300 5550 40 
-F20 "DIS-Bypass-Signal" I L 9300 6150 40 
-F21 "DIS-Bypass-OUT" O R 10650 6350 40 
-F22 "5vdc-analog" I L 9300 5000 40 
-F23 "MAF-Sensor" I L 9300 5450 40 
-F24 "MAF-CPU-Signal" O R 10650 5450 40 
-F25 "RPM1-IN-" B L 9300 6650 40 
-F26 "RPM0-IN-" B L 9300 6450 40 
-F27 "RPM1-IN+" B L 9300 6550 40 
-F28 "RPM0-IN+" B L 9300 6350 40 
-F29 "RPM1-OUT" B R 10650 6650 40 
-F30 "RPM0-OUT" O R 10650 6550 40 
+F15 "MAP-CPU-Signal" O R 10650 5150 40 
+F16 "BRV-12v" I L 9300 4900 40 
+F17 "TPS-5vdc" O L 9300 5550 40 
+F18 "5vdc-analog" I L 9300 5000 40 
+F19 "MAF-Sensor" I L 9300 5450 40 
+F20 "MAF-CPU-Signal" O R 10650 5750 40 
+F21 "RPM1-IN-" B L 9300 6650 40 
+F22 "RPM0-IN-" B L 9300 6450 40 
+F23 "RPM1-IN+" B L 9300 6550 40 
+F24 "RPM0-IN+" B L 9300 6350 40 
+F25 "RPM1-OUT" B R 10650 6650 40 
+F26 "RPM0-OUT" O R 10650 6550 40 
+F27 "AAP-CPU-Signal" O R 10650 5050 40 
 $EndSheet
 Text GLabel 9300 5000 0    40   Input ~ 0
 5vdc-analog
@@ -974,34 +954,37 @@ F 1 "RPM1+" H 9150 6605 30  0001 C CNN
 	1    9150 6550
 	-1   0    0    1   
 $EndComp
-Text GLabel 9050 2550 0    40   Input ~ 0
+Text GLabel 9050 2800 0    40   Input ~ 0
 Fuel-Pump-Drive
 Text GLabel 6900 2400 2    40   Output ~ 0
 Fuel-Pump-Drive
 $Comp
 L CONN_1 P25
 U 1 1 4F0D8467
-P 10800 2450
-F 0 "P25" H 10880 2450 40  0000 L CNN
-F 1 "FUEL-" H 10800 2505 30  0001 C CNN
-	1    10800 2450
+P 10800 2900
+F 0 "P25" H 10880 2900 40  0000 L CNN
+F 1 "FUEL-" H 10800 2955 30  0001 C CNN
+	1    10800 2900
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9050 2150 1600 750 
+S 9050 2150 1600 1000
 U 4F0D82A1
 F0 "Outputs" 40
 F1 "Outputs.sch" 40
-F2 "Output-Ground" I L 9050 2850 40 
-F3 "Fuel_Pump_Relay" O R 10650 2450 40 
-F4 "Fan_Relay" O R 10650 2600 40 
-F5 "Fan-Relay-Drive-IN" I L 9050 2650 40 
-F6 "Fuel-Relay-Drive-IN" I L 9050 2550 40 
-F7 "Accessory-Relay-Drive-IN" I L 9050 2750 40 
-F8 "Accessory_Relay" O R 10650 2750 40 
+F2 "Output-Ground" I L 9050 3100 40 
+F3 "Fuel_Pump_Relay" O R 10650 2900 40 
+F4 "Fan_Relay" O R 10650 3000 40 
+F5 "Fan-Relay-Drive-IN" I L 9050 2900 40 
+F6 "Fuel-Relay-Drive-IN" I L 9050 2800 40 
+F7 "Accessory-Relay-Drive-IN" I L 9050 3000 40 
+F8 "Accessory_Relay" O R 10650 3100 40 
 F9 "12vdc-switched-outputs" I L 9050 2200 40 
-F10 "Ignitor2" I R 10650 2300 40 
-F11 "Ignitor1" I R 10650 2200 40 
+F10 "5vdc-analog" I L 9050 2300 40 
+F11 "IGN-Advance" O R 10650 2450 40 
+F12 "IGN-Advance-Signal" B L 9050 2450 40 
+F13 "DIS-Bypass-OUT" O R 10650 2550 40 
+F14 "DIS-Bypass-Signal" I L 9050 2550 40 
 $EndSheet
 $Sheet
 S 9050 650  1550 1350
@@ -1138,51 +1121,47 @@ $EndComp
 $Comp
 L CONN_1 P19
 U 1 1 4F0BB4F8
-P 10800 6450
-F 0 "P19" H 10880 6450 40  0000 L CNN
-F 1 "IGN-ADVANCE" H 10800 6505 30  0001 C CNN
-	1    10800 6450
+P 10800 2450
+F 0 "P19" H 10880 2450 40  0000 L CNN
+F 1 "IGN-ADVANCE" H 10800 2505 30  0001 C CNN
+	1    10800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 P18
 U 1 1 4F0BB4F1
-P 10800 6350
-F 0 "P18" H 10880 6350 40  0000 L CNN
-F 1 "DIS-BYPASS" H 10800 6405 30  0001 C CNN
-	1    10800 6350
+P 10800 2550
+F 0 "P18" H 10880 2550 40  0000 L CNN
+F 1 "DIS-BYPASS" H 10800 2605 30  0001 C CNN
+	1    10800 2550
 	1    0    0    -1  
 $EndComp
 Text GLabel 10650 6550 2    40   Output ~ 0
 RPM0
-Text GLabel 9300 6250 0    40   Input ~ 0
-Timing-Advance
 Text GLabel 5200 2000 0    40   Input ~ 0
 O2
-Text GLabel 10650 5900 2    40   Output ~ 0
+Text GLabel 10650 5550 2    40   Output ~ 0
 O2
 Text GLabel 5200 1900 0    40   Input ~ 0
 TPS
-Text GLabel 10650 5650 2    40   Output ~ 0
+Text GLabel 10650 5350 2    40   Output ~ 0
 TPS
 Text GLabel 5200 1600 0    40   Input ~ 0
 COOLANT
-Text GLabel 10650 5350 2    40   Output ~ 0
+Text GLabel 10650 5450 2    40   Output ~ 0
 COOLANT
 Text GLabel 5200 2100 0    40   Input ~ 0
 MAT
-Text GLabel 10650 5250 2    40   Output ~ 0
+Text GLabel 10650 5650 2    40   Output ~ 0
 MAT
 Text GLabel 5200 1500 0    40   Input ~ 0
 IAT
-Text GLabel 10650 5150 2    40   Output ~ 0
+Text GLabel 10650 5250 2    40   Output ~ 0
 IAT
-Text GLabel 10650 5000 2    40   Output ~ 0
+Text GLabel 10650 5150 2    40   Output ~ 0
 MAP
 Text GLabel 10650 4900 2    40   Output ~ 0
 BRV
-Text GLabel 6900 2300 2    40   Output ~ 0
-Timing-Advance
 Text GLabel 5200 1250 0    40   Input ~ 0
 RPM0
 Text GLabel 5200 1700 0    40   Input ~ 0

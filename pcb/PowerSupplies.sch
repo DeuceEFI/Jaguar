@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 06:25:00 PM EDT
+EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:26:13 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "1 nov 2012"
+Date "10 nov 2012"
 Rev "0.4-alpha"
 Comp "git hash: 3c361c3027"
 Comment1 ""
@@ -146,19 +146,19 @@ C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 10v Tantalum capacitor
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR15
+L GND #PWR053
 U 1 1 4F1C2CDE
 P 4550 3850
-F 0 "#PWR15" H 4550 3850 30  0001 C CNN
+F 0 "#PWR053" H 4550 3850 30  0001 C CNN
 F 1 "GND" H 4550 3780 30  0001 C CNN
 	1    4550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR054
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR16" H 5050 2750 30  0001 C CNN
+F 0 "#PWR054" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 	1    5050 2750
 	1    0    0    -1  

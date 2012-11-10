@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 06:25:00 PM EDT
+EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:26:13 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "1 nov 2012"
+Date "10 nov 2012"
 Rev "0.4-alpha"
 Comp "git hash: 3c361c3027"
 Comment1 ""
@@ -146,11 +146,11 @@ NoConn ~ 6800 3450
 Text Label 2550 3000 1    40   ~ 0
 Vbus
 $Comp
-L R R79
+L R L1
 U 1 1 4F2F42B1
 P 2550 2250
-F 0 "R79" V 2630 2250 50  0000 C CNN
-F 1 "22" V 2550 2250 50  0000 C CNN
+F 0 "L1" V 2630 2250 50  0000 C CNN
+F 1 "40" V 2550 2250 50  0000 C CNN
 	1    2550 2250
 	-1   0    0    1   
 $EndComp
@@ -182,10 +182,10 @@ GND
 Text Notes 5250 2350 0    40   ~ 0
 Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
-L GND #PWR49
+L GND #PWR015
 U 1 1 4F1C30B1
 P 8600 3200
-F 0 "#PWR49" H 8600 3200 30  0001 C CNN
+F 0 "#PWR015" H 8600 3200 30  0001 C CNN
 F 1 "GND" H 8600 3130 30  0001 C CNN
 	1    8600 3200
 	1    0    0    -1  
