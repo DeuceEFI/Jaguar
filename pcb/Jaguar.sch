@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:26:13 AM EST
+EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:53:20 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -981,10 +981,8 @@ F7 "Accessory-Relay-Drive-IN" I L 9050 3000 40
 F8 "Accessory_Relay" O R 10650 3100 40 
 F9 "12vdc-switched-outputs" I L 9050 2200 40 
 F10 "5vdc-analog" I L 9050 2300 40 
-F11 "IGN-Advance" O R 10650 2450 40 
-F12 "IGN-Advance-Signal" B L 9050 2450 40 
-F13 "DIS-Bypass-OUT" O R 10650 2550 40 
-F14 "DIS-Bypass-Signal" I L 9050 2550 40 
+F11 "IGN-Advance-Signal" B L 9050 2450 40 
+F12 "DIS-Bypass-Signal" I L 9050 2550 40 
 $EndSheet
 $Sheet
 S 9050 650  1550 1350
@@ -1117,24 +1115,6 @@ F 0 "P6" H 9230 5150 40  0000 L CNN
 F 1 "IAT" H 9150 5205 30  0001 C CNN
 	1    9150 5150
 	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P19
-U 1 1 4F0BB4F8
-P 10800 2450
-F 0 "P19" H 10880 2450 40  0000 L CNN
-F 1 "IGN-ADVANCE" H 10800 2505 30  0001 C CNN
-	1    10800 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P18
-U 1 1 4F0BB4F1
-P 10800 2550
-F 0 "P18" H 10880 2550 40  0000 L CNN
-F 1 "DIS-BYPASS" H 10800 2605 30  0001 C CNN
-	1    10800 2550
-	1    0    0    -1  
 $EndComp
 Text GLabel 10650 6550 2    40   Output ~ 0
 RPM0

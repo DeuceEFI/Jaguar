@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:26:13 AM EST
+EESchema Schematic File Version 2  date Sat 10 Nov 2012 01:53:20 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -22,8 +22,6 @@ Connection ~ 7100 1700
 Connection ~ 7100 1300
 Wire Wire Line
 	7100 1700 7100 1600
-Wire Wire Line
-	10200 6100 10200 6200
 Wire Wire Line
 	9800 1100 9800 1050
 Wire Wire Line
@@ -183,114 +181,6 @@ Wire Notes Line
 	6350 600  6350 4500
 Wire Notes Line
 	11050 600  11050 4500
-Connection ~ 7250 6200
-Connection ~ 7250 6700
-Wire Wire Line
-	7250 6200 7350 6200
-Connection ~ 10500 6700
-Connection ~ 10500 6200
-Connection ~ 10400 6200
-Wire Wire Line
-	10200 6200 10500 6200
-Wire Wire Line
-	10400 6200 10400 6450
-Wire Wire Line
-	9300 6050 9550 6050
-Wire Notes Line
-	6250 6850 6250 5100
-Wire Notes Line
-	6250 6850 11050 6850
-Wire Notes Line
-	11050 6850 11050 5100
-Wire Notes Line
-	11050 5100 6250 5100
-Connection ~ 9400 6650
-Wire Wire Line
-	9400 6650 9400 6550
-Wire Wire Line
-	9400 6550 9300 6550
-Wire Wire Line
-	10400 6450 9900 6450
-Wire Wire Line
-	9550 6050 9550 5950
-Connection ~ 9300 6550
-Wire Wire Line
-	9550 5950 9400 5950
-Wire Wire Line
-	7400 6650 7450 6650
-Wire Wire Line
-	7400 6650 7400 6700
-Connection ~ 9300 6350
-Connection ~ 7650 5950
-Connection ~ 7750 5950
-Connection ~ 7850 5950
-Connection ~ 7450 6350
-Connection ~ 7450 6550
-Connection ~ 7950 6550
-Connection ~ 7950 6350
-Wire Wire Line
-	8050 6450 7950 6450
-Wire Wire Line
-	7950 6450 7950 6550
-Wire Wire Line
-	7850 5950 7850 6000
-Wire Wire Line
-	9650 5950 9650 6200
-Wire Wire Line
-	8050 6550 8050 6600
-Connection ~ 9300 6050
-Connection ~ 9300 6150
-Connection ~ 9300 6350
-Connection ~ 9300 6450
-Connection ~ 8050 6550
-Connection ~ 8050 6350
-Connection ~ 8050 6250
-Connection ~ 9300 5950
-Connection ~ 8050 6450
-Wire Wire Line
-	9750 6000 9750 5950
-Connection ~ 9550 5950
-Connection ~ 9650 5950
-Connection ~ 9750 5950
-Connection ~ 8050 5950
-Connection ~ 9900 6650
-Wire Wire Line
-	8050 6250 7750 6250
-Wire Wire Line
-	7750 6250 7750 5950
-Wire Wire Line
-	7950 6350 8050 6350
-Wire Wire Line
-	7550 5950 7650 5950
-Wire Wire Line
-	9300 6350 9400 6350
-Wire Wire Line
-	9400 6350 9400 6200
-Wire Wire Line
-	9300 6450 9400 6450
-Connection ~ 9400 6450
-Connection ~ 9900 6450
-Connection ~ 8050 6050
-Wire Wire Line
-	9900 6650 9950 6650
-Wire Wire Line
-	8050 6050 8050 5800
-Wire Wire Line
-	8050 5800 9300 5800
-Wire Wire Line
-	9300 5800 9300 6150
-Wire Wire Line
-	7450 6650 7450 6500
-Wire Wire Line
-	9400 6200 9650 6200
-Wire Wire Line
-	10500 6700 10500 6750
-Wire Wire Line
-	7250 6700 7250 6750
-Wire Wire Line
-	7450 6350 7350 6350
-Wire Wire Line
-	7350 6350 7350 6200
 Connection ~ 10100 1500
 Connection ~ 10100 3450
 Wire Notes Line
@@ -542,171 +432,13 @@ Text HLabel 10100 1400 1    40   Input ~ 0
 5vdc-analog
 Text HLabel 10100 1600 3    40   Input ~ 0
 12vdc-switched-outputs
-$Comp
-L 74LS86_FREEEMS U10
-U 1 1 5092EC7F
-P 8650 6250
-F 0 "U10" H 8400 6650 50  0000 C CNN
-F 1 "CD74AC86E" H 8650 5850 40  0000 C CNN
-	1    8650 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R99
-U 1 1 5092EC7E
-P 9650 6650
-F 0 "R99" V 9730 6650 50  0000 C CNN
-F 1 "470" V 9650 6650 50  0000 C CNN
-	1    9650 6650
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R97
-U 1 1 5092EC7D
-P 9650 6450
-F 0 "R97" V 9730 6450 50  0000 C CNN
-F 1 "1k" V 9650 6450 50  0000 C CNN
-	1    9650 6450
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 9300 6250
-Text HLabel 9950 6650 2    40   Output ~ 0
-IGN-Advance
-Text HLabel 10200 6100 2    40   BiDi ~ 0
-IGN-Advance-Signal
-Text Notes 8050 6800 0    60   ~ 0
-Ignition Timing Advance Output
-Text HLabel 7400 6700 2    40   Output ~ 0
-DIS-Bypass-OUT
-$Comp
-L GND #PWR033
-U 1 1 5092EC7C
-P 8050 6600
-F 0 "#PWR033" H 8050 6600 30  0001 C CNN
-F 1 "GND" H 8050 6530 30  0001 C CNN
-	1    8050 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_3 JP15
-U 1 1 5092EC7B
-P 9650 5600
-F 0 "JP15" V 9600 5600 50  0000 C CNN
-F 1 "POS/NEG" V 9700 5600 40  0000 C CNN
-	1    9650 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 5092EC7A
-P 9750 6000
-F 0 "#PWR034" H 9750 6000 30  0001 C CNN
-F 1 "GND" H 9750 5930 30  0001 C CNN
-	1    9750 6000
-	1    0    0    -1  
-$EndComp
-Text Notes 8250 5200 0    40   ~ 0
-JP1 and JP2 are to select \nnormal or inverting gates.
-$Comp
-L CONN_3 JP14
-U 1 1 5092EC79
-P 7750 5600
-F 0 "JP14" V 7700 5600 50  0000 C CNN
-F 1 "POS/NEG" V 7800 5600 40  0000 C CNN
-	1    7750 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R98
-U 1 1 5092EC78
-P 7700 6550
-F 0 "R98" V 7780 6550 50  0000 C CNN
-F 1 "470" V 7700 6550 50  0000 C CNN
-	1    7700 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R96
-U 1 1 5092EC77
-P 7700 6350
-F 0 "R96" V 7780 6350 50  0000 C CNN
-F 1 "1k" V 7700 6350 50  0000 C CNN
-	1    7700 6350
-	0    1    1    0   
-$EndComp
-Text HLabel 7250 6200 0    40   Input ~ 0
-DIS-Bypass-Signal
-$Comp
-L GND #PWR035
-U 1 1 5092EC76
-P 7850 6000
-F 0 "#PWR035" H 7850 6000 30  0001 C CNN
-F 1 "GND" H 7850 5930 30  0001 C CNN
-	1    7850 6000
-	1    0    0    -1  
-$EndComp
-Text Notes 8150 5500 0    40   ~ 0
-For Ford EDIS do not populate \nR64 and R65 and connect U5 \npins 5 and 6 to +5vdc.\n(Use +5v supply from U5 Pin 9).
-Text HLabel 9400 5950 1    40   Input ~ 0
-5vdc-analog
-Text HLabel 7550 5950 1    40   Input ~ 0
-5vdc-analog
-NoConn ~ 8050 6150
-Text Label 7450 6350 1    25   ~ 0
-DIS-Bypass-CPU-Signal
-Text Label 7750 6250 0    25   ~ 0
-DIS-Bypass-Polarity
-Text Label 7450 6500 0    25   ~ 0
-DIS-Bypass-Output
-Text Label 9900 6650 0    25   ~ 0
-Ignition-Advance
-Text Label 9400 6200 0    25   ~ 0
-IGN-Advance-Polarity
-Text Label 9900 6450 0    25   ~ 0
-Ignition-Advance-Signal
-$Comp
-L R R93
-U 1 1 5092EC73
-P 7250 6450
-F 0 "R93" V 7330 6450 50  0000 C CNN
-F 1 "100k" V 7250 6450 50  0000 C CNN
-	1    7250 6450
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR036
-U 1 1 5092EC72
-P 7250 6750
-F 0 "#PWR036" H 7250 6750 30  0001 C CNN
-F 1 "GND" H 7250 6680 30  0001 C CNN
-	1    7250 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R94
-U 1 1 5092EC71
-P 10500 6450
-F 0 "R94" V 10580 6450 50  0000 C CNN
-F 1 "100k" V 10500 6450 50  0000 C CNN
-	1    10500 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR037
-U 1 1 5092EC70
-P 10500 6750
-F 0 "#PWR037" H 10500 6750 30  0001 C CNN
-F 1 "GND" H 10500 6680 30  0001 C CNN
-	1    10500 6750
-	1    0    0    -1  
-$EndComp
 Text Notes 10450 1150 0    40   ~ 0
 JP11 selects either\n5v or 12v \nDriver IC Supply
 $Comp
-L GND #PWR038
+L GND #PWR033
 U 1 1 5092C12A
 P 9700 1150
-F 0 "#PWR038" H 9700 1150 30  0001 C CNN
+F 0 "#PWR033" H 9700 1150 30  0001 C CNN
 F 1 "GND" H 9700 1080 30  0001 C CNN
 	1    9700 1150
 	1    0    0    -1  
@@ -750,28 +482,28 @@ F 1 "1uF" H 9850 1200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR034
 U 1 1 5092BF20
 P 7700 1500
-F 0 "#PWR039" H 7700 1500 30  0001 C CNN
+F 0 "#PWR034" H 7700 1500 30  0001 C CNN
 F 1 "GND" H 7700 1430 30  0001 C CNN
 	1    7700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR035
 U 1 1 5092BF13
 P 7550 950
-F 0 "#PWR040" H 7550 950 30  0001 C CNN
+F 0 "#PWR035" H 7550 950 30  0001 C CNN
 F 1 "GND" H 7550 880 30  0001 C CNN
 	1    7550 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR036
 U 1 1 5092BF09
 P 7700 2150
-F 0 "#PWR041" H 7700 2150 30  0001 C CNN
+F 0 "#PWR036" H 7700 2150 30  0001 C CNN
 F 1 "GND" H 7700 2080 30  0001 C CNN
 	1    7700 2150
 	1    0    0    -1  
@@ -844,28 +576,28 @@ Text HLabel 1550 4550 0    40   Input ~ 0
 Text HLabel 1550 2750 0    40   Input ~ 0
 12vdc-switched-outputs
 $Comp
-L GND #PWR042
+L GND #PWR037
 U 1 1 4F2F3E3F
 P 2300 5450
-F 0 "#PWR042" H 2300 5450 30  0001 C CNN
+F 0 "#PWR037" H 2300 5450 30  0001 C CNN
 F 1 "GND" H 2300 5380 30  0001 C CNN
 	1    2300 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR038
 U 1 1 4F2F3E2D
 P 2300 3650
-F 0 "#PWR043" H 2300 3650 30  0001 C CNN
+F 0 "#PWR038" H 2300 3650 30  0001 C CNN
 F 1 "GND" H 2300 3580 30  0001 C CNN
 	1    2300 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR039
 U 1 1 4F2F3E0C
 P 2300 1850
-F 0 "#PWR044" H 2300 1850 30  0001 C CNN
+F 0 "#PWR039" H 2300 1850 30  0001 C CNN
 F 1 "GND" H 2300 1780 30  0001 C CNN
 	1    2300 1850
 	1    0    0    -1  

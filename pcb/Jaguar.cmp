@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 10 Nov 2012 01:26:28 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 10 Nov 2012 01:53:17 AM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -736,20 +736,6 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D82A1/5092EC79;
-Reference = JP14;
-ValeurCmp = POS/NEG;
-IdModule  = SIL-3;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC7B;
-Reference = JP15;
-ValeurCmp = POS/NEG;
-IdModule  = SIL-3;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0D82A1/509C8644;
 Reference = JP16;
 ValeurCmp = 5v/12v;
@@ -886,20 +872,6 @@ BeginCmp
 TimeStamp = /4F124A8E;
 Reference = P17;
 ValeurCmp = RPM1-;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB4F1;
-Reference = P18;
-ValeurCmp = DIS-BYPASS;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB4F8;
-Reference = P19;
-ValeurCmp = IGN-ADVANCE;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1912,51 +1884,9 @@ IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D82A1/5092EC73;
-Reference = R93;
-ValeurCmp = 100k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC71;
-Reference = R94;
-ValeurCmp = 100k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/5092ECCD;
 Reference = R95;
 ValeurCmp = 1k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC77;
-Reference = R96;
-ValeurCmp = 1k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC7D;
-Reference = R97;
-ValeurCmp = 1k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC78;
-Reference = R98;
-ValeurCmp = 470;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC7E;
-Reference = R99;
-ValeurCmp = 470;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -2056,13 +1986,6 @@ TimeStamp = /4F0D82A1/5092B819;
 Reference = U9;
 ValeurCmp = TC442XA;
 IdModule  = so-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/5092EC7F;
-Reference = U10;
-ValeurCmp = CD74AC86E;
-IdModule  = so-14;
 EndCmp
 
 BeginCmp
