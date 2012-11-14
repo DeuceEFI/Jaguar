@@ -1,5 +1,5 @@
-update=Fri 09 Nov 2012 10:04:00 AM EST
-last_client=pcbnew
+update=Tue 13 Nov 2012 08:32:48 PM EST
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -46,8 +46,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=315
@@ -77,3 +75,5 @@ LibName2=w_smd_dil
 LibName3=smd_capacitors
 LibName4=mpxh6400
 LibName5=mp3h6115a
+[general]
+version=1
