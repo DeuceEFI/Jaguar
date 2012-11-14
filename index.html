@@ -32,7 +32,7 @@
       <section>
         <h1>JAGuar Board for FreeEMS</h1>
 
-<p>JAG 08/29/2012 2207 EST (GMT-0500)</p>
+<p>JAG 11/13/2012 2312 EST (GMT-0500)</p>
 
 <h4>Do NOT use these files to make a new PCB, I am in the process of making corrections to the layout of the PCB.  For the current status, see my dev branch.</h4>
 
@@ -51,20 +51,19 @@
 <ul>
 <li>1 FTDI USB (bus powered) communications (USB-B connector or USB-B-mini).</li>
 <li>2 RPM/Position VR or Hall/Opto/Digital inputs (GM DIS 3x output and 1x camshaft position sensor, CAM indicates cylinder #1).</li>
-<li>7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,O2,BRV,MAP).</li>
+<li>9 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,O2,BRV,AAP,MAP,MAF).</li>
 <li>8 Available Port P PWM ports (PP0-7).</li>
 <li>8 Available Port B ports (PB0-7).</li>
-<li>1 Optional MAF analog input pin, no supporting circuitry (for future use).</li>
-<li>1 ignition advance output to GM DIS/GM HEI/Ford EDIS module.</li>
-<li>1 DIS Bypass signal output to GM DIS/GM HEI module.</li>
-<li>8 injector drivers (HI-Z ONLY 6A MAX per injector). Can be setup to run 2 injectors from one CPU output using Port T4567 (semi-sequential injection) or 1 injector per CPU output using Port B0-7 (sequential injection) once firmware is ready.</li>
+<li>2 TC442xA Dual Output 5v/12v ignitor drivers, which can be used for ignition advance output to GM DIS/GM HEI/Ford EDIS module and DIS/HEI Bypass signal output to GM DIS/GM HEI module.</li>
+<li>8 Injector drivers (HI-Z ONLY 6A MAX per injector). Can be setup to run 2 injectors from one CPU output using Port T4567 (semi-sequential injection) or 1 injector per CPU output using Port B0-7 (sequential injection) once firmware is ready.</li>
 <li>6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).</li>
 <li>2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).</li>
-<li>1 Fuel Pump relay driver.</li>
-<li>1 Cooling Fan relay driver.</li>
-<li>1 Accessory relay driver (Boost/Idle/TCC Lockup).</li>
-<li>1 switched +5V output for TPS.</li>
-</ul><p>PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.</p>
+<li>1 Fuel Pump relay low side driver.</li>
+<li>1 Cooling Fan relay low side driver.</li>
+<li>1 Accessory relay low side driver (Boost/Idle/TCC Lockup).</li>
+<li>1 Switched +5V output for TPS.</li>
+</ul>
+<p>PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB that has add-on stacked card for additional I/O if necessary.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.</p>
 
 <p>Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is <a href="http://www.contextengineering.com">http://www.contextengineering.com</a> </p>
 
