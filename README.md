@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 10/19/2012 2305 EST (GMT-0500)
+JAG 11/19/2012 0915 EST (GMT-0500)
 
 ####Do NOT use these files in the dev branch to make a PCB, I am in the process of making corrections and additions to the layout of the PCB.
 
@@ -16,18 +16,18 @@ Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B or USB-B-mini connector).
  * 2 RPM/Position VR or Hall/Opto/Digital inputs (ie: GM DIS Crankshaft 3x and 1x camshaft position sensor, CAM indicates cylinder #1).
- * 8 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,O2,BRV,MAF,MAP).
+ * 9 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,O2,BRV,MAF,AAP,MAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
- * x Available Port K ports (PKx-x).
+ * 2 Available Port K ports (PK4-5).
  * 1 ignition advance output to GM DIS/GM HEI/Ford EDIS module.
  * 1 DIS Bypass signal output to GM DIS/HEI module.
- * 8 injector drivers (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4567 or 1 injector per CPU output using Port B0-7 once firmware is ready.
+ * 8 injector drivers (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4,5,6,7 or 1 injector per CPU output using Port B0-7 once firmware is ready.
  * 6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).
  * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
- * 1 Fuel Pump relay driver.
- * 1 Cooling Fan relay driver.
- * 1 Accessory relay driver (Boost/Idle/TCC Lockup).
+ * 1 Fuel Pump relay low side driver.
+ * 1 Cooling Fan relay low side driver.
+ * 1 Accessory relay low side driver (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
 PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
