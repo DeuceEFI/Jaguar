@@ -1,10 +1,11 @@
 # To Do List
 
-## JAG 11/19/2012 0909 EST (GMT-0500)
+## JAG 12/23/2012 0956 EST (GMT-0500)
 
-### Things left to change For Revision A4 PCB based on what has been learned from Revision A3 PCB:
+### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
 
-* Update documentation to reflect these changes for the A4 PCB
+* 5V Analog Power Supply Protection.
+* Update Assembly documentation to reflect these changes for the Version 0.4-alpha PCB.
 
 ----------
 ### Jaguar Wish List Items:
