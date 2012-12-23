@@ -1,5 +1,5 @@
-update=Sat 22 Dec 2012 09:20:52 PM EST
-last_client=eeschema
+update=Sun 23 Dec 2012 12:05:02 AM EST
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -34,8 +34,6 @@ LibName2=w_smd_dil
 LibName3=smd_capacitors
 LibName4=mpxh6400
 LibName5=mp3h6115a
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -78,3 +76,5 @@ LibName3=power
 LibName4=conn
 LibName5=transistors
 LibName6=polyswitch_smd
+[general]
+version=1

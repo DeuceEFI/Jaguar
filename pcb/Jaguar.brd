@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 23 Dec 2012 12:00:28 AM EST
+PCBNEW-BOARD Version 1 date Sun 23 Dec 2012 12:06:04 AM EST
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -22,7 +22,7 @@ Sheet A4 11700 8267
 Title "Jaguar"
 Date "23 dec 2012"
 Rev "0.4-alpha"
-Comp "git hash: 8a81776010"
+Comp "git hash: 60790c9fea"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16358,7 +16358,7 @@ De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "Version 0.4-alpha"
-nl "git: 8a81776010"
+nl "git: 60790c9fea"
 Po 60342 25047 400 450 80 0
 De 21 1 0 Normal
 $EndTEXTPCB
