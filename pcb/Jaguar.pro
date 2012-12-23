@@ -1,4 +1,4 @@
-update=11/13/2012 10:59:42 PM
+update=Sat 22 Dec 2012 09:20:52 PM EST
 last_client=eeschema
 [cvpcb]
 version=1
@@ -66,10 +66,15 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
+SimCmd=
+UseNetN=0
 LabSize=25
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=opto
 LibName2=Jaguar
 LibName3=power
 LibName4=conn
 LibName5=transistors
+LibName6=polyswitch_smd

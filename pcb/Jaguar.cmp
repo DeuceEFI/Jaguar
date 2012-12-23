@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 10 Nov 2012 01:53:17 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 22 Dec 2012 10:49:26 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -290,7 +290,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F1AFAA2;
 Reference = C42;
-ValeurCmp = 10nF;
+ValeurCmp = 0.01uF;
 IdModule  = cnp_3mm_disc;
 EndCmp
 
@@ -701,17 +701,17 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F0A450C;
-Reference = J1;
-ValeurCmp = USB_B;
-IdModule  = USB_B;
+TimeStamp = /4F0BB08D/50D66AB8;
+Reference = F1;
+ValeurCmp = 15V/0.5A_Polyfuse;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F24FF34;
-Reference = J2;
-ValeurCmp = USB_B-MINI;
-IdModule  = USB-B-mini;
+Reference = J1;
+ValeurCmp = USB_B-Micro;
+IdModule  = USB-B-micro;
 EndCmp
 
 BeginCmp
@@ -1963,8 +1963,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B8DF0;
 Reference = U6;
-ValeurCmp = MPXAZ6115AP/T1;
-IdModule  = mp3h6115a-SSOP8;
+ValeurCmp = MPXA4250AC6U;
+IdModule  = 8-SOP;
 EndCmp
 
 BeginCmp
@@ -1991,8 +1991,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/5092ECCE;
 Reference = U11;
-ValeurCmp = MPXAZ6115AP/T1;
-IdModule  = mp3h6115a-SSOP8;
+ValeurCmp = MPXA6115AC6U;
+IdModule  = 8-SOP;
 EndCmp
 
 BeginCmp

@@ -1,16 +1,17 @@
-EESchema Schematic File Version 2  date Tue 13 Nov 2012 08:32:38 PM EST
+EESchema Schematic File Version 2  date Sat 22 Dec 2012 10:49:30 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
+LIBS:polyswitch_smd
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "10 nov 2012"
+Date "23 dec 2012"
 Rev "0.4-alpha"
 Comp "git hash: 8a81776010"
 Comment1 ""
@@ -18,113 +19,103 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7500 2850
-Connection ~ 7500 2950
-Connection ~ 7500 3050
-Connection ~ 7500 3150
-Connection ~ 8600 2850
-Connection ~ 8600 2950
-Connection ~ 8600 3050
-Connection ~ 8600 3150
+NoConn ~ 2550 3450
 Wire Wire Line
-	8600 3200 8600 3150
+	7150 3150 7500 3150
+Wire Notes Line
+	4850 4000 4850 3550
+Wire Notes Line
+	4850 4000 3950 4000
+Wire Notes Line
+	3950 4000 3950 3550
+Wire Notes Line
+	3950 3550 4850 3550
 Wire Wire Line
-	7500 2850 7200 2850
+	6800 3050 7500 3050
+Connection ~ 2550 2500
+Connection ~ 2550 2000
 Wire Wire Line
-	7500 2950 6800 2950
+	2550 2000 2550 1800
 Wire Wire Line
-	2550 3150 2550 2500
-Connection ~ 2600 5250
-Connection ~ 2600 5050
-Connection ~ 2600 4950
+	2550 1800 4950 1800
+Connection ~ 4250 3650
+Connection ~ 4750 3650
+Connection ~ 4950 3650
 Wire Wire Line
-	2600 5250 2850 5250
-Wire Wire Line
-	2600 5050 2650 5050
-Connection ~ 4000 1800
-Connection ~ 4000 2200
-Wire Wire Line
-	3550 2200 4000 2200
-Wire Wire Line
-	4250 3650 4000 3650
-Wire Wire Line
-	4950 3000 4950 1800
-Wire Wire Line
-	4950 4550 4950 4850
-Wire Wire Line
-	2550 3450 2550 4550
-Wire Wire Line
-	6800 3750 7500 3750
-Wire Wire Line
-	7500 3750 7500 3650
-Wire Wire Line
-	4950 3250 2550 3250
-Wire Wire Line
-	2550 4550 4950 4550
-Connection ~ 5600 4850
-Wire Wire Line
-	2550 3350 4950 3350
-Wire Wire Line
-	6800 3850 7500 3850
-Wire Wire Line
-	7500 3850 7500 3950
-Connection ~ 3550 1800
-Connection ~ 3550 2200
-Connection ~ 2550 3150
-Connection ~ 2550 3250
-Connection ~ 2550 3350
-Connection ~ 2550 3450
-Connection ~ 4950 2900
-Connection ~ 4950 3000
-Connection ~ 4950 3250
-Connection ~ 4950 3350
-Connection ~ 4950 4150
-Connection ~ 4950 4550
-Connection ~ 5750 4850
-Connection ~ 5900 4850
-Connection ~ 6050 4850
-Connection ~ 6200 4850
-Connection ~ 6800 3850
-Connection ~ 6800 3750
-Connection ~ 7500 3650
-Connection ~ 7500 3950
-Connection ~ 7900 3950
-Connection ~ 7900 3650
-Connection ~ 8400 3650
-Connection ~ 8400 3950
-Connection ~ 6800 3050
-Connection ~ 6800 2950
-Wire Wire Line
-	4950 4850 6200 4850
+	4750 3650 4950 3650
 Wire Wire Line
 	8400 3950 8400 3650
 Wire Wire Line
-	4750 3650 4950 3650
-Connection ~ 4950 3650
-Connection ~ 4750 3650
-Connection ~ 4250 3650
+	6200 4850 4950 4850
+Connection ~ 6800 2950
+Connection ~ 6800 3050
+Connection ~ 8400 3950
+Connection ~ 8400 3650
+Connection ~ 7900 3650
+Connection ~ 7900 3950
+Connection ~ 7500 3950
+Connection ~ 7500 3650
+Connection ~ 6800 3750
+Connection ~ 6800 3850
+Connection ~ 6200 4850
+Connection ~ 6050 4850
+Connection ~ 5900 4850
+Connection ~ 5750 4850
+Connection ~ 4950 4550
+Connection ~ 4950 4150
+Connection ~ 4950 3350
+Connection ~ 4950 3250
+Connection ~ 4950 3000
+Connection ~ 4950 2900
+Connection ~ 2550 3350
+Connection ~ 2550 3250
+Connection ~ 2550 3150
+Connection ~ 3550 2200
+Connection ~ 3550 1800
 Wire Wire Line
-	4950 1800 2550 1800
-Connection ~ 2600 4950
+	7500 3950 7500 3850
 Wire Wire Line
-	2550 1800 2550 2000
-Connection ~ 2550 2000
-Connection ~ 2550 2500
+	7500 3850 6800 3850
 Wire Wire Line
-	6800 3050 7500 3050
-Wire Notes Line
-	3950 3550 4850 3550
-Wire Notes Line
-	3950 3550 3950 4000
-Wire Notes Line
-	3950 4000 4850 4000
-Wire Notes Line
-	4850 4000 4850 3550
+	2550 3350 4950 3350
+Connection ~ 5600 4850
 Wire Wire Line
-	2600 4850 2750 4850
-Connection ~ 2600 4850
+	2550 4550 4950 4550
 Wire Wire Line
-	7150 3150 7500 3150
+	4950 3250 2550 3250
+Wire Wire Line
+	7500 3650 7500 3750
+Wire Wire Line
+	7500 3750 6800 3750
+Wire Wire Line
+	2550 4550 2550 3550
+Wire Wire Line
+	4950 4550 4950 4850
+Wire Wire Line
+	4950 1800 4950 3000
+Wire Wire Line
+	4250 3650 4000 3650
+Wire Wire Line
+	3550 2200 4000 2200
+Connection ~ 4000 2200
+Connection ~ 4000 1800
+Wire Wire Line
+	2550 3150 2550 2500
+Wire Wire Line
+	7500 2950 6800 2950
+Wire Wire Line
+	7500 2850 7200 2850
+Wire Wire Line
+	8600 3200 8600 3150
+Connection ~ 8600 3150
+Connection ~ 8600 3050
+Connection ~ 8600 2950
+Connection ~ 8600 2850
+Connection ~ 7500 3150
+Connection ~ 7500 3050
+Connection ~ 7500 2950
+Connection ~ 7500 2850
+Connection ~ 2550 3550
 Text Label 7450 3150 2    40   ~ 0
 USB-GND
 $Comp
@@ -136,7 +127,6 @@ F 1 "ADUMX201" H 8050 2700 60  0000 C CNN
 	1    8050 3000
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 2600 5150
 Text Notes 4000 3850 0    55   ~ 0
 R55 is Optional\npopulate if needed
 NoConn ~ 6800 3150
@@ -154,27 +144,19 @@ F 1 "40" V 2550 2250 50  0000 C CNN
 	1    2550 2250
 	-1   0    0    1   
 $EndComp
-Text Notes 1500 4850 0    40   ~ 0
-USB-B Mini Connector
-Text Label 2600 5050 0    25   ~ 0
-D+
-Text Label 2600 4950 0    25   ~ 0
-D-
+Text Notes 1700 3050 0    40   ~ 0
+USB-B Micro Connector
 Text Label 2600 3350 0    25   ~ 0
 D+
 Text Label 2600 3250 0    25   ~ 0
 D-
-Text Label 2600 4850 0    40   ~ 0
-Vbus
-Text Label 2600 5250 0    40   ~ 0
-USB-GND
 $Comp
-L USB_B-MINI J2
+L USB_B-MINI J1
 U 1 1 4F24FF34
-P 2250 5050
-F 0 "J2" V 2150 5250 60  0000 C CNN
-F 1 "USB_B-MINI" H 2225 4450 60  0001 C CNN
-	1    2250 5050
+P 2200 3350
+F 0 "J1" V 2100 3550 60  0000 C CNN
+F 1 "USB_B-Micro" H 2175 2750 60  0001 C CNN
+	1    2200 3350
 	0    -1   -1   0   
 $EndComp
 Text HLabel 8600 3150 2    40   Input ~ 0
@@ -229,8 +211,6 @@ F 1 "0.1uF" H 3600 1900 50  0000 L CNN
 	1    3550 2000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2200 3900
-NoConn ~ 2200 2650
 $Comp
 L R R58
 U 1 1 4F0A4640
@@ -275,15 +255,6 @@ F 0 "C41" H 5000 4450 50  0000 L CNN
 F 1 "0.1uF" H 5000 4250 50  0000 L CNN
 	1    4950 4350
 	1    0    0    -1  
-$EndComp
-$Comp
-L USB_B J1
-U 1 1 4F0A450C
-P 2200 3250
-F 0 "J1" V 2050 3650 60  0000 C CNN
-F 1 "USB_B" H 2175 2650 60  0001 C CNN
-	1    2200 3250
-	0    -1   -1   0   
 $EndComp
 NoConn ~ 4950 3550
 NoConn ~ 4950 3750

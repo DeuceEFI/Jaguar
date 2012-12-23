@@ -1,16 +1,17 @@
-EESchema Schematic File Version 2  date Tue 13 Nov 2012 08:32:38 PM EST
+EESchema Schematic File Version 2  date Sat 22 Dec 2012 10:49:30 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
+LIBS:polyswitch_smd
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "10 nov 2012"
+Date "23 dec 2012"
 Rev "0.4-alpha"
 Comp "git hash: 8a81776010"
 Comment1 ""
