@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 22 Dec 2012 10:49:26 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 24 Dec 2012 12:21:57 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -388,7 +388,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4F179910;
 Reference = D2;
-ValeurCmp = 1N5919BG;
+ValeurCmp = 1N5338BG;
 IdModule  = diode_do35;
 EndCmp
 
@@ -708,17 +708,10 @@ IdModule  = c_1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/4F0A3F95/4F24FF34;
+TimeStamp = /4F0A2F06/4F0A3F95/50D86838;
 Reference = J1;
-ValeurCmp = USB_B-Micro;
+ValeurCmp = USB_B-MICRO;
 IdModule  = USB-B-micro;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A4778/4F4014CF;
-Reference = JP9;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2;
 EndCmp
 
 BeginCmp

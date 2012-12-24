@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Sun 23 Dec 2012 12:04:53 AM EST
+EESchema-LIBRARY Version 2.3  Date: Mon 24 Dec 2012 12:22:01 PM EST
 #
 # ADUMx201
 #
@@ -534,13 +534,13 @@ X NC 8 550 150 300 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# USB_B-mini
+# USB_B-micro
 #
-DEF ~USB_B-mini J 0 0 Y Y 1 F N
+DEF ~USB_B-micro J 0 0 Y Y 1 F N
 F0 "J" 0 250 60 H V C CNN
-F1 "USB_B-mini" 0 -450 60 H I C CNN
+F1 "USB_B-micro" 0 -450 60 H I C CNN
 DRAW
-T 0 0 150 60 0 0 0 USB-B-Mini  Normal 1 C C
+T 0 0 150 60 0 0 0 USB-B-Micro  Normal 1 C C
 P 3 0 0 0  -200 -50  200 -50  200 -50 N
 P 6 0 0 0  -200 0  200 0  200 50  -200 50  -200 0  -200 0 N
 P 7 0 0 0  -200 -50  -250 0  -250 100  250 100  250 0  200 -50  200 -50 N

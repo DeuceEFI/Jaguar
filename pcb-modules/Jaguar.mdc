@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Sun 04 Nov 2012 06:01:33 PM EST
+PCBNEW-LibDoc----V1  Sat 22 Dec 2012 10:45:45 PM EST
 #
 $MODULE 9S12XDP512
 Li 9S12XDP512
@@ -220,6 +220,24 @@ $MODULE PIN_ARRAY_3X2
 Li PIN_ARRAY_3X2
 Cd Double rangee de contacts 2 x 4 pins
 Kw CONN
+$EndMODULE
+#
+$MODULE Cruiser_Header_STRIP_4
+Li Cruiser_Header_STRIP_4
+Cd Pin strip 4pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE Cruiser_Header_STRIP_5
+Li Cruiser_Header_STRIP_5
+Cd Pin strip 4pin
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE USB-B-micro
+Li USB-B-micro
+Cd IEEE 1394 2.0 I/O CONN. SOCKET RIGHT-ANGLE FLAT WITH KINK
+Kw IEEE 1394 2.0 I/O CONN. SOCKET RIGHT-ANGLE FLAT WITH KINK
 $EndMODULE
 #
 $EndLIBDOC

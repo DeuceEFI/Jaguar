@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 23 Dec 2012 12:04:53 AM EST
+EESchema Schematic File Version 2  date Mon 24 Dec 2012 12:22:01 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "23 dec 2012"
+Date "24 dec 2012"
 Rev "0.4-alpha"
 Comp "git hash: 60790c9fea"
 Comment1 ""
@@ -19,9 +19,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5050 2650
 Connection ~ 2150 3350
 Wire Wire Line
-	2150 3350 3050 3350
+	3050 3350 2150 3350
 Wire Wire Line
 	1650 3850 2350 3850
 Wire Wire Line
@@ -32,20 +33,16 @@ Connection ~ 5300 3350
 Connection ~ 5900 3350
 Wire Wire Line
 	5900 3350 5950 3350
-Wire Wire Line
-	5300 2250 3850 2250
 Connection ~ 1750 2850
 Wire Wire Line
-	1750 3350 1750 2250
+	1750 2250 1750 3350
 Wire Wire Line
-	5050 2750 5050 2650
+	5050 2650 5050 2750
 Wire Wire Line
 	2350 3750 4550 3750
 Connection ~ 3450 3750
 Wire Wire Line
-	3450 3650 3450 3750
-Wire Wire Line
-	5050 2650 2350 2650
+	3450 3750 3450 3650
 Connection ~ 2350 2250
 Connection ~ 2800 2250
 Connection ~ 3050 2250
@@ -69,26 +66,25 @@ Connection ~ 4100 3750
 Connection ~ 4550 3350
 Connection ~ 4550 3750
 Wire Wire Line
-	3450 2550 3450 2650
+	3450 2650 3450 2550
 Connection ~ 3450 2650
 Connection ~ 5050 2250
-Connection ~ 5050 2650
 Connection ~ 1750 3850
 Connection ~ 1750 3350
 Wire Wire Line
-	5900 2250 5950 2250
-Connection ~ 5300 2250
-Connection ~ 5900 2250
-Wire Wire Line
-	5300 3350 3850 3350
+	3850 3350 5300 3350
 Wire Wire Line
 	2350 3750 2350 3850
 Wire Wire Line
 	4550 3750 4550 3850
 Wire Wire Line
-	2150 2250 3050 2250
+	3050 2250 2150 2250
 Connection ~ 2150 2250
 Connection ~ 1750 2250
+Wire Wire Line
+	5450 2250 3850 2250
+Wire Wire Line
+	2350 2650 5050 2650
 $Comp
 L DIODESCH D44
 U 1 1 4FF707FF
@@ -111,7 +107,7 @@ Text HLabel 2350 2650 0    25   Input ~ 0
 PWR-GND
 Text HLabel 1500 3900 0    25   Input ~ 0
 PWR-GND
-Text Notes 5450 2700 0    60   ~ 0
+Text Notes 3250 1400 0    60   ~ 0
 JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
 L JUMPER JP10
@@ -120,15 +116,6 @@ P 5600 3350
 F 0 "JP10" H 5600 3500 60  0000 C CNN
 F 1 "JUMPER" H 5600 3270 40  0000 C CNN
 	1    5600 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER JP9
-U 1 1 4F4014CF
-P 5600 2250
-F 0 "JP9" H 5600 2400 60  0000 C CNN
-F 1 "JUMPER" H 5600 2170 40  0000 C CNN
-	1    5600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,14 +155,14 @@ Text Label 3450 2650 0    40   ~ 0
 Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
-Text Notes 5200 2450 0    40   ~ 0
-5.6v/3w
+Text Notes 5250 2500 0    40   ~ 0
+5.1v/5w
 $Comp
 L ZENER D2
 U 1 1 4F179910
 P 5050 2450
 F 0 "D2" H 5050 2550 50  0000 C CNN
-F 1 "1N5919BG" H 5050 2350 40  0000 C CNN
+F 1 "1N5338BG" H 5050 2350 40  0000 C CNN
 	1    5050 2450
 	0    -1   -1   0   
 $EndComp
@@ -224,7 +211,7 @@ F 1 "47uF" H 4600 3450 50  0000 L CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5950 2250 2    40   Output ~ 0
+Text HLabel 5450 2250 2    40   Output ~ 0
 5vdc-analog
 Text HLabel 5950 3350 2    40   Output ~ 0
 5vdc-cpu
