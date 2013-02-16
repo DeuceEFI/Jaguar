@@ -1,10 +1,11 @@
-EESchema Schematic File Version 2  date Sat 16 Feb 2013 02:08:21 PM EST
+EESchema Schematic File Version 2  date Sat 16 Feb 2013 05:05:29 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
 LIBS:polyswitch_smd
+LIBS:device
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
@@ -19,6 +20,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7450 1150
+Wire Wire Line
+	7450 1450 7450 1150
+Connection ~ 5050 1650
+Connection ~ 5050 2150
+Connection ~ 5650 2150
+Connection ~ 6050 1650
+Connection ~ 6050 2650
+Wire Wire Line
+	2350 2650 7450 2650
+Wire Wire Line
+	7150 1650 6050 1650
+Wire Wire Line
+	5650 2150 5050 2150
 Connection ~ 5050 2650
 Connection ~ 2150 3350
 Wire Wire Line
@@ -37,7 +52,7 @@ Connection ~ 1750 2850
 Wire Wire Line
 	1750 2250 1750 3350
 Wire Wire Line
-	5050 2750 5050 2650
+	5050 2650 5050 2750
 Wire Wire Line
 	2350 3750 4550 3750
 Connection ~ 3450 3750
@@ -68,7 +83,6 @@ Connection ~ 4550 3750
 Wire Wire Line
 	3450 2650 3450 2550
 Connection ~ 3450 2650
-Connection ~ 5050 2250
 Connection ~ 1750 3850
 Connection ~ 1750 3350
 Wire Wire Line
@@ -82,9 +96,69 @@ Wire Wire Line
 Connection ~ 2150 2250
 Connection ~ 1750 2250
 Wire Wire Line
-	5450 2250 3850 2250
+	3850 2250 4550 2250
 Wire Wire Line
-	5050 2650 2350 2650
+	4550 2250 4550 1150
+Connection ~ 5050 1150
+Connection ~ 6050 1150
+Wire Wire Line
+	4550 1150 7700 1150
+Wire Wire Line
+	7450 2650 7450 1850
+$Comp
+L PNP Q12
+U 1 1 511FEC45
+P 7350 1650
+F 0 "Q12" H 7700 1500 60  0000 R CNN
+F 1 "MJB42CT4G" H 8100 1650 60  0000 R CNN
+	1    7350 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L R R106
+U 1 1 511FEBF1
+P 5050 1400
+F 0 "R106" V 5130 1400 50  0000 C CNN
+F 1 "10k" V 5050 1400 50  0000 C CNN
+	1    5050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R108
+U 1 1 511FEBD9
+P 6050 1400
+F 0 "R108" V 6130 1400 50  0000 C CNN
+F 1 "330" V 6050 1400 50  0000 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R109
+U 1 1 511FEBCF
+P 5050 1900
+F 0 "R109" V 5130 1900 50  0000 C CNN
+F 1 "604" V 5050 1900 50  0000 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R107
+U 1 1 511FEBC2
+P 5050 2400
+F 0 "R107" V 5130 2400 50  0000 C CNN
+F 1 "10k" V 5050 2400 50  0000 C CNN
+	1    5050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TL431LP U13
+U 1 1 511FDDA8
+P 6050 2150
+F 0 "U13" H 5850 2300 70  0000 C CNN
+F 1 "TL431BQDBZR" H 5550 2150 70  0000 C CNN
+	1    6050 2150
+	-1   0    0    -1  
+$EndComp
 $Comp
 L DIODESCH D44
 U 1 1 4FF707FF
@@ -107,7 +181,7 @@ Text HLabel 2350 2650 0    25   Input ~ 0
 PWR-GND
 Text HLabel 1500 3900 0    25   Input ~ 0
 PWR-GND
-Text Notes 3250 1400 0    60   ~ 0
+Text Notes 1800 1400 0    60   ~ 0
 JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
 L JUMPER JP10
@@ -155,17 +229,6 @@ Text Label 3450 2650 0    40   ~ 0
 Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
-Text Notes 5250 2500 0    40   ~ 0
-5.6v/5w
-$Comp
-L ZENER D2
-U 1 1 4F179910
-P 5050 2450
-F 0 "D2" H 5050 2550 50  0000 C CNN
-F 1 "1N5338BG" H 5050 2350 40  0000 C CNN
-	1    5050 2450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L CP1 C13
 U 1 1 4F0A52BC
@@ -211,7 +274,7 @@ F 1 "47uF" H 4600 3450 50  0000 L CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5450 2250 2    40   Output ~ 0
+Text HLabel 7700 1150 2    40   Output ~ 0
 5vdc-analog
 Text HLabel 5950 3350 2    40   Output ~ 0
 5vdc-cpu

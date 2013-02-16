@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 16 Feb 2013 02:10:12 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 16 Feb 2013 05:06:27 PM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -383,13 +383,6 @@ TimeStamp = /4F0A2F06/4F179B05;
 Reference = D1;
 ValeurCmp = LED;
 IdModule  = led_3mm_yellow;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A4778/4F179910;
-Reference = D2;
-ValeurCmp = 1N5338BG;
-IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
@@ -1317,6 +1310,13 @@ IdModule  = SOT223-MOSFET;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A4778/511FEC45;
+Reference = Q12;
+ValeurCmp = MJB42CT4G;
+IdModule  = d2-pak;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3C28;
 Reference = R1;
 ValeurCmp = 10k;
@@ -1926,6 +1926,34 @@ IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A4778/511FEBF1;
+Reference = R106;
+ValeurCmp = 10k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/511FEBC2;
+Reference = R107;
+ValeurCmp = 10k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/511FEBD9;
+Reference = R108;
+ValeurCmp = 330;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/511FEBCF;
+Reference = R109;
+ValeurCmp = 604;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A2F47;
 Reference = U1;
 ValeurCmp = MC9S12XDP512;
@@ -1993,6 +2021,13 @@ TimeStamp = /4F0D82A1/509C864F;
 Reference = U12;
 ValeurCmp = TC442XA;
 IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/511FDDA8;
+Reference = U13;
+ValeurCmp = TL431BQDBZR;
+IdModule  = sot23;
 EndCmp
 
 BeginCmp

@@ -1,10 +1,11 @@
-EESchema Schematic File Version 2  date Sat 16 Feb 2013 02:08:21 PM EST
+EESchema Schematic File Version 2  date Sat 16 Feb 2013 05:05:29 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
 LIBS:polyswitch_smd
+LIBS:device
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
