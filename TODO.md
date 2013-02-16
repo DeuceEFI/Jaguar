@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 12/23/2012 0956 EST (GMT-0500)
+## JAG 02/16/2013 1412 EST (GMT-0500)
 
 ### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
 
@@ -50,4 +50,5 @@
 * Added RXCAN0 and TXCAN0 solder pads. - DONE 10/29/2012
 * Added circuit borders to Through Hole side silkscreen. - DONE 10/29/2012
 * Added an SMD AAP sensor for measuring the atmospheric pressure in addition to the changing the existing MAP sensor to an SMD sensor. - DONE 11/13/2012
+* Changed R8 from 10k Ohm to 2.4k Ohm to be a stronger pull up to 5v.
 
