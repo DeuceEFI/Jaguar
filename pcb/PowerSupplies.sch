@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 24 Dec 2012 12:22:01 PM EST
+EESchema Schematic File Version 2  date Sat 16 Feb 2013 02:08:21 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 dec 2012"
+Date "16 feb 2013"
 Rev "0.4-alpha"
 Comp "git hash: 60790c9fea"
 Comment1 ""
@@ -37,7 +37,7 @@ Connection ~ 1750 2850
 Wire Wire Line
 	1750 2250 1750 3350
 Wire Wire Line
-	5050 2650 5050 2750
+	5050 2750 5050 2650
 Wire Wire Line
 	2350 3750 4550 3750
 Connection ~ 3450 3750
@@ -84,7 +84,7 @@ Connection ~ 1750 2250
 Wire Wire Line
 	5450 2250 3850 2250
 Wire Wire Line
-	2350 2650 5050 2650
+	5050 2650 2350 2650
 $Comp
 L DIODESCH D44
 U 1 1 4FF707FF
@@ -156,7 +156,7 @@ Ground
 Text Label 3450 3750 0    40   ~ 0
 Ground
 Text Notes 5250 2500 0    40   ~ 0
-5.1v/5w
+5.6v/5w
 $Comp
 L ZENER D2
 U 1 1 4F179910
