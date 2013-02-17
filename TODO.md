@@ -1,9 +1,11 @@
 # To Do List
 
-## JAG 02/16/2013 1756 EST (GMT-0500)
+## JAG 02/16/2013 1819 EST (GMT-0500)
 
 ### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
 
+* Add additional board designs that are wider with 2 mounting holes on each end or longer with 3 mounting holes down one side.
+* Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being a separate carrier board.
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
 * Update Assembly documentation to reflect these changes for the Version 0.4-alpha PCB.
 
