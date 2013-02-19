@@ -8,6 +8,7 @@
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being a separate carrier board.
 * Change 3mm bolt holes to have 6mm pads with 0.5mm spacing between pad and other trace.
 * Find a smaller package PNP for clamp circuit.
+* Separate USB connector shield from USB ground, per section 2.2.2 Grounds of http://www.ftdichip.com/Support/Documents/AppNotes/AN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
 * Update Assembly documentation to reflect these changes for the Version 0.4-alpha PCB.
 
