@@ -1,12 +1,11 @@
 # To Do List
 
-## JAG 02/17/2013 1238 EST (GMT-0500)
+## JAG 02/19/2013 1515 EST (GMT-0500)
 
 ### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
 
 
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being a separate carrier board.
-* Change 3mm bolt holes to have 6mm pads with 0.5mm spacing between pad and other trace.
 * Find a smaller package PNP for clamp circuit.
 * Separate USB connector shield from USB ground, per section 2.2.2 Grounds of http://www.ftdichip.com/Support/Documents/AppNotes/AN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
@@ -58,4 +57,6 @@
 * Changed R8 from 10k Ohm to 2.4k Ohm to be a stronger pull up to 5v. - DONE 02/16/2013
 * 5V Analog Power Supply Protection. - DONE 02/16/2013
 * Add additional board design that is wider with 3 mounting holes on down the long sides. - DONE 02/17/2013
+* Separate USB connector shield from USB ground, per section 2.2.2 Grounds of http://www.ftdichip.com/Support/Documents/AppNotes/AN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf - DONE 02/19/2013
+* Change 3mm bolt holes to have 6mm pads with 0.5mm spacing between pad and other trace. - DONE 02/19/2013
 
