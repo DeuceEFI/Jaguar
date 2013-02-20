@@ -1,12 +1,10 @@
 # To Do List
 
-## JAG 02/19/2013 1551 EST (GMT-0500)
+## JAG 02/19/2013 1906 EST (GMT-0500)
 
 ### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
 
-
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
-* Find a smaller package PNP for clamp circuit.
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
 * Update Assembly documentation to reflect these changes for the Version 0.4-alpha PCB.
 
@@ -58,4 +56,5 @@
 * Add additional board design that is wider with 3 mounting holes on down the long sides. - DONE 02/17/2013
 * Separate USB connector shield from USB ground, per section 2.2.2 Grounds of http://www.ftdichip.com/Support/Documents/AppNotes/AN_146_USB_Hardware_Design_Guidelines_for_FTDI_ICs.pdf - DONE 02/19/2013
 * Change 3mm bolt holes to have 6mm pads with 0.5mm spacing between pad and other trace. - DONE 02/19/2013
+* Find a smaller package PNP for clamp circuit. I found an SOT-223 footprint Diodes Inc. part # ZXTP25020DGTA. -DONE 02/19/2013
 

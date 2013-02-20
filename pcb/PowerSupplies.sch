@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Feb 2013 12:50:25 PM EST
+EESchema Schematic File Version 2  date Tue 19 Feb 2013 06:56:01 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "17 feb 2013"
+Date "19 feb 2013"
 Rev "0.4-alpha"
 Comp "git hash: 0eafe8520d"
 Comment1 ""
@@ -110,7 +110,7 @@ L PNP Q12
 U 1 1 511FEC45
 P 7350 1650
 F 0 "Q12" H 7700 1500 60  0000 R CNN
-F 1 "MJB42CT4G" H 8100 1650 60  0000 R CNN
+F 1 "ZXTP25020DGTA" H 8300 1650 60  0000 R CNN
 	1    7350 1650
 	1    0    0    1   
 $EndComp

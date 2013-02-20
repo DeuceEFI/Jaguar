@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 16 Feb 2013 05:06:27 PM EST
+# EESchema Netlist Version 1.1 created  Tue 19 Feb 2013 06:56:20 PM EST
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 /Inputs/Ground )
@@ -723,7 +723,7 @@
   ( G N-000235 )
   ( S /Outputs34 )
  )
- ( /4F0A4778/511FEC45 d2-pak Q12 MJB42CT4G
+ ( /4F0A4778/511FEC45 transistor-SOT223 Q12 ZXTP25020DGTA
   ( 1 /Outputs2 )
   ( 2 N-000183 )
   ( 3 /Inputs/Ground )
