@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 19 Feb 2013 07:10:00 PM EST
+EESchema Schematic File Version 2  date Sat 23 Mar 2013 01:19:05 PM EDT
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "19 feb 2013"
+Date "23 mar 2013"
 Rev "0.4-alpha"
 Comp "git hash: 3495ad36ad"
 Comment1 ""
@@ -804,7 +804,7 @@ Use the MPXA6115AC6U for Non-Boosted Engines.\nUse the MPXA4250AC6U for Boosted 
 Text Notes 6050 750  0    40   ~ 0
 R24, R25 and R31 (2.49k) can be replaced if using sensors other than\nGM temperature sensors; For FORD Sensors: use 27.4k 0.1% Metal Film\nresistors; for MOPAR Sensors: use 9.1k 0.1% Metal Film resistors or \nuse 2.43k 0.1% Metal Film resistors (best for most cases).  Be sure to\nuse FreeTherm to adjust the values in the FreeEMS code for the best\naccuracy irregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0
-For GM DIS and Ford EDIS leave RPM0-IN- and RPM1-IN- totally disconnected.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR19, R16, R20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
+For GM DIS and Ford EDIS connect RPM0-IN- and RPM1-IN- to ground.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
 Text Notes 1350 1350 0    40   ~ 0
 D4/R9 and D5/R10 are \nFor Diagnostics Only!\nIf they cause issues, \nremove them.
 $Comp
@@ -844,9 +844,9 @@ F 1 "5k" V 3900 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4050 3350 0    40   ~ 0
-R20 is for \nVR Input ONLY.
+R20 can be any resistance\nbetween 100 ohm and 10k\nohm 2W to 5W for VR Input \nONLY.
 Text Notes 4050 1500 0    40   ~ 0
-R23 is for \nVR Input ONLY.
+R23 can be any resistance\nbetween 100 ohm and 10k\nohm 2W to 5W for VR Input \nONLY.
 $Comp
 L R R23
 U 1 1 4F1DA6C2
@@ -856,8 +856,8 @@ F 1 "5k" V 3900 1550 50  0000 C CNN
 	1    3900 1550
 	1    0    0    -1  
 $EndComp
-Text Notes 650  3800 0    40   ~ 0
-NOTE: MAX9926 should be configured as Mode A2 \nfor both VR and Hall/Opto/Digital inputs.\nLeave RPM0-IN- and RPM1-IN- disconnected (floating)\nfor Hall/Opto/Digital inputs.\n\nRead this link for more information on why this works:\nhttp://forum.diyefi.org/viewtopic.php?f=53&t=1049
+Text Notes 650  3650 0    40   ~ 0
+NOTE: MAX9926 should be configured as Mode A2 \nfor both VR and Hall/Opto/Digital inputs.\n\nRPM0-IN- and RPM1-IN- should be held at 2.5vdc \nfor Hall/Opto/Digital inputs. \nR16, R84. R19 and R83 accomplish this by setting \nup a voltage divider circuit.\n\nFor VR inputs, R18, R19, R16 and R17 need to be 10k\nresistors.
 $Comp
 L R R16
 U 1 1 4F187F85
