@@ -1,10 +1,10 @@
 # To Do List
 
-## JAG 04/08/2013 1137 EST (GMT-0500)
+## JAG 04/08/2013 1619 EST (GMT-0500)
 
 ### Things left to change For Version 0.5-alpha PCB based on what has been learned from 0.4-alpha PCB:
 
-* Foot print is wrong for AAP and MAP sensors, correct power, ground and signal pads.
+
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
 * Update Assembly documentation to reflect these changes for the Version 0.5-alpha PCB.
@@ -14,6 +14,10 @@
 
 * Bluetooth TTL serial header in addition to the USB interface.
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
+----------
+### 0.5-alpha Changes Completed:
+
+* Corrected AAP and MAP Sensor Footprints and re-ran traces to correct pads. - DONE 04/08/2013
 
 ----------
 ### 0.4-alpha Changes Completed:
