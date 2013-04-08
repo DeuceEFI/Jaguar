@@ -1,18 +1,18 @@
-EESchema Schematic File Version 2  date Sat 23 Mar 2013 01:19:05 PM EDT
+EESchema Schematic File Version 2  date Mon 08 Apr 2013 03:58:28 PM EDT
 LIBS:opto
-LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
 LIBS:polyswitch_smd
 LIBS:device
+LIBS:Jaguar
 LIBS:Jaguar-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "23 mar 2013"
+Date "8 apr 2013"
 Rev "0.4-alpha"
 Comp "git hash: 3495ad36ad"
 Comment1 ""
@@ -20,6 +20,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2750 5500
+Connection ~ 2750 5300
+Connection ~ 2750 5100
+NoConn ~ 2750 7350
+Connection ~ 3300 7000
+Connection ~ 2750 7150
+Connection ~ 2750 6950
+Connection ~ 2750 6750
+Wire Wire Line
+	2750 6950 4150 6950
 Connection ~ 10150 750 
 Connection ~ 10550 750 
 Wire Wire Line
@@ -27,9 +37,7 @@ Wire Wire Line
 Connection ~ 3200 7350
 Connection ~ 3200 6550
 Wire Wire Line
-	4900 5800 3200 5800
-Wire Wire Line
-	4900 5000 4050 5000
+	4050 5000 4900 5000
 Wire Notes Line
 	1900 4750 550  4750
 Wire Notes Line
@@ -42,20 +50,11 @@ Connection ~ 4800 5000
 Wire Wire Line
 	5250 5450 5250 5400
 Wire Wire Line
-	5250 5400 3200 5400
+	5250 5400 3150 5400
 Connection ~ 4050 5000
 Connection ~ 3550 5800
 Connection ~ 3550 5400
 Connection ~ 3550 5000
-Wire Wire Line
-	3200 5200 3200 5000
-Wire Wire Line
-	3200 5000 3550 5000
-Wire Wire Line
-	3200 5800 3200 5600
-Connection ~ 3200 5200
-Connection ~ 3200 5400
-Connection ~ 3200 5600
 Wire Notes Line
 	1850 4750 5900 4750
 Wire Notes Line
@@ -70,22 +69,18 @@ Wire Wire Line
 	3400 1300 3200 1300
 Connection ~ 3400 1300
 Connection ~ 3400 1700
-Wire Notes Line
-	5900 6300 5900 7700
 Connection ~ 4350 6950
 Wire Wire Line
 	4350 6550 4350 6950
 Connection ~ 4350 6550
 Wire Wire Line
-	3200 6950 4150 6950
-Wire Wire Line
 	5250 7350 3200 7350
 Wire Notes Line
-	5900 6300 1850 6300
+	1850 6300 5900 6300
 Wire Wire Line
 	750  2550 750  2450
 Wire Wire Line
-	1700 2450 1250 2450
+	1250 2450 1700 2450
 Wire Notes Line
 	1050 2550 1050 3500
 Wire Notes Line
@@ -154,11 +149,11 @@ Wire Notes Line
 Wire Notes Line
 	6000 4550 6000 6100
 Wire Wire Line
-	7100 3450 7600 3450
+	7600 3450 7100 3450
 Wire Notes Line
 	8350 1250 6000 1250
 Wire Wire Line
-	10600 5250 9850 5250
+	9850 5250 10600 5250
 Connection ~ 10350 5800
 Wire Wire Line
 	10350 5650 10350 5800
@@ -227,12 +222,12 @@ Wire Wire Line
 Wire Wire Line
 	10350 5800 8850 5800
 Wire Wire Line
-	9350 5250 8850 5250
+	8850 5250 9350 5250
 Connection ~ 10050 2500
 Wire Wire Line
-	9800 2500 10450 2500
+	10450 2500 9800 2500
 Wire Wire Line
-	9850 1150 10450 1150
+	10450 1150 9850 1150
 Connection ~ 8850 5250
 Connection ~ 9150 1550
 Connection ~ 9150 1150
@@ -250,13 +245,10 @@ Wire Wire Line
 	9350 1150 9150 1150
 Wire Wire Line
 	6650 1900 6450 1900
-Connection ~ 3200 7150
-Connection ~ 3200 6950
-Connection ~ 3200 6750
 Wire Wire Line
 	3200 7350 3200 7150
 Wire Wire Line
-	8850 5300 8850 5200
+	8850 5200 8850 5300
 Connection ~ 8850 5300
 Connection ~ 8850 5200
 Connection ~ 8850 4700
@@ -285,10 +277,10 @@ Connection ~ 7450 5200
 Connection ~ 7450 5600
 Connection ~ 6550 5600
 Wire Wire Line
-	7150 1900 7750 1900
+	7750 1900 7150 1900
 Connection ~ 10050 2900
 Wire Wire Line
-	9250 5650 9250 5800
+	9250 5800 9250 5650
 Connection ~ 9250 5800
 Connection ~ 10050 4850
 Connection ~ 10050 5250
@@ -417,7 +409,7 @@ Wire Notes Line
 Wire Notes Line
 	1350 3050 1750 3050
 Wire Wire Line
-	1700 2350 1250 2350
+	1250 2350 1700 2350
 Wire Wire Line
 	750  2350 750  2250
 Wire Notes Line
@@ -435,7 +427,7 @@ Connection ~ 9800 3850
 Wire Wire Line
 	9300 3850 9100 3850
 Wire Wire Line
-	9800 3850 10450 3850
+	10450 3850 9800 3850
 Connection ~ 10050 3850
 Wire Wire Line
 	10350 4250 9100 4250
@@ -446,7 +438,7 @@ Wire Notes Line
 Wire Notes Line
 	11050 4550 11050 3300
 Wire Wire Line
-	5250 6550 4050 6550
+	4050 6550 5250 6550
 Wire Wire Line
 	4150 6950 4150 7000
 Wire Wire Line
@@ -489,6 +481,51 @@ Connection ~ 3400 2950
 Wire Wire Line
 	3300 7000 3300 6950
 Connection ~ 3300 6950
+Wire Wire Line
+	2750 5100 2750 5000
+Wire Wire Line
+	2750 5000 3550 5000
+Wire Wire Line
+	2750 5300 3150 5300
+Wire Wire Line
+	3150 5300 3150 5400
+Wire Wire Line
+	2750 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 5800
+Wire Wire Line
+	3000 5800 4900 5800
+Wire Wire Line
+	3200 6750 2750 6750
+Wire Wire Line
+	3200 7150 2750 7150
+NoConn ~ 1450 7350
+NoConn ~ 1450 7150
+NoConn ~ 1450 6950
+NoConn ~ 1450 6750
+NoConn ~ 1450 5700
+NoConn ~ 1450 5500
+NoConn ~ 1450 5300
+NoConn ~ 1450 5100
+NoConn ~ 2750 5700
+$Comp
+L MPXA4250AP U6
+U 1 1 51632018
+P 2100 7050
+F 0 "U6" H 2100 7550 70  0000 C CNN
+F 1 "MPXA4250AC6U" H 2100 6550 70  0000 C CNN
+	1    2100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPXA4250AP U11
+U 1 1 5163200F
+P 2100 5400
+F 0 "U11" H 2100 5900 70  0000 C CNN
+F 1 "MPXA6115AC6U" H 2100 4900 70  0000 C CNN
+	1    2100 5400
+	1    0    0    -1  
+$EndComp
 $Comp
 L SMD F1
 U 1 1 50D66AB8
@@ -524,15 +561,6 @@ F 0 "P93" H 3130 6550 40  0000 L CNN
 F 1 "MAP" H 3050 6605 30  0001 C CNN
 	1    3050 6550
 	-1   0    0    1   
-$EndComp
-$Comp
-L MPX4100A U11
-U 1 1 5092ECCE
-P 2550 5500
-F 0 "U11" H 2550 6000 70  0000 C CNN
-F 1 "MPXA6115AC6U" H 2550 5200 70  0000 C CNN
-	1    2550 5500
-	-1   0    0    -1  
 $EndComp
 $Comp
 L R R95
@@ -572,9 +600,6 @@ F 1 "0.01uF" H 3600 5500 50  0000 L CNN
 $EndComp
 Text HLabel 4900 5000 2    40   Output ~ 0
 AAP-CPU-Signal
-NoConn ~ 1900 5200
-NoConn ~ 1900 5400
-NoConn ~ 1900 5600
 Text Notes 2664 6100 0    60   ~ 0
 Ambient Absolute Pressure
 $Comp
@@ -629,7 +654,7 @@ F 1 "1k" V 3650 2950 50  0000 C CNN
 	1    3650 2950
 	0    -1   -1   0   
 $EndComp
-Text Notes 600  7200 0    40   ~ 0
+Text Notes 5900 6800 0    40   ~ 0
 Do not populate C23 and C21\nif you are using an external MAP\nsensor.  \n\nChange R13 value from 1k to 470 ohm\nif you are using an external MAP\nsensor.
 Text Label 5100 6950 0    40   ~ 0
 Ground
@@ -642,7 +667,7 @@ F 1 "GND" H 5250 6930 30  0001 C CNN
 	1    5250 7000
 	-1   0    0    -1  
 $EndComp
-Text Notes 600  6800 0    40   ~ 0
+Text Notes 5900 6450 0    40   ~ 0
 D47 and D48 are only populated\nif you are using an external MAP\nsensor.  Do not populate these \nlocations if you are using the\non-board sensor.
 $Comp
 L DIODESCH D48
@@ -1481,9 +1506,6 @@ F 1 "3.9k" V 8850 4950 50  0000 C CNN
 	1    8850 4950
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 1900 7150
-NoConn ~ 1900 6950
-NoConn ~ 1900 6750
 Text HLabel 5250 6550 2    40   Output ~ 0
 MAP-CPU-Signal
 $Comp
@@ -1521,15 +1543,6 @@ F 0 "R13" V 3880 6550 50  0000 C CNN
 F 1 "1k" V 3800 6550 50  0000 C CNN
 	1    3800 6550
 	0    -1   1    0   
-$EndComp
-$Comp
-L MPX4100A U6
-U 1 1 4F0B8DF0
-P 2550 7050
-F 0 "U6" H 2550 7550 70  0000 C CNN
-F 1 "MPXA4250AC6U" H 2750 6750 70  0000 C CNN
-	1    2550 7050
-	-1   0    0    -1  
 $EndComp
 Text HLabel 3900 1300 2    40   BiDi ~ 0
 RPM0-IN+

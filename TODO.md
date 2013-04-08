@@ -1,12 +1,13 @@
 # To Do List
 
-## JAG 02/19/2013 1906 EST (GMT-0500)
+## JAG 04/08/2013 1137 EST (GMT-0500)
 
-### Things left to change For Version 0.4-alpha PCB based on what has been learned from Revision A3 PCB:
+### Things left to change For Version 0.5-alpha PCB based on what has been learned from 0.4-alpha PCB:
 
+* Foot print is wrong for AAP and MAP sensors, correct power, ground and signal pads.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
-* Update Assembly documentation to reflect these changes for the Version 0.4-alpha PCB.
+* Update Assembly documentation to reflect these changes for the Version 0.5-alpha PCB.
 
 ----------
 ### Jaguar Wish List Items:
@@ -15,7 +16,7 @@
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
 
 ----------
-### TODO Changes Completed:
+### 0.4-alpha Changes Completed:
 
 * Fix R12 and C1 pads from being connected to the ground plane on the Through Hole component side - DONE 03/2012
 * Delete JP6 (not necessary) - DONE 04/15/2012

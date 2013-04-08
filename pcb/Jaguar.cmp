@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 19 Feb 2013 06:56:20 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 08 Apr 2013 04:00:53 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1982,7 +1982,7 @@ IdModule  = -QSOP16;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/4F0B8DF0;
+TimeStamp = /4F0BB08D/51632018;
 Reference = U6;
 ValeurCmp = MPXA4250AC6U;
 IdModule  = 8-SOP;
@@ -2010,7 +2010,7 @@ IdModule  = so-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/5092ECCE;
+TimeStamp = /4F0BB08D/5163200F;
 Reference = U11;
 ValeurCmp = MPXA6115AC6U;
 IdModule  = 8-SOP;

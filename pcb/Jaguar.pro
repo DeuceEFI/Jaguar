@@ -1,5 +1,5 @@
-update=Tue 19 Feb 2013 07:10:11 PM EST
-last_client=kicad
+update=Mon 08 Apr 2013 03:50:42 PM EDT
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=315
@@ -31,9 +31,16 @@ LibName5=mp3h6115a
 LibName6=transistor
 LibName7=w_smd_trans
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../pcb-modules
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -68,16 +75,9 @@ PrintMonochrome=1
 ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=opto
-LibName2=Jaguar
-LibName3=power
-LibName4=conn
-LibName5=transistors
-LibName6=polyswitch_smd
-LibName7=device
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+LibName2=power
+LibName3=conn
+LibName4=transistors
+LibName5=polyswitch_smd
+LibName6=device
+LibName7=Jaguar
