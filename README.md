@@ -1,12 +1,12 @@
 # Jaguar Board for FreeEMS
 
-JAG 02/16/2013 1414 EST (GMT-0500)
+JAG 04/08/2013 2044 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, I am in the process of making corrections and additions to the layout of the PCB.
+####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  Use the master branch to create a PCB you intend on running an engine with.
 
 ### Introduction
 
-The name "Jaguar" comes from my initials and the great cat keeping in the FreeEMS tradition of using cat names...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.  The Jaguar board can also be used for other 4/6/8 cylinder engines using a Ford EDIS ignition system.  The exclusive-OR gate specified in the Bill of Materials is ONLY to be used as logic level outputs to the logic level inputs on EDIS/DIS modules! 
+The name "Jaguar" comes from my initials and the great cat, keeping in the FreeEMS tradition of using cat names for hardware...  The aim of the Jaguar project is to create a hardware solution for FreeEMS that caters to the needs of the General Motors 4/6/8 cylinder engines running either an electronic advance distributor or wasted spark DIS system.  The Jaguar board can also be used for other 4/6/8 cylinder engines using a Ford EDIS ignition system.  The TC442xA Ignitor Drivers specified in the Bill of Materials can be used as logic level outputs to the logic level inputs on EDIS/DIS modules or to directly drive 12v ignitors. 
 
 Please see forum.diyefi.org for the most up to date information and links for this project and all of the other aspects of the FreeEMS project.
 
@@ -20,8 +20,11 @@ Core IO specs:
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
  * 2 Available Port K ports (PK4-5).
- * 1 ignition advance output to GM DIS/GM HEI/Ford EDIS module.
- * 1 DIS Bypass signal output to GM DIS/HEI module.
+ * 4 ignitor 5v or 12v output channels, which can be used for:
+   * Ignition advance output to GM DIS/GM HEI/Ford EDIS module.
+   * DIS Bypass signal output to GM DIS/HEI module.
+   * COP or CNP sequential ignition for 4 cylinder engines.
+   * Wasted Spark ignition for 4, 6 or 8 cylinder engines.
  * 8 injector drivers (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4,5,6,7 or 1 injector per CPU output using Port B0-7 once firmware is ready.
  * 6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).
  * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
@@ -30,7 +33,7 @@ Core IO specs:
  * 1 Accessory relay low side driver (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
-PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.
+PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com 
 
