@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 05/26/2012 2320 EST (GMT-0500)
+JAG 04/26/2013 1233 EDT (GMT-0400)
 
-####Do NOT use these files to make a PCB, I am in the process of making corrections to the layout of the PCB.
+####Do NOT use these files to make a new PCB, The Jaguar A3 design on the master branch has been improved upon. I am in the process of making corrections to the layout of the PCB in the dev branch.
 
 ### Introduction
 
@@ -16,7 +16,7 @@ Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B connector).
  * 2 RPM/Position VR or Hall/Opto/Digital inputs (GM DIS 3x and 1x camshaft position sensor, CAM indicates cylinder #1).
- * 7 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,EXO,BRV,MAP).
+ * 7 Standard 'CORE' analog inputs (IAT,CHT,TPS,EXO,BRV,MAP,AAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
  * 1 Optional MAF analog input pin, no supporting circuitry (for future use).
@@ -49,7 +49,7 @@ AND the following
  
 ### Status
 
-For the most up to date status information for the project, refer to the TODO.md file which is maintained in sync with the schematics by a small team who verify each other's work.
+For the most up to date status information for the project, refer to the TODO.md file which is maintained in sync with the schematics by a small team who verify each other's work.  The master branch is considered to be "stable", ie: it has been used to run various engines successfully, but the dev branch is where the action is, so to speak.
 
 ### Changes
 
