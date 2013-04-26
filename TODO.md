@@ -1,9 +1,10 @@
 # To Do List
 
-## JAG 04/26/2013 1224 EDT (GMT-0400)
+## JAG 04/26/2013 1255 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-alpha PCB based on what has been learned from 0.4-alpha PCB:
 
+* Delete R79 from the BOM, it has been replaced by L1.
 * Move Jaguar by Andy Goss 2012 on component side to under FTDI IC, there is more room.
 * Move Injector Outputs lettering on component side away from INJ4-GND and INJ5-GND letterning.
 * CEL circuit outline on component side is incomplete. 
