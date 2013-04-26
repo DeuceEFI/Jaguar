@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 04/08/2013 2044 EDT (GMT-0400)
+JAG 04/26/2013 1236 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  Use the master branch to create a PCB you intend on running an engine with.
+####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  Use the master branch to create a PCB you intend on running an engine with.  I am currently building the first Jaguar 0.4-alpha board to test on my 1996 Chevrolet S10.  See the TODO.md file for the up to date changes from this build.
 
 ### Introduction
 
