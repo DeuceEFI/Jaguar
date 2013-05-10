@@ -26,6 +26,7 @@
 ### 0.5-alpha Changes Completed:
 
 * Corrected AAP and MAP Sensor Footprints and re-ran traces to correct pads. - DONE 04/08/2013
+* L1, R106, R107, R108, R109 and U13 silkscreens are not visible, ie: too small. - DONE 05/10/2013
 
 ----------
 ### 0.4-alpha Changes Completed:
