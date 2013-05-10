@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/09/2013 1409 EDT (GMT-0400)
+## JAG 05/09/2013 1413 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-beta PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -8,8 +8,7 @@
 
 * CEL circuit outline on component side is incomplete. 
 
-* Move C2 silkscreen to one side, away from silkscreen line.
-* Delete D2 from PCB, it is not in the schematic any longer.
+
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Bill of Materials (BOM) after adding the 5vdc Analog Power Supply Protection circuit.
 * Update Assembly documentation to reflect these changes for the Version 0.5-beta PCB.
@@ -28,7 +27,8 @@
 * Deleted R79 from the BOM, it has been replaced by L1. - DONE 05/10/2013
 * Moved Injector Outputs lettering on component side away from INJ4-GND and INJ5-GND letterning. - DONE 05/10/2013
 * Deleted D2 from PCB, it is not in the schematic any longer. - DONE 05/10/2013
-* IAT silkscreen lettering on component side reads TAT, moved IAT away from pad to correct. - DONE 05/10/2013
+* IAT silkscreen lettering on component side read TAT, moved IAT away from pad to correct. - DONE 05/10/2013
+* Moved C2 silkscreen to one side, away from silkscreen line. - DONE 05/10/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
