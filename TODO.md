@@ -1,9 +1,10 @@
 # To Do List
 
-## JAG 05/09/2013 1452 EDT (GMT-0400)
+## JAG 05/09/2013 1455 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-beta PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
+* Add a pair of mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.5-beta PCB.
 
