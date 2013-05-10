@@ -1,10 +1,10 @@
 # To Do List
 
-## JAG 05/09/2013 1455 EDT (GMT-0400)
+## JAG 05/09/2013 1832 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-beta PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Add a pair of mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
+* Add a pair of silicon or mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.5-beta PCB.
 
@@ -27,6 +27,7 @@
 * CEL circuit outline on component side was incomplete. Also added CEL text on component side. - DONE 05/10/2013
 * Moved Jaguar by Andy Goss 2012-13 on component side to under FTDI IC, where there was more room. - DONE 05/10/2013
 * 12v trace to MOV was too narrow and would burn while MOV active, made trace wider. - DONE 05/10/2013
+* RPM0 and RPM1 LED silkscreen labels were reversed. - DONE 05/10/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
