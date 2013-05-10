@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 05/09/2013 1103 EDT (GMT-0400)
+## JAG 05/09/2013 1016 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-alpha PCB based on what has been learned from 0.4-alpha PCB:
 
-* Increase RPM0+ wire hole diameter to the same as RPM0-.
 * Delete R79 from the BOM, it has been replaced by L1.
 * Move Jaguar by Andy Goss 2012 on component side to under FTDI IC, there is more room.
 * Move Injector Outputs lettering on component side away from INJ4-GND and INJ5-GND letterning.
@@ -27,6 +26,7 @@
 
 * Corrected AAP and MAP Sensor Footprints and re-ran traces to correct pads. - DONE 04/08/2013
 * L1, R106, R107, R108, R109 and U13 silkscreens are not visible, ie: too small. - DONE 05/10/2013
+* Increase RPM0+ wire hole diameter to the same as RPM0-. - DONE 05/10/2013
 
 ----------
 ### 0.4-alpha Changes Completed:
