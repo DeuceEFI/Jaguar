@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 10 May 2013 10:16:16 AM EDT
+PCBNEW-BOARD Version 1 date Fri 10 May 2013 02:07:07 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -16270,7 +16270,7 @@ De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "Injector Outputs"
-Po 19548 26080 600 800 120 900
+Po 19043 26016 600 800 120 900
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
