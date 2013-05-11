@@ -1,9 +1,11 @@
 # To Do List
 
-## JAG 05/09/2013 1832 EDT (GMT-0400)
+## JAG 05/11/2013 1239 EDT (GMT-0400)
 
 ### Things left to change For Version 0.5-beta PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
+* Silkscreen area separating lines should be wider.
+* Add low side driver separating lines on the PCB silkscreen, they don't show the separation of the FP and LSD-1
 * Add a pair of silicon or mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.5-beta PCB.
@@ -28,6 +30,8 @@
 * Moved Jaguar by Andy Goss 2012-13 on component side to under FTDI IC, where there was more room. - DONE 05/10/2013
 * 12v trace to MOV was too narrow and would burn while MOV active, made trace wider. - DONE 05/10/2013
 * RPM0 and RPM1 LED silkscreen labels were reversed. - DONE 05/10/2013
+* Changed Load/Run label to Load. - DONE 05/11/2013
+* Low side driver diodes were not labeled correctly, it had partial part number rather than component ID. - DONE 05/11/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
