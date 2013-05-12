@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 05/12/2013 1147 EDT (GMT-0400)
+## JAG 05/12/2013 1150 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Add low side driver separating lines on the PCB silkscreen, they don't show the separation of the FP and LSD-1
 * Add a pair of silicon or mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
@@ -31,6 +30,7 @@
 * RPM0 and RPM1 LED silkscreen labels were reversed. - DONE 05/10/2013
 * Changed Load/Run label to Load. - DONE 05/11/2013
 * Low side driver diodes were not labeled correctly, it had partial part number rather than component ID. - DONE 05/11/2013
+* Added low side driver separating lines on the PCB silkscreen to show the separation of the FP and LSD-1. - DONE 05/12/2013
 * Made Silkscreen area separating lines wider. - DONE 05/12/2013
 
 ----------
