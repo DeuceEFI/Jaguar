@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 04/26/2013 1236 EDT (GMT-0400)
+JAG 05/12/2013 1517 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  Use the master branch to create a PCB you intend on running an engine with.  I am currently building the first Jaguar 0.4-alpha board to test on my 1996 Chevrolet S10.  See the TODO.md file for the up to date changes from this build.
+####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  I have built and installed the first Jaguar 0.4-alpha board in my 1996 Chevrolet S10 for testing.  See the TODO.md file for the up to date changes from this build.
 
 ### Introduction
 
@@ -33,7 +33,7 @@ Core IO specs:
  * 1 Accessory relay low side driver (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
-PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
+PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole components so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com 
 
