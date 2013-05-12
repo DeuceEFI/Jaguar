@@ -1,14 +1,13 @@
 # To Do List
 
-## JAG 05/11/2013 1239 EDT (GMT-0400)
+## JAG 05/12/2013 1147 EDT (GMT-0400)
 
-### Things left to change For Version 0.5-beta PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
+### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Silkscreen area separating lines should be wider.
 * Add low side driver separating lines on the PCB silkscreen, they don't show the separation of the FP and LSD-1
 * Add a pair of silicon or mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
-* Update Assembly documentation to reflect these changes for the Version 0.5-beta PCB.
+* Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
 ----------
 ### Jaguar Wish List Items:
@@ -17,7 +16,7 @@
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
 
 ----------
-### 0.5-beta Changes Completed:
+### 0.6-alpha Changes Completed:
 
 * L1, R106, R107, R108, R109 and U13 silkscreens are not visible, ie: too small. - DONE 05/10/2013
 * Increase RPM0+ wire hole diameter to the same as RPM0-. - DONE 05/10/2013
@@ -32,6 +31,7 @@
 * RPM0 and RPM1 LED silkscreen labels were reversed. - DONE 05/10/2013
 * Changed Load/Run label to Load. - DONE 05/11/2013
 * Low side driver diodes were not labeled correctly, it had partial part number rather than component ID. - DONE 05/11/2013
+* Made Silkscreen area separating lines wider. - DONE 05/12/2013
 
 ----------
 ### 0.5-alpha Changes Completed:

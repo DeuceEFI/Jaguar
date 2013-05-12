@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 08 Apr 2013 03:58:28 PM EDT
+EESchema Schematic File Version 2  date Sat 11 May 2013 11:59:57 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "8 apr 2013"
+Date "12 may 2013"
 Rev "0.4-alpha"
 Comp "git hash: 3495ad36ad"
 Comment1 ""
@@ -20,6 +20,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 5250 7350 2    40   Output ~ 0
+TPS-5vdc
 Connection ~ 2750 5500
 Connection ~ 2750 5300
 Connection ~ 2750 5100
@@ -821,8 +823,6 @@ Text HLabel 10050 2100 0    40   Input ~ 0
 Text HLabel 10050 4850 0    40   Input ~ 0
 5vdc-analog
 Text HLabel 6550 4700 0    40   Input ~ 0
-5vdc-analog
-Text HLabel 5250 7350 2    40   Input ~ 0
 5vdc-analog
 Text Notes 1900 6400 0    40   ~ 0
 Use the MPXA6115AC6U for Non-Boosted Engines.\nUse the MPXA4250AC6U for Boosted Engines.
