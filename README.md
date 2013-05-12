@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 04/08/2013 2044 EDT (GMT-0400)
+JAG 05/12/2013 1556 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  Use the master branch to create a PCB you intend on running an engine with.
+####The files tagged as 0.5-alpha in the master branch should be used to create a PCB you intend to run an engine with.  The files tagged as 0.5-alpha have the AAP/MAP sensor pad corrections but do have a few silkscreen text errors.  For the change log, see the TODO.md file.
 
 ### Introduction
 
