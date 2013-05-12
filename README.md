@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 04/26/2013 1233 EDT (GMT-0400)
+JAG 05/12/2013 1514 EDT (GMT-0400)
 
-####Do NOT use these files to make a new PCB, The Jaguar A3 design on the master branch has been improved upon. I am in the process of making corrections to the layout of the PCB in the dev branch.
+####Do NOT use these files to make a new PCB, The Jaguar revision A3 design on the master branch has been improved upon. I am in the process of making corrections to the layout of the PCB in the "dev" branch.  The version 0.4-alpha board that has been tagged in the "dev" branch has successfully run my 1996 Chevrolet S10 2.2L truck.  I did find an error with the pads and routing on the AAP and MAP sensors on the 0.4-alpha boards, the boards tagged as 0.5-alpha in the "dev" branch have this pad/routing error corrected.  I am actively working on the 0.6-alpha design now with additional changes that the testers of the 0.4-alpha boards and I have noted while building and testing this series of boards.
 
 ### Introduction
 
