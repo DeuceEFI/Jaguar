@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/12/2013 2021 EDT (GMT-0400)
+## JAG 05/13/2013 1224 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -38,6 +38,7 @@
 * Rename ACC to LSD-2, rename ACC- to LSD2-. - DONE 05/13/2013
 * Rename FAN to LSD-1, rename FAN- to LSD1-. - DONE 05/13/2013
 * Rename OUT-GND to OUTPUT-GND. - DONE 05/13/2013
+* Rename MAT to SPR. - DONE 05/13/2013
 
 ----------
 ### 0.5-alpha Changes Completed:

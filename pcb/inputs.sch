@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 11:53:03 AM EDT
+EESchema Schematic File Version 2  date Mon 13 May 2013 12:23:58 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -1302,7 +1302,7 @@ Intake Air Temperature
 Text Notes 9200 1800 0    60   ~ 0
 Throttle Position Sensor
 Text Notes 6400 2450 0    60   ~ 0
-Manifold Air Temperature
+Spare ADC Input
 Text HLabel 9150 1550 0    40   Input ~ 0
 TPS-Sensor-GND
 $Comp
@@ -1477,9 +1477,9 @@ F 1 "1uF" H 7700 2000 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6450 1900 0    40   Input ~ 0
-MAT-Sensor
+SPR-Sensor
 Text HLabel 7750 1900 2    40   Output ~ 0
-MAT-CPU-Signal
+SPR-CPU-Signal
 Text Notes 2664 7650 0    60   ~ 0
 Manifold Absolute Pressure
 Text Notes 9200 6100 0    60   ~ 0

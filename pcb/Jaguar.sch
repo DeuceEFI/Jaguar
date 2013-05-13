@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 11:53:03 AM EDT
+EESchema Schematic File Version 2  date Mon 13 May 2013 12:23:58 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -744,34 +744,34 @@ F1 "cpu.sch" 40
 F2 "Fuel-Pump-Drive" O R 6900 2400 40 
 F3 "DIS-Advance-Signal" O R 6900 2200 40 
 F4 "MAF-Signal" I L 5200 2300 40 
-F5 "MAT-Signal" I L 5200 2100 40 
-F6 "BRV-Signal" I L 5200 1800 40 
-F7 "MAP-Signal" I L 5200 1700 40 
-F8 "O2-Signal" I L 5200 2000 40 
-F9 "TPS-Signal" I L 5200 1900 40 
-F10 "Coolant-Signal" I L 5200 1600 40 
-F11 "IAT-Signal" I L 5200 1500 40 
-F12 "AAP-Signal" I L 5200 2200 40 
-F13 "5vdc-analog" I L 5200 850 40 
-F14 "5vdc-cpu" I L 5200 750 40 
-F15 "Injector6-PB" O R 6900 1700 40 
-F16 "Injector5-PB" O R 6900 1600 40 
-F17 "Injector4-PB" O R 6900 1500 40 
-F18 "Injector3-PB" O R 6900 1400 40 
-F19 "Injector2-PB" O R 6900 1300 40 
-F20 "Injector1-PB" O R 6900 1200 40 
-F21 "Injector3-PT" O R 6900 950 40 
-F22 "Injector2-PT" O R 6900 850 40 
-F23 "Injector1-PT" O R 6900 750 40 
-F24 "DIS-Bypass-PT" O R 6900 2300 40 
-F25 "Injector4-PT" O R 6900 1050 40 
-F26 "Injector8-PB" O R 6900 1900 40 
-F27 "Injector7-PB" O R 6900 1800 40 
-F28 "PCB-GND" I L 5200 2400 40 
-F29 "Fan-PK4" O R 6900 2000 40 
-F30 "RPM1" I L 5200 1350 40 
-F31 "RPM0" I L 5200 1250 40 
-F32 "PK5" O R 6900 2100 40 
+F5 "BRV-Signal" I L 5200 1800 40 
+F6 "MAP-Signal" I L 5200 1700 40 
+F7 "O2-Signal" I L 5200 2000 40 
+F8 "TPS-Signal" I L 5200 1900 40 
+F9 "Coolant-Signal" I L 5200 1600 40 
+F10 "IAT-Signal" I L 5200 1500 40 
+F11 "AAP-Signal" I L 5200 2200 40 
+F12 "5vdc-analog" I L 5200 850 40 
+F13 "5vdc-cpu" I L 5200 750 40 
+F14 "Injector6-PB" O R 6900 1700 40 
+F15 "Injector5-PB" O R 6900 1600 40 
+F16 "Injector4-PB" O R 6900 1500 40 
+F17 "Injector3-PB" O R 6900 1400 40 
+F18 "Injector2-PB" O R 6900 1300 40 
+F19 "Injector1-PB" O R 6900 1200 40 
+F20 "Injector3-PT" O R 6900 950 40 
+F21 "Injector2-PT" O R 6900 850 40 
+F22 "Injector1-PT" O R 6900 750 40 
+F23 "DIS-Bypass-PT" O R 6900 2300 40 
+F24 "Injector4-PT" O R 6900 1050 40 
+F25 "Injector8-PB" O R 6900 1900 40 
+F26 "Injector7-PB" O R 6900 1800 40 
+F27 "PCB-GND" I L 5200 2400 40 
+F28 "Fan-PK4" O R 6900 2000 40 
+F29 "RPM1" I L 5200 1350 40 
+F30 "RPM0" I L 5200 1250 40 
+F31 "PK5" O R 6900 2100 40 
+F32 "SPR-Signal" I L 5200 2100 40 
 $EndSheet
 Text Notes 650  1200 0    60   ~ 0
 J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
@@ -884,22 +884,22 @@ F8 "IAT-CPU-Signal" O R 10650 5250 40
 F9 "IAT-Sensor" I L 9300 5150 40 
 F10 "TPS-CPU-Signal" O R 10650 5350 40 
 F11 "TPS-Sensor" I L 9300 5650 40 
-F12 "MAT-Sensor" I L 9300 5250 40 
-F13 "MAT-CPU-Signal" O R 10650 5650 40 
-F14 "BRV" O R 10650 4900 40 
-F15 "MAP-CPU-Signal" O R 10650 5150 40 
-F16 "BRV-12v" I L 9300 4900 40 
-F17 "TPS-5vdc" O L 9300 5550 40 
-F18 "5vdc-analog" I L 9300 5000 40 
-F19 "MAF-Sensor" I L 9300 5450 40 
-F20 "MAF-CPU-Signal" O R 10650 5750 40 
-F21 "RPM1-IN-" B L 9300 6650 40 
-F22 "RPM0-IN-" B L 9300 6450 40 
-F23 "RPM1-IN+" B L 9300 6550 40 
-F24 "RPM0-IN+" B L 9300 6350 40 
-F25 "RPM1-OUT" B R 10650 6650 40 
-F26 "RPM0-OUT" O R 10650 6550 40 
-F27 "AAP-CPU-Signal" O R 10650 5050 40 
+F12 "BRV" O R 10650 4900 40 
+F13 "MAP-CPU-Signal" O R 10650 5150 40 
+F14 "BRV-12v" I L 9300 4900 40 
+F15 "TPS-5vdc" O L 9300 5550 40 
+F16 "5vdc-analog" I L 9300 5000 40 
+F17 "MAF-Sensor" I L 9300 5450 40 
+F18 "MAF-CPU-Signal" O R 10650 5750 40 
+F19 "RPM1-IN-" B L 9300 6650 40 
+F20 "RPM0-IN-" B L 9300 6450 40 
+F21 "RPM1-IN+" B L 9300 6550 40 
+F22 "RPM0-IN+" B L 9300 6350 40 
+F23 "RPM1-OUT" B R 10650 6650 40 
+F24 "RPM0-OUT" O R 10650 6550 40 
+F25 "AAP-CPU-Signal" O R 10650 5050 40 
+F26 "SPR-Sensor" I L 9300 5250 40 
+F27 "SPR-CPU-Signal" O R 10650 5650 40 
 $EndSheet
 Text GLabel 9300 5000 0    40   Input ~ 0
 5vdc-analog
@@ -1105,7 +1105,7 @@ L CONN_1 P7
 U 1 1 4F0BB535
 P 9150 5250
 F 0 "P7" H 9230 5250 40  0000 L CNN
-F 1 "MAT" H 9150 5305 30  0001 C CNN
+F 1 "SPR" H 9150 5305 30  0001 C CNN
 	1    9150 5250
 	-1   0    0    1   
 $EndComp
@@ -1133,9 +1133,9 @@ COOLANT
 Text GLabel 10650 5450 2    40   Output ~ 0
 COOLANT
 Text GLabel 5200 2100 0    40   Input ~ 0
-MAT
+SPR
 Text GLabel 10650 5650 2    40   Output ~ 0
-MAT
+SPR
 Text GLabel 5200 1500 0    40   Input ~ 0
 IAT
 Text GLabel 10650 5250 2    40   Output ~ 0
