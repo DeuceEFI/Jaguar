@@ -33,6 +33,11 @@
 * Added low side driver separating lines on the PCB silkscreen to show the separation of the FP and LSD-1. - DONE 05/12/2013
 * Made Silkscreen area separating lines wider. - DONE 05/12/2013
 * R20 and R23 footprints were too small for 3w resistor, used bigger footprint and moved other components out of the way. - DONE 05/12/2013
+* Rename PK5 to PortK5. - DONE 05/13/2013
+* Rename FAN-OUT to PortK4. - DONE 05/13/2013
+* Rename ACC to LSD-2, rename ACC- to LSD2-. - DONE 05/13/2013
+* Rename FAN to LSD-1, rename FAN- to LSD1-. - DONE 05/13/2013
+* Rename OUT-GND to OUTPUT-GND. - DONE 05/13/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
