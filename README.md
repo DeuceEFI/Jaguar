@@ -2,7 +2,7 @@
 
 JAG 05/12/2013 1517 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  I have built and installed the first Jaguar 0.4-alpha board in my 1996 Chevrolet S10 for testing.  See the TODO.md file for the up to date changes from this build.
+####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  I have built and installed the first Jaguar 0.4-alpha board in my 1996 Chevrolet S10 for testing.  See the TODO.md file for the up to date changes from this 0.6-alpha board.
 
 ### Introduction
 

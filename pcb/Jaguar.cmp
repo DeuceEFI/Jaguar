@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 08 Apr 2013 04:00:53 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 12 May 2013 06:51:43 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -738,7 +738,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DBE71;
 Reference = Load1;
-ValeurCmp = Load/Run;
+ValeurCmp = Load;
 IdModule  = PIN_ARRAY_2;
 EndCmp
 
@@ -1439,7 +1439,7 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1DA7D5;
 Reference = R20;
 ValeurCmp = 5k;
-IdModule  = rc03_vert;
+IdModule  = RC07_vert;
 EndCmp
 
 BeginCmp
@@ -1460,7 +1460,7 @@ BeginCmp
 TimeStamp = /4F0BB08D/4F1DA6C2;
 Reference = R23;
 ValeurCmp = 5k;
-IdModule  = rc03_vert;
+IdModule  = RC07_vert;
 EndCmp
 
 BeginCmp
@@ -1865,14 +1865,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/5092BECA;
 Reference = R91;
-ValeurCmp = 100;
+ValeurCmp = 150;
 IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/5092BED6;
 Reference = R92;
-ValeurCmp = 100;
+ValeurCmp = 150;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1886,14 +1886,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/509C864A;
 Reference = R100;
-ValeurCmp = 100;
+ValeurCmp = 150;
 IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/509C8649;
 Reference = R101;
-ValeurCmp = 100;
+ValeurCmp = 150;
 IdModule  = RC03_vert;
 EndCmp
 
