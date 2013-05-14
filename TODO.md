@@ -1,9 +1,8 @@
 # To Do List
 
-## JAG 05/13/2013 1237 EDT (GMT-0400)
+## JAG 05/13/2013 2204 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
-
 
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
@@ -40,6 +39,7 @@
 * Rename OUT-GND to OUTPUT-GND. - DONE 05/13/2013
 * Rename MAT to SPR. - DONE 05/13/2013
 * Added a pair of mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case. - DONE 05/13/2013
+* Renamed OUTPUT-12v to IGN-12v as it wasn't clear what this pad was for. - DONE 05/13/2013
 
 ----------
 ### 0.5-alpha Changes Completed:

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 12:23:58 PM EDT
+EESchema Schematic File Version 2  date Mon 13 May 2013 10:04:40 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "13 may 2013"
+Date "14 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -784,7 +784,7 @@ L CONN_1 P32
 U 1 1 4F1CD4E4
 P 8400 2200
 F 0 "P32" H 8480 2200 40  0000 L CNN
-F 1 "OUTPUT-12v" H 8400 2255 30  0001 C CNN
+F 1 "IGN-12v" H 8400 2255 30  0001 C CNN
 	1    8400 2200
 	-1   0    0    1   
 $EndComp
