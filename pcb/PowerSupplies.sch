@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 14 May 2013 05:29:01 PM EDT
+EESchema Schematic File Version 2  date Wed 15 May 2013 02:06:49 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "14 may 2013"
+Date "15 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -20,91 +20,99 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7450 1150
+Connection ~ 5100 3750
+Connection ~ 5100 3350
 Wire Wire Line
-	7450 1450 7450 1150
-Connection ~ 5050 1650
-Connection ~ 5050 2150
-Connection ~ 5650 2150
-Connection ~ 6050 1650
-Connection ~ 6050 2650
+	5100 3750 2350 3750
 Wire Wire Line
-	2350 2650 7450 2650
+	7450 1850 7450 2650
 Wire Wire Line
-	7150 1650 6050 1650
+	7700 1150 4550 1150
+Connection ~ 6050 1150
+Connection ~ 5050 1150
 Wire Wire Line
-	5650 2150 5050 2150
-Connection ~ 5050 2650
-Connection ~ 2150 3350
+	4550 1150 4550 2250
 Wire Wire Line
-	3050 3350 2150 3350
+	4550 2250 3850 2250
+Connection ~ 1750 2250
+Connection ~ 2150 2250
 Wire Wire Line
-	1650 3850 2350 3850
-Wire Wire Line
-	1650 3850 1650 3900
-Wire Wire Line
-	1650 3900 1500 3900
-Connection ~ 5300 3350
-Connection ~ 5900 3350
-Wire Wire Line
-	5900 3350 5950 3350
-Connection ~ 1750 2850
-Wire Wire Line
-	1750 2250 1750 3350
-Wire Wire Line
-	5050 2650 5050 2750
-Wire Wire Line
-	2350 3750 4550 3750
-Connection ~ 3450 3750
-Wire Wire Line
-	3450 3750 3450 3650
-Connection ~ 2350 2250
-Connection ~ 2800 2250
-Connection ~ 3050 2250
-Connection ~ 3850 2250
-Connection ~ 4100 2250
-Connection ~ 4550 2250
-Connection ~ 4550 2650
-Connection ~ 4100 2650
-Connection ~ 3450 2550
-Connection ~ 2800 2650
-Connection ~ 2350 2650
-Connection ~ 2350 3350
-Connection ~ 2800 3350
-Connection ~ 3050 3350
-Connection ~ 2800 3750
-Connection ~ 2350 3750
-Connection ~ 3450 3650
-Connection ~ 3850 3350
-Connection ~ 4100 3350
-Connection ~ 4100 3750
-Connection ~ 4550 3350
-Connection ~ 4550 3750
-Wire Wire Line
-	3450 2650 3450 2550
-Connection ~ 3450 2650
-Connection ~ 1750 3850
-Connection ~ 1750 3350
-Wire Wire Line
-	3850 3350 5300 3350
-Wire Wire Line
-	2350 3750 2350 3850
+	3050 2250 2150 2250
 Wire Wire Line
 	4550 3750 4550 3850
 Wire Wire Line
-	3050 2250 2150 2250
-Connection ~ 2150 2250
-Connection ~ 1750 2250
+	2350 3750 2350 3850
 Wire Wire Line
-	3850 2250 4550 2250
+	3850 3350 5300 3350
+Connection ~ 1750 3350
+Connection ~ 1750 3850
+Connection ~ 3450 2650
 Wire Wire Line
-	4550 2250 4550 1150
-Connection ~ 5050 1150
-Connection ~ 6050 1150
+	3450 2650 3450 2550
+Connection ~ 4550 3750
+Connection ~ 4550 3350
+Connection ~ 4100 3750
+Connection ~ 4100 3350
+Connection ~ 3850 3350
+Connection ~ 3450 3650
+Connection ~ 2350 3750
+Connection ~ 2800 3750
+Connection ~ 3050 3350
+Connection ~ 2800 3350
+Connection ~ 2350 3350
+Connection ~ 2350 2650
+Connection ~ 2800 2650
+Connection ~ 3450 2550
+Connection ~ 4100 2650
+Connection ~ 4550 2650
+Connection ~ 4550 2250
+Connection ~ 4100 2250
+Connection ~ 3850 2250
+Connection ~ 3050 2250
+Connection ~ 2800 2250
+Connection ~ 2350 2250
 Wire Wire Line
-	4550 1150 7700 1150
+	3450 3750 3450 3650
+Connection ~ 3450 3750
 Wire Wire Line
-	7450 2650 7450 1850
+	5050 2650 5050 2750
+Wire Wire Line
+	1750 2250 1750 3350
+Connection ~ 1750 2850
+Connection ~ 5300 3350
+Wire Wire Line
+	1500 3900 1650 3900
+Wire Wire Line
+	1650 3900 1650 3850
+Wire Wire Line
+	1650 3850 2350 3850
+Wire Wire Line
+	3050 3350 2150 3350
+Connection ~ 2150 3350
+Connection ~ 5050 2650
+Wire Wire Line
+	5650 2150 5050 2150
+Wire Wire Line
+	7150 1650 6050 1650
+Wire Wire Line
+	7450 2650 2350 2650
+Connection ~ 6050 2650
+Connection ~ 6050 1650
+Connection ~ 5650 2150
+Connection ~ 5050 2150
+Connection ~ 5050 1650
+Wire Wire Line
+	7450 1450 7450 1150
+Connection ~ 7450 1150
+$Comp
+L ZENER D2
+U 1 1 5193C4AB
+P 5100 3550
+F 0 "D2" H 5100 3650 50  0000 C CNN
+F 1 "5.6v" H 5100 3450 40  0000 C CNN
+	1    5100 3550
+	0    -1   -1   0   
+$EndComp
 $Comp
 L PNP Q12
 U 1 1 511FEC45
@@ -183,15 +191,6 @@ Text HLabel 1500 3900 0    25   Input ~ 0
 PWR-GND
 Text Notes 1800 1400 0    60   ~ 0
 JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
-$Comp
-L JUMPER JP10
-U 1 1 4F401512
-P 5600 3350
-F 0 "JP10" H 5600 3500 60  0000 C CNN
-F 1 "JUMPER" H 5600 3270 40  0000 C CNN
-	1    5600 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L VR MOV1
 U 1 1 4F24F92A
@@ -276,7 +275,7 @@ F 1 "47uF" H 4600 3450 50  0000 L CNN
 $EndComp
 Text HLabel 7700 1150 2    40   Output ~ 0
 5vdc-analog
-Text HLabel 5950 3350 2    40   Output ~ 0
+Text HLabel 5300 3350 2    40   Output ~ 0
 5vdc-cpu
 $Comp
 L CP1 C18

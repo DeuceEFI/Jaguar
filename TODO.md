@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/14/2013 1731 EDT (GMT-0400)
+## JAG 05/15/2013 1432 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -41,6 +41,7 @@
 * Added a pair of mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case. - DONE 05/13/2013
 * Renamed OUTPUT-12v to IGN-12v as it wasn't clear what this pad was for. - DONE 05/13/2013
 * Renamed LSD2- to LSD2, renamed LSD-2 to LSD2-IN, renamed FAN- to LSD1, renamed FAN to LSD1-IN, renamed FUEL- to FUEL. - DONE 05/14/2013
+* Added 5.6v zener diode to output of CPU 5v filtering capacitors to clamp voltage spikes. - DONE 05/15/2013
 
 ----------
 ### 0.5-alpha Changes Completed:

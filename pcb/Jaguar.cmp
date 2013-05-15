@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 12 May 2013 06:51:43 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 15 May 2013 02:06:46 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -386,6 +386,13 @@ IdModule  = led_3mm_yellow;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A4778/5193C4AB;
+Reference = D2;
+ValeurCmp = 5.6v;
+IdModule  = diode_do35;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/4F1DC643;
 Reference = D4;
 ValeurCmp = LED;
@@ -708,13 +715,6 @@ IdModule  = USB-B-micro;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A4778/4F401512;
-Reference = JP10;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0D82A1/5092BFDF;
 Reference = JP11;
 ValeurCmp = 5v/12v;
@@ -787,7 +787,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB535;
 Reference = P7;
-ValeurCmp = MAT;
+ValeurCmp = SPR;
 IdModule  = WireConnection;
 EndCmp
 
@@ -878,7 +878,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D8467;
 Reference = P25;
-ValeurCmp = FUEL-;
+ValeurCmp = FUEL;
 IdModule  = WireConnection;
 EndCmp
 
@@ -899,7 +899,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1CD4E4;
 Reference = P32;
-ValeurCmp = OUTPUT-12v;
+ValeurCmp = IGN-12v;
 IdModule  = WireConnection;
 EndCmp
 
@@ -920,28 +920,28 @@ EndCmp
 BeginCmp
 TimeStamp = /4F20C9CD;
 Reference = P35;
-ValeurCmp = FAN-;
+ValeurCmp = LSD1;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F21C093;
 Reference = P37;
-ValeurCmp = ACC-;
+ValeurCmp = LSD2;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F2222E6;
 Reference = P39;
-ValeurCmp = FAN;
+ValeurCmp = LSD1-IN;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F2222DF;
 Reference = P40;
-ValeurCmp = ACC;
+ValeurCmp = LSD2-IN;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1060,14 +1060,14 @@ EndCmp
 BeginCmp
 TimeStamp = /505E593A;
 Reference = P61;
-ValeurCmp = Fan-Out;
+ValeurCmp = LSD1-Out;
 IdModule  = WIREWRAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /505E5BF7;
 Reference = P62;
-ValeurCmp = PK5;
+ValeurCmp = PortK5;
 IdModule  = WIREWRAP;
 EndCmp
 

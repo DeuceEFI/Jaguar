@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 14 May 2013 05:29:01 PM EDT
+EESchema Schematic File Version 2  date Wed 15 May 2013 02:06:49 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "14 may 2013"
+Date "15 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -20,6 +20,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 2200 2950
 $Comp
 L USB_B-MICRO J1
 U 1 1 50D86838
@@ -154,7 +155,7 @@ F 1 "40" V 2550 2250 50  0000 C CNN
 	1    2550 2250
 	-1   0    0    1   
 $EndComp
-Text Notes 1700 3050 0    40   ~ 0
+Text Notes 1750 3700 0    40   ~ 0
 USB-B Micro Connector
 Text Label 2600 3350 0    25   ~ 0
 D+
