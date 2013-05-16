@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 05/15/2013 1944 EDT (GMT-0400)
+## JAG 05/16/2013 0654 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* IG3 and IG4 pads/holes should be 0.0315" diameter.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
@@ -43,6 +42,7 @@
 * Renamed OUTPUT-12v to IGN-12v as it wasn't clear what this pad was for. - DONE 05/13/2013
 * Renamed LSD2- to LSD2, renamed LSD-2 to LSD2-IN, renamed FAN- to LSD1, renamed FAN to LSD1-IN, renamed FUEL- to FUEL. - DONE 05/14/2013
 * Added 5.6v zener diode to output of CPU 5v filtering capacitors to clamp voltage spikes. - DONE 05/15/2013
+* IG1, IG2, IG3 and IG4 pads/holes increased from 0.0215" to 0.0315" diameter. - DONE 05/16/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
