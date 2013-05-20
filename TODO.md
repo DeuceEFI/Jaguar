@@ -1,9 +1,11 @@
 # To Do List
 
-## JAG 05/16/2013 0654 EDT (GMT-0400)
+## JAG 05/20/2013 1920 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
+* Add a second fuse between stock MAP power supply pad and external through hole 5vdc connection point for the external MAP sensor.
+* Make sure the AAP 5vdc isn't after the TPS protection fuse (F1).
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
