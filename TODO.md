@@ -1,10 +1,10 @@
 # To Do List
 
-## JAG 05/20/2013 1940 EDT (GMT-0400)
+## JAG 05/21/2013 1603 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Make BDM pad spacing and hole diameter the same as C42, C26 and C43, it fits perfectly.
+* Make BDM pad spacing and hole diameter similar to the spacing for C42, C26 and C43.
 * Add a second fuse between stock MAP power supply pad and external through hole 5vdc connection point for the external MAP sensor.
 * Make sure the AAP 5vdc isn't after the TPS protection fuse (F1).
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
@@ -20,7 +20,7 @@
 ### 0.6-alpha Changes Completed:
 
 * L1, R106, R107, R108, R109 and U13 silkscreens are not visible, ie: too small. - DONE 05/10/2013
-* Increase RPM0+ wire hole diameter to the same as RPM0-. - DONE 05/10/2013
+* Increased RPM0+ wire hole diameter to the same as RPM0-. - DONE 05/10/2013
 * Deleted R79 from the BOM, it has been replaced by L1. - DONE 05/10/2013
 * Moved Injector Outputs lettering on component side away from INJ4-GND and INJ5-GND letterning. - DONE 05/10/2013
 * Deleted D2 from PCB, it is not in the schematic any longer. - DONE 05/10/2013
@@ -35,17 +35,19 @@
 * Added low side driver separating lines on the PCB silkscreen to show the separation of the FP and LSD-1. - DONE 05/12/2013
 * Made Silkscreen area separating lines wider. - DONE 05/12/2013
 * R20 and R23 footprints were too small for 3w resistor, used bigger footprint and moved other components out of the way. - DONE 05/12/2013
-* Rename PK5 to PortK5. - DONE 05/13/2013
-* Rename FAN-OUT to PortK4. - DONE 05/13/2013
-* Rename ACC to LSD-2, rename ACC- to LSD2-. - DONE 05/13/2013
-* Rename FAN to LSD-1, rename FAN- to LSD1-. - DONE 05/13/2013
-* Rename OUT-GND to OUTPUT-GND. - DONE 05/13/2013
-* Rename MAT to SPR. - DONE 05/13/2013
+* Renamed PK5 to PortK5. - DONE 05/13/2013
+* Renamed FAN-OUT to PortK4. - DONE 05/13/2013
+* Renamed ACC to LSD-2, rename ACC- to LSD2-. - DONE 05/13/2013
+* Renamed FAN to LSD-1, rename FAN- to LSD1-. - DONE 05/13/2013
+* Renamed OUT-GND to OUTPUT-GND. - DONE 05/13/2013
+* Renamed MAT to SPR. - DONE 05/13/2013
 * Added a pair of mica T0-220 isolator kits to the BOM to isolate the voltage regulators from the case. - DONE 05/13/2013
 * Renamed OUTPUT-12v to IGN-12v as it wasn't clear what this pad was for. - DONE 05/13/2013
 * Renamed LSD2- to LSD2, renamed LSD-2 to LSD2-IN, renamed FAN- to LSD1, renamed FAN to LSD1-IN, renamed FUEL- to FUEL. - DONE 05/14/2013
 * Added 5.6v zener diode to output of CPU 5v filtering capacitors to clamp voltage spikes. - DONE 05/15/2013
 * IG1, IG2, IG3 and IG4 pads/holes increased from 0.0215" to 0.0315" diameter. - DONE 05/16/2013
+* Renamed PortK5 to PK5 to conserve space. - DONE 05/21/2013
+* Renamed PortK4 to PK4 to conserve space. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
