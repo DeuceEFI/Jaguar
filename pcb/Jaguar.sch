@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 15 May 2013 02:06:49 PM EDT
+EESchema Schematic File Version 2  date Tue 21 May 2013 04:54:21 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "15 may 2013"
+Date "21 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -691,7 +691,7 @@ L CONN_4 P20
 U 1 1 4F1F56DE
 P 6450 4000
 F 0 "P20" V 6400 4000 50  0000 C CNN
-F 1 "PT4-7" V 6500 4000 50  0000 C CNN
+F 1 "Port T4-7" V 6500 4000 50  0000 C CNN
 	1    6450 4000
 	1    0    0    -1  
 $EndComp
@@ -700,7 +700,7 @@ L CONN_8 P33
 U 1 1 4F1EAE6B
 P 6450 4700
 F 0 "P33" V 6400 4700 60  0000 C CNN
-F 1 "Injectors-PB" V 6500 4700 60  0000 C CNN
+F 1 "Port B0-7" V 6500 4700 60  0000 C CNN
 	1    6450 4700
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 15 May 2013 02:06:46 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 21 May 2013 04:55:21 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -864,7 +864,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1F56DE;
 Reference = P20;
-ValeurCmp = PT4-7;
+ValeurCmp = Port_T4-7;
 IdModule  = PIN_STRIP_4;
 EndCmp
 
@@ -906,7 +906,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1EAE6B;
 Reference = P33;
-ValeurCmp = Injectors-PB;
+ValeurCmp = Port_B0-7;
 IdModule  = SIL-8;
 EndCmp
 
@@ -1072,17 +1072,10 @@ IdModule  = WIREWRAP;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/508EA544;
+TimeStamp = /4F0A2F06/519BDE3D;
 Reference = P64;
-ValeurCmp = RXCAN0;
-IdModule  = wirewrap;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/508EA553;
-Reference = P65;
-ValeurCmp = TXCAN0;
-IdModule  = wirewrap;
+ValeurCmp = CAN-RX-TX;
+IdModule  = PIN_ARRAY_2;
 EndCmp
 
 BeginCmp
@@ -1221,14 +1214,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F221DE9;
 Reference = PP1;
-ValeurCmp = PP0-3;
+ValeurCmp = Port_P0-3;
 IdModule  = PIN_STRIP_4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F221E2B;
 Reference = PP2;
-ValeurCmp = PP4-7;
+ValeurCmp = Port_P4-7;
 IdModule  = PIN_STRIP_4;
 EndCmp
 

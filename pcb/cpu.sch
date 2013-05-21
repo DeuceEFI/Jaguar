@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 15 May 2013 02:06:49 PM EDT
+EESchema Schematic File Version 2  date Tue 21 May 2013 04:54:21 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "15 may 2013"
+Date "21 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -20,13 +20,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4200 1650
+Connection ~ 4000 1650
+Wire Wire Line
+	4000 1750 4000 1650
 Connection ~ 4100 1750
 Connection ~ 4000 1750
-Connection ~ 4300 1400
+Connection ~ 4300 1050
 Wire Wire Line
-	4300 1450 4300 1400
+	4300 1100 4300 1050
 Wire Wire Line
-	4050 1400 4050 900 
+	4050 550  4050 1050
 Wire Wire Line
 	4100 7700 4100 7500
 Connection ~ 6050 900 
@@ -95,9 +99,9 @@ Wire Wire Line
 	8450 5950 8150 5950
 Wire Wire Line
 	1850 7550 1850 7600
-Connection ~ 4050 1400
+Connection ~ 4050 1050
 Wire Wire Line
-	4400 6550 4400 7700
+	4400 7700 4400 6550
 Wire Wire Line
 	4500 6950 4500 6550
 Connection ~ 7000 4850
@@ -140,10 +144,10 @@ Wire Wire Line
 	9250 4350 9250 3950
 Wire Wire Line
 	9250 3950 8950 3950
-Connection ~ 4050 1250
-Connection ~ 3650 1250
+Connection ~ 4050 900 
+Connection ~ 3650 900 
 Wire Wire Line
-	3900 1750 3900 1400
+	3900 1750 3900 1050
 Connection ~ 1300 3900
 Wire Wire Line
 	9900 5950 9900 6300
@@ -198,7 +202,7 @@ Connection ~ 7000 4550
 Connection ~ 5200 6550
 Connection ~ 1600 7050
 Wire Wire Line
-	7900 6350 8400 6350
+	8400 6350 7900 6350
 Wire Wire Line
 	10450 6300 10450 6400
 Wire Wire Line
@@ -210,9 +214,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 4150 2200 4150
 Wire Wire Line
-	3800 1750 3800 1400
+	3800 1750 3800 1050
 Wire Wire Line
-	3800 1400 3700 1400
+	3800 1050 3700 1050
 Wire Wire Line
 	650  7050 800  7050
 Connection ~ 8950 3950
@@ -230,7 +234,7 @@ Connection ~ 5000 6550
 Connection ~ 5100 6550
 Connection ~ 800  6550
 Wire Wire Line
-	1850 6550 800  6550
+	800  6550 1850 6550
 Wire Notes Line
 	9550 5750 9550 7000
 Wire Notes Line
@@ -281,8 +285,8 @@ Wire Wire Line
 	7700 4650 7700 4800
 Wire Wire Line
 	7700 4800 7850 4800
-Connection ~ 3650 900 
-Connection ~ 4050 900 
+Connection ~ 3650 550 
+Connection ~ 4050 550 
 Connection ~ 4400 7300
 Connection ~ 4800 7300
 Connection ~ 4400 7550
@@ -293,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 6550 4200 7000
 Wire Wire Line
-	4200 7500 4000 7500
+	4000 7500 4200 7500
 Wire Wire Line
 	4000 6550 4000 6900
 Wire Wire Line
@@ -310,12 +314,12 @@ Connection ~ 2200 3950
 Wire Notes Line
 	9550 4950 8400 4950
 Wire Wire Line
-	3700 1250 3650 1250
+	3700 900  3650 900 
 Wire Wire Line
-	3700 1250 3700 1400
-Connection ~ 3700 1400
+	3700 900  3700 1050
+Connection ~ 3700 1050
 Wire Wire Line
-	3650 1250 3650 900 
+	3650 900  3650 550 
 Connection ~ 3600 1750
 Connection ~ 3500 1750
 Connection ~ 3400 1750
@@ -327,7 +331,7 @@ Wire Notes Line
 Wire Notes Line
 	9100 4800 8750 4800
 Wire Wire Line
-	8800 4850 9250 4850
+	9250 4850 8800 4850
 Connection ~ 8800 4850
 Connection ~ 8300 4850
 Wire Wire Line
@@ -342,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 1650 6100 1850
 Wire Wire Line
-	7150 1750 6000 1750
+	6000 1750 7150 1750
 Connection ~ 5400 1750
 Connection ~ 5300 1750
 Connection ~ 5500 1650
@@ -360,23 +364,18 @@ Connection ~ 3400 6550
 Connection ~ 3500 6550
 Connection ~ 2200 4650
 Wire Wire Line
-	3900 1400 4300 1400
+	3900 1050 4300 1050
+Wire Wire Line
+	4100 1750 4100 1650
+Wire Wire Line
+	4100 1650 4200 1650
 $Comp
-L CONN_1 P65
-U 1 1 508EA553
-P 4100 1600
-F 0 "P65" H 4150 1600 40  0000 L CNN
-F 1 "TXCAN0" H 4100 1655 30  0001 C CNN
-	1    4100 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P64
-U 1 1 508EA544
-P 4000 1600
-F 0 "P64" H 4050 1600 40  0000 L CNN
-F 1 "RXCAN0" H 4000 1655 30  0001 C CNN
-	1    4000 1600
+L CONN_2 P64
+U 1 1 519BDE3D
+P 4100 1300
+F 0 "P64" V 4050 1300 40  0000 C CNN
+F 1 "CAN-RX-TX" V 4150 1300 40  0000 C CNN
+	1    4100 1300
 	0    -1   -1   0   
 $EndComp
 Text HLabel 2200 4650 0    40   Output ~ 0
@@ -443,7 +442,7 @@ Text HLabel 7150 1750 2    25   Input ~ 0
 PCB-GND
 Text HLabel 6050 900  2    25   Input ~ 0
 PCB-GND
-Text HLabel 4300 1400 2    25   Input ~ 0
+Text HLabel 4300 1050 2    25   Input ~ 0
 PCB-GND
 Text HLabel 9250 3950 2    40   Input ~ 0
 5vdc-cpu
@@ -464,13 +463,13 @@ Text HLabel 5400 1000 0    40   Input ~ 0
 $Comp
 L CP1 C47
 U 1 1 4F1E09CB
-P 3850 900
-F 0 "C47" H 3900 1000 50  0000 L CNN
-F 1 "10uF" H 3900 800 50  0000 L CNN
-	1    3850 900 
+P 3850 550
+F 0 "C47" H 3900 650 50  0000 L CNN
+F 1 "10uF" H 3900 450 50  0000 L CNN
+	1    3850 550 
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3650 900  0    40   Input ~ 0
+Text HLabel 3650 550  0    40   Input ~ 0
 5vdc-cpu
 Text Notes 7900 6050 0    25   ~ 0
 CPU Pin 45
@@ -496,7 +495,7 @@ L CONN_4 PP2
 U 1 1 4F221E2B
 P 3450 1400
 F 0 "PP2" V 3400 1400 50  0000 C CNN
-F 1 "PP4-7" V 3500 1400 50  0000 C CNN
+F 1 "Port P4-7" V 3500 1400 50  0000 C CNN
 	1    3450 1400
 	0    -1   -1   0   
 $EndComp
@@ -505,7 +504,7 @@ L CONN_4 PP1
 U 1 1 4F221DE9
 P 1850 3000
 F 0 "PP1" V 1800 3000 50  0000 C CNN
-F 1 "PP0-3" V 1900 3000 50  0000 C CNN
+F 1 "Port P0-3" V 1900 3000 50  0000 C CNN
 	1    1850 3000
 	-1   0    0    1   
 $EndComp
@@ -543,7 +542,7 @@ Text Notes 6400 1600 0    40   ~ 0
 C4 and C44 X7R Ceramic
 Text Notes 4900 7500 0    40   ~ 0
 C48 10v Tantalum\nC3 X7R Ceramic
-Text Notes 4100 1250 0    40   ~ 0
+Text Notes 4100 900  0    40   ~ 0
 C47 10v Tantalum\nC2 X7R Ceramic
 $Comp
 L C C5
@@ -635,10 +634,10 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 4F1C289E
-P 4300 1450
-F 0 "#PWR07" H 4300 1450 30  0001 C CNN
-F 1 "GND" H 4300 1380 30  0001 C CNN
-	1    4300 1450
+P 4300 1100
+F 0 "#PWR07" H 4300 1100 30  0001 C CNN
+F 1 "GND" H 4300 1030 30  0001 C CNN
+	1    4300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1026,10 +1025,10 @@ $EndComp
 $Comp
 L C C2
 U 1 1 4F0A300F
-P 3850 1250
-F 0 "C2" H 3900 1350 50  0000 L CNN
-F 1 "0.22uF" H 3900 1150 50  0000 L CNN
-	1    3850 1250
+P 3850 900
+F 0 "C2" H 3900 1000 50  0000 L CNN
+F 1 "0.22uF" H 3900 800 50  0000 L CNN
+	1    3850 900 
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

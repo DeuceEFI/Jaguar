@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/21/2013 1645 EDT (GMT-0400)
+## JAG 05/21/2013 1707 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -55,6 +55,7 @@
 * Changed the wording of "Ignition Outputs" to "Ignition Outputs 1 & 2" and "Ignition Outputs 3 & 4". - DONE 05/21/2013
 * Added INJ1, INJ2, INJ3, etc to the through hole component side of the PCB. - DONE 05/21/2013
 * Changed Load pads to use a 0.0315" drill like the BDM pads for a snug fit so the header doesn't fall out. - DONE 05/21/2013
+* Made the CANRX0/CANTX0 into a 0.100" header so that a add-on card could be created later. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
