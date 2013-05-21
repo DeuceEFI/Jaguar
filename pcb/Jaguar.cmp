@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 21 May 2013 04:55:21 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 21 May 2013 05:57:53 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -708,6 +708,13 @@ IdModule  = c_1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0BB08D/519BED5D;
+Reference = F2;
+ValeurCmp = 0.5A_Fuse;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/50D86838;
 Reference = J1;
 ValeurCmp = USB_B-MICRO;
@@ -1075,6 +1082,13 @@ BeginCmp
 TimeStamp = /4F0A2F06/519BDE3D;
 Reference = P64;
 ValeurCmp = CAN-RX-TX;
+IdModule  = PIN_ARRAY_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A4778/519BE395;
+Reference = P65;
+ValeurCmp = GND/5v;
 IdModule  = PIN_ARRAY_2;
 EndCmp
 
