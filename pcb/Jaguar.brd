@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 21 May 2013 04:03:03 PM EDT
+PCBNEW-BOARD Version 1 date Tue 21 May 2013 04:11:46 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -55,7 +55,7 @@ TextPcbSize 800 800
 EdgeModWidth 10
 TextModSize 200 200
 TextModWidth 40
-PadSize 550 550
+PadSize 600 600
 PadDrill 315
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
@@ -2827,7 +2827,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  cnp_3mm_disc
 $MODULE PIN_ARRAY_3X2
-Po 29970 15340 0 0 50A2EED8 4F2EFE6C ~~
+Po 29970 15340 0 0 519BD442 4F2EFE6C ~~
 Li PIN_ARRAY_3X2
 Cd Double rangee de contacts 2 x 4 pins
 Kw CONN
@@ -2842,7 +2842,7 @@ DS 1500 1000 1500 -1000 100 20
 DS -1500 -1000 -1500 1000 100 20
 $PAD
 Sh "1" R 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 1 "/CPU/BKGD"
 Po -1000 -500
@@ -2851,7 +2851,7 @@ Po -1000 -500
 $EndPAD
 $PAD
 Sh "2" C 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 19 "/CPU/PCB-GND"
 Po -1000 500
@@ -2860,7 +2860,7 @@ Po -1000 500
 $EndPAD
 $PAD
 Sh "3" C 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 0 ""
 Po 0 -500
@@ -2869,7 +2869,7 @@ Po 0 -500
 $EndPAD
 $PAD
 Sh "4" C 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 21 "/CPU/RESET"
 Po 0 500
@@ -2878,7 +2878,7 @@ Po 0 500
 $EndPAD
 $PAD
 Sh "5" C 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 0 ""
 Po 1000 -500
@@ -2887,7 +2887,7 @@ Po 1000 -500
 $EndPAD
 $PAD
 Sh "6" C 600 600 0 0 0
-Dr 394 0 0
+Dr 315 0 0
 At STD N 00D0FFFF
 Ne 26 "/CPU/ft21"
 Po 1000 500
@@ -21453,7 +21453,7 @@ ZLayer 15
 ZAux 25 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 350 124
+ZOptions 1 16 F 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 41972 19086 0
@@ -21871,7 +21871,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 S 300 124
+ZOptions 1 16 F 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0

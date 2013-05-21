@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 05/21/2013 1603 EDT (GMT-0400)
+## JAG 05/21/2013 1614 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Make BDM pad spacing and hole diameter similar to the spacing for C42, C26 and C43.
 * Add a second fuse between stock MAP power supply pad and external through hole 5vdc connection point for the external MAP sensor.
 * Make sure the AAP 5vdc isn't after the TPS protection fuse (F1).
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
@@ -48,6 +47,7 @@
 * IG1, IG2, IG3 and IG4 pads/holes increased from 0.0215" to 0.0315" diameter. - DONE 05/16/2013
 * Renamed PortK5 to PK5 to conserve space. - DONE 05/21/2013
 * Renamed PortK4 to PK4 to conserve space. - DONE 05/21/2013
+* Made BDM pad spacing 0.100" and hole diameter 0.0315", which is similar to the spacing for C42, C26 and C43. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
