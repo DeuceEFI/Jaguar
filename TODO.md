@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 05/21/2013 1813 EDT (GMT-0400)
+## JAG 05/21/2013 1814 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Make sure the AAP 5vdc isn't after the TPS protection fuse (F1).
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
@@ -56,6 +55,7 @@
 * Changed Load pads to use a 0.0315" drill like the BDM pads for a snug fit so the header doesn't fall out. - DONE 05/21/2013
 * Made the CANRX0/CANTX0 into a 0.100" header so that a add-on card could be created later. - DONE 05/21/2013
 * Added a second fuse (F2) between stock MAP power supply pad and external through hole 5vdc connection point for the external MAP sensor. - DONE 05/21/2013
+* I verified that the AAP 5vdc is not after the TPS protection fuse (F1) or F2. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
