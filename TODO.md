@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/21/2013 1618 EDT (GMT-0400)
+## JAG 05/21/2013 1635 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -49,6 +49,11 @@
 * Renamed PortK4 to PK4 to conserve space. - DONE 05/21/2013
 * Made BDM pad spacing 0.100" and hole diameter 0.0315", which is similar to the spacing for C42, C26 and C43. - DONE 05/21/2013
 * Changed the wording of Injector Outputs to Injector Drivers. - DONE 05/21/2013
+* Changed the wording "by Andy Goss 2012-2013" under Jaguar to "Copyright 2012-2013". - DONE 05/21/2013
+* Changed the wording "Andy Goss (DeuceEFI)" to "Andy Goss". - DONE 05/21/2013
+* Removed the wording "2012-2013" that was after "for FreeEMS" in the center of the board. - DONE 05/21/2013
+* Changed the wording of "Ignition Outputs" to "Ignition Outputs 1 & 2" and "Ignition Outputs 3 & 4". - DONE 05/21/2013
+* Added INJ1, INJ2, INJ3, etc to the through hole component side of the PCB. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
