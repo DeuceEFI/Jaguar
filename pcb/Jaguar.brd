@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 21 May 2013 04:11:46 PM EDT
+PCBNEW-BOARD Version 1 date Tue 21 May 2013 04:17:30 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -17533,7 +17533,7 @@ Po 41420 18650 300 400 75 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Injector Outputs"
+Te "Injector Drivers"
 Po 19043 26016 600 800 120 900
 De 20 0 0 Normal
 $EndTEXTPCB

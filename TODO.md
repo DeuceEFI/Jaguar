@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/21/2013 1614 EDT (GMT-0400)
+## JAG 05/21/2013 1618 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -48,6 +48,7 @@
 * Renamed PortK5 to PK5 to conserve space. - DONE 05/21/2013
 * Renamed PortK4 to PK4 to conserve space. - DONE 05/21/2013
 * Made BDM pad spacing 0.100" and hole diameter 0.0315", which is similar to the spacing for C42, C26 and C43. - DONE 05/21/2013
+* Changed the wording of Injector Outputs to Injector Drivers. - DONE 05/21/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
