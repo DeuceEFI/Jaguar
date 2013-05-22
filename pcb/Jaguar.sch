@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 21 May 2013 05:59:27 PM EDT
+EESchema Schematic File Version 2  date Tue 21 May 2013 08:16:12 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "21 may 2013"
+Date "22 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -120,11 +120,6 @@ Connection ~ 6900 2100
 Connection ~ 7350 2000
 Wire Wire Line
 	7350 1900 7350 2000
-Connection ~ 4800 2400
-Connection ~ 4800 2300
-Connection ~ 5200 2300
-Wire Wire Line
-	5200 2300 4800 2300
 Wire Wire Line
 	9050 2200 8550 2200
 Wire Wire Line
@@ -262,8 +257,6 @@ Wire Wire Line
 Connection ~ 9300 4350
 Connection ~ 9350 4100
 Wire Wire Line
-	4800 2300 4800 2400
-Wire Wire Line
 	7400 2000 6900 2000
 Wire Wire Line
 	9050 2900 8450 2900
@@ -289,16 +282,7 @@ F 1 "LSD1-Out" H 7500 1955 30  0001 C CNN
 	1    7500 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P56
-U 1 1 502413D0
-P 4650 2300
-F 0 "P56" H 4730 2300 40  0000 L CNN
-F 1 "MAF-CPU-Signal" H 4650 2355 30  0001 C CNN
-	1    4650 2300
-	-1   0    0    1   
-$EndComp
-Text GLabel 4800 2400 0    40   Input ~ 0
+Text GLabel 5200 2300 0    40   Input ~ 0
 MAF
 Text GLabel 10650 5750 2    40   Output ~ 0
 MAF
