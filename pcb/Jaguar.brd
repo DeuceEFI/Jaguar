@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 22 May 2013 08:52:08 AM EDT
+PCBNEW-BOARD Version 1 date Wed 22 May 2013 08:52:54 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -18036,7 +18036,7 @@ De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "Version 0.6-alpha"
-nl "git: xxxxxxxxxx"
+nl "Git: xxxxxxxxxx"
 Po 26020 33905 400 450 80 900
 De 21 1 0 Normal
 $EndTEXTPCB
