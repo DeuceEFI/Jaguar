@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 21 May 2013 09:24:29 PM EDT
+PCBNEW-BOARD Version 1 date Wed 22 May 2013 08:52:08 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -16275,7 +16275,7 @@ Po 54917 31776 500 500 120 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Copyright 2012-13"
+Te "Copyright 2012-2013"
 Po 58441 17516 300 400 75 0
 De 20 0 0 Italic
 $EndTEXTPCB
@@ -16618,7 +16618,7 @@ Po 26571 37929 250 350 63 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Copyright  2012-13"
+Te "Copyright  2012-2013"
 Po 30441 25858 300 400 75 0
 De 21 1 0 Italic
 $EndTEXTPCB
@@ -21647,7 +21647,7 @@ ZLayer 15
 ZAux 25 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 350 124
+ZOptions 1 16 S 350 124
 ZCorner 45241 26555 0
 ZCorner 45241 19086 0
 ZCorner 41972 19086 0
@@ -22065,7 +22065,7 @@ ZLayer 0
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 63760 38330 0
 ZCorner 63760 9830 0
 ZCorner 13760 9830 0
