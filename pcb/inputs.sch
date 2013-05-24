@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 21 May 2013 08:16:12 PM EDT
+EESchema Schematic File Version 2  date Thu 23 May 2013 09:51:59 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -12,7 +12,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "22 may 2013"
+Date "24 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -842,7 +842,7 @@ Use the MPXA6115AC6U for Non-Boosted Engines.\nUse the MPXA4250AC6U for Boosted 
 Text Notes 6050 750  0    40   ~ 0
 R24, R25 and R31 (2.49k) can be replaced if using sensors other than\nGM temperature sensors; For FORD Sensors: use 27.4k 0.1% Metal Film\nresistors; for MOPAR Sensors: use 9.1k 0.1% Metal Film resistors or \nuse 2.43k 0.1% Metal Film resistors (best for most cases).  Be sure to\nuse FreeTherm to adjust the values in the FreeEMS code for the best\naccuracy irregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0
-For GM DIS and Ford EDIS connect RPM0-IN- and RPM1-IN- to ground.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything either. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
+For GM DIS and Ford EDIS connect RPM0-IN- and RPM1-IN- to ground.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything, it isn't needed\nunless you have a cam sensor for semi-sequential or sequential injection. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
 Text Notes 1350 1350 0    40   ~ 0
 D4/R9 and D5/R10 are \nFor Diagnostics Only!\nIf they cause issues, \nremove them.
 $Comp
@@ -985,10 +985,6 @@ F 1 "GND" H 7750 5630 30  0001 C CNN
 	1    7750 5700
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 4650 0    40   ~ 0
-This jumper allows us to \njump over Vcc on the PCB
-Text Notes 7400 2950 0    40   ~ 0
-This jumper allows us to \njump over Vcc on the PCB
 $Comp
 L GND #PWR027
 U 1 1 4F1C2F0A
