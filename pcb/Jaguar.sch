@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 23 May 2013 09:51:59 PM EDT
+EESchema Schematic File Version 2  date Thu 23 May 2013 09:58:23 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -351,7 +351,7 @@ Sensor-GND
 Text Notes 8750 3350 0    40   ~ 0
 12v-SW
 Text Notes 650  2600 0    60   ~ 0
-5vdc-cpu = VDD\n\n5vdc-analog = VCC\n\nINJ-GND and INJ-GND2 are isolated to only be used by the Injector FETs
+5vdc-cpu = VDD\n\n5vdc-analog = VCC\n\nINJ1-GND and INJ2-GND are connected together but isolated from the rest\nof the PCB grounds and are used by the Injector # 1 & 2 drivers.\nINJ3-GND and INJ4-GND are connected together but isolated from the rest\nof the PCB grounds and are used by the Injector # 3 & 4 drivers.\nINJ5-GND and INJ6-GND are connected together but isolated from the rest\nof the PCB grounds and are used by the Injector # 5 & 6 drivers.\nINJ7-GND and INJ8-GND are connected together but isolated from the rest\nof the PCB grounds and are used by the Injector # 7 & 8 drivers.
 Text GLabel 6500 7050 2    40   Input ~ 0
 P45
 $Comp
@@ -462,7 +462,7 @@ $EndComp
 Text Notes 5950 7600 0    25   ~ 0
 35
 Text Notes 650  2200 0    60   ~ 0
-Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith mica insulators and use plastic screws.
+Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith mica insulators and use plastic screw isolators.
 Text GLabel 6100 5050 0    40   Input ~ 0
 CPU-PB7
 Text GLabel 6100 4950 0    40   Input ~ 0
