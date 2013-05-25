@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 24 May 2013 09:31:09 PM EDT
+EESchema Schematic File Version 2  date Fri 24 May 2013 09:46:28 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -877,7 +877,7 @@ L R R20
 U 1 1 4F1DA7D5
 P 3900 3400
 F 0 "R20" V 3980 3400 50  0000 C CNN
-F 1 "5k" V 3900 3400 50  0000 C CNN
+F 1 "5.1k" V 3900 3400 50  0000 C CNN
 	1    3900 3400
 	1    0    0    -1  
 $EndComp
@@ -890,7 +890,7 @@ L R R23
 U 1 1 4F1DA6C2
 P 3900 1550
 F 0 "R23" V 3980 1550 50  0000 C CNN
-F 1 "5k" V 3900 1550 50  0000 C CNN
+F 1 "5.1k" V 3900 1550 50  0000 C CNN
 	1    3900 1550
 	1    0    0    -1  
 $EndComp
