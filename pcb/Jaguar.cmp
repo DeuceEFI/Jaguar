@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 21 May 2013 05:57:53 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 24 May 2013 09:53:57 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1030,13 +1030,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /502413D0;
-Reference = P56;
-ValeurCmp = MAF-CPU-Signal;
-IdModule  = wirewrap;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0A2F06/505D24DB;
 Reference = P57;
 ValeurCmp = TX1;
@@ -1051,17 +1044,10 @@ IdModule  = WIREWRAP;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/505D2CDB;
+TimeStamp = /4F0A2F06/51A0194D;
 Reference = P59;
-ValeurCmp = TX;
-IdModule  = WIREWRAP;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0A2F06/505D2CE4;
-Reference = P60;
-ValeurCmp = RX;
-IdModule  = WIREWRAP;
+ValeurCmp = RX0-TX0;
+IdModule  = PIN_ARRAY_2;
 EndCmp
 
 BeginCmp
@@ -1445,7 +1431,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DA7D5;
 Reference = R20;
-ValeurCmp = 5k;
+ValeurCmp = 5.1k;
 IdModule  = RC07_vert;
 EndCmp
 
@@ -1466,7 +1452,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DA6C2;
 Reference = R23;
-ValeurCmp = 5k;
+ValeurCmp = 5.1k;
 IdModule  = RC07_vert;
 EndCmp
 

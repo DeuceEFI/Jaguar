@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 24 May 2013 09:46:28 PM EDT
+EESchema Schematic File Version 2  date Fri 24 May 2013 09:53:21 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -20,6 +20,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5700 1150
+Connection ~ 5900 1150
+Wire Wire Line
+	5500 1150 5700 1150
+Wire Wire Line
+	5500 1750 5500 1150
 Connection ~ 4200 1650
 Connection ~ 4000 1650
 Wire Wire Line
@@ -33,7 +39,7 @@ Wire Wire Line
 	4050 550  4050 1050
 Wire Wire Line
 	4100 7700 4100 7500
-Connection ~ 6050 900 
+Connection ~ 8950 900 
 Connection ~ 1700 7000
 Connection ~ 1250 6550
 Wire Wire Line
@@ -84,7 +90,7 @@ Connection ~ 7700 2850
 Wire Wire Line
 	7000 2850 7700 2850
 Wire Wire Line
-	6050 1000 6050 900 
+	8950 1000 8950 900 
 Wire Notes Line
 	2150 6350 2150 7700
 Wire Notes Line
@@ -162,14 +168,10 @@ Connection ~ 7000 2750
 Wire Wire Line
 	2200 4050 1450 4050
 Wire Wire Line
-	5500 1750 5500 1650
-Wire Wire Line
-	5400 800  5300 800 
+	8300 800  8200 800 
 Connection ~ 8400 6350
 Wire Wire Line
-	5400 900  5300 900 
-Wire Wire Line
-	5600 1750 5600 1650
+	8300 900  8200 900 
 Connection ~ 1600 7050
 Connection ~ 1600 7150
 Connection ~ 1600 7250
@@ -259,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 7400 1600 7250
 Wire Wire Line
-	6050 900  5950 900 
+	8950 900  8850 900 
 Wire Wire Line
 	7700 2850 7700 1350
 Wire Wire Line
@@ -349,8 +351,6 @@ Wire Wire Line
 	6000 1750 7150 1750
 Connection ~ 5400 1750
 Connection ~ 5300 1750
-Connection ~ 5500 1650
-Connection ~ 5600 1650
 Connection ~ 2200 4450
 Connection ~ 2200 4550
 Connection ~ 2200 4750
@@ -369,6 +369,21 @@ Wire Wire Line
 	4100 1750 4100 1650
 Wire Wire Line
 	4100 1650 4200 1650
+Wire Wire Line
+	5600 1750 5600 1250
+Wire Wire Line
+	5600 1250 5900 1250
+Wire Wire Line
+	5900 1250 5900 1150
+$Comp
+L CONN_2 P59
+U 1 1 51A0194D
+P 5800 800
+F 0 "P59" V 5750 800 40  0000 C CNN
+F 1 "RX0-TX0" V 5850 800 40  0000 C CNN
+	1    5800 800 
+	0    -1   -1   0   
+$EndComp
 $Comp
 L CONN_2 P64
 U 1 1 519BDE3D
@@ -382,24 +397,6 @@ Text HLabel 2200 4650 0    40   Output ~ 0
 PK5
 Text HLabel 2200 4750 0    40   Output ~ 0
 Fan-PK4
-$Comp
-L CONN_1 P60
-U 1 1 505D2CE4
-P 5600 1500
-F 0 "P60" H 5680 1500 40  0000 L CNN
-F 1 "RX0" H 5600 1555 30  0001 C CNN
-	1    5600 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P59
-U 1 1 505D2CDB
-P 5500 1500
-F 0 "P59" H 5580 1500 40  0000 L CNN
-F 1 "TX0" H 5500 1555 30  0001 C CNN
-	1    5500 1500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L CONN_1 P57
 U 1 1 505D24DB
@@ -440,7 +437,7 @@ Text HLabel 8950 5250 2    25   Input ~ 0
 PCB-GND
 Text HLabel 7150 1750 2    25   Input ~ 0
 PCB-GND
-Text HLabel 6050 900  2    25   Input ~ 0
+Text HLabel 8950 900  2    25   Input ~ 0
 PCB-GND
 Text HLabel 4300 1050 2    25   Input ~ 0
 PCB-GND
@@ -458,7 +455,7 @@ Text HLabel 4800 7300 2    40   Input ~ 0
 5vdc-cpu
 Text HLabel 3800 7500 0    40   Input ~ 0
 5vdc-cpu
-Text HLabel 5400 1000 0    40   Input ~ 0
+Text HLabel 8300 1000 0    40   Input ~ 0
 5vdc-cpu
 $Comp
 L CP1 C47
@@ -643,10 +640,10 @@ $EndComp
 $Comp
 L GND #PWR08
 U 1 1 4F1C287C
-P 6050 1000
-F 0 "#PWR08" H 6050 1000 30  0001 C CNN
-F 1 "GND" H 6050 930 30  0001 C CNN
-	1    6050 1000
+P 8950 1000
+F 0 "#PWR08" H 8950 1000 30  0001 C CNN
+F 1 "GND" H 8950 930 30  0001 C CNN
+	1    8950 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -792,14 +789,14 @@ $EndComp
 NoConn ~ 5000 1750
 NoConn ~ 4700 1750
 $Sheet
-S 5400 700  550  400 
+S 8300 700  550  400 
 U 4F0A3F95
 F0 "ft232" 40
 F1 "ft232.sch" 40
-F2 "RX" B L 5400 800 40 
-F3 "TX" B L 5400 900 40 
-F4 "GND" O R 5950 900 40 
-F5 "5vdc-ft232rl" I L 5400 1000 40 
+F2 "RX" B L 8300 800 40 
+F3 "TX" B L 8300 900 40 
+F4 "GND" O R 8850 900 40 
+F5 "5vdc-ft232rl" I L 8300 1000 40 
 $EndSheet
 NoConn ~ 2200 3250
 NoConn ~ 2200 3350
@@ -873,9 +870,9 @@ F 1 "10k" V 1850 6800 50  0000 C CNN
 	1    1850 6800
 	-1   0    0    1   
 $EndComp
-Text Label 5300 900  0    40   ~ 0
+Text Label 8200 900  0    40   ~ 0
 TX
-Text Label 5300 800  0    40   ~ 0
+Text Label 8200 800  0    40   ~ 0
 RX
 Text Label 5600 1650 3    40   ~ 0
 RX
