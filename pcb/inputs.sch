@@ -1,9 +1,8 @@
-EESchema Schematic File Version 2  date Fri 24 May 2013 09:53:21 PM EDT
+EESchema Schematic File Version 2  date Wed 29 May 2013 06:21:31 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
 LIBS:transistors
-LIBS:polyswitch_smd
 LIBS:device
 LIBS:Jaguar
 LIBS:Jaguar-cache
@@ -12,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "25 may 2013"
+Date "29 may 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -20,6 +19,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7750 1900
+Connection ~ 10600 5250
+Connection ~ 10450 3850
+Connection ~ 10450 2500
+Connection ~ 10450 1150
+Connection ~ 10550 750 
+$Comp
+L FUSE F1
+U 1 1 51A67DEA
+P 10300 750
+F 0 "F1" H 10400 800 40  0000 C CNN
+F 1 "8V/0.5A Polyfuse" H 10550 600 40  0000 C CNN
+	1    10300 750 
+	1    0    0    -1  
+$EndComp
 Connection ~ 4500 7500
 Connection ~ 4000 7500
 Wire Wire Line
@@ -490,10 +504,6 @@ Wire Wire Line
 Connection ~ 3200 6550
 Connection ~ 3200 7350
 Wire Wire Line
-	10050 750  10150 750 
-Connection ~ 10550 750 
-Connection ~ 10150 750 
-Wire Wire Line
 	4150 6950 2750 6950
 Connection ~ 2750 6750
 Connection ~ 2750 6950
@@ -507,7 +517,7 @@ L FUSE F2
 U 1 1 519BED5D
 P 4250 7500
 F 0 "F2" H 4350 7550 40  0000 C CNN
-F 1 "0.5A Fuse" H 4100 7450 40  0000 C CNN
+F 1 "8V/0.5A Polyfuse" H 4300 7350 40  0000 C CNN
 	1    4250 7500
 	1    0    0    -1  
 $EndComp
@@ -539,15 +549,6 @@ P 2100 5400
 F 0 "U11" H 2100 5900 70  0000 C CNN
 F 1 "MPXA6115AC6U" H 2100 4900 70  0000 C CNN
 	1    2100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMD F1
-U 1 1 50D66AB8
-P 10350 750
-F 0 "F1" H 10350 850 40  0000 C CNN
-F 1 "15V/0.5A Polyfuse" H 10600 650 40  0000 C CNN
-	1    10350 750 
 	1    0    0    -1  
 $EndComp
 $Comp

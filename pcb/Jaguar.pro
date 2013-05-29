@@ -1,4 +1,4 @@
-update=Mon 08 Apr 2013 03:50:42 PM EDT
+update=Wed 29 May 2013 06:18:40 PM EDT
 last_client=eeschema
 [pcbnew]
 version=1
@@ -78,6 +78,5 @@ LibName1=opto
 LibName2=power
 LibName3=conn
 LibName4=transistors
-LibName5=polyswitch_smd
-LibName6=device
-LibName7=Jaguar
+LibName5=device
+LibName6=Jaguar

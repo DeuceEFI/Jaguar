@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 24 May 2013 09:53:57 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 29 May 2013 06:21:29 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -701,16 +701,16 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0BB08D/50D66AB8;
+TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
-ValeurCmp = 15V/0.5A_Polyfuse;
+ValeurCmp = 8V/0.5A_Polyfuse;
 IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/519BED5D;
 Reference = F2;
-ValeurCmp = 0.5A_Fuse;
+ValeurCmp = 8V/0.5A_Polyfuse;
 IdModule  = c_1206;
 EndCmp
 
