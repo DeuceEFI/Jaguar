@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 29 May 2013 06:21:31 PM EDT
+EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:36:12 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 7
 Title "Jaguar PCB for FreeEMS"
-Date "29 may 2013"
+Date "9 jun 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -334,7 +334,7 @@ L R R100
 U 1 1 509C864A
 P 9250 3350
 F 0 "R100" V 9330 3350 50  0000 C CNN
-F 1 "150" V 9250 3350 50  0000 C CNN
+F 1 "160" V 9250 3350 50  0000 C CNN
 	1    9250 3350
 	0    -1   -1   0   
 $EndComp
@@ -343,7 +343,7 @@ L R R101
 U 1 1 509C8649
 P 9250 3550
 F 0 "R101" V 9330 3550 50  0000 C CNN
-F 1 "150" V 9250 3550 50  0000 C CNN
+F 1 "160" V 9250 3550 50  0000 C CNN
 	1    9250 3550
 	0    1    1    0   
 $EndComp
@@ -514,7 +514,7 @@ L R R92
 U 1 1 5092BED6
 P 9250 1600
 F 0 "R92" V 9330 1600 50  0000 C CNN
-F 1 "150" V 9250 1600 50  0000 C CNN
+F 1 "160" V 9250 1600 50  0000 C CNN
 	1    9250 1600
 	0    1    1    0   
 $EndComp
@@ -523,7 +523,7 @@ L R R91
 U 1 1 5092BECA
 P 9250 1400
 F 0 "R91" V 9330 1400 50  0000 C CNN
-F 1 "150" V 9250 1400 50  0000 C CNN
+F 1 "160" V 9250 1400 50  0000 C CNN
 	1    9250 1400
 	0    -1   -1   0   
 $EndComp
