@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:36:12 PM EDT
+EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:39:39 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -19,6 +19,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6500 2350 0    50   ~ 0
+\nTC4426A has two inverting drivers, \nwhile the TC4427A has two non-inverting drivers, \nThe TC4428A has one inverting and one non-inverting driver.
 Connection ~ 7100 1700
 Connection ~ 7100 1300
 Wire Wire Line
