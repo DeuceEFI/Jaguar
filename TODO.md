@@ -1,9 +1,10 @@
 # To Do List
 
-## JAG 05/24/2013 2209 EDT (GMT-0400)
+## JAG 06/09/2013 1912 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
+* Re-annotate the shematic and the board so there are no missing component numbers, like R79 which doesn't exist, however R78 and R80 do.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
@@ -58,6 +59,7 @@
 * Renamed RX to RX0 and TX to TX0 since there is RX1/TX1 already marked. - DONE 05/24/2013
 * Changed R20 and R23 (VR shunt resistors) from 5k to 5.1k due to 2W package availability. - DONE 05/24/2013
 * Changed RX0/TX0 to a 0.100" 2-pin header for those that want to experiment with TTL serial devices other than the FTDI USB IC. - DONE 05/24/2013
+* Changed R91,92,100,101 from 150 ohm 1/2W to 160 ohm 2W resistors. - DONE 06/09/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
