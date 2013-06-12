@@ -1,9 +1,12 @@
 # To Do List
 
-## JAG 06/09/2013 1912 EDT (GMT-0400)
+## JAG 06/12/2013 1540 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
+* 0.1uF capacitors need to be 0.100" lead spacing in BOM.
+* R6 3.3k ohm resistor needs to be a larger body in BOM.
+* 1uf 50v capacitors in the BOM need to be 0.100" lead spacing.
 * Re-annotate the shematic and the board so there are no missing component numbers, like R79 which doesn't exist, however R78 and R80 do.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
