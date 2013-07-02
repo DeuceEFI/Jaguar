@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:39:39 PM EDT
+EESchema Schematic File Version 2  date Tue 25 Jun 2013 01:00:10 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "9 jun 2013"
+Date "25 jun 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -205,8 +205,6 @@ Text HLabel 2350 2650 0    25   Input ~ 0
 PWR-GND
 Text HLabel 1500 3900 0    25   Input ~ 0
 PWR-GND
-Text Notes 1800 1400 0    60   ~ 0
-JP9 and JP10 allow you to build the power supply\ncircuits and test them before connecting them\nto the rest of the board.
 $Comp
 L VR MOV1
 U 1 1 4F24F92A

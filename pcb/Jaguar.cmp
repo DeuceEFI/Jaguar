@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 29 May 2013 06:21:29 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 17 Jun 2013 12:24:03 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -723,14 +723,14 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/5092BFDF;
-Reference = JP11;
+Reference = JP1;
 ValeurCmp = 5v/12v;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/509C8644;
-Reference = JP16;
+Reference = JP2;
 ValeurCmp = 5v/12v;
 IdModule  = SIL-3;
 EndCmp
@@ -1858,14 +1858,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/5092BECA;
 Reference = R91;
-ValeurCmp = 150;
+ValeurCmp = 160;
 IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/5092BED6;
 Reference = R92;
-ValeurCmp = 150;
+ValeurCmp = 160;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1879,14 +1879,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/509C864A;
 Reference = R100;
-ValeurCmp = 150;
+ValeurCmp = 160;
 IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/509C8649;
 Reference = R101;
-ValeurCmp = 150;
+ValeurCmp = 160;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -2025,7 +2025,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3616;
-Reference = X1;
+Reference = Y1;
 ValeurCmp = 16MHz;
 IdModule  = HC-49S;
 EndCmp

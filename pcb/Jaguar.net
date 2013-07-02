@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 29 May 2013 06:21:29 PM EDT
+# EESchema Netlist Version 1.1 created  Mon 17 Jun 2013 12:24:03 PM EDT
 (
  ( /4F0A2F06/4F1DD1E9 cnp_3mm_disc C1 0.22uF
   ( 1 /Injecto1 )
@@ -416,12 +416,12 @@
   ( 5 /CPU/ft214 )
   ( 6 ? )
  )
- ( /4F0D82A1/5092BFDF SIL-3 JP11 5v/12v
+ ( /4F0D82A1/5092BFDF SIL-3 JP1 5v/12v
   ( 1 /Outputs3 )
   ( 2 N-000263 )
   ( 3 /Injecto29 )
  )
- ( /4F0D82A1/509C8644 SIL-3 JP16 5v/12v
+ ( /4F0D82A1/509C8644 SIL-3 JP2 5v/12v
   ( 1 /Outputs3 )
   ( 2 N-000264 )
   ( 3 /Injecto29 )
@@ -1042,11 +1042,11 @@
   ( 1 N-000246 )
   ( 2 /Injecto1 )
  )
- ( /4F0D82A1/5092BECA RC03_vert R91 150
+ ( /4F0D82A1/5092BECA RC03_vert R91 160
   ( 1 N-000237 )
   ( 2 N-000244 )
  )
- ( /4F0D82A1/5092BED6 RC03_vert R92 150
+ ( /4F0D82A1/5092BED6 RC03_vert R92 160
   ( 1 N-000261 )
   ( 2 N-000236 )
  )
@@ -1054,11 +1054,11 @@
   ( 1 N-000201 )
   ( 2 /Inputs/16 )
  )
- ( /4F0D82A1/509C864A RC03_vert R100 150
+ ( /4F0D82A1/509C864A RC03_vert R100 160
   ( 1 N-000238 )
   ( 2 N-000258 )
  )
- ( /4F0D82A1/509C8649 RC03_vert R101 150
+ ( /4F0D82A1/509C8649 RC03_vert R101 160
   ( 1 N-000259 )
   ( 2 N-000260 )
  )
@@ -1321,7 +1321,7 @@
   ( 2 N-000182 )
   ( 3 /Injecto1 )
  )
- ( /4F0A2F06/4F0A3616 HC-49S X1 16MHz
+ ( /4F0A2F06/4F0A3616 HC-49S Y1 16MHz
   ( 1 N-000130 )
   ( 2 N-000134 )
  )

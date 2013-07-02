@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:39:39 PM EDT
+EESchema Schematic File Version 2  date Tue 25 Jun 2013 01:00:10 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "9 jun 2013"
+Date "25 jun 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -460,8 +460,8 @@ $Comp
 L CP1 C47
 U 1 1 4F1E09CB
 P 3850 550
-F 0 "C47" H 3900 650 50  0000 L CNN
-F 1 "10uF" H 3900 450 50  0000 L CNN
+F 0 "C47" H 3700 400 50  0000 L CNN
+F 1 "10uF" H 3700 250 50  0000 L CNN
 	1    3850 550 
 	0    -1   -1   0   
 $EndComp
@@ -538,7 +538,7 @@ Text Notes 6400 1600 0    40   ~ 0
 C4 and C44 X7R Ceramic
 Text Notes 4900 7500 0    40   ~ 0
 C48 10v Tantalum\nC3 X7R Ceramic
-Text Notes 4100 900  0    40   ~ 0
+Text Notes 4300 900  0    40   ~ 0
 C47 10v Tantalum\nC2 X7R Ceramic
 $Comp
 L C C5
@@ -938,10 +938,10 @@ EXTAL
 Text GLabel 10500 5950 2    40   BiDi ~ 0
 XTAL
 $Comp
-L CRYSTAL X1
+L CRYSTAL Y1
 U 1 1 4F0A3616
 P 10200 5950
-F 0 "X1" H 10400 6000 60  0000 C CNN
+F 0 "Y1" H 10400 6000 60  0000 C CNN
 F 1 "16MHz" H 10200 5800 60  0000 C CNN
 	1    10200 5950
 	1    0    0    -1  
@@ -1014,7 +1014,7 @@ L C C4
 U 1 1 4F0A32B1
 P 5900 1550
 F 0 "C4" H 5950 1650 50  0000 L CNN
-F 1 "0.22uF" H 5950 1450 50  0000 L CNN
+F 1 "0.22uF" H 6050 1550 50  0000 L CNN
 	1    5900 1550
 	1    0    0    -1  
 $EndComp
@@ -1023,7 +1023,7 @@ L C C2
 U 1 1 4F0A300F
 P 3850 900
 F 0 "C2" H 3900 1000 50  0000 L CNN
-F 1 "0.22uF" H 3900 800 50  0000 L CNN
+F 1 "0.22uF" H 3750 600 50  0000 L CNN
 	1    3850 900 
 	0    -1   -1   0   
 $EndComp

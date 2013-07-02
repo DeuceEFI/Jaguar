@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 09 Jun 2013 07:39:39 PM EDT
+EESchema Schematic File Version 2  date Tue 25 Jun 2013 01:00:10 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 7
 Title "Jaguar PCB for FreeEMS"
-Date "9 jun 2013"
+Date "25 jun 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -386,10 +386,10 @@ F 1 "1uF" H 9850 3150 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_3 JP16
+L CONN_3 JP2
 U 1 1 509C8644
 P 10450 3450
-F 0 "JP16" V 10400 3450 50  0000 C CNN
+F 0 "JP2" V 10400 3450 50  0000 C CNN
 F 1 "5v/12v" V 10500 3450 40  0000 C CNN
 	1    10450 3450
 	1    0    0    -1  
@@ -426,7 +426,7 @@ $EndComp
 Text Notes 6400 4400 0    60   ~ 0
 Ignitor Outputs
 Text Notes 10450 3100 0    40   ~ 0
-JPxx selects either\n5v or 12v \nDriver IC Supply
+JP2 selects either\n5v or 12v \nDriver IC Supply
 Text HLabel 10100 3550 3    40   Input ~ 0
 12vdc-switched-outputs
 Text HLabel 10100 3350 1    40   Input ~ 0
@@ -436,7 +436,7 @@ Text HLabel 10100 1400 1    40   Input ~ 0
 Text HLabel 10100 1600 3    40   Input ~ 0
 12vdc-switched-outputs
 Text Notes 10450 1150 0    40   ~ 0
-JP11 selects either\n5v or 12v \nDriver IC Supply
+JP1 selects either\n5v or 12v \nDriver IC Supply
 $Comp
 L GND #PWR033
 U 1 1 5092C12A
@@ -467,10 +467,10 @@ $EndComp
 NoConn ~ 7850 1300
 NoConn ~ 8950 1300
 $Comp
-L CONN_3 JP11
+L CONN_3 JP1
 U 1 1 5092BFDF
 P 10450 1500
-F 0 "JP11" V 10400 1500 50  0000 C CNN
+F 0 "JP1" V 10400 1500 50  0000 C CNN
 F 1 "5v/12v" V 10500 1500 40  0000 C CNN
 	1    10450 1500
 	1    0    0    -1  
