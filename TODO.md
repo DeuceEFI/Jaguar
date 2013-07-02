@@ -1,12 +1,9 @@
 # To Do List
 
-## JAG 07/02/2013 1130 EDT (GMT-0400)
+## JAG 07/02/2013 1152 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-
-* R6 3.3k ohm resistor needs to be a larger body in BOM.
-* 1uf 50v capacitors in the BOM need to be 0.100" lead spacing.
 * Re-annotate the shematic and the board so there are no missing component numbers, like R79 which doesn't exist, however R78 and R80 do.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
@@ -64,6 +61,7 @@
 * Changed RX0/TX0 to a 0.100" 2-pin header for those that want to experiment with TTL serial devices other than the FTDI USB IC. - DONE 05/24/2013
 * Changed R91,92,100,101 from 150 ohm 1/2W to 160 ohm 2W resistors. - DONE 06/09/2013
 * Changed 1uF capacitors to be 0.100" lead spacing in BOM. - DONE 07/02/2013
+* Changed R6 3.3k ohm resistor to be a 0.094" Dia x 0.248" Long body in BOM. - DONE 07/02/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
