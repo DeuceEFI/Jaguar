@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 05/12/2013 1517 EDT (GMT-0400)
+JAG 07/02/2013 1157 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the PCB has not been tested.  I have built and installed the first Jaguar 0.4-alpha board in my 1996 Chevrolet S10 for testing.  See the TODO.md file for the up to date changes from this 0.6-alpha board.
+####Do NOT use these files in the dev branch to make a PCB, the 0.6-alpha PCB has not been tested.  See the TODO.md file for the up to date changes from the 0.4-alpha to the 0.6-alpha board.  The 0.5-alpha was a commit of gerber files after I noticed that the traces were incorrect to the AAP and MAP sensors, it was never manufactured.
 
 ### Introduction
 
@@ -15,7 +15,7 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core IO specs:
 
  * 1 FTDI USB (bus powered) communications (USB-B or USB-B-mini connector).
- * 2 RPM/Position VR or Hall/Opto/Digital inputs (ie: GM DIS Crankshaft 3x and 1x camshaft position sensor, CAM indicates cylinder #1).
+ * 2 RPM/Position VR or Hall/Opto/Digital inputs (ie: GM DIS Crankshaft 2x/3x/4x and 1x camshaft position sensor, CAM indicates cylinder #1).
  * 9 Standard 'CORE' analog inputs (IAT,MAT,CHT,TPS,O2,BRV,MAF,AAP,MAP).
  * 8 Available Port P PWM ports (PP0-7).
  * 8 Available Port B ports (PB0-7).
@@ -35,7 +35,7 @@ Core IO specs:
 
 PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole components so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
 
-Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008H-5B and it is for the 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com 
+Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008F-5N (flanged ends) and it is made for the Jaguar 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com, there is a link in the BOM to purchase the case from a retailer. 
 
 The suggested connectors are TE Connectivity (www.te.com) Automotive Grade water resistant connectors. 
 All 35 positions on the connector are used for inputs/outputs when using all 8 injector drivers and all 3 relay drivers.
