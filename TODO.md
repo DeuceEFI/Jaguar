@@ -1,10 +1,10 @@
 # To Do List
 
-## JAG 07/02/2013 1152 EDT (GMT-0400)
+## JAG 07/14/2013 2043 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Re-annotate the shematic and the board so there are no missing component numbers, like R79 which doesn't exist, however R78 and R80 do.
+* Note on the shematic that there are missing component IDs like R79 which doesn't exist.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
