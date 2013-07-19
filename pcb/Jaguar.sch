@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 25 Jun 2013 01:00:10 AM EDT
+EESchema Schematic File Version 2  date Fri 19 Jul 2013 09:48:56 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "25 jun 2013"
+Date "19 jul 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -19,6 +19,164 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 700  5150 0    60   ~ 0
+C45, C46, C50, D3, D32, R14, R15, R56, R59, R60, R61, R62, R64,\nR65, R79, R85, R86, R93, R94, R96, R97, R98, R99, U5, U10
+Text Notes 600  5000 0    60   ~ 0
+Components that are missing from design changes:
+Wire Notes Line
+	550  4850 4200 4850
+Wire Wire Line
+	9050 2900 8450 2900
+Wire Wire Line
+	7400 2000 6900 2000
+Connection ~ 9350 4100
+Connection ~ 9300 4350
+Wire Wire Line
+	9000 4350 9300 4350
+Connection ~ 9300 4100
+Wire Wire Line
+	9300 4100 9350 4100
+Wire Wire Line
+	9000 3950 9300 3950
+Wire Notes Line
+	550  2450 4200 2450
+Wire Notes Line
+	6500 7650 6000 7650
+Wire Notes Line
+	6000 7650 6000 7600
+Wire Notes Line
+	4350 4650 5500 4650
+Wire Notes Line
+	4350 5550 4350 3400
+Wire Notes Line
+	4350 5550 7850 5550
+Wire Notes Line
+	7850 5550 7850 3400
+Wire Notes Line
+	7850 3400 4350 3400
+Wire Notes Line
+	6050 6150 6500 6150
+Wire Notes Line
+	6050 5950 6500 5950
+Wire Notes Line
+	5150 6050 4700 6050
+Wire Notes Line
+	5150 6250 4700 6250
+Wire Notes Line
+	5150 7350 4700 7350
+Wire Notes Line
+	5150 7150 4700 7150
+Wire Notes Line
+	5150 6950 4700 6950
+Wire Notes Line
+	5150 6750 4700 6750
+Wire Notes Line
+	5150 6550 4700 6550
+Wire Notes Line
+	5150 6350 4700 6350
+Wire Notes Line
+	6050 6450 6500 6450
+Wire Notes Line
+	6050 6650 6500 6650
+Wire Notes Line
+	6050 6850 6500 6850
+Wire Notes Line
+	6050 7050 6500 7050
+Wire Notes Line
+	6050 7250 6500 7250
+Wire Notes Line
+	6050 7450 6500 7450
+Wire Notes Line
+	5150 7550 4700 7550
+Wire Notes Line
+	5150 5900 6050 5900
+Wire Notes Line
+	5150 5900 5150 7600
+Connection ~ 9000 3950
+Connection ~ 9000 4050
+Wire Notes Line
+	550  7750 550  550 
+Wire Notes Line
+	550  7750 4200 7750
+Wire Notes Line
+	4200 7750 4200 550 
+Wire Notes Line
+	4200 550  550  550 
+Wire Notes Line
+	6050 5900 6050 7600
+Wire Notes Line
+	6050 7600 5150 7600
+Wire Notes Line
+	6500 7550 6050 7550
+Wire Notes Line
+	6050 7350 6500 7350
+Wire Notes Line
+	6050 7150 6500 7150
+Wire Notes Line
+	6050 6950 6500 6950
+Wire Notes Line
+	6050 6750 6500 6750
+Wire Notes Line
+	6050 6550 6500 6550
+Wire Notes Line
+	6050 6350 6500 6350
+Wire Notes Line
+	5150 6450 4700 6450
+Wire Notes Line
+	5150 6650 4700 6650
+Wire Notes Line
+	5150 6850 4700 6850
+Wire Notes Line
+	5150 7050 4700 7050
+Wire Notes Line
+	5150 7250 4700 7250
+Wire Notes Line
+	5150 7450 4700 7450
+Wire Notes Line
+	5150 6150 4700 6150
+Wire Notes Line
+	5150 5950 4700 5950
+Wire Notes Line
+	6050 6050 6500 6050
+Wire Notes Line
+	6050 6250 6500 6250
+Wire Notes Line
+	5500 3400 5500 5550
+Wire Notes Line
+	550  2050 4200 2050
+Wire Wire Line
+	9300 4250 9000 4250
+Wire Wire Line
+	9000 4050 9300 4050
+Connection ~ 9300 4050
+Wire Wire Line
+	9000 4150 9300 4150
+Connection ~ 9300 4150
+Connection ~ 9000 4150
+Connection ~ 9000 4250
+Connection ~ 9300 4250
+Wire Wire Line
+	9300 3950 9300 4400
+Wire Wire Line
+	9050 1500 8550 1500
+Wire Wire Line
+	8550 1500 8550 2200
+Wire Wire Line
+	8550 2200 9050 2200
+Wire Wire Line
+	7350 1900 7350 2000
+Connection ~ 7350 2000
+Connection ~ 6900 2100
+Connection ~ 6900 2000
+Connection ~ 7350 1900
+Wire Wire Line
+	8500 3000 8500 2900
+Connection ~ 8500 2900
+Connection ~ 9050 2900
+Connection ~ 8500 3000
+Connection ~ 8550 2200
+Connection ~ 9050 2200
+Connection ~ 9050 1500
 Text GLabel 10650 5050 2    40   Output ~ 0
 AAP
 Text GLabel 5200 2200 0    40   Input ~ 0
@@ -31,9 +189,6 @@ Text GLabel 6900 2300 2    40   Output ~ 0
 DIS-Bypass-Signal
 Text GLabel 6900 2200 2    40   Output ~ 0
 DIS-Advance-Signal
-Connection ~ 9050 1500
-Connection ~ 9050 2200
-Connection ~ 8550 2200
 Text GLabel 9050 2300 0    40   Input ~ 0
 5vdc-analog
 $Comp
@@ -108,157 +263,6 @@ F 1 "INJ1" H 10750 755 30  0001 C CNN
 	1    10750 700 
 	1    0    0    -1  
 $EndComp
-Connection ~ 8500 3000
-Connection ~ 9050 2900
-Connection ~ 8500 2900
-Wire Wire Line
-	8500 3000 8500 2900
-Connection ~ 7350 1900
-Connection ~ 6900 2000
-Connection ~ 6900 2100
-Connection ~ 7350 2000
-Wire Wire Line
-	7350 1900 7350 2000
-Wire Wire Line
-	9050 2200 8550 2200
-Wire Wire Line
-	8550 2200 8550 1500
-Wire Wire Line
-	8550 1500 9050 1500
-Wire Wire Line
-	9300 4400 9300 3950
-Connection ~ 9300 4250
-Connection ~ 9000 4250
-Connection ~ 9000 4150
-Connection ~ 9300 4150
-Wire Wire Line
-	9000 4150 9300 4150
-Connection ~ 9300 4050
-Wire Wire Line
-	9000 4050 9300 4050
-Wire Wire Line
-	9300 4250 9000 4250
-Wire Notes Line
-	550  2050 4200 2050
-Wire Notes Line
-	550  1050 4200 1050
-Wire Notes Line
-	5500 3400 5500 5550
-Wire Notes Line
-	6050 6250 6500 6250
-Wire Notes Line
-	6050 6050 6500 6050
-Wire Notes Line
-	5150 5950 4700 5950
-Wire Notes Line
-	5150 6150 4700 6150
-Wire Notes Line
-	5150 7450 4700 7450
-Wire Notes Line
-	5150 7250 4700 7250
-Wire Notes Line
-	5150 7050 4700 7050
-Wire Notes Line
-	5150 6850 4700 6850
-Wire Notes Line
-	5150 6650 4700 6650
-Wire Notes Line
-	5150 6450 4700 6450
-Wire Notes Line
-	6050 6350 6500 6350
-Wire Notes Line
-	6050 6550 6500 6550
-Wire Notes Line
-	6050 6750 6500 6750
-Wire Notes Line
-	6050 6950 6500 6950
-Wire Notes Line
-	6050 7150 6500 7150
-Wire Notes Line
-	6050 7350 6500 7350
-Wire Notes Line
-	6500 7550 6050 7550
-Wire Notes Line
-	6050 7600 5150 7600
-Wire Notes Line
-	6050 7600 6050 5900
-Wire Notes Line
-	4200 550  550  550 
-Wire Notes Line
-	4200 550  4200 7750
-Wire Notes Line
-	4200 7750 550  7750
-Wire Notes Line
-	550  7750 550  550 
-Connection ~ 9000 4050
-Connection ~ 9000 3950
-Wire Notes Line
-	5150 7600 5150 5900
-Wire Notes Line
-	5150 5900 6050 5900
-Wire Notes Line
-	5150 7550 4700 7550
-Wire Notes Line
-	6050 7450 6500 7450
-Wire Notes Line
-	6050 7250 6500 7250
-Wire Notes Line
-	6050 7050 6500 7050
-Wire Notes Line
-	6050 6850 6500 6850
-Wire Notes Line
-	6050 6650 6500 6650
-Wire Notes Line
-	6050 6450 6500 6450
-Wire Notes Line
-	5150 6350 4700 6350
-Wire Notes Line
-	5150 6550 4700 6550
-Wire Notes Line
-	5150 6750 4700 6750
-Wire Notes Line
-	5150 6950 4700 6950
-Wire Notes Line
-	5150 7150 4700 7150
-Wire Notes Line
-	5150 7350 4700 7350
-Wire Notes Line
-	5150 6250 4700 6250
-Wire Notes Line
-	5150 6050 4700 6050
-Wire Notes Line
-	6050 5950 6500 5950
-Wire Notes Line
-	6050 6150 6500 6150
-Wire Notes Line
-	7850 3400 4350 3400
-Wire Notes Line
-	7850 3400 7850 5550
-Wire Notes Line
-	7850 5550 4350 5550
-Wire Notes Line
-	4350 5550 4350 3400
-Wire Notes Line
-	4350 4650 5500 4650
-Wire Notes Line
-	6000 7600 6000 7650
-Wire Notes Line
-	6000 7650 6500 7650
-Wire Notes Line
-	550  2450 4200 2450
-Wire Wire Line
-	9300 3950 9000 3950
-Wire Wire Line
-	9300 4100 9350 4100
-Connection ~ 9300 4100
-Wire Wire Line
-	9000 4350 9300 4350
-Connection ~ 9300 4350
-Connection ~ 9350 4100
-Wire Wire Line
-	7400 2000 6900 2000
-Wire Wire Line
-	9050 2900 8450 2900
 Text GLabel 8450 2900 0    40   Input ~ 0
 FAN
 Text GLabel 7400 2000 2    40   Output ~ 0
@@ -461,7 +465,7 @@ $EndComp
 Text Notes 5950 7600 0    25   ~ 0
 35
 Text Notes 650  2200 0    60   ~ 0
-Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith mica insulators and use plastic screw isolators.
+Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith silicon insulators and use plastic isolators on the metal screws.
 Text GLabel 6100 5050 0    40   Input ~ 0
 CPU-PB7
 Text GLabel 6100 4950 0    40   Input ~ 0
@@ -756,10 +760,8 @@ F30 "RPM0" I L 5200 1250 40
 F31 "PK5" O R 6900 2100 40 
 F32 "SPR-Signal" I L 5200 2100 40 
 $EndSheet
-Text Notes 650  1200 0    60   ~ 0
-J2 is the TE Connectivity Automotive Grade water resistant connector. \nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
-Text Notes 650  900  0    60   ~ 0
-Jumpers labeled JP5 and JP6 are crossover wires,nothing \nmore.  This was done to ease single sided PCB Prototype testing.
+Text Notes 650  850  0    60   ~ 0
+J2 is the TE Connectivity Automotive Grade water resistant connector. \nThere is a separate board design for this connector found in the \nconnector/pcb directory in the Jaguar repository.\n\nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
 Text Notes 600  700  0    70   ~ 14
 Notes:
 $Comp
