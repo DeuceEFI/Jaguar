@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 07/14/2013 2043 EDT (GMT-0400)
+## JAG 07/19/2013 1012 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
-* Note on the shematic that there are missing component IDs like R79 which doesn't exist.
 * Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
 
@@ -62,6 +61,7 @@
 * Changed R91,92,100,101 from 150 ohm 1/2W to 160 ohm 2W resistors. - DONE 06/09/2013
 * Changed 1uF capacitors to be 0.100" lead spacing in BOM. - DONE 07/02/2013
 * Changed R6 3.3k ohm resistor to be a 0.094" Dia x 0.248" Long body in BOM. - DONE 07/02/2013
+* Noted on the shematic that there are missing component IDs that do not exist due to design changes. - DONE 07/19/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
