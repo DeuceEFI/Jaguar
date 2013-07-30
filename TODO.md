@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 07/19/2013 1012 EDT (GMT-0400)
+## JAG 07/30/2013 1225 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -62,6 +62,7 @@
 * Changed 1uF capacitors to be 0.100" lead spacing in BOM. - DONE 07/02/2013
 * Changed R6 3.3k ohm resistor to be a 0.094" Dia x 0.248" Long body in BOM. - DONE 07/02/2013
 * Noted on the shematic that there are missing component IDs that do not exist due to design changes. - DONE 07/19/2013
+* Added vias from ground plane under MCU to the ground plane on the bottom of the PCB. - DONE 07/30/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
