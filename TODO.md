@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 07/30/2013 1225 EDT (GMT-0400)
+## JAG 08/26/2013 0950 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -63,6 +63,7 @@
 * Changed R6 3.3k ohm resistor to be a 0.094" Dia x 0.248" Long body in BOM. - DONE 07/02/2013
 * Noted on the shematic that there are missing component IDs that do not exist due to design changes. - DONE 07/19/2013
 * Added vias from ground plane under MCU to the ground plane on the bottom of the PCB. - DONE 07/30/2013
+* Corrected footprints for the adjustable zener (U13) and the PNP transistor (Q12) as they are numbered differently by the manufacturer compared to the KiCAD footprints for SOT-23-3 and SOT-223 components and then re-route traces to these components. - DONE 08/26/2013
 
 ----------
 ### 0.5-alpha Changes Completed:
