@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Jul 2013 09:48:56 AM EDT
+EESchema Schematic File Version 2  date Sat 31 Aug 2013 10:51:12 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "19 jul 2013"
+Date "31 aug 2013"
 Rev "0.6-alpha"
 Comp "git hash: xxxxxxxxxx"
 Comment1 ""
@@ -265,7 +265,7 @@ L LM2937EM-5.0 U3
 U 1 1 4F0A52BA
 P 3450 3400
 F 0 "U3" H 3600 3204 60  0000 C CNN
-F 1 "LM2937EM-5.0" H 3450 3600 60  0000 C CNN
+F 1 "LM2940T-5.0" H 3450 3600 60  0000 C CNN
 	1    3450 3400
 	1    0    0    -1  
 $EndComp
@@ -314,7 +314,7 @@ L LM2937EM-5.0 U2
 U 1 1 4F0A5180
 P 3450 2300
 F 0 "U2" H 3600 2104 60  0000 C CNN
-F 1 "LM2937EM-5.0" H 3450 2500 60  0000 C CNN
+F 1 "LM2940T-5.0" H 3450 2500 60  0000 C CNN
 	1    3450 2300
 	1    0    0    -1  
 $EndComp
