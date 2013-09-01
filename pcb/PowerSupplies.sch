@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Aug 2013 04:00:46 PM EDT
+EESchema Schematic File Version 2  date Sun 01 Sep 2013 12:16:13 AM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -13,7 +13,7 @@ Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
 Date "31 aug 2013"
 Rev "0.6-alpha"
-Comp "git hash: 5c965826d7"
+Comp "git hash: d146fc6f55"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -30,7 +30,7 @@ Wire Wire Line
 Connection ~ 5100 3750
 Connection ~ 5100 3350
 Wire Wire Line
-	7450 2650 7450 1850
+	7450 1850 7450 2650
 Connection ~ 6050 1150
 Connection ~ 5050 1150
 Wire Wire Line
@@ -105,7 +105,7 @@ Connection ~ 7450 1150
 Wire Wire Line
 	7450 2650 2350 2650
 Wire Wire Line
-	4550 1150 7450 1150
+	7450 1150 4550 1150
 Wire Wire Line
 	5350 3450 5350 3350
 Connection ~ 5350 3350
