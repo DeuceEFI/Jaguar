@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 08/31/2013 1050 EDT (GMT-0400)
+## JAG 08/31/2013 2319 EDT (GMT-0400)
 
 ### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
 
@@ -65,6 +65,7 @@
 * Added vias from ground plane under MCU to the ground plane on the bottom of the PCB. - DONE 07/30/2013
 * Corrected footprints for the adjustable zener (U13) and the PNP transistor (Q12) as they are numbered differently by the manufacturer compared to the KiCAD footprints for SOT-23-3 and SOT-223 components and then re-route traces to these components. - DONE 08/26/2013
 * Replaced the LM2937EM-5.0 0.5A low dropout voltage regulators with LM2940T-5.0 1.0A low dropout voltage regulators.
+* Changed the 5v feeds to the MAX9926 and the TC442xA ICs to be from the CPU-5v power supply rather than the Analog-5v power supply.
 
 ----------
 ### 0.5-alpha Changes Completed:
