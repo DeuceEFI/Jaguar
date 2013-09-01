@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Aug 2013 10:56:17 AM EDT
+EESchema Schematic File Version 2  date Sat 31 Aug 2013 04:00:46 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -430,9 +430,9 @@ JP2 selects either\n5v or 12v \nDriver IC Supply
 Text HLabel 10100 3550 3    40   Input ~ 0
 12vdc-switched-outputs
 Text HLabel 10100 3350 1    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 10100 1400 1    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 10100 1600 3    40   Input ~ 0
 12vdc-switched-outputs
 Text Notes 10450 1150 0    40   ~ 0

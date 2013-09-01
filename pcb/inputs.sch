@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Aug 2013 10:56:17 AM EDT
+EESchema Schematic File Version 2  date Sat 31 Aug 2013 04:00:46 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -656,11 +656,11 @@ F 1 "1k" V 3650 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 3900 2000 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text Notes 4050 1900 0    40   ~ 0
 Connect RPM0-IN- to GND \nfor Hall/Opto/Digital
 Text HLabel 3900 2950 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 $Comp
 L R R84
 U 1 1 50871BA6
@@ -815,19 +815,19 @@ $EndComp
 Text HLabel 6650 2950 2    40   Input ~ 0
 5vdc-analog
 Text HLabel 1250 1450 0    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 1450 1850 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 1450 2950 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 1250 3350 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 3400 3850 0    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 4350 2150 2    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 3400 1100 0    40   Input ~ 0
-5vdc-analog
+5vdc-cpu
 Text HLabel 6700 1400 2    40   Input ~ 0
 5vdc-analog
 Text HLabel 10050 750  0    40   Input ~ 0

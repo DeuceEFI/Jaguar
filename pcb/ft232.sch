@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Aug 2013 10:56:17 AM EDT
+EESchema Schematic File Version 2  date Sat 31 Aug 2013 04:00:46 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -135,7 +135,7 @@ P 8050 3000
 F 0 "U8" H 8050 3300 60  0000 C CNN
 F 1 "ADUMX201" H 8050 2700 60  0000 C CNN
 	1    8050 3000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Notes 4000 3850 0    55   ~ 0
 R55 is Optional\npopulate if needed

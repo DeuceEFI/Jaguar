@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Aug 2013 10:56:17 AM EDT
+EESchema Schematic File Version 2  date Sat 31 Aug 2013 04:00:46 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -19,105 +19,103 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 8850 2050
-Connection ~ 8850 1850
-Connection ~ 8850 1150
+Connection ~ 5350 3650
+Connection ~ 5350 3450
 Wire Wire Line
-	8950 1150 4550 1150
-Connection ~ 7450 2650
+	5350 3750 2350 3750
 Wire Wire Line
-	2350 2650 8850 2650
+	5350 3750 5350 3650
 Wire Wire Line
-	8850 2650 8850 2050
-Connection ~ 7450 1150
+	5900 3350 3850 3350
+Connection ~ 5100 3750
+Connection ~ 5100 3350
 Wire Wire Line
-	7450 1450 7450 1150
-Connection ~ 5050 1650
-Connection ~ 5050 2150
-Connection ~ 5650 2150
-Connection ~ 6050 1650
-Connection ~ 6050 2650
+	7450 2650 7450 1850
+Connection ~ 6050 1150
+Connection ~ 5050 1150
 Wire Wire Line
-	7150 1650 6050 1650
+	4550 2250 4550 1150
 Wire Wire Line
-	5650 2150 5050 2150
-Connection ~ 5050 2650
-Connection ~ 2150 3350
+	4550 2250 3850 2250
+Connection ~ 1750 2250
+Connection ~ 2150 2250
 Wire Wire Line
-	3050 3350 2150 3350
-Wire Wire Line
-	1650 3850 2350 3850
-Wire Wire Line
-	1650 3850 1650 3900
-Wire Wire Line
-	1650 3900 1500 3900
-Connection ~ 5300 3350
-Connection ~ 1750 2850
-Wire Wire Line
-	1750 2250 1750 3350
-Wire Wire Line
-	5050 2650 5050 2750
-Connection ~ 3450 3750
-Wire Wire Line
-	3450 3750 3450 3650
-Connection ~ 2350 2250
-Connection ~ 2800 2250
-Connection ~ 3050 2250
-Connection ~ 3850 2250
-Connection ~ 4100 2250
-Connection ~ 4550 2250
-Connection ~ 4550 2650
-Connection ~ 4100 2650
-Connection ~ 3450 2550
-Connection ~ 2800 2650
-Connection ~ 2350 2650
-Connection ~ 2350 3350
-Connection ~ 2800 3350
-Connection ~ 3050 3350
-Connection ~ 2800 3750
-Connection ~ 2350 3750
-Connection ~ 3450 3650
-Connection ~ 3850 3350
-Connection ~ 4100 3350
-Connection ~ 4100 3750
-Connection ~ 4550 3350
-Connection ~ 4550 3750
-Wire Wire Line
-	3450 2650 3450 2550
-Connection ~ 3450 2650
-Connection ~ 1750 3850
-Connection ~ 1750 3350
-Wire Wire Line
-	3850 3350 5300 3350
-Wire Wire Line
-	2350 3850 2350 3750
+	3050 2250 2150 2250
 Wire Wire Line
 	4550 3750 4550 3850
 Wire Wire Line
-	3050 2250 2150 2250
-Connection ~ 2150 2250
-Connection ~ 1750 2250
+	2350 3750 2350 3850
+Connection ~ 1750 3350
+Connection ~ 1750 3850
+Connection ~ 3450 2650
 Wire Wire Line
-	3850 2250 4550 2250
+	3450 2650 3450 2550
+Connection ~ 4550 3750
+Connection ~ 4550 3350
+Connection ~ 4100 3750
+Connection ~ 4100 3350
+Connection ~ 3850 3350
+Connection ~ 3450 3650
+Connection ~ 2350 3750
+Connection ~ 2800 3750
+Connection ~ 3050 3350
+Connection ~ 2800 3350
+Connection ~ 2350 3350
+Connection ~ 2350 2650
+Connection ~ 2800 2650
+Connection ~ 3450 2550
+Connection ~ 4100 2650
+Connection ~ 4550 2650
+Connection ~ 4550 2250
+Connection ~ 4100 2250
+Connection ~ 3850 2250
+Connection ~ 3050 2250
+Connection ~ 2800 2250
+Connection ~ 2350 2250
 Wire Wire Line
-	4550 2250 4550 1150
-Connection ~ 5050 1150
-Connection ~ 6050 1150
+	3450 3750 3450 3650
+Connection ~ 3450 3750
 Wire Wire Line
-	7450 2650 7450 1850
+	5050 2650 5050 2750
 Wire Wire Line
-	2350 3750 5100 3750
-Connection ~ 5100 3350
-Connection ~ 5100 3750
+	1750 2250 1750 3350
+Connection ~ 1750 2850
 Wire Wire Line
-	8850 1150 8850 1850
+	1500 3900 1650 3900
+Wire Wire Line
+	1650 3900 1650 3850
+Wire Wire Line
+	1650 3850 2350 3850
+Wire Wire Line
+	3050 3350 2150 3350
+Connection ~ 2150 3350
+Connection ~ 5050 2650
+Wire Wire Line
+	5650 2150 5050 2150
+Wire Wire Line
+	7150 1650 6050 1650
+Connection ~ 6050 2650
+Connection ~ 6050 1650
+Connection ~ 5650 2150
+Connection ~ 5050 2150
+Connection ~ 5050 1650
+Wire Wire Line
+	7450 1450 7450 1150
+Connection ~ 7450 1150
+Wire Wire Line
+	7450 2650 2350 2650
+Wire Wire Line
+	4550 1150 7450 1150
+Wire Wire Line
+	5350 3450 5350 3350
+Connection ~ 5350 3350
 $Comp
 L CONN_2 P65
 U 1 1 519BE395
-P 9200 1950
-F 0 "P65" V 9150 1950 40  0000 C CNN
-F 1 "GND/5v" V 9250 1950 40  0000 C CNN
-	1    9200 1950
+P 5700 3550
+F 0 "P65" V 5650 3550 40  0000 C CNN
+F 1 "GND/5v" V 5750 3550 40  0000 C CNN
+	1    5700 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -287,9 +285,9 @@ F 1 "47uF" H 4600 3450 50  0000 L CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 8950 1150 2    40   Output ~ 0
+Text HLabel 7450 1150 2    40   Output ~ 0
 5vdc-analog
-Text HLabel 5300 3350 2    40   Output ~ 0
+Text HLabel 5900 3350 2    40   Output ~ 0
 5vdc-cpu
 $Comp
 L CP1 C18
