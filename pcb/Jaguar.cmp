@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 17 Jun 2013 12:24:03 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 16 Sep 2013 04:10:56 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -1303,10 +1303,10 @@ IdModule  = SOT223-MOSFET;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A4778/511FEC45;
+TimeStamp = /4F0A4778/52376447;
 Reference = Q12;
-ValeurCmp = ZXTP25020DGTA;
-IdModule  = transistor-SOT223;
+ValeurCmp = KSH127TF;
+IdModule  = d-pak;
 EndCmp
 
 BeginCmp
@@ -1956,14 +1956,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A4778/4F0A5180;
 Reference = U2;
-ValeurCmp = LM2937EM-5.0;
+ValeurCmp = LM2940T-5.0;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A4778/4F0A52BA;
 Reference = U3;
-ValeurCmp = LM2937EM-5.0;
+ValeurCmp = LM2940T-5.0;
 IdModule  = TO220_VERT;
 EndCmp
 

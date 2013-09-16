@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 01 Sep 2013 12:16:13 AM EDT
+EESchema Schematic File Version 2  date Mon 16 Sep 2013 04:11:09 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -11,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "31 aug 2013"
+Date "16 sep 2013"
 Rev "0.6-alpha"
 Comp "git hash: d146fc6f55"
 Comment1 ""
@@ -19,6 +19,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7450 1850
+Connection ~ 7150 1650
+Connection ~ 7450 1450
+$Comp
+L PNP-BCE Q12
+U 1 1 52376447
+P 7350 1650
+F 0 "Q12" H 7700 1450 60  0000 R CNN
+F 1 "KSH127TF" H 8000 1650 60  0000 R CNN
+	1    7350 1650
+	1    0    0    1   
+$EndComp
 Connection ~ 5350 3650
 Connection ~ 5350 3450
 Wire Wire Line
@@ -126,15 +138,6 @@ F 0 "D2" H 5100 3650 50  0000 C CNN
 F 1 "5.6v" H 5100 3450 40  0000 C CNN
 	1    5100 3550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L PNP Q12
-U 1 1 511FEC45
-P 7350 1650
-F 0 "Q12" H 7700 1500 60  0000 R CNN
-F 1 "ZXTP25020DGTA" H 8300 1650 60  0000 R CNN
-	1    7350 1650
-	1    0    0    1   
 $EndComp
 $Comp
 L R R106
