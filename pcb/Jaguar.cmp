@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 16 Sep 2013 04:10:56 PM EDT
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 17 Sep 2013 08:45:23 PM EDT
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -733,6 +733,55 @@ TimeStamp = /4F0D82A1/509C8644;
 Reference = JP2;
 ValeurCmp = 5v/12v;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/52377186;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/52377227;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/52378114;
+Reference = JP5;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/5237811B;
+Reference = JP6;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/52378126;
+Reference = JP7;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/52378132;
+Reference = JP8;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D0381/5237813C;
+Reference = JP9;
+ValeurCmp = JUMPER;
+IdModule  = r_2512;
 EndCmp
 
 BeginCmp
