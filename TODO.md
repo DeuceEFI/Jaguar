@@ -1,11 +1,12 @@
 # To Do List
 
-## JAG 09/01/2013 0015 EDT (GMT-0400)
+## JAG 10/12/2013 2058 EDT (GMT-0400)
 
-### Things left to change For Version 0.6-alpha PCB based on what has been learned from 0.4-alpha/0.5-alpha PCB:
+### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
-* Add an additional 4" x 6" board design with TE Connectivity 35 position connector mounted to it instead being on a separate carrier board.
-* Update Assembly documentation to reflect these changes for the Version 0.6-alpha PCB.
+* 
+* Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
+* Update Assembly documentation to reflect these changes for the Version 0.7-alpha PCB.
 
 ----------
 ### Jaguar Wish List Items:
