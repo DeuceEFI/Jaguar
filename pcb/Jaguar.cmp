@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 17 Sep 2013 08:45:23 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 17 Nov 2013 11:46:32 AM EST
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F1DD1E9;
@@ -703,14 +703,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
-ValeurCmp = 8V/0.5A_Polyfuse;
+ValeurCmp = 8V/0.5A Polyfuse;
 IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/519BED5D;
 Reference = F2;
-ValeurCmp = 8V/0.5A_Polyfuse;
+ValeurCmp = 8V/0.5A Polyfuse;
 IdModule  = c_1206;
 EndCmp
 
@@ -809,6 +809,13 @@ BeginCmp
 TimeStamp = /4F0A55A0;
 Reference = P1;
 ValeurCmp = 12v-SW;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/528902B6;
+Reference = P2;
+ValeurCmp = Vbus;
 IdModule  = WireConnection;
 EndCmp
 
@@ -918,10 +925,31 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/52890307;
+Reference = P18;
+ValeurCmp = USB-GND;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/528902D1;
+Reference = P19;
+ValeurCmp = D-;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F1F56DE;
 Reference = P20;
-ValeurCmp = Port_T4-7;
+ValeurCmp = Port T4-7;
 IdModule  = PIN_STRIP_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/4F0A3F95/528902EC;
+Reference = P21;
+ValeurCmp = D+;
+IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
@@ -962,7 +990,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1EAE6B;
 Reference = P33;
-ValeurCmp = Port_B0-7;
+ValeurCmp = Port B0-7;
 IdModule  = SIL-8;
 EndCmp
 
@@ -1263,14 +1291,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F221DE9;
 Reference = PP1;
-ValeurCmp = Port_P0-3;
+ValeurCmp = Port P0-3;
 IdModule  = PIN_STRIP_4;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0A2F06/4F221E2B;
 Reference = PP2;
-ValeurCmp = Port_P4-7;
+ValeurCmp = Port P4-7;
 IdModule  = PIN_STRIP_4;
 EndCmp
 
@@ -1410,21 +1438,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F179AD3;
 Reference = R8;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DC62C;
 Reference = R9;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F1DC636;
 Reference = R10;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
@@ -1669,49 +1697,49 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F1380A7;
 Reference = R47;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13816C;
 Reference = R48;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138176;
 Reference = R49;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13817B;
 Reference = R50;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F138183;
 Reference = R51;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F13818C;
 Reference = R52;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/4F1384D7;
 Reference = R53;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
@@ -1725,7 +1753,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F1794BF;
 Reference = R55;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
@@ -1753,14 +1781,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5D5;
 Reference = R66;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E3;
 Reference = R67;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
@@ -1795,7 +1823,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F20C918;
 Reference = R72;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 
@@ -1816,7 +1844,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F21BF54;
 Reference = R75;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = rc03_vert;
 EndCmp
 

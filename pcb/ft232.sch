@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "7 nov 2013"
+Date "17 nov 2013"
 Rev "0.6-alpha"
 Comp "Git: 73f4fbd6d6"
 Comment1 ""
@@ -308,4 +308,52 @@ F 3 "" H 5900 3650 60  0001 C CNN
 	1    5900 3650
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_1 P?
+U 1 1 528902B6
+P 2700 2800
+F 0 "P?" H 2780 2800 40  0000 L CNN
+F 1 "Vbus" H 2700 2855 30  0001 C CNN
+F 2 "~" H 2700 2800 60  0000 C CNN
+F 3 "~" H 2700 2800 60  0000 C CNN
+	1    2700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 528902D1
+P 3100 3100
+F 0 "P?" H 3180 3100 40  0000 L CNN
+F 1 "D-" H 3100 3155 30  0001 C CNN
+F 2 "~" H 3100 3100 60  0000 C CNN
+F 3 "~" H 3100 3100 60  0000 C CNN
+	1    3100 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 528902EC
+P 3100 3500
+F 0 "P?" H 3180 3500 40  0000 L CNN
+F 1 "D+" H 3100 3555 30  0001 C CNN
+F 2 "~" H 3100 3500 60  0000 C CNN
+F 3 "~" H 3100 3500 60  0000 C CNN
+	1    3100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 52890307
+P 2700 3850
+F 0 "P?" H 2780 3850 40  0000 L CNN
+F 1 "USB-GND" H 2700 3905 30  0001 C CNN
+F 2 "~" H 2700 3850 60  0000 C CNN
+F 3 "~" H 2700 3850 60  0000 C CNN
+	1    2700 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 2800
+Connection ~ 3100 3250
+Connection ~ 3100 3350
+Connection ~ 2550 3850
 $EndSCHEMATC
