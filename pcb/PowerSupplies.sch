@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "17 nov 2013"
+Date "3 dec 2013"
 Rev "0.6-alpha"
 Comp "Git: 73f4fbd6d6"
 Comment1 ""
@@ -125,10 +125,10 @@ Wire Wire Line
 	5350 3450 5350 3350
 Connection ~ 5350 3350
 $Comp
-L CONN_2 P65
+L CONN_2 GND/5v
 U 1 1 519BE395
 P 5700 3550
-F 0 "P65" V 5650 3550 40  0000 C CNN
+F 0 "GND/5v" V 5650 3550 40  0000 C CNN
 F 1 "GND/5v" V 5750 3550 40  0000 C CNN
 F 2 "" H 5700 3550 60  0001 C CNN
 F 3 "" H 5700 3550 60  0001 C CNN
