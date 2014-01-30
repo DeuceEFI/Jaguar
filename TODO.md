@@ -4,7 +4,7 @@
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
-* 
+* Change Fuel Pump relay driver from a low side driver to a high side driver for Mazda and GM stock fuel pump relay wiring.
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.7-alpha PCB.
 
