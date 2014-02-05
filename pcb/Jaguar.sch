@@ -24,75 +24,29 @@ Text GLabel 9050 5150 0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 9000 2500 0    40   Input ~ 0
 5vdc-cpu
-Text Notes 700  5150 0    60   ~ 0
+Text Notes 750  1800 0    60   ~ 0
 C45, C46, C50, D3, D32, R14, R15, R56, R59, R60, R61, R62, R64,\nR65, R79, R85, R86, R93, R94, R96, R97, R98, R99, U5, U10
-Text Notes 600  5000 0    60   ~ 0
+Text Notes 700  1650 0    60   ~ 0
 Components that are missing from design changes:
-Wire Notes Line
-	550  4850 4200 4850
-Connection ~ 5550 2900
-Connection ~ 5500 3150
+Connection ~ 7650 4350
+Connection ~ 7600 4600
 Wire Wire Line
-	5500 3150 5200 3150
-Connection ~ 5500 2900
+	7600 4600 7300 4600
+Connection ~ 7600 4350
 Wire Wire Line
-	5500 2900 5550 2900
+	7600 4350 7650 4350
 Wire Wire Line
-	5200 2750 5500 2750
+	7300 4200 7600 4200
 Wire Notes Line
-	550  2450 4200 2450
+	4350 6050 5650 6050
 Wire Notes Line
-	6500 7650 6000 7650
+	4350 6950 4350 4800
 Wire Notes Line
-	6000 7650 6000 7600
+	4350 6950 8050 6950
 Wire Notes Line
-	4350 4650 5650 4650
-Wire Notes Line
-	4350 5550 4350 3400
-Wire Notes Line
-	4350 5550 8050 5550
-Wire Notes Line
-	4350 3400 8050 3400
-Wire Notes Line
-	6050 6150 6500 6150
-Wire Notes Line
-	6050 5950 6500 5950
-Wire Notes Line
-	5150 6050 4700 6050
-Wire Notes Line
-	5150 6250 4700 6250
-Wire Notes Line
-	5150 7350 4700 7350
-Wire Notes Line
-	5150 7150 4700 7150
-Wire Notes Line
-	5150 6950 4700 6950
-Wire Notes Line
-	5150 6750 4700 6750
-Wire Notes Line
-	5150 6550 4700 6550
-Wire Notes Line
-	5150 6350 4700 6350
-Wire Notes Line
-	6050 6450 6500 6450
-Wire Notes Line
-	6050 6650 6500 6650
-Wire Notes Line
-	6050 6850 6500 6850
-Wire Notes Line
-	6050 7050 6500 7050
-Wire Notes Line
-	6050 7250 6500 7250
-Wire Notes Line
-	6050 7450 6500 7450
-Wire Notes Line
-	5150 7550 4700 7550
-Wire Notes Line
-	5150 5900 6050 5900
-Wire Notes Line
-	5150 5900 5150 7600
-Connection ~ 5200 2750
-Connection ~ 5200 2850
+	4350 4800 8050 4800
+Connection ~ 7300 4200
+Connection ~ 7300 4300
 Wire Notes Line
 	550  7750 550  550 
 Wire Notes Line
@@ -101,69 +55,19 @@ Wire Notes Line
 	4200 7750 4200 550 
 Wire Notes Line
 	4200 550  550  550 
-Wire Notes Line
-	6050 5900 6050 7600
-Wire Notes Line
-	6050 7600 5150 7600
-Wire Notes Line
-	6500 7550 6050 7550
-Wire Notes Line
-	6050 7350 6500 7350
-Wire Notes Line
-	6050 7150 6500 7150
-Wire Notes Line
-	6050 6950 6500 6950
-Wire Notes Line
-	6050 6750 6500 6750
-Wire Notes Line
-	6050 6550 6500 6550
-Wire Notes Line
-	6050 6350 6500 6350
-Wire Notes Line
-	5150 6450 4700 6450
-Wire Notes Line
-	5150 6650 4700 6650
-Wire Notes Line
-	5150 6850 4700 6850
-Wire Notes Line
-	5150 7050 4700 7050
-Wire Notes Line
-	5150 7250 4700 7250
-Wire Notes Line
-	5150 7450 4700 7450
-Wire Notes Line
-	5150 6150 4700 6150
-Wire Notes Line
-	5150 5950 4700 5950
-Wire Notes Line
-	6050 6050 6500 6050
-Wire Notes Line
-	6050 6250 6500 6250
-Wire Notes Line
-	550  2050 4200 2050
 Wire Wire Line
-	5500 3050 5200 3050
+	7600 4500 7300 4500
 Wire Wire Line
-	5200 2850 5500 2850
-Connection ~ 5500 2850
+	7300 4300 7600 4300
+Connection ~ 7600 4300
 Wire Wire Line
-	5500 2950 5200 2950
-Connection ~ 5500 2950
-Connection ~ 5200 2950
-Connection ~ 5200 3050
-Connection ~ 5500 3050
+	7600 4400 7300 4400
+Connection ~ 7600 4400
+Connection ~ 7300 4400
+Connection ~ 7300 4500
+Connection ~ 7600 4500
 Wire Wire Line
-	5500 2750 5500 2850
-Wire Wire Line
-	5500 2850 5500 2900
-Wire Wire Line
-	5500 2900 5500 2950
-Wire Wire Line
-	5500 2950 5500 3050
-Wire Wire Line
-	5500 3050 5500 3150
-Wire Wire Line
-	5500 3150 5500 3200
+	7600 4200 7600 4650
 Wire Wire Line
 	9000 1500 8400 1500
 Wire Wire Line
@@ -365,88 +269,52 @@ Text GLabel 5200 2400 0    40   Input ~ 0
 Ground
 Text GLabel 10550 1550 2    40   Input ~ 0
 Ground
-Text Notes 5100 3150 0    25   ~ 0
+Text Notes 7200 4600 0    25   ~ 0
 Sensor-GND
 Text Notes 8750 4150 0    40   ~ 0
 12v-SW
-Text Notes 650  2600 0    60   ~ 0
+Text Notes 700  1250 0    60   ~ 0
 5vdc-cpu = VDD\n\n5vdc-analog = VCC
-Text GLabel 6500 7050 2    40   Input ~ 0
-P45
 $Comp
 L CONN_1 Sensor-GND
 U 1 1 4F2A0E57
-P 5050 3150
-F 0 "Sensor-GND" H 5130 3150 40  0000 L CNN
-F 1 "Sensor-GND" H 5050 3205 30  0001 C CNN
-F 2 "" H 5050 3150 60  0001 C CNN
-F 3 "" H 5050 3150 60  0001 C CNN
-	1    5050 3150
+P 7150 4600
+F 0 "Sensor-GND" H 7230 4600 40  0000 L CNN
+F 1 "Sensor-GND" H 7150 4655 30  0001 C CNN
+F 2 "" H 7150 4600 60  0001 C CNN
+F 3 "" H 7150 4600 60  0001 C CNN
+	1    7150 4600
 	-1   0    0    1   
 $EndComp
-Text GLabel 6500 6650 2    40   Input ~ 0
-P44
-Text GLabel 6500 6550 2    40   Input ~ 0
-P43
-Text Notes 5100 3050 0    30   ~ 0
+Text Notes 7200 4500 0    30   ~ 0
 RPM1-Shield
-Text Notes 5100 2950 0    30   ~ 0
+Text Notes 7200 4400 0    30   ~ 0
 RPM0-Shield
 $Comp
 L CONN_1 RPM1-Shield
 U 1 1 4F2A0D57
-P 5050 3050
-F 0 "RPM1-Shield" H 5130 3050 40  0000 L CNN
-F 1 "RPM1-Shield" H 5050 3105 30  0001 C CNN
-F 2 "" H 5050 3050 60  0001 C CNN
-F 3 "" H 5050 3050 60  0001 C CNN
-	1    5050 3050
+P 7150 4500
+F 0 "RPM1-Shield" H 7230 4500 40  0000 L CNN
+F 1 "RPM1-Shield" H 7150 4555 30  0001 C CNN
+F 2 "" H 7150 4500 60  0001 C CNN
+F 3 "" H 7150 4500 60  0001 C CNN
+	1    7150 4500
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 RPM0-Shield
 U 1 1 4F2A0D4D
-P 5050 2950
-F 0 "RPM0-Shield" H 5130 2950 40  0000 L CNN
-F 1 "RPM0-Shield" H 5050 3005 30  0001 C CNN
-F 2 "" H 5050 2950 60  0001 C CNN
-F 3 "" H 5050 2950 60  0001 C CNN
-	1    5050 2950
+P 7150 4400
+F 0 "RPM0-Shield" H 7230 4400 40  0000 L CNN
+F 1 "RPM0-Shield" H 7150 4455 30  0001 C CNN
+F 2 "" H 7150 4400 60  0001 C CNN
+F 3 "" H 7150 4400 60  0001 C CNN
+	1    7150 4400
 	-1   0    0    1   
 $EndComp
-Text GLabel 6500 7350 2    40   Input ~ 0
-P35
-Text GLabel 6500 7450 2    40   Input ~ 0
-P37
-Text GLabel 4700 7350 0    40   Input ~ 0
-P41
-Text GLabel 4700 6950 0    40   Input ~ 0
-P42
-Text Notes 4750 6950 0    30   ~ 0
-INJ GND2
-Text Notes 6100 7050 0    30   ~ 0
-Sensor GND
-Text Notes 6100 7350 0    30   ~ 0
-FAN
-Text Notes 6100 7450 0    30   ~ 0
-Accessory
-Text Notes 4750 7350 0    30   ~ 0
-MAF
-Text Notes 6100 6650 0    30   ~ 0
-Cam Shield
-Text Notes 6100 6550 0    30   ~ 0
-Crank Shield
-Text Notes 6100 6350 0    30   ~ 0
-Injector8
-Text Notes 6100 6250 0    30   ~ 0
-Injector7
-Text GLabel 6500 6350 2    40   Input ~ 0
-P26-8
-Text GLabel 6500 6250 2    40   Input ~ 0
-P26-7
-Text Notes 5100 2850 0    25   ~ 0
+Text Notes 7200 4300 0    25   ~ 0
 GND2
-Text Notes 5100 2750 0    25   ~ 0
+Text Notes 7200 4200 0    25   ~ 0
 GND
 $Comp
 L CONN_1 INJ2-GND
@@ -492,25 +360,23 @@ F 3 "" H 8850 3300 60  0001 C CNN
 	1    8850 3300
 	-1   0    0    1   
 $EndComp
-Text Notes 5950 7600 0    25   ~ 0
-35
-Text Notes 650  2200 0    60   ~ 0
+Text Notes 700  850  0    60   ~ 0
 Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith silicon insulators and use plastic isolators on the metal screws.
-Text GLabel 6500 4900 0    40   Input ~ 0
+Text GLabel 6500 6300 0    40   Input ~ 0
 CPU-PB7
-Text GLabel 6500 4800 0    40   Input ~ 0
+Text GLabel 6500 6200 0    40   Input ~ 0
 CPU-PB6
-Text GLabel 6500 4700 0    40   Input ~ 0
+Text GLabel 6500 6100 0    40   Input ~ 0
 CPU-PB5
-Text GLabel 6500 4600 0    40   Input ~ 0
+Text GLabel 6500 6000 0    40   Input ~ 0
 CPU-PB4
-Text GLabel 6500 4500 0    40   Input ~ 0
+Text GLabel 6500 5900 0    40   Input ~ 0
 CPU-PB3
-Text GLabel 6500 4400 0    40   Input ~ 0
+Text GLabel 6500 5800 0    40   Input ~ 0
 CPU-PB2
-Text GLabel 6500 4300 0    40   Input ~ 0
+Text GLabel 6500 5700 0    40   Input ~ 0
 CPU-PB1
-Text GLabel 6500 4200 0    40   Input ~ 0
+Text GLabel 6500 5600 0    40   Input ~ 0
 CPU-PB0
 Text GLabel 6900 1900 2    40   Output ~ 0
 CPU-PB7
@@ -528,13 +394,13 @@ Text GLabel 6900 1300 2    40   Output ~ 0
 CPU-PB1
 Text GLabel 6900 1200 2    40   Output ~ 0
 CPU-PB0
-Text GLabel 6500 4000 0    40   Input ~ 0
+Text GLabel 6500 5400 0    40   Input ~ 0
 CPU-PT7
-Text GLabel 6500 3900 0    40   Input ~ 0
+Text GLabel 6500 5300 0    40   Input ~ 0
 CPU-PT6
-Text GLabel 6500 3800 0    40   Input ~ 0
+Text GLabel 6500 5200 0    40   Input ~ 0
 CPU-PT5
-Text GLabel 6500 3700 0    40   Input ~ 0
+Text GLabel 6500 5100 0    40   Input ~ 0
 CPU-PT4
 Text GLabel 6900 1050 2    40   Output ~ 0
 CPU-PT7
@@ -555,21 +421,21 @@ F 3 "" H 10700 3300 60  0001 C CNN
 	1    10700 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 4450 4000 0    50   ~ 10
+Text Notes 4450 5400 0    50   ~ 10
 AND DO THE FOLLOWING
-Text GLabel 7600 4900 2    40   Output ~ 0
+Text GLabel 7600 6300 2    40   Output ~ 0
 Injector8-IN
-Text GLabel 7600 4800 2    40   Output ~ 0
+Text GLabel 7600 6200 2    40   Output ~ 0
 Injector7-IN
 $Comp
 L CONN_8 Injectors-IN
 U 1 1 4F20E01E
-P 7250 4550
-F 0 "Injectors-IN" V 7200 4550 60  0000 C CNN
-F 1 "Injectors-IN" V 7300 4550 60  0000 C CNN
-F 2 "" H 7250 4550 60  0001 C CNN
-F 3 "" H 7250 4550 60  0001 C CNN
-	1    7250 4550
+P 7250 5950
+F 0 "Injectors-IN" V 7200 5950 60  0000 C CNN
+F 1 "Injectors-IN" V 7300 5950 60  0000 C CNN
+F 2 "" H 7250 5950 60  0001 C CNN
+F 3 "" H 7250 5950 60  0001 C CNN
+	1    7250 5950
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -587,167 +453,45 @@ Text GLabel 9000 1400 0    40   Input ~ 0
 Injector8-IN
 Text GLabel 9000 1300 0    40   Input ~ 0
 Injector7-IN
-Text Notes 5950 7550 0    25   ~ 0
-34
-Text Notes 5950 7450 0    25   ~ 0
-33
-Text Notes 5950 7350 0    25   ~ 0
-32
-Text Notes 5950 7250 0    25   ~ 0
-31
-Text Notes 5950 7150 0    25   ~ 0
-30
-Text Notes 5950 7050 0    25   ~ 0
-29
-Text Notes 5950 6950 0    25   ~ 0
-28
-Text Notes 5950 6850 0    25   ~ 0
-27
-Text Notes 5950 6750 0    25   ~ 0
-26
-Text Notes 5950 6650 0    25   ~ 0
-25
-Text Notes 5950 6550 0    25   ~ 0
-24
-Text Notes 5950 6450 0    25   ~ 0
-23
-Text Notes 5950 6350 0    25   ~ 0
-22
-Text Notes 5950 6250 0    25   ~ 0
-21
-Text Notes 5950 6150 0    25   ~ 0
-20
-Text Notes 5950 6050 0    25   ~ 0
-19
-Text Notes 5950 5950 0    25   ~ 0
-18
-Text Notes 5200 5950 0    25   ~ 0
-17
-Text Notes 5200 6050 0    25   ~ 0
-16
-Text Notes 5200 6150 0    25   ~ 0
-15
-Text Notes 5200 6250 0    25   ~ 0
-14
-Text Notes 5200 6350 0    25   ~ 0
-13
-Text Notes 5200 6450 0    25   ~ 0
-12
-Text Notes 5200 6550 0    25   ~ 0
-11
-Text Notes 5200 6650 0    25   ~ 0
-10
-Text Notes 5200 6750 0    25   ~ 0
-9
-Text Notes 5200 6850 0    25   ~ 0
-8
-Text Notes 5200 6950 0    25   ~ 0
-7
-Text Notes 5200 7050 0    25   ~ 0
-6
-Text Notes 5200 7150 0    25   ~ 0
-5
-Text Notes 5200 7250 0    25   ~ 0
-4
-Text Notes 5200 7350 0    25   ~ 0
-3
-Text Notes 5200 7450 0    25   ~ 0
-2
-Text Notes 5200 7550 0    25   ~ 0
-1
-Text Notes 5550 5850 0    60   ~ 0
-J2
-Text Notes 6100 7250 0    30   ~ 0
-Fuel Pump
-Text Notes 6100 5950 0    30   ~ 0
-DIS Bypass
-Text Notes 4750 7050 0    30   ~ 0
-IGN Advance
-Text Notes 6100 7150 0    30   ~ 0
-INJ GND
-Text Notes 4750 6850 0    30   ~ 0
-Injector1
-Text Notes 4750 6750 0    30   ~ 0
-Injector2
-Text Notes 4750 6650 0    30   ~ 0
-Injector3
-Text Notes 4750 6550 0    30   ~ 0
-Injector4
-Text Notes 6100 6050 0    30   ~ 0
-Injector5
-Text Notes 6100 6150 0    30   ~ 0
-Injector6
-Text Notes 4750 6450 0    30   ~ 0
-12v SW
-Text Notes 6100 6450 0    30   ~ 0
-12V SW2
-Text Notes 6100 7650 0    30   ~ 0
-GND
-Text Notes 6100 7550 0    30   ~ 0
-GND2
-Text Notes 4750 7550 0    30   ~ 0
-CRANK+
-Text Notes 4750 6350 0    30   ~ 0
-CRANK-
-Text Notes 4750 7450 0    30   ~ 0
-CAM+
-Text Notes 4750 6250 0    30   ~ 0
-CAM-
-Text Notes 6100 6750 0    30   ~ 0
-IAT Sensor
-Text Notes 4750 6150 0    30   ~ 0
-MAT Sensor
-Text Notes 4750 7250 0    30   ~ 0
-CHT
-Text Notes 4750 6050 0    30   ~ 0
-O2 Sensor
-Text Notes 6100 6850 0    30   ~ 0
-Sensor GND
-Text Notes 4750 7150 0    30   ~ 0
-TPS 5vdc
-Text Notes 4750 5950 0    30   ~ 0
-TPS Signal
-Text Notes 6100 6950 0    30   ~ 0
-Sensor GND
 $Comp
 L CONN_4 PT4-7
 U 1 1 4F1F56DE
-P 6850 3850
-F 0 "PT4-7" V 6800 3850 50  0000 C CNN
-F 1 "Port T4-7" V 6900 3850 50  0000 C CNN
-F 2 "" H 6850 3850 60  0001 C CNN
-F 3 "" H 6850 3850 60  0001 C CNN
-	1    6850 3850
+P 6850 5250
+F 0 "PT4-7" V 6800 5250 50  0000 C CNN
+F 1 "Port T4-7" V 6900 5250 50  0000 C CNN
+F 2 "" H 6850 5250 60  0001 C CNN
+F 3 "" H 6850 5250 60  0001 C CNN
+	1    6850 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 PB0-7
 U 1 1 4F1EAE6B
-P 6850 4550
-F 0 "PB0-7" V 6800 4550 60  0000 C CNN
-F 1 "Port B0-7" V 6900 4550 60  0000 C CNN
-F 2 "" H 6850 4550 60  0001 C CNN
-F 3 "" H 6850 4550 60  0001 C CNN
-	1    6850 4550
+P 6850 5950
+F 0 "PB0-7" V 6800 5950 60  0000 C CNN
+F 1 "Port B0-7" V 6900 5950 60  0000 C CNN
+F 2 "" H 6850 5950 60  0001 C CNN
+F 3 "" H 6850 5950 60  0001 C CNN
+	1    6850 5950
 	1    0    0    -1  
 $EndComp
-Text Notes 4400 4750 0    40   ~ 0
+Text Notes 4400 6150 0    40   ~ 0
 To use Port B with future XGATE \ncode, run jumper wires from:\nP33 to P34 pin for pin and \ndo not connect anything to P20.\nie: \nPB0-7 pin 1 to Injectors-IN pin 1\nPB0-7 pin 2 to Injectors-IN pin 2\nPB0-7 pin 3 to Injectors-IN pin 3\nPB0-7 pin 4 to Injectors-IN pin 4\nPB0-7 pin 5 to Injectors-IN pin 5\nPB0-7 pin 6 to Injectors-IN pin 6\nPB0-7 pin 7 to Injectors-IN pin 7\nPB0-7 pin 8 to Injectors-IN pin 8\n
-Text Notes 4400 4100 0    40   ~ 0
+Text Notes 4400 5500 0    40   ~ 0
 For 6/8 cylinder using Port T with\ncurrent code jumper from:\n(can be tie-bar shorting jumper if \nyou installed a 0.100" pin header \nfor Injectors-IN)\n   Injectors-IN pin 1 to pin 2\n   Injectors-IN pin 3 to pin 4\n   Injectors-IN pin 5 to pin 6\n   Injectors-IN pin 7 to pin 8
-Text Notes 4400 3500 0    40   ~ 0
+Text Notes 4400 4900 0    40   ~ 0
 For 6/8 cylinder using Port T with\ncurrent code, run jumper wires \nfrom: \nPT4-7 pin 1 to PB0-7 pin 1 = Bank 1\nPT4-7 pin 2 to PB0-7 pin 3 = Bank 2\nPT4-7 pin 3 to PB0-7 pin 5 = Bank 3\nPT4-7 pin 4 to PB0-7 pin 7 = Bank 4
-Text Notes 5800 5300 0    55   ~ 0
+Text Notes 5800 6700 0    55   ~ 0
 PT4-7 and PB0-7 allow for selection to use either \nPort T (4 cpu outputs MAXIMUM:current code)\nor Port B (8 cpu outputs:future XGATE code)
-Text GLabel 7600 4700 2    40   Output ~ 0
+Text GLabel 7600 6100 2    40   Output ~ 0
 Injector6-IN
-Text GLabel 7600 4600 2    40   Output ~ 0
+Text GLabel 7600 6000 2    40   Output ~ 0
 Injector5-IN
-Text GLabel 7600 4500 2    40   Output ~ 0
+Text GLabel 7600 5900 2    40   Output ~ 0
 Injector4-IN
-Text GLabel 7600 4400 2    40   Output ~ 0
+Text GLabel 7600 5800 2    40   Output ~ 0
 Injector3-IN
-Text GLabel 7600 4300 2    40   Output ~ 0
+Text GLabel 7600 5700 2    40   Output ~ 0
 Injector2-IN
 Text GLabel 9000 1200 0    40   Input ~ 0
 Injector6-IN
@@ -759,7 +503,7 @@ Text GLabel 9000 900  0    40   Input ~ 0
 Injector3-IN
 Text GLabel 9000 800  0    40   Input ~ 0
 Injector2-IN
-Text GLabel 7600 4200 2    40   Output ~ 0
+Text GLabel 7600 5600 2    40   Output ~ 0
 Injector1-IN
 Text GLabel 9000 700  0    40   Input ~ 0
 Injector1-IN
@@ -800,8 +544,6 @@ F30 "RPM0" I L 5200 1250 40
 F31 "PK5" O R 6900 2100 40 
 F32 "SPR-Signal" I L 5200 2100 40 
 $EndSheet
-Text Notes 650  850  0    60   ~ 0
-J2 is the TE Connectivity Automotive Grade water resistant connector. \nThere is a separate board design for this connector found in the \nconnector/pcb directory in the Jaguar repository.\n\nThe 35 positions will allow for modifications to the board for additional \ninputs/outputs as this design only uses 27 positions.  My samples to\ntest have arrived, http://www.te.com Part #'s:\n\n1-776163-2 Right Angle 35 Position Header (Natural Color)\nOR\n1-776231-2 Vertical 35 Position Header (Natural Color)\n1-776231-2 Vertical 35 Position Header (Natural Color)\n776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
 Text Notes 600  700  0    70   ~ 14
 Notes:
 $Comp
@@ -829,40 +571,14 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 4F1CCA54
-P 5500 3200
-F 0 "#PWR01" H 5500 3200 30  0001 C CNN
-F 1 "GND" H 5500 3130 30  0001 C CNN
-F 2 "" H 5500 3200 60  0001 C CNN
-F 3 "" H 5500 3200 60  0001 C CNN
-	1    5500 3200
+P 7600 4650
+F 0 "#PWR01" H 7600 4650 30  0001 C CNN
+F 1 "GND" H 7600 4580 30  0001 C CNN
+F 2 "" H 7600 4650 60  0001 C CNN
+F 3 "" H 7600 4650 60  0001 C CNN
+	1    7600 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 6150 2    40   Input ~ 0
-P26-6
-Text GLabel 6500 6050 2    40   Input ~ 0
-P26-5
-Text GLabel 4700 6550 0    40   Input ~ 0
-P26-4
-Text GLabel 4700 6650 0    40   Input ~ 0
-P26-3
-Text GLabel 4700 6750 0    40   Input ~ 0
-P26-2
-Text GLabel 4700 6850 0    40   Input ~ 0
-P26-1
-Text GLabel 4700 7050 0    40   Input ~ 0
-P19
-Text GLabel 6500 5950 2    40   Input ~ 0
-P18
-Text GLabel 6500 7150 2    40   Input ~ 0
-P22
-Text GLabel 6500 7250 2    40   Input ~ 0
-P25
-Text GLabel 6500 6950 2    40   Input ~ 0
-P11
-Text GLabel 4700 5950 0    40   Input ~ 0
-P10
-Text GLabel 4700 7150 0    40   Input ~ 0
-P9
 $Comp
 L CONN_1 TPS-5v
 U 1 1 4F1CC8BD
@@ -874,34 +590,6 @@ F 3 "" H 8900 5700 60  0001 C CNN
 	1    8900 5700
 	-1   0    0    1   
 $EndComp
-Text GLabel 6500 6850 2    40   Input ~ 0
-P13
-Text GLabel 4700 6050 0    40   Input ~ 0
-P12
-Text GLabel 4700 7250 0    40   Input ~ 0
-P8
-Text GLabel 4700 6150 0    40   Input ~ 0
-P7
-Text GLabel 6500 6750 2    40   Input ~ 0
-P6
-Text GLabel 4700 6250 0    40   Input ~ 0
-P17
-Text GLabel 4700 7450 0    40   Input ~ 0
-P16
-Text GLabel 4700 6350 0    40   Input ~ 0
-P15
-Text GLabel 4700 7550 0    40   Input ~ 0
-P14
-Text GLabel 6500 6450 2    40   Input ~ 0
-P2, P32, P36, P38
-Text GLabel 6500 7550 2    40   Input ~ 0
-P5
-Text GLabel 6500 7650 2    40   Input ~ 0
-P3
-Text GLabel 4700 6450 0    40   Input ~ 0
-P1
-Text Notes 5200 7700 0    40   ~ 0
-   External Connector\nNOT TO SCALE OR SHAPE
 $Sheet
 S 9050 4900 1350 1900
 U 4F0BB08D
@@ -942,12 +630,12 @@ Text GLabel 5200 850  0    40   Input ~ 0
 $Comp
 L CONN_1 GND
 U 1 1 4F189D7E
-P 5050 2750
-F 0 "GND" H 5130 2750 40  0000 L CNN
-F 1 "GND" H 5050 2805 30  0001 C CNN
-F 2 "" H 5050 2750 60  0001 C CNN
-F 3 "" H 5050 2750 60  0001 C CNN
-	1    5050 2750
+P 7150 4200
+F 0 "GND" H 7230 4200 40  0000 L CNN
+F 1 "GND" H 7150 4255 30  0001 C CNN
+F 2 "" H 7150 4200 60  0001 C CNN
+F 3 "" H 7150 4200 60  0001 C CNN
+	1    7150 4200
 	-1   0    0    1   
 $EndComp
 Text GLabel 5200 1800 0    40   Input ~ 0
@@ -1089,12 +777,12 @@ $EndComp
 $Comp
 L CONN_1 GND2
 U 1 1 4F0C7391
-P 5050 2850
-F 0 "GND2" H 5130 2850 40  0000 L CNN
-F 1 "GND2" H 5050 2905 30  0001 C CNN
-F 2 "" H 5050 2850 60  0001 C CNN
-F 3 "" H 5050 2850 60  0001 C CNN
-	1    5050 2850
+P 7150 4300
+F 0 "GND2" H 7230 4300 40  0000 L CNN
+F 1 "GND2" H 7150 4355 30  0001 C CNN
+F 2 "" H 7150 4300 60  0001 C CNN
+F 3 "" H 7150 4300 60  0001 C CNN
+	1    7150 4300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1217,7 +905,7 @@ Text GLabel 5200 1700 0    40   Input ~ 0
 MAP
 Text GLabel 5200 750  0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 5550 2900 2    40   Output ~ 0
+Text GLabel 7650 4350 2    40   Output ~ 0
 Ground
 Text GLabel 10100 4200 2    40   Output ~ 0
 5vdc-cpu
@@ -1235,9 +923,9 @@ F 3 "" H 8900 4200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	8050 3400 8050 5550
+	8050 4800 8050 6950
 Wire Notes Line
-	5650 3400 5650 5550
+	5650 4800 5650 6950
 $Comp
 L CONN_1 FP
 U 1 1 52F28E03
@@ -1265,7 +953,7 @@ Connection ~ 9000 3000
 Connection ~ 9000 3200
 Connection ~ 9000 3300
 Connection ~ 9050 4200
-Connection ~ 5200 3150
+Connection ~ 7300 4600
 Connection ~ 9000 1650
 Connection ~ 9000 1750
 Connection ~ 9000 1850
@@ -1337,4 +1025,14 @@ Connection ~ 10550 3000
 Connection ~ 9000 3400
 Text GLabel 10550 2500 2    40   Input ~ 0
 Ground
+Wire Notes Line
+	550  1100 4200 1100
+Wire Notes Line
+	550  1500 4200 1500
+Wire Notes Line
+	550  1950 4200 1950
+Text Notes 700  2100 0    60   ~ 0
+This PCB is intended to be used with either the specified Context\nEngineering enclosure or retro-fittted into a factory ECU enclosure.
+Wire Notes Line
+	550  2250 4200 2250
 $EndSCHEMATC
