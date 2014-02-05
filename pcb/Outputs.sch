@@ -693,9 +693,7 @@ F 3 "" H 2450 850 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 1450 1350 0    40   Input ~ 0
-Fuel-Relay-Drive-IN
-Text HLabel 2200 850  0    40   Input ~ 0
-Fuel_Pump_Relay
+HSD-IN
 $Comp
 L R R?
 U 1 1 4F0744B6
@@ -749,7 +747,7 @@ Text HLabel 3550 1550 2    40   Input ~ 0
 Text HLabel 3550 1250 2    40   Input ~ 0
 12vdc-switched-outputs
 Text HLabel 3700 1450 2    40   Output ~ 0
-Fuel_Pump_Relay
+HSD
 Wire Wire Line
 	3550 1450 3650 1450
 Wire Wire Line
@@ -1267,4 +1265,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 5150 4250 5350
 Connection ~ 4250 5350
+Text HLabel 2200 850  0    40   Input ~ 0
+HSD
 $EndSCHEMATC
