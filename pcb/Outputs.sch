@@ -36,61 +36,28 @@ Wire Wire Line
 Wire Wire Line
 	7700 2100 7700 2150
 Wire Wire Line
-	7600 1600 7850 1600
+	7600 1600 7700 1600
 Wire Wire Line
-	7600 1400 7850 1400
+	7700 1600 7850 1600
 Wire Wire Line
-	3150 3650 3200 3650
-Connection ~ 1700 4950
+	7600 1400 7700 1400
 Wire Wire Line
-	2800 4950 2900 4950
-Connection ~ 2300 4950
-Connection ~ 2300 5450
-Wire Wire Line
-	3200 5150 3200 5450
-Wire Wire Line
-	2850 4550 3350 4550
-Connection ~ 2850 4550
-Connection ~ 2450 4550
-Connection ~ 1550 4550
-Connection ~ 2050 4550
-Connection ~ 2900 4950
-Connection ~ 3200 5150
-Connection ~ 3200 4750
-Connection ~ 3350 4750
-Wire Wire Line
-	3200 4750 3500 4750
-Wire Wire Line
-	3350 4550 3350 4750
+	7700 1400 7850 1400
 Wire Notes Line
 	650  5850 650  4200
 Wire Wire Line
-	1550 4950 2300 4950
-Wire Wire Line
-	1550 3150 2300 3150
+	1400 3000 1450 3000
 Wire Notes Line
 	650  2400 650  4050
+Connection ~ 2500 3000
+Connection ~ 3450 2550
+Connection ~ 2950 2550
+Connection ~ 3850 2550
+Connection ~ 4250 2550
+Connection ~ 1450 3500
+Connection ~ 1450 3000
 Wire Wire Line
-	3350 2950 3350 2750
-Wire Wire Line
-	3200 2950 3500 2950
-Connection ~ 3350 2950
-Connection ~ 3200 2950
-Connection ~ 3200 3350
-Connection ~ 2900 3150
-Connection ~ 2050 2750
-Connection ~ 1550 2750
-Connection ~ 2450 2750
-Connection ~ 2850 2750
-Wire Wire Line
-	3350 2750 2850 2750
-Wire Wire Line
-	3200 3650 3200 3350
-Connection ~ 2300 3650
-Connection ~ 2300 3150
-Wire Wire Line
-	2800 3150 2900 3150
-Connection ~ 1700 3150
+	1950 3000 2500 3000
 Connection ~ 1550 1350
 Connection ~ 1550 1850
 Connection ~ 3100 850 
@@ -100,8 +67,6 @@ Wire Notes Line
 	650  2250 650  600 
 Wire Wire Line
 	1450 1350 1550 1350
-Wire Wire Line
-	3200 5450 3150 5450
 Wire Wire Line
 	7850 1500 7800 1500
 Wire Wire Line
@@ -119,7 +84,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 1400 9000 1400
 Wire Wire Line
-	8950 1500 10300 1500
+	8950 1500 10000 1500
+Wire Wire Line
+	10000 1500 10300 1500
 Connection ~ 10300 1400
 Connection ~ 10300 1600
 Connection ~ 10000 1500
@@ -175,7 +142,9 @@ Connection ~ 10000 3450
 Connection ~ 10300 3550
 Connection ~ 10300 3350
 Wire Wire Line
-	8950 3450 10300 3450
+	8950 3450 10000 3450
+Wire Wire Line
+	10000 3450 10300 3450
 Wire Wire Line
 	8950 3350 9000 3350
 Wire Wire Line
@@ -193,9 +162,13 @@ Wire Wire Line
 Wire Wire Line
 	7800 3450 7850 3450
 Wire Wire Line
-	7600 3350 7850 3350
+	7600 3350 7700 3350
 Wire Wire Line
-	7600 3550 7850 3550
+	7700 3350 7850 3350
+Wire Wire Line
+	7600 3550 7700 3550
+Wire Wire Line
+	7700 3550 7850 3550
 Wire Wire Line
 	7700 4050 7700 4100
 Wire Wire Line
@@ -606,30 +579,17 @@ F 3 "" H 8400 1450 60  0001 C CNN
 	1    8400 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1550 4550 0    40   Input ~ 0
+Text HLabel 2950 2550 0    40   Input ~ 0
 12vdc-switched-outputs
-Text HLabel 1550 2750 0    40   Input ~ 0
-12vdc-switched-outputs
-$Comp
-L GND #PWR?
-U 1 1 4F2F3E3F
-P 2300 5450
-F 0 "#PWR?" H 2300 5450 30  0001 C CNN
-F 1 "GND" H 2300 5380 30  0001 C CNN
-F 2 "" H 2300 5450 60  0001 C CNN
-F 3 "" H 2300 5450 60  0001 C CNN
-	1    2300 5450
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR?
 U 1 1 4F2F3E2D
-P 2300 3650
-F 0 "#PWR?" H 2300 3650 30  0001 C CNN
-F 1 "GND" H 2300 3580 30  0001 C CNN
-F 2 "" H 2300 3650 60  0001 C CNN
-F 3 "" H 2300 3650 60  0001 C CNN
-	1    2300 3650
+P 1450 3500
+F 0 "#PWR?" H 1450 3500 30  0001 C CNN
+F 1 "GND" H 1450 3430 30  0001 C CNN
+F 2 "" H 1450 3500 60  0001 C CNN
+F 3 "" H 1450 3500 60  0001 C CNN
+	1    1450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -643,153 +603,59 @@ F 3 "" H 1550 1850 60  0001 C CNN
 	1    1550 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 3150 5450 0    40   Input ~ 0
-Output-Ground
-$Comp
-L R R?
-U 1 1 4F21BF58
-P 2300 5200
-F 0 "R?" V 2380 5200 50  0000 C CNN
-F 1 "100k" V 2300 5200 50  0000 C CNN
-F 2 "" H 2300 5200 60  0001 C CNN
-F 3 "" H 2300 5200 60  0001 C CNN
-	1    2300 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4F21BF57
-P 3100 4950
-F 0 "Q?" H 3110 5120 60  0000 R CNN
-F 1 "VNN7NV0413TR" H 3110 4800 60  0000 R CNN
-F 2 "" H 3100 4950 60  0001 C CNN
-F 3 "" H 3100 4950 60  0001 C CNN
-	1    3100 4950
-	1    0    0    -1  
-$EndComp
 Text Notes 700  5750 0    60   ~ 0
 Low Side Driver #1 Output
 $Comp
-L DIODE D?
-U 1 1 4F21BF56
-P 2650 4550
-F 0 "D?" H 2650 4650 40  0000 C CNN
-F 1 "1N4148" H 2650 4450 40  0000 C CNN
-F 2 "" H 2650 4550 60  0001 C CNN
-F 3 "" H 2650 4550 60  0001 C CNN
-	1    2650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D?
-U 1 1 4F21BF55
-P 2250 4550
-F 0 "D?" H 2250 4650 40  0000 C CNN
-F 1 "LED" H 2250 4450 40  0000 C CNN
-F 2 "" H 2250 4550 60  0001 C CNN
-F 3 "" H 2250 4550 60  0001 C CNN
-	1    2250 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F21BF54
-P 1800 4550
-F 0 "R?" V 1880 4550 40  0000 C CNN
-F 1 "2.4k" V 1800 4550 40  0000 C CNN
-F 2 "" H 1800 4550 60  0001 C CNN
-F 3 "" H 1800 4550 60  0001 C CNN
-	1    1800 4550
-	0    1    1    0   
-$EndComp
-Text HLabel 1550 4950 0    40   Input ~ 0
-LSD1-IN
-Text HLabel 3500 4750 2    40   Output ~ 0
-LSD1_Relay
-$Comp
-L R R?
-U 1 1 4F21BF53
-P 2550 4950
-F 0 "R?" V 2450 4950 40  0000 C CNN
-F 1 "1k" V 2550 4950 40  0000 C CNN
-F 2 "" H 2550 4950 60  0001 C CNN
-F 3 "" H 2550 4950 60  0001 C CNN
-	1    2550 4950
-	0    1    1    0   
-$EndComp
-$Comp
 L R R?
 U 1 1 4F20C919
-P 2550 3150
-F 0 "R?" V 2450 3150 40  0000 C CNN
-F 1 "1k" V 2550 3150 40  0000 C CNN
-F 2 "" H 2550 3150 60  0001 C CNN
-F 3 "" H 2550 3150 60  0001 C CNN
-	1    2550 3150
+P 1700 3000
+F 0 "R?" V 1600 3000 40  0000 C CNN
+F 1 "1k" V 1700 3000 40  0000 C CNN
+F 2 "" H 1700 3000 60  0001 C CNN
+F 3 "" H 1700 3000 60  0001 C CNN
+	1    1700 3000
 	0    1    1    0   
 $EndComp
-Text HLabel 3500 2950 2    40   Output ~ 0
+Text HLabel 3700 2950 2    40   Output ~ 0
 Fan_Relay
-Text HLabel 1550 3150 0    40   Input ~ 0
+Text HLabel 1400 3000 0    40   Input ~ 0
 Fan-Relay-Drive-IN
 $Comp
 L R R?
 U 1 1 4F20C918
-P 1800 2750
-F 0 "R?" V 1880 2750 40  0000 C CNN
-F 1 "2.4k" V 1800 2750 40  0000 C CNN
-F 2 "" H 1800 2750 60  0001 C CNN
-F 3 "" H 1800 2750 60  0001 C CNN
-	1    1800 2750
+P 3200 2550
+F 0 "R?" V 3100 2550 40  0000 C CNN
+F 1 "2.4k" V 3200 2550 40  0000 C CNN
+F 2 "" H 3200 2550 60  0001 C CNN
+F 3 "" H 3200 2550 60  0001 C CNN
+	1    3200 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L LED D?
 U 1 1 4F20C917
-P 2250 2750
-F 0 "D?" H 2250 2850 40  0000 C CNN
-F 1 "LED" H 2250 2650 40  0000 C CNN
-F 2 "" H 2250 2750 60  0001 C CNN
-F 3 "" H 2250 2750 60  0001 C CNN
-	1    2250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D?
-U 1 1 4F20C916
-P 2650 2750
-F 0 "D?" H 2650 2850 40  0000 C CNN
-F 1 "1N4148" H 2650 2650 40  0000 C CNN
-F 2 "" H 2650 2750 60  0001 C CNN
-F 3 "" H 2650 2750 60  0001 C CNN
-	1    2650 2750
+P 3650 2550
+F 0 "D?" H 3650 2650 40  0000 C CNN
+F 1 "LED" H 3650 2450 40  0000 C CNN
+F 2 "" H 3650 2550 60  0001 C CNN
+F 3 "" H 3650 2550 60  0001 C CNN
+	1    3650 2550
 	1    0    0    -1  
 $EndComp
 Text Notes 700  3950 0    60   ~ 0
 Radiator Cooling Fan Low Side Driver Output
 $Comp
-L MOSFET_N Q?
-U 1 1 4F20C915
-P 3100 3150
-F 0 "Q?" H 3110 3320 60  0000 R CNN
-F 1 "VNN7NV0413TR" H 3110 3000 60  0000 R CNN
-F 2 "" H 3100 3150 60  0001 C CNN
-F 3 "" H 3100 3150 60  0001 C CNN
-	1    3100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R?
 U 1 1 4F20C914
-P 2300 3400
-F 0 "R?" V 2380 3400 50  0000 C CNN
-F 1 "100k" V 2300 3400 50  0000 C CNN
-F 2 "" H 2300 3400 60  0001 C CNN
-F 3 "" H 2300 3400 60  0001 C CNN
-	1    2300 3400
+P 1450 3250
+F 0 "R?" V 1530 3250 50  0000 C CNN
+F 1 "100k" V 1450 3250 50  0000 C CNN
+F 2 "" H 1450 3250 60  0001 C CNN
+F 3 "" H 1450 3250 60  0001 C CNN
+	1    1450 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3150 3650 0    40   Input ~ 0
+Text HLabel 2500 3100 0    40   Input ~ 0
 Output-Ground
 $Comp
 L R R?
@@ -885,7 +751,9 @@ Text HLabel 3550 1250 2    40   Input ~ 0
 Text HLabel 3700 1450 2    40   Output ~ 0
 Fuel_Pump_Relay
 Wire Wire Line
-	3550 1450 3700 1450
+	3550 1450 3650 1450
+Wire Wire Line
+	3650 1450 3700 1450
 Wire Wire Line
 	3550 1350 3650 1350
 Wire Wire Line
@@ -1037,4 +905,366 @@ Connection ~ 9600 4050
 Connection ~ 9600 2850
 Connection ~ 9600 2100
 Connection ~ 9600 900 
+$Comp
+L VNS3NV04D U??
+U 1 1 52F1A95A
+P 3050 3050
+F 0 "U??" H 3035 3341 60  0000 C CNN
+F 1 "VNS3NV04D" H 3053 2771 60  0000 C CNN
+F 2 "~" H 3050 3050 60  0000 C CNN
+F 3 "~" H 3050 3050 60  0000 C CNN
+	1    3050 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 3700
+Connection ~ 2000 3200
+$Comp
+L GND #PWR?
+U 1 1 52F1A99E
+P 2000 3700
+F 0 "#PWR?" H 2000 3700 30  0001 C CNN
+F 1 "GND" H 2000 3630 30  0001 C CNN
+F 2 "" H 2000 3700 60  0001 C CNN
+F 3 "" H 2000 3700 60  0001 C CNN
+	1    2000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1A9A4
+P 2250 3200
+F 0 "R?" V 2350 3200 40  0000 C CNN
+F 1 "1k" V 2250 3200 40  0000 C CNN
+F 2 "" H 2250 3200 60  0001 C CNN
+F 3 "" H 2250 3200 60  0001 C CNN
+	1    2250 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1A9AA
+P 2000 3450
+F 0 "R?" V 2080 3450 50  0000 C CNN
+F 1 "100k" V 2000 3450 50  0000 C CNN
+F 2 "" H 2000 3450 60  0001 C CNN
+F 3 "" H 2000 3450 60  0001 C CNN
+	1    2000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2900 3650 2900
+Wire Wire Line
+	3650 2900 3650 2950
+Wire Wire Line
+	3650 2950 3650 3000
+Wire Wire Line
+	3650 3000 3600 3000
+Wire Wire Line
+	3700 2950 3650 2950
+Connection ~ 3650 2950
+Connection ~ 3600 2900
+Connection ~ 3600 3000
+Connection ~ 2500 2900
+Connection ~ 2500 3100
+Connection ~ 2500 3200
+Connection ~ 3600 3200
+Connection ~ 3600 3100
+Connection ~ 3650 3150
+Connection ~ 1950 3000
+Text HLabel 2000 3200 0    40   Input ~ 0
+LSD1-IN
+Text HLabel 2500 2900 0    40   Input ~ 0
+Output-Ground
+Wire Wire Line
+	3600 3100 3650 3100
+Wire Wire Line
+	3650 3100 3650 3150
+Wire Wire Line
+	3650 3150 3650 3200
+Wire Wire Line
+	3650 3200 3600 3200
+Wire Wire Line
+	3650 3150 3700 3150
+Text HLabel 3700 3150 2    40   Output ~ 0
+LSD1
+Wire Wire Line
+	3600 2750 4250 2750
+Wire Wire Line
+	3600 2750 3600 2900
+Connection ~ 3450 3550
+Connection ~ 2950 3550
+Connection ~ 3850 3550
+Text HLabel 2950 3550 0    40   Input ~ 0
+12vdc-switched-outputs
+$Comp
+L R R?
+U 1 1 52F1B461
+P 3200 3550
+F 0 "R?" V 3100 3550 40  0000 C CNN
+F 1 "2.4k" V 3200 3550 40  0000 C CNN
+F 2 "" H 3200 3550 60  0001 C CNN
+F 3 "" H 3200 3550 60  0001 C CNN
+	1    3200 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F1B467
+P 3650 3550
+F 0 "D?" H 3650 3650 40  0000 C CNN
+F 1 "LED" H 3650 3450 40  0000 C CNN
+F 2 "" H 3650 3550 60  0001 C CNN
+F 3 "" H 3650 3550 60  0001 C CNN
+	1    3650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52F1B46D
+P 4050 3550
+F 0 "D?" H 4050 3650 40  0000 C CNN
+F 1 "1N4148" H 4050 3450 40  0000 C CNN
+F 2 "" H 4050 3550 60  0001 C CNN
+F 3 "" H 4050 3550 60  0001 C CNN
+	1    4050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4F20C916
+P 4050 2550
+F 0 "D?" H 4050 2650 40  0000 C CNN
+F 1 "1N4148" H 4050 2450 40  0000 C CNN
+F 2 "" H 4050 2550 60  0001 C CNN
+F 3 "" H 4050 2550 60  0001 C CNN
+	1    4050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2750 4250 2550
+Wire Wire Line
+	3600 3200 3600 3350
+Wire Wire Line
+	3600 3350 4250 3350
+Wire Wire Line
+	4250 3350 4250 3550
+Connection ~ 4250 3550
+Wire Wire Line
+	1400 4800 1450 4800
+Connection ~ 2500 4800
+Connection ~ 3450 4350
+Connection ~ 2950 4350
+Connection ~ 3850 4350
+Connection ~ 4250 4350
+Connection ~ 1450 5300
+Connection ~ 1450 4800
+Wire Wire Line
+	1950 4800 2500 4800
+Text HLabel 2950 4350 0    40   Input ~ 0
+12vdc-switched-outputs
+$Comp
+L GND #PWR?
+U 1 1 52F1B879
+P 1450 5300
+F 0 "#PWR?" H 1450 5300 30  0001 C CNN
+F 1 "GND" H 1450 5230 30  0001 C CNN
+F 2 "" H 1450 5300 60  0001 C CNN
+F 3 "" H 1450 5300 60  0001 C CNN
+	1    1450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1B87F
+P 1700 4800
+F 0 "R?" V 1600 4800 40  0000 C CNN
+F 1 "1k" V 1700 4800 40  0000 C CNN
+F 2 "" H 1700 4800 60  0001 C CNN
+F 3 "" H 1700 4800 60  0001 C CNN
+	1    1700 4800
+	0    1    1    0   
+$EndComp
+Text HLabel 3700 4750 2    40   Output ~ 0
+LSD2
+Text HLabel 1400 4800 0    40   Input ~ 0
+LSD2-IN
+$Comp
+L R R?
+U 1 1 52F1B887
+P 3200 4350
+F 0 "R?" V 3100 4350 40  0000 C CNN
+F 1 "2.4k" V 3200 4350 40  0000 C CNN
+F 2 "" H 3200 4350 60  0001 C CNN
+F 3 "" H 3200 4350 60  0001 C CNN
+	1    3200 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F1B88D
+P 3650 4350
+F 0 "D?" H 3650 4450 40  0000 C CNN
+F 1 "LED" H 3650 4250 40  0000 C CNN
+F 2 "" H 3650 4350 60  0001 C CNN
+F 3 "" H 3650 4350 60  0001 C CNN
+	1    3650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1B893
+P 1450 5050
+F 0 "R?" V 1530 5050 50  0000 C CNN
+F 1 "100k" V 1450 5050 50  0000 C CNN
+F 2 "" H 1450 5050 60  0001 C CNN
+F 3 "" H 1450 5050 60  0001 C CNN
+	1    1450 5050
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 4900 0    40   Input ~ 0
+Output-Ground
+$Comp
+L VNS3NV04D U?
+U 1 1 52F1B89A
+P 3050 4850
+F 0 "U?" H 3035 5141 60  0000 C CNN
+F 1 "VNS3NV04D" H 3053 4571 60  0000 C CNN
+F 2 "~" H 3050 4850 60  0000 C CNN
+F 3 "~" H 3050 4850 60  0000 C CNN
+	1    3050 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 5500
+Connection ~ 2000 5000
+$Comp
+L GND #PWR?
+U 1 1 52F1B8A2
+P 2000 5500
+F 0 "#PWR?" H 2000 5500 30  0001 C CNN
+F 1 "GND" H 2000 5430 30  0001 C CNN
+F 2 "" H 2000 5500 60  0001 C CNN
+F 3 "" H 2000 5500 60  0001 C CNN
+	1    2000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1B8A8
+P 2250 5000
+F 0 "R?" V 2350 5000 40  0000 C CNN
+F 1 "1k" V 2250 5000 40  0000 C CNN
+F 2 "" H 2250 5000 60  0001 C CNN
+F 3 "" H 2250 5000 60  0001 C CNN
+	1    2250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F1B8AE
+P 2000 5250
+F 0 "R?" V 2080 5250 50  0000 C CNN
+F 1 "100k" V 2000 5250 50  0000 C CNN
+F 2 "" H 2000 5250 60  0001 C CNN
+F 3 "" H 2000 5250 60  0001 C CNN
+	1    2000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4700 3650 4700
+Wire Wire Line
+	3650 4700 3650 4750
+Wire Wire Line
+	3650 4750 3650 4800
+Wire Wire Line
+	3650 4800 3600 4800
+Wire Wire Line
+	3700 4750 3650 4750
+Connection ~ 3650 4750
+Connection ~ 3600 4700
+Connection ~ 3600 4800
+Connection ~ 2500 4700
+Connection ~ 2500 4900
+Connection ~ 2500 5000
+Connection ~ 3600 5000
+Connection ~ 3600 4900
+Connection ~ 3650 4950
+Connection ~ 1950 4800
+Text HLabel 2000 5000 0    40   Input ~ 0
+LSD3-IN
+Text HLabel 2500 4700 0    40   Input ~ 0
+Output-Ground
+Wire Wire Line
+	3600 4900 3650 4900
+Wire Wire Line
+	3650 4900 3650 4950
+Wire Wire Line
+	3650 4950 3650 5000
+Wire Wire Line
+	3650 5000 3600 5000
+Wire Wire Line
+	3650 4950 3700 4950
+Text HLabel 3700 4950 2    40   Output ~ 0
+LSD3
+Wire Wire Line
+	3600 4550 4250 4550
+Wire Wire Line
+	3600 4550 3600 4700
+Connection ~ 3450 5350
+Connection ~ 2950 5350
+Connection ~ 3850 5350
+Text HLabel 2950 5350 0    40   Input ~ 0
+12vdc-switched-outputs
+$Comp
+L R R?
+U 1 1 52F1B8D1
+P 3200 5350
+F 0 "R?" V 3100 5350 40  0000 C CNN
+F 1 "2.4k" V 3200 5350 40  0000 C CNN
+F 2 "" H 3200 5350 60  0001 C CNN
+F 3 "" H 3200 5350 60  0001 C CNN
+	1    3200 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F1B8D7
+P 3650 5350
+F 0 "D?" H 3650 5450 40  0000 C CNN
+F 1 "LED" H 3650 5250 40  0000 C CNN
+F 2 "" H 3650 5350 60  0001 C CNN
+F 3 "" H 3650 5350 60  0001 C CNN
+	1    3650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52F1B8DD
+P 4050 5350
+F 0 "D?" H 4050 5450 40  0000 C CNN
+F 1 "1N4148" H 4050 5250 40  0000 C CNN
+F 2 "" H 4050 5350 60  0001 C CNN
+F 3 "" H 4050 5350 60  0001 C CNN
+	1    4050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52F1B8E3
+P 4050 4350
+F 0 "D?" H 4050 4450 40  0000 C CNN
+F 1 "1N4148" H 4050 4250 40  0000 C CNN
+F 2 "" H 4050 4350 60  0001 C CNN
+F 3 "" H 4050 4350 60  0001 C CNN
+	1    4050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4550 4250 4350
+Wire Wire Line
+	3600 5000 3600 5150
+Wire Wire Line
+	3600 5150 4250 5150
+Wire Wire Line
+	4250 5150 4250 5350
+Connection ~ 4250 5350
 $EndSCHEMATC

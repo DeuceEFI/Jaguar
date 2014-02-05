@@ -27,7 +27,9 @@ Connection ~ 4300 1400
 Wire Wire Line
 	4300 1450 4300 1400
 Wire Wire Line
-	4050 1400 4050 900 
+	4050 1400 4050 1250
+Wire Wire Line
+	4050 1250 4050 900 
 Wire Wire Line
 	4100 7700 4100 7500
 Connection ~ 6050 900 
@@ -62,7 +64,9 @@ Wire Wire Line
 	4100 7000 4100 6550
 Connection ~ 4800 7550
 Wire Wire Line
-	4800 7550 4800 6950
+	4800 7550 4800 7300
+Wire Wire Line
+	4800 7300 4800 6950
 Connection ~ 4500 6950
 Wire Wire Line
 	4800 6950 4500 6950
@@ -71,7 +75,9 @@ Wire Wire Line
 Wire Wire Line
 	7700 4550 7700 4400
 Wire Wire Line
-	7700 4400 8100 4400
+	7700 4400 7850 4400
+Wire Wire Line
+	7850 4400 8100 4400
 Wire Wire Line
 	1300 3900 1450 3900
 Wire Wire Line
@@ -93,12 +99,18 @@ Wire Notes Line
 Wire Wire Line
 	8450 6000 8450 5950
 Wire Wire Line
-	8450 5950 8150 5950
+	8450 5950 8400 5950
+Wire Wire Line
+	8400 5950 8150 5950
 Wire Wire Line
 	1850 7550 1850 7600
 Connection ~ 4050 1400
 Wire Wire Line
-	4400 6550 4400 7700
+	4400 6550 4400 7300
+Wire Wire Line
+	4400 7300 4400 7550
+Wire Wire Line
+	4400 7550 4400 7700
 Wire Wire Line
 	4500 6950 4500 6550
 Connection ~ 7000 4850
@@ -199,7 +211,9 @@ Connection ~ 7000 4550
 Connection ~ 5200 6550
 Connection ~ 1600 7050
 Wire Wire Line
-	7900 6350 8400 6350
+	7900 6350 8150 6350
+Wire Wire Line
+	8150 6350 8400 6350
 Wire Wire Line
 	10450 6300 10450 6400
 Wire Wire Line
@@ -231,7 +245,9 @@ Connection ~ 5000 6550
 Connection ~ 5100 6550
 Connection ~ 800  6550
 Wire Wire Line
-	1850 6550 800  6550
+	1850 6550 1250 6550
+Wire Wire Line
+	1250 6550 800  6550
 Wire Notes Line
 	9550 5750 9550 7000
 Wire Notes Line
@@ -258,15 +274,15 @@ Wire Wire Line
 Wire Wire Line
 	6050 900  5950 900 
 Wire Wire Line
-	7700 2850 7700 1350
+	7700 2850 7700 1250
 Wire Wire Line
-	7700 1350 5900 1350
+	7700 1250 5900 1250
 Wire Wire Line
 	7000 2750 7000 2150
 Wire Wire Line
 	7000 2150 7150 2150
 Connection ~ 7150 1750
-Connection ~ 5900 1350
+Connection ~ 5900 1250
 Connection ~ 7150 2150
 Connection ~ 9250 3950
 Connection ~ 1300 4300
@@ -294,7 +310,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 6550 4200 7000
 Wire Wire Line
-	4200 7500 4000 7500
+	4200 7500 4100 7500
+Wire Wire Line
+	4100 7500 4000 7500
 Wire Wire Line
 	4000 6550 4000 6900
 Wire Wire Line
@@ -328,22 +346,28 @@ Wire Notes Line
 Wire Notes Line
 	9100 4800 8750 4800
 Wire Wire Line
-	8800 4850 9250 4850
+	8800 4850 8950 4850
+Wire Wire Line
+	8950 4850 9250 4850
 Connection ~ 8800 4850
 Connection ~ 8300 4850
 Wire Wire Line
 	8400 5900 8400 5950
 Connection ~ 8400 5950
 Wire Wire Line
-	5900 1750 5950 1750
+	5900 1750 5900 1750
 Wire Wire Line
-	5950 1750 5950 1650
+	5900 1750 5900 1650
 Wire Wire Line
-	5950 1650 6100 1650
+	5900 1650 6100 1650
 Wire Wire Line
-	6100 1650 6100 1850
+	6100 1650 6100 1750
 Wire Wire Line
-	7150 1750 6000 1750
+	6100 1750 6100 1850
+Wire Wire Line
+	7150 1750 6100 1750
+Wire Wire Line
+	6100 1750 6000 1750
 Connection ~ 5400 1750
 Connection ~ 5300 1750
 Connection ~ 5500 1650
@@ -361,7 +385,9 @@ Connection ~ 3400 6550
 Connection ~ 3500 6550
 Connection ~ 2200 4650
 Wire Wire Line
-	3900 1400 4300 1400
+	3900 1400 4050 1400
+Wire Wire Line
+	4050 1400 4300 1400
 $Comp
 L CONN_1 P?
 U 1 1 508EA553
@@ -509,10 +535,10 @@ PP1 and PP2 allow us access to the Port\nP0-7 pins on the CPU so that we can \nt
 NoConn ~ 7000 5050
 NoConn ~ 7000 4950
 $Comp
-L CONN_4 PP?
+L CONN_4 PP2
 U 1 1 4F221E2B
 P 3450 1400
-F 0 "PP?" V 3400 1400 50  0000 C CNN
+F 0 "PP2" V 3400 1400 50  0000 C CNN
 F 1 "PP4-7" V 3500 1400 50  0000 C CNN
 F 2 "" H 3450 1400 60  0001 C CNN
 F 3 "" H 3450 1400 60  0001 C CNN
@@ -520,10 +546,10 @@ F 3 "" H 3450 1400 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_4 PP?
+L CONN_4 PP1
 U 1 1 4F221DE9
 P 1850 3000
-F 0 "PP?" V 1800 3000 50  0000 C CNN
+F 0 "PP1" V 1800 3000 50  0000 C CNN
 F 1 "PP0-3" V 1900 3000 50  0000 C CNN
 F 2 "" H 1850 3000 60  0001 C CNN
 F 3 "" H 1850 3000 60  0001 C CNN
@@ -1111,12 +1137,12 @@ $EndComp
 $Comp
 L C C?
 U 1 1 4F0A32B1
-P 5900 1550
-F 0 "C?" H 5950 1650 50  0000 L CNN
-F 1 "0.22uF" H 5950 1450 50  0000 L CNN
-F 2 "" H 5900 1550 60  0001 C CNN
-F 3 "" H 5900 1550 60  0001 C CNN
-	1    5900 1550
+P 5900 1450
+F 0 "C?" H 5950 1550 50  0000 L CNN
+F 1 "0.22uF" H 5950 1350 50  0000 L CNN
+F 2 "" H 5900 1450 60  0001 C CNN
+F 3 "" H 5900 1450 60  0001 C CNN
+	1    5900 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1130,4 +1156,5 @@ F 3 "" H 3850 1250 60  0001 C CNN
 	1    3850 1250
 	0    -1   -1   0   
 $EndComp
+Connection ~ 5900 1650
 $EndSCHEMATC
