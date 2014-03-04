@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 feb 2014"
+Date "4 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -172,10 +172,10 @@ GND
 Text Notes 5250 2350 0    40   ~ 0
 Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
-L GND #PWR015
+L GND #PWR15
 U 1 1 4F1C30B1
 P 8600 3200
-F 0 "#PWR015" H 8600 3200 30  0001 C CNN
+F 0 "#PWR15" H 8600 3200 30  0001 C CNN
 F 1 "GND" H 8600 3130 30  0001 C CNN
 F 2 "" H 8600 3200 60  0001 C CNN
 F 3 "" H 8600 3200 60  0001 C CNN
@@ -309,10 +309,10 @@ F 3 "" H 5900 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P?
+L CONN_1 P1
 U 1 1 528902B6
 P 2700 2800
-F 0 "P?" H 2780 2800 40  0000 L CNN
+F 0 "P1" H 2780 2800 40  0000 L CNN
 F 1 "Vbus" H 2700 2855 30  0001 C CNN
 F 2 "~" H 2700 2800 60  0000 C CNN
 F 3 "~" H 2700 2800 60  0000 C CNN
@@ -320,10 +320,10 @@ F 3 "~" H 2700 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P?
+L CONN_1 P3
 U 1 1 528902D1
 P 3100 3100
-F 0 "P?" H 3180 3100 40  0000 L CNN
+F 0 "P3" H 3180 3100 40  0000 L CNN
 F 1 "D-" H 3100 3155 30  0001 C CNN
 F 2 "~" H 3100 3100 60  0000 C CNN
 F 3 "~" H 3100 3100 60  0000 C CNN
@@ -331,10 +331,10 @@ F 3 "~" H 3100 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P?
+L CONN_1 P4
 U 1 1 528902EC
 P 3100 3500
-F 0 "P?" H 3180 3500 40  0000 L CNN
+F 0 "P4" H 3180 3500 40  0000 L CNN
 F 1 "D+" H 3100 3555 30  0001 C CNN
 F 2 "~" H 3100 3500 60  0000 C CNN
 F 3 "~" H 3100 3500 60  0000 C CNN
@@ -342,10 +342,10 @@ F 3 "~" H 3100 3500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_1 P?
+L CONN_1 P2
 U 1 1 52890307
 P 2700 3850
-F 0 "P?" H 2780 3850 40  0000 L CNN
+F 0 "P2" H 2780 3850 40  0000 L CNN
 F 1 "USB-GND" H 2700 3905 30  0001 C CNN
 F 2 "~" H 2700 3850 60  0000 C CNN
 F 3 "~" H 2700 3850 60  0000 C CNN
