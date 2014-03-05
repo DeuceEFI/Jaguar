@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "4 mar 2014"
+Date "5 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -693,7 +693,7 @@ L CONN_1 HSD1
 U 1 1 4F0D8467
 P 10700 3000
 F 0 "HSD1" H 10780 3000 40  0000 L CNN
-F 1 "FUEL" H 10700 3055 30  0001 C CNN
+F 1 "HSD" H 10700 3055 30  0001 C CNN
 F 2 "" H 10700 3000 60  0001 C CNN
 F 3 "" H 10700 3000 60  0001 C CNN
 	1    10700 3000
