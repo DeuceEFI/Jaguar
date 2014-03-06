@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 mar 2014"
+Date "6 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -172,10 +172,10 @@ GND
 Text Notes 5250 2350 0    40   ~ 0
 Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
-L GND #PWR15
+L GND #PWR015
 U 1 1 4F1C30B1
 P 8600 3200
-F 0 "#PWR15" H 8600 3200 30  0001 C CNN
+F 0 "#PWR015" H 8600 3200 30  0001 C CNN
 F 1 "GND" H 8600 3130 30  0001 C CNN
 F 2 "" H 8600 3200 60  0001 C CNN
 F 3 "" H 8600 3200 60  0001 C CNN

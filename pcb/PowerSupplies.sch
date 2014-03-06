@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "5 mar 2014"
+Date "6 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -245,10 +245,10 @@ C12 and C13 are 35v Tantalum capacitors.\nC18 and C19 are 10v Tantalum capacitor
 Text HLabel 1750 2850 0    40   Input ~ 0
 12v-switch
 $Comp
-L GND #PWR53
+L GND #PWR051
 U 1 1 4F1C2CDE
 P 4550 3850
-F 0 "#PWR53" H 4550 3850 30  0001 C CNN
+F 0 "#PWR051" H 4550 3850 30  0001 C CNN
 F 1 "GND" H 4550 3780 30  0001 C CNN
 F 2 "" H 4550 3850 60  0001 C CNN
 F 3 "" H 4550 3850 60  0001 C CNN
@@ -256,10 +256,10 @@ F 3 "" H 4550 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR54
+L GND #PWR052
 U 1 1 4F1C2CC1
 P 5050 2750
-F 0 "#PWR54" H 5050 2750 30  0001 C CNN
+F 0 "#PWR052" H 5050 2750 30  0001 C CNN
 F 1 "GND" H 5050 2680 30  0001 C CNN
 F 2 "" H 5050 2750 60  0001 C CNN
 F 3 "" H 5050 2750 60  0001 C CNN

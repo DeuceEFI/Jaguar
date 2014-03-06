@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 04 Mar 2014 01:21:34 AM EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 05 Mar 2014 10:16:21 PM EST
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -627,7 +627,7 @@ BeginCmp
 TimeStamp = /4F0D82A1/52F28140;
 Reference = D31;
 ValeurCmp = LED;
-IdModule  = 1n4148ta;
+IdModule  = led_3mm_red;
 EndCmp
 
 BeginCmp
@@ -757,20 +757,6 @@ IdModule  = 1n4148ta;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0D82A1/52F2735A;
-Reference = D50;
-ValeurCmp = LED;
-IdModule  = led_3mm_green;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/52F27367;
-Reference = D51;
-ValeurCmp = LED;
-IdModule  = led_3mm_green;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
 ValeurCmp = 8V/0.5A Polyfuse;
@@ -802,7 +788,7 @@ BeginCmp
 TimeStamp = /4F0A4778/519BE395;
 Reference = GND/5v1;
 ValeurCmp = GND/5v;
-IdModule  = SIL-3;
+IdModule  = PIN_ARRAY_2;
 EndCmp
 
 BeginCmp
@@ -836,7 +822,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D8467;
 Reference = HSD1;
-ValeurCmp = FUEL;
+ValeurCmp = HSD;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1088,14 +1074,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52F3B89D;
 Reference = LSD3;
-ValeurCmp = LSD2;
+ValeurCmp = LSD3;
 IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F37A7E;
 Reference = LSD3-IN1;
-ValeurCmp = LSD2-IN;
+ValeurCmp = LSD3-IN;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1130,7 +1116,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F1CD3BD;
 Reference = OUT-GND1;
-ValeurCmp = OUT-GND;
+ValeurCmp = OUTPUT-GND;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1761,20 +1747,6 @@ BeginCmp
 TimeStamp = /4F0D82A1/4F1AF0F6;
 Reference = R63;
 ValeurCmp = 100k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/52F27360;
-Reference = R64;
-ValeurCmp = 2.4k;
-IdModule  = RC03_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0D82A1/52F2736D;
-Reference = R65;
-ValeurCmp = 2.4k;
 IdModule  = RC03_vert;
 EndCmp
 
