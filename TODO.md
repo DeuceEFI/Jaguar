@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 10/12/2013 2058 EDT (GMT-0400)
+## JAG 03/05/2014 2359 EDT (GMT-0500)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -12,6 +12,24 @@
 ### Jaguar Wish List Items:
 
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
+
+----------
+### 0.7-alpha Changes Completed:
+
+* Increased the injector ground holes and the injector output holes from 0.040" to 0.046". - DONE 11/17/2013
+* Added through holes for USB connections to allow for a remote mounted USB connector.  Also corrected all header strip drill sizes to 0.0315" for a snug fit to hold the strip during assembly. - DONE 11/17/2013
+* Offset the BDM pads by 0.002" for a snug fit, corrected LSD1 pin labels and verified that I already corrected the LSD2/LSD2-IN pads to be 0.046" drill size. - DONE 11/18/2013
+* Changed Port P silkscreen text on back (through hole component) side from Port P0-3 to Port P3-0 since that matches the physical order of the pins. - DONE 11/28/2013
+* Eliminated Pxx designations on the wire connection points and replaced them with the PCB silkscreen designations. - DONE 12/02/2013
+* Changed to separate Creative Commons and MIT licenses for PCB and Schematics, respectively, and updated TODO with fuel pump driver change to be made. - DONE 01/29/2014
+* Changed fuel pump LSD out for high side driver, removed Fan and LSD1 individual low side drivers for a pair of dual MOSFET low side drivers on the schematics. - DONE 02/04/2014
+* Removed direct connection between Port A7 and the Fuel Pump HSD and added connection points to solder a jumper wire to select fuel pump HSD or LSD circuit. - DONE 02/04/2014
+* Changed Spare ADC and IAT cpu pin capacitor from 1uF to 0.22uF.  Also changed pcb revision to 0.7-alpha. - DONE 02/05/2014
+* Revised notes on the first page of the schematic.  Removed the recommended connector text as it did not have enough pins for all the I/O and did not fit the enclosure without modification of the connector. - DONE 02/05/2014
+* Finished placement and routing of high side driver and the low side drivers on the PCB, ran DRC and found no errors. - DONE 03/05/2014
+* Change Fuel Pump relay driver from a low side driver to a high side driver for Mazda and GM stock fuel pump relay wiring. - DONE 03/05/2014
+* ^ resulted in all the spare LSD outputs being changed to SOIC-8 components which brings us to a total of 4 LSD outputs plus 1 HSD output.
+
 
 ----------
 ### 0.6-alpha Changes Completed:
