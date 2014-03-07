@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 05 Mar 2014 10:16:21 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 06 Mar 2014 08:38:49 PM EST
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -754,6 +754,34 @@ TimeStamp = /4F0D82A1/52F28146;
 Reference = D49;
 ValeurCmp = 1N4148;
 IdModule  = 1n4148ta;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531922A9;
+Reference = D50;
+ValeurCmp = LED;
+IdModule  = Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531922C0;
+Reference = D51;
+ValeurCmp = LED;
+IdModule  = Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531926D3;
+Reference = D52;
+ValeurCmp = LED;
+IdModule  = Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531926E4;
+Reference = D53;
+ValeurCmp = LED;
+IdModule  = Led_0805;
 EndCmp
 
 BeginCmp
@@ -1751,6 +1779,20 @@ IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D82A1/531922A3;
+Reference = R64;
+ValeurCmp = 2.4k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531922BA;
+Reference = R65;
+ValeurCmp = 2.4k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0D0381/4F20C5D5;
 Reference = R66;
 ValeurCmp = 2.43k;
@@ -1842,6 +1884,13 @@ IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D82A1/531926CD;
+Reference = R79;
+ValeurCmp = 2.4k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/4FC18EC4;
 Reference = R80;
 ValeurCmp = 1k;
@@ -1874,6 +1923,13 @@ TimeStamp = /4F0BB08D/50871BA6;
 Reference = R84;
 ValeurCmp = 1k;
 IdModule  = RC03_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0D82A1/531926DE;
+Reference = R85;
+ValeurCmp = 2.4k;
+IdModule  = r_0805;
 EndCmp
 
 BeginCmp

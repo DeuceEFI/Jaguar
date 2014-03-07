@@ -1,5 +1,5 @@
-update=Tue 04 Mar 2014 01:32:18 AM EST
-last_client=kicad
+update=Thu 06 Mar 2014 08:37:40 PM EST
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../pcb-modules
@@ -72,11 +72,13 @@ LibName4=mpxh6400
 LibName5=mp3h6115a
 LibName6=transistor
 LibName7=w_smd_trans
+LibName8=w_smd_leds
+LibName9=w_smd_resistors
 LibDir=
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1

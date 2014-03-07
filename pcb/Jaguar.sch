@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 mar 2014"
+Date "7 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -569,10 +569,10 @@ F 3 "" H 10700 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 4F1CCA54
 P 7600 4650
-F 0 "#PWR01" H 7600 4650 30  0001 C CNN
+F 0 "#PWR1" H 7600 4650 30  0001 C CNN
 F 1 "GND" H 7600 4580 30  0001 C CNN
 F 2 "" H 7600 4650 60  0001 C CNN
 F 3 "" H 7600 4650 60  0001 C CNN

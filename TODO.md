@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 03/06/2014 0020 EDT (GMT-0500)
+## JAG 03/06/2014 2103 EDT (GMT-0500)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
-* Ignitor outputs need SMD resistors and LEDs for indicators, http://issues.freeems.org/view.php?id=888
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.7-alpha PCB.
 
@@ -30,7 +29,7 @@
 * Change Fuel Pump relay driver from a low side driver to a high side driver for Mazda and GM stock fuel pump relay wiring. - DONE 03/05/2014
 * ^ resulted in all the spare LSD outputs being changed to SOIC-8 components which brings us to a total of 4 LSD outputs plus 1 HSD output.
 The above changes are also show in the issue tracker: http://issues.freeems.org/view.php?id=889
-
+* Added ignitor outputs SMD resistors and LEDs for indicators, http://issues.freeems.org/view.php?id=888 - DONE 03/06/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
