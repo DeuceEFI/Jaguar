@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 07/02/2013 1157 EDT (GMT-0400)
+JAG 03/07/2013 0856 EST (GMT-0500)
 
 ####Do NOT use these files in the dev branch to make a PCB, the 0.6-alpha PCB has not been tested.  See the TODO.md file for the up to date changes from the 0.4-alpha to the 0.6-alpha board.  The 0.5-alpha was a commit of gerber files after I noticed that the traces were incorrect to the AAP and MAP sensors, it was never manufactured.
 
@@ -28,29 +28,15 @@ Core IO specs:
  * 8 injector drivers (HI-Z ONLY 6A MAX per injector). Can setup to run 2 injectors from one CPU output using Port T4,5,6,7 or 1 injector per CPU output using Port B0-7 once firmware is ready.
  * 6 Ground connections (CPU, Injectors, Ignition, TPS, O2 Sensor and Analog Sensors).
  * 2 "12V" connections (Both are to be +12V SWITCHED, please use relay(s) to supply power to these pins).
- * 1 Fuel Pump relay low side driver.
+ * 1 High side driver (GM/Mazda fuel pump relay compatible).
+ * 3 Low side drivers (can be used for fuel pump relay or Boost/Idle/TCC Lockup).
  * 1 Cooling Fan relay low side driver.
- * 1 Accessory relay low side driver (Boost/Idle/TCC Lockup).
  * 1 switched +5V output for TPS.
 
 PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole components so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008F-5N (flanged ends) and it is made for the Jaguar 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com, there is a link in the BOM to purchase the case from a retailer. 
 
-The suggested connectors are TE Connectivity (www.te.com) Automotive Grade water resistant connectors. 
-All 35 positions on the connector are used for inputs/outputs when using all 8 injector drivers and all 3 relay drivers.
-
-Connector Part #'s:
-
-1-776163-2 Right Angle 35 Position Header (Natural Color)
-The Jaguar Connector Board is design for any of the 1-776163-x Right Angle Headers.
-I may also add a connector board design for the 1-776231-2 Vertical 35 Position Header (Natural Color) in the future.
-
-AND you will need the following:
-776164-2 35 Position AMP SEAL Plug Assembly (Natural Color)
-770853-3 AMP SEAL Gold Plated Contact (order 40)
-770678-1 AMP SEAL Seal Plug (for unused positions if you remove any from the connector, order 10)
- 
 ### Status
 
 For the most up to date status information for the project, refer to the TODO.md file which is maintained in sync with the schematics by a small team who verify each other's work.
@@ -59,3 +45,6 @@ For the most up to date status information for the project, refer to the TODO.md
 
 Please send any changes that you make to Jaguar back upstream to Andy Goss' copy at https://github.com/DeuceEFI/Jaguar
 
+### Issues
+
+If you have found any problems with the Jaguar schematics or the PCB design, please report the issue at http://issues.freeems.org under the project "Jaguar PCB".
