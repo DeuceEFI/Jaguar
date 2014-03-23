@@ -1122,4 +1122,24 @@ Text GLabel 9000 3000 0    40   Input ~ 0
 HSD-Input
 Text GLabel 6550 3900 2    40   Input ~ 0
 HSD-Input
+Text Notes 4750 4000 0    40   ~ 0
+This jumper allows the user to select\na Low Side Driver #4 or the\nHigh Side Driver for the Fuel Pump Relay.
+Text Notes 4800 3350 0    40   ~ 0
+This jumper allows the user to select\nwhether CPU port K4 is connected to\nLow Side Driver #2
+Wire Notes Line
+	4700 3100 4700 3600
+Wire Notes Line
+	4700 3600 7100 3600
+Wire Notes Line
+	7100 3600 7100 3100
+Wire Notes Line
+	7100 3100 4700 3100
+Wire Notes Line
+	4700 3800 4700 4250
+Wire Notes Line
+	4700 4250 7100 4250
+Wire Notes Line
+	7100 4250 7100 3800
+Wire Notes Line
+	7100 3800 4700 3800
 $EndSCHEMATC
