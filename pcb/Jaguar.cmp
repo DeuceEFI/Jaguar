@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 23 Mar 2014 01:32:54 AM EDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 23 Mar 2014 01:55:55 AM EDT
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -577,42 +577,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F17842F;
 Reference = D24;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17845F;
 Reference = D25;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178470;
 Reference = D26;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17847C;
 Reference = D27;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F17848A;
 Reference = D28;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F178496;
 Reference = D29;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -633,7 +633,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/52F27911;
 Reference = D32;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -668,14 +668,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5D3;
 Reference = D37;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D0381/4F20C5E5;
 Reference = D38;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -689,7 +689,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/52F28384;
 Reference = D40;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -703,7 +703,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F21BF56;
 Reference = D42;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -752,7 +752,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/52F28146;
 Reference = D49;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
@@ -787,7 +787,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/532E6B7F;
 Reference = D54;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4004;
 IdModule  = diode_do35;
 EndCmp
 
