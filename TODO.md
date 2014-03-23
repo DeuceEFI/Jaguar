@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 03/19/2014 0733 EDT (GMT-0400)
+## JAG 03/23/2014 0207 EDT (GMT-0400)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -31,6 +31,9 @@
 The above changes are also show in the issue tracker: http://issues.freeems.org/view.php?id=889
 * Added ignitor outputs SMD resistors and LEDs for indicators, http://issues.freeems.org/view.php?id=888 - DONE 03/06/2014
 * Added additional trace from VN5E160AS-E Vcc pin 5 to Vcc pin 8 as recommended by ST Microelectronics. - DONE 03/19/2014
+* Corrected LED setup on ignitor outputs to go to ground, added diode to HSD output LED circuit, changed label called FAN to LSD2, added jumper to select using PK4 to LSD2 input, added jumper to select CPU Fuel Pump output port A7 to go to HSD or LSD4. - DONE 03/23/2014
+* Changed output LED protection diodes from 1N4148 package to 1N4004 (or other 1N400x) package. - DONE 03/23/2014
+* Added notes about the usage of the two jumpers that were added for port K4 LSD2 and Port A7 LSD4 or HSD usage. - DONE 03/23/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
