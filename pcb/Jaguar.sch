@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "7 mar 2014"
+Date "23 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -28,15 +28,15 @@ Text Notes 750  1800 0    60   ~ 0
 C45, C46, C50, D3, D32, R14, R15, R56, R59, R60, R61, R62, R64,\nR65, R79, R85, R86, R93, R94, R96, R97, R98, R99, U5, U10
 Text Notes 700  1650 0    60   ~ 0
 Components that are missing from design changes:
-Connection ~ 7650 4350
-Connection ~ 7600 4600
+Connection ~ 6550 7300
+Connection ~ 6500 7550
 Wire Wire Line
-	7600 4600 7300 4600
-Connection ~ 7600 4350
+	6500 7550 6200 7550
+Connection ~ 6500 7300
 Wire Wire Line
-	7600 4350 7650 4350
+	6500 7300 6550 7300
 Wire Wire Line
-	7300 4200 7600 4200
+	6200 7150 6500 7150
 Wire Notes Line
 	4350 6050 5650 6050
 Wire Notes Line
@@ -45,8 +45,8 @@ Wire Notes Line
 	4350 6950 8050 6950
 Wire Notes Line
 	4350 4800 8050 4800
-Connection ~ 7300 4200
-Connection ~ 7300 4300
+Connection ~ 6200 7150
+Connection ~ 6200 7250
 Wire Notes Line
 	550  7750 550  550 
 Wire Notes Line
@@ -56,18 +56,18 @@ Wire Notes Line
 Wire Notes Line
 	4200 550  550  550 
 Wire Wire Line
-	7600 4500 7300 4500
+	6500 7450 6200 7450
 Wire Wire Line
-	7300 4300 7600 4300
-Connection ~ 7600 4300
+	6200 7250 6500 7250
+Connection ~ 6500 7250
 Wire Wire Line
-	7600 4400 7300 4400
-Connection ~ 7600 4400
-Connection ~ 7300 4400
-Connection ~ 7300 4500
-Connection ~ 7600 4500
+	6500 7350 6200 7350
+Connection ~ 6500 7350
+Connection ~ 6200 7350
+Connection ~ 6200 7450
+Connection ~ 6500 7450
 Wire Wire Line
-	7600 4200 7600 4650
+	6500 7150 6500 7600
 Wire Wire Line
 	9000 1500 8400 1500
 Wire Wire Line
@@ -178,10 +178,10 @@ F 3 "" H 10700 700 60  0001 C CNN
 	1    10700 700 
 	1    0    0    -1  
 $EndComp
-Text GLabel 9000 3100 0    40   Input ~ 0
-FAN
+Text GLabel 6550 3250 2    40   Input ~ 0
+CPU-PK4
 Text GLabel 6900 2000 2    40   Output ~ 0
-FAN
+CPU-PK4
 $Comp
 L CONN_1 PortK5
 U 1 1 505E5BF7
@@ -269,7 +269,7 @@ Text GLabel 5200 2400 0    40   Input ~ 0
 Ground
 Text GLabel 10550 1550 2    40   Input ~ 0
 Ground
-Text Notes 7200 4600 0    25   ~ 0
+Text Notes 6100 7550 0    25   ~ 0
 Sensor-GND
 Text Notes 8750 4150 0    40   ~ 0
 12v-SW
@@ -278,43 +278,43 @@ Text Notes 700  1250 0    60   ~ 0
 $Comp
 L CONN_1 Sensor-GND1
 U 1 1 4F2A0E57
-P 7150 4600
-F 0 "Sensor-GND1" H 7230 4600 40  0000 L CNN
-F 1 "Sensor-GND" H 7150 4655 30  0001 C CNN
-F 2 "" H 7150 4600 60  0001 C CNN
-F 3 "" H 7150 4600 60  0001 C CNN
-	1    7150 4600
+P 6050 7550
+F 0 "Sensor-GND1" H 6130 7550 40  0000 L CNN
+F 1 "Sensor-GND" H 6050 7605 30  0001 C CNN
+F 2 "" H 6050 7550 60  0001 C CNN
+F 3 "" H 6050 7550 60  0001 C CNN
+	1    6050 7550
 	-1   0    0    1   
 $EndComp
-Text Notes 7200 4500 0    30   ~ 0
+Text Notes 6100 7450 0    30   ~ 0
 RPM1-Shield
-Text Notes 7200 4400 0    30   ~ 0
+Text Notes 6100 7350 0    30   ~ 0
 RPM0-Shield
 $Comp
 L CONN_1 RPM1-Shield1
 U 1 1 4F2A0D57
-P 7150 4500
-F 0 "RPM1-Shield1" H 7230 4500 40  0000 L CNN
-F 1 "RPM1-Shield" H 7150 4555 30  0001 C CNN
-F 2 "" H 7150 4500 60  0001 C CNN
-F 3 "" H 7150 4500 60  0001 C CNN
-	1    7150 4500
+P 6050 7450
+F 0 "RPM1-Shield1" H 6130 7450 40  0000 L CNN
+F 1 "RPM1-Shield" H 6050 7505 30  0001 C CNN
+F 2 "" H 6050 7450 60  0001 C CNN
+F 3 "" H 6050 7450 60  0001 C CNN
+	1    6050 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 RPM0-Shield1
 U 1 1 4F2A0D4D
-P 7150 4400
-F 0 "RPM0-Shield1" H 7230 4400 40  0000 L CNN
-F 1 "RPM0-Shield" H 7150 4455 30  0001 C CNN
-F 2 "" H 7150 4400 60  0001 C CNN
-F 3 "" H 7150 4400 60  0001 C CNN
-	1    7150 4400
+P 6050 7350
+F 0 "RPM0-Shield1" H 6130 7350 40  0000 L CNN
+F 1 "RPM0-Shield" H 6050 7405 30  0001 C CNN
+F 2 "" H 6050 7350 60  0001 C CNN
+F 3 "" H 6050 7350 60  0001 C CNN
+	1    6050 7350
 	-1   0    0    1   
 $EndComp
-Text Notes 7200 4300 0    25   ~ 0
+Text Notes 6100 7250 0    25   ~ 0
 GND2
-Text Notes 7200 4200 0    25   ~ 0
+Text Notes 6100 7150 0    25   ~ 0
 GND
 $Comp
 L CONN_1 INJ2-GND1
@@ -347,17 +347,6 @@ F 1 "LSD1-IN" H 8850 3255 30  0001 C CNN
 F 2 "" H 8850 3200 60  0001 C CNN
 F 3 "" H 8850 3200 60  0001 C CNN
 	1    8850 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 LSD2-IN1
-U 1 1 4F2222DF
-P 8850 3300
-F 0 "LSD2-IN1" H 8930 3300 40  0000 L CNN
-F 1 "LSD2-IN" H 8850 3355 30  0001 C CNN
-F 2 "" H 8850 3300 60  0001 C CNN
-F 3 "" H 8850 3300 60  0001 C CNN
-	1    8850 3300
 	-1   0    0    1   
 $EndComp
 Text Notes 700  850  0    60   ~ 0
@@ -538,11 +527,11 @@ F24 "Injector4-PT" O R 6900 1050 40
 F25 "Injector8-PB" O R 6900 1900 40 
 F26 "Injector7-PB" O R 6900 1800 40 
 F27 "PCB-GND" I L 5200 2400 40 
-F28 "Fan-PK4" O R 6900 2000 40 
-F29 "RPM1" I L 5200 1350 40 
-F30 "RPM0" I L 5200 1250 40 
-F31 "PK5" O R 6900 2100 40 
-F32 "SPR-Signal" I L 5200 2100 40 
+F28 "RPM1" I L 5200 1350 40 
+F29 "RPM0" I L 5200 1250 40 
+F30 "PK5" O R 6900 2100 40 
+F31 "SPR-Signal" I L 5200 2100 40 
+F32 "PK4" O R 6900 2000 40 
 $EndSheet
 Text Notes 600  700  0    70   ~ 14
 Notes:
@@ -569,14 +558,14 @@ F 3 "" H 10700 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 4F1CCA54
-P 7600 4650
-F 0 "#PWR1" H 7600 4650 30  0001 C CNN
-F 1 "GND" H 7600 4580 30  0001 C CNN
-F 2 "" H 7600 4650 60  0001 C CNN
-F 3 "" H 7600 4650 60  0001 C CNN
-	1    7600 4650
+P 6500 7600
+F 0 "#PWR01" H 6500 7600 30  0001 C CNN
+F 1 "GND" H 6500 7530 30  0001 C CNN
+F 2 "" H 6500 7600 60  0001 C CNN
+F 3 "" H 6500 7600 60  0001 C CNN
+	1    6500 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -630,12 +619,12 @@ Text GLabel 5200 850  0    40   Input ~ 0
 $Comp
 L CONN_1 GND1
 U 1 1 4F189D7E
-P 7150 4200
-F 0 "GND1" H 7230 4200 40  0000 L CNN
-F 1 "GND" H 7150 4255 30  0001 C CNN
-F 2 "" H 7150 4200 60  0001 C CNN
-F 3 "" H 7150 4200 60  0001 C CNN
-	1    7150 4200
+P 6050 7150
+F 0 "GND1" H 6130 7150 40  0000 L CNN
+F 1 "GND" H 6050 7205 30  0001 C CNN
+F 2 "" H 6050 7150 60  0001 C CNN
+F 3 "" H 6050 7150 60  0001 C CNN
+	1    6050 7150
 	-1   0    0    1   
 $EndComp
 Text GLabel 5200 1800 0    40   Input ~ 0
@@ -700,26 +689,26 @@ F 3 "" H 10700 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9000 2350 1550 1150
+S 9000 2350 1550 1250
 U 4F0D82A1
 F0 "Outputs" 40
 F1 "Outputs.sch" 40
 F2 "Output-Ground" I R 10550 2400 40 
-F3 "Fan_Relay" O R 10550 3100 40 
-F4 "12vdc-switched-outputs" I L 9000 2400 40 
-F5 "IGN-Advance-Signal" B L 9000 2700 40 
-F6 "DIS-Bypass-Signal" I L 9000 2800 40 
-F7 "5vdc-cpu" I L 9000 2500 40 
-F8 "LSD2-IN" I L 9000 3300 40 
-F9 "LSD2" O R 10550 3300 40 
-F10 "Fan-IN" I L 9000 3100 40 
-F11 "PCB-GND" I R 10550 2500 40 
-F12 "HSD-IN" I L 9000 3000 40 
-F13 "HSD" O R 10550 3000 40 
-F14 "LSD1-IN" I L 9000 3200 40 
-F15 "LSD1" O R 10550 3200 40 
-F16 "LSD3-IN" I L 9000 3400 40 
-F17 "LSD3" O R 10550 3400 40 
+F3 "12vdc-switched-outputs" I L 9000 2400 40 
+F4 "IGN-Advance-Signal" B L 9000 2700 40 
+F5 "DIS-Bypass-Signal" I L 9000 2800 40 
+F6 "5vdc-cpu" I L 9000 2500 40 
+F7 "LSD2-IN" I L 9000 3300 40 
+F8 "LSD2" O R 10550 3300 40 
+F9 "PCB-GND" I R 10550 2500 40 
+F10 "HSD-IN" I L 9000 3000 40 
+F11 "HSD" O R 10550 3000 40 
+F12 "LSD1-IN" I L 9000 3200 40 
+F13 "LSD1" O R 10550 3200 40 
+F14 "LSD3-IN" I L 9000 3400 40 
+F15 "LSD3" O R 10550 3400 40 
+F16 "LSD4" O R 10550 3500 40 
+F17 "LSD4-IN" I L 9000 3500 40 
 $EndSheet
 $Sheet
 S 9000 650  1550 1350
@@ -777,12 +766,12 @@ $EndComp
 $Comp
 L CONN_1 GND2
 U 1 1 4F0C7391
-P 7150 4300
-F 0 "GND2" H 7230 4300 40  0000 L CNN
-F 1 "GND2" H 7150 4355 30  0001 C CNN
-F 2 "" H 7150 4300 60  0001 C CNN
-F 3 "" H 7150 4300 60  0001 C CNN
-	1    7150 4300
+P 6050 7250
+F 0 "GND2" H 6130 7250 40  0000 L CNN
+F 1 "GND2" H 6050 7305 30  0001 C CNN
+F 2 "" H 6050 7250 60  0001 C CNN
+F 3 "" H 6050 7250 60  0001 C CNN
+	1    6050 7250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -905,7 +894,7 @@ Text GLabel 5200 1700 0    40   Input ~ 0
 MAP
 Text GLabel 5200 750  0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 7650 4350 2    40   Output ~ 0
+Text GLabel 6550 7300 2    40   Output ~ 0
 Ground
 Text GLabel 10100 4200 2    40   Output ~ 0
 5vdc-cpu
@@ -926,34 +915,12 @@ Wire Notes Line
 	8050 4800 8050 6950
 Wire Notes Line
 	5650 4800 5650 6950
-$Comp
-L CONN_1 FP1
-U 1 1 52F28E03
-P 7050 2400
-F 0 "FP1" H 7130 2400 40  0000 L CNN
-F 1 "FP" H 7050 2455 30  0001 C CNN
-F 2 "" H 7050 2400 60  0001 C CNN
-F 3 "" H 7050 2400 60  0001 C CNN
-	1    7050 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 HSD-IN1
-U 1 1 52F2A6F9
-P 8850 3000
-F 0 "HSD-IN1" H 8930 3000 40  0000 L CNN
-F 1 "HSD-IN" H 8850 3055 30  0001 C CNN
-F 2 "" H 8850 3000 60  0001 C CNN
-F 3 "" H 8850 3000 60  0001 C CNN
-	1    8850 3000
-	-1   0    0    1   
-$EndComp
 Connection ~ 6900 2400
 Connection ~ 9000 3000
 Connection ~ 9000 3200
 Connection ~ 9000 3300
 Connection ~ 9050 4200
-Connection ~ 7300 4600
+Connection ~ 6200 7550
 Connection ~ 9000 1650
 Connection ~ 9000 1750
 Connection ~ 9000 1850
@@ -970,7 +937,6 @@ Connection ~ 10550 1100
 Connection ~ 10550 1200
 Connection ~ 10550 1300
 Connection ~ 10550 1400
-Connection ~ 10550 3100
 Connection ~ 10550 3200
 Connection ~ 10550 3300
 Connection ~ 9050 4950
@@ -999,14 +965,14 @@ F 3 "" H 8850 3400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 FAN1
+L CONN_1 LSD4
 U 1 1 52F3899C
-P 10700 3100
-F 0 "FAN1" H 10780 3100 40  0000 L CNN
-F 1 "FAN" H 10700 3155 30  0001 C CNN
-F 2 "" H 10700 3100 60  0001 C CNN
-F 3 "" H 10700 3100 60  0001 C CNN
-	1    10700 3100
+P 10700 3500
+F 0 "LSD4" H 10780 3500 40  0000 L CNN
+F 1 "LSD4" H 10700 3555 30  0001 C CNN
+F 2 "" H 10700 3500 60  0001 C CNN
+F 3 "" H 10700 3500 60  0001 C CNN
+	1    10700 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1035,4 +1001,125 @@ Text Notes 700  2100 0    60   ~ 0
 This PCB is intended to be used with either the specified Context\nEngineering enclosure or retro-fittted into a factory ECU enclosure.
 Wire Notes Line
 	550  2250 4200 2250
+Connection ~ 9000 3500
+Connection ~ 10550 3500
+Connection ~ 10550 2400
+Connection ~ 9000 700 
+Connection ~ 9000 800 
+Connection ~ 9000 900 
+Connection ~ 9000 1000
+Connection ~ 9000 1100
+Connection ~ 9000 1200
+Connection ~ 9000 1300
+Connection ~ 9000 1400
+Connection ~ 9000 2500
+Connection ~ 9000 2700
+Connection ~ 9000 2800
+Connection ~ 9050 4400
+Connection ~ 10100 4200
+Connection ~ 10100 4400
+Connection ~ 10550 2500
+Connection ~ 10550 1550
+Connection ~ 5200 750 
+Connection ~ 5200 850 
+Connection ~ 5200 1250
+Connection ~ 5200 1350
+Connection ~ 5200 1500
+Connection ~ 5200 1600
+Connection ~ 5200 1700
+Connection ~ 5200 1800
+Connection ~ 5200 1900
+Connection ~ 5200 2000
+Connection ~ 5200 2100
+Connection ~ 5200 2200
+Connection ~ 5200 2300
+Connection ~ 5200 2400
+Connection ~ 6900 2300
+Connection ~ 6900 2200
+Connection ~ 6900 2000
+Connection ~ 6900 1900
+Connection ~ 6900 1800
+Connection ~ 6900 1700
+Connection ~ 6900 1600
+Connection ~ 6900 1500
+Connection ~ 6900 1400
+Connection ~ 6900 1300
+Connection ~ 6900 1200
+Connection ~ 6900 1050
+Connection ~ 6900 950 
+Connection ~ 6900 850 
+Connection ~ 6900 750 
+Connection ~ 6500 5100
+Connection ~ 6500 5200
+Connection ~ 6500 5300
+Connection ~ 6500 5400
+Connection ~ 6500 5600
+Connection ~ 6500 5700
+Connection ~ 6500 5800
+Connection ~ 6500 5900
+Connection ~ 6500 6000
+Connection ~ 6500 6100
+Connection ~ 6500 6200
+Connection ~ 6500 6300
+Connection ~ 7600 5600
+Connection ~ 7600 5700
+Connection ~ 7600 5800
+Connection ~ 7600 5900
+Connection ~ 7600 6000
+Connection ~ 7600 6100
+Connection ~ 7600 6200
+Connection ~ 7600 6300
+Connection ~ 9050 5050
+Connection ~ 9050 5150
+Connection ~ 10400 4950
+Connection ~ 10400 5100
+Connection ~ 10400 5200
+Connection ~ 10400 5300
+Connection ~ 10400 5400
+Connection ~ 10400 5500
+Connection ~ 10400 5600
+Connection ~ 10400 5700
+Connection ~ 10400 5800
+Connection ~ 10400 6600
+Connection ~ 10400 6700
+$Comp
+L CONN_2 Jumper-K4
+U 1 1 532FD088
+P 6200 3350
+F 0 "Jumper-K4" V 6150 3350 40  0000 C CNN
+F 1 "PK4/LSD2" V 6250 3350 40  0000 C CNN
+F 2 "" H 6200 3350 60  0000 C CNN
+F 3 "" H 6200 3350 60  0000 C CNN
+	1    6200 3350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9000 3300 0    40   Input ~ 0
+LSD2-Input
+Text GLabel 6550 3450 2    40   Input ~ 0
+LSD2-Input
+Connection ~ 6550 3250
+Connection ~ 6550 3450
+$Comp
+L CONN_3 Port-A7
+U 1 1 532E7549
+P 6200 4000
+F 0 "Port-A7" V 6150 4000 50  0000 C CNN
+F 1 "Fuel Pump" V 6250 4000 40  0000 C CNN
+F 2 "" H 6200 4000 60  0000 C CNN
+F 3 "" H 6200 4000 60  0000 C CNN
+	1    6200 4000
+	-1   0    0    1   
+$EndComp
+Text GLabel 6900 2400 2    40   Output ~ 0
+CPU-FP
+Text GLabel 6550 4000 2    40   Input ~ 0
+CPU-FP
+Text GLabel 9000 3500 0    40   Input ~ 0
+LSD4-Input
+Text GLabel 6550 4100 2    40   Input ~ 0
+LSD4-Input
+Text GLabel 9000 3000 0    40   Input ~ 0
+HSD-Input
+Text GLabel 6550 3900 2    40   Input ~ 0
+HSD-Input
 $EndSCHEMATC

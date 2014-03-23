@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 06 Mar 2014 08:38:49 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 22 Mar 2014 11:58:45 PM EDT
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -785,6 +785,13 @@ IdModule  = Led_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0D82A1/532E6B7F;
+Reference = D54;
+ValeurCmp = 1N4148;
+IdModule  = 1n4148ta;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
 ValeurCmp = 8V/0.5A Polyfuse;
@@ -796,20 +803,6 @@ TimeStamp = /4F0BB08D/519BED5D;
 Reference = F2;
 ValeurCmp = 8V/0.5A Polyfuse;
 IdModule  = c_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F3899C;
-Reference = FAN1;
-ValeurCmp = FAN;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F28E03;
-Reference = FP1;
-ValeurCmp = FP;
-IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
@@ -837,13 +830,6 @@ BeginCmp
 TimeStamp = /4F0BB08D/509DD6E4;
 Reference = GND3;
 ValeurCmp = GND;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F2A6F9;
-Reference = HSD-IN1;
-ValeurCmp = HSD-IN;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1058,6 +1044,13 @@ IdModule  = r_2512;
 EndCmp
 
 BeginCmp
+TimeStamp = /532FD088;
+Reference = Jumper-K4;
+ValeurCmp = PK4/LSD2;
+IdModule  = PIN_ARRAY_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0A2F06/4F0A3F95/4F2F42B1;
 Reference = L1;
 ValeurCmp = 40;
@@ -1093,13 +1086,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F2222DF;
-Reference = LSD2-IN1;
-ValeurCmp = LSD2-IN;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F3B89D;
 Reference = LSD3;
 ValeurCmp = LSD3;
@@ -1110,6 +1096,13 @@ BeginCmp
 TimeStamp = /52F37A7E;
 Reference = LSD3-IN1;
 ValeurCmp = LSD3-IN;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3899C;
+Reference = LSD4;
+ValeurCmp = LSD4;
 IdModule  = WireConnection;
 EndCmp
 
@@ -1244,6 +1237,13 @@ TimeStamp = /4F1EAE6B;
 Reference = PB0-7;
 ValeurCmp = Port B0-7;
 IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /532E7549;
+Reference = Port-A7;
+ValeurCmp = Fuel Pump;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
