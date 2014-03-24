@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "23 mar 2014"
+Date "24 mar 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -222,7 +222,6 @@ Wire Wire Line
 	650  7050 800  7050
 Connection ~ 8950 3950
 Connection ~ 9250 4350
-Connection ~ 8950 4350
 Connection ~ 8950 4850
 Connection ~ 9250 4850
 Wire Wire Line
@@ -771,12 +770,12 @@ NoConn ~ 7000 4350
 $Comp
 L LED D1
 U 1 1 4F179B05
-P 8950 4150
-F 0 "D1" H 8950 4250 50  0000 C CNN
-F 1 "LED" H 8950 4050 50  0000 C CNN
-F 2 "" H 8950 4150 60  0001 C CNN
-F 3 "" H 8950 4150 60  0001 C CNN
-	1    8950 4150
+P 8950 4650
+F 0 "D1" H 8950 4750 50  0000 C CNN
+F 1 "LED" H 8950 4550 50  0000 C CNN
+F 2 "" H 8950 4650 60  0001 C CNN
+F 3 "" H 8950 4650 60  0001 C CNN
+	1    8950 4650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -982,12 +981,12 @@ $EndComp
 $Comp
 L R R7
 U 1 1 4F0A3AF5
-P 8950 4600
-F 0 "R7" V 9030 4600 50  0000 C CNN
-F 1 "1k" V 8950 4600 50  0000 C CNN
-F 2 "" H 8950 4600 60  0001 C CNN
-F 3 "" H 8950 4600 60  0001 C CNN
-	1    8950 4600
+P 8950 4200
+F 0 "R7" V 9030 4200 50  0000 C CNN
+F 1 "1k" V 8950 4200 50  0000 C CNN
+F 2 "" H 8950 4200 60  0001 C CNN
+F 3 "" H 8950 4200 60  0001 C CNN
+	1    8950 4200
 	-1   0    0    1   
 $EndComp
 Text GLabel 4800 6550 3    40   BiDi ~ 0
@@ -1120,4 +1119,5 @@ F 3 "" H 3850 900 60  0001 C CNN
 	1    3850 900 
 	0    -1   -1   0   
 $EndComp
+Connection ~ 8950 4450
 $EndSCHEMATC
