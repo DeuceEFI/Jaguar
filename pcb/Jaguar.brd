@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Fri 28 Mar 2014 07:22:37 PM EDT
+PCBNEW-BOARD Version 2 date Fri 28 Mar 2014 07:28:03 PM EDT
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -56,8 +56,8 @@ TextPcbSize 2.032 2.032
 EdgeModWidth 0.0254
 TextModSize 0.508 0.508
 TextModWidth 0.1016
-PadSize 1.524 1.524
-PadDrill 0.8001
+PadSize 1.651 1.651
+PadDrill 1.1684
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
@@ -14686,7 +14686,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Led_0805
 $MODULE WireConnection
-Po 77.52 95.02 0 0 532E619B 532E57A1 ~~
+Po 77.52 95.02 0 0 53360553 532E57A1 ~~
 Li WireConnection
 Cd module 1 pin
 Kw DEV
@@ -14697,8 +14697,8 @@ T0 -0.02 0.01 0.254 0.254 0 0.0635 M I 20 N "LSD4"
 T1 -0.22 -2.54 0.635 0.635 0 0.127 M V 20 N "LSD4"
 DC 0 0.00254 0.90678 0.44958 0.254 20
 $PAD
-Sh "1" C 1.651 1.651 0 0 -0
-Dr 1.016 0 0
+Sh "1" C 1.651 1.651 0 0 0
+Dr 1.1684 0 0
 At STD N 00D0FFFF
 Ne 46 "/Outputs/LSD4"
 Po 0 0
