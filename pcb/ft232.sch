@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 mar 2014"
+Date "2 apr 2014"
 Rev "0.7-alpha"
 Comp "Git: xxxxxxxxxx"
 Comment1 ""
@@ -169,8 +169,6 @@ Text Label 2600 3250 0    25   ~ 0
 D-
 Text HLabel 8600 3150 2    40   Input ~ 0
 GND
-Text Notes 5250 2350 0    40   ~ 0
-Jumpers JP3 and JP4 are crossover wires to allow routing on the PCB.\nIf you redesign the board remove these before trying to place the \ncomponents on the PCB as you my not need them.
 $Comp
 L GND #PWR015
 U 1 1 4F1C30B1
@@ -356,4 +354,6 @@ Connection ~ 2550 2800
 Connection ~ 3100 3250
 Connection ~ 3100 3350
 Connection ~ 2550 3850
+Text Notes 2700 4150 0    40   ~ 0
+_RESET is an active low reset pin.  This can be used by an external\ndevice to reset the FT232RL.  If not required, it can be left\nunconnected or pulled up to VCC by installing R55.
 $EndSCHEMATC
