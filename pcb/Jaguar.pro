@@ -1,5 +1,5 @@
-update=Thu 06 Mar 2014 08:37:40 PM EST
-last_client=cvpcb
+update=Wed 02 Apr 2014 09:39:08 PM EDT
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=../pcb-modules
@@ -42,29 +42,34 @@ LibName3=conn
 LibName4=transistors
 LibName5=device
 LibName6=Jaguar
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=480
-PadDimV=880
-BoardThickness=630
-RouteTo=15
-RouteBo=0
-Segm45=1
-Racc45=1
-SgPcb45=1
-TxtPcbV=800
-TxtPcbH=800
-TxtModV=200
-TxtModH=200
-TxtModW=40
-VEgarde=100
-DrawLar=150
-EdgeLar=10
-TxtLar=40
-MSegLar=10
-WpenSer=10
+LastNetListRead=
+UseCmpFile=1
+PadDrill="    1.168400"
+PadDrillOvalY="    1.168400"
+PadSizeH="    1.651000"
+PadSizeV="    1.651000"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    2.032000"
+PcbTextThickness="    0.101600"
+ModuleTextSizeV="    0.508000"
+ModuleTextSizeH="    0.508000"
+ModuleTextSizeThickness="    0.101600"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.025400"
+ModuleOutlineThickness="    0.025400"
 [pcbnew/libraries]
+LibDir=
 LibName1=Jaguar
 LibName2=w_smd_dil
 LibName3=smd_capacitors
@@ -74,11 +79,4 @@ LibName6=transistor
 LibName7=w_smd_trans
 LibName8=w_smd_leds
 LibName9=w_smd_resistors
-LibDir=
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName10=w_logo
