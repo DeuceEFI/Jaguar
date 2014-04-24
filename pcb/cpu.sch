@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "2 apr 2014"
+Date "24 apr 2014"
 Rev "0.7-alpha"
 Comp "Git: c4952a2cf0"
 Comment1 ""
@@ -809,11 +809,11 @@ BRV-Signal
 Text HLabel 7000 3650 2    40   Input ~ 0
 MAP-Signal
 Text HLabel 7000 3850 2    40   Input ~ 0
-O2-Signal
+EGO-Signal
 Text HLabel 7000 4050 2    40   Input ~ 0
 TPS-Signal
 Text HLabel 7000 4250 2    40   Input ~ 0
-Coolant-Signal
+CHT-Signal
 Text HLabel 7000 4450 2    40   Input ~ 0
 IAT-Signal
 Text HLabel 7000 4750 2    40   Output ~ 0

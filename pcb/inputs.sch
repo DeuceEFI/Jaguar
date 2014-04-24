@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "2 apr 2014"
+Date "24 apr 2014"
 Rev "0.7-alpha"
 Comp "Git: c4952a2cf0"
 Comment1 ""
@@ -741,9 +741,9 @@ $EndComp
 Text Notes 2850 3350 0    35   ~ 0
 Change R16 \nand R17 to\n10k for VR \nInput ONLY.
 Text HLabel 10450 3850 2    40   Output ~ 0
-O2-CPU-Signal
+EGO-CPU-Signal
 Text HLabel 9100 3850 0    40   Input ~ 0
-O2-Sensor
+EGO-Sensor
 $Comp
 L C C38
 U 1 1 5023F4F5
@@ -767,7 +767,7 @@ F 3 "" H 9550 3850 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 9100 4250 0    40   Input ~ 0
-O2-Sensor-GND
+EGO-Sensor-GND
 Text Notes 9200 4500 0    60   ~ 0
 Exhaust Oxygen Sensor
 Text Notes 10450 3800 0    40   ~ 0
@@ -1448,8 +1448,8 @@ Text Notes 10550 5200 0    40   ~ 0
 CPU Pin 79
 Text HLabel 750  2250 1    40   Output ~ 0
 RPM0-OUT
-Text Notes 6700 6050 0    60   ~ 0
-Coolant Temperature
+Text Notes 6550 6050 0    60   ~ 0
+Coolant/Head Temperature
 Text Notes 9200 3150 0    60   ~ 0
 Mass Air Flow Sensor
 Text Notes 6650 4200 0    60   ~ 0
@@ -1505,9 +1505,9 @@ F 3 "" H 7750 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6550 5200 0    40   Input ~ 0
-Coolant-Sensor
+CHT-Sensor
 Text HLabel 8100 4800 3    40   Output ~ 0
-Coolant-CPU-Signal
+CHT-CPU-Signal
 Text Label 7000 5600 0    40   ~ 0
 Ground
 $Comp

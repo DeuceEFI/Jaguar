@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 23 Mar 2014 01:55:55 AM EDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 24 Apr 2014 10:24:39 AM EDT
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -792,6 +792,13 @@ IdModule  = diode_do35;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F0BB57B;
+Reference = EGO1;
+ValeurCmp = EGO;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
 ValeurCmp = 8V/0.5A Polyfuse;
@@ -1125,13 +1132,6 @@ TimeStamp = /4F0A4778/4F24F92A;
 Reference = MOV1;
 ValeurCmp = ERZ-V14D220;
 IdModule  = cnp_7.5mm_disc;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F0BB57B;
-Reference = O2;
-ValeurCmp = O2;
-IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
