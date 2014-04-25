@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 04/24/2014 2255 EDT (GMT-0400)
+## JAG 04/24/2014 2336 EDT (GMT-0400)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -21,7 +21,7 @@
 * Changed Port P silkscreen text on back (through hole component) side from Port P0-3 to Port P3-0 since that matches the physical order of the pins. - DONE 11/28/2013
 * Eliminated Pxx designations on the wire connection points and replaced them with the PCB silkscreen designations. - DONE 12/02/2013
 * Changed to separate Creative Commons and MIT licenses for PCB and Schematics, respectively, and updated TODO with fuel pump driver change to be made. - DONE 01/29/2014
-* Changed fuel pump LSD out for high side driver, removed Fan and LSD1 individual low side drivers for a pair of dual MOSFET low side drivers on the schematics. - DONE 02/04/2014
+* Changed fuel pump LSD out for high side driver, removed Fan and LSD1 individual low side driverCPU Pin 40 is now the ONLY ground source for all CPU pins, and is heavily connected with vias to the main ground plane on the back of the PCB.s for a pair of dual MOSFET low side drivers on the schematics. - DONE 02/04/2014
 * Removed direct connection between Port A7 and the Fuel Pump HSD and added connection points to solder a jumper wire to select fuel pump HSD or LSD circuit. - DONE 02/04/2014
 * Changed Spare ADC and IAT cpu pin capacitor from 1uF to 0.22uF.  Also changed pcb revision to 0.7-alpha. - DONE 02/05/2014
 * Revised notes on the first page of the schematic.  Removed the recommended connector text as it did not have enough pins for all the I/O and did not fit the enclosure without modification of the connector. - DONE 02/05/2014
@@ -39,6 +39,7 @@ The above changes are also show in the issue tracker: http://issues.freeems.org/
 * Added a ground trace between the 5vdc-cpu trace and the ground pads for C10 and C11. - DONE 04/24/2014
 * All decouple capacitors should ONLY connect to the CPU ground pin associated to them, and NOT to the ground plane on the other side C1, C2, C4, C5, C44, C47 - DONE 04/24/2014
 * Changed traces for CPU pins 85 and 86 to use isolated vias and traces to jump the 5V trace under the CPU and into the CPU ground plane. - DONE 0/24/2014
+* CPU Pin 40 is now the ONLY ground source for all CPU pins, and is heavily connected with vias to the main ground plane on the back of the PCB. - DONE 04/24/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
