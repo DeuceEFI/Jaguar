@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 04/24/2014 2159 EDT (GMT-0400)
+## JAG 04/24/2014 2236 EDT (GMT-0400)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -36,6 +36,8 @@ The above changes are also show in the issue tracker: http://issues.freeems.org/
 * Added notes about the usage of the two jumpers that were added for port K4 LSD2 and Port A7 LSD4 or HSD usage. - DONE 03/23/2014
 * Re-arranged Load header and CEL LED so that a 4 pin 0.100" pin strip could be inserted for remote mounting a Load button and the CEL LED. - DONE 03/24/2014
 * Removed ground trace from ground plane under CPU to crystal capacitor C11. - DONE 04/24/2014
+* Added a ground trace between the 5vdc-cpu trace and the ground pads for C10 and C11. - DONE 04/24/2014
+* All decouple capacitors should ONLY connect to the CPU ground pin associated to them, and NOT to the ground plane on the other side C1, C2, C4, C5, C44, C47 - DONE 04/24/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
