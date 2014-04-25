@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 04/24/2014 2236 EDT (GMT-0400)
+## JAG 04/24/2014 2255 EDT (GMT-0400)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -38,6 +38,7 @@ The above changes are also show in the issue tracker: http://issues.freeems.org/
 * Removed ground trace from ground plane under CPU to crystal capacitor C11. - DONE 04/24/2014
 * Added a ground trace between the 5vdc-cpu trace and the ground pads for C10 and C11. - DONE 04/24/2014
 * All decouple capacitors should ONLY connect to the CPU ground pin associated to them, and NOT to the ground plane on the other side C1, C2, C4, C5, C44, C47 - DONE 04/24/2014
+* Changed traces for CPU pins 85 and 86 to use isolated vias and traces to jump the 5V trace under the CPU and into the CPU ground plane. - DONE 0/24/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
