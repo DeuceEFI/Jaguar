@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 04/24/2014 2344 EDT (GMT-0400)
+## JAG 04/24/2014 2351 EDT (GMT-0400)
 
 ### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
 
@@ -42,6 +42,7 @@ The above changes are also show in the issue tracker: http://issues.freeems.org/
 * CPU Pin 40 is now the ONLY ground source for all CPU pins, and is heavily connected with vias to the main ground plane on the back of the PCB. - DONE 04/24/2014
 * C48 connected to C3 on the front side as well as the back side. - DONE 04/24/2014
 * Moved 5vdc-cpu trace to C48 closer to LSD2 input pin. - DONE 04/24/2014
+* Re-routed IAT trace from CPU pin 67 to D10 to remove the via and the trace on the back of the PCB. - DONE 04/24/2014
 
 ----------
 ### 0.6-alpha Changes Completed:
