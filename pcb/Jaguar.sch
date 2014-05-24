@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 apr 2014"
+Date "24 may 2014"
 Rev "0.7-alpha"
 Comp "Git: c4952a2cf0"
 Comment1 ""
@@ -25,7 +25,7 @@ Text GLabel 9050 5150 0    40   Input ~ 0
 Text GLabel 9000 2500 0    40   Input ~ 0
 5vdc-cpu
 Text Notes 750  1800 0    60   ~ 0
-C45, C46, C50, D3, D32, R14, R15, R56, R59, R60, R61, R62, R64,\nR65, R79, R85, R86, R93, R94, R96, R97, R98, R99, U5, U10
+C45, C46, C50, R62, R86, R93, R94, R96, R97, R98, R99
 Text Notes 700  1650 0    60   ~ 0
 Components that are missing from design changes:
 Connection ~ 6550 7300
@@ -350,7 +350,7 @@ F 3 "" H 8850 3200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 700  850  0    60   ~ 0
-Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith silicon insulators and use plastic isolators on the metal screws.
+Make sure that the PCB grounds do not touch the inside of the case and \nisolate the TO-220 voltage regulators from the end panels of the case\nwith silicone insulators and use plastic isolators on the metal screws.
 Text GLabel 6500 6300 0    40   Input ~ 0
 CPU-PB7
 Text GLabel 6500 6200 0    40   Input ~ 0
