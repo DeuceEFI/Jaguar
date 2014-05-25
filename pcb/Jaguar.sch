@@ -12,9 +12,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 may 2014"
+Date "25 may 2014"
 Rev "0.7-alpha"
-Comp "Git: c4952a2cf0"
+Comp "Git: 3b0981b7b7"
 Comment1 ""
 Comment2 ""
 Comment3 ""
