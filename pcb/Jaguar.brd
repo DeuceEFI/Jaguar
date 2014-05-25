@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 19 May 2014 07:00:36 AM EDT
+PCBNEW-BOARD Version 2 date Sat 24 May 2014 10:14:06 PM EDT
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -7,11 +7,11 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FEF8001
+VisibleLayers 1FFF8000
 Links 543
 NoConn 0
 Di -0.1905 -0.1905 178.295302 112.692181
-Ndraw 983
+Ndraw 987
 Ntrack 2334
 Nzone 0
 BoardThickness 1.6002
@@ -22,9 +22,9 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Jaguar"
-Date "19 may 2014"
+Date "25 may 2014"
 Rev "0.7-alpha"
-Comp "Git: c4952a2cf0"
+Comp "Git: 3b0981b7b7"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -62,7 +62,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.100000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.100000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerber/))
 $EndSETUP
 
 $EQUIPOT
@@ -10588,7 +10588,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE RC03_vert
 $MODULE SIL-3
-Po 65.30086 30.2006 2700 0 533CCB8F 509C5D13 ~~
+Po 65.30086 30.2006 2700 0 53801C0A 509C5D13 ~~
 Li SIL-3
 Cd Connecteur 3 pins
 Kw CONN DEV
@@ -10596,7 +10596,7 @@ Sc 509C5D13
 AR /4F0D82A1/5092BFDF
 Op 0 0 0
 T0 -4.5756 -0.02414 0.762 0.762 3600 0.127 M V 20 N "JP1"
-T1 0.14986 2.05994 0.9 0.9 2700 0.18 M V 20 N "5v/12v"
+T1 0.14986 2.05994 0.9 0.9 2700 0.18 M V 20 N "5v / 12v"
 DS -3.81 -1.27 -3.81 1.27 0.254 20
 DS -3.81 1.27 3.81 1.27 0.254 20
 DS 3.81 1.27 3.81 -1.27 0.254 20
@@ -11032,7 +11032,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE RC03_vert
 $MODULE SIL-3
-Po 38.39972 30.24886 2700 0 533CCB6A 509C8E53 ~~
+Po 38.39972 30.24886 2700 0 53801BFD 509C8E53 ~~
 Li SIL-3
 Cd Connecteur 3 pins
 Kw CONN DEV
@@ -11040,7 +11040,7 @@ Sc 509C8E53
 AR /4F0D82A1/509C8644
 Op 0 0 0
 T0 -4.57386 -0.05028 0.762 0.762 3600 0.127 M V 20 N "JP2"
-T1 -0.02794 2.4003 0.9 0.9 2700 0.18 M V 20 N "5v/12v"
+T1 -0.02794 2.4003 0.9 0.9 2700 0.18 M V 20 N "5v / 12v"
 DS -3.81 -1.27 -3.81 1.27 0.254 20
 DS -3.81 1.27 3.81 1.27 0.254 20
 DS 3.81 1.27 3.81 -1.27 0.254 20
@@ -13541,7 +13541,7 @@ Po 0 -1.27
 .SolderPaste -0.1016
 $EndPAD
 $SHAPE3D
-Na "walter/indicators/led_3mm_green.wrl"
+Na "walter/indicators/led_3mm_red.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -14534,7 +14534,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE WireConnection
 $MODULE PIN_ARRAY_2
-Po 81.73 60.4 0 0 532E6502 532E57AB ~~
+Po 81.73 60.4 0 0 538145CF 532E57AB ~~
 Li PIN_ARRAY_2
 Cd Connecteurs 2 pins
 Kw CONN DEV
@@ -14542,7 +14542,7 @@ Sc 532E57AB
 AR /532FD088
 Op 0 0 0
 T0 -0.11 -0.57 0.254 0.254 0 0.0635 M I 20 N "Jumper-K4"
-T1 -0.09 -2.1 0.762 0.762 0 0.127 M V 20 N "PK4/LSD2"
+T1 -0.09 -2.1 0.762 0.762 0 0.127 M V 20 N "LSD2/PK4"
 DS -2.54 -1.27 -2.54 1.27 0.254 20
 DS -2.54 1.27 2.54 1.27 0.254 20
 DS 2.54 1.27 2.54 -1.27 0.254 20
@@ -15362,6 +15362,26 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE WireConnection
+$TEXTPCB
+Te "2"
+Po 85.375 71.375 1.2 1.2 0.1778 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "1"
+Po 69.025 71.375 1.2 1.2 0.1778 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "4"
+Po 81.075 96.325 1.2 1.2 0.1778 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "3"
+Po 70.475 96.275 1.2 1.2 0.1778 0
+De 20 0 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 70.575 35.2 70.6 35.2 0.2
 De 20 0 900 0 0
@@ -16877,7 +16897,7 @@ De 20 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "Version 0.7-alpha"
-nl "Git: xxxxxxxxxx"
+nl "Git: 3b0981b7b7"
 Po 105.35 59.325 1.524 1.524 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
@@ -17779,7 +17799,7 @@ De 21 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "JAG 2012"
-Po 146.17 45.77 0.889 1.143 0.16002 900
+Po 145.825 45.8 0.889 1.143 0.16002 900
 De 15 1 0 Normal
 $EndTEXTPCB
 $DRAWSEGMENT
@@ -18157,8 +18177,8 @@ Po 138.45 55 0.9 0.9 0.15 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "JAG 2012"
-Po 146.17 45.76 0.889 1.143 0.16002 900
+Te "JAG 2012-2014"
+Po 145.8 43.55 0.889 1.143 0.16002 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -19311,8 +19331,8 @@ Po 0 99.0346 55.7784 105.283 49.53 0.381
 De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "Version 0.7-alpha Git: xxxxxxxxxx"
-Po 61.07 50.03 1.016 1.143 0.2032 900
+Te "Version 0.7-alpha Git: 3b0981b7b7"
+Po 61.075 50.4 1.016 1.143 0.2032 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB

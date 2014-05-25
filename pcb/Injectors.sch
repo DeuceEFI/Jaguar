@@ -12,9 +12,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 apr 2014"
+Date "25 may 2014"
 Rev "0.7-alpha"
-Comp "Git: c4952a2cf0"
+Comp "Git: 3b0981b7b7"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -842,7 +842,7 @@ L MOSFET_N Q5
 U 1 1 4F0D0586
 P 3900 4500
 F 0 "Q5" H 4150 4500 60  0000 R CNN
-F 1 "VND14NV04" H 3910 4350 60  0000 R CNN
+F 1 "VND7NV04" H 4750 4500 60  0000 R CNN
 F 2 "" H 3900 4500 60  0001 C CNN
 F 3 "" H 3900 4500 60  0001 C CNN
 	1    3900 4500
