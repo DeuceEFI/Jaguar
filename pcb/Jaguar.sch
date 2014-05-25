@@ -14,7 +14,7 @@ Sheet 1 7
 Title "Jaguar PCB for FreeEMS"
 Date "24 may 2014"
 Rev "0.7-alpha"
-Comp "Git: c4952a2cf0"
+Comp "Git: f0f0026dbb"
 Comment1 ""
 Comment2 ""
 Comment3 ""

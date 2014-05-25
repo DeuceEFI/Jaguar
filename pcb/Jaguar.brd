@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Sat 24 May 2014 10:14:06 PM EDT
+PCBNEW-BOARD Version 2 date Sun 25 May 2014 12:52:47 AM EDT
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -7,7 +7,6 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFF8000
 Links 543
 NoConn 0
 Di -0.1905 -0.1905 178.295302 112.692181
@@ -24,7 +23,7 @@ Sheet A4 11693 8268
 Title "Jaguar"
 Date "25 may 2014"
 Rev "0.7-alpha"
-Comp "Git: 3b0981b7b7"
+Comp "Git: f0f0026dbb"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16897,7 +16896,7 @@ De 20 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "Version 0.7-alpha"
-nl "Git: 3b0981b7b7"
+nl "Git: f0f0026dbb"
 Po 105.35 59.325 1.524 1.524 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
@@ -19331,7 +19330,7 @@ Po 0 99.0346 55.7784 105.283 49.53 0.381
 De 24 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "Version 0.7-alpha Git: 3b0981b7b7"
+Te "Version 0.7-alpha Git: f0f0026dbb"
 Po 61.075 50.4 1.016 1.143 0.2032 900
 De 21 1 0 Normal
 $EndTEXTPCB
