@@ -1,8 +1,8 @@
 # To Do List
 
-## JAG 04/24/2014 2351 EDT (GMT-0400)
+## JAG 08/03/2014 0947 EDT (GMT-0400)
 
-### Things left to change For Version 0.7-alpha PCB based on what has been learned from 0.6-alpha PCB:
+### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
 
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.7-alpha PCB.
@@ -11,6 +11,11 @@
 ### Jaguar Wish List Items:
 
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
+
+----------
+### 0.8-alpha Changes Completed:
+
+* Corrected labeling of RX0 and TX0 on the Through Hole side of the PCB, they were reversed on the 0.7-alpha silkscreen. - DONE 08/03/2014
 
 ----------
 ### 0.7-alpha Changes Completed:

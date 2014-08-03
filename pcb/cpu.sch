@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "24 apr 2014"
+Date "3 aug 2014"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -374,10 +374,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 1250 5900 1150
 $Comp
-L CONN_2 RX0-TX0
+L CONN_2 TX0-RX0
 U 1 1 51A0194D
 P 5800 800
-F 0 "RX0-TX0" V 5750 800 40  0000 C CNN
+F 0 "TX0-RX0" V 5750 800 40  0000 C CNN
 F 1 "RX0-TX0" V 5850 800 40  0000 C CNN
 F 2 "" H 5800 800 60  0001 C CNN
 F 3 "" H 5800 800 60  0001 C CNN

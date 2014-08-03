@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 24 Apr 2014 10:24:39 AM EDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 03 Aug 2014 09:32:28 AM EDT
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -1305,7 +1305,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D0381/4F0D0586;
 Reference = Q5;
-ValeurCmp = VND14NV04;
+ValeurCmp = VND7NV04;
 IdModule  = DPAKGDS;
 EndCmp
 
@@ -1704,7 +1704,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F1384D7;
 Reference = R53;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1760,14 +1760,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/52F27903;
 Reference = R61;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = RC03_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0D82A1/52F2813A;
 Reference = R62;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1837,7 +1837,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F20C918;
 Reference = R72;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1858,7 +1858,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0D82A1/4F21BF54;
 Reference = R75;
-ValeurCmp = 2.4k;
+ValeurCmp = 2.43k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -2094,13 +2094,6 @@ IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F0A2F06/51A0194D;
-Reference = RX0-TX0;
-ValeurCmp = RX0-TX0;
-IdModule  = PIN_ARRAY_2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F0A2F06/505D24CE;
 Reference = RX1;
 ValeurCmp = RX1;
@@ -2147,6 +2140,13 @@ TimeStamp = /4F0BB55E;
 Reference = TPS1;
 ValeurCmp = TPS;
 IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A2F06/51A0194D;
+Reference = TX0-RX0;
+ValeurCmp = RX0-TX0;
+IdModule  = PIN_ARRAY_2;
 EndCmp
 
 BeginCmp
