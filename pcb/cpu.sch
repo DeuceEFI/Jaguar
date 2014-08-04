@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Jaguar PCB for FreeEMS"
-Date "3 aug 2014"
+Date "4 aug 2014"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -128,14 +128,6 @@ Connection ~ 2200 4250
 Connection ~ 2200 4350
 Wire Wire Line
 	2200 5050 2050 5050
-Wire Bus Line
-	8650 7000 8650 5850
-Wire Bus Line
-	8650 7000 7550 7000
-Wire Bus Line
-	7550 7000 7550 5850
-Wire Bus Line
-	7550 5850 8650 5850
 Connection ~ 1850 7550
 Connection ~ 1850 7050
 Connection ~ 1850 6550
@@ -1120,4 +1112,14 @@ F 3 "" H 3850 900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 8950 4450
+Text Notes 7300 6800 0    39   ~ 0
+6.8nF = 6800pF
+Wire Notes Line
+	8700 5800 7250 5800
+Wire Notes Line
+	7250 5800 7250 7000
+Wire Notes Line
+	7250 7000 8700 7000
+Wire Notes Line
+	8700 7000 8700 5800
 $EndSCHEMATC
