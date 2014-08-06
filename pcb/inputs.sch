@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "4 aug 2014"
+Date "6 aug 2014"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -30,8 +30,8 @@ $Comp
 L FUSE F1
 U 1 1 51A67DEA
 P 10300 750
-F 0 "F1" H 10400 800 40  0000 C CNN
-F 1 "8V/0.5A Polyfuse" H 10550 600 40  0000 C CNN
+F 0 "F1" H 10350 600 40  0000 C CNN
+F 1 "8V/0.5A PTC Resettable Fuse" H 10500 850 40  0000 C CNN
 F 2 "" H 10300 750 60  0001 C CNN
 F 3 "" H 10300 750 60  0001 C CNN
 	1    10300 750 
@@ -518,7 +518,7 @@ L FUSE F2
 U 1 1 519BED5D
 P 4250 7500
 F 0 "F2" H 4350 7550 40  0000 C CNN
-F 1 "8V/0.5A Polyfuse" H 4300 7350 40  0000 C CNN
+F 1 "8V/0.5A PTC Resettable Fuse" H 4400 7350 40  0000 C CNN
 F 2 "" H 4250 7500 60  0001 C CNN
 F 3 "" H 4250 7500 60  0001 C CNN
 	1    4250 7500
