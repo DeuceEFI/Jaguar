@@ -1,8 +1,8 @@
 # Jaguar Board for FreeEMS
 
-JAG 03/07/2013 0856 EST (GMT-0500)
+JAG 08/06/2014 2128 EDT (GMT-0400)
 
-####Do NOT use these files in the dev branch to make a PCB, the 0.6-alpha PCB has not been tested.  See the TODO.md file for the up to date changes from the 0.4-alpha to the 0.6-alpha board.  The 0.5-alpha was a commit of gerber files after I noticed that the traces were incorrect to the AAP and MAP sensors, it was never manufactured.
+####Do NOT use the files in the dev branch to make a PCB, they have not been tested.  Check out the latest release version if you would like to make a board.  See the TODO.md file for the up to date changes.
 
 ### Introduction
 
