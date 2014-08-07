@@ -1,11 +1,12 @@
 # To Do List
 
-## JAG 08/03/2014 0947 EDT (GMT-0400)
+## JAG 08/06/2014 2232 EDT (GMT-0400)
 
 ### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
 
+* Change AAP and MAP sensors from SOP-8 footprints to SSOP-8 footprints.
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
-* Update Assembly documentation to reflect these changes for the Version 0.7-alpha PCB.
+* Update Assembly documentation to reflect these changes for the Version 0.8-alpha PCB.
 
 ----------
 ### Jaguar Wish List Items:
@@ -15,7 +16,14 @@
 ----------
 ### 0.8-alpha Changes Completed:
 
+* Updated BOM with the correct value (6800pF) and vendor part number for C7. - DONE 08/02/2014
 * Corrected labeling of RX0 and TX0 on the Through Hole side of the PCB, they were reversed on the 0.7-alpha silkscreen. - DONE 08/03/2014
+* Removed Gerber files and renamed the BOM from Jaguar.ods to Jaguar-BOM.ods as it was causing confusion. - DONE 08/03/2014
+* Added a comment on the CPU schematic that 6.8nF = 6800pF. - DONE 08/03/2014
+* Moved U13 label away from silkscreen line, re-sized the Q12 label to match the other labels and moved it away from the silkscreen line. - DONE 08/06/2014
+* Renamed F1 and F2 from Polyfuse to 8v/0.50A PTC Resettable Fuse on the schematics to match the Bill-of-Materials (BOM). - DONE 08/06/2014
+* Moved MAP labels on both sides of the PCB to be away from the solder pads. - DONE 08/06/2014
+* Updated README.md to not mention version numbers so it is more generic. - DONE 08/06/2014
 
 ----------
 ### 0.7-alpha Changes Completed:
