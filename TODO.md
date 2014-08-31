@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 08/06/2014 2232 EDT (GMT-0400)
+## JAG 08/31/2014 0950 EDT (GMT-0400)
 
 ### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
 
@@ -24,6 +24,7 @@
 * Renamed F1 and F2 from Polyfuse to 8v/0.50A PTC Resettable Fuse on the schematics to match the Bill-of-Materials (BOM). - DONE 08/06/2014
 * Moved MAP labels on both sides of the PCB to be away from the solder pads. - DONE 08/06/2014
 * Updated README.md to not mention version numbers so it is more generic. - DONE 08/06/2014
+* Changed the silkscreen text from Port P0-3 to Port P3-0 so that it matches the pads, thanks johntramp! - DONE 08/31/2014
 
 ----------
 ### 0.7-alpha Changes Completed:
