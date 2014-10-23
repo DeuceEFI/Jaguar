@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Jaguar PCB for FreeEMS"
-Date "6 aug 2014"
+Date "23 oct 2014"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -35,14 +35,6 @@ $EndComp
 NoConn ~ 2550 3450
 Wire Wire Line
 	7150 3150 7500 3150
-Wire Notes Line
-	4850 4000 4850 3550
-Wire Notes Line
-	4850 4000 3950 4000
-Wire Notes Line
-	3950 4000 3950 3550
-Wire Notes Line
-	3950 3550 4850 3550
 Wire Wire Line
 	6800 3050 7500 3050
 Connection ~ 2550 2500
@@ -142,8 +134,6 @@ F 3 "" H 8050 3000 60  0001 C CNN
 	1    8050 3000
 	-1   0    0    -1  
 $EndComp
-Text Notes 4000 3850 0    55   ~ 0
-R55 is Optional\npopulate if needed
 NoConn ~ 6800 3150
 NoConn ~ 6800 3250
 NoConn ~ 6800 3350
@@ -355,5 +345,5 @@ Connection ~ 3100 3250
 Connection ~ 3100 3350
 Connection ~ 2550 3850
 Text Notes 2700 4150 0    40   ~ 0
-_RESET is an active low reset pin.  This can be used by an external\ndevice to reset the FT232RL.  If not required, it can be left\nunconnected or pulled up to VCC by installing R55.
+_RESET is an active low reset pin.  This can be used by an external\ndevice to reset the FT232RL.  If not required, it should be pulled up\nto 5v-USB by installing R55.
 $EndSCHEMATC
