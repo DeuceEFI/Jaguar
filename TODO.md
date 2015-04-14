@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 08/31/2014 0950 EDT (GMT-0400)
+## JAG 04/14/2015 1247 EDT (GMT-0400)
 
 ### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
 
@@ -25,6 +25,7 @@
 * Moved MAP labels on both sides of the PCB to be away from the solder pads. - DONE 08/06/2014
 * Updated README.md to not mention version numbers so it is more generic. - DONE 08/06/2014
 * Changed the silkscreen text from Port P0-3 to Port P3-0 so that it matches the pads, thanks johntramp! - DONE 08/31/2014
+* Changed R24, R25 and R31 to be 2.7k 0.1% resistors for the thermistor bias resistors.  This is a good compromise for the Denso/GM temperature thermistors. - DONE 04/14/2015
 
 ----------
 ### 0.7-alpha Changes Completed:
