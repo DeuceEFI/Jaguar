@@ -1,10 +1,9 @@
 # To Do List
 
-## JAG 04/14/2015 1247 EDT (GMT-0400)
+## JAG 05/13/2015 1928 EDT (GMT-0400)
 
 ### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
 
-* Change AAP and MAP sensors from SOP-8 footprints to SSOP-8 footprints.
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.8-alpha PCB.
 
@@ -26,6 +25,7 @@
 * Updated README.md to not mention version numbers so it is more generic. - DONE 08/06/2014
 * Changed the silkscreen text from Port P0-3 to Port P3-0 so that it matches the pads, thanks johntramp! - DONE 08/31/2014
 * Changed R24, R25 and R31 to be 2.7k 0.1% resistors for the thermistor bias resistors.  This is a good compromise for the Denso/GM temperature thermistors. - DONE 04/14/2015
+* Changed AAP and MAP sensors from SOP-8 footprints to SSOP-8 footprints. - DONE 05/13/2015
 
 ----------
 ### 0.7-alpha Changes Completed:
