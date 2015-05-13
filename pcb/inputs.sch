@@ -894,7 +894,7 @@ Text HLabel 6550 4700 0    40   Input ~ 0
 Text Notes 1900 6400 0    40   ~ 0
 Use the MPXA6115AC6U for Non-Boosted Engines.\nUse the MPXA4250AC6U for Boosted Engines.
 Text Notes 6050 750  0    40   ~ 0
-R24, R25 and R31 (2.49k) can be replaced if using sensors other than\nGM temperature sensors; For FORD Sensors: use 27.4k 0.1% Metal Film\nresistors; for MOPAR Sensors: use 9.1k 0.1% Metal Film resistors or \nuse 2.43k 0.1% Metal Film resistors (best for most cases).  Be sure to\nuse FreeTherm to adjust the values in the FreeEMS code for the best\naccuracy irregardless of which value resistors you use!
+R24, R25 and R31 (2.7k) can be replaced if using sensors other than\nDenso/GM temperature sensors.\nExamples:\nFor FORD Sensors: use 27.4k 0.1% Metal Film resistors; \nFor MOPAR Sensors: use 9.1k 0.1% Metal Film resistors.\nBe sure to use FreeTherm to adjust the values in\nthe FreeEMS code for the best accuracy \nirregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0
 For GM DIS and Ford EDIS connect RPM0-IN- and RPM1-IN- to ground.\n\nFor Ford EDIS do not connect RPM1-IN+ to anything, it isn't needed\nunless you have a cam sensor for semi-sequential or sequential injection. \nR16, R17, C25, R10, R12 and D5 are not needed for the EDIS system.\n\nR20 and 23 are only to be used with VR Inputs, do not\npopulate these components for GM DIS or Ford EDIS systems.
 Text Notes 1350 1350 0    40   ~ 0
