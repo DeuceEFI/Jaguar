@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Jaguar PCB for FreeEMS"
-Date "14 apr 2015"
+Date "13 may 2015"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -541,7 +541,7 @@ L MPXA4250AP U6
 U 1 1 51632018
 P 2100 7050
 F 0 "U6" H 2100 7550 70  0000 C CNN
-F 1 "MPXA4250AC6U" H 2100 6550 70  0000 C CNN
+F 1 "MPXH6250AC6U" H 2100 6550 70  0000 C CNN
 F 2 "" H 2100 7050 60  0001 C CNN
 F 3 "" H 2100 7050 60  0001 C CNN
 	1    2100 7050
@@ -552,7 +552,7 @@ L MPXA4250AP U11
 U 1 1 5163200F
 P 2100 5400
 F 0 "U11" H 2100 5900 70  0000 C CNN
-F 1 "MPXA6115AC6U" H 2100 4900 70  0000 C CNN
+F 1 "MPXH6115AC6U" H 2100 4900 70  0000 C CNN
 F 2 "" H 2100 5400 60  0001 C CNN
 F 3 "" H 2100 5400 60  0001 C CNN
 	1    2100 5400
@@ -892,7 +892,7 @@ Text HLabel 10050 4850 0    40   Input ~ 0
 Text HLabel 6550 4700 0    40   Input ~ 0
 5vdc-analog
 Text Notes 1900 6400 0    40   ~ 0
-Use the MPXA6115AC6U for Non-Boosted Engines.\nUse the MPXA4250AC6U for Boosted Engines.
+Use the MPXH6115AC6U for Non-Boosted Engines.\nUse the MPXH6250AC6U for Boosted Engines.
 Text Notes 6050 750  0    40   ~ 0
 R24, R25 and R31 (2.7k) can be replaced if using sensors other than\nDenso/GM temperature sensors.\nExamples:\nFor FORD Sensors: use 27.4k 0.1% Metal Film resistors; \nFor MOPAR Sensors: use 9.1k 0.1% Metal Film resistors.\nBe sure to use FreeTherm to adjust the values in\nthe FreeEMS code for the best accuracy \nirregardless of which value resistors you use!
 Text Notes 650  750  0    40   ~ 0

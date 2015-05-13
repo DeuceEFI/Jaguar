@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 03 Aug 2014 09:32:28 AM EDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 13 May 2015 06:42:12 AM EDT
 
 BeginCmp
 TimeStamp = /4F0BB08D/509DD6DD;
@@ -801,14 +801,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/51A67DEA;
 Reference = F1;
-ValeurCmp = 8V/0.5A Polyfuse;
+ValeurCmp = 8V/0.5A PTC Resettable Fuse;
 IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/519BED5D;
 Reference = F2;
-ValeurCmp = 8V/0.5A Polyfuse;
+ValeurCmp = 8V/0.5A PTC Resettable Fuse;
 IdModule  = c_1206;
 EndCmp
 
@@ -1501,14 +1501,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B934B;
 Reference = R24;
-ValeurCmp = 2.49k;
+ValeurCmp = 2.7k;
 IdModule  = RC07_vert;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B936D;
 Reference = R25;
-ValeurCmp = 2.49k;
+ValeurCmp = 2.7k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -1550,7 +1550,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/4F0B938D;
 Reference = R31;
-ValeurCmp = 2.49k;
+ValeurCmp = 2.7k;
 IdModule  = RC03_vert;
 EndCmp
 
@@ -2194,8 +2194,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/51632018;
 Reference = U6;
-ValeurCmp = MPXA4250AC6U;
-IdModule  = 8-SOP;
+ValeurCmp = MPXH6250AC6U;
+IdModule  = SSOP-8-Freescale;
 EndCmp
 
 BeginCmp
@@ -2229,8 +2229,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4F0BB08D/5163200F;
 Reference = U11;
-ValeurCmp = MPXA6115AC6U;
-IdModule  = 8-SOP;
+ValeurCmp = MPXH6115AC6U;
+IdModule  = SSOP-8-Freescale;
 EndCmp
 
 BeginCmp

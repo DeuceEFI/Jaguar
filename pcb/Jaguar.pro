@@ -1,5 +1,5 @@
-update=Wed 02 Apr 2014 09:39:08 PM EDT
-last_client=pcbnew
+update=Wed 13 May 2015 06:19:09 AM EDT
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../pcb-modules
@@ -44,32 +44,26 @@ LibName5=device
 LibName6=Jaguar
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    1.168400"
-PadDrillOvalY="    1.168400"
-PadSizeH="    1.651000"
-PadSizeV="    1.651000"
-PcbTextSizeV="    2.032000"
-PcbTextSizeH="    2.032000"
-PcbTextThickness="    0.101600"
-ModuleTextSizeV="    0.508000"
-ModuleTextSizeH="    0.508000"
-ModuleTextSizeThickness="    0.101600"
-SolderMaskClearance="    0.254000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.381000"
-BoardOutlineThickness="    0.025400"
-ModuleOutlineThickness="    0.025400"
+PadDrill=1.168400000000
+PadDrillOvalY=1.168400000000
+PadSizeH=1.651000000000
+PadSizeV=1.651000000000
+PcbTextSizeV=2.032000000000
+PcbTextSizeH=2.032000000000
+PcbTextThickness=0.101600000000
+ModuleTextSizeV=0.508000000000
+ModuleTextSizeH=0.508000000000
+ModuleTextSizeThickness=0.101600000000
+SolderMaskClearance=0.254000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.400000000000
+BoardOutlineThickness=0.025400000000
+ModuleOutlineThickness=0.025400000000
 [pcbnew/libraries]
-LibDir=
 LibName1=Jaguar
 LibName2=w_smd_dil
 LibName3=smd_capacitors
@@ -80,3 +74,9 @@ LibName7=w_smd_trans
 LibName8=w_smd_leds
 LibName9=w_smd_resistors
 LibName10=w_logo
+LibDir=../pcb-modules
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
