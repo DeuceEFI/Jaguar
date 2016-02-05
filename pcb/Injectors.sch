@@ -13,7 +13,7 @@ encoding utf-8
 Sheet 6 7
 Title "Jaguar PCB for FreeEMS"
 Date "5 feb 2016"
-Rev "0.7-alpha"
+Rev "0.8-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
 Comment2 ""
