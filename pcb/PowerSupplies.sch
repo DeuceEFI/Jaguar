@@ -12,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Jaguar PCB for FreeEMS"
-Date "13 may 2015"
+Date "5 feb 2016"
 Rev "0.7-alpha"
 Comp "Git: f0f0026dbb"
 Comment1 ""
@@ -102,8 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3850 2350 3850
 Wire Wire Line
-	3050 3350 2150 3350
-Connection ~ 2150 3350
+	2050 3350 3050 3350
 Connection ~ 5050 2650
 Wire Wire Line
 	5650 2150 5050 2150
@@ -200,17 +199,6 @@ F 2 "" H 6050 2150 60  0001 C CNN
 F 3 "" H 6050 2150 60  0001 C CNN
 	1    6050 2150
 	-1   0    0    -1  
-$EndComp
-$Comp
-L DIODESCH D44
-U 1 1 4FF707FF
-P 1950 3350
-F 0 "D44" H 1950 3450 40  0000 C CNN
-F 1 "1N5818-TP" H 1950 3250 40  0000 C CNN
-F 2 "" H 1950 3350 60  0001 C CNN
-F 3 "" H 1950 3350 60  0001 C CNN
-	1    1950 3350
-	1    0    0    -1  
 $EndComp
 $Comp
 L DIODESCH D43
@@ -384,4 +372,10 @@ F 3 "" H 2350 2450 60  0001 C CNN
 	1    2350 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2150 2250 2150 2550
+Wire Wire Line
+	2150 2550 2050 2550
+Wire Wire Line
+	2050 2550 2050 3350
 $EndSCHEMATC
