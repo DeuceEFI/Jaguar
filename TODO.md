@@ -1,11 +1,11 @@
 # To Do List
 
-## JAG 08/04/2016 1509 EDT (GMT-0400)
+## JAG 08/04/2016 1935 EDT (GMT-0400)
 
 ### Things left to change For Version 0.8-beta PCB based on what has been learned from 0.7-alpha PCB:
 
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
-* Update Assembly documentation to reflect these changes for the Version 0.8-alpha PCB.
+* Update Assembly documentation to reflect these changes for the Version 0.8-beta PCB.
 
 ----------
 ### Jaguar Wish List Items:
