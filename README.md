@@ -1,6 +1,6 @@
 # Jaguar Board for FreeEMS
 
-JAG 08/06/2014 2128 EDT (GMT-0400)
+JAG 08/04/2016 1515 EDT (GMT-0400)
 
 ####Do NOT use the files in the dev branch to make a PCB, they have not been tested.  Check out the latest release version if you would like to make a board.  See the TODO.md file for the up to date changes.
 
@@ -36,6 +36,11 @@ Core IO specs:
 PCB size is to be as small as possible, due to the limited room in the car (1932 Ford 5-Window Coupe) it is being designed for where space is a premium.  The goal is for a 3" x 5" (76mm x 127mm) PCB.  It is a mixture of SMD and through hole components so that it can be completed by a hobbyist with access to a DIY reflow soldering oven for the SMD work and a good soldering station for the through hole components.  The SMD components are all on the same side of the PCB, the through hole components are on the opposite side of the PCB.  With patience and a steady hand, all the SMD components can be hand soldered.
 
 Case suggested is made by Context Engineering Co. and is made from extruded aluminum.  The part number for the case is 3008F-5N (flanged ends) and it is made for the Jaguar 3" x 5" PCB and is 1.85" tall overall.  Their website is http://www.contextengineering.com, there is a link in the BOM to purchase the case from a retailer. 
+
+### Jumper Notes
+
+All 3 position jumpers are to be jumpered as follows: pin 1 to pin 2 OR pin 2 to pin 3.
+DO NOT JUMPER FROM PIN 1 to PIN 3 OR DAMAGE TO COMPONENTS WILL OCCUR!!!
 
 ### Status
 

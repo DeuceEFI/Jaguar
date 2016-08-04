@@ -1,8 +1,8 @@
 # To Do List
 
-## JAG 05/13/2015 1928 EDT (GMT-0400)
+## JAG 08/04/2016 1509 EDT (GMT-0400)
 
-### Things left to change For Version 0.8-alpha PCB based on what has been learned from 0.7-alpha PCB:
+### Things left to change For Version 0.8-beta PCB based on what has been learned from 0.7-alpha PCB:
 
 * Add an additional 4" x 6" board design with a connector mounted to it instead being on a separate carrier board.
 * Update Assembly documentation to reflect these changes for the Version 0.8-alpha PCB.
@@ -13,7 +13,7 @@
 * Add netlist "Label"s to connection wires on the schematics so they appear on the board layout and in the netlists.
 
 ----------
-### 0.8-alpha Changes Completed:
+### 0.8-beta Changes Completed:
 
 * Updated BOM with the correct value (6800pF) and vendor part number for C7. - DONE 08/02/2014
 * Corrected labeling of RX0 and TX0 on the Through Hole side of the PCB, they were reversed on the 0.7-alpha silkscreen. - DONE 08/03/2014
@@ -26,6 +26,8 @@
 * Changed the silkscreen text from Port P0-3 to Port P3-0 so that it matches the pads, thanks johntramp! - DONE 08/31/2014
 * Changed R24, R25 and R31 to be 2.7k 0.1% resistors for the thermistor bias resistors.  This is a good compromise for the Denso/GM temperature thermistors. - DONE 04/14/2015
 * Changed AAP and MAP sensors from SOP-8 footprints to SSOP-8 footprints. - DONE 05/13/2015
+* Changed Ignitor voltage selection silkscreen from "5v / 12v" to "5v IGN 12v".  Thanks m2cupcar! - DONE 08/03/2016
+* Change version from 0.8-alpha to 0.8-beta on silkscreen, schematics and PCB design. - DONE 08/03/2016
 
 ----------
 ### 0.7-alpha Changes Completed:
